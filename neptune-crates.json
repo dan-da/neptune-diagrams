@@ -1,8 +1,7 @@
 {
     "neptune-core": {"git": "https://github.com/Neptune-Crypto/neptune-core"},
-    "twenty-first": {"git": "https://github.com/Neptune-Crypto/twenty-first"},
-    "tasm-lib": {"git": "https://github.com/TritonVM/tasm-lib"},
+    "twenty-first": {"git": "https://github.com/Neptune-Crypto/twenty-first", "path": "twenty-first", "crate": "twenty-first"},
+    "tasm-lib": {"git": "https://github.com/TritonVM/tasm-lib", "path": "tasm-lib", "crate": "tasm-lib"},
     "tasm-lang": {"git": "https://github.com/TritonVM/tasm-lang"},
-    "triton-vm": {"git": "https://github.com/TritonVM/triton-vm"},
-    "triton-vm-scaffold": {"git": "https://github.com/TritonVM/triton-vm-scaffold"}
+    "triton-vm": {"git": "https://github.com/TritonVM/triton-vm", "path": "triton-vm", "crate": "triton-vm"}
 }
