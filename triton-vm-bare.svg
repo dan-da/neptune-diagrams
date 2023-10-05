@@ -204,7 +204,7 @@
 <!-- ndVMState&#45;&gt;ndProgram -->
 <g id="edge11" class="edge">
 <title>ndVMState&#45;&gt;ndProgram</title>
-<path fill="none" stroke="black" d="M1410.55,-414.94C1418.14,-406.15 1427.57,-395.94 1436.76,-386.54"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1410.55,-414.94C1418.14,-406.15 1427.57,-395.94 1436.76,-386.54"/>
 <polygon fill="black" stroke="black" points="1444.04,-379.22 1440.18,-389.49 1440.52,-382.77 1436.99,-386.31 1436.99,-386.31 1436.99,-386.31 1440.52,-382.77 1433.8,-383.14 1444.04,-379.22 1444.04,-379.22"/>
 </g>
 <!-- ndAlgebraicExecutionTrace -->

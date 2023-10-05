@@ -465,39 +465,40 @@
 <g id="node23" class="node">
 <title>ndProgram</title>
 <g id="a_node23_11"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/program.rs#:~:text=struct%20Program" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="6276,-4462.5 6276,-4499.5 7796,-4499.5 7796,-4462.5 6276,-4462.5"/>
-<polygon fill="none" stroke="black" points="6276,-4462.5 6276,-4499.5 7796,-4499.5 7796,-4462.5 6276,-4462.5"/>
-<text text-anchor="start" x="7007.5" y="-4478.3" font-family="Arial" font-weight="bold" font-size="14.00">Program</text>
-<polygon fill="white" stroke="transparent" points="6276,-4425.5 6276,-4462.5 7796,-4462.5 7796,-4425.5 6276,-4425.5"/>
-<polygon fill="none" stroke="black" points="6276,-4425.5 6276,-4462.5 7796,-4462.5 7796,-4425.5 6276,-4425.5"/>
-<text text-anchor="start" x="6287" y="-4440.3" font-family="Arial" font-size="14.00">+ instructions: Vec&lt;Instruction&gt;</text>
-<polygon fill="white" stroke="transparent" points="6276,-4163.5 6276,-4425.5 7796,-4425.5 7796,-4163.5 6276,-4163.5"/>
-<polygon fill="none" stroke="black" points="6276,-4163.5 6276,-4425.5 7796,-4425.5 7796,-4163.5 6276,-4163.5"/>
-<text text-anchor="start" x="6287" y="-4403.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
-<text text-anchor="start" x="6287" y="-4388.3" font-family="Arial" font-size="14.00">&#45; decode(sequence: &amp;[BFieldElement]) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
-<text text-anchor="start" x="6287" y="-4373.3" font-family="Arial" font-size="14.00">&#45; encode(&amp;self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="6287" y="-4358.3" font-family="Arial" font-size="14.00">&#45; static_length() &#45;&gt; Option&lt;usize&gt;</text>
-<text text-anchor="start" x="6287" y="-4343.3" font-family="Arial" font-size="14.00">&#45; into_iter(self) &#45;&gt; Self::IntoIter</text>
-<text text-anchor="start" x="6287" y="-4328.3" font-family="Arial" font-size="14.00">&#45; new(input: &amp;[LabelledInstruction]) &#45;&gt; Self</text>
-<text text-anchor="start" x="6287" y="-4313.3" font-family="Arial" font-size="14.00">&#45; from_code(code: &amp;str) &#45;&gt; Result&lt;Self&gt;</text>
-<text text-anchor="start" x="6287" y="-4298.3" font-family="Arial" font-size="14.00">&#45; to_bwords(&amp;self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="6287" y="-4283.3" font-family="Arial" font-size="14.00">&#45; len_bwords(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="6287" y="-4268.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="6287" y="-4253.3" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<text text-anchor="start" x="6287" y="-4238.3" font-family="Arial" font-size="14.00">&#45; run(&amp;self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="6287" y="-4223.3" font-family="Arial" font-size="14.00">&#45; trace_execution(&amp;self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;(AlgebraicExecutionTrace, Vec&lt;BFieldElement&gt;)&gt;</text>
-<text text-anchor="start" x="6287" y="-4208.3" font-family="Arial" font-size="14.00">&#45; debug(&amp;&#39;pgm self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;, initial_state: Option&lt;VMState&lt;&#39;pgm&gt;&gt;, num_cycles_to_execute: Option&lt;u32&gt;) &#45;&gt; (Vec&lt;VMState&lt;&#39;pgm&gt;&gt;, Option&lt;Error&gt;)</text>
-<text text-anchor="start" x="6287" y="-4193.3" font-family="Arial" font-size="14.00">&#45; debug_terminal_state(&amp;&#39;pgm self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;, initial_state: Option&lt;VMState&lt;&#39;pgm&gt;&gt;, num_cycles_to_execute: Option&lt;u32&gt;) &#45;&gt; Result&lt;VMState&lt;&#39;pgm&gt;, (Error, VMState&lt;&#39;pgm&gt;)&gt;</text>
-<text text-anchor="start" x="6287" y="-4178.3" font-family="Arial" font-size="14.00">&#45; profile(labelled_instructions: &amp;[LabelledInstruction], public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;(Vec&lt;BFieldElement&gt;, Vec&lt;ProfileLine&gt;)&gt;</text>
-<polygon fill="none" stroke="black" points="6275,-4162.5 6275,-4500.5 7797,-4500.5 7797,-4162.5 6275,-4162.5"/>
+<polygon fill="lightblue" stroke="transparent" points="6276,-4469.5 6276,-4506.5 7796,-4506.5 7796,-4469.5 6276,-4469.5"/>
+<polygon fill="none" stroke="black" points="6276,-4469.5 6276,-4506.5 7796,-4506.5 7796,-4469.5 6276,-4469.5"/>
+<text text-anchor="start" x="7007.5" y="-4485.3" font-family="Arial" font-weight="bold" font-size="14.00">Program</text>
+<polygon fill="white" stroke="transparent" points="6276,-4432.5 6276,-4469.5 7796,-4469.5 7796,-4432.5 6276,-4432.5"/>
+<polygon fill="none" stroke="black" points="6276,-4432.5 6276,-4469.5 7796,-4469.5 7796,-4432.5 6276,-4432.5"/>
+<text text-anchor="start" x="6287" y="-4447.3" font-family="Arial" font-size="14.00">+ instructions: Vec&lt;Instruction&gt;</text>
+<polygon fill="white" stroke="transparent" points="6276,-4155.5 6276,-4432.5 7796,-4432.5 7796,-4155.5 6276,-4155.5"/>
+<polygon fill="none" stroke="black" points="6276,-4155.5 6276,-4432.5 7796,-4432.5 7796,-4155.5 6276,-4155.5"/>
+<text text-anchor="start" x="6287" y="-4410.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
+<text text-anchor="start" x="6287" y="-4395.3" font-family="Arial" font-size="14.00">&#45; decode(sequence: &amp;[BFieldElement]) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
+<text text-anchor="start" x="6287" y="-4380.3" font-family="Arial" font-size="14.00">&#45; encode(&amp;self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="6287" y="-4365.3" font-family="Arial" font-size="14.00">&#45; static_length() &#45;&gt; Option&lt;usize&gt;</text>
+<text text-anchor="start" x="6287" y="-4350.3" font-family="Arial" font-size="14.00">&#45; into_iter(self) &#45;&gt; Self::IntoIter</text>
+<text text-anchor="start" x="6287" y="-4335.3" font-family="Arial" font-size="14.00">&#45; new(labelled_instructions: &amp;[LabelledInstruction]) &#45;&gt; Self</text>
+<text text-anchor="start" x="6287" y="-4320.3" font-family="Arial" font-size="14.00">&#45; from_code(code: &amp;str) &#45;&gt; Result&lt;Self&gt;</text>
+<text text-anchor="start" x="6287" y="-4305.3" font-family="Arial" font-size="14.00">&#45; to_bwords(&amp;self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="6287" y="-4290.3" font-family="Arial" font-size="14.00">&#45; len_bwords(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="6287" y="-4275.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
+<text text-anchor="start" x="6287" y="-4260.3" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<text text-anchor="start" x="6287" y="-4245.3" font-family="Arial" font-size="14.00">&#45; run(&amp;self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="6287" y="-4230.3" font-family="Arial" font-size="14.00">&#45; trace_execution(&amp;self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;(AlgebraicExecutionTrace, Vec&lt;BFieldElement&gt;)&gt;</text>
+<text text-anchor="start" x="6287" y="-4215.3" font-family="Arial" font-size="14.00">&#45; debug(&amp;&#39;pgm self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;, initial_state: Option&lt;VMState&lt;&#39;pgm&gt;&gt;, num_cycles_to_execute: Option&lt;u32&gt;) &#45;&gt; (Vec&lt;VMState&lt;&#39;pgm&gt;&gt;, Option&lt;Error&gt;)</text>
+<text text-anchor="start" x="6287" y="-4200.3" font-family="Arial" font-size="14.00">&#45; debug_terminal_state(&amp;&#39;pgm self, public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;, initial_state: Option&lt;VMState&lt;&#39;pgm&gt;&gt;, num_cycles_to_execute: Option&lt;u32&gt;) &#45;&gt; Result&lt;VMState&lt;&#39;pgm&gt;, (Error, VMState&lt;&#39;pgm&gt;)&gt;</text>
+<text text-anchor="start" x="6287" y="-4185.3" font-family="Arial" font-size="14.00">&#45; max_cycle_to_reach(state: &amp;VMState, num_cycles_to_execute: Option&lt;u32&gt;) &#45;&gt; u32</text>
+<text text-anchor="start" x="6287" y="-4170.3" font-family="Arial" font-size="14.00">&#45; profile(labelled_instructions: &amp;[LabelledInstruction], public_input: PublicInput, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Result&lt;(Vec&lt;BFieldElement&gt;, Vec&lt;ProfileLine&gt;)&gt;</text>
+<polygon fill="none" stroke="black" points="6275,-4155 6275,-4508 7797,-4508 7797,-4155 6275,-4155"/>
 </a>
 </g>
 </g>
 <!-- ndVMState&#45;&gt;ndProgram -->
 <g id="edge11" class="edge">
 <title>ndVMState&#45;&gt;ndProgram</title>
-<path fill="none" stroke="black" d="M6722.24,-4892.95C6797.69,-4755.24 6873.47,-4617.89 6931.67,-4513.63"/>
-<polygon fill="black" stroke="black" points="6936.71,-4504.6 6935.77,-4515.52 6934.27,-4508.96 6931.84,-4513.33 6931.84,-4513.33 6931.84,-4513.33 6934.27,-4508.96 6927.91,-4511.14 6936.71,-4504.6 6936.71,-4504.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6722.24,-4892.95C6795.86,-4758.57 6869.81,-4624.54 6927.41,-4521.26"/>
+<polygon fill="black" stroke="black" points="6932.41,-4512.31 6931.47,-4523.23 6929.97,-4516.67 6927.54,-4521.04 6927.54,-4521.04 6927.54,-4521.04 6929.97,-4516.67 6923.61,-4518.85 6932.41,-4512.31 6932.41,-4512.31"/>
 </g>
 <!-- ndAlgebraicExecutionTrace -->
 <g id="node102" class="node">
@@ -990,7 +991,7 @@
 <!-- ndProgram&#45;&gt;ndVMState -->
 <g id="edge26" class="edge">
 <title>ndProgram&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6946.74,-4504.6C6891.43,-4607.62 6816.66,-4745.17 6740.74,-4883.81"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6942.6,-4512.31C6887.7,-4614.48 6814.7,-4748.74 6740.62,-4884.04"/>
 <polygon fill="black" stroke="black" points="6735.74,-4892.95 6736.6,-4882.02 6738.14,-4888.56 6740.55,-4884.18 6740.55,-4884.18 6740.55,-4884.18 6738.14,-4888.56 6744.49,-4886.34 6735.74,-4892.95 6735.74,-4892.95"/>
 </g>
 <!-- ndProgramAndInput -->
@@ -1018,14 +1019,14 @@
 <!-- ndProgram&#45;&gt;ndProgramAndInput -->
 <g id="edge27" class="edge">
 <title>ndProgram&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7197.76,-4158.49C7358.2,-3987.88 7598.95,-3731.87 7733.3,-3589.02"/>
-<polygon fill="black" stroke="black" points="7733.37,-3588.94 7734.57,-3581.83 7741.59,-3580.2 7740.4,-3587.31 7733.37,-3588.94"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7205.02,-4150.77C7365.32,-3980.32 7600.75,-3729.96 7733.12,-3589.21"/>
+<polygon fill="black" stroke="black" points="7733.46,-3588.84 7734.66,-3581.73 7741.68,-3580.1 7740.49,-3587.21 7733.46,-3588.84"/>
 </g>
 <!-- ndProgram&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge28" class="edge">
 <title>ndProgram&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7030.45,-4158.49C7029.15,-4038.96 7028.91,-3877.51 7029.72,-3742.43"/>
-<polygon fill="black" stroke="black" points="7029.72,-3742.27 7025.76,-3736.25 7029.8,-3730.28 7033.76,-3736.3 7029.72,-3742.27"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7030.36,-4150.77C7029.14,-4032.15 7028.92,-3874.83 7029.72,-3742.68"/>
+<polygon fill="black" stroke="black" points="7029.72,-3742.38 7025.76,-3736.36 7029.8,-3730.38 7033.76,-3736.41 7029.72,-3742.38"/>
 </g>
 <!-- ndInstructionIter -->
 <g id="node24" class="node">
@@ -1066,8 +1067,8 @@
 <!-- ndProfileLine&#45;&gt;ndProgram -->
 <g id="edge29" class="edge">
 <title>ndProfileLine&#45;&gt;ndProgram</title>
-<path fill="none" stroke="black" d="M7407.73,-5387.92C7345.74,-5211.91 7188.87,-4766.53 7099.99,-4514.19"/>
-<polygon fill="black" stroke="black" points="7096.6,-4504.55 7104.16,-4512.49 7098.26,-4509.26 7099.92,-4513.98 7099.92,-4513.98 7099.92,-4513.98 7098.26,-4509.26 7095.68,-4515.48 7096.6,-4504.55 7096.6,-4504.55"/>
+<path fill="none" stroke="black" d="M7407.73,-5387.92C7346.36,-5213.67 7192,-4775.41 7102.68,-4521.82"/>
+<polygon fill="black" stroke="black" points="7099.27,-4512.13 7106.83,-4520.06 7100.93,-4516.84 7102.59,-4521.56 7102.59,-4521.56 7102.59,-4521.56 7100.93,-4516.84 7098.34,-4523.05 7099.27,-4512.13 7099.27,-4512.13"/>
 </g>
 <!-- ndPublicInput -->
 <g id="node26" class="node">
@@ -1100,8 +1101,8 @@
 <!-- ndPublicInput&#45;&gt;ndProgram -->
 <g id="edge31" class="edge">
 <title>ndPublicInput&#45;&gt;ndProgram</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7181.48,-6392.48C7185.64,-6092.99 7195,-5185.63 7161,-4893 7146.13,-4765.02 7114.42,-4623.43 7086.66,-4514.57"/>
-<polygon fill="black" stroke="black" points="7084.16,-4504.81 7091,-4513.38 7085.4,-4509.65 7086.64,-4514.5 7086.64,-4514.5 7086.64,-4514.5 7085.4,-4509.65 7082.28,-4515.61 7084.16,-4504.81 7084.16,-4504.81"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7181.48,-6392.48C7185.64,-6092.99 7195,-5185.63 7161,-4893 7146.48,-4768.03 7115.91,-4630.08 7088.63,-4522.31"/>
+<polygon fill="black" stroke="black" points="7086.08,-4512.3 7092.91,-4520.89 7087.32,-4517.15 7088.55,-4522 7088.55,-4522 7088.55,-4522 7087.32,-4517.15 7084.19,-4523.1 7086.08,-4512.3 7086.08,-4512.3"/>
 </g>
 <!-- ndPublicInput&#45;&gt;ndProgramAndInput -->
 <g id="edge32" class="edge">
@@ -3392,8 +3393,8 @@
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProgram -->
 <g id="edge123" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProgram</title>
-<path fill="none" stroke="black" d="M7042.2,-3730.28C7043.08,-3863.97 7042.9,-4026.21 7041.66,-4148.29"/>
-<polygon fill="black" stroke="black" points="7041.55,-4158.49 7037.16,-4148.44 7041.61,-4153.49 7041.66,-4148.49 7041.66,-4148.49 7041.66,-4148.49 7041.61,-4153.49 7046.16,-4148.53 7041.55,-4158.49 7041.55,-4158.49"/>
+<path fill="none" stroke="black" d="M7042.2,-3730.38C7043.06,-3861.29 7042.91,-4019.53 7041.74,-4140.64"/>
+<polygon fill="black" stroke="black" points="7041.64,-4150.77 7037.24,-4140.72 7041.69,-4145.77 7041.74,-4140.77 7041.74,-4140.77 7041.74,-4140.77 7041.69,-4145.77 7046.24,-4140.81 7041.64,-4150.77 7041.64,-4150.77"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndU32Table -->
 <g id="edge124" class="edge">
