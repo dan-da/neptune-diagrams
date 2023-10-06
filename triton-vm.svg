@@ -3542,29 +3542,30 @@
 <g id="node104" class="node">
 <title>ndStarkParameters</title>
 <g id="a_node104_104"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="13352,-1901 13352,-1938 13801,-1938 13801,-1901 13352,-1901"/>
-<polygon fill="none" stroke="black" points="13352,-1901 13352,-1938 13801,-1938 13801,-1901 13352,-1901"/>
-<text text-anchor="start" x="13522" y="-1916.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
-<polygon fill="white" stroke="transparent" points="13352,-1789 13352,-1901 13801,-1901 13801,-1789 13352,-1789"/>
-<polygon fill="none" stroke="black" points="13352,-1789 13352,-1901 13801,-1901 13801,-1789 13352,-1789"/>
-<text text-anchor="start" x="13363" y="-1878.8" font-family="Arial" font-size="14.00">+ security_level: usize</text>
-<text text-anchor="start" x="13363" y="-1863.8" font-family="Arial" font-size="14.00">+ fri_expansion_factor: usize</text>
-<text text-anchor="start" x="13363" y="-1848.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
-<text text-anchor="start" x="13363" y="-1833.8" font-family="Arial" font-size="14.00">+ num_randomizer_polynomials: usize</text>
-<text text-anchor="start" x="13363" y="-1818.8" font-family="Arial" font-size="14.00">+ num_colinearity_checks: usize</text>
-<text text-anchor="start" x="13363" y="-1803.8" font-family="Arial" font-size="14.00">+ num_combination_codeword_checks: usize</text>
-<polygon fill="white" stroke="transparent" points="13352,-1737 13352,-1789 13801,-1789 13801,-1737 13352,-1737"/>
-<polygon fill="none" stroke="black" points="13352,-1737 13352,-1789 13801,-1789 13801,-1737 13352,-1737"/>
-<text text-anchor="start" x="13363" y="-1766.8" font-family="Arial" font-size="14.00">&#45; new(security_level: usize, log2_of_fri_expansion_factor: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="13363" y="-1751.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="13350.5,-1736.5 13350.5,-1939.5 13801.5,-1939.5 13801.5,-1736.5 13350.5,-1736.5"/>
+<polygon fill="lightblue" stroke="transparent" points="13352,-1909 13352,-1946 13801,-1946 13801,-1909 13352,-1909"/>
+<polygon fill="none" stroke="black" points="13352,-1909 13352,-1946 13801,-1946 13801,-1909 13352,-1909"/>
+<text text-anchor="start" x="13522" y="-1924.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
+<polygon fill="white" stroke="transparent" points="13352,-1797 13352,-1909 13801,-1909 13801,-1797 13352,-1797"/>
+<polygon fill="none" stroke="black" points="13352,-1797 13352,-1909 13801,-1909 13801,-1797 13352,-1797"/>
+<text text-anchor="start" x="13363" y="-1886.8" font-family="Arial" font-size="14.00">+ security_level: usize</text>
+<text text-anchor="start" x="13363" y="-1871.8" font-family="Arial" font-size="14.00">+ fri_expansion_factor: usize</text>
+<text text-anchor="start" x="13363" y="-1856.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
+<text text-anchor="start" x="13363" y="-1841.8" font-family="Arial" font-size="14.00">+ num_randomizer_polynomials: usize</text>
+<text text-anchor="start" x="13363" y="-1826.8" font-family="Arial" font-size="14.00">+ num_colinearity_checks: usize</text>
+<text text-anchor="start" x="13363" y="-1811.8" font-family="Arial" font-size="14.00">+ num_combination_codeword_checks: usize</text>
+<polygon fill="white" stroke="transparent" points="13352,-1730 13352,-1797 13801,-1797 13801,-1730 13352,-1730"/>
+<polygon fill="none" stroke="black" points="13352,-1730 13352,-1797 13801,-1797 13801,-1730 13352,-1730"/>
+<text text-anchor="start" x="13363" y="-1774.8" font-family="Arial" font-size="14.00">&#45; new(security_level: usize, log2_of_fri_expansion_factor: usize) &#45;&gt; Self</text>
+<text text-anchor="start" x="13363" y="-1759.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<text text-anchor="start" x="13363" y="-1744.8" font-family="Arial" font-size="14.00">&#45; arbitrary(u: &amp;mut Unstructured&lt;&#39;a&gt;) &#45;&gt; arbitrary::Result&lt;Self&gt;</text>
+<polygon fill="none" stroke="black" points="13350.5,-1729 13350.5,-1947 13801.5,-1947 13801.5,-1729 13350.5,-1729"/>
 </a>
 </g>
 </g>
 <!-- ndStarkParameters&#45;&gt;ndStark -->
 <g id="edge143" class="edge">
 <title>ndStarkParameters&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13563.61,-1732.46C13541.73,-1600.2 13482.79,-1377.35 13328,-1275 13264.97,-1233.32 10683.46,-1242.98 10608,-1239 8384.18,-1121.73 5756.65,-835.68 4562.6,-697.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13562.34,-1724.95C13539.5,-1591.91 13479.9,-1375.44 13328,-1275 13264.97,-1233.32 10683.46,-1242.98 10608,-1239 8384.18,-1121.73 5756.65,-835.68 4562.6,-697.59"/>
 <polygon fill="black" stroke="black" points="4552.55,-696.43 4563,-693.11 4557.52,-697 4562.48,-697.58 4562.48,-697.58 4562.48,-697.58 4557.52,-697 4561.97,-702.05 4552.55,-696.43 4552.55,-696.43"/>
 </g>
 </g>
