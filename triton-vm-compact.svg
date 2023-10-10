@@ -84,7 +84,7 @@
 <text text-anchor="start" x="220" y="-3334.3" font-family="Arial" font-size="14.00">Xor</text>
 <text text-anchor="start" x="220" y="-3319.3" font-family="Arial" font-size="14.00">Log2Floor</text>
 <text text-anchor="start" x="220" y="-3304.3" font-family="Arial" font-size="14.00">Pow</text>
-<text text-anchor="start" x="220" y="-3289.3" font-family="Arial" font-size="14.00">Div</text>
+<text text-anchor="start" x="220" y="-3289.3" font-family="Arial" font-size="14.00">DivMod</text>
 <text text-anchor="start" x="220" y="-3274.3" font-family="Arial" font-size="14.00">PopCount</text>
 <text text-anchor="start" x="220" y="-3259.3" font-family="Arial" font-size="14.00">XxAdd</text>
 <text text-anchor="start" x="220" y="-3244.3" font-family="Arial" font-size="14.00">XxMul</text>
