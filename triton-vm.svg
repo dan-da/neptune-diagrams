@@ -516,50 +516,51 @@
 <g id="node103" class="node">
 <title>ndAlgebraicExecutionTrace</title>
 <g id="a_node103_12"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/aet.rs#:~:text=struct%20AlgebraicExecutionTrace" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5548,-3695 5548,-3732 6135,-3732 6135,-3695 5548,-3695"/>
-<polygon fill="none" stroke="black" points="5548,-3695 5548,-3732 6135,-3732 6135,-3695 5548,-3695"/>
-<text text-anchor="start" x="5760.5" y="-3710.8" font-family="Arial" font-weight="bold" font-size="14.00">AlgebraicExecutionTrace</text>
-<polygon fill="white" stroke="transparent" points="5548,-3538 5548,-3695 6135,-3695 6135,-3538 5548,-3538"/>
-<polygon fill="none" stroke="black" points="5548,-3538 5548,-3695 6135,-3695 6135,-3538 5548,-3538"/>
-<text text-anchor="start" x="5559" y="-3672.8" font-family="Arial" font-size="14.00">+ program: Program</text>
-<text text-anchor="start" x="5559" y="-3657.8" font-family="Arial" font-size="14.00">+ instruction_multiplicities: Vec&lt;u32&gt;</text>
-<text text-anchor="start" x="5559" y="-3642.8" font-family="Arial" font-size="14.00">+ processor_trace: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="5559" y="-3627.8" font-family="Arial" font-size="14.00">+ program_hash_trace: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="5559" y="-3612.8" font-family="Arial" font-size="14.00">+ hash_trace: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="5559" y="-3597.8" font-family="Arial" font-size="14.00">+ sponge_trace: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="5559" y="-3582.8" font-family="Arial" font-size="14.00">+ u32_entries: HashMap&lt;U32TableEntry, u64&gt;</text>
-<text text-anchor="start" x="5559" y="-3567.8" font-family="Arial" font-size="14.00">+ cascade_table_lookup_multiplicities: HashMap&lt;u16, u64&gt;</text>
-<text text-anchor="start" x="5559" y="-3552.8" font-family="Arial" font-size="14.00">+ lookup_table_lookup_multiplicities: [u64; 1 &lt;&lt; 8]</text>
-<polygon fill="white" stroke="transparent" points="5548,-3231 5548,-3538 6135,-3538 6135,-3231 5548,-3231"/>
-<polygon fill="none" stroke="black" points="5548,-3231 5548,-3538 6135,-3538 6135,-3231 5548,-3231"/>
-<text text-anchor="start" x="5559" y="-3515.8" font-family="Arial" font-size="14.00">&#45; new(program: Program) &#45;&gt; Self</text>
-<text text-anchor="start" x="5559" y="-3500.8" font-family="Arial" font-size="14.00">&#45; fill_program_hash_trace(&amp;mut self)</text>
-<text text-anchor="start" x="5559" y="-3485.8" font-family="Arial" font-size="14.00">&#45; hash_input_pad_program(program: &amp;Program) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="5559" y="-3470.8" font-family="Arial" font-size="14.00">&#45; program_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3455.8" font-family="Arial" font-size="14.00">&#45; padded_program_length(program: &amp;Program) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3440.8" font-family="Arial" font-size="14.00">&#45; processor_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3425.8" font-family="Arial" font-size="14.00">&#45; hash_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3410.8" font-family="Arial" font-size="14.00">&#45; cascade_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3395.8" font-family="Arial" font-size="14.00">&#45; lookup_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3380.8" font-family="Arial" font-size="14.00">&#45; u32_table_length(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="5559" y="-3365.8" font-family="Arial" font-size="14.00">&#45; append_hash_trace(&amp;mut self, trace: PermutationTrace)</text>
-<text text-anchor="start" x="5559" y="-3350.8" font-family="Arial" font-size="14.00">&#45; record_state(&amp;mut self, state: &amp;VMState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="5559" y="-3335.8" font-family="Arial" font-size="14.00">&#45; record_co_processor_call(&amp;mut self, co_processor_call: CoProcessorCall)</text>
-<text text-anchor="start" x="5559" y="-3320.8" font-family="Arial" font-size="14.00">&#45; append_sponge_trace(&amp;mut self, instruction: Instruction, trace: PermutationTrace)</text>
-<text text-anchor="start" x="5559" y="-3305.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities(&amp;mut self, trace: PermutationTrace)</text>
-<text text-anchor="start" x="5559" y="-3290.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities_for_row(&amp;mut self, row: &amp;[BFieldElement; tip5::STATE_SIZE])</text>
-<text text-anchor="start" x="5559" y="-3275.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities_for_state_element(&amp;mut self, state_element: BFieldElement)</text>
-<text text-anchor="start" x="5559" y="-3260.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_table_multiplicities_for_limb(&amp;mut self, limb: u16)</text>
-<text text-anchor="start" x="5559" y="-3245.8" font-family="Arial" font-size="14.00">&#45; record_u32_table_entry(&amp;mut self, u32_entry: U32TableEntry)</text>
-<polygon fill="none" stroke="black" points="5546.5,-3230.5 5546.5,-3733.5 6135.5,-3733.5 6135.5,-3230.5 5546.5,-3230.5"/>
+<polygon fill="lightblue" stroke="transparent" points="5548,-3703 5548,-3740 6135,-3740 6135,-3703 5548,-3703"/>
+<polygon fill="none" stroke="black" points="5548,-3703 5548,-3740 6135,-3740 6135,-3703 5548,-3703"/>
+<text text-anchor="start" x="5760.5" y="-3718.8" font-family="Arial" font-weight="bold" font-size="14.00">AlgebraicExecutionTrace</text>
+<polygon fill="white" stroke="transparent" points="5548,-3546 5548,-3703 6135,-3703 6135,-3546 5548,-3546"/>
+<polygon fill="none" stroke="black" points="5548,-3546 5548,-3703 6135,-3703 6135,-3546 5548,-3546"/>
+<text text-anchor="start" x="5559" y="-3680.8" font-family="Arial" font-size="14.00">+ program: Program</text>
+<text text-anchor="start" x="5559" y="-3665.8" font-family="Arial" font-size="14.00">+ instruction_multiplicities: Vec&lt;u32&gt;</text>
+<text text-anchor="start" x="5559" y="-3650.8" font-family="Arial" font-size="14.00">+ processor_trace: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="5559" y="-3635.8" font-family="Arial" font-size="14.00">+ program_hash_trace: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="5559" y="-3620.8" font-family="Arial" font-size="14.00">+ hash_trace: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="5559" y="-3605.8" font-family="Arial" font-size="14.00">+ sponge_trace: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="5559" y="-3590.8" font-family="Arial" font-size="14.00">+ u32_entries: HashMap&lt;U32TableEntry, u64&gt;</text>
+<text text-anchor="start" x="5559" y="-3575.8" font-family="Arial" font-size="14.00">+ cascade_table_lookup_multiplicities: HashMap&lt;u16, u64&gt;</text>
+<text text-anchor="start" x="5559" y="-3560.8" font-family="Arial" font-size="14.00">+ lookup_table_lookup_multiplicities: [u64; 1 &lt;&lt; 8]</text>
+<polygon fill="white" stroke="transparent" points="5548,-3224 5548,-3546 6135,-3546 6135,-3224 5548,-3224"/>
+<polygon fill="none" stroke="black" points="5548,-3224 5548,-3546 6135,-3546 6135,-3224 5548,-3224"/>
+<text text-anchor="start" x="5559" y="-3523.8" font-family="Arial" font-size="14.00">&#45; new(program: Program) &#45;&gt; Self</text>
+<text text-anchor="start" x="5559" y="-3508.8" font-family="Arial" font-size="14.00">&#45; padded_height(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3493.8" font-family="Arial" font-size="14.00">&#45; fill_program_hash_trace(&amp;mut self)</text>
+<text text-anchor="start" x="5559" y="-3478.8" font-family="Arial" font-size="14.00">&#45; hash_input_pad_program(program: &amp;Program) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="5559" y="-3463.8" font-family="Arial" font-size="14.00">&#45; program_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3448.8" font-family="Arial" font-size="14.00">&#45; padded_program_length(program: &amp;Program) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3433.8" font-family="Arial" font-size="14.00">&#45; processor_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3418.8" font-family="Arial" font-size="14.00">&#45; hash_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3403.8" font-family="Arial" font-size="14.00">&#45; cascade_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3388.8" font-family="Arial" font-size="14.00">&#45; lookup_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3373.8" font-family="Arial" font-size="14.00">&#45; u32_table_length(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="5559" y="-3358.8" font-family="Arial" font-size="14.00">&#45; append_hash_trace(&amp;mut self, trace: PermutationTrace)</text>
+<text text-anchor="start" x="5559" y="-3343.8" font-family="Arial" font-size="14.00">&#45; record_state(&amp;mut self, state: &amp;VMState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="5559" y="-3328.8" font-family="Arial" font-size="14.00">&#45; record_co_processor_call(&amp;mut self, co_processor_call: CoProcessorCall)</text>
+<text text-anchor="start" x="5559" y="-3313.8" font-family="Arial" font-size="14.00">&#45; append_sponge_trace(&amp;mut self, instruction: Instruction, trace: PermutationTrace)</text>
+<text text-anchor="start" x="5559" y="-3298.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities(&amp;mut self, trace: PermutationTrace)</text>
+<text text-anchor="start" x="5559" y="-3283.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities_for_row(&amp;mut self, row: &amp;[BFieldElement; tip5::STATE_SIZE])</text>
+<text text-anchor="start" x="5559" y="-3268.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_multiplicities_for_state_element(&amp;mut self, state_element: BFieldElement)</text>
+<text text-anchor="start" x="5559" y="-3253.8" font-family="Arial" font-size="14.00">&#45; increase_lookup_table_multiplicities_for_limb(&amp;mut self, limb: u16)</text>
+<text text-anchor="start" x="5559" y="-3238.8" font-family="Arial" font-size="14.00">&#45; record_u32_table_entry(&amp;mut self, u32_entry: U32TableEntry)</text>
+<polygon fill="none" stroke="black" points="5546.5,-3223 5546.5,-3741 6135.5,-3741 6135.5,-3223 5546.5,-3223"/>
 </a>
 </g>
 </g>
 <!-- ndVMState&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge14" class="edge">
 <title>ndVMState&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5624.85,-5040.3C5679.58,-4985.07 5727.83,-4924.03 5765,-4857 5821.68,-4754.79 5799.67,-3922.58 5808,-3806 5809.36,-3787 5810.93,-3767.39 5812.64,-3747.66"/>
-<polygon fill="black" stroke="black" points="5813.52,-3737.65 5817.13,-3748.01 5813.08,-3742.63 5812.65,-3747.61 5812.65,-3747.61 5812.65,-3747.61 5813.08,-3742.63 5808.16,-3747.22 5813.52,-3737.65 5813.52,-3737.65"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5624.85,-5040.3C5679.58,-4985.07 5727.83,-4924.03 5765,-4857 5821.68,-4754.79 5799.67,-3922.58 5808,-3806 5809.18,-3789.43 5810.53,-3772.4 5811.99,-3755.23"/>
+<polygon fill="black" stroke="black" points="5812.86,-3745.1 5816.49,-3755.45 5812.44,-3750.08 5812.01,-3755.07 5812.01,-3755.07 5812.01,-3755.07 5812.44,-3750.08 5807.52,-3754.68 5812.86,-3745.1 5812.86,-3745.1"/>
 </g>
 <!-- ndCoProcessorCall -->
 <g id="node10" class="node">
@@ -586,8 +587,8 @@
 <!-- ndCoProcessorCall&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge16" class="edge">
 <title>ndCoProcessorCall&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5673.7,-6418.35C5694.51,-6211.17 5766.9,-5469.94 5801,-4857 5822.44,-4471.59 5832.76,-4024.68 5837.45,-3747.86"/>
-<polygon fill="black" stroke="black" points="5837.62,-3737.67 5841.95,-3747.75 5837.53,-3742.67 5837.45,-3747.67 5837.45,-3747.67 5837.45,-3747.67 5837.53,-3742.67 5832.95,-3747.6 5837.62,-3737.67 5837.62,-3737.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5673.7,-6418.35C5694.51,-6211.17 5766.9,-5469.94 5801,-4857 5822.24,-4475.12 5832.57,-4032.87 5837.31,-3755.51"/>
+<polygon fill="black" stroke="black" points="5837.49,-3745.3 5841.82,-3755.38 5837.4,-3750.3 5837.32,-3755.3 5837.32,-3755.3 5837.32,-3755.3 5837.4,-3750.3 5832.82,-3755.22 5837.49,-3745.3 5837.49,-3745.3"/>
 </g>
 <!-- ndFriValidationError -->
 <g id="node11" class="node">
@@ -1292,8 +1293,8 @@
 <!-- ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge41" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5801.46,-7036.79C5817.02,-6994.82 5833.25,-6943.68 5841,-6896 6029.42,-5737.3 5926.2,-4327.92 5869.9,-3749.83"/>
-<polygon fill="black" stroke="black" points="5869.87,-3749.53 5865.3,-3743.95 5868.7,-3737.59 5873.26,-3743.17 5869.87,-3749.53"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5801.46,-7036.79C5817.02,-6994.82 5833.25,-6943.68 5841,-6896 6028.59,-5742.38 5927.1,-4340.27 5870.64,-3757.48"/>
+<polygon fill="black" stroke="black" points="5870.6,-3757.08 5866.04,-3751.5 5869.44,-3745.14 5874,-3750.72 5870.6,-3757.08"/>
 </g>
 <!-- ndU32Table -->
 <g id="node34" class="node">
@@ -1533,62 +1534,61 @@
 <g id="node44" class="node">
 <title>ndMasterBaseTable</title>
 <g id="a_node44_44"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/master_table.rs#:~:text=struct%20MasterBaseTable" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1537,-3100.5 1537,-3137.5 2433,-3137.5 2433,-3100.5 1537,-3100.5"/>
-<polygon fill="none" stroke="black" points="1537,-3100.5 1537,-3137.5 2433,-3137.5 2433,-3100.5 1537,-3100.5"/>
-<text text-anchor="start" x="1929" y="-3116.3" font-family="Arial" font-weight="bold" font-size="14.00">MasterBaseTable</text>
-<polygon fill="white" stroke="transparent" points="1537,-2883.5 1537,-3100.5 2433,-3100.5 2433,-2883.5 1537,-2883.5"/>
-<polygon fill="none" stroke="black" points="1537,-2883.5 1537,-3100.5 2433,-3100.5 2433,-2883.5 1537,-2883.5"/>
-<text text-anchor="start" x="1548" y="-3078.3" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
-<text text-anchor="start" x="1548" y="-3063.3" font-family="Arial" font-size="14.00">&#45; program_table_len: usize</text>
-<text text-anchor="start" x="1548" y="-3048.3" font-family="Arial" font-size="14.00">&#45; main_execution_len: usize</text>
-<text text-anchor="start" x="1548" y="-3033.3" font-family="Arial" font-size="14.00">&#45; hash_coprocessor_execution_len: usize</text>
-<text text-anchor="start" x="1548" y="-3018.3" font-family="Arial" font-size="14.00">&#45; cascade_table_len: usize</text>
-<text text-anchor="start" x="1548" y="-3003.3" font-family="Arial" font-size="14.00">&#45; u32_coprocesor_execution_len: usize</text>
-<text text-anchor="start" x="1548" y="-2988.3" font-family="Arial" font-size="14.00">&#45; trace_domain: ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2973.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_domain: ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2958.3" font-family="Arial" font-size="14.00">&#45; quotient_domain: ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2943.3" font-family="Arial" font-size="14.00">&#45; fri_domain: ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2928.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2913.3" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table: Option&lt;Array2&lt;BFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="1548" y="-2898.3" font-family="Arial" font-size="14.00">&#45; interpolation_polynomials: Option&lt;Array1&lt;Polynomial&lt;XFieldElement&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="transparent" points="1537,-2456.5 1537,-2883.5 2433,-2883.5 2433,-2456.5 1537,-2456.5"/>
-<polygon fill="none" stroke="black" points="1537,-2456.5 1537,-2883.5 2433,-2883.5 2433,-2456.5 1537,-2456.5"/>
-<text text-anchor="start" x="1548" y="-2861.3" font-family="Arial" font-size="14.00">&#45; trace_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2846.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2831.3" font-family="Arial" font-size="14.00">&#45; quotient_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2816.3" font-family="Arial" font-size="14.00">&#45; fri_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="1548" y="-2801.3" font-family="Arial" font-size="14.00">&#45; trace_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2786.3" font-family="Arial" font-size="14.00">&#45; trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2771.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2756.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2741.3" font-family="Arial" font-size="14.00">&#45; quotient_domain_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2726.3" font-family="Arial" font-size="14.00">&#45; fri_domain_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2711.3" font-family="Arial" font-size="14.00">&#45; memoize_low_degree_extended_table(&amp;mut self, low_degree_extended_columns: Array2&lt;BFieldElement&gt;)</text>
-<text text-anchor="start" x="1548" y="-2696.3" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2681.3" font-family="Arial" font-size="14.00">&#45; memoize_interpolation_polynomials(&amp;mut self, interpolation_polynomials: Array1&lt;Polynomial&lt;BFieldElement&gt;&gt;)</text>
-<text text-anchor="start" x="1548" y="-2666.3" font-family="Arial" font-size="14.00">&#45; interpolation_polynomials(&amp;self) &#45;&gt; ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="1548" y="-2651.3" font-family="Arial" font-size="14.00">&#45; row(&amp;self, row_index: XFieldElement) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2636.3" font-family="Arial" font-size="14.00">&#45; hash_one_row(row: ArrayView1&lt;BFieldElement&gt;) &#45;&gt; Digest</text>
-<text text-anchor="start" x="1548" y="-2621.3" font-family="Arial" font-size="14.00">&#45; padded_height(aet: &amp;AlgebraicExecutionTrace) &#45;&gt; usize</text>
-<text text-anchor="start" x="1548" y="-2606.3" font-family="Arial" font-size="14.00">&#45; new(aet: &amp;AlgebraicExecutionTrace, num_trace_randomizers: usize, quotient_domain: ArithmeticDomain, fri_domain: ArithmeticDomain) &#45;&gt; Self</text>
-<text text-anchor="start" x="1548" y="-2591.3" font-family="Arial" font-size="14.00">&#45; pad(&amp;mut self)</text>
-<text text-anchor="start" x="1548" y="-2576.3" font-family="Arial" font-size="14.00">&#45; all_pad_functions() &#45;&gt; [PadFunction; TableId::COUNT &#45; 1]</text>
-<text text-anchor="start" x="1548" y="-2561.3" font-family="Arial" font-size="14.00">&#45; all_table_lengths(&amp;self) &#45;&gt; [usize; TableId::COUNT &#45; 1]</text>
-<text text-anchor="start" x="1548" y="-2546.3" font-family="Arial" font-size="14.00">&#45; extend(&amp;self, challenges: &amp;Challenges, num_randomizer_polynomials: usize) &#45;&gt; MasterExtTable</text>
-<text text-anchor="start" x="1548" y="-2531.3" font-family="Arial" font-size="14.00">&#45; all_extend_functions() &#45;&gt; [ExtendFunction; TableId::COUNT &#45; 1]</text>
-<text text-anchor="start" x="1548" y="-2516.3" font-family="Arial" font-size="14.00">&#45; base_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;BFieldElement&gt;; TableId::COUNT &#45; 1]</text>
-<text text-anchor="start" x="1548" y="-2501.3" font-family="Arial" font-size="14.00">&#45; column_indices_for_table(id: TableId) &#45;&gt; Range&lt;usize&gt;</text>
-<text text-anchor="start" x="1548" y="-2486.3" font-family="Arial" font-size="14.00">&#45; table(&amp;self, table_id: TableId) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1548" y="-2471.3" font-family="Arial" font-size="14.00">&#45; table_mut(&amp;mut self, table_id: TableId) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
-<polygon fill="none" stroke="black" points="1536,-2456 1536,-3139 2434,-3139 2434,-2456 1536,-2456"/>
+<polygon fill="lightblue" stroke="transparent" points="1537,-3093.5 1537,-3130.5 2433,-3130.5 2433,-3093.5 1537,-3093.5"/>
+<polygon fill="none" stroke="black" points="1537,-3093.5 1537,-3130.5 2433,-3130.5 2433,-3093.5 1537,-3093.5"/>
+<text text-anchor="start" x="1929" y="-3109.3" font-family="Arial" font-weight="bold" font-size="14.00">MasterBaseTable</text>
+<polygon fill="white" stroke="transparent" points="1537,-2876.5 1537,-3093.5 2433,-3093.5 2433,-2876.5 1537,-2876.5"/>
+<polygon fill="none" stroke="black" points="1537,-2876.5 1537,-3093.5 2433,-3093.5 2433,-2876.5 1537,-2876.5"/>
+<text text-anchor="start" x="1548" y="-3071.3" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
+<text text-anchor="start" x="1548" y="-3056.3" font-family="Arial" font-size="14.00">&#45; program_table_len: usize</text>
+<text text-anchor="start" x="1548" y="-3041.3" font-family="Arial" font-size="14.00">&#45; main_execution_len: usize</text>
+<text text-anchor="start" x="1548" y="-3026.3" font-family="Arial" font-size="14.00">&#45; hash_coprocessor_execution_len: usize</text>
+<text text-anchor="start" x="1548" y="-3011.3" font-family="Arial" font-size="14.00">&#45; cascade_table_len: usize</text>
+<text text-anchor="start" x="1548" y="-2996.3" font-family="Arial" font-size="14.00">&#45; u32_coprocesor_execution_len: usize</text>
+<text text-anchor="start" x="1548" y="-2981.3" font-family="Arial" font-size="14.00">&#45; trace_domain: ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2966.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_domain: ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2951.3" font-family="Arial" font-size="14.00">&#45; quotient_domain: ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2936.3" font-family="Arial" font-size="14.00">&#45; fri_domain: ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2921.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2906.3" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table: Option&lt;Array2&lt;BFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="1548" y="-2891.3" font-family="Arial" font-size="14.00">&#45; interpolation_polynomials: Option&lt;Array1&lt;Polynomial&lt;XFieldElement&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="transparent" points="1537,-2464.5 1537,-2876.5 2433,-2876.5 2433,-2464.5 1537,-2464.5"/>
+<polygon fill="none" stroke="black" points="1537,-2464.5 1537,-2876.5 2433,-2876.5 2433,-2464.5 1537,-2464.5"/>
+<text text-anchor="start" x="1548" y="-2854.3" font-family="Arial" font-size="14.00">&#45; trace_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2839.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2824.3" font-family="Arial" font-size="14.00">&#45; quotient_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2809.3" font-family="Arial" font-size="14.00">&#45; fri_domain(&amp;self) &#45;&gt; ArithmeticDomain</text>
+<text text-anchor="start" x="1548" y="-2794.3" font-family="Arial" font-size="14.00">&#45; trace_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2779.3" font-family="Arial" font-size="14.00">&#45; trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2764.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2749.3" font-family="Arial" font-size="14.00">&#45; randomized_trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2734.3" font-family="Arial" font-size="14.00">&#45; quotient_domain_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2719.3" font-family="Arial" font-size="14.00">&#45; fri_domain_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2704.3" font-family="Arial" font-size="14.00">&#45; memoize_low_degree_extended_table(&amp;mut self, low_degree_extended_columns: Array2&lt;BFieldElement&gt;)</text>
+<text text-anchor="start" x="1548" y="-2689.3" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table(&amp;self) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2674.3" font-family="Arial" font-size="14.00">&#45; memoize_interpolation_polynomials(&amp;mut self, interpolation_polynomials: Array1&lt;Polynomial&lt;BFieldElement&gt;&gt;)</text>
+<text text-anchor="start" x="1548" y="-2659.3" font-family="Arial" font-size="14.00">&#45; interpolation_polynomials(&amp;self) &#45;&gt; ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="1548" y="-2644.3" font-family="Arial" font-size="14.00">&#45; row(&amp;self, row_index: XFieldElement) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2629.3" font-family="Arial" font-size="14.00">&#45; hash_one_row(row: ArrayView1&lt;BFieldElement&gt;) &#45;&gt; Digest</text>
+<text text-anchor="start" x="1548" y="-2614.3" font-family="Arial" font-size="14.00">&#45; new(aet: &amp;AlgebraicExecutionTrace, num_trace_randomizers: usize, quotient_domain: ArithmeticDomain, fri_domain: ArithmeticDomain) &#45;&gt; Self</text>
+<text text-anchor="start" x="1548" y="-2599.3" font-family="Arial" font-size="14.00">&#45; pad(&amp;mut self)</text>
+<text text-anchor="start" x="1548" y="-2584.3" font-family="Arial" font-size="14.00">&#45; all_pad_functions() &#45;&gt; [PadFunction; TableId::COUNT &#45; 1]</text>
+<text text-anchor="start" x="1548" y="-2569.3" font-family="Arial" font-size="14.00">&#45; all_table_lengths(&amp;self) &#45;&gt; [usize; TableId::COUNT &#45; 1]</text>
+<text text-anchor="start" x="1548" y="-2554.3" font-family="Arial" font-size="14.00">&#45; extend(&amp;self, challenges: &amp;Challenges, num_randomizer_polynomials: usize) &#45;&gt; MasterExtTable</text>
+<text text-anchor="start" x="1548" y="-2539.3" font-family="Arial" font-size="14.00">&#45; all_extend_functions() &#45;&gt; [ExtendFunction; TableId::COUNT &#45; 1]</text>
+<text text-anchor="start" x="1548" y="-2524.3" font-family="Arial" font-size="14.00">&#45; base_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;BFieldElement&gt;; TableId::COUNT &#45; 1]</text>
+<text text-anchor="start" x="1548" y="-2509.3" font-family="Arial" font-size="14.00">&#45; column_indices_for_table(id: TableId) &#45;&gt; Range&lt;usize&gt;</text>
+<text text-anchor="start" x="1548" y="-2494.3" font-family="Arial" font-size="14.00">&#45; table(&amp;self, table_id: TableId) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1548" y="-2479.3" font-family="Arial" font-size="14.00">&#45; table_mut(&amp;mut self, table_id: TableId) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
+<polygon fill="none" stroke="black" points="1536,-2463.5 1536,-3131.5 2434,-3131.5 2434,-2463.5 1536,-2463.5"/>
 </a>
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndMasterBaseTable -->
 <g id="edge48" class="edge">
 <title>ndChallenges&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8589.08,-3448.62C8128.02,-3385.39 7057.1,-3247.02 6152,-3194 6050.39,-3188.05 2584.77,-3189.55 2488,-3158 2475.92,-3154.06 2463.88,-3149.72 2451.91,-3145.02"/>
-<polygon fill="black" stroke="black" points="2442.32,-3141.17 2453.28,-3140.72 2446.96,-3143.03 2451.6,-3144.9 2451.6,-3144.9 2451.6,-3144.9 2446.96,-3143.03 2449.93,-3149.07 2442.32,-3141.17 2442.32,-3141.17"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8589.08,-3448.62C8128.02,-3385.39 7057.1,-3247.02 6152,-3194 6050.39,-3188.05 2584.77,-3189.55 2488,-3158 2471.47,-3152.61 2455.02,-3146.46 2438.71,-3139.68"/>
+<polygon fill="black" stroke="black" points="2429.11,-3135.61 2440.08,-3135.37 2433.72,-3137.56 2438.32,-3139.52 2438.32,-3139.52 2438.32,-3139.52 2433.72,-3137.56 2436.56,-3143.66 2429.11,-3135.61 2429.11,-3135.61"/>
 </g>
 <!-- ndRamTable -->
 <g id="node46" class="node">
@@ -1848,8 +1848,8 @@
 <!-- ndTableId&#45;&gt;ndMasterBaseTable -->
 <g id="edge57" class="edge">
 <title>ndTableId&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M876.9,-4221.91C881.98,-4111.33 901.68,-3937.88 971,-3806 1103.51,-3553.87 1321.02,-3325.31 1520.68,-3149.86"/>
-<polygon fill="black" stroke="black" points="1528.38,-3143.12 1523.82,-3153.09 1524.61,-3146.41 1520.85,-3149.71 1520.85,-3149.71 1520.85,-3149.71 1524.61,-3146.41 1517.89,-3146.32 1528.38,-3143.12 1528.38,-3143.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M876.9,-4221.91C881.98,-4111.33 901.68,-3937.88 971,-3806 1105.36,-3550.35 1327.12,-3318.92 1529.04,-3142.53"/>
+<polygon fill="black" stroke="black" points="1536.82,-3135.75 1532.24,-3145.72 1533.05,-3139.04 1529.28,-3142.32 1529.28,-3142.32 1529.28,-3142.32 1533.05,-3139.04 1526.33,-3138.93 1536.82,-3135.75 1536.82,-3135.75"/>
 </g>
 <!-- ndMasterExtTable -->
 <g id="node45" class="node">
@@ -1933,8 +1933,8 @@
 <!-- ndMasterTable&#45;&gt;ndMasterBaseTable -->
 <g id="edge59" class="edge">
 <title>ndMasterTable&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2743.14,-4177C2703.18,-4060.26 2632.52,-3903.58 2520,-3806 2482.41,-3773.4 2444.87,-3809.02 2414,-3770 2334.22,-3669.16 2412.17,-3311.07 2359,-3194 2352.59,-3179.88 2345.46,-3165.95 2337.74,-3152.24"/>
-<polygon fill="none" stroke="black" points="2340.6,-3150.19 2332.58,-3143.26 2334.53,-3153.68 2340.6,-3150.19"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2743.14,-4177C2703.18,-4060.26 2632.52,-3903.58 2520,-3806 2482.41,-3773.4 2444.87,-3809.02 2414,-3770 2334.22,-3669.16 2412.17,-3311.07 2359,-3194 2351.37,-3177.21 2342.74,-3160.68 2333.29,-3144.48"/>
+<polygon fill="none" stroke="black" points="2336.08,-3142.32 2327.96,-3135.51 2330.06,-3145.89 2336.08,-3142.32"/>
 </g>
 <!-- ndMasterTable&#45;&gt;ndMasterExtTable -->
 <g id="edge60" class="edge">
@@ -1945,8 +1945,8 @@
 <!-- ndMasterExtTable&#45;&gt;ndMasterBaseTable -->
 <g id="edge61" class="edge">
 <title>ndMasterExtTable&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" d="M1986.16,-3193.54C1986.12,-3180.26 1986.08,-3166.86 1986.04,-3153.44"/>
-<polygon fill="black" stroke="black" points="1986.01,-3143.17 1990.54,-3153.16 1986.02,-3148.17 1986.04,-3153.17 1986.04,-3153.17 1986.04,-3153.17 1986.02,-3148.17 1981.54,-3153.19 1986.01,-3143.17 1986.01,-3143.17"/>
+<path fill="none" stroke="black" d="M1986.16,-3193.54C1986.11,-3177.85 1986.07,-3162 1986.02,-3146.14"/>
+<polygon fill="black" stroke="black" points="1985.99,-3135.71 1990.52,-3145.7 1986,-3140.71 1986.02,-3145.71 1986.02,-3145.71 1986.02,-3145.71 1986,-3140.71 1981.52,-3145.73 1985.99,-3135.71 1985.99,-3135.71"/>
 </g>
 <!-- ndExtRamTable -->
 <g id="node47" class="node">
@@ -3464,20 +3464,20 @@
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndMasterBaseTable -->
 <g id="edge131" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5538.42,-3424.31C5159.4,-3356.01 4489.3,-3244.19 3910,-3194 3752.54,-3180.36 2637.88,-3208.16 2488,-3158 2475.73,-3153.89 2463.5,-3149.38 2451.34,-3144.5"/>
-<polygon fill="black" stroke="black" points="2442.05,-3140.7 2453.01,-3140.32 2446.68,-3142.59 2451.3,-3144.49 2451.3,-3144.49 2451.3,-3144.49 2446.68,-3142.59 2449.6,-3148.65 2442.05,-3140.7 2442.05,-3140.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5538.42,-3424.31C5159.4,-3356.01 4489.3,-3244.19 3910,-3194 3752.54,-3180.36 2637.88,-3208.16 2488,-3158 2471.73,-3152.55 2455.52,-3146.39 2439.45,-3139.61"/>
+<polygon fill="black" stroke="black" points="2430,-3135.55 2440.96,-3135.36 2434.59,-3137.52 2439.18,-3139.5 2439.18,-3139.5 2439.18,-3139.5 2434.59,-3137.52 2437.41,-3143.63 2430,-3135.55 2430,-3135.55"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndRamTable -->
 <g id="edge132" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndRamTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5959.64,-3226.38C6020.54,-3095.66 6089.91,-2946.79 6128.66,-2863.61"/>
-<polygon fill="black" stroke="black" points="6132.89,-2854.54 6132.75,-2865.5 6130.78,-2859.07 6128.67,-2863.6 6128.67,-2863.6 6128.67,-2863.6 6130.78,-2859.07 6124.59,-2861.7 6132.89,-2854.54 6132.89,-2854.54"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5963.26,-3218.59C6023.19,-3089.98 6090.48,-2945.57 6128.5,-2863.97"/>
+<polygon fill="black" stroke="black" points="6132.76,-2854.82 6132.62,-2865.78 6130.65,-2859.35 6128.54,-2863.88 6128.54,-2863.88 6128.54,-2863.88 6130.65,-2859.35 6124.46,-2861.98 6132.76,-2854.82 6132.76,-2854.82"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndOpStackTable -->
 <g id="edge133" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndOpStackTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5656.7,-3226.38C5561.8,-3095.27 5453.68,-2945.89 5393.58,-2862.85"/>
-<polygon fill="black" stroke="black" points="5387.56,-2854.54 5397.07,-2860 5390.49,-2858.59 5393.42,-2862.64 5393.42,-2862.64 5393.42,-2862.64 5390.49,-2858.59 5389.78,-2865.28 5387.56,-2854.54 5387.56,-2854.54"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5651.07,-3218.59C5557.6,-3089.46 5452.6,-2944.39 5393.67,-2862.98"/>
+<polygon fill="black" stroke="black" points="5387.76,-2854.82 5397.27,-2860.28 5390.69,-2858.87 5393.63,-2862.92 5393.63,-2862.92 5393.63,-2862.92 5390.69,-2858.87 5389.98,-2865.56 5387.76,-2854.82 5387.76,-2854.82"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndCascadeTable -->
 <g id="edge134" class="edge">
@@ -3570,8 +3570,8 @@
 <!-- ndArithmeticDomain&#45;&gt;ndMasterBaseTable -->
 <g id="edge144" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3307.97,-4188.32C3266.67,-4064.41 3187.58,-3891.52 3051,-3806 2938.73,-3735.7 2551.28,-3862.02 2456,-3770 2363.51,-3680.67 2457.27,-3309.62 2401,-3194 2394.33,-3180.3 2386.98,-3166.83 2379.04,-3153.6"/>
-<polygon fill="black" stroke="black" points="2378.84,-3153.27 2372.29,-3150.26 2372.56,-3143.05 2379.11,-3146.07 2378.84,-3153.27"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3307.97,-4188.32C3266.67,-4064.41 3187.58,-3891.52 3051,-3806 2938.73,-3735.7 2551.28,-3862.02 2456,-3770 2363.51,-3680.67 2457.27,-3309.62 2401,-3194 2393.04,-3177.65 2384.1,-3161.61 2374.36,-3145.94"/>
+<polygon fill="black" stroke="black" points="2374.29,-3145.82 2367.69,-3142.9 2367.85,-3135.69 2374.44,-3138.61 2374.29,-3145.82"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndMasterExtTable -->
 <g id="edge145" class="edge">
