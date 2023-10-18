@@ -163,21 +163,22 @@
 <g id="node4" class="node">
 <title>ndInstructionError</title>
 <g id="a_node4_5"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20InstructionError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1565,-3619.5 1565,-3656.5 2092,-3656.5 2092,-3619.5 1565,-3619.5"/>
-<polygon fill="none" stroke="black" points="1565,-3619.5 1565,-3656.5 2092,-3656.5 2092,-3619.5 1565,-3619.5"/>
-<text text-anchor="start" x="1777" y="-3635.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
-<polygon fill="white" stroke="transparent" points="1565,-3462.5 1565,-3619.5 2092,-3619.5 2092,-3462.5 1565,-3462.5"/>
-<polygon fill="none" stroke="black" points="1565,-3462.5 1565,-3619.5 2092,-3619.5 2092,-3462.5 1565,-3462.5"/>
-<text text-anchor="start" x="1576" y="-3597.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
-<text text-anchor="start" x="1576" y="-3582.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
-<text text-anchor="start" x="1576" y="-3567.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
-<text text-anchor="start" x="1576" y="-3552.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
-<text text-anchor="start" x="1576" y="-3537.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
-<text text-anchor="start" x="1576" y="-3522.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
-<text text-anchor="start" x="1576" y="-3507.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
-<text text-anchor="start" x="1576" y="-3492.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
-<text text-anchor="start" x="1576" y="-3477.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
-<polygon fill="none" stroke="black" points="1563.5,-3461.5 1563.5,-3657.5 2092.5,-3657.5 2092.5,-3461.5 1563.5,-3461.5"/>
+<polygon fill="yellow" stroke="transparent" points="1565,-3626.5 1565,-3663.5 2092,-3663.5 2092,-3626.5 1565,-3626.5"/>
+<polygon fill="none" stroke="black" points="1565,-3626.5 1565,-3663.5 2092,-3663.5 2092,-3626.5 1565,-3626.5"/>
+<text text-anchor="start" x="1777" y="-3642.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
+<polygon fill="white" stroke="transparent" points="1565,-3454.5 1565,-3626.5 2092,-3626.5 2092,-3454.5 1565,-3454.5"/>
+<polygon fill="none" stroke="black" points="1565,-3454.5 1565,-3626.5 2092,-3626.5 2092,-3454.5 1565,-3454.5"/>
+<text text-anchor="start" x="1576" y="-3604.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
+<text text-anchor="start" x="1576" y="-3589.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
+<text text-anchor="start" x="1576" y="-3574.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
+<text text-anchor="start" x="1576" y="-3559.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
+<text text-anchor="start" x="1576" y="-3544.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
+<text text-anchor="start" x="1576" y="-3529.3" font-family="Arial" font-size="14.00">SwapST0</text>
+<text text-anchor="start" x="1576" y="-3514.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
+<text text-anchor="start" x="1576" y="-3499.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
+<text text-anchor="start" x="1576" y="-3484.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
+<text text-anchor="start" x="1576" y="-3469.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
+<polygon fill="none" stroke="black" points="1563.5,-3454 1563.5,-3665 2092.5,-3665 2092.5,-3454 1563.5,-3454"/>
 </a>
 </g>
 </g>
@@ -211,7 +212,7 @@
 <!-- ndInstructionError&#45;&gt;ndVMState -->
 <g id="edge6" class="edge">
 <title>ndInstructionError&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M1842.27,-3457.28C1863.01,-3318.7 1905.58,-3062.83 1965,-2850 2002.97,-2714.01 2059.66,-2563.69 2102.99,-2455.92"/>
+<path fill="none" stroke="black" d="M1843.39,-3449.8C1864.52,-3309.65 1906.63,-3059.06 1965,-2850 2002.97,-2714.01 2059.66,-2563.69 2102.99,-2455.92"/>
 <polygon fill="black" stroke="black" points="2106.75,-2446.6 2107.18,-2457.56 2104.88,-2451.24 2103.01,-2455.88 2103.01,-2455.88 2103.01,-2455.88 2104.88,-2451.24 2098.84,-2454.2 2106.75,-2446.6 2106.75,-2446.6"/>
 </g>
 <!-- ndOpStack -->
@@ -272,8 +273,8 @@
 <!-- ndOpStackElement&#45;&gt;ndInstructionError -->
 <g id="edge9" class="edge">
 <title>ndOpStackElement&#45;&gt;ndInstructionError</title>
-<path fill="none" stroke="black" d="M2222.32,-3995.23C2187.41,-3960.48 2145.57,-3918.08 2109,-3879 2045.5,-3811.14 1976.42,-3732.9 1922.64,-3670.95"/>
-<polygon fill="black" stroke="black" points="1922.35,-3670.61 1915.4,-3668.7 1914.49,-3661.54 1921.44,-3663.46 1922.35,-3670.61"/>
+<path fill="none" stroke="black" d="M2222.32,-3995.23C2187.41,-3960.48 2145.57,-3918.08 2109,-3879 2048.02,-3813.83 1981.89,-3739.09 1929.11,-3678.39"/>
+<polygon fill="black" stroke="black" points="1928.96,-3678.22 1922,-3676.31 1921.09,-3669.16 1928.04,-3671.06 1928.96,-3678.22"/>
 </g>
 <!-- ndOpStackElement&#45;&gt;ndOpStack -->
 <g id="edge10" class="edge">
