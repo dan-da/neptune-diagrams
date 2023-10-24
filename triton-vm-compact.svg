@@ -362,9 +362,9 @@
 <polygon fill="black" stroke="black" points="2504.37,-2864.72 2494.21,-2860.61 2500.92,-2861.11 2497.46,-2857.5 2497.46,-2857.5 2497.46,-2857.5 2500.92,-2861.11 2500.71,-2854.39 2504.37,-2864.72 2504.37,-2864.72"/>
 </g>
 <!-- ndAlgebraicExecutionTrace -->
-<g id="node104" class="node">
+<g id="node103" class="node">
 <title>ndAlgebraicExecutionTrace</title>
-<g id="a_node104_12"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/aet.rs#:~:text=struct%20AlgebraicExecutionTrace" xlink:title="&lt;TABLE&gt;">
+<g id="a_node103_12"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/aet.rs#:~:text=struct%20AlgebraicExecutionTrace" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1973,-1722 1973,-1759 2358,-1759 2358,-1722 1973,-1722"/>
 <polygon fill="none" stroke="black" points="1973,-1722 1973,-1759 2358,-1759 2358,-1722 1973,-1722"/>
 <text text-anchor="start" x="2084.5" y="-1737.8" font-family="Arial" font-weight="bold" font-size="14.00">AlgebraicExecutionTrace</text>
@@ -454,9 +454,9 @@
 </g>
 </g>
 <!-- ndStark -->
-<g id="node107" class="node">
+<g id="node106" class="node">
 <title>ndStark</title>
-<g id="a_node107_16"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Stark" xlink:title="&lt;TABLE&gt;">
+<g id="a_node106_16"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Stark" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1482,-38 1482,-75 1538,-75 1538,-38 1482,-38"/>
 <polygon fill="none" stroke="black" points="1482,-38 1482,-75 1538,-75 1538,-38 1482,-38"/>
 <text text-anchor="start" x="1493" y="-53.8" font-family="Arial" font-weight="bold" font-size="14.00">Stark</text>
@@ -728,9 +728,9 @@
 <polygon fill="black" stroke="black" points="2223.33,-2446.72 2231.76,-2453.72 2225.52,-2451.21 2227.72,-2455.7 2227.72,-2455.7 2227.72,-2455.7 2225.52,-2451.21 2223.68,-2457.68 2223.33,-2446.72 2223.33,-2446.72"/>
 </g>
 <!-- ndProgramAndInput -->
-<g id="node103" class="node">
+<g id="node102" class="node">
 <title>ndProgramAndInput</title>
-<g id="a_node103_27"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20ProgramAndInput" xlink:title="&lt;TABLE&gt;">
+<g id="a_node102_27"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20ProgramAndInput" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1662,-2322 1662,-2359 1950,-2359 1950,-2322 1662,-2322"/>
 <polygon fill="none" stroke="black" points="1662,-2322 1662,-2359 1950,-2359 1950,-2322 1662,-2322"/>
 <text text-anchor="start" x="1748" y="-2337.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgramAndInput</text>
@@ -1084,9 +1084,9 @@
 <polygon fill="black" stroke="black" points="2715.56,-1693.9 2726.43,-1692.43 2720.36,-1695.32 2725.15,-1696.75 2725.15,-1696.75 2725.15,-1696.75 2720.36,-1695.32 2723.87,-1701.06 2715.56,-1693.9 2715.56,-1693.9"/>
 </g>
 <!-- ndCircuitExpression -->
-<g id="node99" class="node">
+<g id="node98" class="node">
 <title>ndCircuitExpression</title>
-<g id="a_node99_41"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20CircuitExpression" xlink:title="&lt;TABLE&gt;">
+<g id="a_node98_41"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20CircuitExpression" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="3569,-717 3569,-754 4187,-754 4187,-717 3569,-717"/>
 <polygon fill="none" stroke="black" points="3569,-717 3569,-754 4187,-754 4187,-717 3569,-717"/>
 <text text-anchor="start" x="3820" y="-732.8" font-family="Arial" font-weight="bold" font-size="14.00">CircuitExpression</text>
@@ -1108,9 +1108,9 @@
 <polygon fill="black" stroke="black" points="3893.72,-771.07 3888.78,-765.82 3891.73,-759.24 3896.67,-764.5 3893.72,-771.07"/>
 </g>
 <!-- ndConstraintCircuitBuilder -->
-<g id="node102" class="node">
+<g id="node101" class="node">
 <title>ndConstraintCircuitBuilder</title>
-<g id="a_node102_42"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuitBuilder" xlink:title="&lt;TABLE&gt;">
+<g id="a_node101_42"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuitBuilder" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2902,-64 2902,-101 3326,-101 3326,-64 2902,-64"/>
 <polygon fill="none" stroke="black" points="2902,-64 2902,-101 3326,-101 3326,-64 2902,-64"/>
 <text text-anchor="start" x="3035.5" y="-79.8" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintCircuitBuilder</text>
@@ -1269,9 +1269,9 @@
 <polygon fill="black" stroke="black" points="2854.22,-1415.53 2854,-1426.5 2852.08,-1420.05 2849.94,-1424.57 2849.94,-1424.57 2849.94,-1424.57 2852.08,-1420.05 2845.87,-1422.64 2854.22,-1415.53 2854.22,-1415.53"/>
 </g>
 <!-- ndJumpStackTable -->
-<g id="node81" class="node">
+<g id="node80" class="node">
 <title>ndJumpStackTable</title>
-<g id="a_node81_50"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20JumpStackTable" xlink:title="&lt;TABLE&gt;">
+<g id="a_node80_50"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20JumpStackTable" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2100,-1373 2100,-1410 2230,-1410 2230,-1373 2100,-1373"/>
 <polygon fill="none" stroke="black" points="2100,-1373 2100,-1410 2230,-1410 2230,-1373 2100,-1373"/>
 <text text-anchor="start" x="2111" y="-1388.8" font-family="Arial" font-weight="bold" font-size="14.00">JumpStackTable</text>
@@ -1286,9 +1286,9 @@
 <polygon fill="black" stroke="black" points="2173.33,-1415.58 2181.37,-1423.03 2175.28,-1420.19 2177.23,-1424.79 2177.23,-1424.79 2177.23,-1424.79 2175.28,-1420.19 2173.09,-1426.54 2173.33,-1415.58 2173.33,-1415.58"/>
 </g>
 <!-- ndHashTable -->
-<g id="node84" class="node">
+<g id="node83" class="node">
 <title>ndHashTable</title>
-<g id="a_node84_51"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=struct%20HashTable" xlink:title="&lt;TABLE&gt;">
+<g id="a_node83_51"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=struct%20HashTable" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2266,-1373 2266,-1410 2356,-1410 2356,-1373 2266,-1373"/>
 <polygon fill="none" stroke="black" points="2266,-1373 2266,-1410 2356,-1410 2356,-1373 2266,-1373"/>
 <text text-anchor="start" x="2277" y="-1388.8" font-family="Arial" font-weight="bold" font-size="14.00">HashTable</text>
@@ -1303,9 +1303,9 @@
 <polygon fill="black" stroke="black" points="2318.05,-1415.8 2325.6,-1423.75 2319.7,-1420.52 2321.35,-1425.24 2321.35,-1425.24 2321.35,-1425.24 2319.7,-1420.52 2317.11,-1426.73 2318.05,-1415.8 2318.05,-1415.8"/>
 </g>
 <!-- ndDegreeLoweringTable -->
-<g id="node89" class="node">
+<g id="node88" class="node">
 <title>ndDegreeLoweringTable</title>
-<g id="a_node89_52"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=struct%20DegreeLoweringTable" xlink:title="&lt;TABLE&gt;">
+<g id="a_node88_52"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=struct%20DegreeLoweringTable" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2962,-1373 2962,-1410 3126,-1410 3126,-1373 2962,-1373"/>
 <polygon fill="none" stroke="black" points="2962,-1373 2962,-1410 3126,-1410 3126,-1373 2962,-1373"/>
 <text text-anchor="start" x="2973" y="-1388.8" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringTable</text>
@@ -1320,9 +1320,9 @@
 <polygon fill="black" stroke="black" points="3031.97,-1415.64 3030.83,-1426.55 3029.46,-1419.96 3026.94,-1424.28 3026.94,-1424.28 3026.94,-1424.28 3029.46,-1419.96 3023.05,-1422.02 3031.97,-1415.64 3031.97,-1415.64"/>
 </g>
 <!-- ndConstraintCircuit -->
-<g id="node100" class="node">
+<g id="node99" class="node">
 <title>ndConstraintCircuit</title>
-<g id="a_node100_53"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuit" xlink:title="&lt;TABLE&gt;">
+<g id="a_node99_53"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuit" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3387,-1407 3387,-1444 3623,-1444 3623,-1407 3387,-1407"/>
 <polygon fill="none" stroke="black" points="3387,-1407 3387,-1444 3623,-1444 3623,-1407 3387,-1407"/>
 <text text-anchor="start" x="3449.5" y="-1422.8" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintCircuit</text>
@@ -1763,9 +1763,9 @@
 </g>
 </g>
 <!-- ndExtHashTable -->
-<g id="node85" class="node">
+<g id="node84" class="node">
 <title>ndExtHashTable</title>
-<g id="a_node85_71"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=struct%20ExtHashTable" xlink:title="&lt;TABLE&gt;">
+<g id="a_node84_71"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=struct%20ExtHashTable" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="5757,-38 5757,-75 5868,-75 5868,-38 5757,-38"/>
 <polygon fill="none" stroke="black" points="5757,-38 5757,-75 5868,-75 5868,-38 5757,-38"/>
 <text text-anchor="start" x="5768" y="-53.8" font-family="Arial" font-weight="bold" font-size="14.00">ExtHashTable</text>
@@ -1983,8 +1983,8 @@
 <!-- ndMasterBaseTableColumn&#45;&gt;ndU32BaseTableColumn -->
 <g id="edge74" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndU32BaseTableColumn</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5529.4,-1373.78C5441.78,-1353.43 5318.82,-1310.68 5250,-1224 5155.63,-1105.14 5140.24,-924.93 5141.92,-806.83"/>
-<polygon fill="none" stroke="black" points="5145.42,-806.73 5142.11,-796.66 5138.42,-806.6 5145.42,-806.73"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5529.27,-1373.57C5441.93,-1353.11 5319.6,-1310.32 5251,-1224 5156.55,-1105.14 5140.79,-924.93 5142.2,-806.83"/>
+<polygon fill="none" stroke="black" points="5145.7,-806.72 5142.36,-796.66 5138.7,-806.61 5145.7,-806.72"/>
 </g>
 <!-- ndMasterExtTableColumn -->
 <g id="node68" class="node">
@@ -2175,24 +2175,10 @@
 </a>
 </g>
 </g>
-<!-- ndExtProcessorTraceRow -->
-<g id="node80" class="node">
-<title>ndExtProcessorTraceRow</title>
-<g id="a_node80_89"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/processor_table.rs#:~:text=struct%20ExtProcessorTraceRow" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="4394,-4069.5 4394,-4106.5 4649,-4106.5 4649,-4069.5 4394,-4069.5"/>
-<polygon fill="none" stroke="black" points="4394,-4069.5 4394,-4106.5 4649,-4106.5 4649,-4069.5 4394,-4069.5"/>
-<text text-anchor="start" x="4445.5" y="-4085.3" font-family="Arial" font-weight="bold" font-size="14.00">ExtProcessorTraceRow</text>
-<polygon fill="white" stroke="transparent" points="4394,-4032.5 4394,-4069.5 4649,-4069.5 4649,-4032.5 4394,-4032.5"/>
-<polygon fill="none" stroke="black" points="4394,-4032.5 4394,-4069.5 4649,-4069.5 4649,-4032.5 4394,-4032.5"/>
-<text text-anchor="start" x="4405" y="-4047.3" font-family="Arial" font-size="14.00">+ row: ArrayView1&lt;&#39;a, XFieldElement&gt;</text>
-<polygon fill="none" stroke="black" points="4392.5,-4031.5 4392.5,-4107.5 4649.5,-4107.5 4649.5,-4031.5 4392.5,-4031.5"/>
-</a>
-</g>
-</g>
 <!-- ndExtJumpStackTable -->
-<g id="node82" class="node">
+<g id="node81" class="node">
 <title>ndExtJumpStackTable</title>
-<g id="a_node82_90"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20ExtJumpStackTable" xlink:title="&lt;TABLE&gt;">
+<g id="a_node81_89"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20ExtJumpStackTable" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3883,-38 3883,-75 4034,-75 4034,-38 3883,-38"/>
 <polygon fill="none" stroke="black" points="3883,-38 3883,-75 4034,-75 4034,-38 3883,-38"/>
 <text text-anchor="start" x="3894" y="-53.8" font-family="Arial" font-weight="bold" font-size="14.00">ExtJumpStackTable</text>
@@ -2201,23 +2187,23 @@
 </g>
 </g>
 <!-- ndJumpStackTraceRow -->
-<g id="node83" class="node">
+<g id="node82" class="node">
 <title>ndJumpStackTraceRow</title>
-<g id="a_node83_91"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20JumpStackTraceRow" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="4685,-4069.5 4685,-4106.5 4941,-4106.5 4941,-4069.5 4685,-4069.5"/>
-<polygon fill="none" stroke="black" points="4685,-4069.5 4685,-4106.5 4941,-4106.5 4941,-4069.5 4685,-4069.5"/>
-<text text-anchor="start" x="4744" y="-4085.3" font-family="Arial" font-weight="bold" font-size="14.00">JumpStackTraceRow</text>
-<polygon fill="white" stroke="transparent" points="4685,-4032.5 4685,-4069.5 4941,-4069.5 4941,-4032.5 4685,-4032.5"/>
-<polygon fill="none" stroke="black" points="4685,-4032.5 4685,-4069.5 4941,-4069.5 4941,-4032.5 4685,-4032.5"/>
-<text text-anchor="start" x="4696" y="-4047.3" font-family="Arial" font-size="14.00">+ row: [BFieldElement; BASE_WIDTH]</text>
-<polygon fill="none" stroke="black" points="4684,-4031.5 4684,-4107.5 4942,-4107.5 4942,-4031.5 4684,-4031.5"/>
+<g id="a_node82_90"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20JumpStackTraceRow" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="4394,-4069.5 4394,-4106.5 4650,-4106.5 4650,-4069.5 4394,-4069.5"/>
+<polygon fill="none" stroke="black" points="4394,-4069.5 4394,-4106.5 4650,-4106.5 4650,-4069.5 4394,-4069.5"/>
+<text text-anchor="start" x="4453" y="-4085.3" font-family="Arial" font-weight="bold" font-size="14.00">JumpStackTraceRow</text>
+<polygon fill="white" stroke="transparent" points="4394,-4032.5 4394,-4069.5 4650,-4069.5 4650,-4032.5 4394,-4032.5"/>
+<polygon fill="none" stroke="black" points="4394,-4032.5 4394,-4069.5 4650,-4069.5 4650,-4032.5 4394,-4032.5"/>
+<text text-anchor="start" x="4405" y="-4047.3" font-family="Arial" font-size="14.00">+ row: [BFieldElement; BASE_WIDTH]</text>
+<polygon fill="none" stroke="black" points="4393,-4031.5 4393,-4107.5 4651,-4107.5 4651,-4031.5 4393,-4031.5"/>
 </a>
 </g>
 </g>
 <!-- ndHashTableMode -->
-<g id="node86" class="node">
+<g id="node85" class="node">
 <title>ndHashTableMode</title>
-<g id="a_node86_92"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=enum%20HashTableMode" xlink:title="&lt;TABLE&gt;">
+<g id="a_node85_91"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/hash_table.rs#:~:text=enum%20HashTableMode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="8241,-709 8241,-746 8367,-746 8367,-709 8241,-709"/>
 <polygon fill="none" stroke="black" points="8241,-709 8241,-746 8367,-746 8367,-709 8241,-709"/>
 <text text-anchor="start" x="8252" y="-724.8" font-family="Arial" font-weight="bold" font-size="14.00">HashTableMode</text>
@@ -2238,93 +2224,93 @@
 <polygon fill="black" stroke="black" points="5876.63,-58.16 5886.64,-53.7 5881.63,-58.18 5886.63,-58.2 5886.63,-58.2 5886.63,-58.2 5881.63,-58.18 5886.61,-62.7 5876.63,-58.16 5876.63,-58.16"/>
 </g>
 <!-- ndDegreeLoweringBaseTableColumn -->
-<g id="node87" class="node">
+<g id="node86" class="node">
 <title>ndDegreeLoweringBaseTableColumn</title>
-<g id="a_node87_93"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringBaseTableColumn" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="4978,-4050.5 4978,-4087.5 5225,-4087.5 5225,-4050.5 4978,-4050.5"/>
-<polygon fill="none" stroke="black" points="4978,-4050.5 4978,-4087.5 5225,-4087.5 5225,-4050.5 4978,-4050.5"/>
-<text text-anchor="start" x="4989" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringBaseTableColumn</text>
-<polygon fill="none" stroke="black" points="4976.5,-4050 4976.5,-4089 5225.5,-4089 5225.5,-4050 4976.5,-4050"/>
+<g id="a_node86_92"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringBaseTableColumn" xlink:title="&lt;TABLE&gt;">
+<polygon fill="yellow" stroke="transparent" points="4687,-4050.5 4687,-4087.5 4934,-4087.5 4934,-4050.5 4687,-4050.5"/>
+<polygon fill="none" stroke="black" points="4687,-4050.5 4687,-4087.5 4934,-4087.5 4934,-4050.5 4687,-4050.5"/>
+<text text-anchor="start" x="4698" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringBaseTableColumn</text>
+<polygon fill="none" stroke="black" points="4685.5,-4050 4685.5,-4089 4934.5,-4089 4934.5,-4050 4685.5,-4050"/>
 </a>
 </g>
 </g>
 <!-- ndDegreeLoweringExtTableColumn -->
-<g id="node88" class="node">
+<g id="node87" class="node">
 <title>ndDegreeLoweringExtTableColumn</title>
-<g id="a_node88_94"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringExtTableColumn" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="5261,-4050.5 5261,-4087.5 5497,-4087.5 5497,-4050.5 5261,-4050.5"/>
-<polygon fill="none" stroke="black" points="5261,-4050.5 5261,-4087.5 5497,-4087.5 5497,-4050.5 5261,-4050.5"/>
-<text text-anchor="start" x="5272" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringExtTableColumn</text>
-<polygon fill="none" stroke="black" points="5260,-4050 5260,-4089 5498,-4089 5498,-4050 5260,-4050"/>
+<g id="a_node87_93"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringExtTableColumn" xlink:title="&lt;TABLE&gt;">
+<polygon fill="yellow" stroke="transparent" points="4970,-4050.5 4970,-4087.5 5206,-4087.5 5206,-4050.5 4970,-4050.5"/>
+<polygon fill="none" stroke="black" points="4970,-4050.5 4970,-4087.5 5206,-4087.5 5206,-4050.5 4970,-4050.5"/>
+<text text-anchor="start" x="4981" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringExtTableColumn</text>
+<polygon fill="none" stroke="black" points="4969,-4050 4969,-4089 5207,-4089 5207,-4050 4969,-4050"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg -->
-<g id="node90" class="node">
+<g id="node89" class="node">
 <title>ndCrossTableArg</title>
-<g id="a_node90_95"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=trait%20CrossTableArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="5534,-4050.5 5534,-4087.5 5653,-4087.5 5653,-4050.5 5534,-4050.5"/>
-<polygon fill="none" stroke="black" points="5534,-4050.5 5534,-4087.5 5653,-4087.5 5653,-4050.5 5534,-4050.5"/>
-<text text-anchor="start" x="5545" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">CrossTableArg</text>
-<polygon fill="none" stroke="black" points="5532.5,-4050 5532.5,-4089 5653.5,-4089 5653.5,-4050 5532.5,-4050"/>
+<g id="a_node89_94"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=trait%20CrossTableArg" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgreen" stroke="transparent" points="5243,-4050.5 5243,-4087.5 5362,-4087.5 5362,-4050.5 5243,-4050.5"/>
+<polygon fill="none" stroke="black" points="5243,-4050.5 5243,-4087.5 5362,-4087.5 5362,-4050.5 5243,-4050.5"/>
+<text text-anchor="start" x="5254" y="-4066.3" font-family="Arial" font-weight="bold" font-size="14.00">CrossTableArg</text>
+<polygon fill="none" stroke="black" points="5241.5,-4050 5241.5,-4089 5362.5,-4089 5362.5,-4050 5241.5,-4050"/>
 </a>
 </g>
 </g>
 <!-- ndPermArg -->
-<g id="node91" class="node">
+<g id="node90" class="node">
 <title>ndPermArg</title>
-<g id="a_node91_96"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20PermArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5440,-3540.5 5440,-3577.5 5520,-3577.5 5520,-3540.5 5440,-3540.5"/>
-<polygon fill="none" stroke="black" points="5440,-3540.5 5440,-3577.5 5520,-3577.5 5520,-3540.5 5440,-3540.5"/>
-<text text-anchor="start" x="5451" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">PermArg</text>
-<polygon fill="none" stroke="black" points="5439,-3540 5439,-3579 5521,-3579 5521,-3540 5439,-3540"/>
+<g id="a_node90_95"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20PermArg" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="5149,-3540.5 5149,-3577.5 5229,-3577.5 5229,-3540.5 5149,-3540.5"/>
+<polygon fill="none" stroke="black" points="5149,-3540.5 5149,-3577.5 5229,-3577.5 5229,-3540.5 5149,-3540.5"/>
+<text text-anchor="start" x="5160" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">PermArg</text>
+<polygon fill="none" stroke="black" points="5148,-3540 5148,-3579 5230,-3579 5230,-3540 5148,-3540"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndPermArg -->
 <g id="edge88" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndPermArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5585.64,-4045.95C5574.3,-4010.64 5552.37,-3940.02 5538,-3879 5513.62,-3775.48 5493.59,-3650.98 5484.8,-3593.08"/>
-<polygon fill="none" stroke="black" points="5488.25,-3592.43 5483.29,-3583.06 5481.32,-3593.47 5488.25,-3592.43"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5294.64,-4045.95C5283.3,-4010.64 5261.37,-3940.02 5247,-3879 5222.62,-3775.48 5202.59,-3650.98 5193.8,-3593.08"/>
+<polygon fill="none" stroke="black" points="5197.25,-3592.43 5192.29,-3583.06 5190.32,-3593.47 5197.25,-3592.43"/>
 </g>
 <!-- ndEvalArg -->
-<g id="node92" class="node">
+<g id="node91" class="node">
 <title>ndEvalArg</title>
-<g id="a_node92_97"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20EvalArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5556,-3540.5 5556,-3577.5 5630,-3577.5 5630,-3540.5 5556,-3540.5"/>
-<polygon fill="none" stroke="black" points="5556,-3540.5 5556,-3577.5 5630,-3577.5 5630,-3540.5 5556,-3540.5"/>
-<text text-anchor="start" x="5567" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">EvalArg</text>
-<polygon fill="none" stroke="black" points="5555,-3540 5555,-3579 5631,-3579 5631,-3540 5555,-3540"/>
+<g id="a_node91_96"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20EvalArg" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="5265,-3540.5 5265,-3577.5 5339,-3577.5 5339,-3540.5 5265,-3540.5"/>
+<polygon fill="none" stroke="black" points="5265,-3540.5 5265,-3577.5 5339,-3577.5 5339,-3540.5 5265,-3540.5"/>
+<text text-anchor="start" x="5276" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">EvalArg</text>
+<polygon fill="none" stroke="black" points="5264,-3540 5264,-3579 5340,-3579 5340,-3540 5264,-3540"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndEvalArg -->
 <g id="edge89" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndEvalArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5593,-4045.69C5593,-3964.45 5593,-3689.03 5593,-3593.48"/>
-<polygon fill="none" stroke="black" points="5596.5,-3593.25 5593,-3583.25 5589.5,-3593.25 5596.5,-3593.25"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5302,-4045.69C5302,-3964.45 5302,-3689.03 5302,-3593.48"/>
+<polygon fill="none" stroke="black" points="5305.5,-3593.25 5302,-3583.25 5298.5,-3593.25 5305.5,-3593.25"/>
 </g>
 <!-- ndLookupArg -->
-<g id="node93" class="node">
+<g id="node92" class="node">
 <title>ndLookupArg</title>
-<g id="a_node93_98"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20LookupArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5667,-3540.5 5667,-3577.5 5762,-3577.5 5762,-3540.5 5667,-3540.5"/>
-<polygon fill="none" stroke="black" points="5667,-3540.5 5667,-3577.5 5762,-3577.5 5762,-3540.5 5667,-3540.5"/>
-<text text-anchor="start" x="5678" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">LookupArg</text>
-<polygon fill="none" stroke="black" points="5665.5,-3540 5665.5,-3579 5762.5,-3579 5762.5,-3540 5665.5,-3540"/>
+<g id="a_node92_97"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20LookupArg" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="5376,-3540.5 5376,-3577.5 5471,-3577.5 5471,-3540.5 5376,-3540.5"/>
+<polygon fill="none" stroke="black" points="5376,-3540.5 5376,-3577.5 5471,-3577.5 5471,-3540.5 5376,-3540.5"/>
+<text text-anchor="start" x="5387" y="-3556.3" font-family="Arial" font-weight="bold" font-size="14.00">LookupArg</text>
+<polygon fill="none" stroke="black" points="5374.5,-3540 5374.5,-3579 5471.5,-3579 5471.5,-3540 5374.5,-3540"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndLookupArg -->
 <g id="edge90" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndLookupArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5600.18,-4045.9C5611.28,-4010.53 5632.89,-3939.84 5648,-3879 5673.75,-3775.3 5697.49,-3650.89 5708.13,-3593.04"/>
-<polygon fill="none" stroke="black" points="5711.6,-3593.5 5709.96,-3583.03 5704.72,-3592.24 5711.6,-3593.5"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5309.18,-4045.9C5320.28,-4010.53 5341.89,-3939.84 5357,-3879 5382.75,-3775.3 5406.49,-3650.89 5417.13,-3593.04"/>
+<polygon fill="none" stroke="black" points="5420.6,-3593.5 5418.96,-3583.03 5413.72,-3592.24 5420.6,-3593.5"/>
 </g>
 <!-- ndGrandCrossTableArg -->
-<g id="node94" class="node">
+<g id="node93" class="node">
 <title>ndGrandCrossTableArg</title>
-<g id="a_node94_99"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20GrandCrossTableArg" xlink:title="&lt;TABLE&gt;">
+<g id="a_node93_98"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20GrandCrossTableArg" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="4070,-38 4070,-75 4229,-75 4229,-38 4070,-38"/>
 <polygon fill="none" stroke="black" points="4070,-38 4070,-75 4229,-75 4229,-38 4070,-38"/>
 <text text-anchor="start" x="4081" y="-53.8" font-family="Arial" font-weight="bold" font-size="14.00">GrandCrossTableArg</text>
@@ -2333,9 +2319,9 @@
 </g>
 </g>
 <!-- ndBinOp -->
-<g id="node95" class="node">
+<g id="node94" class="node">
 <title>ndBinOp</title>
-<g id="a_node95_100"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20BinOp" xlink:title="&lt;TABLE&gt;">
+<g id="a_node94_99"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20BinOp" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="3777,-1407 3777,-1444 3841,-1444 3841,-1407 3777,-1407"/>
 <polygon fill="none" stroke="black" points="3777,-1407 3777,-1444 3841,-1444 3841,-1407 3777,-1407"/>
 <text text-anchor="start" x="3788" y="-1422.8" font-family="Arial" font-weight="bold" font-size="14.00">BinOp</text>
@@ -2355,9 +2341,9 @@
 <polygon fill="black" stroke="black" points="3869.85,-771.03 3866.46,-764.66 3871.02,-759.08 3874.42,-765.45 3869.85,-771.03"/>
 </g>
 <!-- ndInputIndicator -->
-<g id="node96" class="node">
+<g id="node95" class="node">
 <title>ndInputIndicator</title>
-<g id="a_node96_101"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=trait%20InputIndicator" xlink:title="&lt;TABLE&gt;">
+<g id="a_node95_100"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=trait%20InputIndicator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="4338,-1373 4338,-1410 4451,-1410 4451,-1373 4338,-1373"/>
 <polygon fill="none" stroke="black" points="4338,-1373 4338,-1410 4451,-1410 4451,-1373 4338,-1373"/>
 <text text-anchor="start" x="4349" y="-1388.8" font-family="Arial" font-weight="bold" font-size="14.00">InputIndicator</text>
@@ -2366,9 +2352,9 @@
 </g>
 </g>
 <!-- ndSingleRowIndicator -->
-<g id="node97" class="node">
+<g id="node96" class="node">
 <title>ndSingleRowIndicator</title>
-<g id="a_node97_102"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20SingleRowIndicator" xlink:title="&lt;TABLE&gt;">
+<g id="a_node96_101"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20SingleRowIndicator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="4223,-694 4223,-731 4372,-731 4372,-694 4223,-694"/>
 <polygon fill="none" stroke="black" points="4223,-694 4223,-731 4372,-731 4372,-694 4223,-694"/>
 <text text-anchor="start" x="4234" y="-709.8" font-family="Arial" font-weight="bold" font-size="14.00">SingleRowIndicator</text>
@@ -2387,9 +2373,9 @@
 <polygon fill="none" stroke="black" points="4308.59,-746.37 4303.75,-736.95 4301.65,-747.33 4308.59,-746.37"/>
 </g>
 <!-- ndDualRowIndicator -->
-<g id="node98" class="node">
+<g id="node97" class="node">
 <title>ndDualRowIndicator</title>
-<g id="a_node98_103"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20DualRowIndicator" xlink:title="&lt;TABLE&gt;">
+<g id="a_node97_102"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=enum%20DualRowIndicator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="4408,-709 4408,-746 4574,-746 4574,-709 4408,-709"/>
 <polygon fill="none" stroke="black" points="4408,-709 4408,-746 4574,-746 4574,-709 4408,-709"/>
 <text text-anchor="start" x="4433" y="-724.8" font-family="Arial" font-weight="bold" font-size="14.00">DualRowIndicator</text>
@@ -2542,9 +2528,9 @@
 <polygon fill="black" stroke="black" points="3830.2,-769.58 3829.61,-762.39 3836.01,-759.08 3836.61,-766.27 3830.2,-769.58"/>
 </g>
 <!-- ndConstraintCircuitMonad -->
-<g id="node101" class="node">
+<g id="node100" class="node">
 <title>ndConstraintCircuitMonad</title>
-<g id="a_node101_104"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuitMonad" xlink:title="&lt;TABLE&gt;">
+<g id="a_node100_103"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuitMonad" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3239,-694 3239,-731 3534,-731 3534,-694 3239,-694"/>
 <polygon fill="none" stroke="black" points="3239,-694 3239,-731 3534,-731 3534,-694 3239,-694"/>
 <text text-anchor="start" x="3309" y="-709.8" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintCircuitMonad</text>
@@ -2707,9 +2693,9 @@
 <polygon fill="black" stroke="black" points="1547.15,-78.66 1557.96,-80.49 1551.3,-81.45 1555.46,-84.23 1555.46,-84.23 1555.46,-84.23 1551.3,-81.45 1552.95,-87.97 1547.15,-78.66 1547.15,-78.66"/>
 </g>
 <!-- ndArithmeticDomain -->
-<g id="node105" class="node">
+<g id="node104" class="node">
 <title>ndArithmeticDomain</title>
-<g id="a_node105_105"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/arithmetic_domain.rs#:~:text=struct%20ArithmeticDomain" xlink:title="&lt;TABLE&gt;">
+<g id="a_node104_104"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/arithmetic_domain.rs#:~:text=struct%20ArithmeticDomain" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1031,-2322 1031,-2359 1219,-2359 1219,-2322 1031,-2322"/>
 <polygon fill="none" stroke="black" points="1031,-2322 1031,-2359 1219,-2359 1219,-2322 1031,-2322"/>
 <text text-anchor="start" x="1066" y="-2337.8" font-family="Arial" font-weight="bold" font-size="14.00">ArithmeticDomain</text>
@@ -2771,9 +2757,9 @@
 <polygon fill="black" stroke="black" points="1535.23,-80.58 1545.42,-84.64 1538.71,-84.17 1542.19,-87.77 1542.19,-87.77 1542.19,-87.77 1538.71,-84.17 1538.95,-90.9 1535.23,-80.58 1535.23,-80.58"/>
 </g>
 <!-- ndStarkParameters -->
-<g id="node106" class="node">
+<g id="node105" class="node">
 <title>ndStarkParameters</title>
-<g id="a_node106_106"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
+<g id="a_node105_105"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1269,-724 1269,-761 1566,-761 1566,-724 1269,-724"/>
 <polygon fill="none" stroke="black" points="1269,-724 1269,-761 1566,-761 1566,-724 1269,-724"/>
 <text text-anchor="start" x="1363" y="-739.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
