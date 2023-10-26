@@ -1873,7 +1873,7 @@
 <!-- ndDazeFieldElement -->
 <g id="node53" class="node">
 <title>ndDazeFieldElement</title>
-<g id="a_node53_61"><a xlink:href="https://github.com/TritonVM/tasm-lang/blob/master/src/tests_and_benchmarks/ozk/programs/arithmetic/bfe_mul.rs#:~:text=struct%20DazeFieldElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node53_61"><a xlink:href="https://github.com/TritonVM/tasm-lang/blob/master/src/tests_and_benchmarks/ozk/programs/arithmetic/dazefield_element_mul.rs#:~:text=struct%20DazeFieldElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="9197.5,-4228 9197.5,-4265 9556.5,-4265 9556.5,-4228 9197.5,-4228"/>
 <polygon fill="none" stroke="black" points="9197.5,-4228 9197.5,-4265 9556.5,-4265 9556.5,-4228 9197.5,-4228"/>
 <text text-anchor="start" x="9318.5" y="-4243.8" font-family="Arial" font-weight="bold" font-size="14.00">DazeFieldElement</text>
