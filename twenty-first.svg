@@ -998,17 +998,18 @@
 <g id="node31" class="node">
 <title>ndStorageVec</title>
 <g id="a_node31_35"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=trait%20StorageVec" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="11126,-3722 11126,-3759 11374,-3759 11374,-3722 11126,-3722"/>
-<polygon fill="none" stroke="black" points="11126,-3722 11126,-3759 11374,-3759 11374,-3722 11126,-3722"/>
-<text text-anchor="start" x="11213" y="-3737.8" font-family="Arial" font-weight="bold" font-size="14.00">StorageVec</text>
-<polygon fill="white" stroke="transparent" points="11126,-3625 11126,-3722 11374,-3722 11374,-3625 11126,-3625"/>
-<polygon fill="none" stroke="black" points="11126,-3625 11126,-3722 11374,-3722 11374,-3625 11126,-3625"/>
-<text text-anchor="start" x="11137" y="-3699.8" font-family="Arial" font-size="14.00">is_empty(&amp;Self) &#45;&gt; bool</text>
-<text text-anchor="start" x="11137" y="-3684.8" font-family="Arial" font-size="14.00">len(&amp;Self) &#45;&gt; Index</text>
-<text text-anchor="start" x="11137" y="-3669.8" font-family="Arial" font-size="14.00">get(&amp;Self, Index) &#45;&gt; T</text>
-<text text-anchor="start" x="11137" y="-3654.8" font-family="Arial" font-size="14.00">get_many(&amp;Self, &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
-<text text-anchor="start" x="11137" y="-3639.8" font-family="Arial" font-size="14.00">pop(&amp;mut Self) &#45;&gt; Option&lt;T&gt;</text>
-<polygon fill="none" stroke="black" points="11125,-3624 11125,-3760 11375,-3760 11375,-3624 11125,-3624"/>
+<polygon fill="lightgreen" stroke="transparent" points="11126,-3729 11126,-3766 11374,-3766 11374,-3729 11126,-3729"/>
+<polygon fill="none" stroke="black" points="11126,-3729 11126,-3766 11374,-3766 11374,-3729 11126,-3729"/>
+<text text-anchor="start" x="11213" y="-3744.8" font-family="Arial" font-weight="bold" font-size="14.00">StorageVec</text>
+<polygon fill="white" stroke="transparent" points="11126,-3617 11126,-3729 11374,-3729 11374,-3617 11126,-3617"/>
+<polygon fill="none" stroke="black" points="11126,-3617 11126,-3729 11374,-3729 11374,-3617 11126,-3617"/>
+<text text-anchor="start" x="11137" y="-3706.8" font-family="Arial" font-size="14.00">is_empty(&amp;Self) &#45;&gt; bool</text>
+<text text-anchor="start" x="11137" y="-3691.8" font-family="Arial" font-size="14.00">len(&amp;Self) &#45;&gt; Index</text>
+<text text-anchor="start" x="11137" y="-3676.8" font-family="Arial" font-size="14.00">get(&amp;Self, Index) &#45;&gt; T</text>
+<text text-anchor="start" x="11137" y="-3661.8" font-family="Arial" font-size="14.00">get_many(&amp;Self, &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="11137" y="-3646.8" font-family="Arial" font-size="14.00">get_all(&amp;Self) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="11137" y="-3631.8" font-family="Arial" font-size="14.00">pop(&amp;mut Self) &#45;&gt; Option&lt;T&gt;</text>
+<polygon fill="none" stroke="black" points="11125,-3616.5 11125,-3767.5 11375,-3767.5 11375,-3616.5 11125,-3616.5"/>
 </a>
 </g>
 </g>
@@ -1016,69 +1017,71 @@
 <g id="node33" class="node">
 <title>ndRustyLevelDbVec</title>
 <g id="a_node33_36"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20RustyLevelDbVec" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="10735,-3169.5 10735,-3206.5 11139,-3206.5 11139,-3169.5 10735,-3169.5"/>
-<polygon fill="none" stroke="black" points="10735,-3169.5 10735,-3206.5 11139,-3206.5 11139,-3169.5 10735,-3169.5"/>
-<text text-anchor="start" x="10880" y="-3185.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyLevelDbVec</text>
-<polygon fill="white" stroke="transparent" points="10735,-3057.5 10735,-3169.5 11139,-3169.5 11139,-3057.5 10735,-3057.5"/>
-<polygon fill="none" stroke="black" points="10735,-3057.5 10735,-3169.5 11139,-3169.5 11139,-3057.5 10735,-3057.5"/>
-<text text-anchor="start" x="10746" y="-3147.3" font-family="Arial" font-size="14.00">&#45; key_prefix: u8</text>
-<text text-anchor="start" x="10746" y="-3132.3" font-family="Arial" font-size="14.00">&#45; db: Arc&lt;Mutex&lt;DB&gt;&gt;</text>
-<text text-anchor="start" x="10746" y="-3117.3" font-family="Arial" font-size="14.00">&#45; write_queue: VecDeque&lt;WriteElement&lt;T&gt;&gt;</text>
-<text text-anchor="start" x="10746" y="-3102.3" font-family="Arial" font-size="14.00">&#45; length: Index</text>
-<text text-anchor="start" x="10746" y="-3087.3" font-family="Arial" font-size="14.00">&#45; cache: HashMap&lt;Index, T&gt;</text>
-<text text-anchor="start" x="10746" y="-3072.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
-<polygon fill="white" stroke="transparent" points="10735,-2855.5 10735,-3057.5 11139,-3057.5 11139,-2855.5 10735,-2855.5"/>
-<polygon fill="none" stroke="black" points="10735,-2855.5 10735,-3057.5 11139,-3057.5 11139,-2855.5 10735,-2855.5"/>
-<text text-anchor="start" x="10746" y="-3035.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="10746" y="-3020.3" font-family="Arial" font-size="14.00">&#45; len(&amp;self) &#45;&gt; Index</text>
-<text text-anchor="start" x="10746" y="-3005.3" font-family="Arial" font-size="14.00">&#45; get(&amp;self, index: Index) &#45;&gt; T</text>
-<text text-anchor="start" x="10746" y="-2990.3" font-family="Arial" font-size="14.00">&#45; get_many(&amp;self, indices: &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
-<text text-anchor="start" x="10746" y="-2975.3" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, index: Index, value: T)</text>
-<text text-anchor="start" x="10746" y="-2960.3" font-family="Arial" font-size="14.00">&#45; pop(&amp;mut self) &#45;&gt; Option&lt;T&gt;</text>
-<text text-anchor="start" x="10746" y="-2945.3" font-family="Arial" font-size="14.00">&#45; push(&amp;mut self, value: T)</text>
-<text text-anchor="start" x="10746" y="-2930.3" font-family="Arial" font-size="14.00">&#45; get_length_key(key_prefix: u8) &#45;&gt; [u8; 2]</text>
-<text text-anchor="start" x="10746" y="-2915.3" font-family="Arial" font-size="14.00">&#45; persisted_length(&amp;self) &#45;&gt; Index</text>
-<text text-anchor="start" x="10746" y="-2900.3" font-family="Arial" font-size="14.00">&#45; get_index_key(&amp;self, index: Index) &#45;&gt; [u8; 9]</text>
-<text text-anchor="start" x="10746" y="-2885.3" font-family="Arial" font-size="14.00">&#45; new(db: Arc&lt;Mutex&lt;DB&gt;&gt;, key_prefix: u8, name: &amp;str) &#45;&gt; Self</text>
-<text text-anchor="start" x="10746" y="-2870.3" font-family="Arial" font-size="14.00">&#45; pull_queue(&amp;mut self, write_batch: &amp;mut WriteBatch)</text>
-<polygon fill="none" stroke="black" points="10734,-2855 10734,-3208 11140,-3208 11140,-2855 10734,-2855"/>
+<polygon fill="lightblue" stroke="transparent" points="10735,-3177.5 10735,-3214.5 11139,-3214.5 11139,-3177.5 10735,-3177.5"/>
+<polygon fill="none" stroke="black" points="10735,-3177.5 10735,-3214.5 11139,-3214.5 11139,-3177.5 10735,-3177.5"/>
+<text text-anchor="start" x="10880" y="-3193.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyLevelDbVec</text>
+<polygon fill="white" stroke="transparent" points="10735,-3065.5 10735,-3177.5 11139,-3177.5 11139,-3065.5 10735,-3065.5"/>
+<polygon fill="none" stroke="black" points="10735,-3065.5 10735,-3177.5 11139,-3177.5 11139,-3065.5 10735,-3065.5"/>
+<text text-anchor="start" x="10746" y="-3155.3" font-family="Arial" font-size="14.00">&#45; key_prefix: u8</text>
+<text text-anchor="start" x="10746" y="-3140.3" font-family="Arial" font-size="14.00">&#45; db: Arc&lt;Mutex&lt;DB&gt;&gt;</text>
+<text text-anchor="start" x="10746" y="-3125.3" font-family="Arial" font-size="14.00">&#45; write_queue: VecDeque&lt;WriteElement&lt;T&gt;&gt;</text>
+<text text-anchor="start" x="10746" y="-3110.3" font-family="Arial" font-size="14.00">&#45; length: Index</text>
+<text text-anchor="start" x="10746" y="-3095.3" font-family="Arial" font-size="14.00">&#45; cache: HashMap&lt;Index, T&gt;</text>
+<text text-anchor="start" x="10746" y="-3080.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
+<polygon fill="white" stroke="transparent" points="10735,-2848.5 10735,-3065.5 11139,-3065.5 11139,-2848.5 10735,-2848.5"/>
+<polygon fill="none" stroke="black" points="10735,-2848.5 10735,-3065.5 11139,-3065.5 11139,-2848.5 10735,-2848.5"/>
+<text text-anchor="start" x="10746" y="-3043.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
+<text text-anchor="start" x="10746" y="-3028.3" font-family="Arial" font-size="14.00">&#45; len(&amp;self) &#45;&gt; Index</text>
+<text text-anchor="start" x="10746" y="-3013.3" font-family="Arial" font-size="14.00">&#45; get(&amp;self, index: Index) &#45;&gt; T</text>
+<text text-anchor="start" x="10746" y="-2998.3" font-family="Arial" font-size="14.00">&#45; get_many(&amp;self, indices: &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="10746" y="-2983.3" font-family="Arial" font-size="14.00">&#45; get_all(&amp;self) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="10746" y="-2968.3" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, index: Index, value: T)</text>
+<text text-anchor="start" x="10746" y="-2953.3" font-family="Arial" font-size="14.00">&#45; pop(&amp;mut self) &#45;&gt; Option&lt;T&gt;</text>
+<text text-anchor="start" x="10746" y="-2938.3" font-family="Arial" font-size="14.00">&#45; push(&amp;mut self, value: T)</text>
+<text text-anchor="start" x="10746" y="-2923.3" font-family="Arial" font-size="14.00">&#45; get_length_key(key_prefix: u8) &#45;&gt; [u8; 2]</text>
+<text text-anchor="start" x="10746" y="-2908.3" font-family="Arial" font-size="14.00">&#45; persisted_length(&amp;self) &#45;&gt; Index</text>
+<text text-anchor="start" x="10746" y="-2893.3" font-family="Arial" font-size="14.00">&#45; get_index_key(&amp;self, index: Index) &#45;&gt; [u8; 9]</text>
+<text text-anchor="start" x="10746" y="-2878.3" font-family="Arial" font-size="14.00">&#45; new(db: Arc&lt;Mutex&lt;DB&gt;&gt;, key_prefix: u8, name: &amp;str) &#45;&gt; Self</text>
+<text text-anchor="start" x="10746" y="-2863.3" font-family="Arial" font-size="14.00">&#45; pull_queue(&amp;mut self, write_batch: &amp;mut WriteBatch)</text>
+<polygon fill="none" stroke="black" points="10734,-2847.5 10734,-3215.5 11140,-3215.5 11140,-2847.5 10734,-2847.5"/>
 </a>
 </g>
 </g>
 <!-- ndStorageVec&#45;&gt;ndRustyLevelDbVec -->
 <g id="edge28" class="edge">
 <title>ndStorageVec&#45;&gt;ndRustyLevelDbVec</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11216.21,-3619.9C11171.24,-3525.3 11090.05,-3354.5 11026.77,-3221.37"/>
-<polygon fill="none" stroke="black" points="11029.89,-3219.78 11022.44,-3212.25 11023.57,-3222.79 11029.89,-3219.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11212.56,-3612.22C11167.83,-3518.13 11091.4,-3357.33 11030.36,-3228.92"/>
+<polygon fill="none" stroke="black" points="11033.45,-3227.26 11025.99,-3219.73 11027.13,-3230.26 11033.45,-3227.26"/>
 </g>
 <!-- ndOrdinaryVec -->
 <g id="node34" class="node">
 <title>ndOrdinaryVec</title>
 <g id="a_node34_37"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20OrdinaryVec" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="11175,-3094.5 11175,-3131.5 11479,-3131.5 11479,-3094.5 11175,-3094.5"/>
-<polygon fill="none" stroke="black" points="11175,-3094.5 11175,-3131.5 11479,-3131.5 11479,-3094.5 11175,-3094.5"/>
-<text text-anchor="start" x="11286.5" y="-3110.3" font-family="Arial" font-weight="bold" font-size="14.00">OrdinaryVec</text>
-<polygon fill="white" stroke="transparent" points="11175,-3057.5 11175,-3094.5 11479,-3094.5 11479,-3057.5 11175,-3057.5"/>
-<polygon fill="none" stroke="black" points="11175,-3057.5 11175,-3094.5 11479,-3094.5 11479,-3057.5 11175,-3057.5"/>
-<text text-anchor="start" x="11186" y="-3072.3" font-family="Arial" font-size="14.00">&#45; Vec&lt;T&gt;</text>
-<polygon fill="white" stroke="transparent" points="11175,-2930.5 11175,-3057.5 11479,-3057.5 11479,-2930.5 11175,-2930.5"/>
-<polygon fill="none" stroke="black" points="11175,-2930.5 11175,-3057.5 11479,-3057.5 11479,-2930.5 11175,-2930.5"/>
-<text text-anchor="start" x="11186" y="-3035.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="11186" y="-3020.3" font-family="Arial" font-size="14.00">&#45; len(&amp;self) &#45;&gt; Index</text>
-<text text-anchor="start" x="11186" y="-3005.3" font-family="Arial" font-size="14.00">&#45; get(&amp;self, index: Index) &#45;&gt; T</text>
-<text text-anchor="start" x="11186" y="-2990.3" font-family="Arial" font-size="14.00">&#45; get_many(&amp;self, indices: &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
-<text text-anchor="start" x="11186" y="-2975.3" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, index: Index, value: T)</text>
-<text text-anchor="start" x="11186" y="-2960.3" font-family="Arial" font-size="14.00">&#45; pop(&amp;mut self) &#45;&gt; Option&lt;T&gt;</text>
-<text text-anchor="start" x="11186" y="-2945.3" font-family="Arial" font-size="14.00">&#45; push(&amp;mut self, value: T)</text>
-<polygon fill="none" stroke="black" points="11174,-2930 11174,-3133 11480,-3133 11480,-2930 11174,-2930"/>
+<polygon fill="lightblue" stroke="transparent" points="11175,-3102.5 11175,-3139.5 11479,-3139.5 11479,-3102.5 11175,-3102.5"/>
+<polygon fill="none" stroke="black" points="11175,-3102.5 11175,-3139.5 11479,-3139.5 11479,-3102.5 11175,-3102.5"/>
+<text text-anchor="start" x="11286.5" y="-3118.3" font-family="Arial" font-weight="bold" font-size="14.00">OrdinaryVec</text>
+<polygon fill="white" stroke="transparent" points="11175,-3065.5 11175,-3102.5 11479,-3102.5 11479,-3065.5 11175,-3065.5"/>
+<polygon fill="none" stroke="black" points="11175,-3065.5 11175,-3102.5 11479,-3102.5 11479,-3065.5 11175,-3065.5"/>
+<text text-anchor="start" x="11186" y="-3080.3" font-family="Arial" font-size="14.00">&#45; Vec&lt;T&gt;</text>
+<polygon fill="white" stroke="transparent" points="11175,-2923.5 11175,-3065.5 11479,-3065.5 11479,-2923.5 11175,-2923.5"/>
+<polygon fill="none" stroke="black" points="11175,-2923.5 11175,-3065.5 11479,-3065.5 11479,-2923.5 11175,-2923.5"/>
+<text text-anchor="start" x="11186" y="-3043.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
+<text text-anchor="start" x="11186" y="-3028.3" font-family="Arial" font-size="14.00">&#45; len(&amp;self) &#45;&gt; Index</text>
+<text text-anchor="start" x="11186" y="-3013.3" font-family="Arial" font-size="14.00">&#45; get(&amp;self, index: Index) &#45;&gt; T</text>
+<text text-anchor="start" x="11186" y="-2998.3" font-family="Arial" font-size="14.00">&#45; get_many(&amp;self, indices: &amp;[Index]) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="11186" y="-2983.3" font-family="Arial" font-size="14.00">&#45; get_all(&amp;self) &#45;&gt; Vec&lt;T&gt;</text>
+<text text-anchor="start" x="11186" y="-2968.3" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, index: Index, value: T)</text>
+<text text-anchor="start" x="11186" y="-2953.3" font-family="Arial" font-size="14.00">&#45; pop(&amp;mut self) &#45;&gt; Option&lt;T&gt;</text>
+<text text-anchor="start" x="11186" y="-2938.3" font-family="Arial" font-size="14.00">&#45; push(&amp;mut self, value: T)</text>
+<polygon fill="none" stroke="black" points="11174,-2922.5 11174,-3140.5 11480,-3140.5 11480,-2922.5 11174,-2922.5"/>
 </a>
 </g>
 </g>
 <!-- ndStorageVec&#45;&gt;ndOrdinaryVec -->
 <g id="edge29" class="edge">
 <title>ndStorageVec&#45;&gt;ndOrdinaryVec</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11258.31,-3619.9C11271.58,-3506.43 11297.67,-3283.32 11313.6,-3147.1"/>
-<polygon fill="none" stroke="black" points="11317.09,-3147.38 11314.78,-3137.04 11310.14,-3146.56 11317.09,-3147.38"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11259.21,-3612.22C11272.47,-3498.85 11297.05,-3288.65 11312.68,-3154.93"/>
+<polygon fill="none" stroke="black" points="11316.2,-3154.98 11313.89,-3144.64 11309.25,-3154.17 11316.2,-3154.98"/>
 </g>
 <!-- ndWriteElement -->
 <g id="node32" class="node">
@@ -1099,8 +1102,8 @@
 <!-- ndWriteElement&#45;&gt;ndRustyLevelDbVec -->
 <g id="edge30" class="edge">
 <title>ndWriteElement&#45;&gt;ndRustyLevelDbVec</title>
-<path fill="none" stroke="black" d="M10937,-3634.86C10937,-3544.87 10937,-3364.25 10937,-3224.15"/>
-<polygon fill="black" stroke="black" points="10937,-3224.01 10933,-3218.01 10937,-3212.01 10941,-3218.01 10937,-3224.01"/>
+<path fill="none" stroke="black" d="M10937,-3634.86C10937,-3546.46 10937,-3370.59 10937,-3231.6"/>
+<polygon fill="black" stroke="black" points="10937,-3231.54 10933,-3225.54 10937,-3219.54 10941,-3225.54 10937,-3231.54"/>
 </g>
 <!-- ndCyclicGroupGenerator -->
 <g id="node35" class="node">
