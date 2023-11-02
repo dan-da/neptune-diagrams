@@ -78,7 +78,7 @@
 <text text-anchor="start" x="4739.94" y="-4032.3" font-family="Arial" font-weight="bold" font-size="14.00">AnInstruction</text>
 <polygon fill="white" stroke="transparent" points="4699.94,-3424.5 4699.94,-4016.5 4867.94,-4016.5 4867.94,-3424.5 4699.94,-3424.5"/>
 <polygon fill="none" stroke="black" points="4699.94,-3424.5 4699.94,-4016.5 4867.94,-4016.5 4867.94,-3424.5 4699.94,-3424.5"/>
-<text text-anchor="start" x="4710.94" y="-3994.3" font-family="Arial" font-size="14.00">Pop</text>
+<text text-anchor="start" x="4710.94" y="-3994.3" font-family="Arial" font-size="14.00">Pop(OpStackElement)</text>
 <text text-anchor="start" x="4710.94" y="-3979.3" font-family="Arial" font-size="14.00">Push(BFieldElement)</text>
 <text text-anchor="start" x="4710.94" y="-3964.3" font-family="Arial" font-size="14.00">Divine</text>
 <text text-anchor="start" x="4710.94" y="-3949.3" font-family="Arial" font-size="14.00">Dup(OpStackElement)</text>
@@ -162,22 +162,23 @@
 <g id="node4" class="node">
 <title>ndInstructionError</title>
 <g id="a_node4_5"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20InstructionError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3512.94,-3806.5 3512.94,-3843.5 4039.94,-3843.5 4039.94,-3806.5 3512.94,-3806.5"/>
-<polygon fill="none" stroke="black" points="3512.94,-3806.5 3512.94,-3843.5 4039.94,-3843.5 4039.94,-3806.5 3512.94,-3806.5"/>
-<text text-anchor="start" x="3724.94" y="-3822.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
-<polygon fill="white" stroke="transparent" points="3512.94,-3634.5 3512.94,-3806.5 4039.94,-3806.5 4039.94,-3634.5 3512.94,-3634.5"/>
-<polygon fill="none" stroke="black" points="3512.94,-3634.5 3512.94,-3806.5 4039.94,-3806.5 4039.94,-3634.5 3512.94,-3634.5"/>
-<text text-anchor="start" x="3523.94" y="-3784.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
-<text text-anchor="start" x="3523.94" y="-3769.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
-<text text-anchor="start" x="3523.94" y="-3754.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
-<text text-anchor="start" x="3523.94" y="-3739.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
-<text text-anchor="start" x="3523.94" y="-3724.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
-<text text-anchor="start" x="3523.94" y="-3709.3" font-family="Arial" font-size="14.00">SwapST0</text>
-<text text-anchor="start" x="3523.94" y="-3694.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
-<text text-anchor="start" x="3523.94" y="-3679.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
-<text text-anchor="start" x="3523.94" y="-3664.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
-<text text-anchor="start" x="3523.94" y="-3649.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
-<polygon fill="none" stroke="black" points="3511.44,-3634 3511.44,-3845 4040.44,-3845 4040.44,-3634 3511.44,-3634"/>
+<polygon fill="yellow" stroke="transparent" points="3512.94,-3814.5 3512.94,-3851.5 4039.94,-3851.5 4039.94,-3814.5 3512.94,-3814.5"/>
+<polygon fill="none" stroke="black" points="3512.94,-3814.5 3512.94,-3851.5 4039.94,-3851.5 4039.94,-3814.5 3512.94,-3814.5"/>
+<text text-anchor="start" x="3724.94" y="-3830.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
+<polygon fill="white" stroke="transparent" points="3512.94,-3627.5 3512.94,-3814.5 4039.94,-3814.5 4039.94,-3627.5 3512.94,-3627.5"/>
+<polygon fill="none" stroke="black" points="3512.94,-3627.5 3512.94,-3814.5 4039.94,-3814.5 4039.94,-3627.5 3512.94,-3627.5"/>
+<text text-anchor="start" x="3523.94" y="-3792.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
+<text text-anchor="start" x="3523.94" y="-3777.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
+<text text-anchor="start" x="3523.94" y="-3762.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
+<text text-anchor="start" x="3523.94" y="-3747.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
+<text text-anchor="start" x="3523.94" y="-3732.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
+<text text-anchor="start" x="3523.94" y="-3717.3" font-family="Arial" font-size="14.00">IllegalPop(usize)</text>
+<text text-anchor="start" x="3523.94" y="-3702.3" font-family="Arial" font-size="14.00">SwapST0</text>
+<text text-anchor="start" x="3523.94" y="-3687.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
+<text text-anchor="start" x="3523.94" y="-3672.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
+<text text-anchor="start" x="3523.94" y="-3657.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
+<text text-anchor="start" x="3523.94" y="-3642.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
+<polygon fill="none" stroke="black" points="3511.44,-3626.5 3511.44,-3852.5 4040.44,-3852.5 4040.44,-3626.5 3511.44,-3626.5"/>
 </a>
 </g>
 </g>
@@ -200,7 +201,7 @@
 <text text-anchor="start" x="3938.94" y="-2456.8" font-family="Arial" font-size="14.00">+ jump_stack: Vec&lt;(BFieldElement, BFieldElement)&gt;</text>
 <text text-anchor="start" x="3938.94" y="-2441.8" font-family="Arial" font-size="14.00">+ cycle_count: u32</text>
 <text text-anchor="start" x="3938.94" y="-2426.8" font-family="Arial" font-size="14.00">+ instruction_pointer: usize</text>
-<text text-anchor="start" x="3938.94" y="-2411.8" font-family="Arial" font-size="14.00">+ previous_instruction: BFieldElement</text>
+<text text-anchor="start" x="3938.94" y="-2411.8" font-family="Arial" font-size="14.00">+ previous_instruction: Option&lt;Instruction&gt;</text>
 <text text-anchor="start" x="3938.94" y="-2396.8" font-family="Arial" font-size="14.00">+ ram_pointer: u64</text>
 <text text-anchor="start" x="3938.94" y="-2381.8" font-family="Arial" font-size="14.00">+ sponge_state: [BFieldElement; tip5::STATE_SIZE]</text>
 <text text-anchor="start" x="3938.94" y="-2366.8" font-family="Arial" font-size="14.00">+ halting: bool</text>
@@ -211,7 +212,7 @@
 <!-- ndInstructionError&#45;&gt;ndVMState -->
 <g id="edge6" class="edge">
 <title>ndInstructionError&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M3787.1,-3629.84C3799.49,-3522.21 3822.53,-3353.2 3857.94,-3210 3908.1,-3007.15 3990.54,-2780.3 4046.48,-2635.96"/>
+<path fill="none" stroke="black" d="M3787.97,-3622.38C3800.55,-3514.52 3823.34,-3349.94 3857.94,-3210 3908.1,-3007.15 3990.54,-2780.3 4046.48,-2635.96"/>
 <polygon fill="black" stroke="black" points="4050.12,-2626.57 4050.7,-2637.53 4048.31,-2631.24 4046.5,-2635.9 4046.5,-2635.9 4046.5,-2635.9 4048.31,-2631.24 4042.31,-2634.27 4050.12,-2626.57 4050.12,-2626.57"/>
 </g>
 <!-- ndOpStack -->
@@ -315,8 +316,8 @@
 <!-- ndOpStackElement&#45;&gt;ndInstructionError -->
 <g id="edge11" class="edge">
 <title>ndOpStackElement&#45;&gt;ndInstructionError</title>
-<path fill="none" stroke="black" d="M4021.32,-4130.04C3970.05,-4048.64 3902.23,-3940.99 3850.89,-3859.48"/>
-<polygon fill="black" stroke="black" points="3850.79,-3859.32 3844.21,-3856.38 3844.39,-3849.17 3850.98,-3852.11 3850.79,-3859.32"/>
+<path fill="none" stroke="black" d="M4021.32,-4130.04C3971.55,-4051.03 3906.2,-3947.28 3855.45,-3866.72"/>
+<polygon fill="black" stroke="black" points="3855.42,-3866.67 3848.84,-3863.73 3849.02,-3856.52 3855.61,-3859.46 3855.42,-3866.67"/>
 </g>
 <!-- ndOpStackElement&#45;&gt;ndOpStack -->
 <g id="edge12" class="edge">
@@ -404,9 +405,9 @@
 <polygon fill="black" stroke="black" points="4314.47,-3044.98 4307.01,-3036.95 4312.87,-3040.24 4311.27,-3035.5 4311.27,-3035.5 4311.27,-3035.5 4312.87,-3040.24 4315.53,-3034.06 4314.47,-3044.98 4314.47,-3044.98"/>
 </g>
 <!-- ndAlgebraicExecutionTrace -->
-<g id="node105" class="node">
+<g id="node106" class="node">
 <title>ndAlgebraicExecutionTrace</title>
-<g id="a_node105_14"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/aet.rs#:~:text=struct%20AlgebraicExecutionTrace" xlink:title="&lt;TABLE&gt;">
+<g id="a_node106_14"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/aet.rs#:~:text=struct%20AlgebraicExecutionTrace" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3723.94,-1474 3723.94,-1511 4108.94,-1511 4108.94,-1474 3723.94,-1474"/>
 <polygon fill="none" stroke="black" points="3723.94,-1474 3723.94,-1511 4108.94,-1511 4108.94,-1474 3723.94,-1474"/>
 <text text-anchor="start" x="3835.44" y="-1489.8" font-family="Arial" font-weight="bold" font-size="14.00">AlgebraicExecutionTrace</text>
@@ -497,9 +498,9 @@
 </g>
 </g>
 <!-- ndStark -->
-<g id="node108" class="node">
+<g id="node109" class="node">
 <title>ndStark</title>
-<g id="a_node108_18"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Stark" xlink:title="&lt;TABLE&gt;">
+<g id="a_node109_18"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Stark" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2402.94,-38 2402.94,-75 2458.94,-75 2458.94,-38 2402.94,-38"/>
 <polygon fill="none" stroke="black" points="2402.94,-38 2402.94,-75 2458.94,-75 2458.94,-38 2402.94,-38"/>
 <text text-anchor="start" x="2413.94" y="-53.8" font-family="Arial" font-weight="bold" font-size="14.00">Stark</text>
@@ -771,9 +772,9 @@
 <polygon fill="black" stroke="black" points="4151.03,-2626.5 4158.61,-2634.43 4152.7,-2631.22 4154.37,-2635.93 4154.37,-2635.93 4154.37,-2635.93 4152.7,-2631.22 4150.12,-2637.43 4151.03,-2626.5 4151.03,-2626.5"/>
 </g>
 <!-- ndProgramAndInput -->
-<g id="node104" class="node">
+<g id="node105" class="node">
 <title>ndProgramAndInput</title>
-<g id="a_node104_29"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20ProgramAndInput" xlink:title="&lt;TABLE&gt;">
+<g id="a_node105_29"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20ProgramAndInput" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="4376.94,-2502 4376.94,-2539 4664.94,-2539 4664.94,-2502 4376.94,-2502"/>
 <polygon fill="none" stroke="black" points="4376.94,-2502 4376.94,-2539 4664.94,-2539 4664.94,-2502 4376.94,-2502"/>
 <text text-anchor="start" x="4462.94" y="-2517.8" font-family="Arial" font-weight="bold" font-size="14.00">ProgramAndInput</text>
@@ -2679,6 +2680,20 @@
 <path fill="none" stroke="black" d="M6023.83,-106.6C6043.73,-119.78 6064.17,-134.67 6081.94,-150 6125.99,-187.99 6169.88,-237.13 6200.13,-274.99"/>
 <polygon fill="black" stroke="black" points="6200.47,-275.43 6207.33,-277.67 6207.9,-284.86 6201.04,-282.62 6200.47,-275.43"/>
 </g>
+<!-- ndNonZeroXFieldElement -->
+<g id="node104" class="node">
+<title>ndNonZeroXFieldElement</title>
+<g id="a_node104_106"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20NonZeroXFieldElement" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="7640.94,-4249.5 7640.94,-4286.5 7812.94,-4286.5 7812.94,-4249.5 7640.94,-4249.5"/>
+<polygon fill="none" stroke="black" points="7640.94,-4249.5 7640.94,-4286.5 7812.94,-4286.5 7812.94,-4249.5 7640.94,-4249.5"/>
+<text text-anchor="start" x="7651.94" y="-4265.3" font-family="Arial" font-weight="bold" font-size="14.00">NonZeroXFieldElement</text>
+<polygon fill="white" stroke="transparent" points="7640.94,-4212.5 7640.94,-4249.5 7812.94,-4249.5 7812.94,-4212.5 7640.94,-4212.5"/>
+<polygon fill="none" stroke="black" points="7640.94,-4212.5 7640.94,-4249.5 7812.94,-4249.5 7812.94,-4212.5 7640.94,-4212.5"/>
+<text text-anchor="start" x="7651.94" y="-4227.3" font-family="Arial" font-size="14.00">&#45; XFieldElement</text>
+<polygon fill="none" stroke="black" points="7639.94,-4211.5 7639.94,-4287.5 7813.94,-4287.5 7813.94,-4211.5 7639.94,-4211.5"/>
+</a>
+</g>
+</g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProgram -->
 <g id="edge134" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProgram</title>
@@ -2752,9 +2767,9 @@
 <polygon fill="black" stroke="black" points="2468.01,-58.26 2478.05,-53.86 2473.01,-58.31 2478.01,-58.36 2478.01,-58.36 2478.01,-58.36 2473.01,-58.31 2477.96,-62.86 2468.01,-58.26 2468.01,-58.26"/>
 </g>
 <!-- ndArithmeticDomain -->
-<g id="node106" class="node">
+<g id="node107" class="node">
 <title>ndArithmeticDomain</title>
-<g id="a_node106_106"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/arithmetic_domain.rs#:~:text=struct%20ArithmeticDomain" xlink:title="&lt;TABLE&gt;">
+<g id="a_node107_107"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/arithmetic_domain.rs#:~:text=struct%20ArithmeticDomain" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1171.94,-2502 1171.94,-2539 1359.94,-2539 1359.94,-2502 1171.94,-2502"/>
 <polygon fill="none" stroke="black" points="1171.94,-2502 1171.94,-2539 1359.94,-2539 1359.94,-2502 1171.94,-2502"/>
 <text text-anchor="start" x="1206.94" y="-2517.8" font-family="Arial" font-weight="bold" font-size="14.00">ArithmeticDomain</text>
@@ -2816,9 +2831,9 @@
 <polygon fill="black" stroke="black" points="2398.61,-80.52 2393.11,-90 2394.54,-83.43 2390.48,-86.35 2390.48,-86.35 2390.48,-86.35 2394.54,-83.43 2387.86,-82.69 2398.61,-80.52 2398.61,-80.52"/>
 </g>
 <!-- ndStarkParameters -->
-<g id="node107" class="node">
+<g id="node108" class="node">
 <title>ndStarkParameters</title>
-<g id="a_node107_107"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
+<g id="a_node108_108"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3223.94,-371.5 3223.94,-408.5 3520.94,-408.5 3520.94,-371.5 3223.94,-371.5"/>
 <polygon fill="none" stroke="black" points="3223.94,-371.5 3223.94,-408.5 3520.94,-408.5 3520.94,-371.5 3223.94,-371.5"/>
 <text text-anchor="start" x="3317.94" y="-387.3" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
