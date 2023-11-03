@@ -73,50 +73,50 @@
 <g id="node2" class="node">
 <title>ndAnInstruction</title>
 <g id="a_node2_3"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/instruction.rs#:~:text=enum%20AnInstruction" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="4699.94,-4016.5 4699.94,-4053.5 4867.94,-4053.5 4867.94,-4016.5 4699.94,-4016.5"/>
-<polygon fill="none" stroke="black" points="4699.94,-4016.5 4699.94,-4053.5 4867.94,-4053.5 4867.94,-4016.5 4699.94,-4016.5"/>
+<polygon fill="yellow" stroke="transparent" points="4697.94,-4016.5 4697.94,-4053.5 4869.94,-4053.5 4869.94,-4016.5 4697.94,-4016.5"/>
+<polygon fill="none" stroke="black" points="4697.94,-4016.5 4697.94,-4053.5 4869.94,-4053.5 4869.94,-4016.5 4697.94,-4016.5"/>
 <text text-anchor="start" x="4739.94" y="-4032.3" font-family="Arial" font-weight="bold" font-size="14.00">AnInstruction</text>
-<polygon fill="white" stroke="transparent" points="4699.94,-3424.5 4699.94,-4016.5 4867.94,-4016.5 4867.94,-3424.5 4699.94,-3424.5"/>
-<polygon fill="none" stroke="black" points="4699.94,-3424.5 4699.94,-4016.5 4867.94,-4016.5 4867.94,-3424.5 4699.94,-3424.5"/>
-<text text-anchor="start" x="4710.94" y="-3994.3" font-family="Arial" font-size="14.00">Pop(OpStackElement)</text>
-<text text-anchor="start" x="4710.94" y="-3979.3" font-family="Arial" font-size="14.00">Push(BFieldElement)</text>
-<text text-anchor="start" x="4710.94" y="-3964.3" font-family="Arial" font-size="14.00">Divine</text>
-<text text-anchor="start" x="4710.94" y="-3949.3" font-family="Arial" font-size="14.00">Dup(OpStackElement)</text>
-<text text-anchor="start" x="4710.94" y="-3934.3" font-family="Arial" font-size="14.00">Swap(OpStackElement)</text>
-<text text-anchor="start" x="4710.94" y="-3919.3" font-family="Arial" font-size="14.00">Nop</text>
-<text text-anchor="start" x="4710.94" y="-3904.3" font-family="Arial" font-size="14.00">Skiz</text>
-<text text-anchor="start" x="4710.94" y="-3889.3" font-family="Arial" font-size="14.00">Call(Dest)</text>
-<text text-anchor="start" x="4710.94" y="-3874.3" font-family="Arial" font-size="14.00">Return</text>
-<text text-anchor="start" x="4710.94" y="-3859.3" font-family="Arial" font-size="14.00">Recurse</text>
-<text text-anchor="start" x="4710.94" y="-3844.3" font-family="Arial" font-size="14.00">Assert</text>
-<text text-anchor="start" x="4710.94" y="-3829.3" font-family="Arial" font-size="14.00">Halt</text>
-<text text-anchor="start" x="4710.94" y="-3814.3" font-family="Arial" font-size="14.00">ReadMem</text>
-<text text-anchor="start" x="4710.94" y="-3799.3" font-family="Arial" font-size="14.00">WriteMem</text>
-<text text-anchor="start" x="4710.94" y="-3784.3" font-family="Arial" font-size="14.00">Hash</text>
-<text text-anchor="start" x="4710.94" y="-3769.3" font-family="Arial" font-size="14.00">DivineSibling</text>
-<text text-anchor="start" x="4710.94" y="-3754.3" font-family="Arial" font-size="14.00">AssertVector</text>
-<text text-anchor="start" x="4710.94" y="-3739.3" font-family="Arial" font-size="14.00">SpongeInit</text>
-<text text-anchor="start" x="4710.94" y="-3724.3" font-family="Arial" font-size="14.00">SpongeAbsorb</text>
-<text text-anchor="start" x="4710.94" y="-3709.3" font-family="Arial" font-size="14.00">SpongeSqueeze</text>
-<text text-anchor="start" x="4710.94" y="-3694.3" font-family="Arial" font-size="14.00">Add</text>
-<text text-anchor="start" x="4710.94" y="-3679.3" font-family="Arial" font-size="14.00">Mul</text>
-<text text-anchor="start" x="4710.94" y="-3664.3" font-family="Arial" font-size="14.00">Invert</text>
-<text text-anchor="start" x="4710.94" y="-3649.3" font-family="Arial" font-size="14.00">Eq</text>
-<text text-anchor="start" x="4710.94" y="-3634.3" font-family="Arial" font-size="14.00">Split</text>
-<text text-anchor="start" x="4710.94" y="-3619.3" font-family="Arial" font-size="14.00">Lt</text>
-<text text-anchor="start" x="4710.94" y="-3604.3" font-family="Arial" font-size="14.00">And</text>
-<text text-anchor="start" x="4710.94" y="-3589.3" font-family="Arial" font-size="14.00">Xor</text>
-<text text-anchor="start" x="4710.94" y="-3574.3" font-family="Arial" font-size="14.00">Log2Floor</text>
-<text text-anchor="start" x="4710.94" y="-3559.3" font-family="Arial" font-size="14.00">Pow</text>
-<text text-anchor="start" x="4710.94" y="-3544.3" font-family="Arial" font-size="14.00">DivMod</text>
-<text text-anchor="start" x="4710.94" y="-3529.3" font-family="Arial" font-size="14.00">PopCount</text>
-<text text-anchor="start" x="4710.94" y="-3514.3" font-family="Arial" font-size="14.00">XxAdd</text>
-<text text-anchor="start" x="4710.94" y="-3499.3" font-family="Arial" font-size="14.00">XxMul</text>
-<text text-anchor="start" x="4710.94" y="-3484.3" font-family="Arial" font-size="14.00">XInvert</text>
-<text text-anchor="start" x="4710.94" y="-3469.3" font-family="Arial" font-size="14.00">XbMul</text>
-<text text-anchor="start" x="4710.94" y="-3454.3" font-family="Arial" font-size="14.00">ReadIo</text>
-<text text-anchor="start" x="4710.94" y="-3439.3" font-family="Arial" font-size="14.00">WriteIo</text>
-<polygon fill="none" stroke="black" points="4698.94,-3424 4698.94,-4055 4868.94,-4055 4868.94,-3424 4698.94,-3424"/>
+<polygon fill="white" stroke="transparent" points="4697.94,-3424.5 4697.94,-4016.5 4869.94,-4016.5 4869.94,-3424.5 4697.94,-3424.5"/>
+<polygon fill="none" stroke="black" points="4697.94,-3424.5 4697.94,-4016.5 4869.94,-4016.5 4869.94,-3424.5 4697.94,-3424.5"/>
+<text text-anchor="start" x="4708.94" y="-3994.3" font-family="Arial" font-size="14.00">Pop(OpStackElement)</text>
+<text text-anchor="start" x="4708.94" y="-3979.3" font-family="Arial" font-size="14.00">Push(BFieldElement)</text>
+<text text-anchor="start" x="4708.94" y="-3964.3" font-family="Arial" font-size="14.00">Divine(OpStackElement)</text>
+<text text-anchor="start" x="4708.94" y="-3949.3" font-family="Arial" font-size="14.00">Dup(OpStackElement)</text>
+<text text-anchor="start" x="4708.94" y="-3934.3" font-family="Arial" font-size="14.00">Swap(OpStackElement)</text>
+<text text-anchor="start" x="4708.94" y="-3919.3" font-family="Arial" font-size="14.00">Nop</text>
+<text text-anchor="start" x="4708.94" y="-3904.3" font-family="Arial" font-size="14.00">Skiz</text>
+<text text-anchor="start" x="4708.94" y="-3889.3" font-family="Arial" font-size="14.00">Call(Dest)</text>
+<text text-anchor="start" x="4708.94" y="-3874.3" font-family="Arial" font-size="14.00">Return</text>
+<text text-anchor="start" x="4708.94" y="-3859.3" font-family="Arial" font-size="14.00">Recurse</text>
+<text text-anchor="start" x="4708.94" y="-3844.3" font-family="Arial" font-size="14.00">Assert</text>
+<text text-anchor="start" x="4708.94" y="-3829.3" font-family="Arial" font-size="14.00">Halt</text>
+<text text-anchor="start" x="4708.94" y="-3814.3" font-family="Arial" font-size="14.00">ReadMem</text>
+<text text-anchor="start" x="4708.94" y="-3799.3" font-family="Arial" font-size="14.00">WriteMem</text>
+<text text-anchor="start" x="4708.94" y="-3784.3" font-family="Arial" font-size="14.00">Hash</text>
+<text text-anchor="start" x="4708.94" y="-3769.3" font-family="Arial" font-size="14.00">DivineSibling</text>
+<text text-anchor="start" x="4708.94" y="-3754.3" font-family="Arial" font-size="14.00">AssertVector</text>
+<text text-anchor="start" x="4708.94" y="-3739.3" font-family="Arial" font-size="14.00">SpongeInit</text>
+<text text-anchor="start" x="4708.94" y="-3724.3" font-family="Arial" font-size="14.00">SpongeAbsorb</text>
+<text text-anchor="start" x="4708.94" y="-3709.3" font-family="Arial" font-size="14.00">SpongeSqueeze</text>
+<text text-anchor="start" x="4708.94" y="-3694.3" font-family="Arial" font-size="14.00">Add</text>
+<text text-anchor="start" x="4708.94" y="-3679.3" font-family="Arial" font-size="14.00">Mul</text>
+<text text-anchor="start" x="4708.94" y="-3664.3" font-family="Arial" font-size="14.00">Invert</text>
+<text text-anchor="start" x="4708.94" y="-3649.3" font-family="Arial" font-size="14.00">Eq</text>
+<text text-anchor="start" x="4708.94" y="-3634.3" font-family="Arial" font-size="14.00">Split</text>
+<text text-anchor="start" x="4708.94" y="-3619.3" font-family="Arial" font-size="14.00">Lt</text>
+<text text-anchor="start" x="4708.94" y="-3604.3" font-family="Arial" font-size="14.00">And</text>
+<text text-anchor="start" x="4708.94" y="-3589.3" font-family="Arial" font-size="14.00">Xor</text>
+<text text-anchor="start" x="4708.94" y="-3574.3" font-family="Arial" font-size="14.00">Log2Floor</text>
+<text text-anchor="start" x="4708.94" y="-3559.3" font-family="Arial" font-size="14.00">Pow</text>
+<text text-anchor="start" x="4708.94" y="-3544.3" font-family="Arial" font-size="14.00">DivMod</text>
+<text text-anchor="start" x="4708.94" y="-3529.3" font-family="Arial" font-size="14.00">PopCount</text>
+<text text-anchor="start" x="4708.94" y="-3514.3" font-family="Arial" font-size="14.00">XxAdd</text>
+<text text-anchor="start" x="4708.94" y="-3499.3" font-family="Arial" font-size="14.00">XxMul</text>
+<text text-anchor="start" x="4708.94" y="-3484.3" font-family="Arial" font-size="14.00">XInvert</text>
+<text text-anchor="start" x="4708.94" y="-3469.3" font-family="Arial" font-size="14.00">XbMul</text>
+<text text-anchor="start" x="4708.94" y="-3454.3" font-family="Arial" font-size="14.00">ReadIo</text>
+<text text-anchor="start" x="4708.94" y="-3439.3" font-family="Arial" font-size="14.00">WriteIo</text>
+<polygon fill="none" stroke="black" points="4696.94,-3424 4696.94,-4055 4870.94,-4055 4870.94,-3424 4696.94,-3424"/>
 </a>
 </g>
 </g>
@@ -129,7 +129,7 @@
 <!-- ndAnInstruction&#45;&gt;ndInstructionToken -->
 <g id="edge4" class="edge">
 <title>ndAnInstruction&#45;&gt;ndInstructionToken</title>
-<path fill="none" stroke="black" d="M4877.07,-3521.52C4892.37,-3476.83 4905.86,-3429.5 4913.94,-3384 4926.7,-3312.12 4918.12,-3228.51 4908.74,-3171.3"/>
+<path fill="none" stroke="black" d="M4879.01,-3515.8C4893.51,-3472.8 4906.21,-3427.57 4913.94,-3384 4926.7,-3312.12 4918.12,-3228.51 4908.74,-3171.3"/>
 <polygon fill="black" stroke="black" points="4908.69,-3170.98 4903.74,-3165.73 4906.68,-3159.15 4911.63,-3164.39 4908.69,-3170.98"/>
 </g>
 <!-- ndInstructionBit -->
@@ -162,23 +162,24 @@
 <g id="node4" class="node">
 <title>ndInstructionError</title>
 <g id="a_node4_5"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20InstructionError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3512.94,-3814.5 3512.94,-3851.5 4039.94,-3851.5 4039.94,-3814.5 3512.94,-3814.5"/>
-<polygon fill="none" stroke="black" points="3512.94,-3814.5 3512.94,-3851.5 4039.94,-3851.5 4039.94,-3814.5 3512.94,-3814.5"/>
-<text text-anchor="start" x="3724.94" y="-3830.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
-<polygon fill="white" stroke="transparent" points="3512.94,-3627.5 3512.94,-3814.5 4039.94,-3814.5 4039.94,-3627.5 3512.94,-3627.5"/>
-<polygon fill="none" stroke="black" points="3512.94,-3627.5 3512.94,-3814.5 4039.94,-3814.5 4039.94,-3627.5 3512.94,-3627.5"/>
-<text text-anchor="start" x="3523.94" y="-3792.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
-<text text-anchor="start" x="3523.94" y="-3777.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
-<text text-anchor="start" x="3523.94" y="-3762.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
-<text text-anchor="start" x="3523.94" y="-3747.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
-<text text-anchor="start" x="3523.94" y="-3732.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
-<text text-anchor="start" x="3523.94" y="-3717.3" font-family="Arial" font-size="14.00">IllegalPop(usize)</text>
-<text text-anchor="start" x="3523.94" y="-3702.3" font-family="Arial" font-size="14.00">SwapST0</text>
-<text text-anchor="start" x="3523.94" y="-3687.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
-<text text-anchor="start" x="3523.94" y="-3672.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
-<text text-anchor="start" x="3523.94" y="-3657.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
-<text text-anchor="start" x="3523.94" y="-3642.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
-<polygon fill="none" stroke="black" points="3511.44,-3626.5 3511.44,-3852.5 4040.44,-3852.5 4040.44,-3626.5 3511.44,-3626.5"/>
+<polygon fill="yellow" stroke="transparent" points="3512.94,-3821.5 3512.94,-3858.5 4039.94,-3858.5 4039.94,-3821.5 3512.94,-3821.5"/>
+<polygon fill="none" stroke="black" points="3512.94,-3821.5 3512.94,-3858.5 4039.94,-3858.5 4039.94,-3821.5 3512.94,-3821.5"/>
+<text text-anchor="start" x="3724.94" y="-3837.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
+<polygon fill="white" stroke="transparent" points="3512.94,-3619.5 3512.94,-3821.5 4039.94,-3821.5 4039.94,-3619.5 3512.94,-3619.5"/>
+<polygon fill="none" stroke="black" points="3512.94,-3619.5 3512.94,-3821.5 4039.94,-3821.5 4039.94,-3619.5 3512.94,-3619.5"/>
+<text text-anchor="start" x="3523.94" y="-3799.3" font-family="Arial" font-size="14.00">InstructionPointerOverflow(usize)</text>
+<text text-anchor="start" x="3523.94" y="-3784.3" font-family="Arial" font-size="14.00">OpStackTooShallow</text>
+<text text-anchor="start" x="3523.94" y="-3769.3" font-family="Arial" font-size="14.00">JumpStackIsEmpty</text>
+<text text-anchor="start" x="3523.94" y="-3754.3" font-family="Arial" font-size="14.00">AssertionFailed(usize, u32, BFieldElement)</text>
+<text text-anchor="start" x="3523.94" y="-3739.3" font-family="Arial" font-size="14.00">VectorAssertionFailed(usize, u32, OpStackElement, BFieldElement, BFieldElement)</text>
+<text text-anchor="start" x="3523.94" y="-3724.3" font-family="Arial" font-size="14.00">IllegalPop(usize)</text>
+<text text-anchor="start" x="3523.94" y="-3709.3" font-family="Arial" font-size="14.00">IllegalDivine(usize)</text>
+<text text-anchor="start" x="3523.94" y="-3694.3" font-family="Arial" font-size="14.00">SwapST0</text>
+<text text-anchor="start" x="3523.94" y="-3679.3" font-family="Arial" font-size="14.00">InverseOfZero</text>
+<text text-anchor="start" x="3523.94" y="-3664.3" font-family="Arial" font-size="14.00">DivisionByZero</text>
+<text text-anchor="start" x="3523.94" y="-3649.3" font-family="Arial" font-size="14.00">LogarithmOfZero</text>
+<text text-anchor="start" x="3523.94" y="-3634.3" font-family="Arial" font-size="14.00">FailedU32Conversion(BFieldElement)</text>
+<polygon fill="none" stroke="black" points="3511.44,-3619 3511.44,-3860 4040.44,-3860 4040.44,-3619 3511.44,-3619"/>
 </a>
 </g>
 </g>
@@ -212,28 +213,29 @@
 <!-- ndInstructionError&#45;&gt;ndVMState -->
 <g id="edge6" class="edge">
 <title>ndInstructionError&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M3787.97,-3622.38C3800.55,-3514.52 3823.34,-3349.94 3857.94,-3210 3908.1,-3007.15 3990.54,-2780.3 4046.48,-2635.96"/>
-<polygon fill="black" stroke="black" points="4050.12,-2626.57 4050.7,-2637.53 4048.31,-2631.24 4046.5,-2635.9 4046.5,-2635.9 4046.5,-2635.9 4048.31,-2631.24 4042.31,-2634.27 4050.12,-2626.57 4050.12,-2626.57"/>
+<path fill="none" stroke="black" d="M3751.65,-3614.85C3735.23,-3505.81 3723.17,-3343.89 3763.94,-3210 3797.62,-3099.39 3855.42,-3096.49 3908.94,-2994 3969.5,-2878.02 4022.3,-2739.07 4057.95,-2636.14"/>
+<polygon fill="black" stroke="black" points="4061.24,-2626.61 4062.24,-2637.53 4059.61,-2631.34 4057.98,-2636.06 4057.98,-2636.06 4057.98,-2636.06 4059.61,-2631.34 4053.73,-2634.6 4061.24,-2626.61 4061.24,-2626.61"/>
 </g>
 <!-- ndOpStack -->
 <g id="node5" class="node">
 <title>ndOpStack</title>
 <g id="a_node5_7"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/op_stack.rs#:~:text=struct%20OpStack" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3876.94,-3297 3876.94,-3334 4077.94,-3334 4077.94,-3297 3876.94,-3297"/>
-<polygon fill="none" stroke="black" points="3876.94,-3297 3876.94,-3334 4077.94,-3334 4077.94,-3297 3876.94,-3297"/>
-<text text-anchor="start" x="3949.44" y="-3312.8" font-family="Arial" font-weight="bold" font-size="14.00">OpStack</text>
-<polygon fill="white" stroke="transparent" points="3876.94,-3260 3876.94,-3297 4077.94,-3297 4077.94,-3260 3876.94,-3260"/>
-<polygon fill="none" stroke="black" points="3876.94,-3260 3876.94,-3297 4077.94,-3297 4077.94,-3260 3876.94,-3260"/>
-<text text-anchor="start" x="3887.94" y="-3274.8" font-family="Arial" font-size="14.00">+ stack: Vec&lt;BFieldElement&gt;</text>
-<polygon fill="none" stroke="black" points="3875.44,-3259 3875.44,-3335 4078.44,-3335 4078.44,-3259 3875.44,-3259"/>
+<polygon fill="lightblue" stroke="transparent" points="3781.94,-3304 3781.94,-3341 4077.94,-3341 4077.94,-3304 3781.94,-3304"/>
+<polygon fill="none" stroke="black" points="3781.94,-3304 3781.94,-3341 4077.94,-3341 4077.94,-3304 3781.94,-3304"/>
+<text text-anchor="start" x="3901.94" y="-3319.8" font-family="Arial" font-weight="bold" font-size="14.00">OpStack</text>
+<polygon fill="white" stroke="transparent" points="3781.94,-3252 3781.94,-3304 4077.94,-3304 4077.94,-3252 3781.94,-3252"/>
+<polygon fill="none" stroke="black" points="3781.94,-3252 3781.94,-3304 4077.94,-3304 4077.94,-3252 3781.94,-3252"/>
+<text text-anchor="start" x="3792.94" y="-3281.8" font-family="Arial" font-size="14.00">+ stack: Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="3792.94" y="-3266.8" font-family="Arial" font-size="14.00">&#45; underflow_io_sequence: Vec&lt;UnderflowIO&gt;</text>
+<polygon fill="none" stroke="black" points="3780.94,-3251.5 3780.94,-3342.5 4078.94,-3342.5 4078.94,-3251.5 3780.94,-3251.5"/>
 </a>
 </g>
 </g>
 <!-- ndOpStack&#45;&gt;ndVMState -->
 <g id="edge7" class="edge">
 <title>ndOpStack&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M3983.52,-3254.82C4001.4,-3142.82 4051.6,-2828.37 4081.88,-2638.72"/>
-<polygon fill="black" stroke="black" points="4081.91,-2638.54 4078.9,-2631.99 4083.8,-2626.69 4086.8,-2633.25 4081.91,-2638.54"/>
+<path fill="none" stroke="black" d="M3940.55,-3247.28C3966.27,-3129.2 4032.79,-2823.84 4073.2,-2638.33"/>
+<polygon fill="black" stroke="black" points="4073.2,-2638.29 4070.57,-2631.58 4075.76,-2626.57 4078.39,-2633.28 4073.2,-2638.29"/>
 </g>
 <!-- ndUnderflowIO -->
 <g id="node6" class="node">
@@ -253,8 +255,8 @@
 <!-- ndUnderflowIO&#45;&gt;ndOpStack -->
 <g id="edge8" class="edge">
 <title>ndUnderflowIO&#45;&gt;ndOpStack</title>
-<path fill="none" stroke="black" d="M3399.8,-3689.96C3402.37,-3619.85 3417.95,-3490.88 3493.94,-3420 3548.2,-3369.4 3584.88,-3401.63 3656.94,-3384 3723.5,-3367.71 3797.41,-3347.96 3857.41,-3331.5"/>
-<polygon fill="black" stroke="black" points="3867.29,-3328.78 3858.84,-3335.77 3862.47,-3330.11 3857.65,-3331.43 3857.65,-3331.43 3857.65,-3331.43 3862.47,-3330.11 3856.46,-3327.09 3867.29,-3328.78 3867.29,-3328.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3399.8,-3689.96C3402.37,-3619.85 3417.95,-3490.88 3493.94,-3420 3548.2,-3369.4 3585.27,-3403.16 3656.94,-3384 3694.57,-3373.94 3734.76,-3361.97 3772.4,-3350.22"/>
+<polygon fill="black" stroke="black" points="3772.55,-3350.17 3777.07,-3344.56 3784,-3346.58 3779.47,-3352.19 3772.55,-3350.17"/>
 </g>
 <!-- ndOpStackTableEntry -->
 <g id="node76" class="node">
@@ -310,20 +312,20 @@
 <!-- ndOpStackElement&#45;&gt;ndAnInstruction -->
 <g id="edge10" class="edge">
 <title>ndOpStackElement&#45;&gt;ndAnInstruction</title>
-<path fill="none" stroke="black" d="M4170.55,-4193.41C4293.95,-4102.29 4540.81,-3920.02 4680.81,-3816.65"/>
-<polygon fill="black" stroke="black" points="4681.05,-3816.47 4683.5,-3809.69 4690.7,-3809.35 4688.25,-3816.13 4681.05,-3816.47"/>
+<path fill="none" stroke="black" d="M4170.55,-4193.41C4293.36,-4102.73 4538.43,-3921.78 4678.78,-3818.15"/>
+<polygon fill="black" stroke="black" points="4679.04,-3817.95 4681.5,-3811.17 4688.7,-3810.82 4686.25,-3817.61 4679.04,-3817.95"/>
 </g>
 <!-- ndOpStackElement&#45;&gt;ndInstructionError -->
 <g id="edge11" class="edge">
 <title>ndOpStackElement&#45;&gt;ndInstructionError</title>
-<path fill="none" stroke="black" d="M4021.32,-4130.04C3971.55,-4051.03 3906.2,-3947.28 3855.45,-3866.72"/>
-<polygon fill="black" stroke="black" points="3855.42,-3866.67 3848.84,-3863.73 3849.02,-3856.52 3855.61,-3859.46 3855.42,-3866.67"/>
+<path fill="none" stroke="black" d="M4021.32,-4130.04C3973.16,-4053.58 3910.4,-3953.95 3860.4,-3874.58"/>
+<polygon fill="black" stroke="black" points="3860.15,-3874.17 3853.56,-3871.23 3853.75,-3864.02 3860.33,-3866.97 3860.15,-3874.17"/>
 </g>
 <!-- ndOpStackElement&#45;&gt;ndOpStack -->
 <g id="edge12" class="edge">
 <title>ndOpStackElement&#45;&gt;ndOpStack</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4098.33,-4094.7C4099.85,-3890.38 4096.24,-3541.13 4056.94,-3420 4048.52,-3394.05 4033.03,-3368.34 4017.9,-3347.27"/>
-<polygon fill="black" stroke="black" points="4011.91,-3339.13 4021.46,-3344.52 4014.88,-3343.15 4017.84,-3347.18 4017.84,-3347.18 4017.84,-3347.18 4014.88,-3343.15 4014.21,-3349.85 4011.91,-3339.13 4011.91,-3339.13"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4094.83,-4094.88C4092.29,-3872.16 4083.99,-3479.57 4056.94,-3420 4045.46,-3394.71 4026.13,-3372.01 4005.98,-3353.24"/>
+<polygon fill="black" stroke="black" points="3998.52,-3346.5 4008.96,-3349.87 4002.23,-3349.86 4005.94,-3353.21 4005.94,-3353.21 4005.94,-3353.21 4002.23,-3349.86 4002.93,-3356.55 3998.52,-3346.5 3998.52,-3346.5"/>
 </g>
 <!-- ndOpStackElement&#45;&gt;ndVMState -->
 <g id="edge13" class="edge">
@@ -453,8 +455,8 @@
 <!-- ndCoProcessorCall&#45;&gt;ndVMState -->
 <g id="edge18" class="edge">
 <title>ndCoProcessorCall&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M3619.04,-3066.08C3744.35,-3038.81 3897.51,-3003.94 3908.94,-2994 4013.25,-2903.34 4062.7,-2750.58 4085.91,-2636.57"/>
-<polygon fill="black" stroke="black" points="4087.87,-2626.7 4090.33,-2637.39 4086.9,-2631.61 4085.92,-2636.51 4085.92,-2636.51 4085.92,-2636.51 4086.9,-2631.61 4081.51,-2635.63 4087.87,-2626.7 4087.87,-2626.7"/>
+<path fill="none" stroke="black" d="M3619.15,-3057.26C3655.85,-3047.9 3694.65,-3038.33 3730.94,-3030 3809.61,-3011.94 3847.18,-3045.97 3908.94,-2994 4014.95,-2904.8 4064.17,-2751.25 4086.86,-2636.63"/>
+<polygon fill="black" stroke="black" points="4088.78,-2626.71 4091.3,-2637.39 4087.83,-2631.62 4086.88,-2636.53 4086.88,-2636.53 4086.88,-2636.53 4087.83,-2631.62 4082.46,-2635.68 4088.78,-2626.71 4088.78,-2626.71"/>
 </g>
 <!-- ndCoProcessorCall&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge19" class="edge">
