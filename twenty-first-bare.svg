@@ -21,9 +21,9 @@
 </g>
 </g>
 <!-- ndTip5State -->
-<g id="node51" class="node">
+<g id="node52" class="node">
 <title>ndTip5State</title>
-<g id="a_node51_1"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/tip5.rs#:~:text=struct%20Tip5State" xlink:title="&lt;TABLE&gt;">
+<g id="a_node52_1"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/tip5.rs#:~:text=struct%20Tip5State" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1234,-253.5 1234,-290.5 1317,-290.5 1317,-253.5 1234,-253.5"/>
 <polygon fill="none" stroke="black" points="1234,-253.5 1234,-290.5 1317,-290.5 1317,-253.5 1234,-253.5"/>
 <text text-anchor="start" x="1245" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5State</text>
@@ -49,9 +49,9 @@
 </g>
 </g>
 <!-- ndTip5 -->
-<g id="node52" class="node">
+<g id="node53" class="node">
 <title>ndTip5</title>
-<g id="a_node52_3"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/tip5.rs#:~:text=struct%20Tip5" xlink:title="&lt;TABLE&gt;">
+<g id="a_node53_3"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/tip5.rs#:~:text=struct%20Tip5" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="965,-87.5 965,-124.5 1015,-124.5 1015,-87.5 965,-87.5"/>
 <polygon fill="none" stroke="black" points="965,-87.5 965,-124.5 1015,-124.5 1015,-87.5 965,-87.5"/>
 <text text-anchor="start" x="976" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5</text>
@@ -97,10 +97,10 @@
 <g id="node5" class="node">
 <title>ndMerkleTreeMaker</title>
 <g id="a_node5_6"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/merkle_tree_maker.rs#:~:text=trait%20MerkleTreeMaker" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="1354,-419.5 1354,-456.5 1488,-456.5 1488,-419.5 1354,-419.5"/>
-<polygon fill="none" stroke="black" points="1354,-419.5 1354,-456.5 1488,-456.5 1488,-419.5 1354,-419.5"/>
-<text text-anchor="start" x="1365" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">MerkleTreeMaker</text>
-<polygon fill="none" stroke="black" points="1353,-419 1353,-458 1489,-458 1489,-419 1353,-419"/>
+<polygon fill="lightgreen" stroke="transparent" points="1351,-419.5 1351,-456.5 1485,-456.5 1485,-419.5 1351,-419.5"/>
+<polygon fill="none" stroke="black" points="1351,-419.5 1351,-456.5 1485,-456.5 1485,-419.5 1351,-419.5"/>
+<text text-anchor="start" x="1362" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">MerkleTreeMaker</text>
+<polygon fill="none" stroke="black" points="1350,-419 1350,-458 1486,-458 1486,-419 1350,-419"/>
 </a>
 </g>
 </g>
@@ -119,10 +119,10 @@
 <g id="node7" class="node">
 <title>ndProofStreamError</title>
 <g id="a_node7_8"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/proof_stream_typed.rs#:~:text=struct%20ProofStreamError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1713,-419.5 1713,-456.5 1850,-456.5 1850,-419.5 1713,-419.5"/>
-<polygon fill="none" stroke="black" points="1713,-419.5 1713,-456.5 1850,-456.5 1850,-419.5 1713,-419.5"/>
-<text text-anchor="start" x="1724" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">ProofStreamError</text>
-<polygon fill="none" stroke="black" points="1711.5,-419 1711.5,-458 1850.5,-458 1850.5,-419 1711.5,-419"/>
+<polygon fill="lightblue" stroke="transparent" points="1650,-419.5 1650,-456.5 1787,-456.5 1787,-419.5 1650,-419.5"/>
+<polygon fill="none" stroke="black" points="1650,-419.5 1650,-456.5 1787,-456.5 1787,-419.5 1650,-419.5"/>
+<text text-anchor="start" x="1661" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">ProofStreamError</text>
+<polygon fill="none" stroke="black" points="1648.5,-419 1648.5,-458 1787.5,-458 1787.5,-419 1648.5,-419"/>
 </a>
 </g>
 </g>
@@ -212,9 +212,9 @@
 </g>
 </g>
 <!-- ndBFieldElement -->
-<g id="node57" class="node">
+<g id="node58" class="node">
 <title>ndBFieldElement</title>
-<g id="a_node57_14"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/b_field_element.rs#:~:text=struct%20BFieldElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node58_14"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/b_field_element.rs#:~:text=struct%20BFieldElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="732,-336.5 732,-373.5 849,-373.5 849,-336.5 732,-336.5"/>
 <polygon fill="none" stroke="black" points="732,-336.5 732,-373.5 849,-373.5 849,-336.5 732,-336.5"/>
 <text text-anchor="start" x="743" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">BFieldElement</text>
@@ -229,9 +229,9 @@
 <polygon fill="none" stroke="black" points="868.14,-362.88 857.76,-364.98 867.18,-369.82 868.14,-362.88"/>
 </g>
 <!-- ndXFieldElement -->
-<g id="node58" class="node">
+<g id="node59" class="node">
 <title>ndXFieldElement</title>
-<g id="a_node58_15"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/x_field_element.rs#:~:text=struct%20XFieldElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node59_15"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/x_field_element.rs#:~:text=struct%20XFieldElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="328,-170.5 328,-207.5 444,-207.5 444,-170.5 328,-170.5"/>
 <polygon fill="none" stroke="black" points="328,-170.5 328,-207.5 444,-207.5 444,-170.5 328,-170.5"/>
 <text text-anchor="start" x="339" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">XFieldElement</text>
@@ -246,9 +246,9 @@
 <polygon fill="none" stroke="black" points="463.73,-209.19 453.35,-211.33 462.8,-216.13 463.73,-209.19"/>
 </g>
 <!-- ndDigest -->
-<g id="node59" class="node">
+<g id="node60" class="node">
 <title>ndDigest</title>
-<g id="a_node59_16"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/digest.rs#:~:text=struct%20Digest" xlink:title="&lt;TABLE&gt;">
+<g id="a_node60_16"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/digest.rs#:~:text=struct%20Digest" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1390,-253.5 1390,-290.5 1454,-290.5 1454,-253.5 1390,-253.5"/>
 <polygon fill="none" stroke="black" points="1390,-253.5 1390,-290.5 1454,-290.5 1454,-253.5 1390,-253.5"/>
 <text text-anchor="start" x="1401" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Digest</text>
@@ -266,10 +266,10 @@
 <g id="node13" class="node">
 <title>ndDatabaseArray</title>
 <g id="a_node13_17"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/database_array.rs#:~:text=struct%20DatabaseArray" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1980,-419.5 1980,-456.5 2098,-456.5 2098,-419.5 1980,-419.5"/>
-<polygon fill="none" stroke="black" points="1980,-419.5 1980,-456.5 2098,-456.5 2098,-419.5 1980,-419.5"/>
-<text text-anchor="start" x="1991" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DatabaseArray</text>
-<polygon fill="none" stroke="black" points="1979,-419 1979,-458 2099,-458 2099,-419 1979,-419"/>
+<polygon fill="lightblue" stroke="transparent" points="1887,-419.5 1887,-456.5 2005,-456.5 2005,-419.5 1887,-419.5"/>
+<polygon fill="none" stroke="black" points="1887,-419.5 1887,-456.5 2005,-456.5 2005,-419.5 1887,-419.5"/>
+<text text-anchor="start" x="1898" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DatabaseArray</text>
+<polygon fill="none" stroke="black" points="1886,-419 1886,-458 2006,-458 2006,-419 1886,-419"/>
 </a>
 </g>
 </g>
@@ -313,9 +313,9 @@
 <polygon fill="black" stroke="black" points="2438.59,-296.22 2449.48,-297.55 2442.87,-298.81 2447.15,-301.4 2447.15,-301.4 2447.15,-301.4 2442.87,-298.81 2444.82,-305.25 2438.59,-296.22 2438.59,-296.22"/>
 </g>
 <!-- ndDbtSingleton -->
-<g id="node21" class="node">
+<g id="node22" class="node">
 <title>ndDbtSingleton</title>
-<g id="a_node21_21"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20DbtSingleton" xlink:title="&lt;TABLE&gt;">
+<g id="a_node22_21"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20DbtSingleton" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2472,-253.5 2472,-290.5 2579,-290.5 2579,-253.5 2472,-253.5"/>
 <polygon fill="none" stroke="black" points="2472,-253.5 2472,-290.5 2579,-290.5 2579,-253.5 2472,-253.5"/>
 <text text-anchor="start" x="2483" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">DbtSingleton</text>
@@ -364,9 +364,9 @@
 </g>
 </g>
 <!-- ndRustyReader -->
-<g id="node26" class="node">
+<g id="node27" class="node">
 <title>ndRustyReader</title>
-<g id="a_node26_24"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyReader" xlink:title="&lt;TABLE&gt;">
+<g id="a_node27_24"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyReader" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2073,-87.5 2073,-124.5 2179,-124.5 2179,-87.5 2073,-87.5"/>
 <polygon fill="none" stroke="black" points="2073,-87.5 2073,-124.5 2179,-124.5 2179,-87.5 2073,-87.5"/>
 <text text-anchor="start" x="2084" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyReader</text>
@@ -381,9 +381,9 @@
 <polygon fill="none" stroke="black" points="2059.96,-136.97 2068.01,-130.08 2057.42,-130.45 2059.96,-136.97"/>
 </g>
 <!-- ndSimpleRustyReader -->
-<g id="node28" class="node">
+<g id="node29" class="node">
 <title>ndSimpleRustyReader</title>
-<g id="a_node28_25"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20SimpleRustyReader" xlink:title="&lt;TABLE&gt;">
+<g id="a_node29_25"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20SimpleRustyReader" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1887,-87.5 1887,-124.5 2038,-124.5 2038,-87.5 1887,-87.5"/>
 <polygon fill="none" stroke="black" points="1887,-87.5 1887,-124.5 2038,-124.5 2038,-87.5 1887,-87.5"/>
 <text text-anchor="start" x="1898" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SimpleRustyReader</text>
@@ -415,9 +415,9 @@
 <polygon fill="black" stroke="black" points="2349.8,-301.9 2353.11,-295.5 2360.3,-296.08 2356.99,-302.49 2349.8,-301.9"/>
 </g>
 <!-- ndDbtSchema -->
-<g id="node22" class="node">
+<g id="node23" class="node">
 <title>ndDbtSchema</title>
-<g id="a_node22_27"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20DbtSchema" xlink:title="&lt;TABLE&gt;">
+<g id="a_node23_27"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20DbtSchema" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2414,-170.5 2414,-207.5 2512,-207.5 2512,-170.5 2414,-170.5"/>
 <polygon fill="none" stroke="black" points="2414,-170.5 2414,-207.5 2512,-207.5 2512,-170.5 2414,-170.5"/>
 <text text-anchor="start" x="2425" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">DbtSchema</text>
@@ -431,14 +431,25 @@
 <path fill="none" stroke="black" d="M2418.27,-248.94C2424.8,-240.41 2432.35,-230.55 2439.36,-221.38"/>
 <polygon fill="black" stroke="black" points="2445.61,-213.22 2443.1,-223.9 2442.57,-217.19 2439.53,-221.16 2439.53,-221.16 2439.53,-221.16 2442.57,-217.19 2435.96,-218.43 2445.61,-213.22 2445.61,-213.22"/>
 </g>
-<!-- ndStorageSingleton -->
+<!-- ndWithLock -->
 <g id="node20" class="node">
+<title>ndWithLock</title>
+<g id="a_node20_28"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=trait%20WithLock" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgreen" stroke="transparent" points="2074,-419.5 2074,-456.5 2157,-456.5 2157,-419.5 2074,-419.5"/>
+<polygon fill="none" stroke="black" points="2074,-419.5 2074,-456.5 2157,-456.5 2157,-419.5 2074,-419.5"/>
+<text text-anchor="start" x="2085" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">WithLock</text>
+<polygon fill="none" stroke="black" points="2072.5,-419 2072.5,-458 2157.5,-458 2157.5,-419 2072.5,-419"/>
+</a>
+</g>
+</g>
+<!-- ndStorageSingleton -->
+<g id="node21" class="node">
 <title>ndStorageSingleton</title>
-<g id="a_node20_28"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=trait%20StorageSingleton" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="2181,-419.5 2181,-456.5 2315,-456.5 2315,-419.5 2181,-419.5"/>
-<polygon fill="none" stroke="black" points="2181,-419.5 2181,-456.5 2315,-456.5 2315,-419.5 2181,-419.5"/>
-<text text-anchor="start" x="2192" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">StorageSingleton</text>
-<polygon fill="none" stroke="black" points="2180,-419 2180,-458 2316,-458 2316,-419 2180,-419"/>
+<g id="a_node21_29"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=trait%20StorageSingleton" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightgreen" stroke="transparent" points="2209,-419.5 2209,-456.5 2343,-456.5 2343,-419.5 2209,-419.5"/>
+<polygon fill="none" stroke="black" points="2209,-419.5 2209,-456.5 2343,-456.5 2343,-419.5 2209,-419.5"/>
+<text text-anchor="start" x="2220" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">StorageSingleton</text>
+<polygon fill="none" stroke="black" points="2208,-419 2208,-458 2344,-458 2344,-419 2208,-419"/>
 </a>
 </g>
 </g>
@@ -449,9 +460,9 @@
 <polygon fill="black" stroke="black" points="2480.39,-213.22 2490.04,-218.43 2483.43,-217.19 2486.47,-221.16 2486.47,-221.16 2486.47,-221.16 2483.43,-217.19 2482.9,-223.9 2480.39,-213.22 2480.39,-213.22"/>
 </g>
 <!-- ndSimpleRustyStorage -->
-<g id="node27" class="node">
+<g id="node28" class="node">
 <title>ndSimpleRustyStorage</title>
-<g id="a_node27_29"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20SimpleRustyStorage" xlink:title="&lt;TABLE&gt;">
+<g id="a_node28_30"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20SimpleRustyStorage" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2245,-87.5 2245,-124.5 2400,-124.5 2400,-87.5 2245,-87.5"/>
 <polygon fill="none" stroke="black" points="2245,-87.5 2245,-124.5 2400,-124.5 2400,-87.5 2245,-87.5"/>
 <text text-anchor="start" x="2256" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">SimpleRustyStorage</text>
@@ -466,9 +477,9 @@
 <polygon fill="black" stroke="black" points="2371.96,-136.2 2364.76,-136.68 2361.55,-130.22 2368.75,-129.74 2371.96,-136.2"/>
 </g>
 <!-- ndStorageWriter -->
-<g id="node23" class="node">
+<g id="node24" class="node">
 <title>ndStorageWriter</title>
-<g id="a_node23_30"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=trait%20StorageWriter" xlink:title="&lt;TABLE&gt;">
+<g id="a_node24_31"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=trait%20StorageWriter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="2266,-170.5 2266,-207.5 2378,-207.5 2378,-170.5 2266,-170.5"/>
 <polygon fill="none" stroke="black" points="2266,-170.5 2266,-207.5 2378,-207.5 2378,-170.5 2266,-170.5"/>
 <text text-anchor="start" x="2277" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">StorageWriter</text>
@@ -483,9 +494,9 @@
 <polygon fill="none" stroke="black" points="2325.5,-140.22 2322,-130.22 2318.5,-140.22 2325.5,-140.22"/>
 </g>
 <!-- ndRustyKey -->
-<g id="node24" class="node">
+<g id="node25" class="node">
 <title>ndRustyKey</title>
-<g id="a_node24_31"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyKey" xlink:title="&lt;TABLE&gt;">
+<g id="a_node25_32"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyKey" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2145,-170.5 2145,-207.5 2230,-207.5 2230,-170.5 2145,-170.5"/>
 <polygon fill="none" stroke="black" points="2145,-170.5 2145,-207.5 2230,-207.5 2230,-170.5 2145,-170.5"/>
 <text text-anchor="start" x="2156" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyKey</text>
@@ -512,9 +523,9 @@
 <polygon fill="black" stroke="black" points="2025.92,-130.12 2036.85,-129.23 2030.63,-131.8 2035.34,-133.47 2035.34,-133.47 2035.34,-133.47 2030.63,-131.8 2033.84,-137.71 2025.92,-130.12 2025.92,-130.12"/>
 </g>
 <!-- ndRustyValue -->
-<g id="node25" class="node">
+<g id="node26" class="node">
 <title>ndRustyValue</title>
-<g id="a_node25_32"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyValue" xlink:title="&lt;TABLE&gt;">
+<g id="a_node26_33"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_schema.rs#:~:text=struct%20RustyValue" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2014,-170.5 2014,-207.5 2109,-207.5 2109,-170.5 2014,-170.5"/>
 <polygon fill="none" stroke="black" points="2014,-170.5 2014,-207.5 2109,-207.5 2109,-170.5 2014,-170.5"/>
 <text text-anchor="start" x="2025" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyValue</text>
@@ -535,31 +546,31 @@
 <polygon fill="black" stroke="black" points="1989.77,-130.22 2000.36,-133.07 1993.64,-133.39 1997.51,-136.56 1997.51,-136.56 1997.51,-136.56 1993.64,-133.39 1994.66,-140.04 1989.77,-130.22 1989.77,-130.22"/>
 </g>
 <!-- ndNode -->
-<g id="node29" class="node">
+<g id="node30" class="node">
 <title>ndNode</title>
-<g id="a_node29_33"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/tree_m_ary.rs#:~:text=struct%20Node" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2375,-419.5 2375,-456.5 2431,-456.5 2431,-419.5 2375,-419.5"/>
-<polygon fill="none" stroke="black" points="2375,-419.5 2375,-456.5 2431,-456.5 2431,-419.5 2375,-419.5"/>
-<text text-anchor="start" x="2386" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Node</text>
-<polygon fill="none" stroke="black" points="2374,-419 2374,-458 2432,-458 2432,-419 2374,-419"/>
+<g id="a_node30_34"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/tree_m_ary.rs#:~:text=struct%20Node" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="2387,-419.5 2387,-456.5 2443,-456.5 2443,-419.5 2387,-419.5"/>
+<polygon fill="none" stroke="black" points="2387,-419.5 2387,-456.5 2443,-456.5 2443,-419.5 2387,-419.5"/>
+<text text-anchor="start" x="2398" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Node</text>
+<polygon fill="none" stroke="black" points="2386,-419 2386,-458 2444,-458 2444,-419 2386,-419"/>
 </a>
 </g>
 </g>
 <!-- ndDatabaseVector -->
-<g id="node30" class="node">
+<g id="node31" class="node">
 <title>ndDatabaseVector</title>
-<g id="a_node30_34"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/database_vector.rs#:~:text=struct%20DatabaseVector" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2479,-419.5 2479,-456.5 2603,-456.5 2603,-419.5 2479,-419.5"/>
-<polygon fill="none" stroke="black" points="2479,-419.5 2479,-456.5 2603,-456.5 2603,-419.5 2479,-419.5"/>
-<text text-anchor="start" x="2490" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DatabaseVector</text>
-<polygon fill="none" stroke="black" points="2478,-419 2478,-458 2604,-458 2604,-419 2478,-419"/>
+<g id="a_node31_35"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/database_vector.rs#:~:text=struct%20DatabaseVector" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="2483,-419.5 2483,-456.5 2607,-456.5 2607,-419.5 2483,-419.5"/>
+<polygon fill="none" stroke="black" points="2483,-419.5 2483,-456.5 2607,-456.5 2607,-419.5 2483,-419.5"/>
+<text text-anchor="start" x="2494" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DatabaseVector</text>
+<polygon fill="none" stroke="black" points="2482,-419 2482,-458 2608,-458 2608,-419 2482,-419"/>
 </a>
 </g>
 </g>
 <!-- ndStorageVec -->
-<g id="node31" class="node">
+<g id="node32" class="node">
 <title>ndStorageVec</title>
-<g id="a_node31_35"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=trait%20StorageVec" xlink:title="&lt;TABLE&gt;">
+<g id="a_node32_36"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=trait%20StorageVec" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="2799,-419.5 2799,-456.5 2895,-456.5 2895,-419.5 2799,-419.5"/>
 <polygon fill="none" stroke="black" points="2799,-419.5 2799,-456.5 2895,-456.5 2895,-419.5 2799,-419.5"/>
 <text text-anchor="start" x="2810" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">StorageVec</text>
@@ -568,9 +579,9 @@
 </g>
 </g>
 <!-- ndRustyLevelDbVec -->
-<g id="node33" class="node">
+<g id="node34" class="node">
 <title>ndRustyLevelDbVec</title>
-<g id="a_node33_36"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20RustyLevelDbVec" xlink:title="&lt;TABLE&gt;">
+<g id="a_node34_37"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20RustyLevelDbVec" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2632,-336.5 2632,-373.5 2768,-373.5 2768,-336.5 2632,-336.5"/>
 <polygon fill="none" stroke="black" points="2632,-336.5 2632,-373.5 2768,-373.5 2768,-336.5 2632,-336.5"/>
 <text text-anchor="start" x="2643" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">RustyLevelDbVec</text>
@@ -585,9 +596,9 @@
 <polygon fill="none" stroke="black" points="2751.43,-380.84 2740.98,-379.08 2748.05,-386.97 2751.43,-380.84"/>
 </g>
 <!-- ndOrdinaryVec -->
-<g id="node34" class="node">
+<g id="node35" class="node">
 <title>ndOrdinaryVec</title>
-<g id="a_node34_37"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20OrdinaryVec" xlink:title="&lt;TABLE&gt;">
+<g id="a_node35_38"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=struct%20OrdinaryVec" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2805,-336.5 2805,-373.5 2908,-373.5 2908,-336.5 2805,-336.5"/>
 <polygon fill="none" stroke="black" points="2805,-336.5 2805,-373.5 2908,-373.5 2908,-336.5 2805,-336.5"/>
 <text text-anchor="start" x="2816" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">OrdinaryVec</text>
@@ -602,9 +613,9 @@
 <polygon fill="none" stroke="black" points="2855.85,-389.55 2853.48,-379.22 2848.89,-388.78 2855.85,-389.55"/>
 </g>
 <!-- ndWriteElement -->
-<g id="node32" class="node">
+<g id="node33" class="node">
 <title>ndWriteElement</title>
-<g id="a_node32_38"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=enum%20WriteElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node33_39"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/storage_vec.rs#:~:text=enum%20WriteElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="2645,-419.5 2645,-456.5 2755,-456.5 2755,-419.5 2645,-419.5"/>
 <polygon fill="none" stroke="black" points="2645,-419.5 2645,-456.5 2755,-456.5 2755,-419.5 2645,-419.5"/>
 <text text-anchor="start" x="2656" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">WriteElement</text>
@@ -619,9 +630,9 @@
 <polygon fill="black" stroke="black" points="2700,-391.22 2696,-385.22 2700,-379.22 2704,-385.22 2700,-391.22"/>
 </g>
 <!-- ndCyclicGroupGenerator -->
-<g id="node35" class="node">
+<g id="node36" class="node">
 <title>ndCyclicGroupGenerator</title>
-<g id="a_node35_39"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20CyclicGroupGenerator" xlink:title="&lt;TABLE&gt;">
+<g id="a_node36_40"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20CyclicGroupGenerator" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="540,-419.5 540,-456.5 709,-456.5 709,-419.5 540,-419.5"/>
 <polygon fill="none" stroke="black" points="540,-419.5 540,-456.5 709,-456.5 709,-419.5 540,-419.5"/>
 <text text-anchor="start" x="551" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">CyclicGroupGenerator</text>
@@ -642,9 +653,9 @@
 <polygon fill="none" stroke="black" points="357.96,-223.15 361.72,-213.24 352.6,-218.64 357.96,-223.15"/>
 </g>
 <!-- ndInverse -->
-<g id="node36" class="node">
+<g id="node37" class="node">
 <title>ndInverse</title>
-<g id="a_node36_40"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20Inverse" xlink:title="&lt;TABLE&gt;">
+<g id="a_node37_41"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20Inverse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="149,-419.5 149,-456.5 219,-456.5 219,-419.5 149,-419.5"/>
 <polygon fill="none" stroke="black" points="149,-419.5 149,-456.5 219,-456.5 219,-419.5 149,-419.5"/>
 <text text-anchor="start" x="160" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">Inverse</text>
@@ -665,9 +676,9 @@
 <polygon fill="none" stroke="black" points="310.54,-210.21 318.94,-203.75 308.35,-203.56 310.54,-210.21"/>
 </g>
 <!-- ndPrimitiveRootOfUnity -->
-<g id="node37" class="node">
+<g id="node38" class="node">
 <title>ndPrimitiveRootOfUnity</title>
-<g id="a_node37_41"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20PrimitiveRootOfUnity" xlink:title="&lt;TABLE&gt;">
+<g id="a_node38_42"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20PrimitiveRootOfUnity" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="256,-419.5 256,-456.5 417,-456.5 417,-419.5 256,-419.5"/>
 <polygon fill="none" stroke="black" points="256,-419.5 256,-456.5 417,-456.5 417,-419.5 256,-419.5"/>
 <text text-anchor="start" x="267" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">PrimitiveRootOfUnity</text>
@@ -688,9 +699,9 @@
 <polygon fill="none" stroke="black" points="310.97,-214.15 318.71,-206.92 308.15,-207.75 310.97,-214.15"/>
 </g>
 <!-- ndModPowU64 -->
-<g id="node38" class="node">
+<g id="node39" class="node">
 <title>ndModPowU64</title>
-<g id="a_node38_42"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20ModPowU64" xlink:title="&lt;TABLE&gt;">
+<g id="a_node39_43"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20ModPowU64" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="871,-419.5 871,-456.5 975,-456.5 975,-419.5 871,-419.5"/>
 <polygon fill="none" stroke="black" points="871,-419.5 871,-456.5 975,-456.5 975,-419.5 871,-419.5"/>
 <text text-anchor="start" x="882" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">ModPowU64</text>
@@ -711,9 +722,9 @@
 <polygon fill="none" stroke="black" points="390.95,-222.68 386.5,-213.06 383.98,-223.35 390.95,-222.68"/>
 </g>
 <!-- ndModPowU32 -->
-<g id="node39" class="node">
+<g id="node40" class="node">
 <title>ndModPowU32</title>
-<g id="a_node39_43"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20ModPowU32" xlink:title="&lt;TABLE&gt;">
+<g id="a_node40_44"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20ModPowU32" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="9,-419.5 9,-456.5 113,-456.5 113,-419.5 9,-419.5"/>
 <polygon fill="none" stroke="black" points="9,-419.5 9,-456.5 113,-456.5 113,-419.5 9,-419.5"/>
 <text text-anchor="start" x="20" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">ModPowU32</text>
@@ -734,9 +745,9 @@
 <polygon fill="none" stroke="black" points="309.91,-208.61 318.72,-202.72 308.16,-201.83 309.91,-208.61"/>
 </g>
 <!-- ndNew -->
-<g id="node40" class="node">
+<g id="node41" class="node">
 <title>ndNew</title>
-<g id="a_node40_44"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20New" xlink:title="&lt;TABLE&gt;">
+<g id="a_node41_45"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20New" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="453,-419.5 453,-456.5 504,-456.5 504,-419.5 453,-419.5"/>
 <polygon fill="none" stroke="black" points="453,-419.5 453,-456.5 504,-456.5 504,-419.5 453,-419.5"/>
 <text text-anchor="start" x="464" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">New</text>
@@ -757,9 +768,9 @@
 <polygon fill="none" stroke="black" points="330.16,-221.8 336.38,-213.22 326.17,-216.05 330.16,-221.8"/>
 </g>
 <!-- ndFromVecu8 -->
-<g id="node41" class="node">
+<g id="node42" class="node">
 <title>ndFromVecu8</title>
-<g id="a_node41_45"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20FromVecu8" xlink:title="&lt;TABLE&gt;">
+<g id="a_node42_46"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20FromVecu8" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="1011,-419.5 1011,-456.5 1107,-456.5 1107,-419.5 1011,-419.5"/>
 <polygon fill="none" stroke="black" points="1011,-419.5 1011,-456.5 1107,-456.5 1107,-419.5 1011,-419.5"/>
 <text text-anchor="start" x="1022" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">FromVecu8</text>
@@ -780,9 +791,9 @@
 <polygon fill="none" stroke="black" points="463.72,-209.16 453.35,-211.32 462.81,-216.1 463.72,-209.16"/>
 </g>
 <!-- ndFiniteField -->
-<g id="node42" class="node">
+<g id="node43" class="node">
 <title>ndFiniteField</title>
-<g id="a_node42_46"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20FiniteField" xlink:title="&lt;TABLE&gt;">
+<g id="a_node43_47"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/traits.rs#:~:text=trait%20FiniteField" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="745,-419.5 745,-456.5 835,-456.5 835,-419.5 745,-419.5"/>
 <polygon fill="none" stroke="black" points="745,-419.5 745,-456.5 835,-456.5 835,-419.5 745,-419.5"/>
 <text text-anchor="start" x="756" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">FiniteField</text>
@@ -803,9 +814,9 @@
 <polygon fill="none" stroke="black" points="375.61,-223.62 375.95,-213.03 369.08,-221.09 375.61,-223.62"/>
 </g>
 <!-- ndPolynomialEvaluationDataNode -->
-<g id="node43" class="node">
+<g id="node44" class="node">
 <title>ndPolynomialEvaluationDataNode</title>
-<g id="a_node43_47"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=struct%20PolynomialEvaluationDataNode" xlink:title="&lt;TABLE&gt;">
+<g id="a_node44_48"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=struct%20PolynomialEvaluationDataNode" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="2932,-419.5 2932,-456.5 3159,-456.5 3159,-419.5 2932,-419.5"/>
 <polygon fill="none" stroke="black" points="2932,-419.5 2932,-456.5 3159,-456.5 3159,-419.5 2932,-419.5"/>
 <text text-anchor="start" x="2943" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">PolynomialEvaluationDataNode</text>
@@ -814,9 +825,9 @@
 </g>
 </g>
 <!-- ndMPolynomial -->
-<g id="node44" class="node">
+<g id="node45" class="node">
 <title>ndMPolynomial</title>
-<g id="a_node44_48"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=struct%20MPolynomial" xlink:title="&lt;TABLE&gt;">
+<g id="a_node45_49"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=struct%20MPolynomial" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="635,-170.5 635,-207.5 742,-207.5 742,-170.5 635,-170.5"/>
 <polygon fill="none" stroke="black" points="635,-170.5 635,-207.5 742,-207.5 742,-170.5 635,-170.5"/>
 <text text-anchor="start" x="646" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">MPolynomial</text>
@@ -825,9 +836,9 @@
 </g>
 </g>
 <!-- ndPrecalculationError -->
-<g id="node45" class="node">
+<g id="node46" class="node">
 <title>ndPrecalculationError</title>
-<g id="a_node45_49"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=enum%20PrecalculationError" xlink:title="&lt;TABLE&gt;">
+<g id="a_node46_50"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/mpolynomial.rs#:~:text=enum%20PrecalculationError" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="3195,-419.5 3195,-456.5 3343,-456.5 3343,-419.5 3195,-419.5"/>
 <polygon fill="none" stroke="black" points="3195,-419.5 3195,-456.5 3343,-456.5 3343,-419.5 3195,-419.5"/>
 <text text-anchor="start" x="3206" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">PrecalculationError</text>
@@ -836,9 +847,9 @@
 </g>
 </g>
 <!-- ndBinOp -->
-<g id="node46" class="node">
+<g id="node47" class="node">
 <title>ndBinOp</title>
-<g id="a_node46_50"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=enum%20BinOp" xlink:title="&lt;TABLE&gt;">
+<g id="a_node47_51"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=enum%20BinOp" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="3379,-419.5 3379,-456.5 3443,-456.5 3443,-419.5 3379,-419.5"/>
 <polygon fill="none" stroke="black" points="3379,-419.5 3379,-456.5 3443,-456.5 3443,-419.5 3379,-419.5"/>
 <text text-anchor="start" x="3390" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">BinOp</text>
@@ -847,9 +858,9 @@
 </g>
 </g>
 <!-- ndCircuitExpression -->
-<g id="node47" class="node">
+<g id="node48" class="node">
 <title>ndCircuitExpression</title>
-<g id="a_node47_51"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=enum%20CircuitExpression" xlink:title="&lt;TABLE&gt;">
+<g id="a_node48_52"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=enum%20CircuitExpression" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="3342,-336.5 3342,-373.5 3480,-373.5 3480,-336.5 3342,-336.5"/>
 <polygon fill="none" stroke="black" points="3342,-336.5 3342,-373.5 3480,-373.5 3480,-336.5 3342,-336.5"/>
 <text text-anchor="start" x="3353" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">CircuitExpression</text>
@@ -864,9 +875,9 @@
 <polygon fill="black" stroke="black" points="3411,-391.22 3407,-385.22 3411,-379.22 3415,-385.22 3411,-391.22"/>
 </g>
 <!-- ndCircuit -->
-<g id="node48" class="node">
+<g id="node49" class="node">
 <title>ndCircuit</title>
-<g id="a_node48_52"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20Circuit" xlink:title="&lt;TABLE&gt;">
+<g id="a_node49_53"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20Circuit" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3379,-253.5 3379,-290.5 3444,-290.5 3444,-253.5 3379,-253.5"/>
 <polygon fill="none" stroke="black" points="3379,-253.5 3379,-290.5 3444,-290.5 3444,-253.5 3379,-253.5"/>
 <text text-anchor="start" x="3390" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Circuit</text>
@@ -887,9 +898,9 @@
 <polygon fill="black" stroke="black" points="3417.68,-319.95 3421.4,-326.13 3417.12,-331.94 3413.41,-325.76 3417.68,-319.95"/>
 </g>
 <!-- ndCircuitMonad -->
-<g id="node49" class="node">
+<g id="node50" class="node">
 <title>ndCircuitMonad</title>
-<g id="a_node49_53"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20CircuitMonad" xlink:title="&lt;TABLE&gt;">
+<g id="a_node50_54"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20CircuitMonad" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3356,-170.5 3356,-207.5 3466,-207.5 3466,-170.5 3356,-170.5"/>
 <polygon fill="none" stroke="black" points="3356,-170.5 3356,-207.5 3466,-207.5 3466,-170.5 3356,-170.5"/>
 <text text-anchor="start" x="3367" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">CircuitMonad</text>
@@ -904,9 +915,9 @@
 <polygon fill="black" stroke="black" points="3411,-225.22 3407,-219.22 3411,-213.22 3415,-219.22 3411,-225.22"/>
 </g>
 <!-- ndCircuitBuilder -->
-<g id="node50" class="node">
+<g id="node51" class="node">
 <title>ndCircuitBuilder</title>
-<g id="a_node50_54"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20CircuitBuilder" xlink:title="&lt;TABLE&gt;">
+<g id="a_node51_55"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/circuit.rs#:~:text=struct%20CircuitBuilder" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3355,-87.5 3355,-124.5 3467,-124.5 3467,-87.5 3355,-87.5"/>
 <polygon fill="none" stroke="black" points="3355,-87.5 3355,-124.5 3467,-124.5 3467,-87.5 3355,-87.5"/>
 <text text-anchor="start" x="3366" y="-103.3" font-family="Arial" font-weight="bold" font-size="14.00">CircuitBuilder</text>
@@ -933,9 +944,9 @@
 <polygon fill="black" stroke="black" points="1024.11,-109.89 1034.46,-106.25 1029.09,-110.32 1034.08,-110.74 1034.08,-110.74 1034.08,-110.74 1029.09,-110.32 1033.7,-115.22 1024.11,-109.89 1024.11,-109.89"/>
 </g>
 <!-- ndPolynomial -->
-<g id="node53" class="node">
+<g id="node54" class="node">
 <title>ndPolynomial</title>
-<g id="a_node53_55"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/polynomial.rs#:~:text=struct%20Polynomial" xlink:title="&lt;TABLE&gt;">
+<g id="a_node54_56"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/polynomial.rs#:~:text=struct%20Polynomial" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="620,-253.5 620,-290.5 715,-290.5 715,-253.5 620,-253.5"/>
 <polygon fill="none" stroke="black" points="620,-253.5 620,-290.5 715,-290.5 715,-253.5 620,-253.5"/>
 <text text-anchor="start" x="631" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Polynomial</text>
@@ -956,9 +967,9 @@
 <polygon fill="black" stroke="black" points="453.36,-213.1 464.19,-211.4 458.18,-214.42 463,-215.74 463,-215.74 463,-215.74 458.18,-214.42 461.82,-220.08 453.36,-213.1 453.36,-213.1"/>
 </g>
 <!-- ndBFieldCodec -->
-<g id="node54" class="node">
+<g id="node55" class="node">
 <title>ndBFieldCodec</title>
-<g id="a_node54_56"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/bfield_codec.rs#:~:text=trait%20BFieldCodec" xlink:title="&lt;TABLE&gt;">
+<g id="a_node55_57"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/bfield_codec.rs#:~:text=trait%20BFieldCodec" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightgreen" stroke="transparent" points="993,-336.5 993,-373.5 1098,-373.5 1098,-336.5 993,-336.5"/>
 <polygon fill="none" stroke="black" points="993,-336.5 993,-373.5 1098,-373.5 1098,-336.5 993,-336.5"/>
 <text text-anchor="start" x="1004" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodec</text>
@@ -967,9 +978,9 @@
 </g>
 </g>
 <!-- ndU32s -->
-<g id="node60" class="node">
+<g id="node61" class="node">
 <title>ndU32s</title>
-<g id="a_node60_57"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/amount/u32s.rs#:~:text=struct%20U32s" xlink:title="&lt;TABLE&gt;">
+<g id="a_node61_58"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/amount/u32s.rs#:~:text=struct%20U32s" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="1043,-253.5 1043,-290.5 1098,-290.5 1098,-253.5 1043,-253.5"/>
 <polygon fill="none" stroke="black" points="1043,-253.5 1043,-290.5 1098,-290.5 1098,-253.5 1043,-253.5"/>
 <text text-anchor="start" x="1054" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">U32s</text>
@@ -984,9 +995,9 @@
 <polygon fill="none" stroke="black" points="1063.38,-306.81 1062.99,-296.22 1056.69,-304.75 1063.38,-306.81"/>
 </g>
 <!-- ndCyclotomicRingElement -->
-<g id="node55" class="node">
+<g id="node56" class="node">
 <title>ndCyclotomicRingElement</title>
-<g id="a_node55_58"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/lattice.rs#:~:text=struct%20CyclotomicRingElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node56_59"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/lattice.rs#:~:text=struct%20CyclotomicRingElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="751,-253.5 751,-290.5 930,-290.5 930,-253.5 751,-253.5"/>
 <polygon fill="none" stroke="black" points="751,-253.5 751,-290.5 930,-290.5 930,-253.5 751,-253.5"/>
 <text text-anchor="start" x="762" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">CyclotomicRingElement</text>
@@ -995,9 +1006,9 @@
 </g>
 </g>
 <!-- ndModuleElement -->
-<g id="node56" class="node">
+<g id="node57" class="node">
 <title>ndModuleElement</title>
-<g id="a_node56_59"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/lattice.rs#:~:text=struct%20ModuleElement" xlink:title="&lt;TABLE&gt;">
+<g id="a_node57_60"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/lattice.rs#:~:text=struct%20ModuleElement" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="778,-170.5 778,-207.5 902,-207.5 902,-170.5 778,-170.5"/>
 <polygon fill="none" stroke="black" points="778,-170.5 778,-207.5 902,-207.5 902,-170.5 778,-170.5"/>
 <text text-anchor="start" x="789" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">ModuleElement</text>
@@ -1132,9 +1143,9 @@
 <polygon fill="black" stroke="black" points="453.34,-211.37 463.94,-208.56 458.28,-212.18 463.21,-213 463.21,-213 463.21,-213 458.28,-212.18 462.48,-217.44 453.34,-211.37 453.34,-211.37"/>
 </g>
 <!-- ndDyadicRational -->
-<g id="node61" class="node">
+<g id="node62" class="node">
 <title>ndDyadicRational</title>
-<g id="a_node61_60"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/amount/dyadic_rationals.rs#:~:text=struct%20DyadicRational" xlink:title="&lt;TABLE&gt;">
+<g id="a_node62_61"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/amount/dyadic_rationals.rs#:~:text=struct%20DyadicRational" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3479,-419.5 3479,-456.5 3599,-456.5 3599,-419.5 3479,-419.5"/>
 <polygon fill="none" stroke="black" points="3479,-419.5 3479,-456.5 3599,-456.5 3599,-419.5 3479,-419.5"/>
 <text text-anchor="start" x="3490" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">DyadicRational</text>
@@ -1143,9 +1154,9 @@
 </g>
 </g>
 <!-- ndTimingReporter -->
-<g id="node62" class="node">
+<g id="node63" class="node">
 <title>ndTimingReporter</title>
-<g id="a_node62_61"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/timing_reporter.rs#:~:text=struct%20TimingReporter" xlink:title="&lt;TABLE&gt;">
+<g id="a_node63_62"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/timing_reporter.rs#:~:text=struct%20TimingReporter" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3629,-336.5 3629,-373.5 3753,-373.5 3753,-336.5 3629,-336.5"/>
 <polygon fill="none" stroke="black" points="3629,-336.5 3629,-373.5 3753,-373.5 3753,-336.5 3629,-336.5"/>
 <text text-anchor="start" x="3640" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">TimingReporter</text>
@@ -1154,9 +1165,9 @@
 </g>
 </g>
 <!-- ndTimingReport -->
-<g id="node63" class="node">
+<g id="node64" class="node">
 <title>ndTimingReport</title>
-<g id="a_node63_62"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/timing_reporter.rs#:~:text=struct%20TimingReport" xlink:title="&lt;TABLE&gt;">
+<g id="a_node64_63"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/timing_reporter.rs#:~:text=struct%20TimingReport" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3636,-419.5 3636,-456.5 3747,-456.5 3747,-419.5 3636,-419.5"/>
 <polygon fill="none" stroke="black" points="3636,-419.5 3636,-456.5 3747,-456.5 3747,-419.5 3636,-419.5"/>
 <text text-anchor="start" x="3647" y="-435.3" font-family="Arial" font-weight="bold" font-size="14.00">TimingReport</text>
