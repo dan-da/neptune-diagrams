@@ -1007,7 +1007,7 @@
 <text text-anchor="start" x="1789" y="-387.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyAuthenticationPathForLeafAndIndexList</text>
 <polygon fill="white" stroke="transparent" points="1778,-335 1778,-372 2096,-372 2096,-335 1778,-335"/>
 <polygon fill="none" stroke="black" points="1778,-335 1778,-372 2096,-372 2096,-335 1778,-335"/>
-<text text-anchor="start" x="1789" y="-349.8" font-family="Arial" font-size="14.00">&#45; list_type: ListType</text>
+<text text-anchor="start" x="1789" y="-349.8" font-family="Arial" font-size="14.00">+ list_type: ListType</text>
 <polygon fill="none" stroke="black" points="1777,-334 1777,-410 2097,-410 2097,-334 1777,-334"/>
 </a>
 </g>

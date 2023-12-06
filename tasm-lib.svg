@@ -1492,7 +1492,7 @@
 <text text-anchor="start" x="13502" y="-791.3" font-family="Arial" font-weight="bold" font-size="14.00">VerifyAuthenticationPathForLeafAndIndexList</text>
 <polygon fill="white" stroke="transparent" points="12770,-738.5 12770,-775.5 14530,-775.5 14530,-738.5 12770,-738.5"/>
 <polygon fill="none" stroke="black" points="12770,-738.5 12770,-775.5 14530,-775.5 14530,-738.5 12770,-738.5"/>
-<text text-anchor="start" x="12781" y="-753.3" font-family="Arial" font-size="14.00">&#45; list_type: ListType</text>
+<text text-anchor="start" x="12781" y="-753.3" font-family="Arial" font-size="14.00">+ list_type: ListType</text>
 <polygon fill="white" stroke="transparent" points="12770,-626.5 12770,-738.5 14530,-738.5 14530,-626.5 12770,-626.5"/>
 <polygon fill="none" stroke="black" points="12770,-626.5 12770,-738.5 14530,-738.5 14530,-626.5 12770,-626.5"/>
 <text text-anchor="start" x="12781" y="-716.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(crate::snippet::DataType, String)&gt;</text>
