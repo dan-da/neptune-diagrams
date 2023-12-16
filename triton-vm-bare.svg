@@ -98,10 +98,10 @@
 <g id="node4" class="node">
 <title>ndInstructionLabel</title>
 <g id="a_node4_5"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/instruction.rs#:~:text=struct%20InstructionLabel" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1565.22,-751.5 1565.22,-788.5 1693.22,-788.5 1693.22,-751.5 1565.22,-751.5"/>
-<polygon fill="none" stroke="black" points="1565.22,-751.5 1565.22,-788.5 1693.22,-788.5 1693.22,-751.5 1565.22,-751.5"/>
-<text text-anchor="start" x="1576.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionLabel</text>
-<polygon fill="none" stroke="black" points="1564.22,-751 1564.22,-790 1694.22,-790 1694.22,-751 1564.22,-751"/>
+<polygon fill="lightblue" stroke="transparent" points="1534.22,-751.5 1534.22,-788.5 1662.22,-788.5 1662.22,-751.5 1534.22,-751.5"/>
+<polygon fill="none" stroke="black" points="1534.22,-751.5 1534.22,-788.5 1662.22,-788.5 1662.22,-751.5 1534.22,-751.5"/>
+<text text-anchor="start" x="1545.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionLabel</text>
+<polygon fill="none" stroke="black" points="1533.22,-751 1533.22,-790 1663.22,-790 1663.22,-751 1533.22,-751"/>
 </a>
 </g>
 </g>
@@ -109,10 +109,10 @@
 <g id="node5" class="node">
 <title>ndVMError</title>
 <g id="a_node5_6"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=struct%20VMError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1390.22,-253.5 1390.22,-290.5 1467.22,-290.5 1467.22,-253.5 1390.22,-253.5"/>
-<polygon fill="none" stroke="black" points="1390.22,-253.5 1390.22,-290.5 1467.22,-290.5 1467.22,-253.5 1390.22,-253.5"/>
-<text text-anchor="start" x="1401.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">VMError</text>
-<polygon fill="none" stroke="black" points="1388.72,-253 1388.72,-292 1467.72,-292 1467.72,-253 1388.72,-253"/>
+<polygon fill="lightblue" stroke="transparent" points="1388.22,-253.5 1388.22,-290.5 1465.22,-290.5 1465.22,-253.5 1388.22,-253.5"/>
+<polygon fill="none" stroke="black" points="1388.22,-253.5 1388.22,-290.5 1465.22,-290.5 1465.22,-253.5 1388.22,-253.5"/>
+<text text-anchor="start" x="1399.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">VMError</text>
+<polygon fill="none" stroke="black" points="1386.72,-253 1386.72,-292 1465.72,-292 1465.72,-253 1386.72,-253"/>
 </a>
 </g>
 </g>
@@ -130,8 +130,8 @@
 <!-- ndVMError&#45;&gt;ndProvingError -->
 <g id="edge6" class="edge">
 <title>ndVMError&#45;&gt;ndProvingError</title>
-<path fill="none" stroke="black" d="M1401.2,-248.94C1390.88,-240.32 1378.93,-230.35 1367.87,-221.1"/>
-<polygon fill="black" stroke="black" points="1367.64,-220.91 1360.47,-220.14 1358.43,-213.22 1365.6,-214 1367.64,-220.91"/>
+<path fill="none" stroke="black" d="M1399.75,-248.94C1389.65,-240.32 1377.95,-230.35 1367.11,-221.1"/>
+<polygon fill="black" stroke="black" points="1367,-221.01 1359.84,-220.16 1357.87,-213.22 1365.03,-214.07 1367,-221.01"/>
 </g>
 <!-- ndProgramAndInput -->
 <g id="node115" class="node">
@@ -147,42 +147,42 @@
 <!-- ndVMError&#45;&gt;ndProgramAndInput -->
 <g id="edge7" class="edge">
 <title>ndVMError&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" d="M1380.44,-252.28C1377.33,-251.14 1374.24,-250.04 1371.22,-249 1335.59,-236.73 1295.84,-224.68 1261.35,-214.72"/>
-<polygon fill="black" stroke="black" points="1251.3,-211.84 1262.15,-210.27 1256.11,-213.22 1260.91,-214.6 1260.91,-214.6 1260.91,-214.6 1256.11,-213.22 1259.67,-218.92 1251.3,-211.84 1251.3,-211.84"/>
+<path fill="none" stroke="black" d="M1378.43,-252.29C1375.33,-251.15 1372.23,-250.04 1369.22,-249 1334.24,-236.9 1295.26,-224.96 1261.34,-215.05"/>
+<polygon fill="black" stroke="black" points="1251.44,-212.18 1262.3,-210.65 1256.25,-213.57 1261.05,-214.97 1261.05,-214.97 1261.05,-214.97 1256.25,-213.57 1259.79,-219.29 1251.44,-212.18 1251.44,-212.18"/>
 </g>
 <!-- ndInstructionError -->
 <g id="node6" class="node">
 <title>ndInstructionError</title>
 <g id="a_node6_9"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20InstructionError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1297.22,-336.5 1297.22,-373.5 1422.22,-373.5 1422.22,-336.5 1297.22,-336.5"/>
-<polygon fill="none" stroke="black" points="1297.22,-336.5 1297.22,-373.5 1422.22,-373.5 1422.22,-336.5 1297.22,-336.5"/>
-<text text-anchor="start" x="1308.22" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
-<polygon fill="none" stroke="black" points="1295.72,-336 1295.72,-375 1422.72,-375 1422.72,-336 1295.72,-336"/>
+<polygon fill="yellow" stroke="transparent" points="1227.22,-336.5 1227.22,-373.5 1352.22,-373.5 1352.22,-336.5 1227.22,-336.5"/>
+<polygon fill="none" stroke="black" points="1227.22,-336.5 1227.22,-373.5 1352.22,-373.5 1352.22,-336.5 1227.22,-336.5"/>
+<text text-anchor="start" x="1238.22" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionError</text>
+<polygon fill="none" stroke="black" points="1225.72,-336 1225.72,-375 1352.72,-375 1352.72,-336 1225.72,-336"/>
 </a>
 </g>
 </g>
 <!-- ndInstructionError&#45;&gt;ndVMError -->
 <g id="edge8" class="edge">
 <title>ndInstructionError&#45;&gt;ndVMError</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1378.44,-331.94C1385.41,-323.76 1393.42,-314.35 1400.95,-305.51"/>
-<polygon fill="black" stroke="black" points="1401.08,-305.36 1401.93,-298.2 1408.86,-296.22 1408.02,-303.38 1401.08,-305.36"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1327.38,-331.94C1342.84,-322.8 1360.88,-312.13 1377.28,-302.43"/>
+<polygon fill="black" stroke="black" points="1377.46,-302.33 1380.58,-295.83 1387.78,-296.22 1384.66,-302.72 1377.46,-302.33"/>
 </g>
 <!-- ndProgramDecodingError -->
 <g id="node9" class="node">
 <title>ndProgramDecodingError</title>
 <g id="a_node9_10"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20ProgramDecodingError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1181.22,-253.5 1181.22,-290.5 1354.22,-290.5 1354.22,-253.5 1181.22,-253.5"/>
-<polygon fill="none" stroke="black" points="1181.22,-253.5 1181.22,-290.5 1354.22,-290.5 1354.22,-253.5 1181.22,-253.5"/>
-<text text-anchor="start" x="1192.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ProgramDecodingError</text>
-<polygon fill="none" stroke="black" points="1179.72,-253 1179.72,-292 1354.72,-292 1354.72,-253 1179.72,-253"/>
+<polygon fill="yellow" stroke="transparent" points="1179.22,-253.5 1179.22,-290.5 1352.22,-290.5 1352.22,-253.5 1179.22,-253.5"/>
+<polygon fill="none" stroke="black" points="1179.22,-253.5 1179.22,-290.5 1352.22,-290.5 1352.22,-253.5 1179.22,-253.5"/>
+<text text-anchor="start" x="1190.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ProgramDecodingError</text>
+<polygon fill="none" stroke="black" points="1177.72,-253 1177.72,-292 1352.72,-292 1352.72,-253 1177.72,-253"/>
 </a>
 </g>
 </g>
 <!-- ndInstructionError&#45;&gt;ndProgramDecodingError -->
 <g id="edge9" class="edge">
 <title>ndInstructionError&#45;&gt;ndProgramDecodingError</title>
-<path fill="none" stroke="black" d="M1333.59,-331.94C1323.9,-323.41 1312.7,-313.55 1302.3,-304.38"/>
-<polygon fill="black" stroke="black" points="1302.03,-304.15 1294.89,-303.19 1293.03,-296.22 1300.17,-297.19 1302.03,-304.15"/>
+<path fill="none" stroke="black" d="M1282.53,-331.94C1280.31,-324.45 1277.79,-315.94 1275.37,-307.78"/>
+<polygon fill="black" stroke="black" points="1275.36,-307.73 1269.82,-303.11 1271.95,-296.22 1277.49,-300.84 1275.36,-307.73"/>
 </g>
 <!-- ndAlgebraicExecutionTrace -->
 <g id="node116" class="node">
@@ -198,17 +198,17 @@
 <!-- ndInstructionError&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge10" class="edge">
 <title>ndInstructionError&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" d="M1431.06,-333.8C1433.81,-333.16 1436.53,-332.56 1439.22,-332 1543.44,-310.21 1663.91,-294.4 1749.22,-284.75"/>
-<polygon fill="black" stroke="black" points="1759.18,-283.63 1749.74,-289.22 1754.21,-284.19 1749.24,-284.75 1749.24,-284.75 1749.24,-284.75 1754.21,-284.19 1748.74,-280.27 1759.18,-283.63 1759.18,-283.63"/>
+<path fill="none" stroke="black" d="M1361.05,-333.73C1363.8,-333.11 1366.53,-332.53 1369.22,-332 1498.24,-306.33 1648.73,-290.43 1748.75,-281.8"/>
+<polygon fill="black" stroke="black" points="1758.88,-280.94 1749.3,-286.27 1753.89,-281.37 1748.91,-281.79 1748.91,-281.79 1748.91,-281.79 1753.89,-281.37 1748.53,-277.31 1758.88,-280.94 1758.88,-280.94"/>
 </g>
 <!-- ndProofStreamError -->
 <g id="node7" class="node">
 <title>ndProofStreamError</title>
 <g id="a_node7_12"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20ProofStreamError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="761.22,-253.5 761.22,-290.5 898.22,-290.5 898.22,-253.5 761.22,-253.5"/>
-<polygon fill="none" stroke="black" points="761.22,-253.5 761.22,-290.5 898.22,-290.5 898.22,-253.5 761.22,-253.5"/>
-<text text-anchor="start" x="772.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ProofStreamError</text>
-<polygon fill="none" stroke="black" points="759.72,-253 759.72,-292 898.72,-292 898.72,-253 759.72,-253"/>
+<polygon fill="yellow" stroke="transparent" points="760.22,-253.5 760.22,-290.5 897.22,-290.5 897.22,-253.5 760.22,-253.5"/>
+<polygon fill="none" stroke="black" points="760.22,-253.5 760.22,-290.5 897.22,-290.5 897.22,-253.5 760.22,-253.5"/>
+<text text-anchor="start" x="771.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ProofStreamError</text>
+<polygon fill="none" stroke="black" points="758.72,-253 758.72,-292 897.72,-292 897.72,-253 758.72,-253"/>
 </a>
 </g>
 </g>
@@ -226,8 +226,8 @@
 <!-- ndProofStreamError&#45;&gt;ndFriValidationError -->
 <g id="edge11" class="edge">
 <title>ndProofStreamError&#45;&gt;ndFriValidationError</title>
-<path fill="none" stroke="black" d="M876.57,-248.94C896.48,-239.45 919.83,-228.33 940.79,-218.34"/>
-<polygon fill="black" stroke="black" points="940.99,-218.24 944.69,-212.05 951.82,-213.08 948.13,-219.27 940.99,-218.24"/>
+<path fill="none" stroke="black" d="M875.85,-248.94C895.87,-239.45 919.36,-228.33 940.44,-218.34"/>
+<polygon fill="black" stroke="black" points="940.7,-218.22 944.41,-212.04 951.54,-213.08 947.83,-219.27 940.7,-218.22"/>
 </g>
 <!-- ndVerificationError -->
 <g id="node12" class="node">
@@ -243,8 +243,8 @@
 <!-- ndProofStreamError&#45;&gt;ndVerificationError -->
 <g id="edge12" class="edge">
 <title>ndProofStreamError&#45;&gt;ndVerificationError</title>
-<path fill="none" stroke="black" d="M846.56,-248.79C866.76,-222.46 899.04,-180.79 912.22,-166 920.34,-156.89 929.54,-147.41 938.21,-138.8"/>
-<polygon fill="black" stroke="black" points="938.42,-138.6 939.91,-131.54 947,-130.2 945.51,-137.26 938.42,-138.6"/>
+<path fill="none" stroke="black" d="M846.07,-248.79C868.64,-220.13 905.38,-173.63 912.22,-166 920.37,-156.91 929.57,-147.44 938.25,-138.84"/>
+<polygon fill="black" stroke="black" points="938.46,-138.63 939.95,-131.57 947.03,-130.23 945.55,-137.29 938.46,-138.63"/>
 </g>
 <!-- ndProof -->
 <g id="node42" class="node">
@@ -260,8 +260,8 @@
 <!-- ndProofStreamError&#45;&gt;ndProof -->
 <g id="edge13" class="edge">
 <title>ndProofStreamError&#45;&gt;ndProof</title>
-<path fill="none" stroke="black" d="M828.66,-248.94C828.46,-241.02 828.24,-231.95 828.03,-223.36"/>
-<polygon fill="black" stroke="black" points="827.78,-213.22 832.52,-223.11 827.9,-218.22 828.03,-223.22 828.03,-223.22 828.03,-223.22 827.9,-218.22 823.53,-223.33 827.78,-213.22 827.78,-213.22"/>
+<path fill="none" stroke="black" d="M827.94,-248.94C827.84,-241.02 827.73,-231.95 827.62,-223.36"/>
+<polygon fill="black" stroke="black" points="827.5,-213.22 832.12,-223.17 827.56,-218.22 827.62,-223.22 827.62,-223.22 827.62,-223.22 827.56,-218.22 823.12,-223.28 827.5,-213.22 827.5,-213.22"/>
 </g>
 <!-- ndProofStream -->
 <g id="node44" class="node">
@@ -277,8 +277,8 @@
 <!-- ndProofStreamError&#45;&gt;ndProofStream -->
 <g id="edge14" class="edge">
 <title>ndProofStreamError&#45;&gt;ndProofStream</title>
-<path fill="none" stroke="black" d="M797.84,-248.74C787.92,-238.56 777.93,-225.94 771.22,-213 759.37,-190.16 752.22,-161.87 749.45,-140.33"/>
-<polygon fill="black" stroke="black" points="748.44,-130.36 753.92,-139.86 748.94,-135.33 749.45,-140.31 749.45,-140.31 749.45,-140.31 748.94,-135.33 744.97,-140.76 748.44,-130.36 748.44,-130.36"/>
+<path fill="none" stroke="black" d="M797.6,-248.95C787.77,-238.7 777.86,-225.98 771.22,-213 759.49,-190.1 752.33,-161.81 749.53,-140.29"/>
+<polygon fill="black" stroke="black" points="748.5,-130.33 754,-139.82 749.01,-135.3 749.52,-140.28 749.52,-140.28 749.52,-140.28 749.01,-135.3 745.05,-140.74 748.5,-130.33 748.5,-130.33"/>
 </g>
 <!-- ndFriValidationError&#45;&gt;ndVerificationError -->
 <g id="edge15" class="edge">
@@ -290,10 +290,10 @@
 <g id="node10" class="node">
 <title>ndCanonicalRepresentationError</title>
 <g id="a_node10_17"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20CanonicalRepresentationError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1810.22,-751.5 1810.22,-788.5 2028.22,-788.5 2028.22,-751.5 1810.22,-751.5"/>
-<polygon fill="none" stroke="black" points="1810.22,-751.5 1810.22,-788.5 2028.22,-788.5 2028.22,-751.5 1810.22,-751.5"/>
-<text text-anchor="start" x="1821.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">CanonicalRepresentationError</text>
-<polygon fill="none" stroke="black" points="1809.22,-751 1809.22,-790 2029.22,-790 2029.22,-751 1809.22,-751"/>
+<polygon fill="yellow" stroke="transparent" points="1704.22,-751.5 1704.22,-788.5 1922.22,-788.5 1922.22,-751.5 1704.22,-751.5"/>
+<polygon fill="none" stroke="black" points="1704.22,-751.5 1704.22,-788.5 1922.22,-788.5 1922.22,-751.5 1704.22,-751.5"/>
+<text text-anchor="start" x="1715.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">CanonicalRepresentationError</text>
+<polygon fill="none" stroke="black" points="1703.22,-751 1703.22,-790 1923.22,-790 1923.22,-751 1703.22,-751"/>
 </a>
 </g>
 </g>
@@ -318,10 +318,10 @@
 <g id="node13" class="node">
 <title>ndOpStackElementError</title>
 <g id="a_node13_19"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20OpStackElementError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2104.22,-751.5 2104.22,-788.5 2268.22,-788.5 2268.22,-751.5 2104.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2104.22,-751.5 2104.22,-788.5 2268.22,-788.5 2268.22,-751.5 2104.22,-751.5"/>
-<text text-anchor="start" x="2115.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">OpStackElementError</text>
-<polygon fill="none" stroke="black" points="2103.22,-751 2103.22,-790 2269.22,-790 2269.22,-751 2103.22,-751"/>
+<polygon fill="yellow" stroke="transparent" points="1998.22,-751.5 1998.22,-788.5 2162.22,-788.5 2162.22,-751.5 1998.22,-751.5"/>
+<polygon fill="none" stroke="black" points="1998.22,-751.5 1998.22,-788.5 2162.22,-788.5 2162.22,-751.5 1998.22,-751.5"/>
+<text text-anchor="start" x="2009.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">OpStackElementError</text>
+<polygon fill="none" stroke="black" points="1997.22,-751 1997.22,-790 2163.22,-790 2163.22,-751 1997.22,-751"/>
 </a>
 </g>
 </g>
@@ -329,10 +329,10 @@
 <g id="node14" class="node">
 <title>ndNumberOfWordsError</title>
 <g id="a_node14_20"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20NumberOfWordsError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2325.22,-751.5 2325.22,-788.5 2490.22,-788.5 2490.22,-751.5 2325.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2325.22,-751.5 2325.22,-788.5 2490.22,-788.5 2490.22,-751.5 2325.22,-751.5"/>
-<text text-anchor="start" x="2336.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">NumberOfWordsError</text>
-<polygon fill="none" stroke="black" points="2323.72,-751 2323.72,-790 2490.72,-790 2490.72,-751 2323.72,-751"/>
+<polygon fill="yellow" stroke="transparent" points="2219.22,-751.5 2219.22,-788.5 2384.22,-788.5 2384.22,-751.5 2219.22,-751.5"/>
+<polygon fill="none" stroke="black" points="2219.22,-751.5 2219.22,-788.5 2384.22,-788.5 2384.22,-751.5 2219.22,-751.5"/>
+<text text-anchor="start" x="2230.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">NumberOfWordsError</text>
+<polygon fill="none" stroke="black" points="2217.72,-751 2217.72,-790 2384.72,-790 2384.72,-751 2217.72,-751"/>
 </a>
 </g>
 </g>
@@ -351,35 +351,35 @@
 <g id="node21" class="node">
 <title>ndVMState</title>
 <g id="a_node21_22"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/vm.rs#:~:text=struct%20VMState" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1458.22,-336.5 1458.22,-373.5 1535.22,-373.5 1535.22,-336.5 1458.22,-336.5"/>
-<polygon fill="none" stroke="black" points="1458.22,-336.5 1458.22,-373.5 1535.22,-373.5 1535.22,-336.5 1458.22,-336.5"/>
-<text text-anchor="start" x="1469.22" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">VMState</text>
-<polygon fill="none" stroke="black" points="1456.72,-336 1456.72,-375 1535.72,-375 1535.72,-336 1456.72,-336"/>
+<polygon fill="lightblue" stroke="transparent" points="1388.22,-336.5 1388.22,-373.5 1465.22,-373.5 1465.22,-336.5 1388.22,-336.5"/>
+<polygon fill="none" stroke="black" points="1388.22,-336.5 1388.22,-373.5 1465.22,-373.5 1465.22,-336.5 1388.22,-336.5"/>
+<text text-anchor="start" x="1399.22" y="-352.3" font-family="Arial" font-weight="bold" font-size="14.00">VMState</text>
+<polygon fill="none" stroke="black" points="1386.72,-336 1386.72,-375 1465.72,-375 1465.72,-336 1386.72,-336"/>
 </a>
 </g>
 </g>
 <!-- ndOpStack&#45;&gt;ndVMState -->
 <g id="edge17" class="edge">
 <title>ndOpStack&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M1784.82,-497.93C1786.23,-474.1 1784.39,-436.98 1763.22,-415 1735.11,-385.82 1625.72,-369.54 1555.98,-361.93"/>
-<polygon fill="black" stroke="black" points="1555.8,-361.92 1549.42,-365.26 1543.87,-360.66 1550.26,-357.31 1555.8,-361.92"/>
+<path fill="none" stroke="black" d="M1785.01,-497.75C1786.58,-473.76 1784.87,-436.51 1763.22,-415 1725.08,-377.1 1572.26,-363.55 1486.09,-358.86"/>
+<polygon fill="black" stroke="black" points="1485.87,-358.85 1479.67,-362.53 1473.89,-358.23 1480.09,-354.55 1485.87,-358.85"/>
 </g>
 <!-- ndUnderflowIO -->
 <g id="node16" class="node">
 <title>ndUnderflowIO</title>
 <g id="a_node16_23"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/op_stack.rs#:~:text=enum%20UnderflowIO" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2073.22,-585.5 2073.22,-622.5 2177.22,-622.5 2177.22,-585.5 2073.22,-585.5"/>
-<polygon fill="none" stroke="black" points="2073.22,-585.5 2073.22,-622.5 2177.22,-622.5 2177.22,-585.5 2073.22,-585.5"/>
-<text text-anchor="start" x="2084.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">UnderflowIO</text>
-<polygon fill="none" stroke="black" points="2072.22,-585 2072.22,-624 2178.22,-624 2178.22,-585 2072.22,-585"/>
+<polygon fill="yellow" stroke="transparent" points="1944.22,-585.5 1944.22,-622.5 2048.22,-622.5 2048.22,-585.5 1944.22,-585.5"/>
+<polygon fill="none" stroke="black" points="1944.22,-585.5 1944.22,-622.5 2048.22,-622.5 2048.22,-585.5 1944.22,-585.5"/>
+<text text-anchor="start" x="1955.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">UnderflowIO</text>
+<polygon fill="none" stroke="black" points="1943.22,-585 1943.22,-624 2049.22,-624 2049.22,-585 1943.22,-585"/>
 </a>
 </g>
 </g>
 <!-- ndUnderflowIO&#45;&gt;ndOpStack -->
 <g id="edge18" class="edge">
 <title>ndUnderflowIO&#45;&gt;ndOpStack</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2064.2,-594.19C2008.46,-584.98 1923.71,-569.2 1842.26,-545.68"/>
-<polygon fill="black" stroke="black" points="1842.04,-545.62 1835.15,-547.76 1830.53,-542.23 1837.41,-540.09 1842.04,-545.62"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1934.98,-580.99C1908.63,-571.24 1877.26,-559.53 1841.6,-545.89"/>
+<polygon fill="black" stroke="black" points="1841.6,-545.89 1834.56,-547.48 1830.39,-541.59 1837.43,-540.01 1841.6,-545.89"/>
 </g>
 <!-- ndOpStackTableEntry -->
 <g id="node87" class="node">
@@ -395,8 +395,8 @@
 <!-- ndUnderflowIO&#45;&gt;ndOpStackTableEntry -->
 <g id="edge19" class="edge">
 <title>ndUnderflowIO&#45;&gt;ndOpStackTableEntry</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2154.74,-580.94C2166.25,-572.15 2179.6,-561.94 2191.9,-552.54"/>
-<polygon fill="black" stroke="black" points="2191.95,-552.51 2194.29,-545.69 2201.48,-545.22 2199.14,-552.04 2191.95,-552.51"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2057.35,-582.43C2087.02,-572.2 2122.98,-559.81 2154.48,-548.95"/>
+<polygon fill="black" stroke="black" points="2154.52,-548.94 2158.89,-543.2 2165.87,-545.03 2161.5,-550.76 2154.52,-548.94"/>
 </g>
 <!-- ndOpStackElement -->
 <g id="node17" class="node">
@@ -441,8 +441,8 @@
 <!-- ndOpStackElement&#45;&gt;ndVMState -->
 <g id="edge23" class="edge">
 <title>ndOpStackElement&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1304.22,-746.78C1256.7,-720.13 1190.22,-671.13 1190.22,-605.5 1190.22,-605.5 1190.22,-605.5 1190.22,-520.5 1190.22,-462.19 1219.15,-446.51 1268.22,-415 1330.89,-374.76 1362.21,-399.13 1438.49,-378.85"/>
-<polygon fill="black" stroke="black" points="1448.53,-376 1440.14,-383.06 1443.72,-377.37 1438.91,-378.74 1438.91,-378.74 1438.91,-378.74 1443.72,-377.37 1437.68,-374.41 1448.53,-376 1448.53,-376"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1304.22,-746.78C1256.7,-720.13 1190.22,-671.13 1190.22,-605.5 1190.22,-605.5 1190.22,-605.5 1190.22,-520.5 1190.22,-419.09 1274.28,-414.65 1369.22,-379 1369.31,-378.96 1369.41,-378.93 1369.51,-378.89"/>
+<polygon fill="black" stroke="black" points="1378.68,-375.4 1370.93,-383.16 1374,-377.18 1369.33,-378.96 1369.33,-378.96 1369.33,-378.96 1374,-377.18 1367.73,-374.75 1378.68,-375.4 1378.68,-375.4"/>
 </g>
 <!-- ndNumberOfWords&#45;&gt;ndAnInstruction -->
 <g id="edge24" class="edge">
@@ -459,8 +459,8 @@
 <!-- ndNumberOfWords&#45;&gt;ndVMState -->
 <g id="edge26" class="edge">
 <title>ndNumberOfWords&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1323,-663.96C1282.84,-628.97 1217.21,-559.26 1247.22,-498 1273.7,-443.95 1302.15,-445.18 1354.22,-415 1362.21,-410.37 1403.18,-393.6 1439.07,-379.2"/>
-<polygon fill="black" stroke="black" points="1448.54,-375.4 1440.93,-383.3 1443.9,-377.26 1439.26,-379.12 1439.26,-379.12 1439.26,-379.12 1443.9,-377.26 1437.59,-374.94 1448.54,-375.4 1448.54,-375.4"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1323.07,-663.99C1283,-629.05 1217.49,-559.39 1247.22,-498 1272.44,-445.91 1327.18,-407.19 1369.53,-383.54"/>
+<polygon fill="black" stroke="black" points="1378.36,-378.72 1371.73,-387.46 1373.97,-381.12 1369.58,-383.51 1369.58,-383.51 1369.58,-383.51 1373.97,-381.12 1367.43,-379.56 1378.36,-378.72 1378.36,-378.72"/>
 </g>
 <!-- ndFriResponse -->
 <g id="node19" class="node">
@@ -493,26 +493,32 @@
 <!-- ndProofItem&#45;&gt;ndProofStreamError -->
 <g id="edge28" class="edge">
 <title>ndProofItem&#45;&gt;ndProofStreamError</title>
-<path fill="none" stroke="black" d="M845.81,-331.94C843.69,-324.45 841.27,-315.94 838.95,-307.78"/>
-<polygon fill="black" stroke="black" points="838.95,-307.77 833.46,-303.09 835.67,-296.22 841.16,-300.9 838.95,-307.77"/>
+<path fill="none" stroke="black" d="M845.53,-331.94C843.31,-324.45 840.79,-315.94 838.37,-307.78"/>
+<polygon fill="black" stroke="black" points="838.36,-307.73 832.82,-303.11 834.95,-296.22 840.49,-300.84 838.36,-307.73"/>
 </g>
 <!-- ndProofItem&#45;&gt;ndProofStream -->
 <g id="edge29" class="edge">
 <title>ndProofItem&#45;&gt;ndProofStream</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M800.15,-333.05C775.15,-321.58 749.12,-307.5 742.22,-296 713.69,-248.52 727.19,-181.57 739.66,-141.55"/>
-<polygon fill="black" stroke="black" points="739.69,-141.45 737.77,-134.5 743.45,-130.05 745.37,-137 739.69,-141.45"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M799.99,-333.24C774.67,-321.76 748.22,-307.61 741.22,-296 712.59,-248.56 726.56,-181.6 739.36,-141.57"/>
+<polygon fill="black" stroke="black" points="739.4,-141.43 737.53,-134.47 743.24,-130.06 745.11,-137.03 739.4,-141.43"/>
 </g>
 <!-- ndVMState&#45;&gt;ndVMError -->
 <g id="edge30" class="edge">
 <title>ndVMState&#45;&gt;ndVMError</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1477.28,-331.94C1470.41,-323.76 1462.51,-314.35 1455.09,-305.51"/>
-<polygon fill="black" stroke="black" points="1455.01,-305.41 1448.09,-303.39 1447.29,-296.22 1454.22,-298.25 1455.01,-305.41"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1426.22,-331.94C1426.22,-324.63 1426.22,-316.34 1426.22,-308.35"/>
+<polygon fill="black" stroke="black" points="1426.22,-308.22 1422.22,-302.22 1426.22,-296.22 1430.22,-302.22 1426.22,-308.22"/>
+</g>
+<!-- ndVMState&#45;&gt;ndProgram -->
+<g id="edge31" class="edge">
+<title>ndVMState&#45;&gt;ndProgram</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1428.43,-379.22C1427.63,-387.25 1426.21,-396.43 1424.45,-405.1"/>
+<polygon fill="black" stroke="black" points="1422.24,-414.94 1420.04,-404.19 1423.33,-410.06 1424.43,-405.18 1424.43,-405.18 1424.43,-405.18 1423.33,-410.06 1428.82,-406.16 1422.24,-414.94 1422.24,-414.94"/>
 </g>
 <!-- ndVMState&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge31" class="edge">
+<g id="edge32" class="edge">
 <title>ndVMState&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1543.8,-343.91C1595.6,-332.38 1680.21,-313.56 1748.91,-298.27"/>
-<polygon fill="black" stroke="black" points="1758.93,-296.04 1750.15,-302.6 1754.05,-297.13 1749.17,-298.21 1749.17,-298.21 1749.17,-298.21 1754.05,-297.13 1748.19,-293.82 1758.93,-296.04 1758.93,-296.04"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1473.9,-345.6C1539.7,-333.32 1660.27,-310.82 1749.27,-294.21"/>
+<polygon fill="black" stroke="black" points="1759.15,-292.36 1750.14,-298.62 1754.23,-293.28 1749.32,-294.2 1749.32,-294.2 1749.32,-294.2 1754.23,-293.28 1748.49,-289.77 1759.15,-292.36 1759.15,-292.36"/>
 </g>
 <!-- ndCoProcessorCall -->
 <g id="node22" class="node">
@@ -526,13 +532,13 @@
 </g>
 </g>
 <!-- ndCoProcessorCall&#45;&gt;ndVMState -->
-<g id="edge32" class="edge">
+<g id="edge33" class="edge">
 <title>ndCoProcessorCall&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M1886.61,-424.1C1869.71,-421.09 1851.85,-417.92 1835.22,-415 1736.46,-397.66 1621.44,-377.91 1553.96,-366.36"/>
-<polygon fill="black" stroke="black" points="1543.95,-364.65 1554.57,-361.9 1548.88,-365.49 1553.81,-366.33 1553.81,-366.33 1553.81,-366.33 1548.88,-365.49 1553.05,-370.77 1543.95,-364.65 1543.95,-364.65"/>
+<path fill="none" stroke="black" d="M1886.67,-423.75C1869.77,-420.75 1851.89,-417.68 1835.22,-415 1710.34,-394.93 1563.44,-374.75 1484.11,-364.14"/>
+<polygon fill="black" stroke="black" points="1473.84,-362.77 1484.35,-359.63 1478.8,-363.43 1483.75,-364.09 1483.75,-364.09 1483.75,-364.09 1478.8,-363.43 1483.16,-368.55 1473.84,-362.77 1473.84,-362.77"/>
 </g>
 <!-- ndCoProcessorCall&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge33" class="edge">
+<g id="edge34" class="edge">
 <title>ndCoProcessorCall&#45;&gt;ndAlgebraicExecutionTrace</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1947.17,-414.7C1929.54,-386.06 1899.19,-336.79 1879.42,-304.68"/>
 <polygon fill="black" stroke="black" points="1874.14,-296.11 1883.22,-302.26 1876.76,-300.37 1879.39,-304.62 1879.39,-304.62 1879.39,-304.62 1876.76,-300.37 1875.55,-306.98 1874.14,-296.11 1874.14,-296.11"/>
@@ -549,7 +555,7 @@
 </g>
 </g>
 <!-- ndFri&#45;&gt;ndStark -->
-<g id="edge34" class="edge">
+<g id="edge35" class="edge">
 <title>ndFri&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" d="M240.36,-101.35C274.19,-96.6 331.68,-88.73 381.22,-83 582.68,-59.69 823.52,-37.61 923.79,-28.67"/>
 <polygon fill="black" stroke="black" points="933.9,-27.77 924.33,-33.14 928.92,-28.22 923.94,-28.66 923.94,-28.66 923.94,-28.66 928.92,-28.22 923.54,-24.18 933.9,-27.77 933.9,-27.77"/>
@@ -566,7 +572,7 @@
 </g>
 </g>
 <!-- ndFriProver&#45;&gt;ndFri -->
-<g id="edge35" class="edge">
+<g id="edge36" class="edge">
 <title>ndFriProver&#45;&gt;ndFri</title>
 <path fill="none" stroke="black" d="M116.71,-165.94C134.24,-155.09 155.26,-142.1 173.01,-131.12"/>
 <polygon fill="black" stroke="black" points="181.96,-125.59 175.82,-134.68 177.71,-128.22 173.46,-130.85 173.46,-130.85 173.46,-130.85 177.71,-128.22 171.09,-127.02 181.96,-125.59 181.96,-125.59"/>
@@ -583,7 +589,7 @@
 </g>
 </g>
 <!-- ndProverRound&#45;&gt;ndFriProver -->
-<g id="edge36" class="edge">
+<g id="edge37" class="edge">
 <title>ndProverRound&#45;&gt;ndFriProver</title>
 <path fill="none" stroke="black" d="M80.22,-248.94C80.22,-241.63 80.22,-233.34 80.22,-225.35"/>
 <polygon fill="black" stroke="black" points="80.22,-225.22 76.22,-219.22 80.22,-213.22 84.22,-219.22 80.22,-225.22"/>
@@ -600,7 +606,7 @@
 </g>
 </g>
 <!-- ndFriVerifier&#45;&gt;ndFri -->
-<g id="edge37" class="edge">
+<g id="edge38" class="edge">
 <title>ndFriVerifier&#45;&gt;ndFri</title>
 <path fill="none" stroke="black" d="M240.08,-165.94C235.99,-157.67 231.29,-148.15 226.89,-139.23"/>
 <polygon fill="black" stroke="black" points="222.44,-130.22 230.9,-137.2 224.65,-134.71 226.87,-139.19 226.87,-139.19 226.87,-139.19 224.65,-134.71 222.83,-141.18 222.44,-130.22 222.44,-130.22"/>
@@ -617,7 +623,7 @@
 </g>
 </g>
 <!-- ndVerifierRound&#45;&gt;ndFriVerifier -->
-<g id="edge38" class="edge">
+<g id="edge39" class="edge">
 <title>ndVerifierRound&#45;&gt;ndFriVerifier</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M288.01,-248.94C283.08,-241.1 277.44,-232.15 272.08,-223.64"/>
 <polygon fill="black" stroke="black" points="271.92,-223.38 265.34,-220.43 265.52,-213.22 272.11,-216.17 271.92,-223.38"/>
@@ -626,10 +632,10 @@
 <g id="node28" class="node">
 <title>ndTask</title>
 <g id="a_node28_35"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20Task" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2410.22,-585.5 2410.22,-622.5 2463.22,-622.5 2463.22,-585.5 2410.22,-585.5"/>
-<polygon fill="none" stroke="black" points="2410.22,-585.5 2410.22,-622.5 2463.22,-622.5 2463.22,-585.5 2410.22,-585.5"/>
-<text text-anchor="start" x="2421.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Task</text>
-<polygon fill="none" stroke="black" points="2408.72,-585 2408.72,-624 2463.72,-624 2463.72,-585 2408.72,-585"/>
+<polygon fill="lightblue" stroke="transparent" points="2304.22,-585.5 2304.22,-622.5 2357.22,-622.5 2357.22,-585.5 2304.22,-585.5"/>
+<polygon fill="none" stroke="black" points="2304.22,-585.5 2304.22,-622.5 2357.22,-622.5 2357.22,-585.5 2304.22,-585.5"/>
+<text text-anchor="start" x="2315.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Task</text>
+<polygon fill="none" stroke="black" points="2302.72,-585 2302.72,-624 2357.72,-624 2357.72,-585 2302.72,-585"/>
 </a>
 </g>
 </g>
@@ -637,50 +643,50 @@
 <g id="node30" class="node">
 <title>ndTritonProfiler</title>
 <g id="a_node30_36"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20TritonProfiler" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2447.22,-502.5 2447.22,-539.5 2554.22,-539.5 2554.22,-502.5 2447.22,-502.5"/>
-<polygon fill="none" stroke="black" points="2447.22,-502.5 2447.22,-539.5 2554.22,-539.5 2554.22,-502.5 2447.22,-502.5"/>
-<text text-anchor="start" x="2458.22" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonProfiler</text>
-<polygon fill="none" stroke="black" points="2445.72,-502 2445.72,-541 2554.72,-541 2554.72,-502 2445.72,-502"/>
+<polygon fill="lightblue" stroke="transparent" points="2341.22,-502.5 2341.22,-539.5 2448.22,-539.5 2448.22,-502.5 2341.22,-502.5"/>
+<polygon fill="none" stroke="black" points="2341.22,-502.5 2341.22,-539.5 2448.22,-539.5 2448.22,-502.5 2341.22,-502.5"/>
+<text text-anchor="start" x="2352.22" y="-518.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonProfiler</text>
+<polygon fill="none" stroke="black" points="2339.72,-502 2339.72,-541 2448.72,-541 2448.72,-502 2339.72,-502"/>
 </a>
 </g>
 </g>
 <!-- ndTask&#45;&gt;ndTritonProfiler -->
-<g id="edge39" class="edge">
+<g id="edge40" class="edge">
 <title>ndTask&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" d="M2454.05,-580.94C2460.44,-572.84 2467.78,-563.55 2474.7,-554.79"/>
-<polygon fill="black" stroke="black" points="2474.82,-554.64 2475.41,-547.45 2482.26,-545.22 2481.68,-552.41 2474.82,-554.64"/>
+<path fill="none" stroke="black" d="M2348.05,-580.94C2354.44,-572.84 2361.78,-563.55 2368.7,-554.79"/>
+<polygon fill="black" stroke="black" points="2368.82,-554.64 2369.41,-547.45 2376.26,-545.22 2375.68,-552.41 2368.82,-554.64"/>
 </g>
 <!-- ndTaskType -->
 <g id="node29" class="node">
 <title>ndTaskType</title>
 <g id="a_node29_37"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=enum%20TaskType" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2399.22,-668.5 2399.22,-705.5 2482.22,-705.5 2482.22,-668.5 2399.22,-668.5"/>
-<polygon fill="none" stroke="black" points="2399.22,-668.5 2399.22,-705.5 2482.22,-705.5 2482.22,-668.5 2399.22,-668.5"/>
-<text text-anchor="start" x="2410.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">TaskType</text>
-<polygon fill="none" stroke="black" points="2397.72,-668 2397.72,-707 2482.72,-707 2482.72,-668 2397.72,-668"/>
+<polygon fill="yellow" stroke="transparent" points="2293.22,-668.5 2293.22,-705.5 2376.22,-705.5 2376.22,-668.5 2293.22,-668.5"/>
+<polygon fill="none" stroke="black" points="2293.22,-668.5 2293.22,-705.5 2376.22,-705.5 2376.22,-668.5 2293.22,-668.5"/>
+<text text-anchor="start" x="2304.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">TaskType</text>
+<polygon fill="none" stroke="black" points="2291.72,-668 2291.72,-707 2376.72,-707 2376.72,-668 2291.72,-668"/>
 </a>
 </g>
 </g>
 <!-- ndTaskType&#45;&gt;ndTask -->
-<g id="edge40" class="edge">
+<g id="edge41" class="edge">
 <title>ndTaskType&#45;&gt;ndTask</title>
-<path fill="none" stroke="black" d="M2439.1,-663.94C2438.74,-656.63 2438.33,-648.34 2437.94,-640.35"/>
-<polygon fill="black" stroke="black" points="2437.93,-640.21 2433.64,-634.41 2437.34,-628.22 2441.63,-634.02 2437.93,-640.21"/>
+<path fill="none" stroke="black" d="M2333.1,-663.94C2332.74,-656.63 2332.33,-648.34 2331.94,-640.35"/>
+<polygon fill="black" stroke="black" points="2331.93,-640.21 2327.64,-634.41 2331.34,-628.22 2335.63,-634.02 2331.93,-640.21"/>
 </g>
 <!-- ndTaskType&#45;&gt;ndTritonProfiler -->
-<g id="edge41" class="edge">
+<g id="edge42" class="edge">
 <title>ndTaskType&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2458.93,-663.87C2466.62,-653.51 2474.93,-640.73 2480.22,-628 2489.88,-604.73 2494.91,-576.62 2497.51,-555.27"/>
-<polygon fill="black" stroke="black" points="2498.63,-545.09 2502.01,-555.52 2498.09,-550.06 2497.54,-555.03 2497.54,-555.03 2497.54,-555.03 2498.09,-550.06 2493.07,-554.53 2498.63,-545.09 2498.63,-545.09"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2352.93,-663.87C2360.62,-653.51 2368.93,-640.73 2374.22,-628 2383.88,-604.73 2388.91,-576.62 2391.51,-555.27"/>
+<polygon fill="black" stroke="black" points="2392.63,-545.09 2396.01,-555.52 2392.09,-550.06 2391.54,-555.03 2391.54,-555.03 2391.54,-555.03 2392.09,-550.06 2387.07,-554.53 2392.63,-545.09 2392.63,-545.09"/>
 </g>
 <!-- ndWeight -->
 <g id="node31" class="node">
 <title>ndWeight</title>
 <g id="a_node31_38"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=enum%20Weight" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2536.22,-751.5 2536.22,-788.5 2604.22,-788.5 2604.22,-751.5 2536.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2536.22,-751.5 2536.22,-788.5 2604.22,-788.5 2604.22,-751.5 2536.22,-751.5"/>
-<text text-anchor="start" x="2547.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">Weight</text>
-<polygon fill="none" stroke="black" points="2535.22,-751 2535.22,-790 2605.22,-790 2605.22,-751 2535.22,-751"/>
+<polygon fill="yellow" stroke="transparent" points="2430.22,-751.5 2430.22,-788.5 2498.22,-788.5 2498.22,-751.5 2430.22,-751.5"/>
+<polygon fill="none" stroke="black" points="2430.22,-751.5 2430.22,-788.5 2498.22,-788.5 2498.22,-751.5 2430.22,-751.5"/>
+<text text-anchor="start" x="2441.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">Weight</text>
+<polygon fill="none" stroke="black" points="2429.22,-751 2429.22,-790 2499.22,-790 2499.22,-751 2429.22,-751"/>
 </a>
 </g>
 </g>
@@ -688,56 +694,56 @@
 <g id="node32" class="node">
 <title>ndTaskReport</title>
 <g id="a_node32_39"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20TaskReport" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2522.22,-668.5 2522.22,-705.5 2618.22,-705.5 2618.22,-668.5 2522.22,-668.5"/>
-<polygon fill="none" stroke="black" points="2522.22,-668.5 2522.22,-705.5 2618.22,-705.5 2618.22,-668.5 2522.22,-668.5"/>
-<text text-anchor="start" x="2533.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">TaskReport</text>
-<polygon fill="none" stroke="black" points="2521.22,-668 2521.22,-707 2619.22,-707 2619.22,-668 2521.22,-668"/>
+<polygon fill="lightblue" stroke="transparent" points="2416.22,-668.5 2416.22,-705.5 2512.22,-705.5 2512.22,-668.5 2416.22,-668.5"/>
+<polygon fill="none" stroke="black" points="2416.22,-668.5 2416.22,-705.5 2512.22,-705.5 2512.22,-668.5 2416.22,-668.5"/>
+<text text-anchor="start" x="2427.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">TaskReport</text>
+<polygon fill="none" stroke="black" points="2415.22,-668 2415.22,-707 2513.22,-707 2513.22,-668 2415.22,-668"/>
 </a>
 </g>
 </g>
 <!-- ndWeight&#45;&gt;ndTaskReport -->
-<g id="edge42" class="edge">
+<g id="edge43" class="edge">
 <title>ndWeight&#45;&gt;ndTaskReport</title>
-<path fill="none" stroke="black" d="M2570.22,-746.94C2570.22,-739.63 2570.22,-731.34 2570.22,-723.35"/>
-<polygon fill="black" stroke="black" points="2570.22,-723.22 2566.22,-717.22 2570.22,-711.22 2574.22,-717.22 2570.22,-723.22"/>
+<path fill="none" stroke="black" d="M2464.22,-746.94C2464.22,-739.63 2464.22,-731.34 2464.22,-723.35"/>
+<polygon fill="black" stroke="black" points="2464.22,-723.22 2460.22,-717.22 2464.22,-711.22 2468.22,-717.22 2464.22,-723.22"/>
 </g>
 <!-- ndReport -->
 <g id="node33" class="node">
 <title>ndReport</title>
 <g id="a_node33_40"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20Report" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2537.22,-585.5 2537.22,-622.5 2603.22,-622.5 2603.22,-585.5 2537.22,-585.5"/>
-<polygon fill="none" stroke="black" points="2537.22,-585.5 2537.22,-622.5 2603.22,-622.5 2603.22,-585.5 2537.22,-585.5"/>
-<text text-anchor="start" x="2548.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
-<polygon fill="none" stroke="black" points="2536.22,-585 2536.22,-624 2604.22,-624 2604.22,-585 2536.22,-585"/>
+<polygon fill="lightblue" stroke="transparent" points="2431.22,-585.5 2431.22,-622.5 2497.22,-622.5 2497.22,-585.5 2431.22,-585.5"/>
+<polygon fill="none" stroke="black" points="2431.22,-585.5 2431.22,-622.5 2497.22,-622.5 2497.22,-585.5 2431.22,-585.5"/>
+<text text-anchor="start" x="2442.22" y="-601.3" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
+<polygon fill="none" stroke="black" points="2430.22,-585 2430.22,-624 2498.22,-624 2498.22,-585 2430.22,-585"/>
 </a>
 </g>
 </g>
 <!-- ndTaskReport&#45;&gt;ndReport -->
-<g id="edge43" class="edge">
+<g id="edge44" class="edge">
 <title>ndTaskReport&#45;&gt;ndReport</title>
-<path fill="none" stroke="black" d="M2570.22,-663.94C2570.22,-656.63 2570.22,-648.34 2570.22,-640.35"/>
-<polygon fill="black" stroke="black" points="2570.22,-640.22 2566.22,-634.22 2570.22,-628.22 2574.22,-634.22 2570.22,-640.22"/>
+<path fill="none" stroke="black" d="M2464.22,-663.94C2464.22,-656.63 2464.22,-648.34 2464.22,-640.35"/>
+<polygon fill="black" stroke="black" points="2464.22,-640.22 2460.22,-634.22 2464.22,-628.22 2468.22,-634.22 2464.22,-640.22"/>
 </g>
 <!-- ndReport&#45;&gt;ndTritonProfiler -->
-<g id="edge44" class="edge">
+<g id="edge45" class="edge">
 <title>ndReport&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" d="M2550.72,-580.94C2543.2,-572.23 2534.48,-562.14 2526.42,-552.82"/>
-<polygon fill="black" stroke="black" points="2519.85,-545.22 2529.8,-549.85 2523.12,-549.01 2526.39,-552.79 2526.39,-552.79 2526.39,-552.79 2523.12,-549.01 2522.99,-555.73 2519.85,-545.22 2519.85,-545.22"/>
+<path fill="none" stroke="black" d="M2444.72,-580.94C2437.2,-572.23 2428.48,-562.14 2420.42,-552.82"/>
+<polygon fill="black" stroke="black" points="2413.85,-545.22 2423.8,-549.85 2417.12,-549.01 2420.39,-552.79 2420.39,-552.79 2420.39,-552.79 2417.12,-549.01 2416.99,-555.73 2413.85,-545.22 2413.85,-545.22"/>
 </g>
 <!-- ndProgram&#45;&gt;ndVMState -->
-<g id="edge45" class="edge">
+<g id="edge46" class="edge">
 <title>ndProgram&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1435.62,-414.94C1444.82,-406.06 1455.52,-395.74 1465.35,-386.27"/>
-<polygon fill="black" stroke="black" points="1472.65,-379.22 1468.58,-389.4 1469.05,-382.69 1465.45,-386.16 1465.45,-386.16 1465.45,-386.16 1469.05,-382.69 1462.33,-382.93 1472.65,-379.22 1472.65,-379.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1409.99,-414.94C1410.78,-406.93 1412.2,-397.75 1413.95,-389.07"/>
+<polygon fill="black" stroke="black" points="1416.15,-379.22 1418.37,-389.96 1415.06,-384.1 1413.97,-388.98 1413.97,-388.98 1413.97,-388.98 1415.06,-384.1 1409.58,-388 1416.15,-379.22 1416.15,-379.22"/>
 </g>
 <!-- ndProgram&#45;&gt;ndProgramAndInput -->
-<g id="edge46" class="edge">
+<g id="edge47" class="edge">
 <title>ndProgram&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1363.65,-426.93C1302.84,-410.7 1201.84,-373.07 1162.22,-296 1150.97,-274.13 1154.45,-246.37 1160.36,-224.82"/>
-<polygon fill="black" stroke="black" points="1160.39,-224.72 1158.32,-217.81 1163.91,-213.25 1165.97,-220.16 1160.39,-224.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1363.46,-433.83C1318.94,-428.27 1253.38,-414.26 1208.22,-379 1159.67,-341.1 1153.5,-310.22 1160.22,-249 1161.08,-241.13 1162.58,-232.76 1164.26,-224.9"/>
+<polygon fill="black" stroke="black" points="1164.29,-224.78 1161.74,-218.03 1166.99,-213.09 1169.54,-219.83 1164.29,-224.78"/>
 </g>
 <!-- ndProgram&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge47" class="edge">
+<g id="edge48" class="edge">
 <title>ndProgram&#45;&gt;ndAlgebraicExecutionTrace</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1460.47,-414.9C1569.69,-373.6 1696.93,-328.02 1778.06,-300.07"/>
 <polygon fill="black" stroke="black" points="1778.34,-299.98 1782.72,-294.25 1789.69,-296.08 1785.32,-301.81 1778.34,-299.98"/>
@@ -746,10 +752,10 @@
 <g id="node35" class="node">
 <title>ndInstructionIter</title>
 <g id="a_node35_41"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/program.rs#:~:text=struct%20InstructionIter" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2641.22,-751.5 2641.22,-788.5 2754.22,-788.5 2754.22,-751.5 2641.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2641.22,-751.5 2641.22,-788.5 2754.22,-788.5 2754.22,-751.5 2641.22,-751.5"/>
-<text text-anchor="start" x="2652.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionIter</text>
-<polygon fill="none" stroke="black" points="2639.72,-751 2639.72,-790 2754.72,-790 2754.72,-751 2639.72,-751"/>
+<polygon fill="lightblue" stroke="transparent" points="2535.22,-751.5 2535.22,-788.5 2648.22,-788.5 2648.22,-751.5 2535.22,-751.5"/>
+<polygon fill="none" stroke="black" points="2535.22,-751.5 2535.22,-788.5 2648.22,-788.5 2648.22,-751.5 2535.22,-751.5"/>
+<text text-anchor="start" x="2546.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">InstructionIter</text>
+<polygon fill="none" stroke="black" points="2533.72,-751 2533.72,-790 2648.72,-790 2648.72,-751 2533.72,-751"/>
 </a>
 </g>
 </g>
@@ -776,13 +782,13 @@
 </g>
 </g>
 <!-- ndProfileLine&#45;&gt;ndProgram -->
-<g id="edge48" class="edge">
+<g id="edge49" class="edge">
 <title>ndProfileLine&#45;&gt;ndProgram</title>
 <path fill="none" stroke="black" d="M1431.7,-497.94C1429,-489.84 1425.9,-480.55 1422.98,-471.79"/>
 <polygon fill="black" stroke="black" points="1419.79,-462.22 1427.22,-470.29 1421.37,-466.97 1422.95,-471.71 1422.95,-471.71 1422.95,-471.71 1421.37,-466.97 1418.69,-473.13 1419.79,-462.22 1419.79,-462.22"/>
 </g>
 <!-- ndProfileLine&#45;&gt;ndVMProfiler -->
-<g id="edge49" class="edge">
+<g id="edge50" class="edge">
 <title>ndProfileLine&#45;&gt;ndVMProfiler</title>
 <path fill="none" stroke="black" d="M1465.4,-497.94C1475.4,-489.32 1486.98,-479.35 1497.7,-470.1"/>
 <polygon fill="black" stroke="black" points="1497.76,-470.06 1499.69,-463.11 1506.85,-462.22 1504.91,-469.17 1497.76,-470.06"/>
@@ -799,39 +805,39 @@
 </g>
 </g>
 <!-- ndPublicInput&#45;&gt;ndVMState -->
-<g id="edge50" class="edge">
+<g id="edge51" class="edge">
 <title>ndPublicInput&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1113.84,-497.74C1124.49,-472.99 1145.11,-434.38 1176.22,-415 1273.61,-354.31 1322.38,-405.89 1438.63,-378.74"/>
-<polygon fill="black" stroke="black" points="1448.6,-376.26 1439.98,-383.04 1443.75,-377.46 1438.9,-378.67 1438.9,-378.67 1438.9,-378.67 1443.75,-377.46 1437.81,-374.3 1448.6,-376.26 1448.6,-376.26"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1114.21,-497.57C1125.08,-473.05 1145.78,-435.01 1176.22,-415 1246.5,-368.81 1282.7,-400.63 1368.67,-378.77"/>
+<polygon fill="black" stroke="black" points="1378.55,-376.08 1370.09,-383.05 1373.73,-377.4 1368.91,-378.71 1368.91,-378.71 1368.91,-378.71 1373.73,-377.4 1367.72,-374.37 1378.55,-376.08 1378.55,-376.08"/>
 </g>
 <!-- ndPublicInput&#45;&gt;ndProgram -->
-<g id="edge51" class="edge">
+<g id="edge52" class="edge">
 <title>ndPublicInput&#45;&gt;ndProgram</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1162.24,-505.45C1216.77,-491.07 1298.6,-469.48 1353.63,-454.96"/>
 <polygon fill="black" stroke="black" points="1363.59,-452.33 1355.06,-459.23 1358.75,-453.61 1353.92,-454.88 1353.92,-454.88 1353.92,-454.88 1358.75,-453.61 1352.77,-450.53 1363.59,-452.33 1363.59,-452.33"/>
 </g>
 <!-- ndPublicInput&#45;&gt;ndProgramAndInput -->
-<g id="edge52" class="edge">
+<g id="edge53" class="edge">
 <title>ndPublicInput&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" d="M1107.59,-497.66C1112.8,-450.55 1126.79,-339.46 1151.22,-249 1153.56,-240.34 1156.68,-231.18 1159.83,-222.73"/>
-<polygon fill="black" stroke="black" points="1163.51,-213.23 1164.1,-224.18 1161.71,-217.89 1159.9,-222.55 1159.9,-222.55 1159.9,-222.55 1161.71,-217.89 1155.71,-220.93 1163.51,-213.23 1163.51,-213.23"/>
+<path fill="none" stroke="black" d="M1108.26,-497.75C1114.77,-450.83 1131.33,-340.04 1154.22,-249 1156.39,-240.37 1159.16,-231.15 1161.91,-222.65"/>
+<polygon fill="black" stroke="black" points="1165.1,-213.07 1166.21,-223.98 1163.52,-217.82 1161.94,-222.56 1161.94,-222.56 1161.94,-222.56 1163.52,-217.82 1157.67,-221.14 1165.1,-213.07 1165.1,-213.07"/>
 </g>
 <!-- ndNonDeterminism -->
 <g id="node39" class="node">
 <title>ndNonDeterminism</title>
 <g id="a_node39_45"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/program.rs#:~:text=struct%20NonDeterminism" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="936.22,-253.5 936.22,-290.5 1068.22,-290.5 1068.22,-253.5 936.22,-253.5"/>
-<polygon fill="none" stroke="black" points="936.22,-253.5 936.22,-290.5 1068.22,-290.5 1068.22,-253.5 936.22,-253.5"/>
-<text text-anchor="start" x="947.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">NonDeterminism</text>
-<polygon fill="none" stroke="black" points="935.22,-253 935.22,-292 1069.22,-292 1069.22,-253 935.22,-253"/>
+<polygon fill="lightblue" stroke="transparent" points="934.22,-253.5 934.22,-290.5 1066.22,-290.5 1066.22,-253.5 934.22,-253.5"/>
+<polygon fill="none" stroke="black" points="934.22,-253.5 934.22,-290.5 1066.22,-290.5 1066.22,-253.5 934.22,-253.5"/>
+<text text-anchor="start" x="945.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">NonDeterminism</text>
+<polygon fill="none" stroke="black" points="933.22,-253 933.22,-292 1067.22,-292 1067.22,-253 933.22,-253"/>
 </a>
 </g>
 </g>
 <!-- ndNonDeterminism&#45;&gt;ndProgramAndInput -->
-<g id="edge53" class="edge">
+<g id="edge54" class="edge">
 <title>ndNonDeterminism&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" d="M1049.85,-248.94C1069.87,-239.45 1093.36,-228.33 1114.44,-218.34"/>
-<polygon fill="black" stroke="black" points="1114.7,-218.22 1118.41,-212.04 1125.54,-213.08 1121.83,-219.27 1114.7,-218.22"/>
+<path fill="none" stroke="black" d="M1048.41,-248.94C1068.76,-239.41 1092.65,-228.22 1114.05,-218.2"/>
+<polygon fill="black" stroke="black" points="1114.12,-218.17 1117.86,-212 1124.99,-213.08 1121.25,-219.25 1114.12,-218.17"/>
 </g>
 <!-- ndParseError -->
 <g id="node40" class="node">
@@ -845,19 +851,19 @@
 </g>
 </g>
 <!-- ndParseError&#45;&gt;ndProgram -->
-<g id="edge54" class="edge">
+<g id="edge55" class="edge">
 <title>ndParseError&#45;&gt;ndProgram</title>
 <path fill="none" stroke="black" d="M1339.35,-497.94C1350.64,-488.88 1363.79,-478.33 1375.8,-468.71"/>
 <polygon fill="black" stroke="black" points="1383.88,-462.22 1378.9,-471.99 1379.98,-465.35 1376.08,-468.48 1376.08,-468.48 1376.08,-468.48 1379.98,-465.35 1373.27,-464.97 1383.88,-462.22 1383.88,-462.22"/>
 </g>
 <!-- ndProof&#45;&gt;ndProofStream -->
-<g id="edge55" class="edge">
+<g id="edge56" class="edge">
 <title>ndProof&#45;&gt;ndProofStream</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M806.33,-165.94C798.27,-157.23 788.93,-147.14 780.3,-137.82"/>
 <polygon fill="black" stroke="black" points="773.26,-130.22 783.35,-134.5 776.65,-133.89 780.05,-137.56 780.05,-137.56 780.05,-137.56 776.65,-133.89 776.75,-140.62 773.26,-130.22 773.26,-130.22"/>
 </g>
 <!-- ndProof&#45;&gt;ndStark -->
-<g id="edge56" class="edge">
+<g id="edge57" class="edge">
 <title>ndProof&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M837.15,-165.7C847.79,-143.02 866.27,-108.07 889.22,-83 899.67,-71.58 912.71,-61.05 925.29,-52.18"/>
 <polygon fill="black" stroke="black" points="933.89,-46.31 928.17,-55.66 929.76,-49.13 925.63,-51.95 925.63,-51.95 925.63,-51.95 929.76,-49.13 923.09,-48.23 933.89,-46.31 933.89,-46.31"/>
@@ -877,30 +883,30 @@
 <g id="node49" class="node">
 <title>ndChallenges</title>
 <g id="a_node49_48"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/challenges.rs#:~:text=struct%20Challenges" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2150.22,-253.5 2150.22,-290.5 2245.22,-290.5 2245.22,-253.5 2150.22,-253.5"/>
-<polygon fill="none" stroke="black" points="2150.22,-253.5 2150.22,-290.5 2245.22,-290.5 2245.22,-253.5 2150.22,-253.5"/>
-<text text-anchor="start" x="2161.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Challenges</text>
-<polygon fill="none" stroke="black" points="2148.72,-253 2148.72,-292 2245.72,-292 2245.72,-253 2148.72,-253"/>
+<polygon fill="lightblue" stroke="transparent" points="2154.22,-253.5 2154.22,-290.5 2249.22,-290.5 2249.22,-253.5 2154.22,-253.5"/>
+<polygon fill="none" stroke="black" points="2154.22,-253.5 2154.22,-290.5 2249.22,-290.5 2249.22,-253.5 2154.22,-253.5"/>
+<text text-anchor="start" x="2165.22" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Challenges</text>
+<polygon fill="none" stroke="black" points="2152.72,-253 2152.72,-292 2249.72,-292 2249.72,-253 2152.72,-253"/>
 </a>
 </g>
 </g>
 <!-- ndClaim&#45;&gt;ndChallenges -->
-<g id="edge57" class="edge">
+<g id="edge58" class="edge">
 <title>ndClaim&#45;&gt;ndChallenges</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2154.65,-331.94C2160.87,-323.41 2168.05,-313.55 2174.72,-304.38"/>
-<polygon fill="black" stroke="black" points="2180.67,-296.22 2178.42,-306.96 2177.72,-300.26 2174.78,-304.31 2174.78,-304.31 2174.78,-304.31 2177.72,-300.26 2171.14,-301.66 2180.67,-296.22 2180.67,-296.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2155.77,-331.94C2162.4,-323.41 2170.07,-313.55 2177.2,-304.38"/>
+<polygon fill="black" stroke="black" points="2183.54,-296.22 2180.96,-306.88 2180.47,-300.17 2177.4,-304.12 2177.4,-304.12 2177.4,-304.12 2180.47,-300.17 2173.85,-301.35 2183.54,-296.22 2183.54,-296.22"/>
 </g>
 <!-- ndClaim&#45;&gt;ndStark -->
-<g id="edge58" class="edge">
+<g id="edge59" class="edge">
 <title>ndClaim&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M2099.11,-350.22C2028.8,-342.16 1876.61,-323.08 1750.22,-296 1616.2,-267.28 1572.93,-279.74 1453.22,-213 1426.29,-197.99 1428.8,-181.61 1402.22,-166 1274.08,-90.76 1100.7,-49.56 1018.37,-33.1"/>
 <polygon fill="black" stroke="black" points="1008.32,-31.12 1019,-28.64 1013.23,-32.09 1018.13,-33.05 1018.13,-33.05 1018.13,-33.05 1013.23,-32.09 1017.26,-37.47 1008.32,-31.12 1008.32,-31.12"/>
 </g>
 <!-- ndProofStream&#45;&gt;ndProofStreamError -->
-<g id="edge59" class="edge">
+<g id="edge60" class="edge">
 <title>ndProofStream&#45;&gt;ndProofStreamError</title>
-<path fill="none" stroke="black" d="M762.21,-130.36C768,-152.46 775.44,-186.42 789.22,-213 793.99,-222.2 800.41,-231.24 806.79,-239.35"/>
-<polygon fill="black" stroke="black" points="806.85,-239.43 813.74,-241.57 814.42,-248.74 807.53,-246.61 806.85,-239.43"/>
+<path fill="none" stroke="black" d="M762.27,-130.33C768.1,-152.41 775.57,-186.35 789.22,-213 793.94,-222.23 800.32,-231.33 806.61,-239.5"/>
+<polygon fill="black" stroke="black" points="806.66,-239.56 813.52,-241.76 814.13,-248.95 807.26,-246.74 806.66,-239.56"/>
 </g>
 <!-- ndU32TableEntry -->
 <g id="node45" class="node">
@@ -914,13 +920,13 @@
 </g>
 </g>
 <!-- ndU32TableEntry&#45;&gt;ndCoProcessorCall -->
-<g id="edge60" class="edge">
+<g id="edge61" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndCoProcessorCall</title>
 <path fill="none" stroke="black" d="M2034.8,-497.94C2023.84,-489.23 2011.14,-479.14 1999.4,-469.82"/>
 <polygon fill="black" stroke="black" points="1999.23,-469.69 1992.04,-469.09 1989.83,-462.22 1997.02,-462.82 1999.23,-469.69"/>
 </g>
 <!-- ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge61" class="edge">
+<g id="edge62" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M2063.74,-497.85C2063.25,-475.29 2059.7,-440.44 2044.22,-415 2013.86,-365.12 1958.93,-326.38 1916.96,-302.14"/>
 <polygon fill="black" stroke="black" points="1916.78,-302.04 1909.58,-302.58 1906.32,-296.14 1913.51,-295.61 1916.78,-302.04"/>
@@ -959,10 +965,10 @@
 </g>
 </g>
 <!-- ndChallengeId&#45;&gt;ndChallenges -->
-<g id="edge62" class="edge">
+<g id="edge63" class="edge">
 <title>ndChallengeId&#45;&gt;ndChallenges</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2923.54,-348.44C2780.53,-333.69 2414.72,-295.94 2263.83,-280.37"/>
-<polygon fill="black" stroke="black" points="2253.78,-279.34 2264.19,-275.89 2258.75,-279.85 2263.73,-280.36 2263.73,-280.36 2263.73,-280.36 2258.75,-279.85 2263.26,-284.84 2253.78,-279.34 2253.78,-279.34"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2923.52,-348.41C2781.16,-333.65 2418.27,-296.01 2267.97,-280.42"/>
+<polygon fill="black" stroke="black" points="2257.95,-279.38 2268.36,-275.94 2262.93,-279.9 2267.9,-280.42 2267.9,-280.42 2267.9,-280.42 2262.93,-279.9 2267.44,-284.89 2257.95,-279.38 2257.95,-279.38"/>
 </g>
 <!-- ndCircuitExpression -->
 <g id="node110" class="node">
@@ -976,7 +982,7 @@
 </g>
 </g>
 <!-- ndChallengeId&#45;&gt;ndCircuitExpression -->
-<g id="edge63" class="edge">
+<g id="edge64" class="edge">
 <title>ndChallengeId&#45;&gt;ndCircuitExpression</title>
 <path fill="none" stroke="black" d="M3022.54,-331.91C3060.68,-307.98 3115.5,-266.3 3139.22,-213 3149.13,-190.73 3145.35,-163.36 3139.37,-142.08"/>
 <polygon fill="black" stroke="black" points="3139.28,-141.78 3133.67,-137.26 3135.69,-130.33 3141.3,-134.86 3139.28,-141.78"/>
@@ -993,16 +999,16 @@
 </g>
 </g>
 <!-- ndChallengeId&#45;&gt;ndConstraintCircuitBuilder -->
-<g id="edge64" class="edge">
+<g id="edge65" class="edge">
 <title>ndChallengeId&#45;&gt;ndConstraintCircuitBuilder</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M2976.09,-331.72C2963.61,-279.62 2941.7,-151.07 3008.22,-83 3034.45,-56.16 3253.96,-38.69 3390.45,-30.31"/>
 <polygon fill="black" stroke="black" points="3400.53,-29.7 3390.82,-34.8 3395.54,-30.01 3390.55,-30.31 3390.55,-30.31 3390.55,-30.31 3395.54,-30.01 3390.28,-25.82 3400.53,-29.7 3400.53,-29.7"/>
 </g>
 <!-- ndChallenges&#45;&gt;ndU32Table -->
-<g id="edge65" class="edge">
+<g id="edge66" class="edge">
 <title>ndChallenges&#45;&gt;ndU32Table</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2178,-248.94C2170.66,-240.32 2162.16,-230.35 2154.29,-221.1"/>
-<polygon fill="black" stroke="black" points="2147.57,-213.22 2157.48,-217.92 2150.82,-217.03 2154.06,-220.84 2154.06,-220.84 2154.06,-220.84 2150.82,-217.03 2150.63,-223.75 2147.57,-213.22 2147.57,-213.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2180.88,-248.94C2173.04,-240.23 2163.95,-230.14 2155.55,-220.82"/>
+<polygon fill="black" stroke="black" points="2148.7,-213.22 2158.73,-217.64 2152.04,-216.94 2155.39,-220.65 2155.39,-220.65 2155.39,-220.65 2152.04,-216.94 2152.05,-223.66 2148.7,-213.22 2148.7,-213.22"/>
 </g>
 <!-- ndProgramTable -->
 <g id="node50" class="node">
@@ -1016,10 +1022,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndProgramTable -->
-<g id="edge66" class="edge">
+<g id="edge67" class="edge">
 <title>ndChallenges&#45;&gt;ndProgramTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2215.32,-248.94C2222.24,-240.32 2230.24,-230.35 2237.66,-221.1"/>
-<polygon fill="black" stroke="black" points="2243.98,-213.22 2241.23,-223.84 2240.85,-217.12 2237.72,-221.02 2237.72,-221.02 2237.72,-221.02 2240.85,-217.12 2234.21,-218.21 2243.98,-213.22 2243.98,-213.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2218.21,-248.94C2224.63,-240.41 2232.06,-230.55 2238.96,-221.38"/>
+<polygon fill="black" stroke="black" points="2245.11,-213.22 2242.68,-223.92 2242.1,-217.22 2239.09,-221.21 2239.09,-221.21 2239.09,-221.21 2242.1,-217.22 2235.49,-218.5 2245.11,-213.22 2245.11,-213.22"/>
 </g>
 <!-- ndLookupTable -->
 <g id="node52" class="node">
@@ -1033,10 +1039,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndLookupTable -->
-<g id="edge67" class="edge">
+<g id="edge68" class="edge">
 <title>ndChallenges&#45;&gt;ndLookupTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2253.76,-249.79C2280.19,-239.65 2311.88,-227.48 2339.66,-216.82"/>
-<polygon fill="black" stroke="black" points="2349.31,-213.12 2341.58,-220.9 2344.64,-214.91 2339.97,-216.7 2339.97,-216.7 2339.97,-216.7 2344.64,-214.91 2338.36,-212.5 2349.31,-213.12 2349.31,-213.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2257.78,-249.37C2283.59,-239.27 2314.33,-227.24 2341.28,-216.69"/>
+<polygon fill="black" stroke="black" points="2350.64,-213.03 2342.97,-220.86 2345.99,-214.85 2341.33,-216.67 2341.33,-216.67 2341.33,-216.67 2345.99,-214.85 2339.69,-212.48 2350.64,-213.03 2350.64,-213.03"/>
 </g>
 <!-- ndMasterBaseTable -->
 <g id="node56" class="node">
@@ -1050,9 +1056,9 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndMasterBaseTable -->
-<g id="edge68" class="edge">
+<g id="edge69" class="edge">
 <title>ndChallenges&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2140.4,-264.78C2094.54,-259.62 2028.31,-252.75 1970.22,-249 1442.19,-214.88 1307.96,-251.36 780.22,-213 744.64,-210.41 705.56,-206.18 671.78,-202.08"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2144.34,-264.89C2097.64,-259.72 2029.73,-252.79 1970.22,-249 1442.16,-215.33 1307.96,-251.36 780.22,-213 744.64,-210.41 705.56,-206.18 671.78,-202.08"/>
 <polygon fill="black" stroke="black" points="661.48,-200.81 671.95,-197.57 666.44,-201.42 671.41,-202.03 671.41,-202.03 671.41,-202.03 666.44,-201.42 670.86,-206.5 661.48,-200.81 661.48,-200.81"/>
 </g>
 <!-- ndRamTable -->
@@ -1067,10 +1073,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndRamTable -->
-<g id="edge69" class="edge">
+<g id="edge70" class="edge">
 <title>ndChallenges&#45;&gt;ndRamTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2253.97,-262.2C2309.21,-252.59 2395.55,-236.11 2478.99,-212.88"/>
-<polygon fill="black" stroke="black" points="2488.62,-210.17 2480.22,-217.21 2483.81,-211.53 2479,-212.88 2479,-212.88 2479,-212.88 2483.81,-211.53 2477.77,-208.55 2488.62,-210.17 2488.62,-210.17"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2257.96,-261.98C2312.34,-252.31 2396.77,-235.88 2478.65,-212.98"/>
+<polygon fill="black" stroke="black" points="2488.62,-210.16 2480.22,-217.21 2483.81,-211.52 2479,-212.89 2479,-212.89 2479,-212.89 2483.81,-211.52 2477.77,-208.56 2488.62,-210.16 2488.62,-210.16"/>
 </g>
 <!-- ndOpStackTable -->
 <g id="node85" class="node">
@@ -1084,10 +1090,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndOpStackTable -->
-<g id="edge70" class="edge">
+<g id="edge71" class="edge">
 <title>ndChallenges&#45;&gt;ndOpStackTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2140.63,-265.84C2009.53,-252.7 1691.87,-220.76 1628.84,-212.64"/>
-<polygon fill="black" stroke="black" points="1618.82,-211.16 1629.37,-208.17 1623.76,-211.89 1628.71,-212.62 1628.71,-212.62 1628.71,-212.62 1623.76,-211.89 1628.06,-217.07 1618.82,-211.16 1618.82,-211.16"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2144.69,-266.04C2013.63,-253.33 1695.6,-222.28 1628.72,-212.77"/>
+<polygon fill="black" stroke="black" points="1618.82,-211.17 1629.41,-208.32 1623.75,-211.96 1628.69,-212.76 1628.69,-212.76 1628.69,-212.76 1623.75,-211.96 1627.97,-217.21 1618.82,-211.17 1618.82,-211.17"/>
 </g>
 <!-- ndCascadeTable -->
 <g id="node88" class="node">
@@ -1101,10 +1107,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndCascadeTable -->
-<g id="edge71" class="edge">
+<g id="edge72" class="edge">
 <title>ndChallenges&#45;&gt;ndCascadeTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2140.69,-266.4C2061.56,-258.65 1913.25,-241.91 1778.04,-213.02"/>
-<polygon fill="black" stroke="black" points="1767.92,-210.83 1778.64,-208.55 1772.81,-211.89 1777.69,-212.95 1777.69,-212.95 1777.69,-212.95 1772.81,-211.89 1776.74,-217.34 1767.92,-210.83 1767.92,-210.83"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2144.49,-266.48C2064.62,-258.8 1914.44,-242.09 1777.74,-212.95"/>
+<polygon fill="black" stroke="black" points="1767.92,-210.84 1778.64,-208.55 1772.81,-211.89 1777.69,-212.95 1777.69,-212.95 1777.69,-212.95 1772.81,-211.89 1776.74,-217.34 1767.92,-210.84 1767.92,-210.84"/>
 </g>
 <!-- ndProcessorTable -->
 <g id="node90" class="node">
@@ -1118,9 +1124,9 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndProcessorTable -->
-<g id="edge72" class="edge">
+<g id="edge73" class="edge">
 <title>ndChallenges&#45;&gt;ndProcessorTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2254.08,-269.38C2360.24,-264.7 2595.74,-250.87 2802.57,-212.95"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2258.13,-269.33C2363.79,-264.58 2597.38,-250.65 2802.65,-212.93"/>
 <polygon fill="black" stroke="black" points="2812.71,-211.06 2803.7,-217.32 2807.79,-211.98 2802.88,-212.89 2802.88,-212.89 2802.88,-212.89 2807.79,-211.98 2802.05,-208.47 2812.71,-211.06 2812.71,-211.06"/>
 </g>
 <!-- ndJumpStackTable -->
@@ -1135,10 +1141,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndJumpStackTable -->
-<g id="edge73" class="edge">
+<g id="edge74" class="edge">
 <title>ndChallenges&#45;&gt;ndJumpStackTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2140.57,-259.11C2091.22,-248.16 2017.48,-231.45 1944.25,-213.22"/>
-<polygon fill="black" stroke="black" points="1934.39,-210.76 1945.19,-208.82 1939.24,-211.97 1944.09,-213.18 1944.09,-213.18 1944.09,-213.18 1939.24,-211.97 1943,-217.55 1934.39,-210.76 1934.39,-210.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2144.69,-259.39C2094.56,-248.5 2019.13,-231.71 1944.44,-213.27"/>
+<polygon fill="black" stroke="black" points="1934.39,-210.77 1945.18,-208.81 1939.24,-211.98 1944.1,-213.18 1944.1,-213.18 1944.1,-213.18 1939.24,-211.98 1943.01,-217.55 1934.39,-210.77 1934.39,-210.77"/>
 </g>
 <!-- ndHashTable -->
 <g id="node95" class="node">
@@ -1152,10 +1158,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndHashTable -->
-<g id="edge74" class="edge">
+<g id="edge75" class="edge">
 <title>ndChallenges&#45;&gt;ndHashTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2144.01,-248.94C2120.72,-239.06 2093.23,-227.4 2068.95,-217.1"/>
-<polygon fill="black" stroke="black" points="2059.47,-213.08 2070.43,-212.84 2064.07,-215.03 2068.67,-216.99 2068.67,-216.99 2068.67,-216.99 2064.07,-215.03 2066.92,-221.13 2059.47,-213.08 2059.47,-213.08"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2146.9,-248.94C2122.92,-238.98 2094.57,-227.2 2069.62,-216.84"/>
+<polygon fill="black" stroke="black" points="2060.24,-212.94 2071.21,-212.62 2064.86,-214.86 2069.48,-216.78 2069.48,-216.78 2069.48,-216.78 2064.86,-214.86 2067.75,-220.93 2060.24,-212.94 2060.24,-212.94"/>
 </g>
 <!-- ndDegreeLoweringTable -->
 <g id="node100" class="node">
@@ -1169,10 +1175,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndDegreeLoweringTable -->
-<g id="edge75" class="edge">
+<g id="edge76" class="edge">
 <title>ndChallenges&#45;&gt;ndDegreeLoweringTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2253.78,-264.7C2332.27,-254.96 2478.53,-235.68 2602.22,-213 2602.32,-212.98 2602.42,-212.96 2602.52,-212.94"/>
-<polygon fill="black" stroke="black" points="2612.16,-211.12 2603.18,-217.4 2607.25,-212.05 2602.34,-212.98 2602.34,-212.98 2602.34,-212.98 2607.25,-212.05 2601.5,-208.56 2612.16,-211.12 2612.16,-211.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2257.88,-264.58C2335.75,-254.77 2480.09,-235.48 2602.22,-213 2602.32,-212.98 2602.42,-212.96 2602.52,-212.94"/>
+<polygon fill="black" stroke="black" points="2612.16,-211.11 2603.18,-217.4 2607.25,-212.04 2602.34,-212.98 2602.34,-212.98 2602.34,-212.98 2607.25,-212.04 2601.5,-208.56 2612.16,-211.11 2612.16,-211.11"/>
 </g>
 <!-- ndConstraintCircuit -->
 <g id="node111" class="node">
@@ -1186,10 +1192,10 @@
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndConstraintCircuit -->
-<g id="edge76" class="edge">
+<g id="edge77" class="edge">
 <title>ndChallenges&#45;&gt;ndConstraintCircuit</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2253.98,-268.86C2430.16,-260.54 2966.2,-234.12 3139.22,-213 3151.37,-211.52 3164.15,-209.59 3176.67,-207.5"/>
-<polygon fill="black" stroke="black" points="3186.65,-205.78 3177.56,-211.91 3181.72,-206.63 3176.79,-207.48 3176.79,-207.48 3176.79,-207.48 3181.72,-206.63 3176.03,-203.04 3186.65,-205.78 3186.65,-205.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2257.74,-268.86C2433.17,-260.52 2966.93,-234.05 3139.22,-213 3151.37,-211.51 3164.15,-209.59 3176.67,-207.49"/>
+<polygon fill="black" stroke="black" points="3186.65,-205.78 3177.56,-211.91 3181.72,-206.63 3176.79,-207.47 3176.79,-207.47 3176.79,-207.47 3181.72,-206.63 3176.03,-203.04 3186.65,-205.78 3186.65,-205.78"/>
 </g>
 <!-- ndExtProgramTable -->
 <g id="node51" class="node">
@@ -1225,7 +1231,7 @@
 </g>
 </g>
 <!-- ndTableId&#45;&gt;ndMasterBaseTable -->
-<g id="edge77" class="edge">
+<g id="edge78" class="edge">
 <title>ndTableId&#45;&gt;ndMasterBaseTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M379.93,-335.78C401.27,-325.59 426.7,-311.84 447.22,-296 469.63,-278.7 468.4,-267.04 490.22,-249 503.57,-237.96 519.19,-227.5 533.86,-218.55"/>
 <polygon fill="black" stroke="black" points="542.84,-213.18 536.56,-222.17 538.55,-215.75 534.26,-218.31 534.26,-218.31 534.26,-218.31 538.55,-215.75 531.95,-214.45 542.84,-213.18 542.84,-213.18"/>
@@ -1242,7 +1248,7 @@
 </g>
 </g>
 <!-- ndTableId&#45;&gt;ndMasterExtTable -->
-<g id="edge78" class="edge">
+<g id="edge79" class="edge">
 <title>ndTableId&#45;&gt;ndMasterExtTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M379.77,-335.66C382.95,-334.39 386.13,-333.16 389.22,-332 421.71,-319.85 458.02,-307.77 489.47,-297.77"/>
 <polygon fill="black" stroke="black" points="499.06,-294.74 490.88,-302.04 494.3,-296.24 489.53,-297.75 489.53,-297.75 489.53,-297.75 494.3,-296.24 488.17,-293.46 499.06,-294.74 499.06,-294.74"/>
@@ -1259,19 +1265,19 @@
 </g>
 </g>
 <!-- ndMasterTable&#45;&gt;ndMasterBaseTable -->
-<g id="edge79" class="edge">
+<g id="edge80" class="edge">
 <title>ndMasterTable&#45;&gt;ndMasterBaseTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M708.2,-331.67C694.19,-309.59 671.45,-275.64 648.22,-249 639.55,-239.06 629.36,-229.01 619.73,-220.11"/>
 <polygon fill="none" stroke="black" points="621.92,-217.38 612.17,-213.25 617.22,-222.56 621.92,-217.38"/>
 </g>
 <!-- ndMasterTable&#45;&gt;ndMasterExtTable -->
-<g id="edge80" class="edge">
+<g id="edge81" class="edge">
 <title>ndMasterTable&#45;&gt;ndMasterExtTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M679.6,-331.94C661.36,-322.28 639.89,-310.91 620.76,-300.79"/>
 <polygon fill="none" stroke="black" points="622.35,-297.67 611.87,-296.08 619.07,-303.85 622.35,-297.67"/>
 </g>
 <!-- ndMasterExtTable&#45;&gt;ndMasterBaseTable -->
-<g id="edge81" class="edge">
+<g id="edge82" class="edge">
 <title>ndMasterExtTable&#45;&gt;ndMasterBaseTable</title>
 <path fill="none" stroke="black" d="M573.67,-248.94C575.26,-240.93 577.07,-231.75 578.78,-223.07"/>
 <polygon fill="black" stroke="black" points="580.73,-213.22 583.21,-223.91 579.76,-218.13 578.79,-223.03 578.79,-223.03 578.79,-223.03 579.76,-218.13 574.38,-222.16 580.73,-213.22 580.73,-213.22"/>
@@ -1288,19 +1294,19 @@
 </g>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndVMState -->
-<g id="edge82" class="edge">
+<g id="edge83" class="edge">
 <title>ndRamTableCall&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M1886.87,-497.98C1851.05,-467.41 1791.08,-416.38 1788.22,-415 1713.17,-378.81 1616.9,-365 1555.86,-359.74"/>
-<polygon fill="black" stroke="black" points="1555.73,-359.73 1549.43,-363.23 1543.77,-358.77 1550.07,-355.26 1555.73,-359.73"/>
+<path fill="none" stroke="black" d="M1886.88,-497.97C1851.07,-467.38 1791.1,-416.33 1788.22,-415 1689.1,-369.47 1560.5,-358.68 1486.28,-356.52"/>
+<polygon fill="black" stroke="black" points="1485.96,-356.52 1479.87,-360.37 1473.97,-356.23 1480.06,-352.37 1485.96,-356.52"/>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndCoProcessorCall -->
-<g id="edge83" class="edge">
+<g id="edge84" class="edge">
 <title>ndRamTableCall&#45;&gt;ndCoProcessorCall</title>
 <path fill="none" stroke="black" d="M1926.59,-497.94C1931.23,-490.1 1936.54,-481.15 1941.58,-472.64"/>
 <polygon fill="black" stroke="black" points="1941.63,-472.55 1941.25,-465.35 1947.75,-462.22 1948.13,-469.42 1941.63,-472.55"/>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge84" class="edge">
+<g id="edge85" class="edge">
 <title>ndRamTableCall&#45;&gt;ndAlgebraicExecutionTrace</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1895.86,-497.83C1888.85,-487.46 1881.43,-474.67 1877.22,-462 1859.79,-409.56 1857.93,-344.66 1858.7,-306.31"/>
 <polygon fill="black" stroke="black" points="1858.97,-296.23 1863.2,-306.35 1858.83,-301.23 1858.7,-306.23 1858.7,-306.23 1858.7,-306.23 1858.83,-301.23 1854.2,-306.1 1858.97,-296.23 1858.97,-296.23"/>
@@ -1350,7 +1356,7 @@
 </g>
 </g>
 <!-- ndProcessorBaseTableColumn&#45;&gt;ndProcessorTable -->
-<g id="edge85" class="edge">
+<g id="edge86" class="edge">
 <title>ndProcessorBaseTableColumn&#45;&gt;ndProcessorTable</title>
 <path fill="none" stroke="black" d="M2853.64,-248.94C2857.82,-240.67 2862.64,-231.15 2867.16,-222.23"/>
 <polygon fill="black" stroke="black" points="2871.72,-213.22 2871.21,-224.18 2869.46,-217.68 2867.2,-222.15 2867.2,-222.15 2867.2,-222.15 2869.46,-217.68 2863.18,-220.11 2871.72,-213.22 2871.72,-213.22"/>
@@ -1455,10 +1461,10 @@
 </g>
 </g>
 <!-- ndHashBaseTableColumn&#45;&gt;ndExtHashTable -->
-<g id="edge86" class="edge">
+<g id="edge87" class="edge">
 <title>ndHashBaseTableColumn&#45;&gt;ndExtHashTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4077.56,-250.13C4074.75,-249.72 4071.97,-249.34 4069.22,-249 4012.4,-241.92 3078.99,-254.19 3039.22,-213 2999.08,-171.44 2999.68,-125.13 3039.22,-83 3080.73,-38.77 3508.67,-56.7 3605.35,-46.51"/>
-<polygon fill="black" stroke="black" points="3615.45,-45.12 3606.16,-50.94 3610.5,-45.8 3605.55,-46.48 3605.55,-46.48 3605.55,-46.48 3610.5,-45.8 3604.93,-42.02 3615.45,-45.12 3615.45,-45.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4077.56,-250.13C4074.75,-249.72 4071.97,-249.34 4069.22,-249 4012.4,-241.92 3078.99,-254.19 3039.22,-213 2999.08,-171.44 2999.68,-125.13 3039.22,-83 3080.81,-38.69 3509.52,-56.82 3605.53,-46.68"/>
+<polygon fill="black" stroke="black" points="3615.54,-45.3 3606.25,-51.13 3610.58,-45.99 3605.63,-46.67 3605.63,-46.67 3605.63,-46.67 3610.58,-45.99 3605.01,-42.21 3615.54,-45.3 3615.54,-45.3"/>
 </g>
 <!-- ndHashExtTableColumn -->
 <g id="node72" class="node">
@@ -1472,7 +1478,7 @@
 </g>
 </g>
 <!-- ndHashExtTableColumn&#45;&gt;ndExtHashTable -->
-<g id="edge87" class="edge">
+<g id="edge88" class="edge">
 <title>ndHashExtTableColumn&#45;&gt;ndExtHashTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3531.6,-82.94C3556.94,-72.97 3586.9,-61.19 3613.25,-50.83"/>
 <polygon fill="black" stroke="black" points="3622.79,-47.08 3615.13,-54.93 3618.13,-48.91 3613.48,-50.74 3613.48,-50.74 3613.48,-50.74 3618.13,-48.91 3611.83,-46.55 3622.79,-47.08 3622.79,-47.08"/>
@@ -1555,55 +1561,55 @@
 </g>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndProgramBaseTableColumn -->
-<g id="edge88" class="edge">
+<g id="edge89" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndProgramBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3952.22,-331.94C3952.22,-324.02 3952.22,-314.95 3952.22,-306.36"/>
 <polygon fill="none" stroke="black" points="3955.72,-306.22 3952.22,-296.22 3948.72,-306.22 3955.72,-306.22"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndProcessorBaseTableColumn -->
-<g id="edge89" class="edge">
+<g id="edge90" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndProcessorBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3850.28,-347.06C3645.48,-332.12 3184.86,-298.5 2964.36,-282.41"/>
 <polygon fill="none" stroke="black" points="2964.6,-278.92 2954.37,-281.68 2964.09,-285.9 2964.6,-278.92"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndOpStackBaseTableColumn -->
-<g id="edge90" class="edge">
+<g id="edge91" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndOpStackBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4053.97,-336.62C4115.79,-325.67 4196.58,-311.19 4277.26,-296.17"/>
 <polygon fill="none" stroke="black" points="4277.91,-299.61 4287.1,-294.33 4276.63,-292.73 4277.91,-299.61"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndRamBaseTableColumn -->
-<g id="edge91" class="edge">
+<g id="edge92" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndRamBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4053.72,-347.25C4163.59,-338.63 4344.08,-322.24 4508.68,-296.17"/>
 <polygon fill="none" stroke="black" points="4509.68,-299.55 4519,-294.52 4508.57,-292.64 4509.68,-299.55"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndJumpStackBaseTableColumn -->
-<g id="edge92" class="edge">
+<g id="edge93" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndJumpStackBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4053.89,-350.01C4198.6,-342.88 4472.41,-326.67 4715.42,-296.04"/>
 <polygon fill="none" stroke="black" points="4716.03,-299.49 4725.51,-294.76 4715.15,-292.54 4716.03,-299.49"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndHashBaseTableColumn -->
-<g id="edge93" class="edge">
+<g id="edge94" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndHashBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4013.78,-331.94C4041.2,-321.89 4073.67,-309.99 4102.12,-299.56"/>
 <polygon fill="none" stroke="black" points="4103.42,-302.81 4111.6,-296.08 4101.01,-296.24 4103.42,-302.81"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndCascadeBaseTableColumn -->
-<g id="edge94" class="edge">
+<g id="edge95" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndCascadeBaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3850.56,-346.13C3743.46,-336.71 3569.7,-319.78 3410.28,-296.1"/>
 <polygon fill="none" stroke="black" points="3410.7,-292.63 3400.29,-294.61 3409.66,-299.55 3410.7,-292.63"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndLookupBaseTableColumn -->
-<g id="edge95" class="edge">
+<g id="edge96" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndLookupBaseTableColumn</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3850.46,-336.22C3790.57,-325.35 3713.09,-311.12 3635.85,-296.3"/>
-<polygon fill="none" stroke="black" points="3636.42,-292.85 3625.94,-294.4 3635.1,-299.72 3636.42,-292.85"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3850.43,-336.09C3790.78,-325.21 3713.71,-311.01 3635.94,-296.13"/>
+<polygon fill="none" stroke="black" points="3636.44,-292.66 3625.96,-294.22 3635.13,-299.54 3636.44,-292.66"/>
 </g>
 <!-- ndMasterBaseTableColumn&#45;&gt;ndU32BaseTableColumn -->
-<g id="edge96" class="edge">
+<g id="edge97" class="edge">
 <title>ndMasterBaseTableColumn&#45;&gt;ndU32BaseTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3891.77,-331.94C3864.96,-321.93 3833.24,-310.09 3805.39,-299.69"/>
 <polygon fill="none" stroke="black" points="3806.31,-296.3 3795.72,-296.08 3803.86,-302.86 3806.31,-296.3"/>
@@ -1620,55 +1626,55 @@
 </g>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndProgramExtTableColumn -->
-<g id="edge97" class="edge">
+<g id="edge98" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndProgramExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4647.76,-180.12C4749,-170.68 4913.69,-153.69 5065.67,-130.02"/>
 <polygon fill="none" stroke="black" points="5066.32,-133.46 5075.66,-128.45 5065.24,-126.55 5066.32,-133.46"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndProcessorExtTableColumn -->
-<g id="edge98" class="edge">
+<g id="edge99" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndProcessorExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4647.87,-184.38C4786.63,-177.63 5051.98,-161.8 5286.39,-130.19"/>
 <polygon fill="none" stroke="black" points="5287.03,-133.63 5296.47,-128.81 5286.09,-126.7 5287.03,-133.63"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndOpStackExtTableColumn -->
-<g id="edge99" class="edge">
+<g id="edge100" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndOpStackExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4456.55,-180.92C4349.85,-171.85 4171.99,-154.9 4008.99,-130.05"/>
 <polygon fill="none" stroke="black" points="4009.19,-126.54 3998.77,-128.48 4008.13,-133.46 4009.19,-126.54"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndRamExtTableColumn -->
-<g id="edge100" class="edge">
+<g id="edge101" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndRamExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4456.39,-174.01C4388.59,-163.39 4295.32,-148.04 4203.83,-130.07"/>
 <polygon fill="none" stroke="black" points="4204.33,-126.6 4193.84,-128.1 4202.97,-133.47 4204.33,-126.6"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndJumpStackExtTableColumn -->
-<g id="edge101" class="edge">
+<g id="edge102" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndJumpStackExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4488.15,-165.94C4459.48,-155.84 4425.53,-143.88 4395.82,-133.42"/>
 <polygon fill="none" stroke="black" points="4396.94,-130.1 4386.34,-130.08 4394.61,-136.71 4396.94,-130.1"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndHashExtTableColumn -->
-<g id="edge102" class="edge">
+<g id="edge103" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndHashExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4456.61,-187.89C4280.97,-185.65 3895.48,-175.45 3574.22,-130 3574.12,-129.99 3574.01,-129.97 3573.91,-129.96"/>
 <polygon fill="none" stroke="black" points="3574.73,-126.54 3564.31,-128.47 3573.66,-133.46 3574.73,-126.54"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndCascadeExtTableColumn -->
-<g id="edge103" class="edge">
+<g id="edge104" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndCascadeExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4552.22,-165.94C4552.22,-158.02 4552.22,-148.95 4552.22,-140.36"/>
 <polygon fill="none" stroke="black" points="4555.72,-140.22 4552.22,-130.22 4548.72,-140.22 4555.72,-140.22"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndLookupExtTableColumn -->
-<g id="edge104" class="edge">
+<g id="edge105" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndLookupExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4612.66,-165.94C4639.48,-155.93 4671.19,-144.09 4699.04,-133.69"/>
 <polygon fill="none" stroke="black" points="4700.57,-136.86 4708.72,-130.08 4698.13,-130.3 4700.57,-136.86"/>
 </g>
 <!-- ndMasterExtTableColumn&#45;&gt;ndU32ExtTableColumn -->
-<g id="edge105" class="edge">
+<g id="edge106" class="edge">
 <title>ndMasterExtTableColumn&#45;&gt;ndU32ExtTableColumn</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4647.82,-172.63C4709.95,-161.99 4792.92,-147.17 4875.04,-130.2"/>
 <polygon fill="none" stroke="black" points="4875.97,-133.58 4885.05,-128.12 4874.55,-126.73 4875.97,-133.58"/>
@@ -1685,7 +1691,7 @@
 </g>
 </g>
 <!-- ndEvaluable&#45;&gt;ndMasterExtTable -->
-<g id="edge106" class="edge">
+<g id="edge107" class="edge">
 <title>ndEvaluable&#45;&gt;ndMasterExtTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M483.37,-331.94C497.05,-322.62 513.06,-311.72 527.53,-301.88"/>
 <polygon fill="none" stroke="black" points="529.54,-304.74 535.83,-296.22 525.6,-298.96 529.54,-304.74"/>
@@ -1702,7 +1708,7 @@
 </g>
 </g>
 <!-- ndQuotientable&#45;&gt;ndMasterExtTable -->
-<g id="edge107" class="edge">
+<g id="edge108" class="edge">
 <title>ndQuotientable&#45;&gt;ndMasterExtTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M578.6,-331.94C577.33,-324.02 575.87,-314.95 574.49,-306.36"/>
 <polygon fill="none" stroke="black" points="577.91,-305.54 572.86,-296.22 570.99,-306.65 577.91,-305.54"/>
@@ -1711,10 +1717,10 @@
 <g id="node83" class="node">
 <title>ndConstraintType</title>
 <g id="a_node83_96"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/extension_table.rs#:~:text=enum%20ConstraintType" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2790.22,-751.5 2790.22,-788.5 2911.22,-788.5 2911.22,-751.5 2790.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2790.22,-751.5 2790.22,-788.5 2911.22,-788.5 2911.22,-751.5 2790.22,-751.5"/>
-<text text-anchor="start" x="2801.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintType</text>
-<polygon fill="none" stroke="black" points="2788.72,-751 2788.72,-790 2911.72,-790 2911.72,-751 2788.72,-751"/>
+<polygon fill="yellow" stroke="transparent" points="2684.22,-751.5 2684.22,-788.5 2805.22,-788.5 2805.22,-751.5 2684.22,-751.5"/>
+<polygon fill="none" stroke="black" points="2684.22,-751.5 2684.22,-788.5 2805.22,-788.5 2805.22,-751.5 2684.22,-751.5"/>
+<text text-anchor="start" x="2695.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintType</text>
+<polygon fill="none" stroke="black" points="2682.72,-751 2682.72,-790 2805.72,-790 2805.72,-751 2682.72,-751"/>
 </a>
 </g>
 </g>
@@ -1722,18 +1728,18 @@
 <g id="node84" class="node">
 <title>ndDegreeWithOrigin</title>
 <g id="a_node84_97"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/extension_table.rs#:~:text=struct%20DegreeWithOrigin" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2781.22,-668.5 2781.22,-705.5 2919.22,-705.5 2919.22,-668.5 2781.22,-668.5"/>
-<polygon fill="none" stroke="black" points="2781.22,-668.5 2781.22,-705.5 2919.22,-705.5 2919.22,-668.5 2781.22,-668.5"/>
-<text text-anchor="start" x="2792.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeWithOrigin</text>
-<polygon fill="none" stroke="black" points="2780.22,-668 2780.22,-707 2920.22,-707 2920.22,-668 2780.22,-668"/>
+<polygon fill="lightblue" stroke="transparent" points="2675.22,-668.5 2675.22,-705.5 2813.22,-705.5 2813.22,-668.5 2675.22,-668.5"/>
+<polygon fill="none" stroke="black" points="2675.22,-668.5 2675.22,-705.5 2813.22,-705.5 2813.22,-668.5 2675.22,-668.5"/>
+<text text-anchor="start" x="2686.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeWithOrigin</text>
+<polygon fill="none" stroke="black" points="2674.22,-668 2674.22,-707 2814.22,-707 2814.22,-668 2674.22,-668"/>
 </a>
 </g>
 </g>
 <!-- ndConstraintType&#45;&gt;ndDegreeWithOrigin -->
-<g id="edge108" class="edge">
+<g id="edge109" class="edge">
 <title>ndConstraintType&#45;&gt;ndDegreeWithOrigin</title>
-<path fill="none" stroke="black" d="M2850.22,-746.94C2850.22,-739.63 2850.22,-731.34 2850.22,-723.35"/>
-<polygon fill="black" stroke="black" points="2850.22,-723.22 2846.22,-717.22 2850.22,-711.22 2854.22,-717.22 2850.22,-723.22"/>
+<path fill="none" stroke="black" d="M2744.22,-746.94C2744.22,-739.63 2744.22,-731.34 2744.22,-723.35"/>
+<polygon fill="black" stroke="black" points="2744.22,-723.22 2740.22,-717.22 2744.22,-711.22 2748.22,-717.22 2744.22,-723.22"/>
 </g>
 <!-- ndExtOpStackTable -->
 <g id="node86" class="node">
@@ -1747,13 +1753,13 @@
 </g>
 </g>
 <!-- ndOpStackTableEntry&#45;&gt;ndCoProcessorCall -->
-<g id="edge109" class="edge">
+<g id="edge110" class="edge">
 <title>ndOpStackTableEntry&#45;&gt;ndCoProcessorCall</title>
 <path fill="none" stroke="black" d="M2156.01,-497.94C2122.36,-487.84 2082.51,-475.89 2047.64,-465.43"/>
 <polygon fill="black" stroke="black" points="2047.52,-465.39 2040.62,-467.5 2036.02,-461.94 2042.92,-459.83 2047.52,-465.39"/>
 </g>
 <!-- ndOpStackTableEntry&#45;&gt;ndAlgebraicExecutionTrace -->
-<g id="edge110" class="edge">
+<g id="edge111" class="edge">
 <title>ndOpStackTableEntry&#45;&gt;ndAlgebraicExecutionTrace</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M2233.07,-497.81C2234.95,-458.04 2232.56,-375.79 2186.22,-332 2155.62,-303.1 2053.41,-288.12 1971.5,-280.59"/>
 <polygon fill="black" stroke="black" points="1961.36,-279.69 1971.72,-276.09 1966.34,-280.13 1971.32,-280.58 1971.32,-280.58 1971.32,-280.58 1966.34,-280.13 1970.92,-285.06 1961.36,-279.69 1961.36,-279.69"/>
@@ -1795,10 +1801,10 @@
 <g id="node94" class="node">
 <title>ndJumpStackTraceRow</title>
 <g id="a_node94_102"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/jump_stack_table.rs#:~:text=struct%20JumpStackTraceRow" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2947.22,-751.5 2947.22,-788.5 3107.22,-788.5 3107.22,-751.5 2947.22,-751.5"/>
-<polygon fill="none" stroke="black" points="2947.22,-751.5 2947.22,-788.5 3107.22,-788.5 3107.22,-751.5 2947.22,-751.5"/>
-<text text-anchor="start" x="2958.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">JumpStackTraceRow</text>
-<polygon fill="none" stroke="black" points="2946.22,-751 2946.22,-790 3108.22,-790 3108.22,-751 2946.22,-751"/>
+<polygon fill="lightblue" stroke="transparent" points="2841.22,-751.5 2841.22,-788.5 3001.22,-788.5 3001.22,-751.5 2841.22,-751.5"/>
+<polygon fill="none" stroke="black" points="2841.22,-751.5 2841.22,-788.5 3001.22,-788.5 3001.22,-751.5 2841.22,-751.5"/>
+<text text-anchor="start" x="2852.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">JumpStackTraceRow</text>
+<polygon fill="none" stroke="black" points="2840.22,-751 2840.22,-790 3002.22,-790 3002.22,-751 2840.22,-751"/>
 </a>
 </g>
 </g>
@@ -1814,19 +1820,19 @@
 </g>
 </g>
 <!-- ndHashTableMode&#45;&gt;ndExtHashTable -->
-<g id="edge111" class="edge">
+<g id="edge112" class="edge">
 <title>ndHashTableMode&#45;&gt;ndExtHashTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3366.54,-84.96C3369.46,-84.27 3372.36,-83.62 3375.22,-83 3473.71,-61.72 3503.16,-69.65 3605.57,-46.99"/>
-<polygon fill="black" stroke="black" points="3615.38,-44.78 3606.62,-51.37 3610.51,-45.88 3605.63,-46.98 3605.63,-46.98 3605.63,-46.98 3610.51,-45.88 3604.64,-42.59 3615.38,-44.78 3615.38,-44.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3366.54,-84.96C3369.46,-84.27 3372.36,-83.62 3375.22,-83 3474.13,-61.66 3503.75,-69.89 3605.71,-47.21"/>
+<polygon fill="black" stroke="black" points="3615.47,-44.99 3606.72,-51.59 3610.6,-46.1 3605.72,-47.2 3605.72,-47.2 3605.72,-47.2 3610.6,-46.1 3604.72,-42.82 3615.47,-44.99 3615.47,-44.99"/>
 </g>
 <!-- ndDegreeLoweringBaseTableColumn -->
 <g id="node98" class="node">
 <title>ndDegreeLoweringBaseTableColumn</title>
 <g id="a_node98_104"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringBaseTableColumn" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3144.22,-751.5 3144.22,-788.5 3391.22,-788.5 3391.22,-751.5 3144.22,-751.5"/>
-<polygon fill="none" stroke="black" points="3144.22,-751.5 3144.22,-788.5 3391.22,-788.5 3391.22,-751.5 3144.22,-751.5"/>
-<text text-anchor="start" x="3155.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringBaseTableColumn</text>
-<polygon fill="none" stroke="black" points="3142.72,-751 3142.72,-790 3391.72,-790 3391.72,-751 3142.72,-751"/>
+<polygon fill="yellow" stroke="transparent" points="3038.22,-751.5 3038.22,-788.5 3285.22,-788.5 3285.22,-751.5 3038.22,-751.5"/>
+<polygon fill="none" stroke="black" points="3038.22,-751.5 3038.22,-788.5 3285.22,-788.5 3285.22,-751.5 3038.22,-751.5"/>
+<text text-anchor="start" x="3049.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringBaseTableColumn</text>
+<polygon fill="none" stroke="black" points="3036.72,-751 3036.72,-790 3285.72,-790 3285.72,-751 3036.72,-751"/>
 </a>
 </g>
 </g>
@@ -1834,10 +1840,10 @@
 <g id="node99" class="node">
 <title>ndDegreeLoweringExtTableColumn</title>
 <g id="a_node99_105"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/degree_lowering_table.rs#:~:text=enum%20DegreeLoweringExtTableColumn" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3427.22,-751.5 3427.22,-788.5 3663.22,-788.5 3663.22,-751.5 3427.22,-751.5"/>
-<polygon fill="none" stroke="black" points="3427.22,-751.5 3427.22,-788.5 3663.22,-788.5 3663.22,-751.5 3427.22,-751.5"/>
-<text text-anchor="start" x="3438.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringExtTableColumn</text>
-<polygon fill="none" stroke="black" points="3426.22,-751 3426.22,-790 3664.22,-790 3664.22,-751 3426.22,-751"/>
+<polygon fill="yellow" stroke="transparent" points="3321.22,-751.5 3321.22,-788.5 3557.22,-788.5 3557.22,-751.5 3321.22,-751.5"/>
+<polygon fill="none" stroke="black" points="3321.22,-751.5 3321.22,-788.5 3557.22,-788.5 3557.22,-751.5 3321.22,-751.5"/>
+<text text-anchor="start" x="3332.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">DegreeLoweringExtTableColumn</text>
+<polygon fill="none" stroke="black" points="3320.22,-751 3320.22,-790 3558.22,-790 3558.22,-751 3320.22,-751"/>
 </a>
 </g>
 </g>
@@ -1845,10 +1851,10 @@
 <g id="node101" class="node">
 <title>ndCrossTableArg</title>
 <g id="a_node101_106"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=trait%20CrossTableArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="3700.22,-751.5 3700.22,-788.5 3819.22,-788.5 3819.22,-751.5 3700.22,-751.5"/>
-<polygon fill="none" stroke="black" points="3700.22,-751.5 3700.22,-788.5 3819.22,-788.5 3819.22,-751.5 3700.22,-751.5"/>
-<text text-anchor="start" x="3711.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">CrossTableArg</text>
-<polygon fill="none" stroke="black" points="3698.72,-751 3698.72,-790 3819.72,-790 3819.72,-751 3698.72,-751"/>
+<polygon fill="lightgreen" stroke="transparent" points="3594.22,-751.5 3594.22,-788.5 3713.22,-788.5 3713.22,-751.5 3594.22,-751.5"/>
+<polygon fill="none" stroke="black" points="3594.22,-751.5 3594.22,-788.5 3713.22,-788.5 3713.22,-751.5 3594.22,-751.5"/>
+<text text-anchor="start" x="3605.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">CrossTableArg</text>
+<polygon fill="none" stroke="black" points="3592.72,-751 3592.72,-790 3713.72,-790 3713.72,-751 3592.72,-751"/>
 </a>
 </g>
 </g>
@@ -1856,52 +1862,52 @@
 <g id="node102" class="node">
 <title>ndPermArg</title>
 <g id="a_node102_107"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20PermArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3606.22,-668.5 3606.22,-705.5 3686.22,-705.5 3686.22,-668.5 3606.22,-668.5"/>
-<polygon fill="none" stroke="black" points="3606.22,-668.5 3606.22,-705.5 3686.22,-705.5 3686.22,-668.5 3606.22,-668.5"/>
-<text text-anchor="start" x="3617.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">PermArg</text>
-<polygon fill="none" stroke="black" points="3605.22,-668 3605.22,-707 3687.22,-707 3687.22,-668 3605.22,-668"/>
+<polygon fill="lightblue" stroke="transparent" points="3500.22,-668.5 3500.22,-705.5 3580.22,-705.5 3580.22,-668.5 3500.22,-668.5"/>
+<polygon fill="none" stroke="black" points="3500.22,-668.5 3500.22,-705.5 3580.22,-705.5 3580.22,-668.5 3500.22,-668.5"/>
+<text text-anchor="start" x="3511.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">PermArg</text>
+<polygon fill="none" stroke="black" points="3499.22,-668 3499.22,-707 3581.22,-707 3581.22,-668 3499.22,-668"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndPermArg -->
-<g id="edge112" class="edge">
+<g id="edge113" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndPermArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3727.74,-746.94C3714.87,-737.71 3699.83,-726.93 3686.19,-717.15"/>
-<polygon fill="none" stroke="black" points="3688.08,-714.2 3677.92,-711.22 3684.01,-719.89 3688.08,-714.2"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3621.74,-746.94C3608.87,-737.71 3593.83,-726.93 3580.19,-717.15"/>
+<polygon fill="none" stroke="black" points="3582.08,-714.2 3571.92,-711.22 3578.01,-719.89 3582.08,-714.2"/>
 </g>
 <!-- ndEvalArg -->
 <g id="node103" class="node">
 <title>ndEvalArg</title>
 <g id="a_node103_108"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20EvalArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3722.22,-668.5 3722.22,-705.5 3796.22,-705.5 3796.22,-668.5 3722.22,-668.5"/>
-<polygon fill="none" stroke="black" points="3722.22,-668.5 3722.22,-705.5 3796.22,-705.5 3796.22,-668.5 3722.22,-668.5"/>
-<text text-anchor="start" x="3733.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">EvalArg</text>
-<polygon fill="none" stroke="black" points="3721.22,-668 3721.22,-707 3797.22,-707 3797.22,-668 3721.22,-668"/>
+<polygon fill="lightblue" stroke="transparent" points="3616.22,-668.5 3616.22,-705.5 3690.22,-705.5 3690.22,-668.5 3616.22,-668.5"/>
+<polygon fill="none" stroke="black" points="3616.22,-668.5 3616.22,-705.5 3690.22,-705.5 3690.22,-668.5 3616.22,-668.5"/>
+<text text-anchor="start" x="3627.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">EvalArg</text>
+<polygon fill="none" stroke="black" points="3615.22,-668 3615.22,-707 3691.22,-707 3691.22,-668 3615.22,-668"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndEvalArg -->
-<g id="edge113" class="edge">
+<g id="edge114" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndEvalArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3759.22,-746.94C3759.22,-739.02 3759.22,-729.95 3759.22,-721.36"/>
-<polygon fill="none" stroke="black" points="3762.72,-721.22 3759.22,-711.22 3755.72,-721.22 3762.72,-721.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3653.22,-746.94C3653.22,-739.02 3653.22,-729.95 3653.22,-721.36"/>
+<polygon fill="none" stroke="black" points="3656.72,-721.22 3653.22,-711.22 3649.72,-721.22 3656.72,-721.22"/>
 </g>
 <!-- ndLookupArg -->
 <g id="node104" class="node">
 <title>ndLookupArg</title>
 <g id="a_node104_109"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/cross_table_argument.rs#:~:text=struct%20LookupArg" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3833.22,-668.5 3833.22,-705.5 3928.22,-705.5 3928.22,-668.5 3833.22,-668.5"/>
-<polygon fill="none" stroke="black" points="3833.22,-668.5 3833.22,-705.5 3928.22,-705.5 3928.22,-668.5 3833.22,-668.5"/>
-<text text-anchor="start" x="3844.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">LookupArg</text>
-<polygon fill="none" stroke="black" points="3831.72,-668 3831.72,-707 3928.72,-707 3928.72,-668 3831.72,-668"/>
+<polygon fill="lightblue" stroke="transparent" points="3727.22,-668.5 3727.22,-705.5 3822.22,-705.5 3822.22,-668.5 3727.22,-668.5"/>
+<polygon fill="none" stroke="black" points="3727.22,-668.5 3727.22,-705.5 3822.22,-705.5 3822.22,-668.5 3727.22,-668.5"/>
+<text text-anchor="start" x="3738.22" y="-684.3" font-family="Arial" font-weight="bold" font-size="14.00">LookupArg</text>
+<polygon fill="none" stroke="black" points="3725.72,-668 3725.72,-707 3822.72,-707 3822.72,-668 3725.72,-668"/>
 </a>
 </g>
 </g>
 <!-- ndCrossTableArg&#45;&gt;ndLookupArg -->
-<g id="edge114" class="edge">
+<g id="edge115" class="edge">
 <title>ndCrossTableArg&#45;&gt;ndLookupArg</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3792.92,-746.94C3806.84,-737.62 3823.12,-726.72 3837.82,-716.88"/>
-<polygon fill="none" stroke="black" points="3839.91,-719.69 3846.27,-711.22 3836.02,-713.88 3839.91,-719.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3686.92,-746.94C3700.84,-737.62 3717.12,-726.72 3731.82,-716.88"/>
+<polygon fill="none" stroke="black" points="3733.91,-719.69 3740.27,-711.22 3730.02,-713.88 3733.91,-719.69"/>
 </g>
 <!-- ndGrandCrossTableArg -->
 <g id="node105" class="node">
@@ -1926,7 +1932,7 @@
 </g>
 </g>
 <!-- ndBinOp&#45;&gt;ndCircuitExpression -->
-<g id="edge115" class="edge">
+<g id="edge116" class="edge">
 <title>ndBinOp&#45;&gt;ndCircuitExpression</title>
 <path fill="none" stroke="black" d="M3099.52,-165.94C3103.02,-158.28 3107.01,-149.55 3110.82,-141.21"/>
 <polygon fill="black" stroke="black" points="3110.85,-141.14 3109.71,-134.02 3115.84,-130.22 3116.98,-137.34 3110.85,-141.14"/>
@@ -1954,7 +1960,7 @@
 </g>
 </g>
 <!-- ndInputIndicator&#45;&gt;ndSingleRowIndicator -->
-<g id="edge116" class="edge">
+<g id="edge117" class="edge">
 <title>ndInputIndicator&#45;&gt;ndSingleRowIndicator</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M5721.29,-165.94C5731.25,-156.97 5742.84,-146.54 5753.45,-136.99"/>
 <polygon fill="none" stroke="black" points="5755.88,-139.51 5760.97,-130.22 5751.2,-134.31 5755.88,-139.51"/>
@@ -1971,139 +1977,139 @@
 </g>
 </g>
 <!-- ndInputIndicator&#45;&gt;ndDualRowIndicator -->
-<g id="edge117" class="edge">
+<g id="edge118" class="edge">
 <title>ndInputIndicator&#45;&gt;ndDualRowIndicator</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M5671.15,-165.94C5661.19,-156.97 5649.59,-146.54 5638.98,-136.99"/>
 <polygon fill="none" stroke="black" points="5641.24,-134.31 5631.47,-130.22 5636.56,-139.51 5641.24,-134.31"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtU32Table -->
-<g id="edge118" class="edge">
+<g id="edge119" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtU32Table</title>
 <path fill="none" stroke="black" d="M5702.47,-84.42C5699.35,-83.89 5696.26,-83.42 5693.22,-83 5258.16,-23.12 5135.93,-121.91 4699.1,-46.89"/>
 <polygon fill="black" stroke="black" points="4689.05,-45.14 4699.68,-42.42 4693.98,-46 4698.9,-46.85 4698.9,-46.85 4698.9,-46.85 4693.98,-46 4698.13,-51.29 4689.05,-45.14 4689.05,-45.14"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtProgramTable -->
-<g id="edge119" class="edge">
+<g id="edge120" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtProgramTable</title>
 <path fill="none" stroke="black" d="M5702.71,-84.49C5699.52,-83.94 5696.34,-83.44 5693.22,-83 5333.54,-32.12 5233.49,-100.44 4869.5,-46.84"/>
 <polygon fill="black" stroke="black" points="4859.48,-45.35 4870.03,-42.37 4864.42,-46.09 4869.37,-46.83 4869.37,-46.83 4869.37,-46.83 4864.42,-46.09 4868.7,-51.28 4859.48,-45.35 4859.48,-45.35"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtLookupTable -->
-<g id="edge120" class="edge">
+<g id="edge121" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtLookupTable</title>
 <path fill="none" stroke="black" d="M5702.71,-84.53C5699.51,-83.97 5696.34,-83.46 5693.22,-83 5405.4,-40.71 5324.43,-92.99 5032.93,-46.92"/>
 <polygon fill="black" stroke="black" points="5022.92,-45.31 5033.5,-42.46 5027.85,-46.11 5032.79,-46.9 5032.79,-46.9 5032.79,-46.9 5027.85,-46.11 5032.08,-51.34 5022.92,-45.31 5022.92,-45.31"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtRamTable -->
-<g id="edge121" class="edge">
+<g id="edge122" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtRamTable</title>
 <path fill="none" stroke="black" d="M5702.7,-84.59C5699.51,-84.02 5696.34,-83.48 5693.22,-83 5468.81,-48.29 5404.39,-88.47 5177.12,-46.94"/>
 <polygon fill="black" stroke="black" points="5167.22,-45.1 5177.88,-42.51 5172.14,-46.02 5177.05,-46.93 5177.05,-46.93 5177.05,-46.93 5172.14,-46.02 5176.23,-51.35 5167.22,-45.1 5167.22,-45.1"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtOpStackTable -->
-<g id="edge122" class="edge">
+<g id="edge123" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtOpStackTable</title>
 <path fill="none" stroke="black" d="M5702.68,-84.73C5699.49,-84.11 5696.33,-83.54 5693.22,-83 5543.7,-57.28 5500.57,-74.16 5347.77,-47.15"/>
 <polygon fill="black" stroke="black" points="5337.55,-45.3 5348.19,-42.65 5342.47,-46.19 5347.39,-47.08 5347.39,-47.08 5347.39,-47.08 5342.47,-46.19 5346.59,-51.51 5337.55,-45.3 5337.55,-45.3"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtCascadeTable -->
-<g id="edge123" class="edge">
+<g id="edge124" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtCascadeTable</title>
 <path fill="none" stroke="black" d="M5702.6,-85.12C5699.43,-84.39 5696.3,-83.69 5693.22,-83 5617.92,-66.24 5596.07,-65.33 5517.49,-47.24"/>
 <polygon fill="black" stroke="black" points="5507.62,-44.95 5518.38,-42.83 5512.49,-46.08 5517.36,-47.21 5517.36,-47.21 5517.36,-47.21 5512.49,-46.08 5516.34,-51.59 5507.62,-44.95 5507.62,-44.95"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtProcessorTable -->
-<g id="edge124" class="edge">
+<g id="edge125" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtProcessorTable</title>
 <path fill="none" stroke="black" d="M5736.08,-82.94C5714.23,-73.1 5688.45,-61.5 5665.64,-51.24"/>
 <polygon fill="black" stroke="black" points="5656.4,-47.08 5667.37,-47.08 5660.96,-49.13 5665.52,-51.19 5665.52,-51.19 5665.52,-51.19 5660.96,-49.13 5663.67,-55.29 5656.4,-47.08 5656.4,-47.08"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtJumpStackTable -->
-<g id="edge125" class="edge">
+<g id="edge126" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtJumpStackTable</title>
 <path fill="none" stroke="black" d="M5787.33,-82.94C5787.72,-75.02 5788.17,-65.95 5788.6,-57.36"/>
 <polygon fill="black" stroke="black" points="5789.1,-47.22 5793.1,-57.43 5788.85,-52.22 5788.6,-57.21 5788.6,-57.21 5788.6,-57.21 5788.85,-52.22 5784.11,-56.99 5789.1,-47.22 5789.1,-47.22"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndExtHashTable -->
-<g id="edge126" class="edge">
+<g id="edge127" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndExtHashTable</title>
 <path fill="none" stroke="black" d="M5702.47,-84.39C5699.35,-83.87 5696.26,-83.41 5693.22,-83 5644.28,-76.44 4113.54,-35.89 3754.88,-26.46"/>
 <polygon fill="black" stroke="black" points="3744.86,-26.19 3754.98,-21.96 3749.86,-26.33 3754.86,-26.46 3754.86,-26.46 3754.86,-26.46 3749.86,-26.33 3754.74,-30.96 3744.86,-26.19 3744.86,-26.19"/>
 </g>
 <!-- ndSingleRowIndicator&#45;&gt;ndGrandCrossTableArg -->
-<g id="edge127" class="edge">
+<g id="edge128" class="edge">
 <title>ndSingleRowIndicator&#45;&gt;ndGrandCrossTableArg</title>
 <path fill="none" stroke="black" d="M5840.54,-82.94C5864.42,-73.02 5892.63,-61.3 5917.5,-50.97"/>
 <polygon fill="black" stroke="black" points="5926.85,-47.08 5919.34,-55.07 5922.24,-49 5917.62,-50.92 5917.62,-50.92 5917.62,-50.92 5922.24,-49 5915.89,-46.76 5926.85,-47.08 5926.85,-47.08"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtU32Table -->
-<g id="edge128" class="edge">
+<g id="edge129" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtU32Table</title>
 <path fill="none" stroke="black" d="M5528.12,-84.48C5525.12,-83.94 5522.15,-83.44 5519.22,-83 5161.26,-29.47 5059.56,-109.98 4698.98,-46.87"/>
 <polygon fill="black" stroke="black" points="4689.06,-45.11 4699.69,-42.43 4693.98,-45.99 4698.9,-46.86 4698.9,-46.86 4698.9,-46.86 4693.98,-45.99 4698.12,-51.29 4689.06,-45.11 4689.06,-45.11"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtProgramTable -->
-<g id="edge129" class="edge">
+<g id="edge130" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtProgramTable</title>
 <path fill="none" stroke="black" d="M5528.12,-84.52C5525.12,-83.97 5522.15,-83.46 5519.22,-83 5236.67,-39.08 5156.92,-90.61 4869.78,-46.9"/>
 <polygon fill="black" stroke="black" points="4859.48,-45.3 4870.05,-42.38 4864.42,-46.07 4869.36,-46.83 4869.36,-46.83 4869.36,-46.83 4864.42,-46.07 4868.68,-51.28 4859.48,-45.3 4859.48,-45.3"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtLookupTable -->
-<g id="edge130" class="edge">
+<g id="edge131" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtLookupTable</title>
 <path fill="none" stroke="black" d="M5528.1,-84.59C5525.11,-84.02 5522.14,-83.48 5519.22,-83 5308.32,-48.22 5247.92,-82.81 5032.95,-46.94"/>
 <polygon fill="black" stroke="black" points="5022.93,-45.24 5033.54,-42.48 5027.86,-46.08 5032.79,-46.91 5032.79,-46.91 5032.79,-46.91 5027.86,-46.08 5032.03,-51.35 5022.93,-45.24 5022.93,-45.24"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtRamTable -->
-<g id="edge131" class="edge">
+<g id="edge132" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtRamTable</title>
 <path fill="none" stroke="black" d="M5528.08,-84.71C5525.1,-84.1 5522.13,-83.53 5519.22,-83 5371.62,-56.32 5328.19,-77.08 5177.34,-47.03"/>
 <polygon fill="black" stroke="black" points="5167.25,-44.97 5177.94,-42.56 5172.15,-45.97 5177.05,-46.97 5177.05,-46.97 5177.05,-46.97 5172.15,-45.97 5176.15,-51.38 5167.25,-44.97 5167.25,-44.97"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtOpStackTable -->
-<g id="edge132" class="edge">
+<g id="edge133" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtOpStackTable</title>
 <path fill="none" stroke="black" d="M5528.01,-85.08C5525.04,-84.37 5522.1,-83.67 5519.22,-83 5445.87,-65.89 5424.39,-65.09 5347.77,-47.31"/>
 <polygon fill="black" stroke="black" points="5337.62,-44.93 5348.39,-42.83 5342.49,-46.07 5347.36,-47.21 5347.36,-47.21 5347.36,-47.21 5342.49,-46.07 5346.33,-51.6 5337.62,-44.93 5337.62,-44.93"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtCascadeTable -->
-<g id="edge133" class="edge">
+<g id="edge134" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtCascadeTable</title>
 <path fill="none" stroke="black" d="M5557.47,-82.94C5536.32,-73.15 5511.39,-61.61 5489.29,-51.38"/>
 <polygon fill="black" stroke="black" points="5480.01,-47.08 5490.97,-47.2 5484.54,-49.18 5489.08,-51.28 5489.08,-51.28 5489.08,-51.28 5484.54,-49.18 5487.19,-55.37 5480.01,-47.08 5480.01,-47.08"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtProcessorTable -->
-<g id="edge134" class="edge">
+<g id="edge135" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtProcessorTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M5606.22,-82.94C5606.22,-75.02 5606.22,-65.95 5606.22,-57.36"/>
 <polygon fill="black" stroke="black" points="5606.22,-47.22 5610.72,-57.22 5606.22,-52.22 5606.22,-57.22 5606.22,-57.22 5606.22,-57.22 5606.22,-52.22 5601.72,-57.22 5606.22,-47.22 5606.22,-47.22"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtJumpStackTable -->
-<g id="edge135" class="edge">
+<g id="edge136" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtJumpStackTable</title>
 <path fill="none" stroke="black" d="M5657.47,-82.94C5679.81,-73.1 5706.16,-61.5 5729.47,-51.24"/>
 <polygon fill="black" stroke="black" points="5738.92,-47.08 5731.58,-55.23 5734.34,-49.1 5729.77,-51.11 5729.77,-51.11 5729.77,-51.11 5734.34,-49.1 5727.95,-46.99 5738.92,-47.08 5738.92,-47.08"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndExtHashTable -->
-<g id="edge136" class="edge">
+<g id="edge137" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndExtHashTable</title>
 <path fill="none" stroke="black" d="M5528.13,-84.44C5525.13,-83.9 5522.15,-83.42 5519.22,-83 5430.66,-70.3 4088.46,-35.02 3754.85,-26.41"/>
 <polygon fill="black" stroke="black" points="3744.81,-26.15 3754.92,-21.91 3749.8,-26.28 3754.8,-26.41 3754.8,-26.41 3754.8,-26.41 3749.8,-26.28 3754.69,-30.91 3744.81,-26.15 3744.81,-26.15"/>
 </g>
 <!-- ndDualRowIndicator&#45;&gt;ndGrandCrossTableArg -->
-<g id="edge137" class="edge">
+<g id="edge138" class="edge">
 <title>ndDualRowIndicator&#45;&gt;ndGrandCrossTableArg</title>
 <path fill="none" stroke="black" d="M5684.37,-85.25C5687.69,-84.47 5690.99,-83.72 5694.22,-83 5775,-65.04 5798.4,-64.71 5882.68,-47.28"/>
 <polygon fill="black" stroke="black" points="5892.7,-45.19 5883.83,-51.64 5887.81,-46.21 5882.91,-47.23 5882.91,-47.23 5882.91,-47.23 5887.81,-46.21 5881.99,-42.83 5892.7,-45.19 5892.7,-45.19"/>
 </g>
 <!-- ndCircuitExpression&#45;&gt;ndConstraintCircuit -->
-<g id="edge138" class="edge">
+<g id="edge139" class="edge">
 <title>ndCircuitExpression&#45;&gt;ndConstraintCircuit</title>
 <path fill="none" stroke="black" d="M3170.5,-130.22C3186.4,-139.29 3204.24,-149.85 3219.96,-159.46"/>
 <polygon fill="black" stroke="black" points="3220.25,-159.63 3227.45,-159.38 3230.46,-165.94 3223.25,-166.19 3220.25,-159.63"/>
 </g>
 <!-- ndConstraintCircuit&#45;&gt;ndCircuitExpression -->
-<g id="edge139" class="edge">
+<g id="edge140" class="edge">
 <title>ndConstraintCircuit&#45;&gt;ndCircuitExpression</title>
 <path fill="none" stroke="black" d="M3218.21,-165.94C3202.34,-156.88 3184.49,-146.33 3168.75,-136.71"/>
 <polygon fill="black" stroke="black" points="3168.45,-136.52 3161.24,-136.78 3158.23,-130.22 3165.44,-129.97 3168.45,-136.52"/>
@@ -2120,79 +2126,79 @@
 </g>
 </g>
 <!-- ndConstraintCircuit&#45;&gt;ndConstraintCircuitMonad -->
-<g id="edge140" class="edge">
+<g id="edge141" class="edge">
 <title>ndConstraintCircuit&#45;&gt;ndConstraintCircuitMonad</title>
 <path fill="none" stroke="black" d="M3338.03,-174.71C3398.29,-163.64 3485.04,-147.46 3570.75,-130.47"/>
 <polygon fill="black" stroke="black" points="3570.79,-130.46 3575.89,-125.37 3582.56,-128.13 3577.45,-133.22 3570.79,-130.46"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtU32Table -->
-<g id="edge141" class="edge">
+<g id="edge142" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtU32Table</title>
 <path fill="none" stroke="black" d="M3777.8,-84.4C3780.97,-83.9 3784.12,-83.43 3787.22,-83 4070.88,-43.5 4412.26,-30.21 4557.39,-26.13"/>
 <polygon fill="black" stroke="black" points="4567.5,-25.86 4557.62,-30.63 4562.5,-25.99 4557.5,-26.13 4557.5,-26.13 4557.5,-26.13 4562.5,-25.99 4557.38,-21.63 4567.5,-25.86 4567.5,-25.86"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtProgramTable -->
-<g id="edge142" class="edge">
+<g id="edge143" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtProgramTable</title>
 <path fill="none" stroke="black" d="M3777.78,-84.28C3780.96,-83.81 3784.11,-83.39 3787.22,-83 4186,-33.55 4295.69,-105.98 4696.79,-47.05"/>
 <polygon fill="black" stroke="black" points="4706.93,-45.54 4697.7,-51.46 4701.98,-46.27 4697.04,-47.01 4697.04,-47.01 4697.04,-47.01 4701.98,-46.27 4696.37,-42.56 4706.93,-45.54 4706.93,-45.54"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtLookupTable -->
-<g id="edge143" class="edge">
+<g id="edge144" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtLookupTable</title>
 <path fill="none" stroke="black" d="M3777.78,-84.26C3780.95,-83.8 3784.11,-83.38 3787.22,-83 4261.08,-25.73 4391.11,-117.78 4867.29,-46.94"/>
 <polygon fill="black" stroke="black" points="4877.53,-45.4 4868.31,-51.33 4872.59,-46.14 4867.64,-46.88 4867.64,-46.88 4867.64,-46.88 4872.59,-46.14 4866.97,-42.43 4877.53,-45.4 4877.53,-45.4"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtRamTable -->
-<g id="edge144" class="edge">
+<g id="edge145" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtRamTable</title>
 <path fill="none" stroke="black" d="M3777.77,-84.24C3780.95,-83.78 3784.11,-83.37 3787.22,-83 4333.57,-18.18 4484.42,-136.95 5030.73,-47.02"/>
 <polygon fill="black" stroke="black" points="5040.84,-45.34 5031.72,-51.42 5035.91,-46.16 5030.98,-46.98 5030.98,-46.98 5030.98,-46.98 5035.91,-46.16 5030.24,-42.54 5040.84,-45.34 5040.84,-45.34"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtOpStackTable -->
-<g id="edge145" class="edge">
+<g id="edge146" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtOpStackTable</title>
 <path fill="none" stroke="black" d="M3777.77,-84.23C3780.95,-83.78 3784.11,-83.36 3787.22,-83 4397.27,-11.55 4563.14,-133.28 5174.98,-47"/>
 <polygon fill="black" stroke="black" points="5184.93,-45.59 5175.67,-51.45 5179.98,-46.29 5175.03,-47 5175.03,-47 5175.03,-47 5179.98,-46.29 5174.4,-42.54 5184.93,-45.59 5184.93,-45.59"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtCascadeTable -->
-<g id="edge146" class="edge">
+<g id="edge147" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtCascadeTable</title>
 <path fill="none" stroke="black" d="M3777.77,-84.21C3780.95,-83.77 3784.11,-83.36 3787.22,-83 4472.34,-3.74 4658.2,-142.98 5344.79,-47.03"/>
 <polygon fill="black" stroke="black" points="5354.94,-45.6 5345.66,-51.45 5349.99,-46.3 5345.03,-46.99 5345.03,-46.99 5345.03,-46.99 5349.99,-46.3 5344.41,-42.54 5354.94,-45.6 5354.94,-45.6"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtProcessorTable -->
-<g id="edge147" class="edge">
+<g id="edge148" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtProcessorTable</title>
 <path fill="none" stroke="black" d="M3777.77,-84.2C3780.95,-83.76 3784.11,-83.36 3787.22,-83 4165.76,-39.64 5118.83,-96.93 5514.83,-47"/>
 <polygon fill="black" stroke="black" points="5524.94,-45.69 5515.6,-51.44 5519.98,-46.33 5515.02,-46.98 5515.02,-46.98 5515.02,-46.98 5519.98,-46.33 5514.44,-42.51 5524.94,-45.69 5524.94,-45.69"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtJumpStackTable -->
-<g id="edge148" class="edge">
+<g id="edge149" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtJumpStackTable</title>
 <path fill="none" stroke="black" d="M3777.77,-84.2C3780.95,-83.75 3784.11,-83.35 3787.22,-83 4205.51,-35.51 5258.71,-99.68 5695.37,-46.92"/>
 <polygon fill="black" stroke="black" points="5705.57,-45.65 5696.2,-51.35 5700.61,-46.27 5695.65,-46.88 5695.65,-46.88 5695.65,-46.88 5700.61,-46.27 5695.09,-42.42 5705.57,-45.65 5705.57,-45.65"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndExtHashTable -->
-<g id="edge149" class="edge">
+<g id="edge150" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndExtHashTable</title>
 <path fill="none" stroke="black" d="M3680.22,-82.94C3680.22,-75.02 3680.22,-65.95 3680.22,-57.36"/>
 <polygon fill="black" stroke="black" points="3680.22,-47.22 3684.72,-57.22 3680.22,-52.22 3680.22,-57.22 3680.22,-57.22 3680.22,-57.22 3680.22,-52.22 3675.72,-57.22 3680.22,-47.22 3680.22,-47.22"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndGrandCrossTableArg -->
-<g id="edge150" class="edge">
+<g id="edge151" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndGrandCrossTableArg</title>
 <path fill="none" stroke="black" d="M3777.77,-84.19C3780.95,-83.75 3784.11,-83.35 3787.22,-83 4247.08,-31.18 5405.09,-102.94 5882.44,-47.07"/>
 <polygon fill="black" stroke="black" points="5892.55,-45.86 5883.15,-51.52 5887.58,-46.45 5882.62,-47.05 5882.62,-47.05 5882.62,-47.05 5887.58,-46.45 5882.08,-42.58 5892.55,-45.86 5892.55,-45.86"/>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder -->
-<g id="edge151" class="edge">
+<g id="edge152" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder</title>
 <path fill="none" stroke="black" d="M3623.68,-82.94C3601.68,-73.41 3576.57,-62.22 3554.68,-52.2"/>
 <polygon fill="black" stroke="black" points="3554.46,-52.1 3547.33,-53.22 3543.55,-47.08 3550.68,-45.96 3554.46,-52.1"/>
 </g>
 <!-- ndConstraintCircuitBuilder&#45;&gt;ndConstraintCircuitMonad -->
-<g id="edge152" class="edge">
+<g id="edge153" class="edge">
 <title>ndConstraintCircuitBuilder&#45;&gt;ndConstraintCircuitMonad</title>
 <path fill="none" stroke="black" d="M3555.8,-47.08C3577.81,-56.61 3602.91,-67.8 3624.8,-77.82"/>
 <polygon fill="black" stroke="black" points="3625.02,-77.92 3632.14,-76.79 3635.92,-82.94 3628.8,-84.06 3625.02,-77.92"/>
@@ -2201,81 +2207,81 @@
 <g id="node114" class="node">
 <title>ndNonZeroXFieldElement</title>
 <g id="a_node114_116"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20NonZeroXFieldElement" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3855.22,-751.5 3855.22,-788.5 4027.22,-788.5 4027.22,-751.5 3855.22,-751.5"/>
-<polygon fill="none" stroke="black" points="3855.22,-751.5 3855.22,-788.5 4027.22,-788.5 4027.22,-751.5 3855.22,-751.5"/>
-<text text-anchor="start" x="3866.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">NonZeroXFieldElement</text>
-<polygon fill="none" stroke="black" points="3854.22,-751 3854.22,-790 4028.22,-790 4028.22,-751 3854.22,-751"/>
+<polygon fill="lightblue" stroke="transparent" points="3749.22,-751.5 3749.22,-788.5 3921.22,-788.5 3921.22,-751.5 3749.22,-751.5"/>
+<polygon fill="none" stroke="black" points="3749.22,-751.5 3749.22,-788.5 3921.22,-788.5 3921.22,-751.5 3749.22,-751.5"/>
+<text text-anchor="start" x="3760.22" y="-767.3" font-family="Arial" font-weight="bold" font-size="14.00">NonZeroXFieldElement</text>
+<polygon fill="none" stroke="black" points="3748.22,-751 3748.22,-790 3922.22,-790 3922.22,-751 3748.22,-751"/>
 </a>
 </g>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProgram -->
-<g id="edge153" class="edge">
+<g id="edge154" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProgram</title>
 <path fill="none" stroke="black" d="M1802.38,-296.1C1727.37,-323.57 1592.84,-371.65 1478.22,-415 1475.69,-415.96 1473.11,-416.94 1470.49,-417.94"/>
 <polygon fill="black" stroke="black" points="1460.93,-421.62 1468.65,-413.83 1465.6,-419.82 1470.27,-418.03 1470.27,-418.03 1470.27,-418.03 1465.6,-419.82 1471.88,-422.23 1460.93,-421.62 1460.93,-421.62"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndU32Table -->
-<g id="edge154" class="edge">
+<g id="edge155" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndU32Table</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1947.44,-249C1982.63,-239.46 2023.71,-227.75 2068.5,-213.13"/>
 <polygon fill="black" stroke="black" points="2078.12,-209.96 2070.03,-217.36 2073.37,-211.53 2068.62,-213.09 2068.62,-213.09 2068.62,-213.09 2073.37,-211.53 2067.21,-208.82 2078.12,-209.96 2078.12,-209.96"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProgramTable -->
-<g id="edge155" class="edge">
+<g id="edge156" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProgramTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.38,-256.47C2023.76,-246.47 2105.51,-232.08 2186.6,-213.03"/>
 <polygon fill="black" stroke="black" points="2196.48,-210.68 2187.79,-217.37 2191.62,-211.84 2186.75,-212.99 2186.75,-212.99 2186.75,-212.99 2191.62,-211.84 2185.71,-208.62 2196.48,-210.68 2196.48,-210.68"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndLookupTable -->
-<g id="edge156" class="edge">
+<g id="edge157" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndLookupTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.39,-264.39C2058.36,-256.33 2208.44,-240.58 2336.22,-213 2336.32,-212.98 2336.42,-212.96 2336.52,-212.94"/>
 <polygon fill="black" stroke="black" points="2345.96,-210.71 2337.26,-217.38 2341.09,-211.86 2336.23,-213 2336.23,-213 2336.23,-213 2341.09,-211.86 2335.2,-208.62 2345.96,-210.71 2345.96,-210.71"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndMasterBaseTable -->
-<g id="edge157" class="edge">
+<g id="edge158" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndMasterBaseTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1758.89,-265.2C1683.22,-260.55 1577.26,-254.16 1484.22,-249 1171.4,-231.64 1092.44,-238.97 780.22,-213 744.67,-210.04 705.59,-205.74 671.81,-201.69"/>
-<polygon fill="black" stroke="black" points="661.51,-200.44 671.98,-197.18 666.47,-201.05 671.44,-201.65 671.44,-201.65 671.44,-201.65 666.47,-201.05 670.9,-206.11 661.51,-200.44 661.51,-200.44"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1759.15,-265.26C1683.03,-260.61 1576.08,-254.2 1482.22,-249 1170.29,-231.72 1091.55,-238.92 780.22,-213 744.67,-210.04 705.59,-205.74 671.81,-201.69"/>
+<polygon fill="black" stroke="black" points="661.51,-200.44 671.98,-197.18 666.47,-201.04 671.44,-201.64 671.44,-201.64 671.44,-201.64 666.47,-201.04 670.9,-206.11 661.51,-200.44 661.51,-200.44"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndRamTable -->
-<g id="edge158" class="edge">
+<g id="edge159" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndRamTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.45,-262.61C2119.63,-248.62 2413.3,-222.27 2478.32,-212.46"/>
-<polygon fill="black" stroke="black" points="2488.38,-210.67 2479.32,-216.85 2483.46,-211.55 2478.54,-212.42 2478.54,-212.42 2478.54,-212.42 2483.46,-211.55 2477.75,-207.99 2488.38,-210.67 2488.38,-210.67"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.46,-263.35C2116.09,-250.69 2400.57,-226.55 2478.12,-212.72"/>
+<polygon fill="black" stroke="black" points="2488.38,-210.67 2479.45,-217.04 2483.48,-211.65 2478.58,-212.63 2478.58,-212.63 2478.58,-212.63 2483.48,-211.65 2477.7,-208.22 2488.38,-210.67 2488.38,-210.67"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndOpStackTable -->
-<g id="edge159" class="edge">
+<g id="edge160" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndOpStackTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1766.13,-248.99C1726.15,-239.16 1678.86,-227.18 1628.67,-213.36"/>
 <polygon fill="black" stroke="black" points="1618.94,-210.67 1629.77,-209 1623.76,-212 1628.57,-213.33 1628.57,-213.33 1628.57,-213.33 1623.76,-212 1627.37,-217.67 1618.94,-210.67 1618.94,-210.67"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndCascadeTable -->
-<g id="edge160" class="edge">
+<g id="edge161" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndCascadeTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1816.21,-248.94C1797.28,-239.24 1775,-227.81 1755.18,-217.65"/>
 <polygon fill="black" stroke="black" points="1746.27,-213.08 1757.22,-213.64 1750.72,-215.36 1755.17,-217.64 1755.17,-217.64 1755.17,-217.64 1750.72,-215.36 1753.11,-221.65 1746.27,-213.08 1746.27,-213.08"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProcessorTable -->
-<g id="edge161" class="edge">
+<g id="edge162" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProcessorTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.51,-262.38C2012.41,-257.98 2075.05,-252.84 2131.22,-249 2426.27,-228.85 2506.34,-261.05 2802.14,-212.99"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1961.39,-262.55C2013.32,-258.12 2077.63,-252.91 2135.22,-249 2428.52,-229.1 2508.11,-260.82 2802.2,-212.98"/>
 <polygon fill="black" stroke="black" points="2812.3,-211.32 2803.16,-217.38 2807.37,-212.13 2802.43,-212.94 2802.43,-212.94 2802.43,-212.94 2807.37,-212.13 2801.7,-208.5 2812.3,-211.32 2812.3,-211.32"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndJumpStackTable -->
-<g id="edge162" class="edge">
+<g id="edge163" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndJumpStackTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1860.22,-248.94C1860.22,-241.02 1860.22,-231.95 1860.22,-223.36"/>
 <polygon fill="black" stroke="black" points="1860.22,-213.22 1864.72,-223.22 1860.22,-218.22 1860.22,-223.22 1860.22,-223.22 1860.22,-223.22 1860.22,-218.22 1855.72,-223.22 1860.22,-213.22 1860.22,-213.22"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndHashTable -->
-<g id="edge163" class="edge">
+<g id="edge164" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndHashTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1900.89,-248.94C1918.06,-239.41 1938.22,-228.22 1956.29,-218.2"/>
 <polygon fill="black" stroke="black" points="1965.51,-213.08 1958.95,-221.87 1961.14,-215.51 1956.77,-217.93 1956.77,-217.93 1956.77,-217.93 1961.14,-215.51 1954.59,-214 1965.51,-213.08 1965.51,-213.08"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndStark -->
-<g id="edge164" class="edge">
+<g id="edge165" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1758.95,-267.74C1660.36,-262.06 1519.53,-247.92 1478.22,-213 1431.74,-173.72 1482.22,-121.66 1435.22,-83 1372.4,-31.32 1123.67,-24.7 1018.53,-24.27"/>
 <polygon fill="black" stroke="black" points="1008.22,-24.24 1018.23,-19.77 1013.22,-24.25 1018.22,-24.27 1018.22,-24.27 1018.22,-24.27 1013.22,-24.25 1018.21,-28.77 1008.22,-24.24 1008.22,-24.24"/>
@@ -2292,49 +2298,49 @@
 </g>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFri -->
-<g id="edge165" class="edge">
+<g id="edge166" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndFri</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M191.76,-331.95C186.95,-296.37 179.92,-225.18 190.22,-166 191.63,-157.88 194.07,-149.4 196.8,-141.5"/>
 <polygon fill="black" stroke="black" points="196.87,-141.31 195.22,-134.29 201.06,-130.06 202.71,-137.08 196.87,-141.31"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFriProver -->
-<g id="edge166" class="edge">
+<g id="edge167" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndFriProver</title>
 <path fill="none" stroke="black" d="M115.83,-350.76C76.77,-344.42 32.9,-329.58 8.22,-296 -4.15,-279.17 -0.76,-267.86 8.22,-249 13.3,-238.31 21.4,-228.94 30.36,-221.01"/>
 <polygon fill="black" stroke="black" points="30.6,-220.82 32.74,-213.94 39.92,-213.28 37.78,-220.16 30.6,-220.82"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndProverRound -->
-<g id="edge167" class="edge">
+<g id="edge168" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndProverRound</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M163.18,-331.94C150.58,-323.06 135.93,-312.74 122.48,-303.27"/>
 <polygon fill="black" stroke="black" points="122.29,-303.13 115.08,-302.95 112.48,-296.22 119.69,-296.41 122.29,-303.13"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFriVerifier -->
-<g id="edge168" class="edge">
+<g id="edge169" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndFriVerifier</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M201.83,-331.71C208.19,-310.24 218.27,-277.24 228.22,-249 231.05,-240.98 234.28,-232.42 237.42,-224.39"/>
 <polygon fill="black" stroke="black" points="237.46,-224.29 235.95,-217.24 241.88,-213.14 243.39,-220.19 237.46,-224.29"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndVerifierRound -->
-<g id="edge169" class="edge">
+<g id="edge170" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndVerifierRound</title>
 <path fill="none" stroke="black" d="M225.02,-331.94C236.64,-323.15 250.12,-312.94 262.53,-303.54"/>
 <polygon fill="black" stroke="black" points="262.63,-303.47 265,-296.66 272.2,-296.22 269.83,-303.03 262.63,-303.47"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndMasterBaseTable -->
-<g id="edge170" class="edge">
+<g id="edge171" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndMasterBaseTable</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M274.46,-334.05C332.9,-318.78 403.26,-299.89 409.22,-296 431.7,-281.3 425.77,-265.17 447.22,-249 463.81,-236.5 483.47,-226.1 502.68,-217.72"/>
 <polygon fill="black" stroke="black" points="502.84,-217.65 506.82,-211.64 513.9,-213.01 509.92,-219.02 502.84,-217.65"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndMasterExtTable -->
-<g id="edge171" class="edge">
+<g id="edge172" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndMasterExtTable</title>
 <path fill="none" stroke="black" d="M274.33,-334.08C277.33,-333.37 280.3,-332.67 283.22,-332 351.69,-316.25 429.88,-300.4 487.18,-289.18"/>
 <polygon fill="black" stroke="black" points="487.3,-289.16 492.42,-284.08 499.08,-286.86 493.96,-291.94 487.3,-289.16"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndStark -->
-<g id="edge172" class="edge">
+<g id="edge173" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M274.38,-333.99C314.62,-322.55 358.48,-308.19 375.22,-296 396.06,-280.82 392.05,-268.23 409.22,-249 445.67,-208.16 454.54,-196.17 500.22,-166 574.4,-117.01 597.66,-110.44 682.22,-83 765.36,-56.02 866.16,-39.01 924.07,-30.67"/>
 <polygon fill="black" stroke="black" points="934.03,-29.26 924.76,-35.11 929.08,-29.96 924.13,-30.66 924.13,-30.66 924.13,-30.66 929.08,-29.96 923.5,-26.2 934.03,-29.26 934.03,-29.26"/>
@@ -2351,7 +2357,7 @@
 </g>
 </g>
 <!-- ndStarkParameters&#45;&gt;ndStark -->
-<g id="edge173" class="edge">
+<g id="edge174" class="edge">
 <title>ndStarkParameters&#45;&gt;ndStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M1486.48,-85.66C1482,-84.7 1477.56,-83.8 1473.22,-83 1307.45,-52.29 1107.72,-34.73 1018.4,-27.87"/>
 <polygon fill="black" stroke="black" points="1008.32,-27.11 1018.63,-23.38 1013.3,-27.49 1018.29,-27.86 1018.29,-27.86 1018.29,-27.86 1013.3,-27.49 1017.95,-32.35 1008.32,-27.11 1008.32,-27.11"/>
