@@ -1108,20 +1108,21 @@
 <g id="node25" class="node">
 <title>ndStorageSetter</title>
 <g id="a_node25_35"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/storage/storage_vec/iterators.rs#:~:text=struct%20StorageSetter" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="13268.5,-3822 13268.5,-3859 13657.5,-3859 13657.5,-3822 13268.5,-3822"/>
-<polygon fill="none" stroke="black" points="13268.5,-3822 13268.5,-3859 13657.5,-3859 13657.5,-3822 13268.5,-3822"/>
-<text text-anchor="start" x="13418.5" y="-3837.8" font-family="Arial" font-weight="bold" font-size="14.00">StorageSetter</text>
-<polygon fill="white" stroke="transparent" points="13268.5,-3740 13268.5,-3822 13657.5,-3822 13657.5,-3740 13268.5,-3740"/>
-<polygon fill="none" stroke="black" points="13268.5,-3740 13268.5,-3822 13657.5,-3822 13657.5,-3740 13268.5,-3740"/>
-<text text-anchor="start" x="13279.5" y="-3799.8" font-family="Arial" font-size="14.00">&#45; phantom: PhantomData&lt;V&gt;</text>
-<text text-anchor="start" x="13279.5" y="-3784.8" font-family="Arial" font-size="14.00">&#45; write_lock: &amp;&#39;d mut RwLockWriteGuard&lt;&#39;c, V::LockedData&gt;</text>
-<text text-anchor="start" x="13279.5" y="-3769.8" font-family="Arial" font-size="14.00">&#45; index: Index</text>
-<text text-anchor="start" x="13279.5" y="-3754.8" font-family="Arial" font-size="14.00">&#45; value: T</text>
-<polygon fill="white" stroke="transparent" points="13268.5,-3688 13268.5,-3740 13657.5,-3740 13657.5,-3688 13268.5,-3688"/>
-<polygon fill="none" stroke="black" points="13268.5,-3688 13268.5,-3740 13657.5,-3740 13657.5,-3688 13268.5,-3688"/>
-<text text-anchor="start" x="13279.5" y="-3717.8" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, value: T)</text>
-<text text-anchor="start" x="13279.5" y="-3702.8" font-family="Arial" font-size="14.00">&#45; value(&amp;self) &#45;&gt; &amp;T</text>
-<polygon fill="none" stroke="black" points="13267,-3687.5 13267,-3860.5 13658,-3860.5 13658,-3687.5 13267,-3687.5"/>
+<polygon fill="lightblue" stroke="transparent" points="13268.5,-3830 13268.5,-3867 13657.5,-3867 13657.5,-3830 13268.5,-3830"/>
+<polygon fill="none" stroke="black" points="13268.5,-3830 13268.5,-3867 13657.5,-3867 13657.5,-3830 13268.5,-3830"/>
+<text text-anchor="start" x="13418.5" y="-3845.8" font-family="Arial" font-weight="bold" font-size="14.00">StorageSetter</text>
+<polygon fill="white" stroke="transparent" points="13268.5,-3748 13268.5,-3830 13657.5,-3830 13657.5,-3748 13268.5,-3748"/>
+<polygon fill="none" stroke="black" points="13268.5,-3748 13268.5,-3830 13657.5,-3830 13657.5,-3748 13268.5,-3748"/>
+<text text-anchor="start" x="13279.5" y="-3807.8" font-family="Arial" font-size="14.00">&#45; phantom: PhantomData&lt;V&gt;</text>
+<text text-anchor="start" x="13279.5" y="-3792.8" font-family="Arial" font-size="14.00">&#45; write_lock: &amp;&#39;d mut RwLockWriteGuard&lt;&#39;c, V::LockedData&gt;</text>
+<text text-anchor="start" x="13279.5" y="-3777.8" font-family="Arial" font-size="14.00">&#45; index: Index</text>
+<text text-anchor="start" x="13279.5" y="-3762.8" font-family="Arial" font-size="14.00">&#45; value: T</text>
+<polygon fill="white" stroke="transparent" points="13268.5,-3681 13268.5,-3748 13657.5,-3748 13657.5,-3681 13268.5,-3681"/>
+<polygon fill="none" stroke="black" points="13268.5,-3681 13268.5,-3748 13657.5,-3748 13657.5,-3681 13268.5,-3681"/>
+<text text-anchor="start" x="13279.5" y="-3725.8" font-family="Arial" font-size="14.00">&#45; set(&amp;mut self, value: T)</text>
+<text text-anchor="start" x="13279.5" y="-3710.8" font-family="Arial" font-size="14.00">&#45; index(&amp;self) &#45;&gt; Index</text>
+<text text-anchor="start" x="13279.5" y="-3695.8" font-family="Arial" font-size="14.00">&#45; value(&amp;self) &#45;&gt; &amp;T</text>
+<polygon fill="none" stroke="black" points="13267,-3680 13267,-3868 13658,-3868 13658,-3680 13267,-3680"/>
 </a>
 </g>
 </g>
