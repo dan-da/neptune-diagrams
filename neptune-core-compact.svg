@@ -3376,7 +3376,7 @@
 <text text-anchor="start" x="5905.5" y="-1054.3" font-family="Arial" font-size="14.00">+ peer_tolerance: u16</text>
 <text text-anchor="start" x="5905.5" y="-1039.3" font-family="Arial" font-size="14.00">+ max_peers: u16</text>
 <text text-anchor="start" x="5905.5" y="-1024.3" font-family="Arial" font-size="14.00">+ mine: bool</text>
-<text text-anchor="start" x="5905.5" y="-1009.3" font-family="Arial" font-size="14.00">+ throttled_mining: bool</text>
+<text text-anchor="start" x="5905.5" y="-1009.3" font-family="Arial" font-size="14.00">+ unrestricted_mining: bool</text>
 <text text-anchor="start" x="5905.5" y="-994.3" font-family="Arial" font-size="14.00">+ max_mempool_size: ByteSize</text>
 <text text-anchor="start" x="5905.5" y="-979.3" font-family="Arial" font-size="14.00">+ max_utxo_notification_size: ByteSize</text>
 <text text-anchor="start" x="5905.5" y="-964.3" font-family="Arial" font-size="14.00">+ max_unconfirmed_utxo_notification_count_per_peer: usize</text>

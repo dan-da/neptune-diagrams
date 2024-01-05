@@ -4052,7 +4052,7 @@
 <text text-anchor="start" x="12027.5" y="-1803.3" font-family="Arial" font-size="14.00">+ peer_tolerance: u16</text>
 <text text-anchor="start" x="12027.5" y="-1788.3" font-family="Arial" font-size="14.00">+ max_peers: u16</text>
 <text text-anchor="start" x="12027.5" y="-1773.3" font-family="Arial" font-size="14.00">+ mine: bool</text>
-<text text-anchor="start" x="12027.5" y="-1758.3" font-family="Arial" font-size="14.00">+ throttled_mining: bool</text>
+<text text-anchor="start" x="12027.5" y="-1758.3" font-family="Arial" font-size="14.00">+ unrestricted_mining: bool</text>
 <text text-anchor="start" x="12027.5" y="-1743.3" font-family="Arial" font-size="14.00">+ max_mempool_size: ByteSize</text>
 <text text-anchor="start" x="12027.5" y="-1728.3" font-family="Arial" font-size="14.00">+ max_utxo_notification_size: ByteSize</text>
 <text text-anchor="start" x="12027.5" y="-1713.3" font-family="Arial" font-size="14.00">+ max_unconfirmed_utxo_notification_count_per_peer: usize</text>
