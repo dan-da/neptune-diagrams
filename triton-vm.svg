@@ -660,38 +660,36 @@
 <g id="node122" class="node">
 <title>ndStark</title>
 <g id="a_node122_21"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Stark" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1256.19,-911.5 1256.19,-948.5 2515.19,-948.5 2515.19,-911.5 1256.19,-911.5"/>
-<polygon fill="none" stroke="black" points="1256.19,-911.5 1256.19,-948.5 2515.19,-948.5 2515.19,-911.5 1256.19,-911.5"/>
-<text text-anchor="start" x="1868.69" y="-927.3" font-family="Arial" font-weight="bold" font-size="14.00">Stark</text>
-<polygon fill="white" stroke="transparent" points="1256.19,-619.5 1256.19,-911.5 2515.19,-911.5 2515.19,-619.5 1256.19,-619.5"/>
-<polygon fill="none" stroke="black" points="1256.19,-619.5 1256.19,-911.5 2515.19,-911.5 2515.19,-619.5 1256.19,-619.5"/>
-<text text-anchor="start" x="1267.19" y="-889.3" font-family="Arial" font-size="14.00">&#45; prove(parameters: StarkParameters, claim: &amp;Claim, aet: &amp;AlgebraicExecutionTrace, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; Proof</text>
-<text text-anchor="start" x="1267.19" y="-874.3" font-family="Arial" font-size="14.00">&#45; random_linear_sum_base_field(codewords: ArrayView2&lt;BFieldElement&gt;, weights: Array1&lt;XFieldElement&gt;) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1267.19" y="-859.3" font-family="Arial" font-size="14.00">&#45; random_linear_sum(codewords: ArrayView2&lt;XFieldElement&gt;, weights: Array1&lt;XFieldElement&gt;) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1267.19" y="-844.3" font-family="Arial" font-size="14.00">&#45; sample_linear_combination_weights(proof_stream: &amp;mut ProofStream&lt;StarkHasher&gt;) &#45;&gt; (Array1&lt;XFieldElement&gt;, Array1&lt;XFieldElement&gt;, Array1&lt;XFieldElement&gt;)</text>
-<text text-anchor="start" x="1267.19" y="-829.3" font-family="Arial" font-size="14.00">&#45; fri_domain_segment_polynomials(quotient_segment_polynomials: ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;, fri_domain: ArithmeticDomain) &#45;&gt; Array2&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1267.19" y="-814.3" font-family="Arial" font-size="14.00">&#45; interpolate_quotient_segments(quotient_codeword: Array1&lt;XFieldElement&gt;, quotient_domain: ArithmeticDomain) &#45;&gt; Array1&lt;Polynomial&lt;XFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="1267.19" y="-799.3" font-family="Arial" font-size="14.00">&#45; quotient_domain(fri_domain: ArithmeticDomain, max_degree: Degree) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="1267.19" y="-784.3" font-family="Arial" font-size="14.00">&#45; derive_max_degree(padded_height: usize, num_trace_randomizers: usize) &#45;&gt; Degree</text>
-<text text-anchor="start" x="1267.19" y="-769.3" font-family="Arial" font-size="14.00">&#45; derive_fri(parameters: StarkParameters, padded_height: usize) &#45;&gt; Fri&lt;StarkHasher&gt;</text>
-<text text-anchor="start" x="1267.19" y="-754.3" font-family="Arial" font-size="14.00">&#45; get_revealed_elements(fri_domain_table: ArrayView2&lt;FF&gt;, revealed_indices: &amp;[usize]) &#45;&gt; Vec&lt;Vec&lt;FF&gt;&gt;</text>
-<text text-anchor="start" x="1267.19" y="-739.3" font-family="Arial" font-size="14.00">&#45; deep_codeword(codeword: &amp;[XFieldElement], domain: ArithmeticDomain, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1267.19" y="-724.3" font-family="Arial" font-size="14.00">&#45; deep_update(in_domain_point: BFieldElement, in_domain_value: XFieldElement, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; XFieldElement</text>
-<text text-anchor="start" x="1267.19" y="-709.3" font-family="Arial" font-size="14.00">&#45; split_polynomial_into_segments(polynomial: &amp;Polynomial&lt;FF&gt;) &#45;&gt; [Polynomial&lt;FF&gt;; N]</text>
-<text text-anchor="start" x="1267.19" y="-694.3" font-family="Arial" font-size="14.00">&#45; debug_check_degree(table: ArrayView2&lt;FF&gt;, quotient_domain: ArithmeticDomain, max_degree: Degree)</text>
-<text text-anchor="start" x="1267.19" y="-679.3" font-family="Arial" font-size="14.00">&#45; debug_print_proof_size(proof_stream: &amp;ProofStream&lt;StarkHasher&gt;)</text>
-<text text-anchor="start" x="1267.19" y="-664.3" font-family="Arial" font-size="14.00">&#45; verify(parameters: StarkParameters, claim: &amp;Claim, proof: &amp;Proof, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; Result&lt;(), VerificationError&gt;</text>
-<text text-anchor="start" x="1267.19" y="-649.3" font-family="Arial" font-size="14.00">&#45; hash_quotient_segment_elements(quotient_segment_rows: &amp;[[XFieldElement; NUM_QUOTIENT_SEGMENTS]]) &#45;&gt; Vec&lt;Digest&gt;</text>
-<text text-anchor="start" x="1267.19" y="-634.3" font-family="Arial" font-size="14.00">&#45; linearly_sum_base_and_ext_row(base_row: ArrayView1&lt;FF&gt;, ext_row: ArrayView1&lt;XFieldElement&gt;, weights: ArrayView1&lt;XFieldElement&gt;, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; XFieldElement</text>
-<polygon fill="none" stroke="black" points="1254.69,-619 1254.69,-950 2515.69,-950 2515.69,-619 1254.69,-619"/>
+<polygon fill="lightblue" stroke="transparent" points="1256.19,-896.5 1256.19,-933.5 2515.19,-933.5 2515.19,-896.5 1256.19,-896.5"/>
+<polygon fill="none" stroke="black" points="1256.19,-896.5 1256.19,-933.5 2515.19,-933.5 2515.19,-896.5 1256.19,-896.5"/>
+<text text-anchor="start" x="1868.69" y="-912.3" font-family="Arial" font-weight="bold" font-size="14.00">Stark</text>
+<polygon fill="white" stroke="transparent" points="1256.19,-634.5 1256.19,-896.5 2515.19,-896.5 2515.19,-634.5 1256.19,-634.5"/>
+<polygon fill="none" stroke="black" points="1256.19,-634.5 1256.19,-896.5 2515.19,-896.5 2515.19,-634.5 1256.19,-634.5"/>
+<text text-anchor="start" x="1267.19" y="-874.3" font-family="Arial" font-size="14.00">&#45; prove(parameters: StarkParameters, claim: &amp;Claim, aet: &amp;AlgebraicExecutionTrace, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; Proof</text>
+<text text-anchor="start" x="1267.19" y="-859.3" font-family="Arial" font-size="14.00">&#45; random_linear_sum_base_field(codewords: ArrayView2&lt;BFieldElement&gt;, weights: Array1&lt;XFieldElement&gt;) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1267.19" y="-844.3" font-family="Arial" font-size="14.00">&#45; random_linear_sum(codewords: ArrayView2&lt;XFieldElement&gt;, weights: Array1&lt;XFieldElement&gt;) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1267.19" y="-829.3" font-family="Arial" font-size="14.00">&#45; sample_linear_combination_weights(proof_stream: &amp;mut ProofStream&lt;StarkHasher&gt;) &#45;&gt; (Array1&lt;XFieldElement&gt;, Array1&lt;XFieldElement&gt;, Array1&lt;XFieldElement&gt;)</text>
+<text text-anchor="start" x="1267.19" y="-814.3" font-family="Arial" font-size="14.00">&#45; fri_domain_segment_polynomials(quotient_segment_polynomials: ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;, fri_domain: ArithmeticDomain) &#45;&gt; Array2&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1267.19" y="-799.3" font-family="Arial" font-size="14.00">&#45; interpolate_quotient_segments(quotient_codeword: Array1&lt;XFieldElement&gt;, quotient_domain: ArithmeticDomain) &#45;&gt; Array1&lt;Polynomial&lt;XFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="1267.19" y="-784.3" font-family="Arial" font-size="14.00">&#45; quotient_domain(fri_domain: ArithmeticDomain, max_degree: Degree) &#45;&gt; ArithmeticDomain</text>
+<text text-anchor="start" x="1267.19" y="-769.3" font-family="Arial" font-size="14.00">&#45; derive_max_degree(padded_height: usize, num_trace_randomizers: usize) &#45;&gt; Degree</text>
+<text text-anchor="start" x="1267.19" y="-754.3" font-family="Arial" font-size="14.00">&#45; derive_fri(parameters: StarkParameters, padded_height: usize) &#45;&gt; Fri&lt;StarkHasher&gt;</text>
+<text text-anchor="start" x="1267.19" y="-739.3" font-family="Arial" font-size="14.00">&#45; get_revealed_elements(fri_domain_table: ArrayView2&lt;FF&gt;, revealed_indices: &amp;[usize]) &#45;&gt; Vec&lt;Vec&lt;FF&gt;&gt;</text>
+<text text-anchor="start" x="1267.19" y="-724.3" font-family="Arial" font-size="14.00">&#45; deep_codeword(codeword: &amp;[XFieldElement], domain: ArithmeticDomain, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1267.19" y="-709.3" font-family="Arial" font-size="14.00">&#45; deep_update(in_domain_point: BFieldElement, in_domain_value: XFieldElement, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; XFieldElement</text>
+<text text-anchor="start" x="1267.19" y="-694.3" font-family="Arial" font-size="14.00">&#45; split_polynomial_into_segments(polynomial: &amp;Polynomial&lt;FF&gt;) &#45;&gt; [Polynomial&lt;FF&gt;; N]</text>
+<text text-anchor="start" x="1267.19" y="-679.3" font-family="Arial" font-size="14.00">&#45; verify(parameters: StarkParameters, claim: &amp;Claim, proof: &amp;Proof, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; Result&lt;(), VerificationError&gt;</text>
+<text text-anchor="start" x="1267.19" y="-664.3" font-family="Arial" font-size="14.00">&#45; hash_quotient_segment_elements(quotient_segment_rows: &amp;[[XFieldElement; NUM_QUOTIENT_SEGMENTS]]) &#45;&gt; Vec&lt;Digest&gt;</text>
+<text text-anchor="start" x="1267.19" y="-649.3" font-family="Arial" font-size="14.00">&#45; linearly_sum_base_and_ext_row(base_row: ArrayView1&lt;FF&gt;, ext_row: ArrayView1&lt;XFieldElement&gt;, weights: ArrayView1&lt;XFieldElement&gt;, maybe_profiler: &amp;mut Option&lt;TritonProfiler&gt;) &#45;&gt; XFieldElement</text>
+<polygon fill="none" stroke="black" points="1254.69,-634 1254.69,-935 2515.69,-935 2515.69,-634 1254.69,-634"/>
 </a>
 </g>
 </g>
 <!-- ndVerificationError&#45;&gt;ndStark -->
 <g id="edge19" class="edge">
 <title>ndVerificationError&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" d="M1331.75,-1690.89C1442.58,-1509.57 1649.81,-1170.56 1776.84,-962.75"/>
-<polygon fill="black" stroke="black" points="1782.07,-954.18 1780.7,-965.06 1779.47,-958.45 1776.86,-962.72 1776.86,-962.72 1776.86,-962.72 1779.47,-958.45 1773.02,-960.37 1782.07,-954.18 1782.07,-954.18"/>
+<path fill="none" stroke="black" d="M1331.75,-1690.89C1445.26,-1505.19 1659.89,-1154.07 1785.91,-947.91"/>
+<polygon fill="black" stroke="black" points="1791.29,-939.11 1789.91,-949.99 1788.68,-943.38 1786.07,-947.65 1786.07,-947.65 1786.07,-947.65 1788.68,-943.38 1782.23,-945.3 1791.29,-939.11 1791.29,-939.11"/>
 </g>
 <!-- ndOpStackElementError -->
 <g id="node16" class="node">
@@ -1181,8 +1179,8 @@
 <!-- ndFri&#45;&gt;ndStark -->
 <g id="edge38" class="edge">
 <title>ndFri&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" d="M1885.19,-1679.98C1885.19,-1496.76 1885.19,-1168.29 1885.19,-964.45"/>
-<polygon fill="black" stroke="black" points="1885.19,-954.23 1889.69,-964.23 1885.19,-959.23 1885.19,-964.23 1885.19,-964.23 1885.19,-964.23 1885.19,-959.23 1880.69,-964.23 1885.19,-954.23 1885.19,-954.23"/>
+<path fill="none" stroke="black" d="M1885.19,-1679.98C1885.19,-1492.2 1885.19,-1151.87 1885.19,-949.48"/>
+<polygon fill="black" stroke="black" points="1885.19,-939.35 1889.69,-949.35 1885.19,-944.35 1885.19,-949.35 1885.19,-949.35 1885.19,-949.35 1885.19,-944.35 1880.69,-949.35 1885.19,-939.35 1885.19,-939.35"/>
 </g>
 <!-- ndFriProver -->
 <g id="node27" class="node">
@@ -4179,8 +4177,8 @@
 <!-- ndArithmeticDomain&#45;&gt;ndStark -->
 <g id="edge176" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2367.94,-4445.76C2460.42,-4143.49 2670,-3413.23 2742.19,-2783 2760.42,-2623.82 2788.86,-2215.27 2742.19,-2062 2607.65,-1620.26 2263.59,-1192.62 2054.62,-961.75"/>
-<polygon fill="black" stroke="black" points="2047.86,-954.29 2057.91,-958.68 2051.22,-958 2054.58,-961.7 2054.58,-961.7 2054.58,-961.7 2051.22,-958 2051.24,-964.72 2047.86,-954.29 2047.86,-954.29"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2367.94,-4445.76C2460.42,-4143.49 2670,-3413.23 2742.19,-2783 2760.42,-2623.82 2788.86,-2215.27 2742.19,-2062 2604.74,-1610.69 2248.59,-1174.1 2041.23,-947.03"/>
+<polygon fill="black" stroke="black" points="2034.23,-939.37 2044.3,-943.71 2037.6,-943.06 2040.98,-946.75 2040.98,-946.75 2040.98,-946.75 2037.6,-943.06 2037.66,-949.79 2034.23,-939.37 2034.23,-939.37"/>
 </g>
 <!-- ndStarkParameters -->
 <g id="node121" class="node">
@@ -4209,8 +4207,8 @@
 <!-- ndStarkParameters&#45;&gt;ndStark -->
 <g id="edge177" class="edge">
 <title>ndStarkParameters&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M400.03,-1702.35C437.77,-1669.58 480.23,-1634.63 521.19,-1605 861.63,-1358.72 1279.02,-1115.81 1561.75,-959.2"/>
-<polygon fill="black" stroke="black" points="1570.91,-954.13 1564.34,-962.91 1566.54,-956.55 1562.16,-958.97 1562.16,-958.97 1562.16,-958.97 1566.54,-956.55 1559.98,-955.03 1570.91,-954.13 1570.91,-954.13"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M400.03,-1702.35C437.77,-1669.58 480.23,-1634.63 521.19,-1605 872.7,-1350.71 1306.25,-1100.01 1588.9,-944.19"/>
+<polygon fill="black" stroke="black" points="1598.05,-939.15 1591.47,-947.92 1593.67,-941.56 1589.29,-943.98 1589.29,-943.98 1589.29,-943.98 1593.67,-941.56 1587.12,-940.04 1598.05,-939.15 1598.05,-939.15"/>
 </g>
 </g>
 </svg>
