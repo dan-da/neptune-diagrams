@@ -1930,7 +1930,7 @@
 <text text-anchor="start" x="7419.28" y="-1892.8" font-family="Arial" font-weight="bold" font-size="14.00">DB</text>
 <polygon fill="white" stroke="transparent" points="6813.28,-1780 6813.28,-1877 8045.28,-1877 8045.28,-1780 6813.28,-1780"/>
 <polygon fill="none" stroke="black" points="6813.28,-1780 6813.28,-1877 8045.28,-1877 8045.28,-1780 6813.28,-1780"/>
-<text text-anchor="start" x="6824.28" y="-1854.8" font-family="Arial" font-size="14.00">&#45; db: Arc&lt;Database&gt;</text>
+<text text-anchor="start" x="6824.28" y="-1854.8" font-family="Arial" font-size="14.00">&#45; db: Option&lt;Arc&lt;Database&gt;&gt;</text>
 <text text-anchor="start" x="6824.28" y="-1839.8" font-family="Arial" font-size="14.00">&#45; path: std::path::PathBuf</text>
 <text text-anchor="start" x="6824.28" y="-1824.8" font-family="Arial" font-size="14.00">&#45; destroy_db_on_drop: bool</text>
 <text text-anchor="start" x="6824.28" y="-1809.8" font-family="Arial" font-size="14.00">&#45; read_options: ReadOptions</text>
