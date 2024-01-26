@@ -2385,7 +2385,7 @@
 <text text-anchor="start" x="230.67" y="-3034.8" font-family="Arial" font-weight="bold" font-size="14.00">SupportedClaim</text>
 <polygon fill="white" stroke="transparent" points="128.67,-2967 128.67,-3019 438.67,-3019 438.67,-2967 128.67,-2967"/>
 <polygon fill="none" stroke="black" points="128.67,-2967 128.67,-3019 438.67,-3019 438.67,-2967 128.67,-2967"/>
-<text text-anchor="start" x="139.67" y="-2996.8" font-family="Arial" font-size="14.00">+ claim: triton_vm::Claim</text>
+<text text-anchor="start" x="139.67" y="-2996.8" font-family="Arial" font-size="14.00">+ claim: Claim</text>
 <text text-anchor="start" x="139.67" y="-2981.8" font-family="Arial" font-size="14.00">+ support: ClaimSupport&lt;SubprogramWitness&gt;</text>
 <polygon fill="none" stroke="black" points="127.67,-2966.5 127.67,-3057.5 439.67,-3057.5 439.67,-2966.5 127.67,-2966.5"/>
 </a>
