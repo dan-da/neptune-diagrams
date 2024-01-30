@@ -700,7 +700,7 @@
 <text text-anchor="start" x="9677.5" y="-1502.3" font-family="Arial" font-size="14.00">&#45; hash_pair(left: Digest, right: Digest) &#45;&gt; Digest</text>
 <text text-anchor="start" x="9677.5" y="-1487.3" font-family="Arial" font-size="14.00">&#45; sample_scalars(state: &amp;mut Self::SpongeState, num_elements: usize) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
 <text text-anchor="start" x="9677.5" y="-1472.3" font-family="Arial" font-size="14.00">&#45; init() &#45;&gt; Self::SpongeState</text>
-<text text-anchor="start" x="9677.5" y="-1457.3" font-family="Arial" font-size="14.00">&#45; absorb(sponge: &amp;mut Self::SpongeState, input: &amp;[BFieldElement; RATE])</text>
+<text text-anchor="start" x="9677.5" y="-1457.3" font-family="Arial" font-size="14.00">&#45; absorb(sponge: &amp;mut Self::SpongeState, input: [BFieldElement; RATE])</text>
 <text text-anchor="start" x="9677.5" y="-1442.3" font-family="Arial" font-size="14.00">&#45; squeeze(sponge: &amp;mut Self::SpongeState) &#45;&gt; [BFieldElement; RATE]</text>
 <polygon fill="none" stroke="black" points="9665.5,-1427 9665.5,-1878 10267.5,-1878 10267.5,-1427 9665.5,-1427"/>
 </a>
