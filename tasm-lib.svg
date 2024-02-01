@@ -1041,7 +1041,7 @@
 <!-- ndDataType&#45;&gt;ndGetSwbfIndices -->
 <g id="edge32" class="edge">
 <title>ndDataType&#45;&gt;ndGetSwbfIndices</title>
-<path fill="none" stroke="black" d="M21927.06,-1328.51C24124.18,-1294.23 36891.18,-1094.13 36935,-1073 37103.08,-991.96 37044.74,-849.44 37202,-749 37255.42,-714.88 37280.68,-735.35 37340,-713 37424.73,-681.08 37514.59,-637.92 37591.34,-597.97"/>
+<path fill="none" stroke="black" d="M21927.1,-1328.29C24126.24,-1292.44 36913.09,-1083.57 36935,-1073 37103.08,-991.96 37044.74,-849.44 37202,-749 37255.42,-714.88 37280.68,-735.35 37340,-713 37424.73,-681.08 37514.59,-637.92 37591.34,-597.97"/>
 <polygon fill="black" stroke="black" points="37600.64,-593.12 37593.86,-601.74 37596.2,-595.43 37591.77,-597.75 37591.77,-597.75 37591.77,-597.75 37596.2,-595.43 37589.69,-593.76 37600.64,-593.12 37600.64,-593.12"/>
 </g>
 <!-- ndDataType&#45;&gt;ndMap -->
@@ -1076,7 +1076,7 @@
 <!-- ndDataType&#45;&gt;ndFilter -->
 <g id="edge34" class="edge">
 <title>ndDataType&#45;&gt;ndFilter</title>
-<path fill="none" stroke="black" d="M21927.14,-1327.74C23434.13,-1300.75 29972.22,-1184.85 35333,-1109 35374.86,-1108.41 38317.57,-1102.78 38347,-1073 38378.55,-1041.07 38378.1,-304.79 38338,-262 38248.98,-167.01 37508.27,-132.95 37012.82,-120.76"/>
+<path fill="none" stroke="black" d="M21927.23,-1327.72C23432.88,-1300.64 29958.94,-1184.55 35310,-1109 35352.18,-1108.4 38317.35,-1103 38347,-1073 38378.55,-1041.07 38378.1,-304.79 38338,-262 38248.98,-167.01 37508.27,-132.95 37012.82,-120.76"/>
 <polygon fill="black" stroke="black" points="37002.63,-120.51 37012.74,-116.25 37007.63,-120.63 37012.63,-120.75 37012.63,-120.75 37012.63,-120.75 37007.63,-120.63 37012.52,-125.25 37002.63,-120.51 37002.63,-120.51"/>
 </g>
 <!-- ndRawCode -->
@@ -1461,19 +1461,20 @@
 <g id="node6" class="node">
 <title>ndBasicSnippet</title>
 <g id="a_node6_42"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/traits/basic_snippet.rs#:~:text=trait%20BasicSnippet" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="35351,-1379.5 35351,-1416.5 35723,-1416.5 35723,-1379.5 35351,-1379.5"/>
-<polygon fill="none" stroke="black" points="35351,-1379.5 35351,-1416.5 35723,-1416.5 35723,-1379.5 35351,-1379.5"/>
-<text text-anchor="start" x="35494" y="-1395.3" font-family="Arial" font-weight="bold" font-size="14.00">BasicSnippet</text>
-<polygon fill="white" stroke="transparent" points="35351,-1252.5 35351,-1379.5 35723,-1379.5 35723,-1252.5 35351,-1252.5"/>
-<polygon fill="none" stroke="black" points="35351,-1252.5 35351,-1379.5 35723,-1379.5 35723,-1252.5 35351,-1252.5"/>
-<text text-anchor="start" x="35362" y="-1357.3" font-family="Arial" font-size="14.00">inputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="35362" y="-1342.3" font-family="Arial" font-size="14.00">outputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="35362" y="-1327.3" font-family="Arial" font-size="14.00">entrypoint(&amp;Self) &#45;&gt; String</text>
-<text text-anchor="start" x="35362" y="-1312.3" font-family="Arial" font-size="14.00">code(&amp;Self, &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="35362" y="-1297.3" font-family="Arial" font-size="14.00">link_for_isolated_run(&amp;Self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="35362" y="-1282.3" font-family="Arial" font-size="14.00">init_stack_for_isolated_run(&amp;Self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="35362" y="-1267.3" font-family="Arial" font-size="14.00">stack_diff(&amp;Self) &#45;&gt; isize</text>
-<polygon fill="none" stroke="black" points="35350,-1251.5 35350,-1417.5 35724,-1417.5 35724,-1251.5 35350,-1251.5"/>
+<polygon fill="lightgreen" stroke="transparent" points="35328,-1386.5 35328,-1423.5 35746,-1423.5 35746,-1386.5 35328,-1386.5"/>
+<polygon fill="none" stroke="black" points="35328,-1386.5 35328,-1423.5 35746,-1423.5 35746,-1386.5 35328,-1386.5"/>
+<text text-anchor="start" x="35494" y="-1402.3" font-family="Arial" font-weight="bold" font-size="14.00">BasicSnippet</text>
+<polygon fill="white" stroke="transparent" points="35328,-1244.5 35328,-1386.5 35746,-1386.5 35746,-1244.5 35328,-1244.5"/>
+<polygon fill="none" stroke="black" points="35328,-1244.5 35328,-1386.5 35746,-1386.5 35746,-1244.5 35328,-1244.5"/>
+<text text-anchor="start" x="35339" y="-1364.3" font-family="Arial" font-size="14.00">inputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="35339" y="-1349.3" font-family="Arial" font-size="14.00">outputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="35339" y="-1334.3" font-family="Arial" font-size="14.00">entrypoint(&amp;Self) &#45;&gt; String</text>
+<text text-anchor="start" x="35339" y="-1319.3" font-family="Arial" font-size="14.00">code(&amp;Self, &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="35339" y="-1304.3" font-family="Arial" font-size="14.00">annotated_code(&amp;Self, &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="35339" y="-1289.3" font-family="Arial" font-size="14.00">link_for_isolated_run(&amp;Self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="35339" y="-1274.3" font-family="Arial" font-size="14.00">init_stack_for_isolated_run(&amp;Self) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="35339" y="-1259.3" font-family="Arial" font-size="14.00">stack_diff(&amp;Self) &#45;&gt; isize</text>
+<polygon fill="none" stroke="black" points="35327,-1244 35327,-1425 35747,-1425 35747,-1244 35327,-1244"/>
 </a>
 </g>
 </g>
@@ -1500,7 +1501,7 @@
 <!-- ndBasicSnippet&#45;&gt;ndDeprecatedSnippetWrapper -->
 <g id="edge62" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndDeprecatedSnippetWrapper</title>
-<path fill="none" stroke="black" d="M35732.34,-1322.75C36206.97,-1295.23 37458.06,-1214.27 38494,-1073 38645.03,-1052.4 38809.7,-1023.55 38954.69,-995.95"/>
+<path fill="none" stroke="black" d="M35755.28,-1321.42C36246.23,-1292.67 37474.34,-1212.05 38494,-1073 38645.03,-1052.4 38809.7,-1023.55 38954.69,-995.95"/>
 <polygon fill="black" stroke="black" points="38964.65,-994.04 38955.67,-1000.34 38959.74,-994.98 38954.83,-995.92 38954.83,-995.92 38954.83,-995.92 38959.74,-994.98 38953.99,-991.5 38964.65,-994.04 38964.65,-994.04"/>
 </g>
 <!-- ndShadowedAlgorithm -->
@@ -1527,7 +1528,7 @@
 <!-- ndBasicSnippet&#45;&gt;ndShadowedAlgorithm -->
 <g id="edge63" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndShadowedAlgorithm</title>
-<path fill="none" stroke="black" d="M35732.07,-1331.58C36376,-1323.36 38491.63,-1281.16 40226,-1073 40368.66,-1055.88 40523.24,-1029.7 40661.88,-1003.41"/>
+<path fill="none" stroke="black" d="M35755.21,-1331.28C36425.32,-1322.35 38511.87,-1278.73 40226,-1073 40368.66,-1055.88 40523.24,-1029.7 40661.88,-1003.41"/>
 <polygon fill="black" stroke="black" points="40671.83,-1001.51 40662.85,-1007.8 40666.92,-1002.45 40662.01,-1003.38 40662.01,-1003.38 40662.01,-1003.38 40666.92,-1002.45 40661.17,-998.96 40671.83,-1001.51 40671.83,-1001.51"/>
 </g>
 <!-- ndShadowedProcedure -->
@@ -1555,7 +1556,7 @@
 <!-- ndBasicSnippet&#45;&gt;ndShadowedProcedure -->
 <g id="edge64" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndShadowedProcedure</title>
-<path fill="none" stroke="black" d="M35732.04,-1329.33C36342.58,-1314.42 38187.99,-1254.6 38380,-1073 38485.76,-972.97 38333.71,-859.91 38428,-749 38487.66,-678.82 38566.21,-627.35 38651.02,-589.64"/>
+<path fill="none" stroke="black" d="M35755.13,-1328.76C36387.75,-1312.93 38190.36,-1252.36 38380,-1073 38485.76,-972.97 38333.71,-859.91 38428,-749 38487.66,-678.82 38566.21,-627.35 38651.02,-589.64"/>
 <polygon fill="black" stroke="black" points="38660.32,-585.58 38652.96,-593.71 38655.74,-587.58 38651.16,-589.59 38651.16,-589.59 38651.16,-589.59 38655.74,-587.58 38649.35,-585.46 38660.32,-585.58 38660.32,-585.58"/>
 </g>
 <!-- ndShadowedFunction -->
@@ -1583,7 +1584,7 @@
 <!-- ndBasicSnippet&#45;&gt;ndShadowedFunction -->
 <g id="edge65" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndShadowedFunction</title>
-<path fill="none" stroke="black" d="M35732.19,-1329.58C36348.38,-1315.34 38223.08,-1257.13 38418,-1073 38523.82,-973.04 38356.83,-845.3 38466,-749 38534.26,-688.79 40013.83,-725.43 40104,-713 40291.42,-687.17 40496.53,-635.58 40660.71,-588.37"/>
+<path fill="none" stroke="black" d="M35755.2,-1329.04C36393.67,-1313.91 38225.45,-1254.89 38418,-1073 38523.82,-973.04 38356.83,-845.3 38466,-749 38534.26,-688.79 40013.83,-725.43 40104,-713 40291.42,-687.17 40496.53,-635.58 40660.71,-588.37"/>
 <polygon fill="black" stroke="black" points="40670.47,-585.55 40662.11,-592.65 40665.66,-586.94 40660.86,-588.32 40660.86,-588.32 40660.86,-588.32 40665.66,-586.94 40659.61,-584 40670.47,-585.55 40670.47,-585.55"/>
 </g>
 <!-- ndShadowedClosure -->
@@ -1610,97 +1611,97 @@
 <!-- ndBasicSnippet&#45;&gt;ndShadowedClosure -->
 <g id="edge66" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndShadowedClosure</title>
-<path fill="none" stroke="black" d="M35732.03,-1329.07C36668.3,-1307.29 40708.08,-1207.08 41961,-1073 42114.76,-1056.55 42281.6,-1030.11 42430.61,-1003.37"/>
+<path fill="none" stroke="black" d="M35755.17,-1328.53C36732.98,-1305.67 40718.13,-1206.01 41961,-1073 42114.76,-1056.55 42281.6,-1030.11 42430.61,-1003.37"/>
 <polygon fill="black" stroke="black" points="42440.85,-1001.53 42431.81,-1007.73 42435.93,-1002.42 42431.01,-1003.3 42431.01,-1003.3 42431.01,-1003.3 42435.93,-1002.42 42430.21,-998.87 42440.85,-1001.53 42440.85,-1001.53"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndReadInput -->
 <g id="edge67" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndReadInput</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.91,-1315.4C34962.81,-1278.19 34141.11,-1186.92 33882,-1073 33670.35,-979.94 33691.83,-829.26 33475,-749 33372.71,-711.14 32601.95,-728.58 32494,-713 32316.88,-687.43 32123.83,-640.33 31963.88,-595.86"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.75,-1313.12C34930.31,-1274.55 34135.95,-1184.65 33882,-1073 33670.35,-979.94 33691.83,-829.26 33475,-749 33372.71,-711.14 32601.95,-728.58 32494,-713 32316.88,-687.43 32123.83,-640.33 31963.88,-595.86"/>
 <polygon fill="none" stroke="black" points="31964.45,-592.38 31953.88,-593.07 31962.57,-599.13 31964.45,-592.38"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndWriteToStdout -->
 <g id="edge68" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndWriteToStdout</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.61,-1330.9C34254.14,-1315.8 28985.89,-1234.53 28685,-1073 28528.73,-989.11 28594.03,-855.25 28452,-749 28359.07,-679.48 28246.06,-627.42 28136.51,-588.89"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.82,-1330.58C34182.63,-1314.69 28983.84,-1233.43 28685,-1073 28528.73,-989.11 28594.03,-855.25 28452,-749 28359.07,-679.48 28246.06,-627.42 28136.51,-588.89"/>
 <polygon fill="none" stroke="black" points="28137.54,-585.54 28126.94,-585.55 28135.23,-592.15 28137.54,-585.54"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndPushRamToStack -->
 <g id="edge69" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndPushRamToStack</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35732.17,-1326.18C36079.56,-1308.68 36783.28,-1251.56 36938,-1073 37047.38,-946.76 37026.13,-741.49 36996.94,-610.83"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35755.17,-1324.99C36109.7,-1306.16 36786.62,-1247.7 36938,-1073 37047.38,-946.76 37026.13,-741.49 36996.94,-610.83"/>
 <polygon fill="none" stroke="black" points="37000.28,-609.74 36994.65,-600.77 36993.46,-611.3 37000.28,-609.74"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndMmrVerifyLeafMembershipFromSecretIn -->
 <g id="edge70" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndMmrVerifyLeafMembershipFromSecretIn</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.96,-1331.55C33997.24,-1317.67 26148.74,-1230.04 25963,-1073 25833.46,-963.48 25822.71,-754.36 25831.7,-618.23"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.72,-1331.31C33909.45,-1316.69 26147.7,-1229.16 25963,-1073 25833.46,-963.48 25822.71,-754.36 25831.7,-618.23"/>
 <polygon fill="none" stroke="black" points="25835.2,-618.37 25832.41,-608.15 25828.22,-617.88 25835.2,-618.37"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndListType -->
 <g id="edge71" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndListType</title>
-<path fill="none" stroke="black" d="M35341.63,-1333.6C34238.73,-1333.24 28781.93,-1318.88 27121,-1073 27101.89,-1070.17 27082.52,-1066.95 27063.02,-1063.4"/>
+<path fill="none" stroke="black" d="M35319,-1333.59C34166.15,-1333.04 28770.85,-1317.24 27121,-1073 27101.89,-1070.17 27082.52,-1066.95 27063.02,-1063.4"/>
 <polygon fill="black" stroke="black" points="27053.13,-1061.57 27063.78,-1058.96 27058.04,-1062.48 27062.96,-1063.39 27062.96,-1063.39 27062.96,-1063.39 27058.04,-1062.48 27062.14,-1067.81 27053.13,-1061.57 27053.13,-1061.57"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndGetSwbfIndices -->
 <g id="edge72" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndGetSwbfIndices</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35732.23,-1318.19C36114.74,-1285.72 36947.68,-1202.21 37202,-1073 37421.24,-961.61 37609,-737.61 37709.24,-601.56"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35755.18,-1316.22C36147.09,-1282.44 36952.65,-1199.69 37202,-1073 37421.24,-961.61 37609,-737.61 37709.24,-601.56"/>
 <polygon fill="none" stroke="black" points="37712.33,-603.26 37715.43,-593.13 37706.69,-599.12 37712.33,-603.26"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndMap -->
 <g id="edge73" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndMap</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35621.86,-1247.37C35752.82,-1119.41 36017.37,-880.14 36287,-749 36346.71,-719.96 36391.09,-765.3 36432,-713 36493.74,-634.05 36501.25,-334.45 36432,-262 36407.96,-236.85 34507.5,-163.66 33613.45,-130.58"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35629.57,-1239.85C35763.02,-1110.23 36022.57,-877.61 36287,-749 36346.71,-719.96 36391.09,-765.3 36432,-713 36493.74,-634.05 36501.25,-334.45 36432,-262 36407.96,-236.85 34507.5,-163.66 33613.45,-130.58"/>
 <polygon fill="none" stroke="black" points="33613.43,-127.08 33603.31,-130.21 33613.17,-134.07 33613.43,-127.08"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndFilter -->
 <g id="edge74" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndFilter</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35732.14,-1329.95C36353.96,-1316.76 38259.55,-1261.19 38456,-1073 38560.9,-972.51 38390.25,-845.31 38499,-749 38568.63,-687.34 41781.59,-779.12 41847,-713 41987.97,-570.5 41986.74,-405.71 41847,-262 41763.19,-175.81 38272.99,-131.52 37012.87,-118.32"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35755.04,-1329.45C36399.38,-1315.41 38261.91,-1258.93 38456,-1073 38560.9,-972.51 38390.25,-845.31 38499,-749 38568.63,-687.34 41781.59,-779.12 41847,-713 41987.97,-570.5 41986.74,-405.71 41847,-262 41763.19,-175.81 38272.99,-131.52 37012.87,-118.32"/>
 <polygon fill="none" stroke="black" points="37012.77,-114.81 37002.74,-118.21 37012.7,-121.81 37012.77,-114.81"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndAll -->
 <g id="edge75" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndAll</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.85,-1332.57C34053.23,-1325.89 26789.88,-1279.24 25829,-1073 25423.47,-985.96 25197.86,-1058.25 24968,-713 24940.23,-671.29 24935.64,-300.26 24968,-262 25026.58,-192.75 25215.67,-155.89 25403.63,-136.27"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.97,-1332.45C33969.72,-1325.35 26784.35,-1278.05 25829,-1073 25423.47,-985.96 25197.86,-1058.25 24968,-713 24940.23,-671.29 24935.64,-300.26 24968,-262 25026.58,-192.75 25215.67,-155.89 25403.63,-136.27"/>
 <polygon fill="none" stroke="black" points="25404.13,-139.74 25413.72,-135.23 25403.41,-132.77 25404.13,-139.74"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndZip -->
 <g id="edge76" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndZip</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35584.57,-1247.43C35666.95,-1098.37 35836.59,-791.41 35932.98,-617"/>
-<polygon fill="none" stroke="black" points="35936.17,-618.47 35937.94,-608.02 35930.04,-615.08 35936.17,-618.47"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35588.76,-1239.84C35672.62,-1088.11 35838.31,-788.3 35933.08,-616.83"/>
+<polygon fill="none" stroke="black" points="35936.18,-618.45 35937.96,-608 35930.06,-615.06 35936.18,-618.45"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndSwapUnchecked -->
 <g id="edge77" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndSwapUnchecked</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35485.46,-1247.43C35396.16,-1098.29 35212.2,-791.1 35107.79,-616.74"/>
-<polygon fill="none" stroke="black" points="35110.71,-614.81 35102.57,-608.02 35104.71,-618.4 35110.71,-614.81"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35480.92,-1239.84C35390.06,-1088.11 35210.52,-788.3 35107.84,-616.83"/>
+<polygon fill="none" stroke="black" points="35110.7,-614.78 35102.56,-608 35104.69,-618.38 35110.7,-614.78"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndFriVerify -->
 <g id="edge78" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndFriVerify</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.87,-1331.67C33942.16,-1318.16 25470.98,-1230.1 24955,-1073 24718.4,-1000.96 24483.67,-849.95 24310.66,-719.48"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.91,-1331.45C33852.19,-1317.22 25468.23,-1229.26 24955,-1073 24718.4,-1000.96 24483.67,-849.95 24310.66,-719.48"/>
 <polygon fill="none" stroke="black" points="24312.55,-716.52 24302.47,-713.28 24308.33,-722.1 24312.55,-716.52"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndVerifyAuthenticationPathForLeafAndIndexList -->
 <g id="edge79" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndVerifyAuthenticationPathForLeafAndIndexList</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.96,-1330.5C34962.63,-1320.18 34147.02,-1274.51 33969,-1073 33853.9,-942.72 33881.99,-725.36 33913.24,-595.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.82,-1329.84C34930.44,-1318.3 34143.48,-1270.5 33969,-1073 33853.9,-942.72 33881.99,-725.36 33913.24,-595.6"/>
 <polygon fill="none" stroke="black" points="33916.7,-596.19 33915.69,-585.64 33909.9,-594.52 33916.7,-596.19"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndSampleIndices -->
 <g id="edge80" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndSampleIndices</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.93,-1331.63C34566.65,-1322.81 31702.96,-1276.86 30822,-1073 30371.21,-968.69 29880.6,-728.27 29621.81,-590.47"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.95,-1331.36C34511.66,-1321.91 31694.48,-1274.89 30822,-1073 30371.21,-968.69 29880.6,-728.27 29621.81,-590.47"/>
 <polygon fill="none" stroke="black" points="29623.18,-587.23 29612.71,-585.61 29619.88,-593.41 29623.18,-587.23"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndPadAndAbsorbAll -->
 <g id="edge81" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndPadAndAbsorbAll</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35341.83,-1331.99C34810.07,-1325.08 33292.56,-1286.59 32053,-1073 31454.58,-969.89 31257.89,-1021.74 30735,-713 30676.84,-678.66 30623.75,-624.72 30584.53,-578.32"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M35318.89,-1331.68C34767.59,-1323.96 33275.19,-1283.6 32053,-1073 31454.58,-969.89 31257.89,-1021.74 30735,-713 30676.84,-678.66 30623.75,-624.72 30584.53,-578.32"/>
 <polygon fill="none" stroke="black" points="30587.21,-576.07 30578.11,-570.65 30581.84,-580.56 30587.21,-576.07"/>
 </g>
 <!-- ndDeprecatedSnippet -->
