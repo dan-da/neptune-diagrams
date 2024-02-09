@@ -2724,23 +2724,19 @@
 <g id="node82" class="node">
 <title>ndBFieldCodecError</title>
 <g id="a_node82_85"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/shared_math/bfield_codec.rs#:~:text=enum%20BFieldCodecError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="19391.5,-4759 19391.5,-4796 19740.5,-4796 19740.5,-4759 19391.5,-4759"/>
-<polygon fill="none" stroke="black" points="19391.5,-4759 19391.5,-4796 19740.5,-4796 19740.5,-4759 19391.5,-4759"/>
-<text text-anchor="start" x="19508" y="-4774.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
-<polygon fill="white" stroke="transparent" points="19391.5,-4632 19391.5,-4759 19740.5,-4759 19740.5,-4632 19391.5,-4632"/>
-<polygon fill="none" stroke="black" points="19391.5,-4632 19391.5,-4759 19740.5,-4759 19740.5,-4632 19391.5,-4632"/>
-<text text-anchor="start" x="19402.5" y="-4736.8" font-family="Arial" font-size="14.00">EmptySequence</text>
-<text text-anchor="start" x="19402.5" y="-4721.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
-<text text-anchor="start" x="19402.5" y="-4706.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
-<text text-anchor="start" x="19402.5" y="-4691.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
-<text text-anchor="start" x="19402.5" y="-4676.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
-<text text-anchor="start" x="19402.5" y="-4661.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
-<text text-anchor="start" x="19402.5" y="-4646.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
-<polygon fill="white" stroke="transparent" points="19391.5,-4564 19391.5,-4632 19740.5,-4632 19740.5,-4564 19391.5,-4564"/>
-<polygon fill="none" stroke="black" points="19391.5,-4564 19391.5,-4632 19740.5,-4632 19740.5,-4564 19391.5,-4564"/>
-<text text-anchor="start" x="19402.5" y="-4609.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
-<text text-anchor="start" x="19402.5" y="-4578" font-family="Arial" font-size="14.00">&#45; from(err: Box&lt;dyn Error + Send + Sync&gt;) &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="19390,-4563 19390,-4797 19741,-4797 19741,-4563 19390,-4563"/>
+<polygon fill="yellow" stroke="transparent" points="19391.5,-4725 19391.5,-4762 19740.5,-4762 19740.5,-4725 19391.5,-4725"/>
+<polygon fill="none" stroke="black" points="19391.5,-4725 19391.5,-4762 19740.5,-4762 19740.5,-4725 19391.5,-4725"/>
+<text text-anchor="start" x="19508" y="-4740.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
+<polygon fill="white" stroke="transparent" points="19391.5,-4598 19391.5,-4725 19740.5,-4725 19740.5,-4598 19391.5,-4598"/>
+<polygon fill="none" stroke="black" points="19391.5,-4598 19391.5,-4725 19740.5,-4725 19740.5,-4598 19391.5,-4598"/>
+<text text-anchor="start" x="19402.5" y="-4702.8" font-family="Arial" font-size="14.00">EmptySequence</text>
+<text text-anchor="start" x="19402.5" y="-4687.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
+<text text-anchor="start" x="19402.5" y="-4672.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
+<text text-anchor="start" x="19402.5" y="-4657.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
+<text text-anchor="start" x="19402.5" y="-4642.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
+<text text-anchor="start" x="19402.5" y="-4627.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
+<text text-anchor="start" x="19402.5" y="-4612.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
+<polygon fill="none" stroke="black" points="19390,-4597 19390,-4763 19741,-4763 19741,-4597 19390,-4597"/>
 </a>
 </g>
 </g>
