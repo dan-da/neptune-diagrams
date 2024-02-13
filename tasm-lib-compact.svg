@@ -501,7 +501,7 @@
 <text text-anchor="start" x="7488.86" y="-829.3" font-family="Arial" font-size="14.00">+ output: Vec&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="7488.86" y="-814.3" font-family="Arial" font-size="14.00">+ final_stack: Vec&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="7488.86" y="-799.3" font-family="Arial" font-size="14.00">+ final_ram: HashMap&lt;BFieldElement, BFieldElement&gt;</text>
-<text text-anchor="start" x="7488.86" y="-784.3" font-family="Arial" font-size="14.00">+ final_sponge_state: Option&lt;VmHasherState&gt;</text>
+<text text-anchor="start" x="7488.86" y="-784.3" font-family="Arial" font-size="14.00">+ final_sponge: Option&lt;VmHasher&gt;</text>
 <polygon fill="none" stroke="black" points="7476.86,-769 7476.86,-890 7836.86,-890 7836.86,-769 7476.86,-769"/>
 </a>
 </g>
@@ -1628,7 +1628,7 @@
 <text text-anchor="start" x="4747.86" y="-364.3" font-family="Arial" font-size="14.00">+ stack: Vec&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="4747.86" y="-349.3" font-family="Arial" font-size="14.00">+ nondeterminism: NonDeterminism&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="4747.86" y="-334.3" font-family="Arial" font-size="14.00">+ public_input: Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="4747.86" y="-319.3" font-family="Arial" font-size="14.00">+ sponge_state: Option&lt;VmHasherState&gt;</text>
+<text text-anchor="start" x="4747.86" y="-319.3" font-family="Arial" font-size="14.00">+ sponge: Option&lt;VmHasher&gt;</text>
 <polygon fill="none" stroke="black" points="4735.36,-304 4735.36,-425 5084.36,-425 5084.36,-304 4735.36,-304"/>
 </a>
 </g>
