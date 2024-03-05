@@ -2174,8 +2174,8 @@
 <text text-anchor="start" x="1402.5" y="-139.8" font-family="Arial" font-size="14.00">&#45; zero(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
 <text text-anchor="start" x="1402.5" y="-124.8" font-family="Arial" font-size="14.00">&#45; one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
 <text text-anchor="start" x="1402.5" y="-109.8" font-family="Arial" font-size="14.00">&#45; minus_one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="1402.5" y="-94.8" font-family="Arial" font-size="14.00">&#45; x_constant(&amp;self, xfe: XFieldElement) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="1402.5" y="-79.8" font-family="Arial" font-size="14.00">&#45; b_constant(&amp;self, bfe: BFieldElement) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="1402.5" y="-94.8" font-family="Arial" font-size="14.00">&#45; b_constant(&amp;self, bfe: B) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="1402.5" y="-79.8" font-family="Arial" font-size="14.00">&#45; x_constant(&amp;self, xfe: X) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
 <text text-anchor="start" x="1402.5" y="-64.8" font-family="Arial" font-size="14.00">&#45; input(&amp;self, input: II) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
 <text text-anchor="start" x="1402.5" y="-49.8" font-family="Arial" font-size="14.00">&#45; challenge(&amp;self, challenge_id: ChallengeId) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
 <text text-anchor="start" x="1402.5" y="-34.8" font-family="Arial" font-size="14.00">&#45; make_leaf(&amp;self, mut expression: CircuitExpression&lt;II&gt;) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
