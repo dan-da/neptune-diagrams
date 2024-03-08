@@ -1577,39 +1577,40 @@
 <g id="node35" class="node">
 <title>ndTritonProfiler</title>
 <g id="a_node35_44"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20TritonProfiler" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5532.5,-6268.5 5532.5,-6305.5 6053.5,-6305.5 6053.5,-6268.5 5532.5,-6268.5"/>
-<polygon fill="none" stroke="black" points="5532.5,-6268.5 5532.5,-6305.5 6053.5,-6305.5 6053.5,-6268.5 5532.5,-6268.5"/>
-<text text-anchor="start" x="5750.5" y="-6284.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonProfiler</text>
-<polygon fill="white" stroke="transparent" points="5532.5,-6171.5 5532.5,-6268.5 6053.5,-6268.5 6053.5,-6171.5 5532.5,-6171.5"/>
-<polygon fill="none" stroke="black" points="5532.5,-6171.5 5532.5,-6268.5 6053.5,-6268.5 6053.5,-6171.5 5532.5,-6171.5"/>
-<text text-anchor="start" x="5543.5" y="-6246.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
-<text text-anchor="start" x="5543.5" y="-6231.3" font-family="Arial" font-size="14.00">&#45; timer: Instant</text>
-<text text-anchor="start" x="5543.5" y="-6216.3" font-family="Arial" font-size="14.00">&#45; stack: Vec&lt;(usize, String)&gt;</text>
-<text text-anchor="start" x="5543.5" y="-6201.3" font-family="Arial" font-size="14.00">&#45; profile: Vec&lt;Task&gt;</text>
-<text text-anchor="start" x="5543.5" y="-6186.3" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
-<polygon fill="white" stroke="transparent" points="5532.5,-5969.5 5532.5,-6171.5 6053.5,-6171.5 6053.5,-5969.5 5532.5,-5969.5"/>
-<polygon fill="none" stroke="black" points="5532.5,-5969.5 5532.5,-6171.5 6053.5,-6171.5 6053.5,-5969.5 5532.5,-5969.5"/>
-<text text-anchor="start" x="5543.5" y="-6149.3" font-family="Arial" font-size="14.00">&#45; new(name: &amp;str) &#45;&gt; Self</text>
-<text text-anchor="start" x="5543.5" y="-6134.3" font-family="Arial" font-size="14.00">&#45; ignoring(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="5543.5" y="-6119.3" font-family="Arial" font-size="14.00">&#45; has_younger_sibling(&amp;self, index: usize) &#45;&gt; bool</text>
-<text text-anchor="start" x="5543.5" y="-6104.3" font-family="Arial" font-size="14.00">&#45; finish(&amp;mut self)</text>
-<text text-anchor="start" x="5543.5" y="-6089.3" font-family="Arial" font-size="14.00">&#45; report(&amp;mut self) &#45;&gt; Report</text>
-<text text-anchor="start" x="5543.5" y="-6074.3" font-family="Arial" font-size="14.00">&#45; start(&amp;mut self, name: &amp;str, category: Option&lt;String&gt;)</text>
-<text text-anchor="start" x="5543.5" y="-6059.3" font-family="Arial" font-size="14.00">&#45; plain_start(&amp;mut self, name: &amp;str, task_type: TaskType, category: Option&lt;String&gt;)</text>
-<text text-anchor="start" x="5543.5" y="-6044.3" font-family="Arial" font-size="14.00">&#45; iteration_zero(&amp;mut self, name: &amp;str, category: Option&lt;String&gt;)</text>
-<text text-anchor="start" x="5543.5" y="-6029.3" font-family="Arial" font-size="14.00">&#45; plain_stop(&amp;mut self)</text>
-<text text-anchor="start" x="5543.5" y="-6014.3" font-family="Arial" font-size="14.00">&#45; stop(&amp;mut self, name: &amp;str)</text>
-<text text-anchor="start" x="5543.5" y="-5999.3" font-family="Arial" font-size="14.00">&#45; start_profiling(&amp;mut self, benchmark_id: &amp;str, benchmark_dir: &amp;Path)</text>
-<text text-anchor="start" x="5543.5" y="-5984.3" font-family="Arial" font-size="14.00">&#45; stop_profiling(&amp;mut self, benchmark_id: &amp;str, benchmark_dir: &amp;Path)</text>
-<polygon fill="none" stroke="black" points="5531,-5968.5 5531,-6306.5 6054,-6306.5 6054,-5968.5 5531,-5968.5"/>
+<polygon fill="lightblue" stroke="transparent" points="5532.5,-6275.5 5532.5,-6312.5 6053.5,-6312.5 6053.5,-6275.5 5532.5,-6275.5"/>
+<polygon fill="none" stroke="black" points="5532.5,-6275.5 5532.5,-6312.5 6053.5,-6312.5 6053.5,-6275.5 5532.5,-6275.5"/>
+<text text-anchor="start" x="5750.5" y="-6291.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonProfiler</text>
+<polygon fill="white" stroke="transparent" points="5532.5,-6178.5 5532.5,-6275.5 6053.5,-6275.5 6053.5,-6178.5 5532.5,-6178.5"/>
+<polygon fill="none" stroke="black" points="5532.5,-6178.5 5532.5,-6275.5 6053.5,-6275.5 6053.5,-6178.5 5532.5,-6178.5"/>
+<text text-anchor="start" x="5543.5" y="-6253.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
+<text text-anchor="start" x="5543.5" y="-6238.3" font-family="Arial" font-size="14.00">&#45; timer: Instant</text>
+<text text-anchor="start" x="5543.5" y="-6223.3" font-family="Arial" font-size="14.00">&#45; stack: Vec&lt;(usize, String)&gt;</text>
+<text text-anchor="start" x="5543.5" y="-6208.3" font-family="Arial" font-size="14.00">&#45; profile: Vec&lt;Task&gt;</text>
+<text text-anchor="start" x="5543.5" y="-6193.3" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
+<polygon fill="white" stroke="transparent" points="5532.5,-5961.5 5532.5,-6178.5 6053.5,-6178.5 6053.5,-5961.5 5532.5,-5961.5"/>
+<polygon fill="none" stroke="black" points="5532.5,-5961.5 5532.5,-6178.5 6053.5,-6178.5 6053.5,-5961.5 5532.5,-5961.5"/>
+<text text-anchor="start" x="5543.5" y="-6156.3" font-family="Arial" font-size="14.00">&#45; new(name: &amp;str) &#45;&gt; Self</text>
+<text text-anchor="start" x="5543.5" y="-6141.3" font-family="Arial" font-size="14.00">&#45; ignoring(&amp;self) &#45;&gt; bool</text>
+<text text-anchor="start" x="5543.5" y="-6126.3" font-family="Arial" font-size="14.00">&#45; has_younger_sibling(&amp;self, index: usize) &#45;&gt; bool</text>
+<text text-anchor="start" x="5543.5" y="-6111.3" font-family="Arial" font-size="14.00">&#45; finish(&amp;mut self)</text>
+<text text-anchor="start" x="5543.5" y="-6096.3" font-family="Arial" font-size="14.00">&#45; report(&amp;mut self) &#45;&gt; Report</text>
+<text text-anchor="start" x="5543.5" y="-6081.3" font-family="Arial" font-size="14.00">&#45; start(&amp;mut self, name: &amp;str, category: Option&lt;String&gt;)</text>
+<text text-anchor="start" x="5543.5" y="-6066.3" font-family="Arial" font-size="14.00">&#45; plain_start(&amp;mut self, name: &amp;str, task_type: TaskType, category: Option&lt;String&gt;)</text>
+<text text-anchor="start" x="5543.5" y="-6051.3" font-family="Arial" font-size="14.00">&#45; iteration_zero(&amp;mut self, name: &amp;str, category: Option&lt;String&gt;)</text>
+<text text-anchor="start" x="5543.5" y="-6036.3" font-family="Arial" font-size="14.00">&#45; plain_stop(&amp;mut self)</text>
+<text text-anchor="start" x="5543.5" y="-6021.3" font-family="Arial" font-size="14.00">&#45; stop(&amp;mut self, name: &amp;str)</text>
+<text text-anchor="start" x="5543.5" y="-6006.3" font-family="Arial" font-size="14.00">&#45; tracked_time(&amp;self) &#45;&gt; Duration</text>
+<text text-anchor="start" x="5543.5" y="-5991.3" font-family="Arial" font-size="14.00">&#45; start_profiling(&amp;mut self, benchmark_id: &amp;str, benchmark_dir: &amp;Path)</text>
+<text text-anchor="start" x="5543.5" y="-5976.3" font-family="Arial" font-size="14.00">&#45; stop_profiling(&amp;mut self, benchmark_id: &amp;str, benchmark_dir: &amp;Path)</text>
+<polygon fill="none" stroke="black" points="5531,-5961 5531,-6314 6054,-6314 6054,-5961 5531,-5961"/>
 </a>
 </g>
 </g>
 <!-- ndTask&#45;&gt;ndTritonProfiler -->
 <g id="edge53" class="edge">
 <title>ndTask&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" d="M5668.49,-6747.47C5689.42,-6644.68 5726.76,-6461.31 5755.02,-6322.56"/>
-<polygon fill="black" stroke="black" points="5755.07,-6322.3 5752.35,-6315.62 5757.47,-6310.54 5760.19,-6317.22 5755.07,-6322.3"/>
+<path fill="none" stroke="black" d="M5668.49,-6747.47C5689.04,-6646.56 5725.4,-6468 5753.46,-6330.23"/>
+<polygon fill="black" stroke="black" points="5753.49,-6330.05 5750.77,-6323.37 5755.89,-6318.29 5758.61,-6324.97 5753.49,-6330.05"/>
 </g>
 <!-- ndTaskType -->
 <g id="node34" class="node">
@@ -1636,8 +1637,8 @@
 <!-- ndTaskType&#45;&gt;ndTritonProfiler -->
 <g id="edge55" class="edge">
 <title>ndTaskType&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5728.46,-7796.61C5739.37,-7690.65 5762.38,-7454.51 5772.5,-7255 5789.18,-6926.06 5792.53,-6542 5792.9,-6320.84"/>
-<polygon fill="black" stroke="black" points="5792.91,-6310.76 5797.4,-6320.77 5792.9,-6315.76 5792.9,-6320.76 5792.9,-6320.76 5792.9,-6320.76 5792.9,-6315.76 5788.4,-6320.75 5792.91,-6310.76 5792.91,-6310.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5728.46,-7796.61C5739.37,-7690.65 5762.38,-7454.51 5772.5,-7255 5788.99,-6929.88 5792.45,-6550.9 5792.88,-6328.6"/>
+<polygon fill="black" stroke="black" points="5792.9,-6318.46 5797.38,-6328.47 5792.89,-6323.46 5792.88,-6328.46 5792.88,-6328.46 5792.88,-6328.46 5792.89,-6323.46 5788.38,-6328.45 5792.9,-6318.46 5792.9,-6318.46"/>
 </g>
 <!-- ndWeight -->
 <g id="node36" class="node">
@@ -1697,40 +1698,41 @@
 <g id="node38" class="node">
 <title>ndReport</title>
 <g id="a_node38_48"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20Report" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5829.5,-6920 5829.5,-6957 6217.5,-6957 6217.5,-6920 5829.5,-6920"/>
-<polygon fill="none" stroke="black" points="5829.5,-6920 5829.5,-6957 6217.5,-6957 6217.5,-6920 5829.5,-6920"/>
-<text text-anchor="start" x="6001.5" y="-6935.8" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
-<polygon fill="white" stroke="transparent" points="5829.5,-6793 5829.5,-6920 6217.5,-6920 6217.5,-6793 5829.5,-6793"/>
-<polygon fill="none" stroke="black" points="5829.5,-6793 5829.5,-6920 6217.5,-6920 6217.5,-6793 5829.5,-6793"/>
-<text text-anchor="start" x="5840.5" y="-6897.8" font-family="Arial" font-size="14.00">&#45; name: String</text>
-<text text-anchor="start" x="5840.5" y="-6882.8" font-family="Arial" font-size="14.00">&#45; tasks: Vec&lt;TaskReport&gt;</text>
-<text text-anchor="start" x="5840.5" y="-6867.8" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
-<text text-anchor="start" x="5840.5" y="-6852.8" font-family="Arial" font-size="14.00">&#45; category_times: HashMap&lt;String, Duration&gt;</text>
-<text text-anchor="start" x="5840.5" y="-6837.8" font-family="Arial" font-size="14.00">&#45; cycle_count: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="5840.5" y="-6822.8" font-family="Arial" font-size="14.00">&#45; padded_height: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="5840.5" y="-6807.8" font-family="Arial" font-size="14.00">&#45; fri_domain_len: Option&lt;usize&gt;</text>
-<polygon fill="white" stroke="transparent" points="5829.5,-6696 5829.5,-6793 6217.5,-6793 6217.5,-6696 5829.5,-6696"/>
-<polygon fill="none" stroke="black" points="5829.5,-6696 5829.5,-6793 6217.5,-6793 6217.5,-6696 5829.5,-6696"/>
-<text text-anchor="start" x="5840.5" y="-6770.8" font-family="Arial" font-size="14.00">&#45; with_cycle_count(mut self, cycle_count: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="5840.5" y="-6755.8" font-family="Arial" font-size="14.00">&#45; with_padded_height(mut self, padded_height: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="5840.5" y="-6740.8" font-family="Arial" font-size="14.00">&#45; with_fri_domain_len(mut self, fri_domain_len: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="5840.5" y="-6725.8" font-family="Arial" font-size="14.00">&#45; display_time_aligned(time: Duration) &#45;&gt; String</text>
-<text text-anchor="start" x="5840.5" y="-6710.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter&lt;&#39;_&gt;) &#45;&gt; FmtResult</text>
-<polygon fill="none" stroke="black" points="5828.5,-6695.5 5828.5,-6958.5 6218.5,-6958.5 6218.5,-6695.5 5828.5,-6695.5"/>
+<polygon fill="lightblue" stroke="transparent" points="5829.5,-6928 5829.5,-6965 6217.5,-6965 6217.5,-6928 5829.5,-6928"/>
+<polygon fill="none" stroke="black" points="5829.5,-6928 5829.5,-6965 6217.5,-6965 6217.5,-6928 5829.5,-6928"/>
+<text text-anchor="start" x="6001.5" y="-6943.8" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
+<polygon fill="white" stroke="transparent" points="5829.5,-6786 5829.5,-6928 6217.5,-6928 6217.5,-6786 5829.5,-6786"/>
+<polygon fill="none" stroke="black" points="5829.5,-6786 5829.5,-6928 6217.5,-6928 6217.5,-6786 5829.5,-6786"/>
+<text text-anchor="start" x="5840.5" y="-6905.8" font-family="Arial" font-size="14.00">&#45; name: String</text>
+<text text-anchor="start" x="5840.5" y="-6890.8" font-family="Arial" font-size="14.00">&#45; tasks: Vec&lt;TaskReport&gt;</text>
+<text text-anchor="start" x="5840.5" y="-6875.8" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
+<text text-anchor="start" x="5840.5" y="-6860.8" font-family="Arial" font-size="14.00">&#45; tracked_time: Duration</text>
+<text text-anchor="start" x="5840.5" y="-6845.8" font-family="Arial" font-size="14.00">&#45; category_times: HashMap&lt;String, Duration&gt;</text>
+<text text-anchor="start" x="5840.5" y="-6830.8" font-family="Arial" font-size="14.00">&#45; cycle_count: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="5840.5" y="-6815.8" font-family="Arial" font-size="14.00">&#45; padded_height: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="5840.5" y="-6800.8" font-family="Arial" font-size="14.00">&#45; fri_domain_len: Option&lt;usize&gt;</text>
+<polygon fill="white" stroke="transparent" points="5829.5,-6689 5829.5,-6786 6217.5,-6786 6217.5,-6689 5829.5,-6689"/>
+<polygon fill="none" stroke="black" points="5829.5,-6689 5829.5,-6786 6217.5,-6786 6217.5,-6689 5829.5,-6689"/>
+<text text-anchor="start" x="5840.5" y="-6763.8" font-family="Arial" font-size="14.00">&#45; with_cycle_count(mut self, cycle_count: usize) &#45;&gt; Self</text>
+<text text-anchor="start" x="5840.5" y="-6748.8" font-family="Arial" font-size="14.00">&#45; with_padded_height(mut self, padded_height: usize) &#45;&gt; Self</text>
+<text text-anchor="start" x="5840.5" y="-6733.8" font-family="Arial" font-size="14.00">&#45; with_fri_domain_len(mut self, fri_domain_len: usize) &#45;&gt; Self</text>
+<text text-anchor="start" x="5840.5" y="-6718.8" font-family="Arial" font-size="14.00">&#45; display_time_aligned(time: Duration) &#45;&gt; String</text>
+<text text-anchor="start" x="5840.5" y="-6703.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter&lt;&#39;_&gt;) &#45;&gt; FmtResult</text>
+<polygon fill="none" stroke="black" points="5828.5,-6688 5828.5,-6966 6218.5,-6966 6218.5,-6688 5828.5,-6688"/>
 </a>
 </g>
 </g>
 <!-- ndTaskReport&#45;&gt;ndReport -->
 <g id="edge57" class="edge">
 <title>ndTaskReport&#45;&gt;ndReport</title>
-<path fill="none" stroke="black" d="M6023.5,-7736.92C6023.5,-7549.47 6023.5,-7180.43 6023.5,-6974.94"/>
-<polygon fill="black" stroke="black" points="6023.5,-6974.85 6019.5,-6968.85 6023.5,-6962.85 6027.5,-6968.85 6023.5,-6974.85"/>
+<path fill="none" stroke="black" d="M6023.5,-7736.92C6023.5,-7551.65 6023.5,-7189.01 6023.5,-6982.19"/>
+<polygon fill="black" stroke="black" points="6023.5,-6982.02 6019.5,-6976.02 6023.5,-6970.02 6027.5,-6976.02 6023.5,-6982.02"/>
 </g>
 <!-- ndReport&#45;&gt;ndTritonProfiler -->
 <g id="edge58" class="edge">
 <title>ndReport&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" d="M5978.28,-6691.4C5942.7,-6585.51 5892.76,-6436.9 5853.62,-6320.42"/>
-<polygon fill="black" stroke="black" points="5850.35,-6310.67 5857.8,-6318.71 5851.94,-6315.41 5853.53,-6320.15 5853.53,-6320.15 5853.53,-6320.15 5851.94,-6315.41 5849.27,-6321.58 5850.35,-6310.67 5850.35,-6310.67"/>
+<path fill="none" stroke="black" d="M5975.78,-6683.97C5941.15,-6580.91 5893.94,-6440.41 5856.11,-6327.82"/>
+<polygon fill="black" stroke="black" points="5852.83,-6318.05 5860.28,-6326.09 5854.42,-6322.79 5856.01,-6327.53 5856.01,-6327.53 5856.01,-6327.53 5854.42,-6322.79 5851.75,-6328.96 5852.83,-6318.05 5852.83,-6318.05"/>
 </g>
 <!-- ndProgram&#45;&gt;ndVMState -->
 <g id="edge59" class="edge">

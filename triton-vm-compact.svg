@@ -1274,33 +1274,34 @@
 <g id="node38" class="node">
 <title>ndReport</title>
 <g id="a_node38_48"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20Report" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3235.73,-3289.5 3235.73,-3326.5 3534.73,-3326.5 3534.73,-3289.5 3235.73,-3289.5"/>
-<polygon fill="none" stroke="black" points="3235.73,-3289.5 3235.73,-3326.5 3534.73,-3326.5 3534.73,-3289.5 3235.73,-3289.5"/>
-<text text-anchor="start" x="3363.23" y="-3305.3" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
-<polygon fill="white" stroke="transparent" points="3235.73,-3162.5 3235.73,-3289.5 3534.73,-3289.5 3534.73,-3162.5 3235.73,-3162.5"/>
-<polygon fill="none" stroke="black" points="3235.73,-3162.5 3235.73,-3289.5 3534.73,-3289.5 3534.73,-3162.5 3235.73,-3162.5"/>
-<text text-anchor="start" x="3246.73" y="-3267.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
-<text text-anchor="start" x="3246.73" y="-3252.3" font-family="Arial" font-size="14.00">&#45; tasks: Vec&lt;TaskReport&gt;</text>
-<text text-anchor="start" x="3246.73" y="-3237.3" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
-<text text-anchor="start" x="3246.73" y="-3222.3" font-family="Arial" font-size="14.00">&#45; category_times: HashMap&lt;String, Duration&gt;</text>
-<text text-anchor="start" x="3246.73" y="-3207.3" font-family="Arial" font-size="14.00">&#45; cycle_count: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="3246.73" y="-3192.3" font-family="Arial" font-size="14.00">&#45; padded_height: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="3246.73" y="-3177.3" font-family="Arial" font-size="14.00">&#45; fri_domain_len: Option&lt;usize&gt;</text>
-<polygon fill="none" stroke="black" points="3234.23,-3161.5 3234.23,-3327.5 3535.23,-3327.5 3535.23,-3161.5 3234.23,-3161.5"/>
+<polygon fill="lightblue" stroke="transparent" points="3235.73,-3296.5 3235.73,-3333.5 3534.73,-3333.5 3534.73,-3296.5 3235.73,-3296.5"/>
+<polygon fill="none" stroke="black" points="3235.73,-3296.5 3235.73,-3333.5 3534.73,-3333.5 3534.73,-3296.5 3235.73,-3296.5"/>
+<text text-anchor="start" x="3363.23" y="-3312.3" font-family="Arial" font-weight="bold" font-size="14.00">Report</text>
+<polygon fill="white" stroke="transparent" points="3235.73,-3154.5 3235.73,-3296.5 3534.73,-3296.5 3534.73,-3154.5 3235.73,-3154.5"/>
+<polygon fill="none" stroke="black" points="3235.73,-3154.5 3235.73,-3296.5 3534.73,-3296.5 3534.73,-3154.5 3235.73,-3154.5"/>
+<text text-anchor="start" x="3246.73" y="-3274.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
+<text text-anchor="start" x="3246.73" y="-3259.3" font-family="Arial" font-size="14.00">&#45; tasks: Vec&lt;TaskReport&gt;</text>
+<text text-anchor="start" x="3246.73" y="-3244.3" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
+<text text-anchor="start" x="3246.73" y="-3229.3" font-family="Arial" font-size="14.00">&#45; tracked_time: Duration</text>
+<text text-anchor="start" x="3246.73" y="-3214.3" font-family="Arial" font-size="14.00">&#45; category_times: HashMap&lt;String, Duration&gt;</text>
+<text text-anchor="start" x="3246.73" y="-3199.3" font-family="Arial" font-size="14.00">&#45; cycle_count: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="3246.73" y="-3184.3" font-family="Arial" font-size="14.00">&#45; padded_height: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="3246.73" y="-3169.3" font-family="Arial" font-size="14.00">&#45; fri_domain_len: Option&lt;usize&gt;</text>
+<polygon fill="none" stroke="black" points="3234.23,-3154 3234.23,-3335 3535.23,-3335 3535.23,-3154 3234.23,-3154"/>
 </a>
 </g>
 </g>
 <!-- ndTaskReport&#45;&gt;ndReport -->
 <g id="edge57" class="edge">
 <title>ndTaskReport&#45;&gt;ndReport</title>
-<path fill="none" stroke="black" d="M3384.73,-4019.58C3384.73,-3842.62 3384.73,-3509.09 3384.73,-3343.66"/>
-<polygon fill="black" stroke="black" points="3384.73,-3343.56 3380.73,-3337.56 3384.73,-3331.56 3388.73,-3337.56 3384.73,-3343.56"/>
+<path fill="none" stroke="black" d="M3384.73,-4019.58C3384.73,-3845.29 3384.73,-3519.13 3384.73,-3351.27"/>
+<polygon fill="black" stroke="black" points="3384.73,-3351.22 3380.73,-3345.22 3384.73,-3339.22 3388.73,-3345.22 3384.73,-3351.22"/>
 </g>
 <!-- ndReport&#45;&gt;ndTritonProfiler -->
 <g id="edge58" class="edge">
 <title>ndReport&#45;&gt;ndTritonProfiler</title>
-<path fill="none" stroke="black" d="M3346.89,-3157.39C3313.63,-3081.71 3265.59,-2972.4 3233.09,-2898.46"/>
-<polygon fill="black" stroke="black" points="3229.01,-2889.17 3237.15,-2896.51 3231.02,-2893.74 3233.03,-2898.32 3233.03,-2898.32 3233.03,-2898.32 3231.02,-2893.74 3228.91,-2900.13 3229.01,-2889.17 3229.01,-2889.17"/>
+<path fill="none" stroke="black" d="M3343.58,-3149.86C3310.55,-3074.69 3264.65,-2970.25 3233.21,-2898.73"/>
+<polygon fill="black" stroke="black" points="3229.07,-2889.3 3237.21,-2896.64 3231.08,-2893.88 3233.09,-2898.46 3233.09,-2898.46 3233.09,-2898.46 3231.08,-2893.88 3228.97,-2900.27 3229.07,-2889.3 3229.07,-2889.3"/>
 </g>
 <!-- ndProgram&#45;&gt;ndVMState -->
 <g id="edge59" class="edge">
