@@ -249,16 +249,17 @@
 <g id="node3" class="node">
 <title>ndVmOutputState</title>
 <g id="a_node3_12"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/lib.rs#:~:text=struct%20VmOutputState" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="9369.5,-881.5 9369.5,-918.5 9727.5,-918.5 9727.5,-881.5 9369.5,-881.5"/>
-<polygon fill="none" stroke="black" points="9369.5,-881.5 9369.5,-918.5 9727.5,-918.5 9727.5,-881.5 9369.5,-881.5"/>
-<text text-anchor="start" x="9498.5" y="-897.3" font-family="Arial" font-weight="bold" font-size="14.00">VmOutputState</text>
-<polygon fill="white" stroke="transparent" points="9369.5,-799.5 9369.5,-881.5 9727.5,-881.5 9727.5,-799.5 9369.5,-799.5"/>
-<polygon fill="none" stroke="black" points="9369.5,-799.5 9369.5,-881.5 9727.5,-881.5 9727.5,-799.5 9369.5,-799.5"/>
-<text text-anchor="start" x="9380.5" y="-859.3" font-family="Arial" font-size="14.00">+ output: Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="9380.5" y="-844.3" font-family="Arial" font-size="14.00">+ final_stack: Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="9380.5" y="-829.3" font-family="Arial" font-size="14.00">+ final_ram: HashMap&lt;BFieldElement, BFieldElement&gt;</text>
-<text text-anchor="start" x="9380.5" y="-814.3" font-family="Arial" font-size="14.00">+ final_sponge: Option&lt;VmHasher&gt;</text>
-<polygon fill="none" stroke="black" points="9368.5,-799 9368.5,-920 9728.5,-920 9728.5,-799 9368.5,-799"/>
+<polygon fill="lightblue" stroke="transparent" points="9369.5,-889.5 9369.5,-926.5 9727.5,-926.5 9727.5,-889.5 9369.5,-889.5"/>
+<polygon fill="none" stroke="black" points="9369.5,-889.5 9369.5,-926.5 9727.5,-926.5 9727.5,-889.5 9369.5,-889.5"/>
+<text text-anchor="start" x="9498.5" y="-905.3" font-family="Arial" font-weight="bold" font-size="14.00">VmOutputState</text>
+<polygon fill="white" stroke="transparent" points="9369.5,-792.5 9369.5,-889.5 9727.5,-889.5 9727.5,-792.5 9369.5,-792.5"/>
+<polygon fill="none" stroke="black" points="9369.5,-792.5 9369.5,-889.5 9727.5,-889.5 9727.5,-792.5 9369.5,-792.5"/>
+<text text-anchor="start" x="9380.5" y="-867.3" font-family="Arial" font-size="14.00">+ output: Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="9380.5" y="-852.3" font-family="Arial" font-size="14.00">+ final_stack: Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="9380.5" y="-837.3" font-family="Arial" font-size="14.00">+ final_ram: HashMap&lt;BFieldElement, BFieldElement&gt;</text>
+<text text-anchor="start" x="9380.5" y="-822.3" font-family="Arial" font-size="14.00">+ final_sponge: Option&lt;VmHasher&gt;</text>
+<text text-anchor="start" x="9380.5" y="-807.3" font-family="Arial" font-size="14.00">+ secret_digests: VecDeque&lt;Digest&gt;</text>
+<polygon fill="none" stroke="black" points="9368.5,-791.5 9368.5,-927.5 9728.5,-927.5 9728.5,-791.5 9368.5,-791.5"/>
 </a>
 </g>
 </g>
