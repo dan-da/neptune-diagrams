@@ -1149,17 +1149,17 @@
 <g id="node34" class="node">
 <title>ndTritonProfiler</title>
 <g id="a_node34_43"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/profiler.rs#:~:text=struct%20TritonProfiler" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="4197,-2577 4197,-2614 4389,-2614 4389,-2577 4197,-2577"/>
-<polygon fill="none" stroke="black" points="4197,-2577 4197,-2614 4389,-2614 4389,-2577 4197,-2577"/>
+<polygon fill="lightblue" stroke="transparent" points="4190,-2577 4190,-2614 4396,-2614 4396,-2577 4190,-2577"/>
+<polygon fill="none" stroke="black" points="4190,-2577 4190,-2614 4396,-2614 4396,-2577 4190,-2577"/>
 <text text-anchor="start" x="4250.5" y="-2592.8" font-family="Arial" font-weight="bold" font-size="14.00">TritonProfiler</text>
-<polygon fill="white" stroke="transparent" points="4197,-2480 4197,-2577 4389,-2577 4389,-2480 4197,-2480"/>
-<polygon fill="none" stroke="black" points="4197,-2480 4197,-2577 4389,-2577 4389,-2480 4197,-2480"/>
-<text text-anchor="start" x="4208" y="-2554.8" font-family="Arial" font-size="14.00">&#45; name: String</text>
-<text text-anchor="start" x="4208" y="-2539.8" font-family="Arial" font-size="14.00">&#45; timer: Instant</text>
-<text text-anchor="start" x="4208" y="-2524.8" font-family="Arial" font-size="14.00">&#45; stack: Vec&lt;(usize, String)&gt;</text>
-<text text-anchor="start" x="4208" y="-2509.8" font-family="Arial" font-size="14.00">&#45; profile: Vec&lt;Task&gt;</text>
-<text text-anchor="start" x="4208" y="-2494.8" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
-<polygon fill="none" stroke="black" points="4196,-2479 4196,-2615 4390,-2615 4390,-2479 4196,-2479"/>
+<polygon fill="white" stroke="transparent" points="4190,-2480 4190,-2577 4396,-2577 4396,-2480 4190,-2480"/>
+<polygon fill="none" stroke="black" points="4190,-2480 4190,-2577 4396,-2577 4396,-2480 4190,-2480"/>
+<text text-anchor="start" x="4201" y="-2554.8" font-family="Arial" font-size="14.00">&#45; name: String</text>
+<text text-anchor="start" x="4201" y="-2539.8" font-family="Arial" font-size="14.00">&#45; timer: Instant</text>
+<text text-anchor="start" x="4201" y="-2524.8" font-family="Arial" font-size="14.00">&#45; stack: Vec&lt;(usize, String)&gt;</text>
+<text text-anchor="start" x="4201" y="-2509.8" font-family="Arial" font-size="14.00">&#45; profile: Vec&lt;Task&gt;</text>
+<text text-anchor="start" x="4201" y="-2494.8" font-family="Arial" font-size="14.00">&#45; total_time: Option&lt;Duration&gt;</text>
+<polygon fill="none" stroke="black" points="4189,-2479 4189,-2615 4397,-2615 4397,-2479 4189,-2479"/>
 </a>
 </g>
 </g>
@@ -1259,7 +1259,7 @@
 <text text-anchor="start" x="4342" y="-3004.3" font-family="Arial" font-size="14.00">&#45; name: String</text>
 <text text-anchor="start" x="4342" y="-2989.3" font-family="Arial" font-size="14.00">&#45; tasks: Vec&lt;TaskReport&gt;</text>
 <text text-anchor="start" x="4342" y="-2974.3" font-family="Arial" font-size="14.00">&#45; total_time: Duration</text>
-<text text-anchor="start" x="4342" y="-2959.3" font-family="Arial" font-size="14.00">&#45; tracked_time: Duration</text>
+<text text-anchor="start" x="4342" y="-2959.3" font-family="Arial" font-size="14.00">&#45; untracked_time: Duration</text>
 <text text-anchor="start" x="4342" y="-2944.3" font-family="Arial" font-size="14.00">&#45; category_times: HashMap&lt;String, Duration&gt;</text>
 <text text-anchor="start" x="4342" y="-2929.3" font-family="Arial" font-size="14.00">&#45; cycle_count: Option&lt;usize&gt;</text>
 <text text-anchor="start" x="4342" y="-2914.3" font-family="Arial" font-size="14.00">&#45; padded_height: Option&lt;usize&gt;</text>

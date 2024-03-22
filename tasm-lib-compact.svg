@@ -1955,7 +1955,7 @@
 <polygon fill="white" stroke="transparent" points="9131,-792.5 9131,-889.5 9368,-889.5 9368,-792.5 9131,-792.5"/>
 <polygon fill="none" stroke="black" points="9131,-792.5 9131,-889.5 9368,-889.5 9368,-792.5 9131,-792.5"/>
 <text text-anchor="start" x="9142" y="-867.3" font-family="Arial" font-size="14.00">+ expansion_factor: u32</text>
-<text text-anchor="start" x="9142" y="-852.3" font-family="Arial" font-size="14.00">+ num_colinearity_checks: u32</text>
+<text text-anchor="start" x="9142" y="-852.3" font-family="Arial" font-size="14.00">+ num_collinearity_checks: u32</text>
 <text text-anchor="start" x="9142" y="-837.3" font-family="Arial" font-size="14.00">+ domain_length: u32</text>
 <text text-anchor="start" x="9142" y="-822.3" font-family="Arial" font-size="14.00">+ domain_offset: BFieldElement</text>
 <text text-anchor="start" x="9142" y="-807.3" font-family="Arial" font-size="14.00">&#45; domain_generator: BFieldElement</text>

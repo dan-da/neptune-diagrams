@@ -2454,7 +2454,7 @@
 <polygon fill="white" stroke="transparent" points="33096,-1569.5 33096,-1666.5 34059,-1666.5 34059,-1569.5 33096,-1569.5"/>
 <polygon fill="none" stroke="black" points="33096,-1569.5 33096,-1666.5 34059,-1666.5 34059,-1569.5 33096,-1569.5"/>
 <text text-anchor="start" x="33107" y="-1644.3" font-family="Arial" font-size="14.00">+ expansion_factor: u32</text>
-<text text-anchor="start" x="33107" y="-1629.3" font-family="Arial" font-size="14.00">+ num_colinearity_checks: u32</text>
+<text text-anchor="start" x="33107" y="-1629.3" font-family="Arial" font-size="14.00">+ num_collinearity_checks: u32</text>
 <text text-anchor="start" x="33107" y="-1614.3" font-family="Arial" font-size="14.00">+ domain_length: u32</text>
 <text text-anchor="start" x="33107" y="-1599.3" font-family="Arial" font-size="14.00">+ domain_offset: BFieldElement</text>
 <text text-anchor="start" x="33107" y="-1584.3" font-family="Arial" font-size="14.00">&#45; domain_generator: BFieldElement</text>
@@ -2468,7 +2468,7 @@
 <text text-anchor="start" x="33107" y="-1472.3" font-family="Arial" font-size="14.00">&#45; last_round_max_degree(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="33107" y="-1457.3" font-family="Arial" font-size="14.00">&#45; first_round_max_degree(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="33107" y="-1442.3" font-family="Arial" font-size="14.00">&#45; map_convert_xfe_to_digest(xfes: &amp;[XFieldElement]) &#45;&gt; Vec&lt;Digest&gt;</text>
-<text text-anchor="start" x="33107" y="-1427.3" font-family="Arial" font-size="14.00">&#45; get_colinearity_check_x(&amp;self, idx: u32, round: usize) &#45;&gt; XFieldElement</text>
+<text text-anchor="start" x="33107" y="-1427.3" font-family="Arial" font-size="14.00">&#45; get_collinearity_check_x(&amp;self, idx: u32, round: usize) &#45;&gt; XFieldElement</text>
 <polygon fill="none" stroke="black" points="33094.5,-1412 33094.5,-1705 34059.5,-1705 34059.5,-1412 33094.5,-1412"/>
 </a>
 </g>
