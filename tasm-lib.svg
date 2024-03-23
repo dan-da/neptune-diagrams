@@ -788,27 +788,28 @@
 <g id="node45" class="node">
 <title>ndRawCode</title>
 <g id="a_node45_25"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/list/higher_order/inner_function.rs#:~:text=struct%20RawCode" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="15879,-753 15879,-790 16472,-790 16472,-753 15879,-753"/>
-<polygon fill="none" stroke="black" points="15879,-753 15879,-790 16472,-790 16472,-753 15879,-753"/>
-<text text-anchor="start" x="16144" y="-768.8" font-family="Arial" font-weight="bold" font-size="14.00">RawCode</text>
-<polygon fill="white" stroke="transparent" points="15879,-686 15879,-753 16472,-753 16472,-686 15879,-686"/>
-<polygon fill="none" stroke="black" points="15879,-686 15879,-753 16472,-753 16472,-686 15879,-686"/>
-<text text-anchor="start" x="15890" y="-730.8" font-family="Arial" font-size="14.00">+ function: Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="15890" y="-715.8" font-family="Arial" font-size="14.00">+ input_type: DataType</text>
-<text text-anchor="start" x="15890" y="-700.8" font-family="Arial" font-size="14.00">+ output_type: DataType</text>
-<polygon fill="white" stroke="transparent" points="15879,-634 15879,-686 16472,-686 16472,-634 15879,-634"/>
-<polygon fill="none" stroke="black" points="15879,-634 15879,-686 16472,-686 16472,-634 15879,-634"/>
-<text text-anchor="start" x="15890" y="-663.8" font-family="Arial" font-size="14.00">&#45; new(function: Vec&lt;LabelledInstruction&gt;, input_type: DataType, output_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="15890" y="-648.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
-<polygon fill="none" stroke="black" points="15877.5,-633 15877.5,-791 16472.5,-791 16472.5,-633 15877.5,-633"/>
+<polygon fill="lightblue" stroke="transparent" points="15879,-760 15879,-797 16472,-797 16472,-760 15879,-760"/>
+<polygon fill="none" stroke="black" points="15879,-760 15879,-797 16472,-797 16472,-760 15879,-760"/>
+<text text-anchor="start" x="16144" y="-775.8" font-family="Arial" font-weight="bold" font-size="14.00">RawCode</text>
+<polygon fill="white" stroke="transparent" points="15879,-693 15879,-760 16472,-760 16472,-693 15879,-693"/>
+<polygon fill="none" stroke="black" points="15879,-693 15879,-760 16472,-760 16472,-693 15879,-693"/>
+<text text-anchor="start" x="15890" y="-737.8" font-family="Arial" font-size="14.00">+ function: Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="15890" y="-722.8" font-family="Arial" font-size="14.00">+ input_type: DataType</text>
+<text text-anchor="start" x="15890" y="-707.8" font-family="Arial" font-size="14.00">+ output_type: DataType</text>
+<polygon fill="white" stroke="transparent" points="15879,-626 15879,-693 16472,-693 16472,-626 15879,-626"/>
+<polygon fill="none" stroke="black" points="15879,-626 15879,-693 16472,-693 16472,-626 15879,-626"/>
+<text text-anchor="start" x="15890" y="-670.8" font-family="Arial" font-size="14.00">&#45; new(function: Vec&lt;LabelledInstruction&gt;, input_type: DataType, output_type: DataType) &#45;&gt; Self</text>
+<text text-anchor="start" x="15890" y="-655.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
+<text text-anchor="start" x="15890" y="-640.8" font-family="Arial" font-size="14.00">&#45; inlined_body(&amp;self) &#45;&gt; Option&lt;Vec&lt;LabelledInstruction&gt;&gt;</text>
+<polygon fill="none" stroke="black" points="15877.5,-625.5 15877.5,-798.5 16472.5,-798.5 16472.5,-625.5 15877.5,-625.5"/>
 </a>
 </g>
 </g>
 <!-- ndDataType&#45;&gt;ndRawCode -->
 <g id="edge26" class="edge">
 <title>ndDataType&#45;&gt;ndRawCode</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M19843.72,-1130.54C19070.21,-1109.96 17117.77,-1042.12 16490,-870 16432.51,-854.24 16373.09,-827.69 16321.56,-800.86"/>
-<polygon fill="black" stroke="black" points="16321.3,-800.73 16314.13,-801.47 16310.69,-795.14 16317.86,-794.39 16321.3,-800.73"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M19843.72,-1130.54C19070.21,-1109.96 17117.77,-1042.12 16490,-870 16437.68,-855.66 16383.76,-832.38 16335.65,-808.09"/>
+<polygon fill="black" stroke="black" points="16335.52,-808.02 16328.36,-808.85 16324.83,-802.56 16332,-801.73 16335.52,-808.02"/>
 </g>
 <!-- ndInnerFunction -->
 <g id="node46" class="node">
@@ -2357,8 +2358,8 @@
 <!-- ndRawCode&#45;&gt;ndInnerFunction -->
 <g id="edge149" class="edge">
 <title>ndRawCode&#45;&gt;ndInnerFunction</title>
-<path fill="none" stroke="black" d="M16170.36,-628.59C16168.43,-594.17 16166.14,-553.43 16164,-515.49"/>
-<polygon fill="black" stroke="black" points="16163.99,-515.26 16159.66,-509.49 16163.32,-503.28 16167.65,-509.04 16163.99,-515.26"/>
+<path fill="none" stroke="black" d="M16169.96,-621.44C16168.12,-588.61 16165.99,-550.83 16164,-515.49"/>
+<polygon fill="black" stroke="black" points="16163.98,-515.08 16159.65,-509.32 16163.31,-503.1 16167.64,-508.87 16163.98,-515.08"/>
 </g>
 <!-- ndInnerFunction&#45;&gt;ndMap -->
 <g id="edge150" class="edge">
