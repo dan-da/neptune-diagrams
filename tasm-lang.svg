@@ -2210,33 +2210,34 @@
 <g id="node117" class="node">
 <title>ndTritonVMTestCase</title>
 <g id="a_node117_66"><a xlink:href="https://github.com/TritonVM/tasm-lang/blob/master/src/tests_and_benchmarks/test_helpers/shared_test.rs#:~:text=struct%20TritonVMTestCase" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="6998.28,-6984.5 6998.28,-7021.5 7593.28,-7021.5 7593.28,-6984.5 6998.28,-6984.5"/>
-<polygon fill="none" stroke="black" points="6998.28,-6984.5 6998.28,-7021.5 7593.28,-7021.5 7593.28,-6984.5 6998.28,-6984.5"/>
-<text text-anchor="start" x="7236.78" y="-7000.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonVMTestCase</text>
-<polygon fill="white" stroke="transparent" points="6998.28,-6917.5 6998.28,-6984.5 7593.28,-6984.5 7593.28,-6917.5 6998.28,-6917.5"/>
-<polygon fill="none" stroke="black" points="6998.28,-6917.5 6998.28,-6984.5 7593.28,-6984.5 7593.28,-6917.5 6998.28,-6917.5"/>
-<text text-anchor="start" x="7009.28" y="-6962.3" font-family="Arial" font-size="14.00">&#45; entrypoint: EntrypointLocation</text>
-<text text-anchor="start" x="7009.28" y="-6947.3" font-family="Arial" font-size="14.00">&#45; std_in: Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="7009.28" y="-6932.3" font-family="Arial" font-size="14.00">&#45; non_determinism: NonDeterminism&lt;BFieldElement&gt;</text>
-<polygon fill="white" stroke="transparent" points="6998.28,-6775.5 6998.28,-6917.5 7593.28,-6917.5 7593.28,-6775.5 6998.28,-6775.5"/>
-<polygon fill="none" stroke="black" points="6998.28,-6775.5 6998.28,-6917.5 7593.28,-6917.5 7593.28,-6775.5 6998.28,-6775.5"/>
-<text text-anchor="start" x="7009.28" y="-6895.3" font-family="Arial" font-size="14.00">&#45; new(entrypoint: EntrypointLocation) &#45;&gt; Self</text>
-<text text-anchor="start" x="7009.28" y="-6880.3" font-family="Arial" font-size="14.00">&#45; with_std_in(mut self, std_in: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="7009.28" y="-6865.3" font-family="Arial" font-size="14.00">&#45; with_non_determinism(mut self, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="7009.28" y="-6850.3" font-family="Arial" font-size="14.00">&#45; execute(self) &#45;&gt; Result&lt;VMState&gt;</text>
-<text text-anchor="start" x="7009.28" y="-6835.3" font-family="Arial" font-size="14.00">&#45; initial_vm_state(self) &#45;&gt; VMState</text>
-<text text-anchor="start" x="7009.28" y="-6820.3" font-family="Arial" font-size="14.00">&#45; compile(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="7009.28" y="-6805.3" font-family="Arial" font-size="14.00">&#45; program(&amp;self) &#45;&gt; Program</text>
-<text text-anchor="start" x="7009.28" y="-6790.3" font-family="Arial" font-size="14.00">&#45; verify_stack_len_unchanged(vm_state: &amp;VMState) &#45;&gt; Result&lt;()&gt;</text>
-<polygon fill="none" stroke="black" points="6996.78,-6774.5 6996.78,-7022.5 7593.78,-7022.5 7593.78,-6774.5 6996.78,-6774.5"/>
+<polygon fill="lightblue" stroke="transparent" points="6998.28,-6991.5 6998.28,-7028.5 7593.28,-7028.5 7593.28,-6991.5 6998.28,-6991.5"/>
+<polygon fill="none" stroke="black" points="6998.28,-6991.5 6998.28,-7028.5 7593.28,-7028.5 7593.28,-6991.5 6998.28,-6991.5"/>
+<text text-anchor="start" x="7236.78" y="-7007.3" font-family="Arial" font-weight="bold" font-size="14.00">TritonVMTestCase</text>
+<polygon fill="white" stroke="transparent" points="6998.28,-6924.5 6998.28,-6991.5 7593.28,-6991.5 7593.28,-6924.5 6998.28,-6924.5"/>
+<polygon fill="none" stroke="black" points="6998.28,-6924.5 6998.28,-6991.5 7593.28,-6991.5 7593.28,-6924.5 6998.28,-6924.5"/>
+<text text-anchor="start" x="7009.28" y="-6969.3" font-family="Arial" font-size="14.00">&#45; entrypoint: EntrypointLocation</text>
+<text text-anchor="start" x="7009.28" y="-6954.3" font-family="Arial" font-size="14.00">&#45; std_in: Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="7009.28" y="-6939.3" font-family="Arial" font-size="14.00">&#45; non_determinism: NonDeterminism&lt;BFieldElement&gt;</text>
+<polygon fill="white" stroke="transparent" points="6998.28,-6767.5 6998.28,-6924.5 7593.28,-6924.5 7593.28,-6767.5 6998.28,-6767.5"/>
+<polygon fill="none" stroke="black" points="6998.28,-6767.5 6998.28,-6924.5 7593.28,-6924.5 7593.28,-6767.5 6998.28,-6767.5"/>
+<text text-anchor="start" x="7009.28" y="-6902.3" font-family="Arial" font-size="14.00">&#45; new(entrypoint: EntrypointLocation) &#45;&gt; Self</text>
+<text text-anchor="start" x="7009.28" y="-6887.3" font-family="Arial" font-size="14.00">&#45; with_std_in(mut self, std_in: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="7009.28" y="-6872.3" font-family="Arial" font-size="14.00">&#45; with_non_determinism(mut self, non_determinism: NonDeterminism&lt;BFieldElement&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="7009.28" y="-6857.3" font-family="Arial" font-size="14.00">&#45; execute(self) &#45;&gt; Result&lt;VMState&gt;</text>
+<text text-anchor="start" x="7009.28" y="-6842.3" font-family="Arial" font-size="14.00">&#45; benchmark(self) &#45;&gt; BenchmarkResult</text>
+<text text-anchor="start" x="7009.28" y="-6827.3" font-family="Arial" font-size="14.00">&#45; initial_vm_state(self) &#45;&gt; VMState</text>
+<text text-anchor="start" x="7009.28" y="-6812.3" font-family="Arial" font-size="14.00">&#45; compile(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="7009.28" y="-6797.3" font-family="Arial" font-size="14.00">&#45; program(&amp;self) &#45;&gt; Program</text>
+<text text-anchor="start" x="7009.28" y="-6782.3" font-family="Arial" font-size="14.00">&#45; verify_stack_len_unchanged(vm_state: &amp;VMState) &#45;&gt; Result&lt;()&gt;</text>
+<polygon fill="none" stroke="black" points="6996.78,-6767 6996.78,-7030 7593.78,-7030 7593.78,-6767 6996.78,-6767"/>
 </a>
 </g>
 </g>
 <!-- ndEntrypointLocation&#45;&gt;ndTritonVMTestCase -->
 <g id="edge131" class="edge">
 <title>ndEntrypointLocation&#45;&gt;ndTritonVMTestCase</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7295.28,-7069.94C7295.28,-7059.76 7295.28,-7049.36 7295.28,-7038.97"/>
-<polygon fill="black" stroke="black" points="7295.28,-7038.8 7291.28,-7032.8 7295.28,-7026.8 7299.28,-7032.8 7295.28,-7038.8"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7295.28,-7069.94C7295.28,-7062.17 7295.28,-7054.27 7295.28,-7046.35"/>
+<polygon fill="black" stroke="black" points="7295.28,-7046.32 7291.28,-7040.32 7295.28,-7034.32 7299.28,-7040.32 7295.28,-7046.32"/>
 </g>
 <!-- ndSourceFileLocation -->
 <g id="node60" class="node">
