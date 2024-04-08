@@ -2479,9 +2479,9 @@
 <text text-anchor="start" x="8442.5" y="-3994.8" font-family="Arial" font-weight="bold" font-size="14.00">DegreeWithOrigin</text>
 <polygon fill="white" stroke="transparent" points="8368,-3867 8368,-3979 8633,-3979 8633,-3867 8368,-3867"/>
 <polygon fill="none" stroke="black" points="8368,-3867 8368,-3979 8633,-3979 8633,-3867 8368,-3867"/>
-<text text-anchor="start" x="8379" y="-3956.8" font-family="Arial" font-size="14.00">+ degree: Degree</text>
-<text text-anchor="start" x="8379" y="-3941.8" font-family="Arial" font-size="14.00">+ interpolant_degree: Degree</text>
-<text text-anchor="start" x="8379" y="-3926.8" font-family="Arial" font-size="14.00">+ zerofier_degree: Degree</text>
+<text text-anchor="start" x="8379" y="-3956.8" font-family="Arial" font-size="14.00">+ degree: isize</text>
+<text text-anchor="start" x="8379" y="-3941.8" font-family="Arial" font-size="14.00">+ interpolant_degree: isize</text>
+<text text-anchor="start" x="8379" y="-3926.8" font-family="Arial" font-size="14.00">+ zerofier_degree: isize</text>
 <text text-anchor="start" x="8379" y="-3911.8" font-family="Arial" font-size="14.00">+ origin_index: usize</text>
 <text text-anchor="start" x="8379" y="-3896.8" font-family="Arial" font-size="14.00">+ origin_table_height: usize</text>
 <text text-anchor="start" x="8379" y="-3881.8" font-family="Arial" font-size="14.00">+ origin_constraint_type: ConstraintType</text>
