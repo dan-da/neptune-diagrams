@@ -894,13 +894,13 @@
 <path fill="none" stroke="black" d="M5217.81,-606.84C5427.18,-580.87 5956.31,-518.65 6401.02,-495 6607.34,-484.03 9919.96,-510.67 10120.02,-459 10151.68,-450.82 10183.92,-435.05 10211.01,-419.22"/>
 <polygon fill="black" stroke="black" points="10219.62,-414.09 10213.34,-423.07 10215.33,-416.65 10211.03,-419.21 10211.03,-419.21 10211.03,-419.21 10215.33,-416.65 10208.73,-415.34 10219.62,-414.09 10219.62,-414.09"/>
 </g>
-<!-- ndVerifyBaseTableRows -->
+<!-- ndVerifyTableRows -->
 <g id="node78" class="node">
-<title>ndVerifyBaseTableRows</title>
-<g id="a_node78_40"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/recufier/master_ext_table/verify_base_table_rows.rs#:~:text=struct%20VerifyBaseTableRows" xlink:title="&lt;TABLE&gt;">
+<title>ndVerifyTableRows</title>
+<g id="a_node78_40"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/recufier/master_ext_table/verify_table_rows.rs#:~:text=struct%20VerifyTableRows" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="9906.02,-372 9906.02,-409 10102.02,-409 10102.02,-372 9906.02,-372"/>
 <polygon fill="none" stroke="black" points="9906.02,-372 9906.02,-409 10102.02,-409 10102.02,-372 9906.02,-372"/>
-<text text-anchor="start" x="9933.52" y="-387.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyBaseTableRows</text>
+<text text-anchor="start" x="9949.52" y="-387.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyTableRows</text>
 <polygon fill="white" stroke="transparent" points="9906.02,-335 9906.02,-372 10102.02,-372 10102.02,-335 9906.02,-335"/>
 <polygon fill="none" stroke="black" points="9906.02,-335 9906.02,-372 10102.02,-372 10102.02,-335 9906.02,-335"/>
 <text text-anchor="start" x="9917.02" y="-349.8" font-family="Arial" font-size="14.00">+ column_type: ColumnType</text>
@@ -908,9 +908,9 @@
 </a>
 </g>
 </g>
-<!-- ndDataType&#45;&gt;ndVerifyBaseTableRows -->
+<!-- ndDataType&#45;&gt;ndVerifyTableRows -->
 <g id="edge48" class="edge">
-<title>ndDataType&#45;&gt;ndVerifyBaseTableRows</title>
+<title>ndDataType&#45;&gt;ndVerifyTableRows</title>
 <path fill="none" stroke="black" d="M5217.81,-606.86C5427.18,-580.93 5956.31,-518.79 6401.02,-495 6497.74,-489.83 9796.19,-489.85 9888.02,-459 9911.93,-450.97 9934.96,-435.96 9954.12,-420.71"/>
 <polygon fill="black" stroke="black" points="9962.08,-414.17 9957.21,-423.99 9958.22,-417.34 9954.35,-420.51 9954.35,-420.51 9954.35,-420.51 9958.22,-417.34 9951.5,-417.04 9962.08,-414.17 9962.08,-414.17"/>
 </g>
@@ -1351,9 +1351,9 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M7445.11,-614.05C7687.44,-597.03 8581.72,-535.07 9319.02,-495 9496.93,-485.33 9948.31,-506.59 10120.02,-459 10150.99,-450.42 10182.63,-434.93 10209.45,-419.45"/>
 <polygon fill="none" stroke="black" points="10211.51,-422.3 10218.35,-414.21 10207.96,-416.27 10211.51,-422.3"/>
 </g>
-<!-- ndBasicSnippet&#45;&gt;ndVerifyBaseTableRows -->
+<!-- ndBasicSnippet&#45;&gt;ndVerifyTableRows -->
 <g id="edge89" class="edge">
-<title>ndBasicSnippet&#45;&gt;ndVerifyBaseTableRows</title>
+<title>ndBasicSnippet&#45;&gt;ndVerifyTableRows</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M7445.14,-614.46C7687.56,-598.97 8582.12,-541.8 9319.02,-495 9445.46,-486.97 9769.02,-502.51 9888.02,-459 9911.4,-450.45 9934.1,-435.59 9953.12,-420.6"/>
 <polygon fill="none" stroke="black" points="9955.47,-423.2 9961.04,-414.19 9951.07,-417.76 9955.47,-423.2"/>
 </g>
@@ -1988,9 +1988,9 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M6823.52,-572.57C6960.68,-544.32 7145.16,-510.64 7310.02,-495 7465.44,-480.26 9968.91,-498.28 10120.02,-459 10151.67,-450.77 10183.9,-434.99 10211,-419.17"/>
 <polygon fill="black" stroke="black" points="10219.61,-414.04 10213.32,-423.02 10215.31,-416.6 10211.02,-419.16 10211.02,-419.16 10211.02,-419.16 10215.31,-416.6 10208.71,-415.29 10219.61,-414.04 10219.61,-414.04"/>
 </g>
-<!-- ndLibrary&#45;&gt;ndVerifyBaseTableRows -->
+<!-- ndLibrary&#45;&gt;ndVerifyTableRows -->
 <g id="edge167" class="edge">
-<title>ndLibrary&#45;&gt;ndVerifyBaseTableRows</title>
+<title>ndLibrary&#45;&gt;ndVerifyTableRows</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M6823.53,-572.63C6960.68,-544.41 7145.17,-510.73 7310.02,-495 7452.6,-481.39 9752.32,-504.87 9888.02,-459 9911.91,-450.92 9934.95,-435.91 9954.1,-420.66"/>
 <polygon fill="black" stroke="black" points="9962.07,-414.13 9957.19,-423.95 9958.2,-417.3 9954.33,-420.47 9954.33,-420.47 9954.33,-420.47 9958.2,-417.3 9951.48,-416.99 9962.07,-414.13 9962.07,-414.13"/>
 </g>
@@ -2370,7 +2370,7 @@
 <!-- ndColumnType -->
 <g id="node77" class="node">
 <title>ndColumnType</title>
-<g id="a_node77_83"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/recufier/master_ext_table/verify_base_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node77_83"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/recufier/master_ext_table/verify_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="9952.02,-634.5 9952.02,-671.5 10056.02,-671.5 10056.02,-634.5 9952.02,-634.5"/>
 <polygon fill="none" stroke="black" points="9952.02,-634.5 9952.02,-671.5 10056.02,-671.5 10056.02,-634.5 9952.02,-634.5"/>
 <text text-anchor="start" x="9963.02" y="-650.3" font-family="Arial" font-weight="bold" font-size="14.00">ColumnType</text>
@@ -2383,9 +2383,9 @@
 </a>
 </g>
 </g>
-<!-- ndColumnType&#45;&gt;ndVerifyBaseTableRows -->
+<!-- ndColumnType&#45;&gt;ndVerifyTableRows -->
 <g id="edge191" class="edge">
-<title>ndColumnType&#45;&gt;ndVerifyBaseTableRows</title>
+<title>ndColumnType&#45;&gt;ndVerifyTableRows</title>
 <path fill="none" stroke="black" d="M10004.02,-562.49C10004.02,-521.66 10004.02,-466.69 10004.02,-426.47"/>
 <polygon fill="black" stroke="black" points="10004.02,-426.23 10000.02,-420.23 10004.02,-414.23 10008.02,-420.23 10004.02,-426.23"/>
 </g>
