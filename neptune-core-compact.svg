@@ -1124,25 +1124,27 @@
 <g id="node30" class="node">
 <title>ndMainToMiner</title>
 <g id="a_node30_46"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/channel.rs#:~:text=enum%20MainToMiner" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1781,-544 1781,-581 1948,-581 1948,-544 1781,-544"/>
-<polygon fill="none" stroke="black" points="1781,-544 1781,-581 1948,-581 1948,-544 1781,-544"/>
-<text text-anchor="start" x="1822" y="-559.8" font-family="Arial" font-weight="bold" font-size="14.00">MainToMiner</text>
-<polygon fill="white" stroke="transparent" points="1781,-432 1781,-544 1948,-544 1948,-432 1781,-432"/>
-<polygon fill="none" stroke="black" points="1781,-432 1781,-544 1948,-544 1948,-432 1781,-432"/>
-<text text-anchor="start" x="1792" y="-521.8" font-family="Arial" font-size="14.00">Empty</text>
-<text text-anchor="start" x="1792" y="-506.8" font-family="Arial" font-size="14.00">NewBlock(Box&lt;Block&gt;)</text>
-<text text-anchor="start" x="1792" y="-491.8" font-family="Arial" font-size="14.00">Shutdown</text>
-<text text-anchor="start" x="1792" y="-476.8" font-family="Arial" font-size="14.00">ReadyToMineNextBlock</text>
-<text text-anchor="start" x="1792" y="-461.8" font-family="Arial" font-size="14.00">StopMining</text>
-<text text-anchor="start" x="1792" y="-446.8" font-family="Arial" font-size="14.00">StartMining</text>
-<polygon fill="none" stroke="black" points="1779.5,-431.5 1779.5,-582.5 1948.5,-582.5 1948.5,-431.5 1779.5,-431.5"/>
+<polygon fill="yellow" stroke="transparent" points="1781,-559 1781,-596 1948,-596 1948,-559 1781,-559"/>
+<polygon fill="none" stroke="black" points="1781,-559 1781,-596 1948,-596 1948,-559 1781,-559"/>
+<text text-anchor="start" x="1822" y="-574.8" font-family="Arial" font-weight="bold" font-size="14.00">MainToMiner</text>
+<polygon fill="white" stroke="transparent" points="1781,-417 1781,-559 1948,-559 1948,-417 1781,-417"/>
+<polygon fill="none" stroke="black" points="1781,-417 1781,-559 1948,-559 1948,-417 1781,-417"/>
+<text text-anchor="start" x="1792" y="-536.8" font-family="Arial" font-size="14.00">Empty</text>
+<text text-anchor="start" x="1792" y="-521.8" font-family="Arial" font-size="14.00">NewBlock(Box&lt;Block&gt;)</text>
+<text text-anchor="start" x="1792" y="-506.8" font-family="Arial" font-size="14.00">Shutdown</text>
+<text text-anchor="start" x="1792" y="-491.8" font-family="Arial" font-size="14.00">ReadyToMineNextBlock</text>
+<text text-anchor="start" x="1792" y="-476.8" font-family="Arial" font-size="14.00">StopMining</text>
+<text text-anchor="start" x="1792" y="-461.8" font-family="Arial" font-size="14.00">StartMining</text>
+<text text-anchor="start" x="1792" y="-446.8" font-family="Arial" font-size="14.00">StartSyncing</text>
+<text text-anchor="start" x="1792" y="-431.8" font-family="Arial" font-size="14.00">StopSyncing</text>
+<polygon fill="none" stroke="black" points="1779.5,-416.5 1779.5,-597.5 1948.5,-597.5 1948.5,-416.5 1779.5,-416.5"/>
 </a>
 </g>
 </g>
 <!-- ndMainToMiner&#45;&gt;ndMainLoopHandler -->
 <g id="edge61" class="edge">
 <title>ndMainToMiner&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" d="M1904.15,-427.32C1921.05,-401.85 1943.11,-376.06 1970,-360 2274.19,-178.34 3318.36,-111.27 3799.12,-89.61"/>
+<path fill="none" stroke="black" d="M1914.62,-412.46C1929.84,-392.16 1948.35,-372.93 1970,-360 2274.19,-178.34 3318.36,-111.27 3799.12,-89.61"/>
 <polygon fill="black" stroke="black" points="3799.44,-89.6 3805.26,-85.33 3811.43,-89.06 3805.61,-93.33 3799.44,-89.6"/>
 </g>
 <!-- ndNewBlockFound -->
@@ -3193,8 +3195,8 @@
 <!-- ndBlock&#45;&gt;ndMainToMiner -->
 <g id="edge209" class="edge">
 <title>ndBlock&#45;&gt;ndMainToMiner</title>
-<path fill="none" stroke="black" d="M5933.54,-1994.98C5872.03,-1942.69 5765.48,-1862.6 5657,-1830 5557.74,-1800.17 2005.6,-1860.37 1926,-1794 1839.44,-1721.83 1913,-1652.13 1878,-1545 1872.5,-1528.18 1864.87,-1526.27 1861,-1509 1848.89,-1455.01 1830.34,-1306.07 1861,-1260 1883.96,-1225.5 1924.04,-1258.5 1947,-1224 1988.74,-1161.28 1955.15,-959.89 1947,-885 1936.2,-785.71 1909.85,-674.26 1889.71,-598.46"/>
-<polygon fill="black" stroke="black" points="1889.64,-598.2 1884.22,-593.44 1886.53,-586.61 1891.95,-591.37 1889.64,-598.2"/>
+<path fill="none" stroke="black" d="M5933.54,-1994.98C5872.03,-1942.69 5765.48,-1862.6 5657,-1830 5557.74,-1800.17 2005.6,-1860.37 1926,-1794 1839.44,-1721.83 1913,-1652.13 1878,-1545 1872.5,-1528.18 1864.87,-1526.27 1861,-1509 1848.89,-1455.01 1830.34,-1306.07 1861,-1260 1883.96,-1225.5 1924.04,-1258.5 1947,-1224 1988.74,-1161.28 1955.15,-959.89 1947,-885 1936.89,-792.03 1913.14,-688.41 1893.63,-613.36"/>
+<polygon fill="black" stroke="black" points="1893.58,-613.18 1888.19,-608.39 1890.53,-601.57 1895.92,-606.36 1893.58,-613.18"/>
 </g>
 <!-- ndBlock&#45;&gt;ndNewBlockFound -->
 <g id="edge210" class="edge">
