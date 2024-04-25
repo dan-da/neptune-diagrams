@@ -774,7 +774,7 @@
 <!-- ndVerifierRound&#45;&gt;ndFriVerifier -->
 <g id="edge51" class="edge">
 <title>ndVerifierRound&#45;&gt;ndFriVerifier</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2365.53,-248.94C2362.35,-241.36 2358.73,-232.74 2355.27,-224.49"/>
+<path fill="none" stroke="black" d="M2365.53,-248.94C2362.35,-241.36 2358.73,-232.74 2355.27,-224.49"/>
 <polygon fill="black" stroke="black" points="2355.18,-224.29 2349.17,-220.3 2350.54,-213.22 2356.55,-217.21 2355.18,-224.29"/>
 </g>
 <!-- ndTask -->
