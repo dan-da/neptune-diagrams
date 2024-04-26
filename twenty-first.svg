@@ -1020,14 +1020,14 @@
 <g id="node30" class="node">
 <title>ndPolynomialBFieldCodecError</title>
 <g id="a_node30_33"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/bfield_codec.rs#:~:text=enum%20PolynomialBFieldCodecError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3515.62,-3754.5 3515.62,-3791.5 3778.62,-3791.5 3778.62,-3754.5 3515.62,-3754.5"/>
-<polygon fill="none" stroke="black" points="3515.62,-3754.5 3515.62,-3791.5 3778.62,-3791.5 3778.62,-3754.5 3515.62,-3754.5"/>
-<text text-anchor="start" x="3552.62" y="-3770.3" font-family="Arial" font-weight="bold" font-size="14.00">PolynomialBFieldCodecError</text>
-<polygon fill="white" stroke="transparent" points="3515.62,-3702.5 3515.62,-3754.5 3778.62,-3754.5 3778.62,-3702.5 3515.62,-3702.5"/>
-<polygon fill="none" stroke="black" points="3515.62,-3702.5 3515.62,-3754.5 3778.62,-3754.5 3778.62,-3702.5 3515.62,-3702.5"/>
-<text text-anchor="start" x="3526.62" y="-3732.3" font-family="Arial" font-size="14.00">TrailingZerosInPolynomialEncoding</text>
-<text text-anchor="start" x="3526.62" y="-3717.3" font-family="Arial" font-size="14.00">VectorEncodingError(BFieldCodecError)</text>
-<polygon fill="none" stroke="black" points="3514.12,-3702 3514.12,-3793 3779.12,-3793 3779.12,-3702 3514.12,-3702"/>
+<polygon fill="yellow" stroke="transparent" points="3528.62,-3754.5 3528.62,-3791.5 3764.62,-3791.5 3764.62,-3754.5 3528.62,-3754.5"/>
+<polygon fill="none" stroke="black" points="3528.62,-3754.5 3528.62,-3791.5 3764.62,-3791.5 3764.62,-3754.5 3528.62,-3754.5"/>
+<text text-anchor="start" x="3552.12" y="-3770.3" font-family="Arial" font-weight="bold" font-size="14.00">PolynomialBFieldCodecError</text>
+<polygon fill="white" stroke="transparent" points="3528.62,-3702.5 3528.62,-3754.5 3764.62,-3754.5 3764.62,-3702.5 3528.62,-3702.5"/>
+<polygon fill="none" stroke="black" points="3528.62,-3702.5 3528.62,-3754.5 3764.62,-3754.5 3764.62,-3702.5 3528.62,-3702.5"/>
+<text text-anchor="start" x="3539.62" y="-3732.3" font-family="Arial" font-size="14.00">TrailingZerosInPolynomialEncoding</text>
+<text text-anchor="start" x="3539.62" y="-3717.3" font-family="Arial" font-size="14.00">Other(BFieldCodecError)</text>
+<polygon fill="none" stroke="black" points="3527.62,-3702 3527.62,-3793 3765.62,-3793 3765.62,-3702 3527.62,-3702"/>
 </a>
 </g>
 </g>
