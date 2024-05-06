@@ -880,7 +880,7 @@
 <text text-anchor="start" x="4647.62" y="-640.5" font-family="Arial" font-size="14.00">&#45; are_colinear(points: &amp;[(FF, FF)]) &#45;&gt; bool</text>
 <text text-anchor="start" x="4647.62" y="-625.5" font-family="Arial" font-size="14.00">&#45; naive_multiply(&amp;self, other: &amp;Self) &#45;&gt; Self</text>
 <text text-anchor="start" x="4647.62" y="-610.5" font-family="Arial" font-size="14.00">&#45; mod_pow(&amp;self, pow: BigInt) &#45;&gt; Self</text>
-<text text-anchor="start" x="4647.62" y="-595.5" font-family="Arial" font-size="14.00">&#45; shift_coefficients_mut(&amp;mut self, power: usize, zero: FF)</text>
+<text text-anchor="start" x="4647.62" y="-595.5" font-family="Arial" font-size="14.00">&#45; shift_coefficients_mut(&amp;mut self, power: usize)</text>
 <text text-anchor="start" x="4647.62" y="-580.5" font-family="Arial" font-size="14.00">&#45; shift_coefficients(&amp;self, power: usize) &#45;&gt; Self</text>
 <text text-anchor="start" x="4647.62" y="-565.5" font-family="Arial" font-size="14.00">&#45; scalar_mul_mut(&amp;mut self, scalar: S)</text>
 <text text-anchor="start" x="4647.62" y="-550.5" font-family="Arial" font-size="14.00">&#45; scalar_mul(&amp;self, scalar: S) &#45;&gt; Polynomial&lt;FF2&gt;</text>
