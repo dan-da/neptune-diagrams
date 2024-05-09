@@ -3417,43 +3417,42 @@
 <g id="node95" class="node">
 <title>ndConstraintCircuitBuilder</title>
 <g id="a_node95_100"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/constraint_circuit.rs#:~:text=struct%20ConstraintCircuitBuilder" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="14077.24,-5108.5 14077.24,-5145.5 14632.24,-5145.5 14632.24,-5108.5 14077.24,-5108.5"/>
-<polygon fill="none" stroke="black" points="14077.24,-5108.5 14077.24,-5145.5 14632.24,-5145.5 14632.24,-5108.5 14077.24,-5108.5"/>
-<text text-anchor="start" x="14276.24" y="-5124.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintCircuitBuilder</text>
-<polygon fill="white" stroke="transparent" points="14077.24,-5056.5 14077.24,-5108.5 14632.24,-5108.5 14632.24,-5056.5 14077.24,-5056.5"/>
-<polygon fill="none" stroke="black" points="14077.24,-5056.5 14077.24,-5108.5 14632.24,-5108.5 14632.24,-5056.5 14077.24,-5056.5"/>
-<text text-anchor="start" x="14088.24" y="-5086.3" font-family="Arial" font-size="14.00">&#45; id_counter: Rc&lt;RefCell&lt;usize&gt;&gt;</text>
-<text text-anchor="start" x="14088.24" y="-5071.3" font-family="Arial" font-size="14.00">&#45; all_nodes: Rc&lt;RefCell&lt;HashSet&lt;ConstraintCircuitMonad&lt;II&gt;&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="transparent" points="14077.24,-4824.5 14077.24,-5056.5 14632.24,-5056.5 14632.24,-4824.5 14077.24,-4824.5"/>
-<polygon fill="none" stroke="black" points="14077.24,-4824.5 14077.24,-5056.5 14632.24,-5056.5 14632.24,-4824.5 14077.24,-4824.5"/>
-<text text-anchor="start" x="14088.24" y="-5034.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<text text-anchor="start" x="14088.24" y="-5019.3" font-family="Arial" font-size="14.00">&#45; new() &#45;&gt; Self</text>
-<text text-anchor="start" x="14088.24" y="-5004.3" font-family="Arial" font-size="14.00">&#45; is_same_as(&amp;self, other: &amp;Self) &#45;&gt; bool</text>
-<text text-anchor="start" x="14088.24" y="-4989.3" font-family="Arial" font-size="14.00">&#45; new_monad(&amp;self, circuit: ConstraintCircuit&lt;II&gt;) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4974.3" font-family="Arial" font-size="14.00">&#45; get_node_by_id(&amp;self, id: usize) &#45;&gt; Option&lt;ConstraintCircuitMonad&lt;II&gt;&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4959.3" font-family="Arial" font-size="14.00">&#45; zero(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4944.3" font-family="Arial" font-size="14.00">&#45; one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4929.3" font-family="Arial" font-size="14.00">&#45; minus_one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4914.3" font-family="Arial" font-size="14.00">&#45; b_constant(&amp;self, bfe: B) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4899.3" font-family="Arial" font-size="14.00">&#45; x_constant(&amp;self, xfe: X) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4884.3" font-family="Arial" font-size="14.00">&#45; input(&amp;self, input: II) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4869.3" font-family="Arial" font-size="14.00">&#45; challenge(&amp;self, challenge: C) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4854.3" font-family="Arial" font-size="14.00">&#45; make_leaf(&amp;self, mut expression: CircuitExpression&lt;II&gt;) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
-<text text-anchor="start" x="14088.24" y="-4839.3" font-family="Arial" font-size="14.00">&#45; substitute(&amp;self, old_id: usize, new: &amp;Rc&lt;RefCell&lt;ConstraintCircuit&lt;II&gt;&gt;&gt;)</text>
-<polygon fill="none" stroke="black" points="14075.74,-4824 14075.74,-5147 14632.74,-5147 14632.74,-4824 14075.74,-4824"/>
+<polygon fill="lightblue" stroke="transparent" points="14077.24,-5101.5 14077.24,-5138.5 14632.24,-5138.5 14632.24,-5101.5 14077.24,-5101.5"/>
+<polygon fill="none" stroke="black" points="14077.24,-5101.5 14077.24,-5138.5 14632.24,-5138.5 14632.24,-5101.5 14077.24,-5101.5"/>
+<text text-anchor="start" x="14276.24" y="-5117.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintCircuitBuilder</text>
+<polygon fill="white" stroke="transparent" points="14077.24,-5049.5 14077.24,-5101.5 14632.24,-5101.5 14632.24,-5049.5 14077.24,-5049.5"/>
+<polygon fill="none" stroke="black" points="14077.24,-5049.5 14077.24,-5101.5 14632.24,-5101.5 14632.24,-5049.5 14077.24,-5049.5"/>
+<text text-anchor="start" x="14088.24" y="-5079.3" font-family="Arial" font-size="14.00">&#45; id_counter: Rc&lt;RefCell&lt;usize&gt;&gt;</text>
+<text text-anchor="start" x="14088.24" y="-5064.3" font-family="Arial" font-size="14.00">&#45; all_nodes: Rc&lt;RefCell&lt;HashMap&lt;usize, ConstraintCircuitMonad&lt;II&gt;&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="transparent" points="14077.24,-4832.5 14077.24,-5049.5 14632.24,-5049.5 14632.24,-4832.5 14077.24,-4832.5"/>
+<polygon fill="none" stroke="black" points="14077.24,-4832.5 14077.24,-5049.5 14632.24,-5049.5 14632.24,-4832.5 14077.24,-4832.5"/>
+<text text-anchor="start" x="14088.24" y="-5027.3" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<text text-anchor="start" x="14088.24" y="-5012.3" font-family="Arial" font-size="14.00">&#45; new() &#45;&gt; Self</text>
+<text text-anchor="start" x="14088.24" y="-4997.3" font-family="Arial" font-size="14.00">&#45; is_same_as(&amp;self, other: &amp;Self) &#45;&gt; bool</text>
+<text text-anchor="start" x="14088.24" y="-4982.3" font-family="Arial" font-size="14.00">&#45; new_monad(&amp;self, circuit: ConstraintCircuit&lt;II&gt;) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4967.3" font-family="Arial" font-size="14.00">&#45; zero(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4952.3" font-family="Arial" font-size="14.00">&#45; one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4937.3" font-family="Arial" font-size="14.00">&#45; minus_one(&amp;self) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4922.3" font-family="Arial" font-size="14.00">&#45; b_constant(&amp;self, bfe: B) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4907.3" font-family="Arial" font-size="14.00">&#45; x_constant(&amp;self, xfe: X) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4892.3" font-family="Arial" font-size="14.00">&#45; input(&amp;self, input: II) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4877.3" font-family="Arial" font-size="14.00">&#45; challenge(&amp;self, challenge: C) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4862.3" font-family="Arial" font-size="14.00">&#45; make_leaf(&amp;self, mut expression: CircuitExpression&lt;II&gt;) &#45;&gt; ConstraintCircuitMonad&lt;II&gt;</text>
+<text text-anchor="start" x="14088.24" y="-4847.3" font-family="Arial" font-size="14.00">&#45; substitute(&amp;self, old_id: usize, new: ConstraintCircuitMonad&lt;II&gt;)</text>
+<polygon fill="none" stroke="black" points="14075.74,-4831.5 14075.74,-5139.5 14632.74,-5139.5 14632.74,-4831.5 14075.74,-4831.5"/>
 </a>
 </g>
 </g>
 <!-- ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder -->
 <g id="edge130" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder</title>
-<path fill="none" stroke="black" d="M14347.72,-5328.81C14347.38,-5274.76 14347.42,-5216.41 14347.86,-5163.47"/>
-<polygon fill="black" stroke="black" points="14347.86,-5163.2 14343.91,-5157.16 14347.96,-5151.2 14351.91,-5157.23 14347.86,-5163.2"/>
+<path fill="none" stroke="black" d="M14347.72,-5328.81C14347.36,-5271.56 14347.43,-5209.49 14347.94,-5154.12"/>
+<polygon fill="black" stroke="black" points="14348.04,-5143.86 14352.44,-5153.91 14347.99,-5148.86 14347.94,-5153.86 14347.94,-5153.86 14347.94,-5153.86 14347.99,-5148.86 14343.44,-5153.82 14348.04,-5143.86 14348.04,-5143.86"/>
 </g>
 <!-- ndConstraintCircuitBuilder&#45;&gt;ndConstraintCircuitMonad -->
 <g id="edge131" class="edge">
 <title>ndConstraintCircuitBuilder&#45;&gt;ndConstraintCircuitMonad</title>
-<path fill="none" stroke="black" d="M14360.52,-5151.2C14361.02,-5203.46 14361.12,-5261.94 14360.83,-5316.8"/>
+<path fill="none" stroke="black" d="M14360.45,-5143.86C14361.01,-5197.9 14361.14,-5259.24 14360.83,-5316.63"/>
 <polygon fill="black" stroke="black" points="14360.83,-5316.81 14364.8,-5322.83 14360.76,-5328.81 14356.8,-5322.79 14360.83,-5316.81"/>
 </g>
 <!-- ndNonZeroXFieldElement -->

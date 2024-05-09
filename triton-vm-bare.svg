@@ -1897,8 +1897,8 @@
 <!-- ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder -->
 <g id="edge130" class="edge">
 <title>ndConstraintCircuitMonad&#45;&gt;ndConstraintCircuitBuilder</title>
-<path fill="none" stroke="black" d="M7461.49,-580.94C7460.95,-573.63 7460.76,-565.34 7460.93,-557.35"/>
-<polygon fill="black" stroke="black" points="7460.93,-557.21 7457.21,-551.03 7461.48,-545.22 7465.2,-551.4 7460.93,-557.21"/>
+<path fill="none" stroke="black" d="M7461.49,-580.94C7460.9,-573.02 7460.73,-563.95 7460.98,-555.36"/>
+<polygon fill="black" stroke="black" points="7461.48,-545.22 7465.48,-555.44 7461.23,-550.22 7460.98,-555.21 7460.98,-555.21 7460.98,-555.21 7461.23,-550.22 7456.49,-554.99 7461.48,-545.22 7461.48,-545.22"/>
 </g>
 <!-- ndConstraintCircuitBuilder&#45;&gt;ndConstraintCircuitMonad -->
 <g id="edge131" class="edge">
