@@ -32,22 +32,23 @@
 <g id="node2" class="node">
 <title>ndDashBoardOverviewDataFromClient</title>
 <g id="a_node2_1"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/rpc_server.rs#:~:text=struct%20DashBoardOverviewDataFromClient" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="11384.5,-2666.5 11384.5,-2703.5 11641.5,-2703.5 11641.5,-2666.5 11384.5,-2666.5"/>
-<polygon fill="none" stroke="black" points="11384.5,-2666.5 11384.5,-2703.5 11641.5,-2703.5 11641.5,-2666.5 11384.5,-2666.5"/>
-<text text-anchor="start" x="11395.5" y="-2682.3" font-family="Arial" font-weight="bold" font-size="14.00">DashBoardOverviewDataFromClient</text>
-<polygon fill="white" stroke="transparent" points="11384.5,-2494.5 11384.5,-2666.5 11641.5,-2666.5 11641.5,-2494.5 11384.5,-2494.5"/>
-<polygon fill="none" stroke="black" points="11384.5,-2494.5 11384.5,-2666.5 11641.5,-2666.5 11641.5,-2494.5 11384.5,-2494.5"/>
-<text text-anchor="start" x="11395.5" y="-2644.3" font-family="Arial" font-size="14.00">+ tip_digest: Digest</text>
-<text text-anchor="start" x="11395.5" y="-2629.3" font-family="Arial" font-size="14.00">+ tip_header: BlockHeader</text>
-<text text-anchor="start" x="11395.5" y="-2614.3" font-family="Arial" font-size="14.00">+ syncing: bool</text>
-<text text-anchor="start" x="11395.5" y="-2599.3" font-family="Arial" font-size="14.00">+ available_balance: NeptuneCoins</text>
-<text text-anchor="start" x="11395.5" y="-2584.3" font-family="Arial" font-size="14.00">+ timelocked_balance: NeptuneCoins</text>
-<text text-anchor="start" x="11395.5" y="-2569.3" font-family="Arial" font-size="14.00">+ mempool_size: usize</text>
-<text text-anchor="start" x="11395.5" y="-2554.3" font-family="Arial" font-size="14.00">+ mempool_tx_count: usize</text>
-<text text-anchor="start" x="11395.5" y="-2539.3" font-family="Arial" font-size="14.00">+ peer_count: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="11395.5" y="-2524.3" font-family="Arial" font-size="14.00">+ is_mining: Option&lt;bool&gt;</text>
-<text text-anchor="start" x="11395.5" y="-2509.3" font-family="Arial" font-size="14.00">+ confirmations: Option&lt;BlockHeight&gt;</text>
-<polygon fill="none" stroke="black" points="11383,-2494 11383,-2705 11642,-2705 11642,-2494 11383,-2494"/>
+<polygon fill="lightblue" stroke="transparent" points="11384.5,-2674.5 11384.5,-2711.5 11641.5,-2711.5 11641.5,-2674.5 11384.5,-2674.5"/>
+<polygon fill="none" stroke="black" points="11384.5,-2674.5 11384.5,-2711.5 11641.5,-2711.5 11641.5,-2674.5 11384.5,-2674.5"/>
+<text text-anchor="start" x="11395.5" y="-2690.3" font-family="Arial" font-weight="bold" font-size="14.00">DashBoardOverviewDataFromClient</text>
+<polygon fill="white" stroke="transparent" points="11384.5,-2487.5 11384.5,-2674.5 11641.5,-2674.5 11641.5,-2487.5 11384.5,-2487.5"/>
+<polygon fill="none" stroke="black" points="11384.5,-2487.5 11384.5,-2674.5 11641.5,-2674.5 11641.5,-2487.5 11384.5,-2487.5"/>
+<text text-anchor="start" x="11395.5" y="-2652.3" font-family="Arial" font-size="14.00">+ tip_digest: Digest</text>
+<text text-anchor="start" x="11395.5" y="-2637.3" font-family="Arial" font-size="14.00">+ tip_header: BlockHeader</text>
+<text text-anchor="start" x="11395.5" y="-2622.3" font-family="Arial" font-size="14.00">+ syncing: bool</text>
+<text text-anchor="start" x="11395.5" y="-2607.3" font-family="Arial" font-size="14.00">+ available_balance: NeptuneCoins</text>
+<text text-anchor="start" x="11395.5" y="-2592.3" font-family="Arial" font-size="14.00">+ timelocked_balance: NeptuneCoins</text>
+<text text-anchor="start" x="11395.5" y="-2577.3" font-family="Arial" font-size="14.00">+ mempool_size: usize</text>
+<text text-anchor="start" x="11395.5" y="-2562.3" font-family="Arial" font-size="14.00">+ mempool_tx_count: usize</text>
+<text text-anchor="start" x="11395.5" y="-2547.3" font-family="Arial" font-size="14.00">+ peer_count: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="11395.5" y="-2532.3" font-family="Arial" font-size="14.00">+ is_mining: Option&lt;bool&gt;</text>
+<text text-anchor="start" x="11395.5" y="-2517.3" font-family="Arial" font-size="14.00">+ confirmations: Option&lt;BlockHeight&gt;</text>
+<text text-anchor="start" x="11395.5" y="-2502.3" font-family="Arial" font-size="14.00">+ cpu_temp: Option&lt;f32&gt;</text>
+<polygon fill="none" stroke="black" points="11383,-2486.5 11383,-2712.5 11642,-2712.5 11642,-2486.5 11383,-2486.5"/>
 </a>
 </g>
 </g>
@@ -70,7 +71,7 @@
 <!-- ndDashBoardOverviewDataFromClient&#45;&gt;ndNeptuneRPCServer -->
 <g id="edge1" class="edge">
 <title>ndDashBoardOverviewDataFromClient&#45;&gt;ndNeptuneRPCServer</title>
-<path fill="none" stroke="black" d="M11576.84,-2489.98C11683.48,-2321.42 11914.27,-2001.38 12205.5,-1860 12288.58,-1819.67 12548.6,-1883.17 12619.5,-1824 12730.92,-1731.01 12683.21,-1652.4 12705.5,-1509 12736.48,-1309.66 12724.5,-1257.23 12724.5,-1055.5 12724.5,-1055.5 12724.5,-1055.5 12724.5,-506 12724.5,-197.32 12403.39,-268.13 12103.5,-195 11965.42,-161.33 9687.58,-162.48 9545.5,-159 8821.25,-141.25 7966.05,-107.95 7550.87,-91"/>
+<path fill="none" stroke="black" d="M11581.7,-2482.33C11690.38,-2311.9 11918.62,-1999.27 12205.5,-1860 12288.58,-1819.67 12548.6,-1883.17 12619.5,-1824 12730.92,-1731.01 12683.21,-1652.4 12705.5,-1509 12736.48,-1309.66 12724.5,-1257.23 12724.5,-1055.5 12724.5,-1055.5 12724.5,-1055.5 12724.5,-506 12724.5,-197.32 12403.39,-268.13 12103.5,-195 11965.42,-161.33 9687.58,-162.48 9545.5,-159 8821.25,-141.25 7966.05,-107.95 7550.87,-91"/>
 <polygon fill="black" stroke="black" points="7540.84,-90.59 7551.01,-86.5 7545.83,-90.79 7550.83,-91 7550.83,-91 7550.83,-91 7545.83,-90.79 7550.64,-95.49 7540.84,-90.59 7540.84,-90.59"/>
 </g>
 <!-- ndRPC -->
@@ -2128,8 +2129,8 @@
 <!-- ndNeptuneCoins&#45;&gt;ndDashBoardOverviewDataFromClient -->
 <g id="edge139" class="edge">
 <title>ndNeptuneCoins&#45;&gt;ndDashBoardOverviewDataFromClient</title>
-<path fill="none" stroke="black" d="M4133.88,-3278.09C4354.67,-3268.53 5084.63,-3238 5688.5,-3225 5747.14,-3223.74 9867.68,-3227.99 9911.5,-3189 10009.89,-3101.46 9850.85,-2983.37 9948.5,-2895 10006.68,-2842.35 11292.89,-2898.83 11360.5,-2859 11412.64,-2828.29 11448.77,-2772.17 11472.67,-2720.06"/>
-<polygon fill="black" stroke="black" points="11472.71,-2719.97 11471.5,-2712.86 11477.59,-2709.01 11478.81,-2716.12 11472.71,-2719.97"/>
+<path fill="none" stroke="black" d="M4133.88,-3278.09C4354.67,-3268.53 5084.63,-3238 5688.5,-3225 5747.14,-3223.74 9867.68,-3227.99 9911.5,-3189 10009.89,-3101.46 9850.85,-2983.37 9948.5,-2895 10006.68,-2842.35 11292.89,-2898.83 11360.5,-2859 11410.13,-2829.77 11445.25,-2777.52 11469.13,-2727.61"/>
+<polygon fill="black" stroke="black" points="11469.16,-2727.56 11468.06,-2720.43 11474.21,-2716.68 11475.31,-2723.8 11469.16,-2727.56"/>
 </g>
 <!-- ndNeptuneCoins&#45;&gt;ndNeptuneRPCServer -->
 <g id="edge140" class="edge">
@@ -2281,7 +2282,7 @@
 <text text-anchor="start" x="12306.5" y="-1969.8" font-family="Arial" font-size="14.00">&#45; up_since: Option&lt;u64&gt;</text>
 <text text-anchor="start" x="12306.5" y="-1954.8" font-family="Arial" font-size="14.00">&#45; cpu_load: Option&lt;f64&gt;</text>
 <text text-anchor="start" x="12306.5" y="-1939.8" font-family="Arial" font-size="14.00">&#45; cpu_capacity: Option&lt;f64&gt;</text>
-<text text-anchor="start" x="12306.5" y="-1924.8" font-family="Arial" font-size="14.00">&#45; cpu_temperature: Option&lt;f64&gt;</text>
+<text text-anchor="start" x="12306.5" y="-1924.8" font-family="Arial" font-size="14.00">&#45; cpu_temperature: Option&lt;f32&gt;</text>
 <text text-anchor="start" x="12306.5" y="-1909.8" font-family="Arial" font-size="14.00">&#45; ram_total: Option&lt;ByteSize&gt;</text>
 <text text-anchor="start" x="12306.5" y="-1894.8" font-family="Arial" font-size="14.00">&#45; ram_available: Option&lt;ByteSize&gt;</text>
 <text text-anchor="start" x="12306.5" y="-1879.8" font-family="Arial" font-size="14.00">&#45; ram_used: Option&lt;ByteSize&gt;</text>
@@ -2703,8 +2704,8 @@
 <!-- ndBlockHeader&#45;&gt;ndDashBoardOverviewDataFromClient -->
 <g id="edge172" class="edge">
 <title>ndBlockHeader&#45;&gt;ndDashBoardOverviewDataFromClient</title>
-<path fill="none" stroke="black" d="M11728.85,-2939.75C11706.79,-2914.15 11684.04,-2886.18 11664.5,-2859 11633.06,-2815.27 11602.21,-2764.66 11576.6,-2719.88"/>
-<polygon fill="black" stroke="black" points="11576.48,-2719.66 11570.04,-2716.43 11570.55,-2709.23 11576.99,-2712.47 11576.48,-2719.66"/>
+<path fill="none" stroke="black" d="M11728.85,-2939.75C11706.79,-2914.15 11684.04,-2886.18 11664.5,-2859 11634.74,-2817.6 11605.51,-2770.05 11580.76,-2727.11"/>
+<polygon fill="black" stroke="black" points="11580.69,-2727 11574.24,-2723.79 11574.73,-2716.59 11581.18,-2719.81 11580.69,-2727"/>
 </g>
 <!-- ndBlockHeader&#45;&gt;ndNeptuneRPCServer -->
 <g id="edge173" class="edge">
@@ -2932,8 +2933,8 @@
 <!-- ndBlockHeight&#45;&gt;ndDashBoardOverviewDataFromClient -->
 <g id="edge187" class="edge">
 <title>ndBlockHeight&#45;&gt;ndDashBoardOverviewDataFromClient</title>
-<path fill="none" stroke="black" d="M9607.17,-3280.47C9764.5,-3277.94 10162.26,-3263.98 10484.5,-3189 10889.72,-3094.72 11042.23,-3126.94 11360.5,-2859 11404.56,-2821.91 11438.93,-2768.59 11463.75,-2720.01"/>
-<polygon fill="black" stroke="black" points="11463.85,-2719.81 11462.96,-2712.66 11469.22,-2709.08 11470.11,-2716.23 11463.85,-2719.81"/>
+<path fill="none" stroke="black" d="M9607.17,-3280.47C9764.5,-3277.94 10162.26,-3263.98 10484.5,-3189 10889.72,-3094.72 11042.23,-3126.94 11360.5,-2859 11402.35,-2823.77 11435.45,-2773.92 11459.93,-2727.38"/>
+<polygon fill="black" stroke="black" points="11460,-2727.24 11459.19,-2720.07 11465.5,-2716.57 11466.3,-2723.74 11460,-2727.24"/>
 </g>
 <!-- ndBlockHeight&#45;&gt;ndNeptuneRPCServer -->
 <g id="edge188" class="edge">
