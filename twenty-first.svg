@@ -892,7 +892,7 @@
 <text text-anchor="start" x="4643.55" y="-1554.5" font-family="Arial" font-size="14.00">&#45; structured_multiple_of_degree(&amp;self, n: usize) &#45;&gt; Self</text>
 <text text-anchor="start" x="4643.55" y="-1539.5" font-family="Arial" font-size="14.00">&#45; reduce_by_structured_modulus(&amp;self, multiple: &amp;Self) &#45;&gt; Self</text>
 <text text-anchor="start" x="4643.55" y="-1524.5" font-family="Arial" font-size="14.00">&#45; reduce_by_ntt_friendly_modulus(&amp;self, shift_ntt: &amp;[FF], tail_length: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="4643.55" y="-1509.5" font-family="Arial" font-size="14.00">&#45; shift_factor_ntt_with_tail_size(&amp;self) &#45;&gt; (Vec&lt;FF&gt;, usize)</text>
+<text text-anchor="start" x="4643.55" y="-1509.5" font-family="Arial" font-size="14.00">&#45; shift_factor_ntt_with_tail_length(&amp;self) &#45;&gt; (Vec&lt;FF&gt;, usize)</text>
 <text text-anchor="start" x="4643.55" y="-1494.5" font-family="Arial" font-size="14.00">&#45; fast_reduce(&amp;self, modulus: &amp;Self) &#45;&gt; Self</text>
 <text text-anchor="start" x="4643.55" y="-1479.5" font-family="Arial" font-size="14.00">&#45; truncate(&amp;self, k: usize) &#45;&gt; Self</text>
 <text text-anchor="start" x="4643.55" y="-1464.5" font-family="Arial" font-size="14.00">&#45; mod_x_to_the_n(&amp;self, n: usize) &#45;&gt; Self</text>
