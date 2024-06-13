@@ -1005,7 +1005,7 @@
 <polygon fill="none" stroke="black" points="3623.23,-3422.5 3623.23,-4419.5 4410.23,-4419.5 4410.23,-3422.5 3623.23,-3422.5"/>
 <text text-anchor="start" x="3634.23" y="-4397.3" font-family="Arial" font-size="14.00">&#45; new(program: &amp;Program, public_input: PublicInput, non_determinism: NonDeterminism) &#45;&gt; Self</text>
 <text text-anchor="start" x="3634.23" y="-4382.3" font-family="Arial" font-size="14.00">&#45; derive_helper_variables(&amp;self) &#45;&gt; [BFieldElement; NUM_HELPER_VARIABLE_REGISTERS]</text>
-<text text-anchor="start" x="3634.23" y="-4367.3" font-family="Arial" font-size="14.00">&#45; decompose_opcode_for_instruction_skiz(opcode: u64) &#45;&gt; [u64; 5]</text>
+<text text-anchor="start" x="3634.23" y="-4367.3" font-family="Arial" font-size="14.00">&#45; decompose_opcode_for_instruction_skiz(opcode: u64) &#45;&gt; [BFieldElement; 5]</text>
 <text text-anchor="start" x="3634.23" y="-4352.3" font-family="Arial" font-size="14.00">&#45; step(&amp;mut self) &#45;&gt; Result&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
 <text text-anchor="start" x="3634.23" y="-4337.3" font-family="Arial" font-size="14.00">&#45; start_recording_op_stack_calls(&amp;mut self)</text>
 <text text-anchor="start" x="3634.23" y="-4322.3" font-family="Arial" font-size="14.00">&#45; stop_recording_op_stack_calls(&amp;mut self) &#45;&gt; Vec&lt;CoProcessorCall&gt;</text>
