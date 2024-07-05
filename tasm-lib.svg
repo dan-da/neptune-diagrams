@@ -818,28 +818,27 @@
 <g id="node44" class="node">
 <title>ndStarkVerify</title>
 <g id="a_node44_26"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/stark_verify.rs#:~:text=struct%20StarkVerify" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="20563,-760 20563,-797 20964,-797 20964,-760 20563,-760"/>
-<polygon fill="none" stroke="black" points="20563,-760 20563,-797 20964,-797 20964,-760 20563,-760"/>
-<text text-anchor="start" x="20728" y="-775.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkVerify</text>
-<polygon fill="white" stroke="transparent" points="20563,-708 20563,-760 20964,-760 20964,-708 20563,-708"/>
-<polygon fill="none" stroke="black" points="20563,-708 20563,-760 20964,-760 20964,-708 20563,-708"/>
-<text text-anchor="start" x="20574" y="-737.8" font-family="Arial" font-size="14.00">&#45; stark_parameters: Stark</text>
-<text text-anchor="start" x="20574" y="-722.8" font-family="Arial" font-size="14.00">&#45; log_2_padded_height: Option&lt;u32&gt;</text>
-<polygon fill="white" stroke="transparent" points="20563,-626 20563,-708 20964,-708 20964,-626 20563,-626"/>
-<polygon fill="none" stroke="black" points="20563,-626 20563,-708 20964,-708 20964,-626 20563,-626"/>
-<text text-anchor="start" x="20574" y="-685.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="20574" y="-670.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="20574" y="-655.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
-<text text-anchor="start" x="20574" y="-640.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<polygon fill="none" stroke="black" points="20561.5,-625.5 20561.5,-798.5 20964.5,-798.5 20964.5,-625.5 20561.5,-625.5"/>
+<polygon fill="lightblue" stroke="transparent" points="20563,-753 20563,-790 20964,-790 20964,-753 20563,-753"/>
+<polygon fill="none" stroke="black" points="20563,-753 20563,-790 20964,-790 20964,-753 20563,-753"/>
+<text text-anchor="start" x="20728" y="-768.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkVerify</text>
+<polygon fill="white" stroke="transparent" points="20563,-716 20563,-753 20964,-753 20964,-716 20563,-716"/>
+<polygon fill="none" stroke="black" points="20563,-716 20563,-753 20964,-753 20964,-716 20563,-716"/>
+<text text-anchor="start" x="20574" y="-730.8" font-family="Arial" font-size="14.00">&#45; stark: Stark</text>
+<polygon fill="white" stroke="transparent" points="20563,-634 20563,-716 20964,-716 20964,-634 20563,-634"/>
+<polygon fill="none" stroke="black" points="20563,-634 20563,-716 20964,-716 20964,-634 20563,-634"/>
+<text text-anchor="start" x="20574" y="-693.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20574" y="-678.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20574" y="-663.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
+<text text-anchor="start" x="20574" y="-648.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<polygon fill="none" stroke="black" points="20561.5,-633 20561.5,-791 20964.5,-791 20964.5,-633 20561.5,-633"/>
 </a>
 </g>
 </g>
 <!-- ndDataType&#45;&gt;ndStarkVerify -->
 <g id="edge24" class="edge">
 <title>ndDataType&#45;&gt;ndStarkVerify</title>
-<path fill="none" stroke="black" d="M20633.69,-905.85C20656.05,-872.5 20677.91,-839.9 20697.1,-811.28"/>
-<polygon fill="black" stroke="black" points="20702.71,-802.92 20700.87,-813.73 20699.92,-807.07 20697.14,-811.23 20697.14,-811.23 20697.14,-811.23 20699.92,-807.07 20693.4,-808.72 20702.71,-802.92 20702.71,-802.92"/>
+<path fill="none" stroke="black" d="M20633.69,-905.85C20658.06,-869.51 20681.83,-834.06 20702.2,-803.67"/>
+<polygon fill="black" stroke="black" points="20707.86,-795.24 20706.03,-806.05 20705.07,-799.39 20702.29,-803.54 20702.29,-803.54 20702.29,-803.54 20705.07,-799.39 20698.55,-801.04 20707.86,-795.24 20707.86,-795.24"/>
 </g>
 <!-- ndFriSnippet -->
 <g id="node46" class="node">
@@ -891,16 +890,16 @@
 <path fill="none" stroke="black" d="M20793.02,-1081.09C20982.51,-1036.14 21224.04,-966.73 21425,-870 21473.35,-846.73 21522.53,-813.17 21562.27,-783.05"/>
 <polygon fill="black" stroke="black" points="21570.6,-776.68 21565.39,-786.33 21566.63,-779.72 21562.66,-782.75 21562.66,-782.75 21562.66,-782.75 21566.63,-779.72 21559.92,-779.18 21570.6,-776.68 21570.6,-776.68"/>
 </g>
-<!-- ndDeriveFriFromStarkParams -->
+<!-- ndDeriveFriFromStark -->
 <g id="node50" class="node">
-<title>ndDeriveFriFromStarkParams</title>
-<g id="a_node50_29"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/fri/derive_from_stark_params.rs#:~:text=struct%20DeriveFriFromStarkParams" xlink:title="&lt;TABLE&gt;">
+<title>ndDeriveFriFromStark</title>
+<g id="a_node50_29"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/fri/derive_from_stark.rs#:~:text=struct%20DeriveFriFromStark" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="21887,-760 21887,-797 22393,-797 22393,-760 21887,-760"/>
 <polygon fill="none" stroke="black" points="21887,-760 21887,-797 22393,-797 22393,-760 21887,-760"/>
-<text text-anchor="start" x="22051.5" y="-775.8" font-family="Arial" font-weight="bold" font-size="14.00">DeriveFriFromStarkParams</text>
+<text text-anchor="start" x="22076.5" y="-775.8" font-family="Arial" font-weight="bold" font-size="14.00">DeriveFriFromStark</text>
 <polygon fill="white" stroke="transparent" points="21887,-723 21887,-760 22393,-760 22393,-723 21887,-723"/>
 <polygon fill="none" stroke="black" points="21887,-723 21887,-760 22393,-760 22393,-723 21887,-723"/>
-<text text-anchor="start" x="21898" y="-737.8" font-family="Arial" font-size="14.00">+ stark_parameters: Stark</text>
+<text text-anchor="start" x="21898" y="-737.8" font-family="Arial" font-size="14.00">+ stark: Stark</text>
 <polygon fill="white" stroke="transparent" points="21887,-626 21887,-723 22393,-723 22393,-626 21887,-626"/>
 <polygon fill="none" stroke="black" points="21887,-626 21887,-723 22393,-723 22393,-626 21887,-626"/>
 <text text-anchor="start" x="21898" y="-700.8" font-family="Arial" font-size="14.00">&#45; derive_fri_field_values(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
@@ -912,9 +911,9 @@
 </a>
 </g>
 </g>
-<!-- ndDataType&#45;&gt;ndDeriveFriFromStarkParams -->
+<!-- ndDataType&#45;&gt;ndDeriveFriFromStark -->
 <g id="edge27" class="edge">
-<title>ndDataType&#45;&gt;ndDeriveFriFromStarkParams</title>
+<title>ndDataType&#45;&gt;ndDeriveFriFromStark</title>
 <path fill="none" stroke="black" d="M20793.09,-1112.79C21081.5,-1076.25 21513.53,-1003.79 21869,-870 21912.26,-853.72 21956.68,-830.94 21996.71,-807.77"/>
 <polygon fill="black" stroke="black" points="22005.44,-802.66 21999.08,-811.59 22001.13,-805.19 21996.81,-807.71 21996.81,-807.71 21996.81,-807.71 22001.13,-805.19 21994.54,-803.82 22005.44,-802.66 22005.44,-802.66"/>
 </g>
@@ -1796,8 +1795,8 @@
 <!-- ndBasicSnippet&#45;&gt;ndStarkVerify -->
 <g id="edge76" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndStarkVerify</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M16899.29,-1126.47C17797.2,-1066.65 20501.07,-885.47 20544,-870 20582.85,-856 20620.94,-832.98 20654.18,-808.84"/>
-<polygon fill="none" stroke="black" points="20656.56,-811.44 20662.53,-802.68 20652.4,-805.8 20656.56,-811.44"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M16899.29,-1126.47C17797.2,-1066.65 20501.07,-885.47 20544,-870 20586.96,-854.51 20629,-828.01 20664.58,-801.14"/>
+<polygon fill="none" stroke="black" points="20666.73,-803.9 20672.54,-795.04 20662.47,-798.35 20666.73,-803.9"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndFriSnippet -->
 <g id="edge77" class="edge">
@@ -1811,9 +1810,9 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M16899.12,-1122.23C17499.84,-1074.23 18936.69,-963.89 20144,-906 20286.23,-899.18 21289.92,-915.04 21425,-870 21478.95,-852.01 21531.28,-816.19 21571.58,-783.3"/>
 <polygon fill="none" stroke="black" points="21574,-785.83 21579.47,-776.76 21569.54,-780.44 21574,-785.83"/>
 </g>
-<!-- ndBasicSnippet&#45;&gt;ndDeriveFriFromStarkParams -->
+<!-- ndBasicSnippet&#45;&gt;ndDeriveFriFromStark -->
 <g id="edge79" class="edge">
-<title>ndBasicSnippet&#45;&gt;ndDeriveFriFromStarkParams</title>
+<title>ndBasicSnippet&#45;&gt;ndDeriveFriFromStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M16899.09,-1121.53C17499.74,-1072.21 18936.49,-959.52 20144,-906 20335.52,-897.51 21684.39,-921.68 21869,-870 21916.76,-856.63 21964.89,-832.85 22007.07,-807.79"/>
 <polygon fill="none" stroke="black" points="22008.93,-810.75 22015.7,-802.59 22005.32,-804.75 22008.93,-810.75"/>
 </g>
@@ -2477,8 +2476,8 @@
 <!-- ndLibrary&#45;&gt;ndStarkVerify -->
 <g id="edge150" class="edge">
 <title>ndLibrary&#45;&gt;ndStarkVerify</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M22133.71,-1128.69C21844.82,-1102.15 21362.32,-1035.23 20981,-870 20944.61,-854.23 20908.33,-831.61 20876.12,-808.44"/>
-<polygon fill="black" stroke="black" points="20868.02,-802.53 20878.75,-804.79 20872.06,-805.48 20876.1,-808.42 20876.1,-808.42 20876.1,-808.42 20872.06,-805.48 20873.45,-812.06 20868.02,-802.53 20868.02,-802.53"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M22133.71,-1128.69C21844.82,-1102.15 21362.32,-1035.23 20981,-870 20940.89,-852.62 20900.92,-826.92 20866.37,-801.32"/>
+<polygon fill="black" stroke="black" points="20858.17,-795.17 20868.87,-797.57 20862.17,-798.17 20866.17,-801.17 20866.17,-801.17 20866.17,-801.17 20862.17,-798.17 20863.47,-804.77 20858.17,-795.17 20858.17,-795.17"/>
 </g>
 <!-- ndLibrary&#45;&gt;ndFriSnippet -->
 <g id="edge151" class="edge">
@@ -2498,9 +2497,9 @@
 <path fill="none" stroke="black" d="M22638.1,-1120.5C23167.8,-1069.22 24435.53,-953 25502,-906 25545.93,-904.06 28635.04,-899.11 28668,-870 28774.24,-776.17 28605.81,-649 28711,-554 28875.01,-405.87 32026.91,-391.05 33161.98,-390.53"/>
 <polygon fill="black" stroke="black" points="33172.35,-390.53 33162.35,-395.03 33167.35,-390.53 33162.35,-390.53 33162.35,-390.53 33162.35,-390.53 33167.35,-390.53 33162.34,-386.03 33172.35,-390.53 33172.35,-390.53"/>
 </g>
-<!-- ndLibrary&#45;&gt;ndDeriveFriFromStarkParams -->
+<!-- ndLibrary&#45;&gt;ndDeriveFriFromStark -->
 <g id="edge154" class="edge">
-<title>ndLibrary&#45;&gt;ndDeriveFriFromStarkParams</title>
+<title>ndLibrary&#45;&gt;ndDeriveFriFromStark</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M22296.67,-988.44C22263.08,-929.39 22225.87,-863.97 22196.14,-811.7"/>
 <polygon fill="black" stroke="black" points="22191.06,-802.77 22199.91,-809.23 22193.53,-807.11 22196,-811.46 22196,-811.46 22196,-811.46 22193.53,-807.11 22192.09,-813.68 22191.06,-802.77 22191.06,-802.77"/>
 </g>
