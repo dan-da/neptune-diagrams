@@ -1065,7 +1065,7 @@
 <text text-anchor="start" x="3634.23" y="-3512.3" font-family="Arial" font-size="14.00">&#45; next_instruction(&amp;self) &#45;&gt; Result&lt;Instruction&gt;</text>
 <text text-anchor="start" x="3634.23" y="-3497.3" font-family="Arial" font-size="14.00">&#45; jump_stack_pop(&amp;mut self) &#45;&gt; Result&lt;(BFieldElement, BFieldElement)&gt;</text>
 <text text-anchor="start" x="3634.23" y="-3482.3" font-family="Arial" font-size="14.00">&#45; jump_stack_peek(&amp;mut self) &#45;&gt; Result&lt;(BFieldElement, BFieldElement)&gt;</text>
-<text text-anchor="start" x="3634.23" y="-3467.3" font-family="Arial" font-size="14.00">&#45; pop_secret_digest(&amp;mut self) &#45;&gt; Result&lt;[BFieldElement; tip5::DIGEST_LENGTH]&gt;</text>
+<text text-anchor="start" x="3634.23" y="-3467.3" font-family="Arial" font-size="14.00">&#45; pop_secret_digest(&amp;mut self) &#45;&gt; Result&lt;[BFieldElement; Digest::LEN]&gt;</text>
 <text text-anchor="start" x="3634.23" y="-3452.3" font-family="Arial" font-size="14.00">&#45; run(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="3634.23" y="-3437.3" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut Formatter&lt;&#39;_&gt;) &#45;&gt; FmtResult</text>
 <polygon fill="none" stroke="black" points="3621.73,-3422 3621.73,-4675 4410.73,-4675 4410.73,-3422 3621.73,-3422"/>

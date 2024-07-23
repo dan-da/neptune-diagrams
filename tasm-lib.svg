@@ -853,7 +853,7 @@
 <text text-anchor="start" x="27489" y="-737.8" font-family="Arial" font-size="14.00">&#45; test_instance: FriVerify</text>
 <polygon fill="white" stroke="transparent" points="27478,-626 27478,-723 27879,-723 27879,-626 27478,-626"/>
 <polygon fill="none" stroke="black" points="27478,-626 27478,-723 27879,-723 27879,-626 27478,-626"/>
-<text text-anchor="start" x="27489" y="-700.8" font-family="Arial" font-size="14.00">&#45; indexed_leaves_list_type() &#45;&gt; DataType</text>
+<text text-anchor="start" x="27489" y="-700.8" font-family="Arial" font-size="14.00">&#45; indexed_leafs_list_type() &#45;&gt; DataType</text>
 <text text-anchor="start" x="27489" y="-685.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="27489" y="-670.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="27489" y="-655.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
