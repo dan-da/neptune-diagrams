@@ -808,7 +808,7 @@
 <!-- ndProverRound&#45;&gt;ndFriProver -->
 <g id="edge53" class="edge">
 <title>ndProverRound&#45;&gt;ndFriProver</title>
-<path fill="none" stroke="black" d="M90.62,-248.94C90.62,-241.63 90.62,-233.34 90.62,-225.35"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M90.62,-248.94C90.62,-241.63 90.62,-233.34 90.62,-225.35"/>
 <polygon fill="black" stroke="black" points="90.62,-225.22 86.62,-219.22 90.62,-213.22 94.62,-219.22 90.62,-225.22"/>
 </g>
 <!-- ndFriVerifier -->
