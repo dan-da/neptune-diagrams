@@ -2672,17 +2672,16 @@
 <g id="node100" class="node">
 <title>ndStarkParameters</title>
 <g id="a_node100_108"><a xlink:href="https://github.com/TritonVM/tasm-lang/blob/master/src/tests_and_benchmarks/ozk/programs/recufier/stark_parameters.rs#:~:text=struct%20StarkParameters" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7224.43,-3282 7224.43,-3319 7521.43,-3319 7521.43,-3282 7224.43,-3282"/>
-<polygon fill="none" stroke="black" points="7224.43,-3282 7224.43,-3319 7521.43,-3319 7521.43,-3282 7224.43,-3282"/>
-<text text-anchor="start" x="7318.43" y="-3297.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
-<polygon fill="white" stroke="transparent" points="7224.43,-3185 7224.43,-3282 7521.43,-3282 7521.43,-3185 7224.43,-3185"/>
-<polygon fill="none" stroke="black" points="7224.43,-3185 7224.43,-3282 7521.43,-3282 7521.43,-3185 7224.43,-3185"/>
-<text text-anchor="start" x="7235.43" y="-3259.8" font-family="Arial" font-size="14.00">+ security_level: usize</text>
-<text text-anchor="start" x="7235.43" y="-3244.8" font-family="Arial" font-size="14.00">+ fri_expansion_factor: usize</text>
-<text text-anchor="start" x="7235.43" y="-3229.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
-<text text-anchor="start" x="7235.43" y="-3214.8" font-family="Arial" font-size="14.00">+ num_collinearity_checks: usize</text>
-<text text-anchor="start" x="7235.43" y="-3199.8" font-family="Arial" font-size="14.00">+ num_combination_codeword_checks: usize</text>
-<polygon fill="none" stroke="black" points="7222.93,-3184 7222.93,-3320 7521.93,-3320 7521.93,-3184 7222.93,-3184"/>
+<polygon fill="lightblue" stroke="transparent" points="7262.43,-3274 7262.43,-3311 7483.43,-3311 7483.43,-3274 7262.43,-3274"/>
+<polygon fill="none" stroke="black" points="7262.43,-3274 7262.43,-3311 7483.43,-3311 7483.43,-3274 7262.43,-3274"/>
+<text text-anchor="start" x="7318.43" y="-3289.8" font-family="Arial" font-weight="bold" font-size="14.00">StarkParameters</text>
+<polygon fill="white" stroke="transparent" points="7262.43,-3192 7262.43,-3274 7483.43,-3274 7483.43,-3192 7262.43,-3192"/>
+<polygon fill="none" stroke="black" points="7262.43,-3192 7262.43,-3274 7483.43,-3274 7483.43,-3192 7262.43,-3192"/>
+<text text-anchor="start" x="7273.43" y="-3251.8" font-family="Arial" font-size="14.00">+ security_level: usize</text>
+<text text-anchor="start" x="7273.43" y="-3236.8" font-family="Arial" font-size="14.00">+ fri_expansion_factor: usize</text>
+<text text-anchor="start" x="7273.43" y="-3221.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
+<text text-anchor="start" x="7273.43" y="-3206.8" font-family="Arial" font-size="14.00">+ num_collinearity_checks: usize</text>
+<polygon fill="none" stroke="black" points="7260.93,-3191.5 7260.93,-3312.5 7483.93,-3312.5 7483.93,-3191.5 7260.93,-3191.5"/>
 </a>
 </g>
 </g>
@@ -2707,8 +2706,8 @@
 <!-- ndFriVerify&#45;&gt;ndStarkParameters -->
 <g id="edge154" class="edge">
 <title>ndFriVerify&#45;&gt;ndStarkParameters</title>
-<path fill="none" stroke="black" d="M7372.43,-3374.96C7372.43,-3361.77 7372.43,-3347.89 7372.43,-3334.42"/>
-<polygon fill="black" stroke="black" points="7372.43,-3324.22 7376.93,-3334.22 7372.43,-3329.22 7372.43,-3334.22 7372.43,-3334.22 7372.43,-3334.22 7372.43,-3329.22 7367.93,-3334.22 7372.43,-3324.22 7372.43,-3324.22"/>
+<path fill="none" stroke="black" d="M7372.43,-3374.96C7372.43,-3359.26 7372.43,-3342.6 7372.43,-3326.8"/>
+<polygon fill="black" stroke="black" points="7372.43,-3316.56 7376.93,-3326.56 7372.43,-3321.56 7372.43,-3326.56 7372.43,-3326.56 7372.43,-3326.56 7372.43,-3321.56 7367.93,-3326.56 7372.43,-3316.56 7372.43,-3316.56"/>
 </g>
 <!-- ndFriVerify&#45;&gt;ndFriVerify -->
 <g id="edge155" class="edge">
