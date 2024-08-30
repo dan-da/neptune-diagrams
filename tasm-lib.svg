@@ -2775,17 +2775,18 @@
 <g id="node36" class="node">
 <title>ndTasmObject</title>
 <g id="a_node36_74"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/structure/tasm_object.rs#:~:text=trait%20TasmObject" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="38403,-1558.5 38403,-1595.5 39074,-1595.5 39074,-1558.5 38403,-1558.5"/>
-<polygon fill="none" stroke="black" points="38403,-1558.5 38403,-1595.5 39074,-1595.5 39074,-1558.5 38403,-1558.5"/>
-<text text-anchor="start" x="38699" y="-1574.3" font-family="Arial" font-weight="bold" font-size="14.00">TasmObject</text>
-<polygon fill="white" stroke="transparent" points="38403,-1461.5 38403,-1558.5 39074,-1558.5 39074,-1461.5 38403,-1461.5"/>
-<polygon fill="none" stroke="black" points="38403,-1461.5 38403,-1558.5 39074,-1558.5 39074,-1461.5 38403,-1461.5"/>
-<text text-anchor="start" x="38414" y="-1536.3" font-family="Arial" font-size="14.00">get_field(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="38414" y="-1521.3" font-family="Arial" font-size="14.00">get_field_with_size(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="38414" y="-1506.3" font-family="Arial" font-size="14.00">get_field_start_with_jump_distance(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="38414" y="-1491.3" font-family="Arial" font-size="14.00">decode_iter(&amp;mut Itr) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
-<text text-anchor="start" x="38414" y="-1476.3" font-family="Arial" font-size="14.00">decode_from_memory(&amp;HashMap&lt;BFieldElement, BFieldElement&gt;, BFieldElement) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
-<polygon fill="none" stroke="black" points="38401.5,-1460.5 38401.5,-1596.5 39074.5,-1596.5 39074.5,-1460.5 38401.5,-1460.5"/>
+<polygon fill="lightgreen" stroke="transparent" points="38403,-1565.5 38403,-1602.5 39074,-1602.5 39074,-1565.5 38403,-1565.5"/>
+<polygon fill="none" stroke="black" points="38403,-1565.5 38403,-1602.5 39074,-1602.5 39074,-1565.5 38403,-1565.5"/>
+<text text-anchor="start" x="38699" y="-1581.3" font-family="Arial" font-weight="bold" font-size="14.00">TasmObject</text>
+<polygon fill="white" stroke="transparent" points="38403,-1453.5 38403,-1565.5 39074,-1565.5 39074,-1453.5 38403,-1453.5"/>
+<polygon fill="none" stroke="black" points="38403,-1453.5 38403,-1565.5 39074,-1565.5 39074,-1453.5 38403,-1453.5"/>
+<text text-anchor="start" x="38414" y="-1543.3" font-family="Arial" font-size="14.00">get_field(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="38414" y="-1528.3" font-family="Arial" font-size="14.00">get_field_with_size(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="38414" y="-1513.3" font-family="Arial" font-size="14.00">get_field_start_with_jump_distance(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="38414" y="-1498.3" font-family="Arial" font-size="14.00">get_encoding_length() &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="38414" y="-1483.3" font-family="Arial" font-size="14.00">decode_iter(&amp;mut Itr) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
+<text text-anchor="start" x="38414" y="-1468.3" font-family="Arial" font-size="14.00">decode_from_memory(&amp;HashMap&lt;BFieldElement, BFieldElement&gt;, BFieldElement) &#45;&gt; Result&lt;Box&lt;Self&gt;&gt;</text>
+<polygon fill="none" stroke="black" points="38401.5,-1453 38401.5,-1604 39074.5,-1604 39074.5,-1453 38401.5,-1453"/>
 </a>
 </g>
 </g>
