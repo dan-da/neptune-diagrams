@@ -697,27 +697,28 @@
 <g id="node48" class="node">
 <title>ndVerifyNdSiIntegrity</title>
 <g id="a_node48_22"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/structure/verify_nd_si_integrity.rs#:~:text=struct%20VerifyNdSiIntegrity" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="21319.74,-776 21319.74,-813 21720.74,-813 21720.74,-776 21319.74,-776"/>
-<polygon fill="none" stroke="black" points="21319.74,-776 21319.74,-813 21720.74,-813 21720.74,-776 21319.74,-776"/>
-<text text-anchor="start" x="21459.74" y="-791.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyNdSiIntegrity</text>
-<polygon fill="white" stroke="transparent" points="21319.74,-739 21319.74,-776 21720.74,-776 21720.74,-739 21319.74,-739"/>
-<polygon fill="none" stroke="black" points="21319.74,-739 21319.74,-776 21720.74,-776 21720.74,-739 21319.74,-739"/>
-<text text-anchor="start" x="21330.74" y="-753.8" font-family="Arial" font-size="14.00">&#45; _phantom_data: PhantomData&lt;T&gt;</text>
-<polygon fill="white" stroke="transparent" points="21319.74,-657 21319.74,-739 21720.74,-739 21720.74,-657 21319.74,-657"/>
-<polygon fill="none" stroke="black" points="21319.74,-657 21319.74,-739 21720.74,-739 21720.74,-657 21319.74,-657"/>
-<text text-anchor="start" x="21330.74" y="-716.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="21330.74" y="-701.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="21330.74" y="-686.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
-<text text-anchor="start" x="21330.74" y="-671.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<polygon fill="none" stroke="black" points="21318.24,-656 21318.24,-814 21721.24,-814 21721.24,-656 21318.24,-656"/>
+<polygon fill="lightblue" stroke="transparent" points="21319.74,-783 21319.74,-820 21720.74,-820 21720.74,-783 21319.74,-783"/>
+<polygon fill="none" stroke="black" points="21319.74,-783 21319.74,-820 21720.74,-820 21720.74,-783 21319.74,-783"/>
+<text text-anchor="start" x="21459.74" y="-798.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyNdSiIntegrity</text>
+<polygon fill="white" stroke="transparent" points="21319.74,-746 21319.74,-783 21720.74,-783 21720.74,-746 21319.74,-746"/>
+<polygon fill="none" stroke="black" points="21319.74,-746 21319.74,-783 21720.74,-783 21720.74,-746 21319.74,-746"/>
+<text text-anchor="start" x="21330.74" y="-760.8" font-family="Arial" font-size="14.00">&#45; _phantom_data: PhantomData&lt;PreloadedData&gt;</text>
+<polygon fill="white" stroke="transparent" points="21319.74,-649 21319.74,-746 21720.74,-746 21720.74,-649 21319.74,-649"/>
+<polygon fill="none" stroke="black" points="21319.74,-649 21319.74,-746 21720.74,-746 21720.74,-649 21319.74,-649"/>
+<text text-anchor="start" x="21330.74" y="-723.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<text text-anchor="start" x="21330.74" y="-708.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="21330.74" y="-693.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="21330.74" y="-678.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
+<text text-anchor="start" x="21330.74" y="-663.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<polygon fill="none" stroke="black" points="21318.24,-648.5 21318.24,-821.5 21721.24,-821.5 21721.24,-648.5 21318.24,-648.5"/>
 </a>
 </g>
 </g>
 <!-- ndDataType&#45;&gt;ndVerifyNdSiIntegrity -->
 <g id="edge20" class="edge">
 <title>ndDataType&#45;&gt;ndVerifyNdSiIntegrity</title>
-<path fill="none" stroke="black" d="M23295.42,-1122.73C22976.17,-1070.41 22471.7,-989.8 22033.74,-929 21902.48,-910.78 21861.17,-941.24 21737.74,-893 21696.12,-876.73 21655.11,-850.65 21620.09,-824.37"/>
-<polygon fill="black" stroke="black" points="21611.79,-818.06 21622.47,-820.53 21615.77,-821.08 21619.75,-824.11 21619.75,-824.11 21619.75,-824.11 21615.77,-821.08 21617.02,-827.69 21611.79,-818.06 21611.79,-818.06"/>
+<path fill="none" stroke="black" d="M23295.42,-1122.73C22976.17,-1070.41 22471.7,-989.8 22033.74,-929 21902.48,-910.78 21861.17,-941.24 21737.74,-893 21700,-878.25 21662.76,-855.42 21630.04,-831.71"/>
+<polygon fill="black" stroke="black" points="21621.82,-825.66 21632.54,-827.96 21625.85,-828.63 21629.87,-831.59 21629.87,-831.59 21629.87,-831.59 21625.85,-828.63 21627.21,-835.21 21621.82,-825.66 21621.82,-825.66"/>
 </g>
 <!-- ndNewRecursive -->
 <g id="node49" class="node">
@@ -749,7 +750,7 @@
 <!-- ndAirConstraintEvaluation -->
 <g id="node51" class="node">
 <title>ndAirConstraintEvaluation</title>
-<g id="a_node51_24"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintEvaluation" xlink:title="&lt;TABLE&gt;">
+<g id="a_node51_24"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintEvaluation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="30899.74,-821 30899.74,-858 31572.74,-858 31572.74,-821 30899.74,-821"/>
 <polygon fill="none" stroke="black" points="30899.74,-821 30899.74,-858 31572.74,-858 31572.74,-821 30899.74,-821"/>
 <text text-anchor="start" x="31158.74" y="-836.8" font-family="Arial" font-weight="bold" font-size="14.00">AirConstraintEvaluation</text>
@@ -781,7 +782,7 @@
 <!-- ndZerofiersInverse -->
 <g id="node54" class="node">
 <title>ndZerofiersInverse</title>
-<g id="a_node54_25"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/zerofiers_inverse.rs#:~:text=struct%20ZerofiersInverse" xlink:title="&lt;TABLE&gt;">
+<g id="a_node54_25"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/zerofiers_inverse.rs#:~:text=struct%20ZerofiersInverse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="29132.74,-798 29132.74,-835 29669.74,-835 29669.74,-798 29132.74,-798"/>
 <polygon fill="none" stroke="black" points="29132.74,-798 29132.74,-835 29669.74,-835 29669.74,-798 29132.74,-798"/>
 <text text-anchor="start" x="29348.24" y="-813.8" font-family="Arial" font-weight="bold" font-size="14.00">ZerofiersInverse</text>
@@ -810,7 +811,7 @@
 <!-- ndVerifyTableRows -->
 <g id="node56" class="node">
 <title>ndVerifyTableRows</title>
-<g id="a_node56_26"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/verify_table_rows.rs#:~:text=struct%20VerifyTableRows" xlink:title="&lt;TABLE&gt;">
+<g id="a_node56_26"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/verify_table_rows.rs#:~:text=struct%20VerifyTableRows" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="28695.74,-791 28695.74,-828 29096.74,-828 29096.74,-791 28695.74,-791"/>
 <polygon fill="none" stroke="black" points="28695.74,-791 28695.74,-828 29096.74,-828 29096.74,-791 28695.74,-791"/>
 <text text-anchor="start" x="28841.74" y="-806.8" font-family="Arial" font-weight="bold" font-size="14.00">VerifyTableRows</text>
@@ -1889,8 +1890,8 @@
 <!-- ndBasicSnippet&#45;&gt;ndVerifyNdSiIntegrity -->
 <g id="edge76" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndVerifyNdSiIntegrity</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M21688.36,-1074.78C21651.24,-1000.19 21601.17,-899.59 21565.25,-827.43"/>
-<polygon fill="none" stroke="black" points="21568.31,-825.72 21560.72,-818.33 21562.04,-828.84 21568.31,-825.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M21688.36,-1074.78C21652.45,-1002.63 21604.42,-906.13 21568.81,-834.58"/>
+<polygon fill="none" stroke="black" points="21571.9,-832.93 21564.31,-825.54 21565.63,-836.05 21571.9,-832.93"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndNewRecursive -->
 <g id="edge77" class="edge">
@@ -2709,8 +2710,8 @@
 <!-- ndLibrary&#45;&gt;ndVerifyNdSiIntegrity -->
 <g id="edge158" class="edge">
 <title>ndLibrary&#45;&gt;ndVerifyNdSiIntegrity</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27526.62,-1155.55C26913.76,-1106.76 25296.83,-983.55 23944.74,-929 23822.21,-924.06 21854.14,-931.6 21737.74,-893 21693.91,-878.46 21651.37,-851.69 21615.69,-824.31"/>
-<polygon fill="black" stroke="black" points="21607.71,-818.09 21618.36,-820.69 21611.65,-821.17 21615.6,-824.24 21615.6,-824.24 21615.6,-824.24 21611.65,-821.17 21612.83,-827.79 21607.71,-818.09 21607.71,-818.09"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M27526.62,-1155.55C26913.76,-1106.76 25296.83,-983.55 23944.74,-929 23822.21,-924.06 21854.14,-931.6 21737.74,-893 21697.95,-879.8 21659.23,-856.52 21625.73,-831.86"/>
+<polygon fill="black" stroke="black" points="21617.33,-825.56 21628.03,-827.96 21621.33,-828.56 21625.33,-831.56 21625.33,-831.56 21625.33,-831.56 21621.33,-828.56 21622.63,-835.16 21617.33,-825.56 21617.33,-825.56"/>
 </g>
 <!-- ndLibrary&#45;&gt;ndNewRecursive -->
 <g id="edge159" class="edge">
@@ -3081,7 +3082,7 @@
 <!-- ndMemoryLayout -->
 <g id="node50" class="node">
 <title>ndMemoryLayout</title>
-<g id="a_node50_87"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=enum%20MemoryLayout" xlink:title="&lt;TABLE&gt;">
+<g id="a_node50_87"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=enum%20MemoryLayout" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="30254.74,-1233 30254.74,-1270 30640.74,-1270 30640.74,-1233 30254.74,-1233"/>
 <polygon fill="none" stroke="black" points="30254.74,-1233 30254.74,-1270 30640.74,-1270 30640.74,-1233 30254.74,-1233"/>
 <text text-anchor="start" x="30398.74" y="-1248.8" font-family="Arial" font-weight="bold" font-size="14.00">MemoryLayout</text>
@@ -3115,7 +3116,7 @@
 <!-- ndAirConstraintSnippetInputs -->
 <g id="node52" class="node">
 <title>ndAirConstraintSnippetInputs</title>
-<g id="a_node52_88"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintSnippetInputs" xlink:title="&lt;TABLE&gt;">
+<g id="a_node52_88"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintSnippetInputs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="31096.74,-1207 31096.74,-1244 31374.74,-1244 31374.74,-1207 31096.74,-1207"/>
 <polygon fill="none" stroke="black" points="31096.74,-1207 31096.74,-1244 31374.74,-1244 31374.74,-1207 31096.74,-1207"/>
 <text text-anchor="start" x="31147.24" y="-1222.8" font-family="Arial" font-weight="bold" font-size="14.00">AirConstraintSnippetInputs</text>
@@ -3139,7 +3140,7 @@
 <!-- ndConstraintType -->
 <g id="node53" class="node">
 <title>ndConstraintType</title>
-<g id="a_node53_89"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/zerofiers_inverse.rs#:~:text=enum%20ConstraintType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node53_89"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/zerofiers_inverse.rs#:~:text=enum%20ConstraintType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="29340.74,-1199 29340.74,-1236 29461.74,-1236 29461.74,-1199 29340.74,-1199"/>
 <polygon fill="none" stroke="black" points="29340.74,-1199 29340.74,-1236 29461.74,-1236 29461.74,-1199 29340.74,-1199"/>
 <text text-anchor="start" x="29351.74" y="-1214.8" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintType</text>
@@ -3162,7 +3163,7 @@
 <!-- ndColumnType -->
 <g id="node55" class="node">
 <title>ndColumnType</title>
-<g id="a_node55_90"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/verify_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node55_90"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/verify_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="28843.74,-1192 28843.74,-1229 28947.74,-1229 28947.74,-1192 28843.74,-1192"/>
 <polygon fill="none" stroke="black" points="28843.74,-1192 28843.74,-1229 28947.74,-1229 28947.74,-1192 28843.74,-1192"/>
 <text text-anchor="start" x="28854.74" y="-1207.8" font-family="Arial" font-weight="bold" font-size="14.00">ColumnType</text>

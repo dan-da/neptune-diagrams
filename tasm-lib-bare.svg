@@ -402,7 +402,7 @@
 <!-- ndAirConstraintEvaluation -->
 <g id="node51" class="node">
 <title>ndAirConstraintEvaluation</title>
-<g id="a_node51_24"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintEvaluation" xlink:title="&lt;TABLE&gt;">
+<g id="a_node51_24"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintEvaluation" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="7913.47,-170.5 7913.47,-207.5 8090.47,-207.5 8090.47,-170.5 7913.47,-170.5"/>
 <polygon fill="none" stroke="black" points="7913.47,-170.5 7913.47,-207.5 8090.47,-207.5 8090.47,-170.5 7913.47,-170.5"/>
 <text text-anchor="start" x="7924.47" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">AirConstraintEvaluation</text>
@@ -419,7 +419,7 @@
 <!-- ndZerofiersInverse -->
 <g id="node54" class="node">
 <title>ndZerofiersInverse</title>
-<g id="a_node54_25"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/zerofiers_inverse.rs#:~:text=struct%20ZerofiersInverse" xlink:title="&lt;TABLE&gt;">
+<g id="a_node54_25"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/zerofiers_inverse.rs#:~:text=struct%20ZerofiersInverse" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="7418.47,-170.5 7418.47,-207.5 7546.47,-207.5 7546.47,-170.5 7418.47,-170.5"/>
 <polygon fill="none" stroke="black" points="7418.47,-170.5 7418.47,-207.5 7546.47,-207.5 7546.47,-170.5 7418.47,-170.5"/>
 <text text-anchor="start" x="7429.47" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">ZerofiersInverse</text>
@@ -436,7 +436,7 @@
 <!-- ndVerifyTableRows -->
 <g id="node56" class="node">
 <title>ndVerifyTableRows</title>
-<g id="a_node56_26"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/verify_table_rows.rs#:~:text=struct%20VerifyTableRows" xlink:title="&lt;TABLE&gt;">
+<g id="a_node56_26"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/verify_table_rows.rs#:~:text=struct%20VerifyTableRows" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="7251.47,-170.5 7251.47,-207.5 7382.47,-207.5 7382.47,-170.5 7251.47,-170.5"/>
 <polygon fill="none" stroke="black" points="7251.47,-170.5 7251.47,-207.5 7382.47,-207.5 7382.47,-170.5 7251.47,-170.5"/>
 <text text-anchor="start" x="7262.47" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">VerifyTableRows</text>
@@ -2157,7 +2157,7 @@
 <!-- ndMemoryLayout -->
 <g id="node50" class="node">
 <title>ndMemoryLayout</title>
-<g id="a_node50_87"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=enum%20MemoryLayout" xlink:title="&lt;TABLE&gt;">
+<g id="a_node50_87"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=enum%20MemoryLayout" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="7662.47,-253.5 7662.47,-290.5 7782.47,-290.5 7782.47,-253.5 7662.47,-253.5"/>
 <polygon fill="none" stroke="black" points="7662.47,-253.5 7662.47,-290.5 7782.47,-290.5 7782.47,-253.5 7662.47,-253.5"/>
 <text text-anchor="start" x="7673.47" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">MemoryLayout</text>
@@ -2180,7 +2180,7 @@
 <!-- ndAirConstraintSnippetInputs -->
 <g id="node52" class="node">
 <title>ndAirConstraintSnippetInputs</title>
-<g id="a_node52_88"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintSnippetInputs" xlink:title="&lt;TABLE&gt;">
+<g id="a_node52_88"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/air_constraint_evaluation.rs#:~:text=struct%20AirConstraintSnippetInputs" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="7902.47,-253.5 7902.47,-290.5 8101.47,-290.5 8101.47,-253.5 7902.47,-253.5"/>
 <polygon fill="none" stroke="black" points="7902.47,-253.5 7902.47,-290.5 8101.47,-290.5 8101.47,-253.5 7902.47,-253.5"/>
 <text text-anchor="start" x="7913.47" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">AirConstraintSnippetInputs</text>
@@ -2197,7 +2197,7 @@
 <!-- ndConstraintType -->
 <g id="node53" class="node">
 <title>ndConstraintType</title>
-<g id="a_node53_89"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/zerofiers_inverse.rs#:~:text=enum%20ConstraintType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node53_89"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/zerofiers_inverse.rs#:~:text=enum%20ConstraintType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="7422.47,-253.5 7422.47,-290.5 7543.47,-290.5 7543.47,-253.5 7422.47,-253.5"/>
 <polygon fill="none" stroke="black" points="7422.47,-253.5 7422.47,-290.5 7543.47,-290.5 7543.47,-253.5 7422.47,-253.5"/>
 <text text-anchor="start" x="7433.47" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ConstraintType</text>
@@ -2214,7 +2214,7 @@
 <!-- ndColumnType -->
 <g id="node55" class="node">
 <title>ndColumnType</title>
-<g id="a_node55_90"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_aux_table/verify_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
+<g id="a_node55_90"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/verifier/master_table/verify_table_rows.rs#:~:text=enum%20ColumnType" xlink:title="&lt;TABLE&gt;">
 <polygon fill="yellow" stroke="transparent" points="7264.47,-253.5 7264.47,-290.5 7368.47,-290.5 7368.47,-253.5 7264.47,-253.5"/>
 <polygon fill="none" stroke="black" points="7264.47,-253.5 7264.47,-290.5 7368.47,-290.5 7368.47,-253.5 7264.47,-253.5"/>
 <text text-anchor="start" x="7275.47" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">ColumnType</text>

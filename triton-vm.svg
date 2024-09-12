@@ -78,7 +78,7 @@
 <text text-anchor="start" x="2545" y="-626.3" font-family="Arial" font-size="14.00">&#45; all_table_lengths(&amp;self) &#45;&gt; [usize; TableId::COUNT]</text>
 <text text-anchor="start" x="2545" y="-611.3" font-family="Arial" font-size="14.00">&#45; extend(&amp;self, challenges: &amp;Challenges) &#45;&gt; MasterAuxTable</text>
 <text text-anchor="start" x="2545" y="-596.3" font-family="Arial" font-size="14.00">&#45; all_extend_functions() &#45;&gt; [ExtendFunction; TableId::COUNT]</text>
-<text text-anchor="start" x="2545" y="-581.3" font-family="Arial" font-size="14.00">&#45; base_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;BFieldElement&gt;; TableId::COUNT]</text>
+<text text-anchor="start" x="2545" y="-581.3" font-family="Arial" font-size="14.00">&#45; main_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;BFieldElement&gt;; TableId::COUNT]</text>
 <text text-anchor="start" x="2545" y="-566.3" font-family="Arial" font-size="14.00">&#45; column_indices_for_table(id: TableId) &#45;&gt; Range&lt;usize&gt;</text>
 <text text-anchor="start" x="2545" y="-551.3" font-family="Arial" font-size="14.00">&#45; table(&amp;self, table_id: TableId) &#45;&gt; ArrayView2&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="2545" y="-536.3" font-family="Arial" font-size="14.00">&#45; table_mut(&amp;mut self, table_id: TableId) &#45;&gt; ArrayViewMut2&lt;BFieldElement&gt;</text>
@@ -318,7 +318,7 @@
 <polygon fill="white" stroke="transparent" points="3402,-1900.5 3402,-2132.5 3710,-2132.5 3710,-1900.5 3402,-1900.5"/>
 <polygon fill="none" stroke="black" points="3402,-1900.5 3402,-2132.5 3710,-2132.5 3710,-1900.5 3402,-1900.5"/>
 <text text-anchor="start" x="3413" y="-2110.3" font-family="Arial" font-size="14.00">OutOfDomainQuotientValueMismatch</text>
-<text text-anchor="start" x="3413" y="-2095.3" font-family="Arial" font-size="14.00">BaseCodewordAuthenticationFailure</text>
+<text text-anchor="start" x="3413" y="-2095.3" font-family="Arial" font-size="14.00">MainCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="3413" y="-2080.3" font-family="Arial" font-size="14.00">AuxiliaryCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="3413" y="-2065.3" font-family="Arial" font-size="14.00">QuotientCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="3413" y="-2050.3" font-family="Arial" font-size="14.00">CombinationCodewordMismatch</text>
@@ -326,7 +326,7 @@
 <text text-anchor="start" x="3413" y="-2020.3" font-family="Arial" font-size="14.00">IncorrectNumberOfFRIValues</text>
 <text text-anchor="start" x="3413" y="-2005.3" font-family="Arial" font-size="14.00">IncorrectNumberOfQuotientSegmentElements</text>
 <text text-anchor="start" x="3413" y="-1990.3" font-family="Arial" font-size="14.00">IncorrectNumberOfMainTableRows</text>
-<text text-anchor="start" x="3413" y="-1975.3" font-family="Arial" font-size="14.00">IncorrectNumberOfExtTableRows</text>
+<text text-anchor="start" x="3413" y="-1975.3" font-family="Arial" font-size="14.00">IncorrectNumberOfAuxTableRows</text>
 <text text-anchor="start" x="3413" y="-1960.3" font-family="Arial" font-size="14.00">ProofStreamError(ProofStreamError)</text>
 <text text-anchor="start" x="3413" y="-1945.3" font-family="Arial" font-size="14.00">ArithmeticDomainError(ArithmeticDomainError)</text>
 <text text-anchor="start" x="3413" y="-1930.3" font-family="Arial" font-size="14.00">FriSetupError(FriSetupError)</text>
@@ -1270,7 +1270,7 @@
 <polygon fill="white" stroke="transparent" points="22,-761.5 22,-813.5 350,-813.5 350,-761.5 22,-761.5"/>
 <polygon fill="none" stroke="black" points="22,-761.5 22,-813.5 350,-813.5 350,-761.5 22,-761.5"/>
 <text text-anchor="start" x="33" y="-791.3" font-family="Arial" font-size="14.00">&#45; sample(proof_stream: &amp;mut ProofStream) &#45;&gt; Self</text>
-<text text-anchor="start" x="33" y="-776.3" font-family="Arial" font-size="14.00">&#45; base_and_ext(&amp;self) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="33" y="-776.3" font-family="Arial" font-size="14.00">&#45; main_and_aux(&amp;self) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
 <polygon fill="none" stroke="black" points="21,-761 21,-934 351,-934 351,-761 21,-761"/>
 </a>
 </g>

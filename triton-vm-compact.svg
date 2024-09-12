@@ -247,7 +247,7 @@
 <polygon fill="white" stroke="transparent" points="1796.5,-739.5 1796.5,-971.5 2104.5,-971.5 2104.5,-739.5 1796.5,-739.5"/>
 <polygon fill="none" stroke="black" points="1796.5,-739.5 1796.5,-971.5 2104.5,-971.5 2104.5,-739.5 1796.5,-739.5"/>
 <text text-anchor="start" x="1807.5" y="-949.3" font-family="Arial" font-size="14.00">OutOfDomainQuotientValueMismatch</text>
-<text text-anchor="start" x="1807.5" y="-934.3" font-family="Arial" font-size="14.00">BaseCodewordAuthenticationFailure</text>
+<text text-anchor="start" x="1807.5" y="-934.3" font-family="Arial" font-size="14.00">MainCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="1807.5" y="-919.3" font-family="Arial" font-size="14.00">AuxiliaryCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="1807.5" y="-904.3" font-family="Arial" font-size="14.00">QuotientCodewordAuthenticationFailure</text>
 <text text-anchor="start" x="1807.5" y="-889.3" font-family="Arial" font-size="14.00">CombinationCodewordMismatch</text>
@@ -255,7 +255,7 @@
 <text text-anchor="start" x="1807.5" y="-859.3" font-family="Arial" font-size="14.00">IncorrectNumberOfFRIValues</text>
 <text text-anchor="start" x="1807.5" y="-844.3" font-family="Arial" font-size="14.00">IncorrectNumberOfQuotientSegmentElements</text>
 <text text-anchor="start" x="1807.5" y="-829.3" font-family="Arial" font-size="14.00">IncorrectNumberOfMainTableRows</text>
-<text text-anchor="start" x="1807.5" y="-814.3" font-family="Arial" font-size="14.00">IncorrectNumberOfExtTableRows</text>
+<text text-anchor="start" x="1807.5" y="-814.3" font-family="Arial" font-size="14.00">IncorrectNumberOfAuxTableRows</text>
 <text text-anchor="start" x="1807.5" y="-799.3" font-family="Arial" font-size="14.00">ProofStreamError(ProofStreamError)</text>
 <text text-anchor="start" x="1807.5" y="-784.3" font-family="Arial" font-size="14.00">ArithmeticDomainError(ArithmeticDomainError)</text>
 <text text-anchor="start" x="1807.5" y="-769.3" font-family="Arial" font-size="14.00">FriSetupError(FriSetupError)</text>
