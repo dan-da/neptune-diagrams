@@ -525,9 +525,9 @@
 <polygon fill="none" stroke="black" points="2655.5,-1625 2655.5,-1722 2965.5,-1722 2965.5,-1625 2655.5,-1625"/>
 <text text-anchor="start" x="2666.5" y="-1699.8" font-family="Arial" font-size="14.00">SpongeStateReset</text>
 <text text-anchor="start" x="2666.5" y="-1684.8" font-family="Arial" font-size="14.00">Tip5Trace(Instruction, Box&lt;PermutationTrace&gt;)</text>
-<text text-anchor="start" x="2666.5" y="-1669.8" font-family="Arial" font-size="14.00">U32Call(U32TableEntry)</text>
-<text text-anchor="start" x="2666.5" y="-1654.8" font-family="Arial" font-size="14.00">OpStackCall(OpStackTableEntry)</text>
-<text text-anchor="start" x="2666.5" y="-1639.8" font-family="Arial" font-size="14.00">RamCall(RamTableCall)</text>
+<text text-anchor="start" x="2666.5" y="-1669.8" font-family="Arial" font-size="14.00">U32(U32TableEntry)</text>
+<text text-anchor="start" x="2666.5" y="-1654.8" font-family="Arial" font-size="14.00">OpStack(OpStackTableEntry)</text>
+<text text-anchor="start" x="2666.5" y="-1639.8" font-family="Arial" font-size="14.00">Ram(RamTableCall)</text>
 <polygon fill="none" stroke="black" points="2654.5,-1624 2654.5,-1760 2966.5,-1760 2966.5,-1624 2654.5,-1624"/>
 </a>
 </g>

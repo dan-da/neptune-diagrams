@@ -732,9 +732,9 @@
 <polygon fill="none" stroke="black" points="4382,-4258.5 4382,-4355.5 4692,-4355.5 4692,-4258.5 4382,-4258.5"/>
 <text text-anchor="start" x="4393" y="-4333.3" font-family="Arial" font-size="14.00">SpongeStateReset</text>
 <text text-anchor="start" x="4393" y="-4318.3" font-family="Arial" font-size="14.00">Tip5Trace(Instruction, Box&lt;PermutationTrace&gt;)</text>
-<text text-anchor="start" x="4393" y="-4303.3" font-family="Arial" font-size="14.00">U32Call(U32TableEntry)</text>
-<text text-anchor="start" x="4393" y="-4288.3" font-family="Arial" font-size="14.00">OpStackCall(OpStackTableEntry)</text>
-<text text-anchor="start" x="4393" y="-4273.3" font-family="Arial" font-size="14.00">RamCall(RamTableCall)</text>
+<text text-anchor="start" x="4393" y="-4303.3" font-family="Arial" font-size="14.00">U32(U32TableEntry)</text>
+<text text-anchor="start" x="4393" y="-4288.3" font-family="Arial" font-size="14.00">OpStack(OpStackTableEntry)</text>
+<text text-anchor="start" x="4393" y="-4273.3" font-family="Arial" font-size="14.00">Ram(RamTableCall)</text>
 <polygon fill="none" stroke="black" points="4381,-4257.5 4381,-4393.5 4693,-4393.5 4693,-4257.5 4381,-4257.5"/>
 </a>
 </g>
@@ -755,33 +755,34 @@
 <g id="node13" class="node">
 <title>ndPublicInput</title>
 <g id="a_node13_20"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/vm.rs#:~:text=struct%20PublicInput" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5166,-4373.5 5166,-4410.5 5516,-4410.5 5516,-4373.5 5166,-4373.5"/>
-<polygon fill="none" stroke="black" points="5166,-4373.5 5166,-4410.5 5516,-4410.5 5516,-4373.5 5166,-4373.5"/>
-<text text-anchor="start" x="5304" y="-4389.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicInput</text>
-<polygon fill="white" stroke="transparent" points="5166,-4336.5 5166,-4373.5 5516,-4373.5 5516,-4336.5 5166,-4336.5"/>
-<polygon fill="none" stroke="black" points="5166,-4336.5 5166,-4373.5 5516,-4373.5 5516,-4336.5 5166,-4336.5"/>
-<text text-anchor="start" x="5177" y="-4351.3" font-family="Arial" font-size="14.00">+ individual_tokens: Vec&lt;BFieldElement&gt;</text>
-<polygon fill="white" stroke="transparent" points="5166,-4239.5 5166,-4336.5 5516,-4336.5 5516,-4239.5 5166,-4239.5"/>
-<polygon fill="none" stroke="black" points="5166,-4239.5 5166,-4336.5 5516,-4336.5 5516,-4239.5 5166,-4239.5"/>
-<text text-anchor="start" x="5177" y="-4314.3" font-family="Arial" font-size="14.00">&#45; from(individual_tokens: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="5177" y="-4299.3" font-family="Arial" font-size="14.00">&#45; from(tokens: &amp;Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="5177" y="-4284.3" font-family="Arial" font-size="14.00">&#45; from(tokens: [BFieldElement; N]) &#45;&gt; Self</text>
-<text text-anchor="start" x="5177" y="-4269.3" font-family="Arial" font-size="14.00">&#45; from(tokens: &amp;[BFieldElement]) &#45;&gt; Self</text>
-<text text-anchor="start" x="5177" y="-4254.3" font-family="Arial" font-size="14.00">&#45; new(individual_tokens: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="5165,-4239 5165,-4412 5517,-4412 5517,-4239 5165,-4239"/>
+<polygon fill="lightblue" stroke="transparent" points="5166,-4381.5 5166,-4418.5 5516,-4418.5 5516,-4381.5 5166,-4381.5"/>
+<polygon fill="none" stroke="black" points="5166,-4381.5 5166,-4418.5 5516,-4418.5 5516,-4381.5 5166,-4381.5"/>
+<text text-anchor="start" x="5304" y="-4397.3" font-family="Arial" font-weight="bold" font-size="14.00">PublicInput</text>
+<polygon fill="white" stroke="transparent" points="5166,-4344.5 5166,-4381.5 5516,-4381.5 5516,-4344.5 5166,-4344.5"/>
+<polygon fill="none" stroke="black" points="5166,-4344.5 5166,-4381.5 5516,-4381.5 5516,-4344.5 5166,-4344.5"/>
+<text text-anchor="start" x="5177" y="-4359.3" font-family="Arial" font-size="14.00">+ individual_tokens: Vec&lt;BFieldElement&gt;</text>
+<polygon fill="white" stroke="transparent" points="5166,-4232.5 5166,-4344.5 5516,-4344.5 5516,-4232.5 5166,-4232.5"/>
+<polygon fill="none" stroke="black" points="5166,-4232.5 5166,-4344.5 5516,-4344.5 5516,-4232.5 5166,-4232.5"/>
+<text text-anchor="start" x="5177" y="-4322.3" font-family="Arial" font-size="14.00">&#45; from(individual_tokens: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="5177" y="-4307.3" font-family="Arial" font-size="14.00">&#45; from(tokens: &amp;Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="5177" y="-4292.3" font-family="Arial" font-size="14.00">&#45; from(tokens: [BFieldElement; N]) &#45;&gt; Self</text>
+<text text-anchor="start" x="5177" y="-4277.3" font-family="Arial" font-size="14.00">&#45; from(tokens: &amp;[BFieldElement]) &#45;&gt; Self</text>
+<text text-anchor="start" x="5177" y="-4262.3" font-family="Arial" font-size="14.00">&#45; deref(&amp;self) &#45;&gt; &amp;Self::Target</text>
+<text text-anchor="start" x="5177" y="-4247.3" font-family="Arial" font-size="14.00">&#45; new(individual_tokens: Vec&lt;BFieldElement&gt;) &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="5165,-4231.5 5165,-4419.5 5517,-4419.5 5517,-4231.5 5165,-4231.5"/>
 </a>
 </g>
 </g>
 <!-- ndPublicInput&#45;&gt;ndVMState -->
 <g id="edge27" class="edge">
 <title>ndPublicInput&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5294.78,-4235C5285.92,-4217.84 5276.04,-4198.7 5265.36,-4178.02"/>
-<polygon fill="black" stroke="black" points="5260.73,-4169.07 5269.32,-4175.89 5263.03,-4173.51 5265.32,-4177.95 5265.32,-4177.95 5265.32,-4177.95 5263.03,-4173.51 5261.32,-4180.02 5260.73,-4169.07 5260.73,-4169.07"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5290.91,-4227.5C5283.12,-4212.42 5274.62,-4195.95 5265.54,-4178.37"/>
+<polygon fill="black" stroke="black" points="5260.74,-4169.07 5269.32,-4175.89 5263.03,-4173.51 5265.32,-4177.96 5265.32,-4177.96 5265.32,-4177.96 5263.03,-4173.51 5261.33,-4180.02 5260.74,-4169.07 5260.74,-4169.07"/>
 </g>
 <!-- ndPublicInput&#45;&gt;ndProgramAndInput -->
 <g id="edge28" class="edge">
 <title>ndPublicInput&#45;&gt;ndProgramAndInput</title>
-<path fill="none" stroke="black" d="M5359.95,-4234.83C5363.71,-4213.36 5367.08,-4190.45 5369,-4169 5445.23,-3315.51 5398.28,-3097.39 5369,-2241 5368.11,-2215.02 5366.59,-2187.21 5364.87,-2160.73"/>
+<path fill="none" stroke="black" d="M5361.23,-4227.39C5364.47,-4208.13 5367.3,-4187.99 5369,-4169 5445.23,-3315.51 5398.28,-3097.39 5369,-2241 5368.11,-2215.02 5366.59,-2187.21 5364.87,-2160.73"/>
 <polygon fill="black" stroke="black" points="5364.86,-2160.64 5360.47,-2154.92 5364.07,-2148.67 5368.46,-2154.39 5364.86,-2160.64"/>
 </g>
 <!-- ndNonDeterminism -->
