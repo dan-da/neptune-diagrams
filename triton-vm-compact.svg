@@ -900,28 +900,29 @@
 <g id="node28" class="node">
 <title>ndClaim</title>
 <g id="a_node28_34"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/proof.rs#:~:text=struct%20Claim" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1273.5,-874.5 1273.5,-911.5 1480.5,-911.5 1480.5,-874.5 1273.5,-874.5"/>
-<polygon fill="none" stroke="black" points="1273.5,-874.5 1273.5,-911.5 1480.5,-911.5 1480.5,-874.5 1273.5,-874.5"/>
-<text text-anchor="start" x="1358" y="-890.3" font-family="Arial" font-weight="bold" font-size="14.00">Claim</text>
-<polygon fill="white" stroke="transparent" points="1273.5,-807.5 1273.5,-874.5 1480.5,-874.5 1480.5,-807.5 1273.5,-807.5"/>
-<polygon fill="none" stroke="black" points="1273.5,-807.5 1273.5,-874.5 1480.5,-874.5 1480.5,-807.5 1273.5,-807.5"/>
-<text text-anchor="start" x="1284.5" y="-852.3" font-family="Arial" font-size="14.00">+ program_digest: Digest</text>
-<text text-anchor="start" x="1284.5" y="-837.3" font-family="Arial" font-size="14.00">+ input: Vec&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="1284.5" y="-822.3" font-family="Arial" font-size="14.00">+ output: Vec&lt;BFieldElement&gt;</text>
-<polygon fill="none" stroke="black" points="1272,-806.5 1272,-912.5 1481,-912.5 1481,-806.5 1272,-806.5"/>
+<polygon fill="lightblue" stroke="transparent" points="1273.5,-881.5 1273.5,-918.5 1480.5,-918.5 1480.5,-881.5 1273.5,-881.5"/>
+<polygon fill="none" stroke="black" points="1273.5,-881.5 1273.5,-918.5 1480.5,-918.5 1480.5,-881.5 1273.5,-881.5"/>
+<text text-anchor="start" x="1358" y="-897.3" font-family="Arial" font-weight="bold" font-size="14.00">Claim</text>
+<polygon fill="white" stroke="transparent" points="1273.5,-799.5 1273.5,-881.5 1480.5,-881.5 1480.5,-799.5 1273.5,-799.5"/>
+<polygon fill="none" stroke="black" points="1273.5,-799.5 1273.5,-881.5 1480.5,-881.5 1480.5,-799.5 1273.5,-799.5"/>
+<text text-anchor="start" x="1284.5" y="-859.3" font-family="Arial" font-size="14.00">+ program_digest: Digest</text>
+<text text-anchor="start" x="1284.5" y="-844.3" font-family="Arial" font-size="14.00">+ version: u32</text>
+<text text-anchor="start" x="1284.5" y="-829.3" font-family="Arial" font-size="14.00">+ input: Vec&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="1284.5" y="-814.3" font-family="Arial" font-size="14.00">+ output: Vec&lt;BFieldElement&gt;</text>
+<polygon fill="none" stroke="black" points="1272,-799 1272,-920 1481,-920 1481,-799 1272,-799"/>
 </a>
 </g>
 </g>
 <!-- ndClaim&#45;&gt;ndChallenges -->
 <g id="edge44" class="edge">
 <title>ndClaim&#45;&gt;ndChallenges</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1391.77,-802.42C1405.2,-753.06 1424.6,-681.82 1437.6,-634.04"/>
-<polygon fill="black" stroke="black" points="1440.28,-624.22 1441.99,-635.05 1438.97,-629.04 1437.65,-633.87 1437.65,-633.87 1437.65,-633.87 1438.97,-629.04 1433.31,-632.68 1440.28,-624.22 1440.28,-624.22"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1393.8,-794.95C1407.11,-746.05 1425.27,-679.37 1437.63,-633.94"/>
+<polygon fill="black" stroke="black" points="1440.33,-624.02 1442.05,-634.85 1439.02,-628.84 1437.71,-633.66 1437.71,-633.66 1437.71,-633.66 1439.02,-628.84 1433.37,-632.48 1440.33,-624.02 1440.33,-624.02"/>
 </g>
 <!-- ndClaim&#45;&gt;ndStark -->
 <g id="edge45" class="edge">
 <title>ndClaim&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1339.58,-802.16C1320.21,-769.19 1298.47,-725.92 1288.5,-684 1267.52,-595.79 1271.48,-569.05 1288.5,-480 1316.78,-332.06 1321.13,-283.97 1413.5,-165 1421.47,-154.73 1430.78,-145.04 1440.72,-136.04"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1335.2,-794.59C1317.02,-762.73 1297.73,-722.78 1288.5,-684 1267.52,-595.79 1271.48,-569.05 1288.5,-480 1316.78,-332.06 1321.13,-283.97 1413.5,-165 1421.47,-154.73 1430.78,-145.04 1440.72,-136.04"/>
 <polygon fill="black" stroke="black" points="1448.44,-129.28 1443.88,-139.26 1444.67,-132.58 1440.91,-135.87 1440.91,-135.87 1440.91,-135.87 1444.67,-132.58 1437.95,-132.48 1448.44,-129.28 1448.44,-129.28"/>
 </g>
 <!-- ndProofStream&#45;&gt;ndFri -->
