@@ -959,8 +959,8 @@
 <text text-anchor="start" x="5092.24" y="-1885" font-family="Arial" font-size="14.00">&#45; par_batch_evaluate(&amp;self, domain: &amp;[FF]) &#45;&gt; Vec&lt;FF&gt;</text>
 <text text-anchor="start" x="5092.24" y="-1870" font-family="Arial" font-size="14.00">&#45; iterative_batch_evaluate(&amp;self, domain: &amp;[FF]) &#45;&gt; Vec&lt;FF&gt;</text>
 <text text-anchor="start" x="5092.24" y="-1855" font-family="Arial" font-size="14.00">&#45; divide_and_conquer_batch_evaluate(&amp;self, zerofier_tree: &amp;ZerofierTree&lt;FF&gt;) &#45;&gt; Vec&lt;FF&gt;</text>
-<text text-anchor="start" x="5092.24" y="-1840" font-family="Arial" font-size="14.00">&#45; fast_coset_evaluate(&amp;self, offset: S, generator: BFieldElement, order: usize) &#45;&gt; Vec&lt;FF&gt;</text>
-<text text-anchor="start" x="5092.24" y="-1825" font-family="Arial" font-size="14.00">&#45; fast_coset_interpolate(offset: S, generator: BFieldElement, values: &amp;[FF]) &#45;&gt; Self</text>
+<text text-anchor="start" x="5092.24" y="-1840" font-family="Arial" font-size="14.00">&#45; fast_coset_evaluate(&amp;self, offset: S, order: usize) &#45;&gt; Vec&lt;FF&gt;</text>
+<text text-anchor="start" x="5092.24" y="-1825" font-family="Arial" font-size="14.00">&#45; fast_coset_interpolate(offset: S, values: &amp;[FF]) &#45;&gt; Self</text>
 <text text-anchor="start" x="5092.24" y="-1810" font-family="Arial" font-size="14.00">&#45; divide(&amp;self, divisor: &amp;Self) &#45;&gt; (Self, Self)</text>
 <text text-anchor="start" x="5092.24" y="-1795" font-family="Arial" font-size="14.00">&#45; formal_power_series_inverse_newton(&amp;self, precision: usize) &#45;&gt; Self</text>
 <text text-anchor="start" x="5092.24" y="-1780" font-family="Arial" font-size="14.00">&#45; formal_power_series_inverse_minimal(&amp;self, precision: usize) &#45;&gt; Self</text>
