@@ -459,7 +459,7 @@
 <text text-anchor="start" x="3151.5" y="-1542.8" font-family="Arial" font-weight="bold" font-size="14.00">VMState</text>
 <polygon fill="white" stroke="transparent" points="3000.5,-1310 3000.5,-1527 3357.5,-1527 3357.5,-1310 3000.5,-1310"/>
 <polygon fill="none" stroke="black" points="3000.5,-1310 3000.5,-1527 3357.5,-1527 3357.5,-1310 3000.5,-1310"/>
-<text text-anchor="start" x="3011.5" y="-1504.8" font-family="Arial" font-size="14.00">+ program: Vec&lt;Instruction&gt;</text>
+<text text-anchor="start" x="3011.5" y="-1504.8" font-family="Arial" font-size="14.00">+ program: Program</text>
 <text text-anchor="start" x="3011.5" y="-1489.8" font-family="Arial" font-size="14.00">+ public_input: VecDeque&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="3011.5" y="-1474.8" font-family="Arial" font-size="14.00">+ public_output: Vec&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="3011.5" y="-1459.8" font-family="Arial" font-size="14.00">+ secret_individual_tokens: VecDeque&lt;BFieldElement&gt;</text>

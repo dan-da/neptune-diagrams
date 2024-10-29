@@ -200,7 +200,7 @@
 <text text-anchor="start" x="5148" y="-1919.8" font-family="Arial" font-size="14.00">&#45; with_non_determinism(mut self, non_determinism: ND) &#45;&gt; Self</text>
 <text text-anchor="start" x="5148" y="-1904.8" font-family="Arial" font-size="14.00">&#45; public_input(&amp;self) &#45;&gt; PublicInput</text>
 <text text-anchor="start" x="5148" y="-1889.8" font-family="Arial" font-size="14.00">&#45; non_determinism(&amp;self) &#45;&gt; NonDeterminism</text>
-<text text-anchor="start" x="5148" y="-1874.8" font-family="Arial" font-size="14.00">&#45; run(&amp;self) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;, VMError&gt;</text>
+<text text-anchor="start" x="5148" y="-1874.8" font-family="Arial" font-size="14.00">&#45; run(self) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;, VMError&gt;</text>
 <polygon fill="none" stroke="black" points="5135.5,-1859 5135.5,-2077 5544.5,-2077 5544.5,-1859 5135.5,-1859"/>
 </a>
 </g>
@@ -566,7 +566,7 @@
 <text text-anchor="start" x="4882" y="-4097.8" font-family="Arial" font-weight="bold" font-size="14.00">VMState</text>
 <polygon fill="white" stroke="transparent" points="4516,-3865 4516,-4082 5303,-4082 5303,-3865 4516,-3865"/>
 <polygon fill="none" stroke="black" points="4516,-3865 4516,-4082 5303,-4082 5303,-3865 4516,-3865"/>
-<text text-anchor="start" x="4527" y="-4059.8" font-family="Arial" font-size="14.00">+ program: Vec&lt;Instruction&gt;</text>
+<text text-anchor="start" x="4527" y="-4059.8" font-family="Arial" font-size="14.00">+ program: Program</text>
 <text text-anchor="start" x="4527" y="-4044.8" font-family="Arial" font-size="14.00">+ public_input: VecDeque&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="4527" y="-4029.8" font-family="Arial" font-size="14.00">+ public_output: Vec&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="4527" y="-4014.8" font-family="Arial" font-size="14.00">+ secret_individual_tokens: VecDeque&lt;BFieldElement&gt;</text>
@@ -581,7 +581,7 @@
 <text text-anchor="start" x="4527" y="-3879.8" font-family="Arial" font-size="14.00">+ halting: bool</text>
 <polygon fill="white" stroke="transparent" points="4516,-2793 4516,-3865 5303,-3865 5303,-2793 4516,-2793"/>
 <polygon fill="none" stroke="black" points="4516,-2793 4516,-3865 5303,-3865 5303,-2793 4516,-2793"/>
-<text text-anchor="start" x="4527" y="-3842.8" font-family="Arial" font-size="14.00">&#45; new(program: &amp;Program, public_input: PublicInput, non_determinism: NonDeterminism) &#45;&gt; Self</text>
+<text text-anchor="start" x="4527" y="-3842.8" font-family="Arial" font-size="14.00">&#45; new(program: Program, public_input: PublicInput, non_determinism: NonDeterminism) &#45;&gt; Self</text>
 <text text-anchor="start" x="4527" y="-3827.8" font-family="Arial" font-size="14.00">&#45; derive_helper_variables(&amp;self) &#45;&gt; [BFieldElement; NUM_HELPER_VARIABLE_REGISTERS]</text>
 <text text-anchor="start" x="4527" y="-3812.8" font-family="Arial" font-size="14.00">&#45; decompose_opcode_for_instruction_skiz(opcode: u64) &#45;&gt; [BFieldElement; 5]</text>
 <text text-anchor="start" x="4527" y="-3797.8" font-family="Arial" font-size="14.00">&#45; step(&amp;mut self) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
