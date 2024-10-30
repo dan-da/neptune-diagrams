@@ -156,21 +156,21 @@
 <g id="node27" class="node">
 <title>ndTip5</title>
 <g id="a_node27_8"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/tip5.rs#:~:text=struct%20Tip5" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="700,-514.5 700,-551.5 954,-551.5 954,-514.5 700,-514.5"/>
-<polygon fill="none" stroke="black" points="700,-514.5 700,-551.5 954,-551.5 954,-514.5 700,-514.5"/>
-<text text-anchor="start" x="813" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5</text>
-<polygon fill="white" stroke="transparent" points="700,-477.5 700,-514.5 954,-514.5 954,-477.5 700,-477.5"/>
-<polygon fill="none" stroke="black" points="700,-477.5 700,-514.5 954,-514.5 954,-477.5 700,-477.5"/>
-<text text-anchor="start" x="711" y="-492.3" font-family="Arial" font-size="14.00">+ state: [BFieldElement; STATE_SIZE]</text>
-<polygon fill="none" stroke="black" points="699,-476.5 699,-552.5 955,-552.5 955,-476.5 699,-476.5"/>
+<polygon fill="lightblue" stroke="transparent" points="672,-514.5 672,-551.5 926,-551.5 926,-514.5 672,-514.5"/>
+<polygon fill="none" stroke="black" points="672,-514.5 672,-551.5 926,-551.5 926,-514.5 672,-514.5"/>
+<text text-anchor="start" x="785" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5</text>
+<polygon fill="white" stroke="transparent" points="672,-477.5 672,-514.5 926,-514.5 926,-477.5 672,-477.5"/>
+<polygon fill="none" stroke="black" points="672,-477.5 672,-514.5 926,-514.5 926,-477.5 672,-477.5"/>
+<text text-anchor="start" x="683" y="-492.3" font-family="Arial" font-size="14.00">+ state: [BFieldElement; STATE_SIZE]</text>
+<polygon fill="none" stroke="black" points="671,-476.5 671,-552.5 927,-552.5 927,-476.5 671,-476.5"/>
 </a>
 </g>
 </g>
 <!-- ndDomain&#45;&gt;ndTip5 -->
 <g id="edge5" class="edge">
 <title>ndDomain&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M952.99,-607.39C949.62,-604.89 946.27,-602.41 943,-600 926.46,-587.8 908.53,-574.69 891.83,-562.52"/>
-<polygon fill="black" stroke="black" points="883.74,-556.63 894.47,-558.88 887.78,-559.57 891.82,-562.51 891.82,-562.51 891.82,-562.51 887.78,-559.57 889.17,-566.15 883.74,-556.63 883.74,-556.63"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M953.69,-607.27C950.1,-604.78 946.52,-602.34 943,-600 923.35,-586.95 901.64,-573.67 881.17,-561.6"/>
+<polygon fill="black" stroke="black" points="872.48,-556.51 883.38,-557.69 876.79,-559.04 881.11,-561.57 881.11,-561.57 881.11,-561.57 876.79,-559.04 878.83,-565.45 872.48,-556.51 872.48,-556.51"/>
 </g>
 <!-- ndSponge -->
 <g id="node7" class="node">
@@ -186,8 +186,8 @@
 <!-- ndSponge&#45;&gt;ndTip5 -->
 <g id="edge6" class="edge">
 <title>ndSponge&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1129.51,-633.37C1119.61,-621.93 1106.35,-608.66 1092,-600 1044.33,-571.23 1025.08,-580.83 972,-564 967.49,-562.57 962.91,-561.11 958.29,-559.62"/>
-<polygon fill="none" stroke="black" points="959.34,-556.28 948.75,-556.53 957.18,-562.94 959.34,-556.28"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1129.93,-633.34C1120.06,-621.74 1106.69,-608.34 1092,-600 1033.14,-566.57 1009.05,-582.75 944,-564 939.03,-562.57 933.97,-561.07 928.87,-559.53"/>
+<polygon fill="none" stroke="black" points="929.61,-556.09 919.02,-556.51 927.56,-562.79 929.61,-556.09"/>
 </g>
 <!-- ndAlgebraicHasher -->
 <g id="node8" class="node">
@@ -203,8 +203,8 @@
 <!-- ndAlgebraicHasher&#45;&gt;ndTip5 -->
 <g id="edge7" class="edge">
 <title>ndAlgebraicHasher&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M696.9,-633.43C717.62,-614.65 747.83,-587.26 773.93,-563.6"/>
-<polygon fill="none" stroke="black" points="776.47,-566.03 781.53,-556.72 771.77,-560.84 776.47,-566.03"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M692.4,-633.43C709.23,-614.81 733.71,-587.73 754.97,-564.21"/>
+<polygon fill="none" stroke="black" points="757.63,-566.49 761.74,-556.72 752.44,-561.79 757.63,-566.49"/>
 </g>
 <!-- ndLeafMutation -->
 <g id="node9" class="node">
@@ -617,16 +617,16 @@
 <g id="node28" class="node">
 <title>ndModularInterpolationPreprocessingData</title>
 <g id="a_node28_30"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/polynomial.rs#:~:text=struct%20ModularInterpolationPreprocessingData" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1740,-386.5 1740,-423.5 2021,-423.5 2021,-386.5 1740,-386.5"/>
-<polygon fill="none" stroke="black" points="1740,-386.5 1740,-423.5 2021,-423.5 2021,-386.5 1740,-386.5"/>
-<text text-anchor="start" x="1751" y="-402.3" font-family="Arial" font-weight="bold" font-size="14.00">ModularInterpolationPreprocessingData</text>
-<polygon fill="white" stroke="transparent" points="1740,-304.5 1740,-386.5 2021,-386.5 2021,-304.5 1740,-304.5"/>
-<polygon fill="none" stroke="black" points="1740,-304.5 1740,-386.5 2021,-386.5 2021,-304.5 1740,-304.5"/>
-<text text-anchor="start" x="1751" y="-364.3" font-family="Arial" font-size="14.00">+ even_zerofiers: Vec&lt;Polynomial&lt;FF&gt;&gt;</text>
-<text text-anchor="start" x="1751" y="-349.3" font-family="Arial" font-size="14.00">+ odd_zerofiers: Vec&lt;Polynomial&lt;FF&gt;&gt;</text>
-<text text-anchor="start" x="1751" y="-334.3" font-family="Arial" font-size="14.00">+ shift_coefficients: Vec&lt;FF&gt;</text>
-<text text-anchor="start" x="1751" y="-319.3" font-family="Arial" font-size="14.00">+ tail_length: usize</text>
-<polygon fill="none" stroke="black" points="1738.5,-304 1738.5,-425 2021.5,-425 2021.5,-304 1738.5,-304"/>
+<polygon fill="lightblue" stroke="transparent" points="1731,-386.5 1731,-423.5 2047,-423.5 2047,-386.5 1731,-386.5"/>
+<polygon fill="none" stroke="black" points="1731,-386.5 1731,-423.5 2047,-423.5 2047,-386.5 1731,-386.5"/>
+<text text-anchor="start" x="1759.5" y="-402.3" font-family="Arial" font-weight="bold" font-size="14.00">ModularInterpolationPreprocessingData</text>
+<polygon fill="white" stroke="transparent" points="1731,-304.5 1731,-386.5 2047,-386.5 2047,-304.5 1731,-304.5"/>
+<polygon fill="none" stroke="black" points="1731,-304.5 1731,-386.5 2047,-386.5 2047,-304.5 1731,-304.5"/>
+<text text-anchor="start" x="1742" y="-364.3" font-family="Arial" font-size="14.00">+ even_zerofiers: Vec&lt;Polynomial&lt;&#39;coeffs, FF&gt;&gt;</text>
+<text text-anchor="start" x="1742" y="-349.3" font-family="Arial" font-size="14.00">+ odd_zerofiers: Vec&lt;Polynomial&lt;&#39;coeffs, FF&gt;&gt;</text>
+<text text-anchor="start" x="1742" y="-334.3" font-family="Arial" font-size="14.00">+ shift_coefficients: Vec&lt;FF&gt;</text>
+<text text-anchor="start" x="1742" y="-319.3" font-family="Arial" font-size="14.00">+ tail_length: usize</text>
+<polygon fill="none" stroke="black" points="1730,-304 1730,-425 2048,-425 2048,-304 1730,-304"/>
 </a>
 </g>
 </g>
@@ -634,91 +634,91 @@
 <g id="node29" class="node">
 <title>ndPolynomial</title>
 <g id="a_node29_31"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/polynomial.rs#:~:text=struct%20Polynomial" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1705,-514.5 1705,-551.5 1870,-551.5 1870,-514.5 1705,-514.5"/>
-<polygon fill="none" stroke="black" points="1705,-514.5 1705,-551.5 1870,-551.5 1870,-514.5 1705,-514.5"/>
-<text text-anchor="start" x="1751" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">Polynomial</text>
-<polygon fill="white" stroke="transparent" points="1705,-477.5 1705,-514.5 1870,-514.5 1870,-477.5 1705,-477.5"/>
-<polygon fill="none" stroke="black" points="1705,-477.5 1705,-514.5 1870,-514.5 1870,-477.5 1705,-477.5"/>
-<text text-anchor="start" x="1716" y="-492.3" font-family="Arial" font-size="14.00">+ coefficients: Vec&lt;FF&gt;</text>
-<polygon fill="none" stroke="black" points="1703.5,-476.5 1703.5,-552.5 1870.5,-552.5 1870.5,-476.5 1703.5,-476.5"/>
+<polygon fill="lightblue" stroke="transparent" points="1677,-514.5 1677,-551.5 1897,-551.5 1897,-514.5 1677,-514.5"/>
+<polygon fill="none" stroke="black" points="1677,-514.5 1677,-551.5 1897,-551.5 1897,-514.5 1677,-514.5"/>
+<text text-anchor="start" x="1750.5" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">Polynomial</text>
+<polygon fill="white" stroke="transparent" points="1677,-477.5 1677,-514.5 1897,-514.5 1897,-477.5 1677,-477.5"/>
+<polygon fill="none" stroke="black" points="1677,-477.5 1677,-514.5 1897,-514.5 1897,-477.5 1677,-477.5"/>
+<text text-anchor="start" x="1688" y="-492.3" font-family="Arial" font-size="14.00">&#45; coefficients: Cow&lt;&#39;coeffs, [FF]&gt;</text>
+<polygon fill="none" stroke="black" points="1676,-476.5 1676,-552.5 1898,-552.5 1898,-476.5 1676,-476.5"/>
 </a>
 </g>
 </g>
 <!-- ndModularInterpolationPreprocessingData&#45;&gt;ndPolynomial -->
 <g id="edge33" class="edge">
 <title>ndModularInterpolationPreprocessingData&#45;&gt;ndPolynomial</title>
-<path fill="none" stroke="black" d="M1846.65,-429.22C1839.55,-440.73 1832.02,-452.57 1824.77,-463.61"/>
-<polygon fill="black" stroke="black" points="1819.03,-472.27 1820.8,-461.45 1821.79,-468.11 1824.55,-463.94 1824.55,-463.94 1824.55,-463.94 1821.79,-468.11 1828.3,-466.42 1819.03,-472.27 1819.03,-472.27"/>
+<path fill="none" stroke="black" d="M1851.77,-429.22C1843.9,-440.84 1835.56,-452.81 1827.57,-463.94"/>
+<polygon fill="black" stroke="black" points="1821.54,-472.27 1823.75,-461.53 1824.47,-468.22 1827.4,-464.17 1827.4,-464.17 1827.4,-464.17 1824.47,-468.22 1831.04,-466.81 1821.54,-472.27 1821.54,-472.27"/>
 </g>
 <!-- ndPolynomial&#45;&gt;ndModularInterpolationPreprocessingData -->
 <g id="edge34" class="edge">
 <title>ndPolynomial&#45;&gt;ndModularInterpolationPreprocessingData</title>
-<path fill="none" stroke="black" d="M1806.78,-472.27C1812.78,-462.06 1819.65,-450.8 1826.73,-439.54"/>
-<polygon fill="black" stroke="black" points="1826.84,-439.36 1826.67,-432.15 1833.26,-429.22 1833.43,-436.43 1826.84,-439.36"/>
+<path fill="none" stroke="black" d="M1809.29,-472.27C1815.98,-461.95 1823.62,-450.57 1831.46,-439.19"/>
+<polygon fill="black" stroke="black" points="1831.54,-439.08 1831.68,-431.87 1838.39,-429.22 1838.25,-436.43 1831.54,-439.08"/>
 </g>
 <!-- ndLeaf -->
 <g id="node33" class="node">
 <title>ndLeaf</title>
 <g id="a_node33_32"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/zerofier_tree.rs#:~:text=struct%20Leaf" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2057,-371.5 2057,-408.5 2240,-408.5 2240,-371.5 2057,-371.5"/>
-<polygon fill="none" stroke="black" points="2057,-371.5 2057,-408.5 2240,-408.5 2240,-371.5 2057,-371.5"/>
-<text text-anchor="start" x="2134.5" y="-387.3" font-family="Arial" font-weight="bold" font-size="14.00">Leaf</text>
-<polygon fill="white" stroke="transparent" points="2057,-319.5 2057,-371.5 2240,-371.5 2240,-319.5 2057,-319.5"/>
-<polygon fill="none" stroke="black" points="2057,-319.5 2057,-371.5 2240,-371.5 2240,-319.5 2057,-319.5"/>
-<text text-anchor="start" x="2068" y="-349.3" font-family="Arial" font-size="14.00">&#45; points: Vec&lt;FF&gt;</text>
-<text text-anchor="start" x="2068" y="-334.3" font-family="Arial" font-size="14.00">&#45; zerofier: Polynomial&lt;FF&gt;</text>
-<polygon fill="none" stroke="black" points="2055.5,-319 2055.5,-410 2240.5,-410 2240.5,-319 2055.5,-319"/>
+<polygon fill="lightblue" stroke="transparent" points="2083,-371.5 2083,-408.5 2283,-408.5 2283,-371.5 2083,-371.5"/>
+<polygon fill="none" stroke="black" points="2083,-371.5 2083,-408.5 2283,-408.5 2283,-371.5 2083,-371.5"/>
+<text text-anchor="start" x="2169" y="-387.3" font-family="Arial" font-weight="bold" font-size="14.00">Leaf</text>
+<polygon fill="white" stroke="transparent" points="2083,-319.5 2083,-371.5 2283,-371.5 2283,-319.5 2083,-319.5"/>
+<polygon fill="none" stroke="black" points="2083,-319.5 2083,-371.5 2283,-371.5 2283,-319.5 2083,-319.5"/>
+<text text-anchor="start" x="2094" y="-349.3" font-family="Arial" font-size="14.00">&#45; points: Vec&lt;FF&gt;</text>
+<text text-anchor="start" x="2094" y="-334.3" font-family="Arial" font-size="14.00">&#45; zerofier: Polynomial&lt;&#39;c, FF&gt;</text>
+<polygon fill="none" stroke="black" points="2082,-319 2082,-410 2284,-410 2284,-319 2082,-319"/>
 </a>
 </g>
 </g>
 <!-- ndPolynomial&#45;&gt;ndLeaf -->
 <g id="edge35" class="edge">
 <title>ndPolynomial&#45;&gt;ndLeaf</title>
-<path fill="none" stroke="black" d="M1878.7,-487.44C1926.99,-472.52 1986.67,-452.18 2038,-429 2044.37,-426.12 2050.85,-422.98 2057.32,-419.69"/>
-<polygon fill="black" stroke="black" points="2057.53,-419.58 2061,-413.26 2068.17,-414.03 2064.7,-420.35 2057.53,-419.58"/>
+<path fill="none" stroke="black" d="M1906.17,-482.91C1956.04,-468.67 2014.12,-450.18 2065,-429 2072.06,-426.06 2079.25,-422.83 2086.43,-419.43"/>
+<polygon fill="black" stroke="black" points="2086.49,-419.4 2090.14,-413.18 2097.28,-414.16 2093.63,-420.38 2086.49,-419.4"/>
 </g>
 <!-- ndBranch -->
 <g id="node34" class="node">
 <title>ndBranch</title>
 <g id="a_node34_33"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/zerofier_tree.rs#:~:text=struct%20Branch" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1644,-72 1644,-109 1827,-109 1827,-72 1644,-72"/>
-<polygon fill="none" stroke="black" points="1644,-72 1644,-109 1827,-109 1827,-72 1644,-72"/>
-<text text-anchor="start" x="1712" y="-87.8" font-family="Arial" font-weight="bold" font-size="14.00">Branch</text>
-<polygon fill="white" stroke="transparent" points="1644,-5 1644,-72 1827,-72 1827,-5 1644,-5"/>
-<polygon fill="none" stroke="black" points="1644,-5 1644,-72 1827,-72 1827,-5 1644,-5"/>
-<text text-anchor="start" x="1655" y="-49.8" font-family="Arial" font-size="14.00">&#45; zerofier: Polynomial&lt;FF&gt;</text>
-<text text-anchor="start" x="1655" y="-34.8" font-family="Arial" font-size="14.00">&#45; left: ZerofierTree&lt;FF&gt;</text>
-<text text-anchor="start" x="1655" y="-19.8" font-family="Arial" font-size="14.00">&#45; right: ZerofierTree&lt;FF&gt;</text>
-<polygon fill="none" stroke="black" points="1642.5,-4 1642.5,-110 1827.5,-110 1827.5,-4 1642.5,-4"/>
+<polygon fill="lightblue" stroke="transparent" points="1632,-72 1632,-109 1832,-109 1832,-72 1632,-72"/>
+<polygon fill="none" stroke="black" points="1632,-72 1632,-109 1832,-109 1832,-72 1632,-72"/>
+<text text-anchor="start" x="1708.5" y="-87.8" font-family="Arial" font-weight="bold" font-size="14.00">Branch</text>
+<polygon fill="white" stroke="transparent" points="1632,-5 1632,-72 1832,-72 1832,-5 1632,-5"/>
+<polygon fill="none" stroke="black" points="1632,-5 1632,-72 1832,-72 1832,-5 1632,-5"/>
+<text text-anchor="start" x="1643" y="-49.8" font-family="Arial" font-size="14.00">&#45; zerofier: Polynomial&lt;&#39;c, FF&gt;</text>
+<text text-anchor="start" x="1643" y="-34.8" font-family="Arial" font-size="14.00">&#45; left: ZerofierTree&lt;&#39;c, FF&gt;</text>
+<text text-anchor="start" x="1643" y="-19.8" font-family="Arial" font-size="14.00">&#45; right: ZerofierTree&lt;&#39;c, FF&gt;</text>
+<polygon fill="none" stroke="black" points="1631,-4 1631,-110 1833,-110 1833,-4 1631,-4"/>
 </a>
 </g>
 </g>
 <!-- ndPolynomial&#45;&gt;ndBranch -->
 <g id="edge36" class="edge">
 <title>ndPolynomial&#45;&gt;ndBranch</title>
-<path fill="none" stroke="black" d="M1742.77,-472.23C1730.04,-459.11 1716.71,-444.08 1706,-429 1658.35,-361.91 1641.2,-344.02 1622,-264 1610.18,-214.73 1600.25,-195.76 1622,-150 1626.58,-140.37 1632.71,-131.42 1639.76,-123.18"/>
-<polygon fill="black" stroke="black" points="1639.93,-123 1641.07,-115.88 1648.08,-114.19 1646.94,-121.31 1639.93,-123"/>
+<path fill="none" stroke="black" d="M1737.92,-472.23C1724.06,-459.23 1709.61,-444.26 1698,-429 1647.66,-362.87 1630.16,-344.63 1610,-264 1597.71,-214.85 1587.4,-195.35 1610,-150 1614.91,-140.15 1621.43,-131.07 1628.92,-122.78"/>
+<polygon fill="black" stroke="black" points="1629.01,-122.69 1630.33,-115.6 1637.38,-114.09 1636.06,-121.18 1629.01,-122.69"/>
 </g>
 <!-- ndZerofierTree -->
 <g id="node35" class="node">
 <title>ndZerofierTree</title>
 <g id="a_node35_34"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/zerofier_tree.rs#:~:text=enum%20ZerofierTree" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1640,-222 1640,-259 1830,-259 1830,-222 1640,-222"/>
-<polygon fill="none" stroke="black" points="1640,-222 1640,-259 1830,-259 1830,-222 1640,-222"/>
-<text text-anchor="start" x="1695.5" y="-237.8" font-family="Arial" font-weight="bold" font-size="14.00">ZerofierTree</text>
-<polygon fill="white" stroke="transparent" points="1640,-155 1640,-222 1830,-222 1830,-155 1640,-155"/>
-<polygon fill="none" stroke="black" points="1640,-155 1640,-222 1830,-222 1830,-155 1640,-155"/>
-<text text-anchor="start" x="1651" y="-199.8" font-family="Arial" font-size="14.00">Leaf(Leaf&lt;FF&gt;)</text>
-<text text-anchor="start" x="1651" y="-184.8" font-family="Arial" font-size="14.00">Branch(Box&lt;Branch&lt;FF&gt;&gt;)</text>
-<text text-anchor="start" x="1651" y="-169.8" font-family="Arial" font-size="14.00">Padding</text>
-<polygon fill="none" stroke="black" points="1639,-154 1639,-260 1831,-260 1831,-154 1639,-154"/>
+<polygon fill="yellow" stroke="transparent" points="1629,-222 1629,-259 1836,-259 1836,-222 1629,-222"/>
+<polygon fill="none" stroke="black" points="1629,-222 1629,-259 1836,-259 1836,-222 1629,-222"/>
+<text text-anchor="start" x="1693" y="-237.8" font-family="Arial" font-weight="bold" font-size="14.00">ZerofierTree</text>
+<polygon fill="white" stroke="transparent" points="1629,-155 1629,-222 1836,-222 1836,-155 1629,-155"/>
+<polygon fill="none" stroke="black" points="1629,-155 1629,-222 1836,-222 1836,-155 1629,-155"/>
+<text text-anchor="start" x="1640" y="-199.8" font-family="Arial" font-size="14.00">Leaf(Leaf&lt;&#39;c, FF&gt;)</text>
+<text text-anchor="start" x="1640" y="-184.8" font-family="Arial" font-size="14.00">Branch(Box&lt;Branch&lt;&#39;c, FF&gt;&gt;)</text>
+<text text-anchor="start" x="1640" y="-169.8" font-family="Arial" font-size="14.00">Padding</text>
+<polygon fill="none" stroke="black" points="1627.5,-154 1627.5,-260 1836.5,-260 1836.5,-154 1627.5,-154"/>
 </a>
 </g>
 </g>
 <!-- ndPolynomial&#45;&gt;ndZerofierTree -->
 <g id="edge37" class="edge">
 <title>ndPolynomial&#45;&gt;ndZerofierTree</title>
-<path fill="none" stroke="black" d="M1737.29,-472.1C1726.8,-459.31 1717.33,-444.49 1712,-429 1693.48,-375.2 1701.05,-309.74 1712.48,-264.09"/>
+<path fill="none" stroke="black" d="M1731.99,-472.41C1720.43,-459.73 1709.97,-444.88 1704,-429 1683.94,-375.65 1693.43,-310.12 1706.74,-264.33"/>
 </g>
 <!-- ndPolynomial&#45;&gt;ndXFieldElement -->
 <g id="edge38" class="edge">
@@ -747,21 +747,21 @@
 <g id="node41" class="node">
 <title>ndU32s</title>
 <g id="a_node41_36"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/amount/u32s.rs#:~:text=struct%20U32s" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1544,-514.5 1544,-551.5 1669,-551.5 1669,-514.5 1544,-514.5"/>
-<polygon fill="none" stroke="black" points="1544,-514.5 1544,-551.5 1669,-551.5 1669,-514.5 1544,-514.5"/>
-<text text-anchor="start" x="1590" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">U32s</text>
-<polygon fill="white" stroke="transparent" points="1544,-477.5 1544,-514.5 1669,-514.5 1669,-477.5 1544,-477.5"/>
-<polygon fill="none" stroke="black" points="1544,-477.5 1544,-514.5 1669,-514.5 1669,-477.5 1544,-477.5"/>
-<text text-anchor="start" x="1555" y="-492.3" font-family="Arial" font-size="14.00">&#45; values: [u32; N]</text>
-<polygon fill="none" stroke="black" points="1542.5,-476.5 1542.5,-552.5 1669.5,-552.5 1669.5,-476.5 1542.5,-476.5"/>
+<polygon fill="lightblue" stroke="transparent" points="1516,-514.5 1516,-551.5 1641,-551.5 1641,-514.5 1516,-514.5"/>
+<polygon fill="none" stroke="black" points="1516,-514.5 1516,-551.5 1641,-551.5 1641,-514.5 1516,-514.5"/>
+<text text-anchor="start" x="1562" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">U32s</text>
+<polygon fill="white" stroke="transparent" points="1516,-477.5 1516,-514.5 1641,-514.5 1641,-477.5 1516,-477.5"/>
+<polygon fill="none" stroke="black" points="1516,-477.5 1516,-514.5 1641,-514.5 1641,-477.5 1516,-477.5"/>
+<text text-anchor="start" x="1527" y="-492.3" font-family="Arial" font-size="14.00">&#45; values: [u32; N]</text>
+<polygon fill="none" stroke="black" points="1514.5,-476.5 1514.5,-552.5 1641.5,-552.5 1641.5,-476.5 1514.5,-476.5"/>
 </a>
 </g>
 </g>
 <!-- ndBFieldCodec&#45;&gt;ndU32s -->
 <g id="edge40" class="edge">
 <title>ndBFieldCodec&#45;&gt;ndU32s</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1674.83,-633.43C1664.15,-615.13 1648.7,-588.66 1635.15,-565.44"/>
-<polygon fill="none" stroke="black" points="1638.12,-563.59 1630.06,-556.72 1632.08,-567.12 1638.12,-563.59"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1670.33,-633.43C1655.88,-614.97 1634.92,-588.2 1616.62,-564.83"/>
+<polygon fill="none" stroke="black" points="1619.19,-562.44 1610.27,-556.72 1613.68,-566.75 1619.19,-562.44"/>
 </g>
 <!-- ndBFieldCodecError -->
 <g id="node31" class="node">
@@ -807,37 +807,37 @@
 <!-- ndLeaf&#45;&gt;ndZerofierTree -->
 <g id="edge42" class="edge">
 <title>ndLeaf&#45;&gt;ndZerofierTree</title>
-<path fill="none" stroke="black" d="M2068.6,-314.84C2058.48,-309.48 2048.12,-304.39 2038,-300 1977.95,-273.96 1908.23,-252.25 1850.81,-236.46"/>
-<polygon fill="black" stroke="black" points="1850.71,-236.43 1843.87,-238.72 1839.13,-233.29 1845.97,-231 1850.71,-236.43"/>
+<path fill="none" stroke="black" d="M2098.04,-314.9C2087.1,-309.5 2075.9,-304.38 2065,-300 1997.79,-273.03 1919.91,-251.04 1856.37,-235.32"/>
+<polygon fill="black" stroke="black" points="1856.34,-235.32 1849.56,-237.77 1844.68,-232.46 1851.46,-230 1856.34,-235.32"/>
 </g>
 <!-- ndBranch&#45;&gt;ndZerofierTree -->
 <g id="edge43" class="edge">
 <title>ndBranch&#45;&gt;ndZerofierTree</title>
-<path fill="none" stroke="black" d="M1741.57,-114.22C1741.73,-121.83 1741.78,-129.7 1741.73,-137.5"/>
-<polygon fill="black" stroke="black" points="1741.73,-137.63 1745.65,-143.68 1741.58,-149.63 1737.65,-143.57 1741.73,-137.63"/>
+<path fill="none" stroke="black" d="M1738.57,-114.22C1738.73,-121.83 1738.78,-129.7 1738.73,-137.5"/>
+<polygon fill="black" stroke="black" points="1738.73,-137.63 1742.65,-143.68 1738.58,-149.63 1734.65,-143.57 1738.73,-137.63"/>
 </g>
 <!-- ndZerofierTree&#45;&gt;ndPolynomial -->
 <g id="edge44" class="edge">
 <title>ndZerofierTree&#45;&gt;ndPolynomial</title>
-<path fill="none" stroke="black" d="M1727,-264.09C1719.05,-309.74 1711.48,-375.2 1730,-429 1735.33,-444.49 1744.8,-459.31 1754.56,-472.1"/>
+<path fill="none" stroke="black" d="M1721.26,-264.33C1711.43,-310.12 1701.94,-375.65 1722,-429 1727.97,-444.88 1738.43,-459.73 1749.28,-472.41"/>
 </g>
 <!-- ndZerofierTree&#45;&gt;ndBranch -->
 <g id="edge45" class="edge">
 <title>ndZerofierTree&#45;&gt;ndBranch</title>
-<path fill="none" stroke="black" d="M1728.42,-149.63C1728.27,-142.01 1728.22,-134.14 1728.27,-126.34"/>
-<polygon fill="black" stroke="black" points="1728.27,-126.22 1724.35,-120.17 1728.43,-114.22 1732.35,-120.27 1728.27,-126.22"/>
+<path fill="none" stroke="black" d="M1725.42,-149.63C1725.27,-142.01 1725.22,-134.14 1725.27,-126.34"/>
+<polygon fill="black" stroke="black" points="1725.27,-126.22 1721.35,-120.17 1725.43,-114.22 1729.35,-120.27 1725.27,-126.22"/>
 </g>
 <!-- ndCyclotomicRingElement -->
 <g id="node36" class="node">
 <title>ndCyclotomicRingElement</title>
 <g id="a_node36_39"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/lattice.rs#:~:text=struct%20CyclotomicRingElement" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="991,-514.5 991,-551.5 1508,-551.5 1508,-514.5 991,-514.5"/>
-<polygon fill="none" stroke="black" points="991,-514.5 991,-551.5 1508,-551.5 1508,-514.5 991,-514.5"/>
-<text text-anchor="start" x="1171" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">CyclotomicRingElement</text>
-<polygon fill="white" stroke="transparent" points="991,-477.5 991,-514.5 1508,-514.5 1508,-477.5 991,-477.5"/>
-<polygon fill="none" stroke="black" points="991,-477.5 991,-514.5 1508,-514.5 1508,-477.5 991,-477.5"/>
-<text text-anchor="start" x="1002" y="-492.3" font-family="Arial" font-size="14.00">&#45; coefficients: [BFieldElement; CYCLOTOMIC_RING_ELEMENT_SIZE_IN_BFES]</text>
-<polygon fill="none" stroke="black" points="989.5,-476.5 989.5,-552.5 1508.5,-552.5 1508.5,-476.5 989.5,-476.5"/>
+<polygon fill="lightblue" stroke="transparent" points="963,-514.5 963,-551.5 1480,-551.5 1480,-514.5 963,-514.5"/>
+<polygon fill="none" stroke="black" points="963,-514.5 963,-551.5 1480,-551.5 1480,-514.5 963,-514.5"/>
+<text text-anchor="start" x="1143" y="-530.3" font-family="Arial" font-weight="bold" font-size="14.00">CyclotomicRingElement</text>
+<polygon fill="white" stroke="transparent" points="963,-477.5 963,-514.5 1480,-514.5 1480,-477.5 963,-477.5"/>
+<polygon fill="none" stroke="black" points="963,-477.5 963,-514.5 1480,-514.5 1480,-477.5 963,-477.5"/>
+<text text-anchor="start" x="974" y="-492.3" font-family="Arial" font-size="14.00">&#45; coefficients: [BFieldElement; CYCLOTOMIC_RING_ELEMENT_SIZE_IN_BFES]</text>
+<polygon fill="none" stroke="black" points="961.5,-476.5 961.5,-552.5 1480.5,-552.5 1480.5,-476.5 961.5,-476.5"/>
 </a>
 </g>
 </g>
@@ -845,39 +845,39 @@
 <g id="node37" class="node">
 <title>ndModuleElement</title>
 <g id="a_node37_40"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/lattice.rs#:~:text=struct%20ModuleElement" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1118,-364.5 1118,-401.5 1381,-401.5 1381,-364.5 1118,-364.5"/>
-<polygon fill="none" stroke="black" points="1118,-364.5 1118,-401.5 1381,-401.5 1381,-364.5 1118,-364.5"/>
-<text text-anchor="start" x="1198.5" y="-380.3" font-family="Arial" font-weight="bold" font-size="14.00">ModuleElement</text>
-<polygon fill="white" stroke="transparent" points="1118,-327.5 1118,-364.5 1381,-364.5 1381,-327.5 1118,-327.5"/>
-<polygon fill="none" stroke="black" points="1118,-327.5 1118,-364.5 1381,-364.5 1381,-327.5 1118,-327.5"/>
-<text text-anchor="start" x="1129" y="-342.3" font-family="Arial" font-size="14.00">&#45; elements: [CyclotomicRingElement; N]</text>
-<polygon fill="none" stroke="black" points="1116.5,-326.5 1116.5,-402.5 1381.5,-402.5 1381.5,-326.5 1116.5,-326.5"/>
+<polygon fill="lightblue" stroke="transparent" points="1090,-364.5 1090,-401.5 1353,-401.5 1353,-364.5 1090,-364.5"/>
+<polygon fill="none" stroke="black" points="1090,-364.5 1090,-401.5 1353,-401.5 1353,-364.5 1090,-364.5"/>
+<text text-anchor="start" x="1170.5" y="-380.3" font-family="Arial" font-weight="bold" font-size="14.00">ModuleElement</text>
+<polygon fill="white" stroke="transparent" points="1090,-327.5 1090,-364.5 1353,-364.5 1353,-327.5 1090,-327.5"/>
+<polygon fill="none" stroke="black" points="1090,-327.5 1090,-364.5 1353,-364.5 1353,-327.5 1090,-327.5"/>
+<text text-anchor="start" x="1101" y="-342.3" font-family="Arial" font-size="14.00">&#45; elements: [CyclotomicRingElement; N]</text>
+<polygon fill="none" stroke="black" points="1088.5,-326.5 1088.5,-402.5 1353.5,-402.5 1353.5,-326.5 1088.5,-326.5"/>
 </a>
 </g>
 </g>
 <!-- ndCyclotomicRingElement&#45;&gt;ndModuleElement -->
 <g id="edge46" class="edge">
 <title>ndCyclotomicRingElement&#45;&gt;ndModuleElement</title>
-<path fill="none" stroke="black" d="M1249,-472.27C1249,-455.68 1249,-436.32 1249,-418.68"/>
-<polygon fill="black" stroke="black" points="1249,-418.51 1245,-412.51 1249,-406.51 1253,-412.51 1249,-418.51"/>
+<path fill="none" stroke="black" d="M1221,-472.27C1221,-455.68 1221,-436.32 1221,-418.68"/>
+<polygon fill="black" stroke="black" points="1221,-418.51 1217,-412.51 1221,-406.51 1225,-412.51 1221,-418.51"/>
 </g>
 <!-- ndBFieldElement&#45;&gt;ndTip5 -->
 <g id="edge47" class="edge">
 <title>ndBFieldElement&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1492.8,-614.89C1483.71,-608.95 1473.93,-603.64 1464,-600 1258.11,-524.63 1186.97,-607.11 972,-564 965.66,-562.73 959.21,-561.26 952.73,-559.64"/>
-<polygon fill="black" stroke="black" points="952.66,-559.62 945.84,-561.97 941.05,-556.58 947.87,-554.23 952.66,-559.62"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1492.81,-614.85C1483.72,-608.93 1473.94,-603.62 1464,-600 1246.3,-520.79 1171.23,-609.11 944,-564 937.57,-562.72 931.04,-561.24 924.47,-559.61"/>
+<polygon fill="black" stroke="black" points="924.25,-559.55 917.43,-561.9 912.64,-556.51 919.46,-554.16 924.25,-559.55"/>
 </g>
 <!-- ndBFieldElement&#45;&gt;ndPolynomial -->
 <g id="edge48" class="edge">
 <title>ndBFieldElement&#45;&gt;ndPolynomial</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1594.59,-614.75C1601.98,-609.58 1609.59,-604.53 1617,-600 1624.88,-595.19 1658.4,-578.41 1693.63,-561.06"/>
-<polygon fill="black" stroke="black" points="1702.61,-556.65 1695.62,-565.1 1698.12,-558.85 1693.63,-561.06 1693.63,-561.06 1693.63,-561.06 1698.12,-558.85 1691.65,-557.02 1702.61,-556.65 1702.61,-556.65"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1594.59,-614.75C1601.98,-609.58 1609.59,-604.53 1617,-600 1639.45,-586.29 1664.42,-572.92 1688.16,-561.01"/>
+<polygon fill="black" stroke="black" points="1697.2,-556.51 1690.25,-565 1692.72,-558.74 1688.24,-560.97 1688.24,-560.97 1688.24,-560.97 1692.72,-558.74 1686.24,-556.94 1697.2,-556.51 1697.2,-556.51"/>
 </g>
 <!-- ndBFieldElement&#45;&gt;ndCyclotomicRingElement -->
 <g id="edge49" class="edge">
 <title>ndBFieldElement&#45;&gt;ndCyclotomicRingElement</title>
-<path fill="none" stroke="black" d="M1487.88,-614.73C1480.07,-609.45 1471.97,-604.37 1464,-600 1437.77,-585.61 1408.57,-572.44 1380.36,-560.99"/>
-<polygon fill="black" stroke="black" points="1380.33,-560.97 1373.27,-562.46 1369.18,-556.52 1376.24,-555.03 1380.33,-560.97"/>
+<path fill="none" stroke="black" d="M1488.46,-614.72C1480.5,-609.38 1472.2,-604.29 1464,-600 1435.53,-585.12 1403.88,-571.93 1373.08,-560.65"/>
+<polygon fill="black" stroke="black" points="1373.07,-560.65 1366.07,-562.38 1361.78,-556.59 1368.78,-554.86 1373.07,-560.65"/>
 </g>
 <!-- ndBFieldElement&#45;&gt;ndXFieldElement -->
 <g id="edge50" class="edge">
@@ -894,8 +894,8 @@
 <!-- ndBFieldElement&#45;&gt;ndU32s -->
 <g id="edge52" class="edge">
 <title>ndBFieldElement&#45;&gt;ndU32s</title>
-<path fill="none" stroke="black" d="M1559.98,-614.98C1567.05,-599.68 1575.18,-582.13 1582.61,-566.07"/>
-<polygon fill="black" stroke="black" points="1586.89,-556.81 1586.77,-567.78 1584.79,-561.35 1582.69,-565.89 1582.69,-565.89 1582.69,-565.89 1584.79,-561.35 1578.61,-564 1586.89,-556.81 1586.89,-556.81"/>
+<path fill="none" stroke="black" d="M1551.8,-614.98C1555.79,-599.82 1560.37,-582.46 1564.56,-566.52"/>
+<polygon fill="black" stroke="black" points="1567.12,-556.81 1568.93,-567.63 1565.85,-561.65 1564.57,-566.48 1564.57,-566.48 1564.57,-566.48 1565.85,-561.65 1560.22,-565.33 1567.12,-556.81 1567.12,-556.81"/>
 </g>
 <!-- ndXFieldElement&#45;&gt;ndPolynomial -->
 <g id="edge53" class="edge">
@@ -954,14 +954,14 @@
 <!-- ndDigest&#45;&gt;ndMockMmr -->
 <g id="edge62" class="edge">
 <title>ndDigest&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M573.67,-899.95C565.56,-888.97 557.94,-876.63 553,-864 488.1,-698.02 605.71,-617.21 513,-465 500.45,-444.4 481.83,-427.25 461.87,-413.32"/>
-<polygon fill="black" stroke="black" points="461.65,-413.18 454.44,-413.19 451.65,-406.54 458.86,-406.52 461.65,-413.18"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M574.33,-899.86C566.36,-888.88 558.87,-876.56 554,-864 489.57,-697.78 605.92,-617.14 513,-465 500.43,-444.41 481.8,-427.27 461.83,-413.34"/>
+<polygon fill="black" stroke="black" points="461.61,-413.2 454.4,-413.21 451.62,-406.56 458.83,-406.55 461.61,-413.2"/>
 </g>
 <!-- ndDigest&#45;&gt;ndTip5 -->
 <g id="edge63" class="edge">
 <title>ndDigest&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M593.12,-899.79C566.24,-830.8 525.01,-690.62 589,-600 610.94,-568.93 645.34,-549.21 681.23,-536.72"/>
-<polygon fill="black" stroke="black" points="690.89,-533.55 682.79,-540.95 686.14,-535.11 681.39,-536.67 681.39,-536.67 681.39,-536.67 686.14,-535.11 679.98,-532.4 690.89,-533.55 690.89,-533.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M593.43,-899.8C567.16,-831.13 526.98,-691.8 589,-600 604.79,-576.62 628.24,-559.71 653.81,-547.48"/>
+<polygon fill="black" stroke="black" points="662.93,-543.34 655.68,-551.57 658.38,-545.41 653.82,-547.47 653.82,-547.47 653.82,-547.47 658.38,-545.41 651.97,-543.37 662.93,-543.34 662.93,-543.34"/>
 </g>
 <!-- ndDigest&#45;&gt;ndXFieldElement -->
 <g id="edge64" class="edge">
