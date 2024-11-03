@@ -7692,28 +7692,30 @@
 <g id="node184" class="node">
 <title>ndAtomicRwWriteGuard</title>
 <g id="a_node184_197"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/locks/tokio/atomic_rw.rs#:~:text=struct%20AtomicRwWriteGuard" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="5818.09,-6552.5 5818.09,-6589.5 6379.09,-6589.5 6379.09,-6552.5 5818.09,-6552.5"/>
-<polygon fill="none" stroke="black" points="5818.09,-6552.5 5818.09,-6589.5 6379.09,-6589.5 6379.09,-6552.5 5818.09,-6552.5"/>
-<text text-anchor="start" x="6027.59" y="-6568.3" font-family="Arial" font-weight="bold" font-size="14.00">AtomicRwWriteGuard</text>
-<polygon fill="white" stroke="transparent" points="5818.09,-6500.5 5818.09,-6552.5 6379.09,-6552.5 6379.09,-6500.5 5818.09,-6500.5"/>
-<polygon fill="none" stroke="black" points="5818.09,-6500.5 5818.09,-6552.5 6379.09,-6552.5 6379.09,-6500.5 5818.09,-6500.5"/>
-<text text-anchor="start" x="5829.09" y="-6530.3" font-family="Arial" font-size="14.00">&#45; guard: RwLockWriteGuard&lt;&#39;a, T&gt;</text>
-<text text-anchor="start" x="5829.09" y="-6515.3" font-family="Arial" font-size="14.00">&#45; lock_callback_info: &amp;&#39;a LockCallbackInfo</text>
-<polygon fill="white" stroke="transparent" points="5818.09,-6418.5 5818.09,-6500.5 6379.09,-6500.5 6379.09,-6418.5 5818.09,-6418.5"/>
-<polygon fill="none" stroke="black" points="5818.09,-6418.5 5818.09,-6500.5 6379.09,-6500.5 6379.09,-6418.5 5818.09,-6418.5"/>
-<text text-anchor="start" x="5829.09" y="-6478.3" font-family="Arial" font-size="14.00">&#45; new(guard: RwLockWriteGuard&lt;&#39;a, T&gt;, lock_callback_info: &amp;&#39;a LockCallbackInfo) &#45;&gt; Self</text>
-<text text-anchor="start" x="5829.09" y="-6463.3" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
-<text text-anchor="start" x="5829.09" y="-6448.3" font-family="Arial" font-size="14.00">&#45; deref(&amp;self) &#45;&gt; &amp;Self::Target</text>
-<text text-anchor="start" x="5829.09" y="-6433.3" font-family="Arial" font-size="14.00">&#45; deref_mut(&amp;mut self) &#45;&gt; &amp;mut Self::Target</text>
-<polygon fill="none" stroke="black" points="5816.59,-6418 5816.59,-6591 6379.59,-6591 6379.59,-6418 5816.59,-6418"/>
+<polygon fill="lightblue" stroke="transparent" points="5818.09,-6567.5 5818.09,-6604.5 6379.09,-6604.5 6379.09,-6567.5 5818.09,-6567.5"/>
+<polygon fill="none" stroke="black" points="5818.09,-6567.5 5818.09,-6604.5 6379.09,-6604.5 6379.09,-6567.5 5818.09,-6567.5"/>
+<text text-anchor="start" x="6027.59" y="-6583.3" font-family="Arial" font-weight="bold" font-size="14.00">AtomicRwWriteGuard</text>
+<polygon fill="white" stroke="transparent" points="5818.09,-6485.5 5818.09,-6567.5 6379.09,-6567.5 6379.09,-6485.5 5818.09,-6485.5"/>
+<polygon fill="none" stroke="black" points="5818.09,-6485.5 5818.09,-6567.5 6379.09,-6567.5 6379.09,-6485.5 5818.09,-6485.5"/>
+<text text-anchor="start" x="5829.09" y="-6545.3" font-family="Arial" font-size="14.00">&#45; guard: RwLockWriteGuard&lt;&#39;a, T&gt;</text>
+<text text-anchor="start" x="5829.09" y="-6530.3" font-family="Arial" font-size="14.00">&#45; lock_callback_info: &amp;&#39;a LockCallbackInfo</text>
+<text text-anchor="start" x="5829.09" y="-6515.3" font-family="Arial" font-size="14.00">&#45; location: &amp;&#39;static core::panic::Location&lt;&#39;static&gt;</text>
+<text text-anchor="start" x="5829.09" y="-6500.3" font-family="Arial" font-size="14.00">&#45; timestamp: std::time::Instant</text>
+<polygon fill="white" stroke="transparent" points="5818.09,-6403.5 5818.09,-6485.5 6379.09,-6485.5 6379.09,-6403.5 5818.09,-6403.5"/>
+<polygon fill="none" stroke="black" points="5818.09,-6403.5 5818.09,-6485.5 6379.09,-6485.5 6379.09,-6403.5 5818.09,-6403.5"/>
+<text text-anchor="start" x="5829.09" y="-6463.3" font-family="Arial" font-size="14.00">&#45; new(guard: RwLockWriteGuard&lt;&#39;a, T&gt;, lock_callback_info: &amp;&#39;a LockCallbackInfo) &#45;&gt; Self</text>
+<text text-anchor="start" x="5829.09" y="-6448.3" font-family="Arial" font-size="14.00">&#45; drop(&amp;mut self)</text>
+<text text-anchor="start" x="5829.09" y="-6433.3" font-family="Arial" font-size="14.00">&#45; deref(&amp;self) &#45;&gt; &amp;Self::Target</text>
+<text text-anchor="start" x="5829.09" y="-6418.3" font-family="Arial" font-size="14.00">&#45; deref_mut(&amp;mut self) &#45;&gt; &amp;mut Self::Target</text>
+<polygon fill="none" stroke="black" points="5816.59,-6403 5816.59,-6606 6379.59,-6606 6379.59,-6403 5816.59,-6403"/>
 </a>
 </g>
 </g>
 <!-- ndAtomicRwWriteGuard&#45;&gt;ndAtomicRw -->
 <g id="edge507" class="edge">
 <title>ndAtomicRwWriteGuard&#45;&gt;ndAtomicRw</title>
-<path fill="none" stroke="black" d="M6203.97,-6413.89C6250.25,-6374.72 6306.64,-6326.99 6362.46,-6279.74"/>
-<polygon fill="black" stroke="black" points="6370.33,-6273.08 6365.61,-6282.98 6366.52,-6276.31 6362.7,-6279.54 6362.7,-6279.54 6362.7,-6279.54 6366.52,-6276.31 6359.79,-6276.11 6370.33,-6273.08 6370.33,-6273.08"/>
+<path fill="none" stroke="black" d="M6221.79,-6398.8C6264.34,-6362.79 6313.6,-6321.1 6362.43,-6279.77"/>
+<polygon fill="black" stroke="black" points="6370.26,-6273.14 6365.54,-6283.04 6366.44,-6276.37 6362.63,-6279.6 6362.63,-6279.6 6362.63,-6279.6 6366.44,-6276.37 6359.72,-6276.17 6370.26,-6273.14 6370.26,-6273.14"/>
 </g>
 <!-- ndAtomicMutexGuard -->
 <g id="node186" class="node">
@@ -7886,8 +7888,8 @@
 <!-- ndLockCallbackInfo&#45;&gt;ndAtomicRwWriteGuard -->
 <g id="edge517" class="edge">
 <title>ndLockCallbackInfo&#45;&gt;ndAtomicRwWriteGuard</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6609.72,-6818.3C6546.95,-6783.81 6469.93,-6740.61 6402.09,-6700 6349.62,-6668.59 6292.97,-6632.86 6242.95,-6600.67"/>
-<polygon fill="black" stroke="black" points="6234.34,-6595.12 6245.18,-6596.75 6238.54,-6597.83 6242.75,-6600.54 6242.75,-6600.54 6242.75,-6600.54 6238.54,-6597.83 6240.31,-6604.32 6234.34,-6595.12 6234.34,-6595.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6609.72,-6818.3C6546.95,-6783.81 6469.93,-6740.61 6402.09,-6700 6357.52,-6673.32 6309.93,-6643.52 6265.96,-6615.42"/>
+<polygon fill="black" stroke="black" points="6257.5,-6610.01 6268.35,-6611.61 6261.72,-6612.71 6265.93,-6615.4 6265.93,-6615.4 6265.93,-6615.4 6261.72,-6612.71 6263.5,-6619.19 6257.5,-6610.01 6257.5,-6610.01"/>
 </g>
 <!-- ndLockCallbackInfo&#45;&gt;ndAtomicMutex -->
 <g id="edge518" class="edge">
