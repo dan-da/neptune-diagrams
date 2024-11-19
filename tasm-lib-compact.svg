@@ -360,24 +360,23 @@
 <g id="node36" class="node">
 <title>ndInnerProductOfThreeRowsWithWeights</title>
 <g id="a_node36_17"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/array/inner_product_of_three_rows_with_weights.rs#:~:text=struct%20InnerProductOfThreeRowsWithWeights" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="3099.32,-544 3099.32,-581 3377.32,-581 3377.32,-544 3099.32,-544"/>
-<polygon fill="none" stroke="black" points="3099.32,-544 3099.32,-581 3377.32,-581 3377.32,-544 3099.32,-544"/>
-<text text-anchor="start" x="3110.32" y="-559.8" font-family="Arial" font-weight="bold" font-size="14.00">InnerProductOfThreeRowsWithWeights</text>
-<polygon fill="white" stroke="transparent" points="3099.32,-462 3099.32,-544 3377.32,-544 3377.32,-462 3099.32,-462"/>
-<polygon fill="none" stroke="black" points="3099.32,-462 3099.32,-544 3377.32,-544 3377.32,-462 3099.32,-462"/>
-<text text-anchor="start" x="3110.32" y="-521.8" font-family="Arial" font-size="14.00">&#45; main_length: usize</text>
-<text text-anchor="start" x="3110.32" y="-506.8" font-family="Arial" font-size="14.00">&#45; main_element_type: MainElementType</text>
-<text text-anchor="start" x="3110.32" y="-491.8" font-family="Arial" font-size="14.00">&#45; aux_length: usize</text>
-<text text-anchor="start" x="3110.32" y="-476.8" font-family="Arial" font-size="14.00">&#45; randomizer_length: usize</text>
-<polygon fill="none" stroke="black" points="3098.32,-461.5 3098.32,-582.5 3378.32,-582.5 3378.32,-461.5 3098.32,-461.5"/>
+<polygon fill="lightblue" stroke="transparent" points="3099.32,-537 3099.32,-574 3377.32,-574 3377.32,-537 3099.32,-537"/>
+<polygon fill="none" stroke="black" points="3099.32,-537 3099.32,-574 3377.32,-574 3377.32,-537 3099.32,-537"/>
+<text text-anchor="start" x="3110.32" y="-552.8" font-family="Arial" font-weight="bold" font-size="14.00">InnerProductOfThreeRowsWithWeights</text>
+<polygon fill="white" stroke="transparent" points="3099.32,-470 3099.32,-537 3377.32,-537 3377.32,-470 3099.32,-470"/>
+<polygon fill="none" stroke="black" points="3099.32,-470 3099.32,-537 3377.32,-537 3377.32,-470 3099.32,-470"/>
+<text text-anchor="start" x="3110.32" y="-514.8" font-family="Arial" font-size="14.00">&#45; main_length: usize</text>
+<text text-anchor="start" x="3110.32" y="-499.8" font-family="Arial" font-size="14.00">&#45; main_element_type: MainElementType</text>
+<text text-anchor="start" x="3110.32" y="-484.8" font-family="Arial" font-size="14.00">&#45; aux_length: usize</text>
+<polygon fill="none" stroke="black" points="3098.32,-469 3098.32,-575 3378.32,-575 3378.32,-469 3098.32,-469"/>
 </a>
 </g>
 </g>
 <!-- ndDataType&#45;&gt;ndInnerProductOfThreeRowsWithWeights -->
 <g id="edge15" class="edge">
 <title>ndDataType&#45;&gt;ndInnerProductOfThreeRowsWithWeights</title>
-<path fill="none" stroke="black" d="M7989.5,-649.91C7986.5,-648.14 7983.44,-646.5 7980.32,-645 7865.45,-589.99 3518.58,-641.06 3395.32,-609 3378.98,-604.75 3362.5,-598.43 3346.68,-591.11"/>
-<polygon fill="black" stroke="black" points="3337.45,-586.69 3348.41,-586.95 3341.96,-588.85 3346.47,-591.01 3346.47,-591.01 3346.47,-591.01 3341.96,-588.85 3344.53,-595.07 3337.45,-586.69 3337.45,-586.69"/>
+<path fill="none" stroke="black" d="M7989.5,-649.91C7986.5,-648.14 7983.44,-646.5 7980.32,-645 7865.45,-589.99 3518.58,-641.06 3395.32,-609 3373.71,-603.38 3351.85,-594.13 3331.6,-583.75"/>
+<polygon fill="black" stroke="black" points="3322.72,-579.07 3333.67,-579.75 3327.14,-581.4 3331.57,-583.73 3331.57,-583.73 3331.57,-583.73 3327.14,-581.4 3329.47,-587.71 3322.72,-579.07 3322.72,-579.07"/>
 </g>
 <!-- ndReadInput -->
 <g id="node37" class="node">
@@ -1330,8 +1329,8 @@
 <!-- ndBasicSnippet&#45;&gt;ndInnerProductOfThreeRowsWithWeights -->
 <g id="edge71" class="edge">
 <title>ndBasicSnippet&#45;&gt;ndInnerProductOfThreeRowsWithWeights</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4611.96,-754.37C4492.18,-728.23 4224.04,-672.53 3995.32,-645 3730.09,-613.07 3652.02,-682.96 3395.32,-609 3379.74,-604.51 3363.99,-598.28 3348.79,-591.2"/>
-<polygon fill="none" stroke="black" points="3349.93,-587.87 3339.4,-586.7 3346.9,-594.18 3349.93,-587.87"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4611.96,-754.37C4492.18,-728.23 4224.04,-672.53 3995.32,-645 3730.09,-613.07 3652.02,-682.96 3395.32,-609 3374.47,-602.99 3353.32,-593.87 3333.58,-583.77"/>
+<polygon fill="none" stroke="black" points="3335.1,-580.61 3324.62,-579.07 3331.85,-586.81 3335.1,-580.61"/>
 </g>
 <!-- ndBasicSnippet&#45;&gt;ndReadInput -->
 <g id="edge72" class="edge">
@@ -2025,8 +2024,8 @@
 <!-- ndMainElementType&#45;&gt;ndInnerProductOfThreeRowsWithWeights -->
 <g id="edge148" class="edge">
 <title>ndMainElementType&#45;&gt;ndInnerProductOfThreeRowsWithWeights</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5306.24,-1031.86C5165.43,-1006.12 4859.73,-949.18 4603.32,-894 4064.04,-777.95 3910.33,-806.63 3395.32,-609 3382.4,-604.04 3369.22,-598.21 3356.27,-591.95"/>
-<polygon fill="black" stroke="black" points="3356.21,-591.92 3349.06,-592.85 3345.46,-586.6 3352.61,-585.68 3356.21,-591.92"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5306.24,-1031.86C5165.43,-1006.12 4859.73,-949.18 4603.32,-894 4064.04,-777.95 3910.33,-806.63 3395.32,-609 3377.54,-602.18 3359.27,-593.69 3341.78,-584.73"/>
+<polygon fill="black" stroke="black" points="3341.63,-584.66 3334.46,-585.43 3330.99,-579.1 3338.16,-578.33 3341.63,-584.66"/>
 </g>
 <!-- ndLibrary -->
 <g id="node39" class="node">
@@ -2070,8 +2069,8 @@
 <!-- ndLibrary&#45;&gt;ndInnerProductOfThreeRowsWithWeights -->
 <g id="edge153" class="edge">
 <title>ndLibrary&#45;&gt;ndInnerProductOfThreeRowsWithWeights</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6792.55,-755.21C6396.04,-730.15 5501.18,-675.7 4747.32,-645 4597.17,-638.89 3540.39,-648.2 3395.32,-609 3379.14,-604.63 3362.82,-598.28 3347.12,-590.99"/>
-<polygon fill="black" stroke="black" points="3337.96,-586.6 3348.92,-586.86 3342.47,-588.76 3346.97,-590.92 3346.97,-590.92 3346.97,-590.92 3342.47,-588.76 3345.03,-594.98 3337.96,-586.6 3337.96,-586.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6792.55,-755.21C6396.04,-730.15 5501.18,-675.7 4747.32,-645 4597.17,-638.89 3540.39,-648.2 3395.32,-609 3374.12,-603.27 3352.65,-594.15 3332.69,-583.95"/>
+<polygon fill="black" stroke="black" points="3323.63,-579.19 3334.58,-579.86 3328.06,-581.52 3332.49,-583.84 3332.49,-583.84 3332.49,-583.84 3328.06,-581.52 3330.39,-587.82 3323.63,-579.19 3323.63,-579.19"/>
 </g>
 <!-- ndLibrary&#45;&gt;ndReadInput -->
 <g id="edge154" class="edge">
