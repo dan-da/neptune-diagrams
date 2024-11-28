@@ -1603,32 +1603,33 @@
 <g id="node38" class="node">
 <title>ndPeerTaskToMain</title>
 <g id="a_node38_62"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/channel.rs#:~:text=enum%20PeerTaskToMain" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="4155.5,-499 4155.5,-536 4582.5,-536 4582.5,-499 4155.5,-499"/>
-<polygon fill="none" stroke="black" points="4155.5,-499 4155.5,-536 4582.5,-536 4582.5,-499 4155.5,-499"/>
-<text text-anchor="start" x="4315.5" y="-514.8" font-family="Arial" font-weight="bold" font-size="14.00">PeerTaskToMain</text>
-<polygon fill="white" stroke="transparent" points="4155.5,-387 4155.5,-499 4582.5,-499 4582.5,-387 4155.5,-387"/>
-<polygon fill="none" stroke="black" points="4155.5,-387 4155.5,-499 4582.5,-499 4582.5,-387 4155.5,-387"/>
-<text text-anchor="start" x="4166.5" y="-476.8" font-family="Arial" font-size="14.00">NewBlocks(Vec&lt;Block&gt;)</text>
-<text text-anchor="start" x="4166.5" y="-461.8" font-family="Arial" font-size="14.00">AddPeerMaxBlockHeight((SocketAddr, BlockHeight, ProofOfWork))</text>
-<text text-anchor="start" x="4166.5" y="-446.8" font-family="Arial" font-size="14.00">RemovePeerMaxBlockHeight(SocketAddr)</text>
-<text text-anchor="start" x="4166.5" y="-431.8" font-family="Arial" font-size="14.00">PeerDiscoveryAnswer((Vec&lt;(SocketAddr, u128)&gt;, SocketAddr, u8))</text>
-<text text-anchor="start" x="4166.5" y="-416.8" font-family="Arial" font-size="14.00">Transaction(Box&lt;PeerTaskToMainTransaction&gt;)</text>
-<text text-anchor="start" x="4166.5" y="-401.8" font-family="Arial" font-size="14.00">BlockProposal(Box&lt;Block&gt;)</text>
-<polygon fill="none" stroke="black" points="4154,-386.5 4154,-537.5 4583,-537.5 4583,-386.5 4154,-386.5"/>
+<polygon fill="yellow" stroke="transparent" points="4155.5,-507 4155.5,-544 4582.5,-544 4582.5,-507 4155.5,-507"/>
+<polygon fill="none" stroke="black" points="4155.5,-507 4155.5,-544 4582.5,-544 4582.5,-507 4155.5,-507"/>
+<text text-anchor="start" x="4315.5" y="-522.8" font-family="Arial" font-weight="bold" font-size="14.00">PeerTaskToMain</text>
+<polygon fill="white" stroke="transparent" points="4155.5,-380 4155.5,-507 4582.5,-507 4582.5,-380 4155.5,-380"/>
+<polygon fill="none" stroke="black" points="4155.5,-380 4155.5,-507 4582.5,-507 4582.5,-380 4155.5,-380"/>
+<text text-anchor="start" x="4166.5" y="-484.8" font-family="Arial" font-size="14.00">NewBlocks(Vec&lt;Block&gt;)</text>
+<text text-anchor="start" x="4166.5" y="-469.8" font-family="Arial" font-size="14.00">AddPeerMaxBlockHeight((SocketAddr, BlockHeight, ProofOfWork))</text>
+<text text-anchor="start" x="4166.5" y="-454.8" font-family="Arial" font-size="14.00">RemovePeerMaxBlockHeight(SocketAddr)</text>
+<text text-anchor="start" x="4166.5" y="-439.8" font-family="Arial" font-size="14.00">PeerDiscoveryAnswer((Vec&lt;(SocketAddr, u128)&gt;, SocketAddr, u8))</text>
+<text text-anchor="start" x="4166.5" y="-424.8" font-family="Arial" font-size="14.00">Transaction(Box&lt;PeerTaskToMainTransaction&gt;)</text>
+<text text-anchor="start" x="4166.5" y="-409.8" font-family="Arial" font-size="14.00">BlockProposal(Box&lt;Block&gt;)</text>
+<text text-anchor="start" x="4166.5" y="-394.8" font-family="Arial" font-size="14.00">DisconnectFromLongestLivedPeer</text>
+<polygon fill="none" stroke="black" points="4154,-379 4154,-545 4583,-545 4583,-379 4154,-379"/>
 </a>
 </g>
 </g>
 <!-- ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler -->
 <g id="edge86" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M4315.58,-382.35C4276.68,-324.55 4223.61,-245.68 4182.19,-184.13"/>
-<polygon fill="black" stroke="black" points="4182.09,-183.98 4175.42,-181.23 4175.39,-174.02 4182.05,-176.77 4182.09,-183.98"/>
+<path fill="none" stroke="black" d="M4310.6,-374.96C4272.28,-318.01 4221.97,-243.25 4182.31,-184.32"/>
+<polygon fill="black" stroke="black" points="4182.24,-184.21 4175.57,-181.47 4175.54,-174.25 4182.21,-177 4182.24,-184.21"/>
 </g>
 <!-- ndPeerTaskToMain&#45;&gt;ndMainLoopHandler -->
 <g id="edge87" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4517.57,-382.35C4634.37,-320.73 4796.53,-235.18 4915.94,-172.18"/>
-<polygon fill="black" stroke="black" points="4916.02,-172.14 4919.46,-165.8 4926.63,-166.54 4923.19,-172.88 4916.02,-172.14"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4531.59,-374.96C4647.06,-314.04 4801.17,-232.73 4915.86,-172.22"/>
+<polygon fill="black" stroke="black" points="4915.87,-172.22 4919.31,-165.88 4926.49,-166.62 4923.05,-172.95 4915.87,-172.22"/>
 </g>
 <!-- ndPeerTaskToMainTransaction -->
 <g id="node39" class="node">
@@ -1648,8 +1649,8 @@
 <!-- ndPeerTaskToMainTransaction&#45;&gt;ndPeerTaskToMain -->
 <g id="edge88" class="edge">
 <title>ndPeerTaskToMainTransaction&#45;&gt;ndPeerTaskToMain</title>
-<path fill="none" stroke="black" d="M5236.64,-1304.89C5196.17,-1214.54 5099.92,-1017.88 4975.5,-885 4843.75,-744.3 4657.68,-623.45 4526.36,-547.58"/>
-<polygon fill="black" stroke="black" points="4526.22,-547.5 4519.02,-547.97 4515.82,-541.52 4523.01,-541.04 4526.22,-547.5"/>
+<path fill="none" stroke="black" d="M5236.64,-1304.89C5196.17,-1214.54 5099.92,-1017.88 4975.5,-885 4848.13,-748.97 4669.98,-631.5 4539.63,-555.29"/>
+<polygon fill="black" stroke="black" points="4539.52,-555.23 4532.32,-555.66 4529.15,-549.19 4536.34,-548.75 4539.52,-555.23"/>
 </g>
 <!-- ndClaimUtxoData -->
 <g id="node40" class="node">
@@ -5411,44 +5412,45 @@
 <g id="node207" class="node">
 <title>ndArgs</title>
 <g id="a_node207_180"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/config_models/cli_args.rs#:~:text=struct%20Args" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="10298.5,-4631.5 10298.5,-4668.5 10708.5,-4668.5 10708.5,-4631.5 10298.5,-4631.5"/>
-<polygon fill="none" stroke="black" points="10298.5,-4631.5 10298.5,-4668.5 10708.5,-4668.5 10708.5,-4631.5 10298.5,-4631.5"/>
-<text text-anchor="start" x="10488" y="-4647.3" font-family="Arial" font-weight="bold" font-size="14.00">Args</text>
-<polygon fill="white" stroke="transparent" points="10298.5,-4249.5 10298.5,-4631.5 10708.5,-4631.5 10708.5,-4249.5 10298.5,-4249.5"/>
-<polygon fill="none" stroke="black" points="10298.5,-4249.5 10298.5,-4631.5 10708.5,-4631.5 10708.5,-4249.5 10298.5,-4249.5"/>
-<text text-anchor="start" x="10309.5" y="-4609.3" font-family="Arial" font-size="14.00">+ data_dir: Option&lt;PathBuf&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4594.3" font-family="Arial" font-size="14.00">+ ban: Vec&lt;IpAddr&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4579.3" font-family="Arial" font-size="14.00">+ peer_tolerance: u16</text>
-<text text-anchor="start" x="10309.5" y="-4564.3" font-family="Arial" font-size="14.00">+ max_peers: u16</text>
-<text text-anchor="start" x="10309.5" y="-4549.3" font-family="Arial" font-size="14.00">+ no_transaction_initiation: bool</text>
-<text text-anchor="start" x="10309.5" y="-4534.3" font-family="Arial" font-size="14.00">+ compose: bool</text>
-<text text-anchor="start" x="10309.5" y="-4519.3" font-family="Arial" font-size="14.00">+ guess: bool</text>
-<text text-anchor="start" x="10309.5" y="-4504.3" font-family="Arial" font-size="14.00">+ secret_compositions: bool</text>
-<text text-anchor="start" x="10309.5" y="-4489.3" font-family="Arial" font-size="14.00">+ guesser_fraction: f64</text>
-<text text-anchor="start" x="10309.5" y="-4474.3" font-family="Arial" font-size="14.00">+ sleepy_guessing: bool</text>
-<text text-anchor="start" x="10309.5" y="-4459.3" font-family="Arial" font-size="14.00">+ max_mempool_size: ByteSize</text>
-<text text-anchor="start" x="10309.5" y="-4444.3" font-family="Arial" font-size="14.00">+ max_mempool_num_tx: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4429.3" font-family="Arial" font-size="14.00">&#45; peer_port: u16</text>
-<text text-anchor="start" x="10309.5" y="-4414.3" font-family="Arial" font-size="14.00">+ rpc_port: u16</text>
-<text text-anchor="start" x="10309.5" y="-4399.3" font-family="Arial" font-size="14.00">+ listen_addr: IpAddr</text>
-<text text-anchor="start" x="10309.5" y="-4384.3" font-family="Arial" font-size="14.00">+ max_number_of_blocks_before_syncing: usize</text>
-<text text-anchor="start" x="10309.5" y="-4369.3" font-family="Arial" font-size="14.00">+ peers: Vec&lt;SocketAddr&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4354.3" font-family="Arial" font-size="14.00">+ network: Network</text>
-<text text-anchor="start" x="10309.5" y="-4339.3" font-family="Arial" font-size="14.00">+ number_of_mps_per_utxo: usize</text>
-<text text-anchor="start" x="10309.5" y="-4324.3" font-family="Arial" font-size="14.00">+ tx_proving_capability: Option&lt;TxProvingCapability&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4309.3" font-family="Arial" font-size="14.00">+ tx_proving_capability_cache: OnceLock&lt;TxProvingCapability&gt;</text>
-<text text-anchor="start" x="10309.5" y="-4294.3" font-family="Arial" font-size="14.00">&#45; tx_proof_upgrade_interval: u64</text>
-<text text-anchor="start" x="10309.5" y="-4279.3" font-family="Arial" font-size="14.00">+ tokio_console: bool</text>
-<text text-anchor="start" x="10309.5" y="-4264.3" font-family="Arial" font-size="14.00">+ max_log2_padded_height_for_proofs: Option&lt;u8&gt;</text>
-<polygon fill="none" stroke="black" points="10297.5,-4249 10297.5,-4670 10709.5,-4670 10709.5,-4249 10297.5,-4249"/>
+<polygon fill="lightblue" stroke="transparent" points="10298.5,-4639.5 10298.5,-4676.5 10708.5,-4676.5 10708.5,-4639.5 10298.5,-4639.5"/>
+<polygon fill="none" stroke="black" points="10298.5,-4639.5 10298.5,-4676.5 10708.5,-4676.5 10708.5,-4639.5 10298.5,-4639.5"/>
+<text text-anchor="start" x="10488" y="-4655.3" font-family="Arial" font-weight="bold" font-size="14.00">Args</text>
+<polygon fill="white" stroke="transparent" points="10298.5,-4242.5 10298.5,-4639.5 10708.5,-4639.5 10708.5,-4242.5 10298.5,-4242.5"/>
+<polygon fill="none" stroke="black" points="10298.5,-4242.5 10298.5,-4639.5 10708.5,-4639.5 10708.5,-4242.5 10298.5,-4242.5"/>
+<text text-anchor="start" x="10309.5" y="-4617.3" font-family="Arial" font-size="14.00">+ data_dir: Option&lt;PathBuf&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4602.3" font-family="Arial" font-size="14.00">+ ban: Vec&lt;IpAddr&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4587.3" font-family="Arial" font-size="14.00">+ peer_tolerance: u16</text>
+<text text-anchor="start" x="10309.5" y="-4572.3" font-family="Arial" font-size="14.00">+ max_num_peers: u16</text>
+<text text-anchor="start" x="10309.5" y="-4557.3" font-family="Arial" font-size="14.00">+ bootstrap: bool</text>
+<text text-anchor="start" x="10309.5" y="-4542.3" font-family="Arial" font-size="14.00">+ no_transaction_initiation: bool</text>
+<text text-anchor="start" x="10309.5" y="-4527.3" font-family="Arial" font-size="14.00">+ compose: bool</text>
+<text text-anchor="start" x="10309.5" y="-4512.3" font-family="Arial" font-size="14.00">+ guess: bool</text>
+<text text-anchor="start" x="10309.5" y="-4497.3" font-family="Arial" font-size="14.00">+ secret_compositions: bool</text>
+<text text-anchor="start" x="10309.5" y="-4482.3" font-family="Arial" font-size="14.00">+ guesser_fraction: f64</text>
+<text text-anchor="start" x="10309.5" y="-4467.3" font-family="Arial" font-size="14.00">+ sleepy_guessing: bool</text>
+<text text-anchor="start" x="10309.5" y="-4452.3" font-family="Arial" font-size="14.00">+ max_mempool_size: ByteSize</text>
+<text text-anchor="start" x="10309.5" y="-4437.3" font-family="Arial" font-size="14.00">+ max_mempool_num_tx: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4422.3" font-family="Arial" font-size="14.00">&#45; peer_port: u16</text>
+<text text-anchor="start" x="10309.5" y="-4407.3" font-family="Arial" font-size="14.00">+ rpc_port: u16</text>
+<text text-anchor="start" x="10309.5" y="-4392.3" font-family="Arial" font-size="14.00">+ listen_addr: IpAddr</text>
+<text text-anchor="start" x="10309.5" y="-4377.3" font-family="Arial" font-size="14.00">+ max_number_of_blocks_before_syncing: usize</text>
+<text text-anchor="start" x="10309.5" y="-4362.3" font-family="Arial" font-size="14.00">+ peers: Vec&lt;SocketAddr&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4347.3" font-family="Arial" font-size="14.00">+ network: Network</text>
+<text text-anchor="start" x="10309.5" y="-4332.3" font-family="Arial" font-size="14.00">+ number_of_mps_per_utxo: usize</text>
+<text text-anchor="start" x="10309.5" y="-4317.3" font-family="Arial" font-size="14.00">+ tx_proving_capability: Option&lt;TxProvingCapability&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4302.3" font-family="Arial" font-size="14.00">+ tx_proving_capability_cache: OnceLock&lt;TxProvingCapability&gt;</text>
+<text text-anchor="start" x="10309.5" y="-4287.3" font-family="Arial" font-size="14.00">&#45; tx_proof_upgrade_interval: u64</text>
+<text text-anchor="start" x="10309.5" y="-4272.3" font-family="Arial" font-size="14.00">+ tokio_console: bool</text>
+<text text-anchor="start" x="10309.5" y="-4257.3" font-family="Arial" font-size="14.00">+ max_log2_padded_height_for_proofs: Option&lt;u8&gt;</text>
+<polygon fill="none" stroke="black" points="10297.5,-4241.5 10297.5,-4677.5 10709.5,-4677.5 10709.5,-4241.5 10297.5,-4241.5"/>
 </a>
 </g>
 </g>
 <!-- ndTritonVmProofJobOptions&#45;&gt;ndArgs -->
 <g id="edge405" class="edge">
 <title>ndTritonVmProofJobOptions&#45;&gt;ndArgs</title>
-<path fill="none" stroke="black" d="M9170.87,-5639.81C9253.9,-5577.47 9401,-5465.37 9522.5,-5364 9742.2,-5180.7 9785.77,-5121.79 10002.5,-4935 10124.19,-4830.12 10164.21,-4814.82 10280.5,-4704 10288.2,-4696.66 10295.96,-4689.1 10303.73,-4681.4"/>
-<polygon fill="black" stroke="black" points="10310.87,-4674.28 10306.96,-4684.53 10307.32,-4677.81 10303.78,-4681.34 10303.78,-4681.34 10303.78,-4681.34 10307.32,-4677.81 10300.61,-4678.16 10310.87,-4674.28 10310.87,-4674.28"/>
+<path fill="none" stroke="black" d="M9170.87,-5639.81C9253.9,-5577.47 9401,-5465.37 9522.5,-5364 9742.2,-5180.7 9785.77,-5121.79 10002.5,-4935 10124.19,-4830.12 10164.21,-4814.82 10280.5,-4704 10285.71,-4699.04 10290.94,-4693.98 10296.18,-4688.84"/>
+<polygon fill="black" stroke="black" points="10303.33,-4681.79 10299.37,-4692.01 10299.77,-4685.3 10296.21,-4688.81 10296.21,-4688.81 10296.21,-4688.81 10299.77,-4685.3 10293.05,-4685.6 10303.33,-4681.79 10303.33,-4681.79"/>
 </g>
 <!-- ndTritonVmProofJobOptions&#45;&gt;ndUpgradeJob -->
 <g id="edge406" class="edge">
@@ -6776,27 +6778,28 @@
 <g id="node195" class="node">
 <title>ndConnectionStatus</title>
 <g id="a_node195_210"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/peer.rs#:~:text=enum%20ConnectionStatus" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="1145.5,-1361.5 1145.5,-1398.5 1392.5,-1398.5 1392.5,-1361.5 1145.5,-1361.5"/>
-<polygon fill="none" stroke="black" points="1145.5,-1361.5 1145.5,-1398.5 1392.5,-1398.5 1392.5,-1361.5 1145.5,-1361.5"/>
-<text text-anchor="start" x="1211" y="-1377.3" font-family="Arial" font-weight="bold" font-size="14.00">ConnectionStatus</text>
-<polygon fill="white" stroke="transparent" points="1145.5,-1309.5 1145.5,-1361.5 1392.5,-1361.5 1392.5,-1309.5 1145.5,-1309.5"/>
-<polygon fill="none" stroke="black" points="1145.5,-1309.5 1145.5,-1361.5 1392.5,-1361.5 1392.5,-1309.5 1145.5,-1309.5"/>
-<text text-anchor="start" x="1156.5" y="-1339.3" font-family="Arial" font-size="14.00">Refused(ConnectionRefusedReason)</text>
-<text text-anchor="start" x="1156.5" y="-1324.3" font-family="Arial" font-size="14.00">Accepted</text>
-<polygon fill="none" stroke="black" points="1144,-1309 1144,-1400 1393,-1400 1393,-1309 1144,-1309"/>
+<polygon fill="yellow" stroke="transparent" points="1145.5,-1369.5 1145.5,-1406.5 1392.5,-1406.5 1392.5,-1369.5 1145.5,-1369.5"/>
+<polygon fill="none" stroke="black" points="1145.5,-1369.5 1145.5,-1406.5 1392.5,-1406.5 1392.5,-1369.5 1145.5,-1369.5"/>
+<text text-anchor="start" x="1211" y="-1385.3" font-family="Arial" font-weight="bold" font-size="14.00">ConnectionStatus</text>
+<polygon fill="white" stroke="transparent" points="1145.5,-1302.5 1145.5,-1369.5 1392.5,-1369.5 1392.5,-1302.5 1145.5,-1302.5"/>
+<polygon fill="none" stroke="black" points="1145.5,-1302.5 1145.5,-1369.5 1392.5,-1369.5 1392.5,-1302.5 1145.5,-1302.5"/>
+<text text-anchor="start" x="1156.5" y="-1347.3" font-family="Arial" font-size="14.00">Refused(ConnectionRefusedReason)</text>
+<text text-anchor="start" x="1156.5" y="-1332.3" font-family="Arial" font-size="14.00">AcceptedMaxReached</text>
+<text text-anchor="start" x="1156.5" y="-1317.3" font-family="Arial" font-size="14.00">Accepted</text>
+<polygon fill="none" stroke="black" points="1144,-1301.5 1144,-1407.5 1393,-1407.5 1393,-1301.5 1144,-1301.5"/>
 </a>
 </g>
 </g>
 <!-- ndConnectionRefusedReason&#45;&gt;ndConnectionStatus -->
 <g id="edge550" class="edge">
 <title>ndConnectionRefusedReason&#45;&gt;ndConnectionStatus</title>
-<path fill="none" stroke="black" d="M1253.03,-1484.75C1255.71,-1462.34 1258.65,-1437.83 1261.23,-1416.22"/>
-<polygon fill="black" stroke="black" points="1261.24,-1416.13 1257.98,-1409.7 1262.67,-1404.22 1265.93,-1410.65 1261.24,-1416.13"/>
+<path fill="none" stroke="black" d="M1253.03,-1484.75C1255.41,-1464.89 1257.98,-1443.38 1260.34,-1423.7"/>
+<polygon fill="black" stroke="black" points="1260.34,-1423.64 1257.09,-1417.21 1261.77,-1411.72 1265.03,-1418.16 1260.34,-1423.64"/>
 </g>
 <!-- ndConnectionStatus&#45;&gt;ndPeerMessage -->
 <g id="edge551" class="edge">
 <title>ndConnectionStatus&#45;&gt;ndPeerMessage</title>
-<path fill="none" stroke="black" d="M1330.09,-1304.96C1353.99,-1288.33 1382.36,-1271.12 1410.5,-1260 1498.16,-1225.35 1533.66,-1262.93 1619.5,-1224 1625.94,-1221.08 1632.35,-1217.91 1638.71,-1214.54"/>
+<path fill="none" stroke="black" d="M1341.22,-1297.4C1362.57,-1283.26 1386.62,-1269.44 1410.5,-1260 1498.16,-1225.35 1533.66,-1262.93 1619.5,-1224 1625.94,-1221.08 1632.35,-1217.91 1638.71,-1214.54"/>
 <polygon fill="black" stroke="black" points="1638.85,-1214.46 1642.17,-1208.06 1649.36,-1208.66 1646.04,-1215.06 1638.85,-1214.46"/>
 </g>
 <!-- ndBlockRequestBatch -->
@@ -7010,8 +7013,8 @@
 <!-- ndNetwork&#45;&gt;ndArgs -->
 <g id="edge577" class="edge">
 <title>ndNetwork&#45;&gt;ndArgs</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10952.74,-5664.49C10868.16,-5619.03 10693.93,-5511.6 10619.5,-5364 10494.33,-5115.78 10621.38,-5014.35 10576.5,-4740 10573.61,-4722.34 10570.11,-4704.17 10566.22,-4685.98"/>
-<polygon fill="black" stroke="black" points="10566.17,-4685.75 10560.98,-4680.74 10563.61,-4674.03 10568.8,-4679.04 10566.17,-4685.75"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10952.74,-5664.49C10868.16,-5619.03 10693.93,-5511.6 10619.5,-5364 10494.33,-5115.78 10621.38,-5014.35 10576.5,-4740 10574.02,-4724.82 10571.08,-4709.26 10567.83,-4693.63"/>
+<polygon fill="black" stroke="black" points="10567.79,-4693.41 10562.63,-4688.37 10565.29,-4681.67 10570.45,-4686.71 10567.79,-4693.41"/>
 </g>
 <!-- ndNetwork&#45;&gt;ndTransactionOutput -->
 <g id="edge578" class="edge">
@@ -7190,20 +7193,20 @@
 <!-- ndArgs&#45;&gt;ndGlobalStateLock -->
 <g id="edge589" class="edge">
 <title>ndArgs&#45;&gt;ndGlobalStateLock</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10328.01,-4244.78C10312.86,-4233.48 10296.99,-4223.36 10280.5,-4215 10215.1,-4181.84 10001.44,-4233.6 9952.5,-4179 9896.44,-4116.45 9938.35,-4072.8 9952.5,-3990 9999.39,-3715.52 10068.93,-3661.97 10160.5,-3399 10188.32,-3319.09 10198.5,-3300.14 10222.5,-3219 10353.41,-2776.5 10347.38,-2655.25 10416.5,-2199 10442.75,-2025.74 10461.58,-1983.76 10474.5,-1809 10479.22,-1745.17 10508.58,-1719.17 10474.5,-1665 10454.81,-1633.71 10427.24,-1653.45 10399.5,-1629 10342.34,-1578.62 10368.42,-1529.39 10306.5,-1485 10253.24,-1446.81 10205.53,-1499.29 10163.5,-1449 10101.79,-1375.17 10160.9,-662.96 10104.5,-585 9959.38,-384.39 9830.75,-426.17 9588.5,-375 9282.83,-310.44 7125.51,-284.06 6451.33,-277.33"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10317.69,-4237.35C10305.69,-4229.02 10293.28,-4221.48 10280.5,-4215 10215.1,-4181.84 10001.44,-4233.6 9952.5,-4179 9896.44,-4116.45 9938.35,-4072.8 9952.5,-3990 9999.39,-3715.52 10068.93,-3661.97 10160.5,-3399 10188.32,-3319.09 10198.5,-3300.14 10222.5,-3219 10353.41,-2776.5 10347.38,-2655.25 10416.5,-2199 10442.75,-2025.74 10461.58,-1983.76 10474.5,-1809 10479.22,-1745.17 10508.58,-1719.17 10474.5,-1665 10454.81,-1633.71 10427.24,-1653.45 10399.5,-1629 10342.34,-1578.62 10368.42,-1529.39 10306.5,-1485 10253.24,-1446.81 10205.53,-1499.29 10163.5,-1449 10101.79,-1375.17 10160.9,-662.96 10104.5,-585 9959.38,-384.39 9830.75,-426.17 9588.5,-375 9282.83,-310.44 7125.51,-284.06 6451.33,-277.33"/>
 <polygon fill="black" stroke="black" points="6441.02,-277.23 6451.07,-272.83 6446.02,-277.28 6451.02,-277.33 6451.02,-277.33 6451.02,-277.33 6446.02,-277.28 6450.98,-281.83 6441.02,-277.23 6441.02,-277.23"/>
 </g>
 <!-- ndArgs&#45;&gt;ndGlobalState -->
 <g id="edge590" class="edge">
 <title>ndArgs&#45;&gt;ndGlobalState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10328.46,-4244.86C10313.18,-4233.49 10297.16,-4223.34 10280.5,-4215 10208.42,-4178.89 9973.6,-4238.77 9919.5,-4179 9809.44,-4057.42 9882.37,-3969.74 9919.5,-3810 9965.59,-3611.75 10053.99,-3591.01 10121.5,-3399 10301.93,-2885.81 10319.07,-2741.25 10362.5,-2199 10381.45,-1962.36 10522.92,-1850.27 10374.5,-1665 10328.66,-1607.78 10272.42,-1672.65 10213.5,-1629 10139.62,-1574.26 10142.85,-1535.44 10111.5,-1449 10076.85,-1353.44 10085.15,-1324.58 10070.5,-1224 10069.21,-1215.17 10006.44,-591.66 10000.5,-585 9946.9,-524.9 9731.32,-491.07 9590.14,-474.96"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10318.12,-4237.44C10306,-4229.05 10293.44,-4221.48 10280.5,-4215 10208.42,-4178.89 9973.6,-4238.77 9919.5,-4179 9809.44,-4057.42 9882.37,-3969.74 9919.5,-3810 9965.59,-3611.75 10053.99,-3591.01 10121.5,-3399 10301.93,-2885.81 10319.07,-2741.25 10362.5,-2199 10381.45,-1962.36 10522.92,-1850.27 10374.5,-1665 10328.66,-1607.78 10272.42,-1672.65 10213.5,-1629 10139.62,-1574.26 10142.85,-1535.44 10111.5,-1449 10076.85,-1353.44 10085.15,-1324.58 10070.5,-1224 10069.21,-1215.17 10006.44,-591.66 10000.5,-585 9946.9,-524.9 9731.32,-491.07 9590.14,-474.96"/>
 <polygon fill="black" stroke="black" points="9580.11,-473.83 9590.55,-470.48 9585.07,-474.39 9590.04,-474.95 9590.04,-474.95 9590.04,-474.95 9585.07,-474.39 9589.54,-479.42 9580.11,-473.83 9580.11,-473.83"/>
 </g>
 <!-- ndArgs&#45;&gt;ndWalletState -->
 <g id="edge591" class="edge">
 <title>ndArgs&#45;&gt;ndWalletState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10369.42,-4244.77C10353.55,-4219.48 10338.11,-4194.87 10324.3,-4172.86"/>
-<polygon fill="black" stroke="black" points="10318.89,-4164.23 10328.02,-4170.31 10321.55,-4168.47 10324.21,-4172.7 10324.21,-4172.7 10324.21,-4172.7 10321.55,-4168.47 10320.4,-4175.1 10318.89,-4164.23 10318.89,-4164.23"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M10364.85,-4237.48C10350.6,-4214.77 10336.79,-4192.76 10324.31,-4172.87"/>
+<polygon fill="black" stroke="black" points="10318.86,-4164.19 10327.99,-4170.27 10321.52,-4168.42 10324.18,-4172.66 10324.18,-4172.66 10324.18,-4172.66 10321.52,-4168.42 10320.37,-4175.05 10318.86,-4164.19 10318.86,-4164.19"/>
 </g>
 <!-- ndAtomic -->
 <g id="node208" class="node">
@@ -7685,8 +7688,8 @@
 <!-- ndTritonVmJobPriority&#45;&gt;ndArgs -->
 <g id="edge619" class="edge">
 <title>ndTritonVmJobPriority&#45;&gt;ndArgs</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9267.93,-6029.78C9383.06,-5879.37 9660.19,-5518.66 9897.5,-5220 10011.89,-5076.04 10043.65,-5042.59 10158.5,-4899 10214.72,-4828.71 10275.58,-4751.68 10330.3,-4682.06"/>
-<polygon fill="black" stroke="black" points="10336.6,-4674.04 10333.96,-4684.68 10333.51,-4677.97 10330.43,-4681.9 10330.43,-4681.9 10330.43,-4681.9 10333.51,-4677.97 10326.89,-4679.12 10336.6,-4674.04 10336.6,-4674.04"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9267.93,-6029.78C9383.06,-5879.37 9660.19,-5518.66 9897.5,-5220 10011.89,-5076.04 10043.65,-5042.59 10158.5,-4899 10212.64,-4831.31 10271.09,-4757.36 10324.22,-4689.8"/>
+<polygon fill="black" stroke="black" points="10330.67,-4681.59 10328.03,-4692.23 10327.58,-4685.52 10324.49,-4689.45 10324.49,-4689.45 10324.49,-4689.45 10327.58,-4685.52 10320.95,-4686.67 10330.67,-4681.59 10330.67,-4681.59"/>
 </g>
 <!-- ndJobHandleError -->
 <g id="node224" class="node">
