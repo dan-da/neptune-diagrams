@@ -767,19 +767,20 @@
 <g id="node31" class="node">
 <title>ndBFieldCodecError</title>
 <g id="a_node31_37"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/bfield_codec.rs#:~:text=enum%20BFieldCodecError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="2050,-1452 2050,-1489 2399,-1489 2399,-1452 2050,-1452"/>
-<polygon fill="none" stroke="black" points="2050,-1452 2050,-1489 2399,-1489 2399,-1452 2050,-1452"/>
-<text text-anchor="start" x="2166.5" y="-1467.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
-<polygon fill="white" stroke="transparent" points="2050,-1325 2050,-1452 2399,-1452 2399,-1325 2050,-1325"/>
-<polygon fill="none" stroke="black" points="2050,-1325 2050,-1452 2399,-1452 2399,-1325 2050,-1325"/>
-<text text-anchor="start" x="2061" y="-1429.8" font-family="Arial" font-size="14.00">EmptySequence</text>
-<text text-anchor="start" x="2061" y="-1414.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
-<text text-anchor="start" x="2061" y="-1399.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
-<text text-anchor="start" x="2061" y="-1384.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
-<text text-anchor="start" x="2061" y="-1369.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
-<text text-anchor="start" x="2061" y="-1354.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
-<text text-anchor="start" x="2061" y="-1339.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
-<polygon fill="none" stroke="black" points="2048.5,-1324 2048.5,-1490 2399.5,-1490 2399.5,-1324 2048.5,-1324"/>
+<polygon fill="yellow" stroke="transparent" points="2050,-1459 2050,-1496 2399,-1496 2399,-1459 2050,-1459"/>
+<polygon fill="none" stroke="black" points="2050,-1459 2050,-1496 2399,-1496 2399,-1459 2050,-1459"/>
+<text text-anchor="start" x="2166.5" y="-1474.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
+<polygon fill="white" stroke="transparent" points="2050,-1317 2050,-1459 2399,-1459 2399,-1317 2050,-1317"/>
+<polygon fill="none" stroke="black" points="2050,-1317 2050,-1459 2399,-1459 2399,-1317 2050,-1317"/>
+<text text-anchor="start" x="2061" y="-1436.8" font-family="Arial" font-size="14.00">EmptySequence</text>
+<text text-anchor="start" x="2061" y="-1421.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
+<text text-anchor="start" x="2061" y="-1406.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
+<text text-anchor="start" x="2061" y="-1391.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
+<text text-anchor="start" x="2061" y="-1376.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
+<text text-anchor="start" x="2061" y="-1361.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
+<text text-anchor="start" x="2061" y="-1346.8" font-family="Arial" font-size="14.00">TryFromIntError(std::num::TryFromIntError)</text>
+<text text-anchor="start" x="2061" y="-1331.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
+<polygon fill="none" stroke="black" points="2048.5,-1316.5 2048.5,-1497.5 2399.5,-1497.5 2399.5,-1316.5 2048.5,-1316.5"/>
 </a>
 </g>
 </g>
@@ -801,8 +802,8 @@
 <!-- ndBFieldCodecError&#45;&gt;ndPolynomialBFieldCodecError -->
 <g id="edge41" class="edge">
 <title>ndBFieldCodecError&#45;&gt;ndPolynomialBFieldCodecError</title>
-<path fill="none" stroke="black" d="M2224,-1319.94C2224,-1304.31 2224,-1288.32 2224,-1273.62"/>
-<polygon fill="black" stroke="black" points="2224,-1273.61 2220,-1267.61 2224,-1261.61 2228,-1267.61 2224,-1273.61"/>
+<path fill="none" stroke="black" d="M2224,-1312.33C2224,-1299.28 2224,-1286.17 2224,-1273.94"/>
+<polygon fill="black" stroke="black" points="2224,-1273.56 2220,-1267.56 2224,-1261.56 2228,-1267.56 2224,-1273.56"/>
 </g>
 <!-- ndLeaf&#45;&gt;ndZerofierTree -->
 <g id="edge42" class="edge">
