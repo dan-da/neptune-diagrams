@@ -3244,32 +3244,33 @@
 <g id="node172" class="node">
 <title>ndGenerationSpendingKey</title>
 <g id="a_node172_92"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/state/wallet/address/generation_address.rs#:~:text=struct%20GenerationSpendingKey" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2947.98,-3916 2947.98,-3953 3397.98,-3953 3397.98,-3916 2947.98,-3916"/>
-<polygon fill="none" stroke="black" points="2947.98,-3916 2947.98,-3953 3397.98,-3953 3397.98,-3916 2947.98,-3916"/>
-<text text-anchor="start" x="3093.48" y="-3931.8" font-family="Arial" font-weight="bold" font-size="14.00">GenerationSpendingKey</text>
-<polygon fill="white" stroke="transparent" points="2947.98,-3819 2947.98,-3916 3397.98,-3916 3397.98,-3819 2947.98,-3819"/>
-<polygon fill="none" stroke="black" points="2947.98,-3819 2947.98,-3916 3397.98,-3916 3397.98,-3819 2947.98,-3819"/>
-<text text-anchor="start" x="2958.98" y="-3893.8" font-family="Arial" font-size="14.00">+ receiver_identifier: BFieldElement</text>
-<text text-anchor="start" x="2958.98" y="-3878.8" font-family="Arial" font-size="14.00">+ decryption_key: lattice::kem::SecretKey</text>
-<text text-anchor="start" x="2958.98" y="-3863.8" font-family="Arial" font-size="14.00">+ privacy_preimage: Digest</text>
-<text text-anchor="start" x="2958.98" y="-3848.8" font-family="Arial" font-size="14.00">&#45; unlock_key: Digest</text>
-<text text-anchor="start" x="2958.98" y="-3833.8" font-family="Arial" font-size="14.00">+ seed: Digest</text>
-<polygon fill="white" stroke="transparent" points="2947.98,-3722 2947.98,-3819 3397.98,-3819 3397.98,-3722 2947.98,-3722"/>
-<polygon fill="none" stroke="black" points="2947.98,-3722 2947.98,-3819 3397.98,-3819 3397.98,-3722 2947.98,-3722"/>
-<text text-anchor="start" x="2958.98" y="-3796.8" font-family="Arial" font-size="14.00">&#45; to_address(&amp;self) &#45;&gt; GenerationReceivingAddress</text>
-<text text-anchor="start" x="2958.98" y="-3781.8" font-family="Arial" font-size="14.00">&#45; lock_script_and_witness(&amp;self) &#45;&gt; LockScriptAndWitness</text>
-<text text-anchor="start" x="2958.98" y="-3766.8" font-family="Arial" font-size="14.00">&#45; derive_from_seed(seed: Digest) &#45;&gt; Self</text>
-<text text-anchor="start" x="2958.98" y="-3751.8" font-family="Arial" font-size="14.00">&#45; decrypt(&amp;self, ciphertext: &amp;[BFieldElement]) &#45;&gt; Result&lt;(Utxo, Digest)&gt;</text>
-<text text-anchor="start" x="2958.98" y="-3736.8" font-family="Arial" font-size="14.00">&#45; generate_spending_lock(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="2946.98,-3721.5 2946.98,-3954.5 3398.98,-3954.5 3398.98,-3721.5 2946.98,-3721.5"/>
+<polygon fill="lightblue" stroke="transparent" points="2947.98,-3924 2947.98,-3961 3397.98,-3961 3397.98,-3924 2947.98,-3924"/>
+<polygon fill="none" stroke="black" points="2947.98,-3924 2947.98,-3961 3397.98,-3961 3397.98,-3924 2947.98,-3924"/>
+<text text-anchor="start" x="3093.48" y="-3939.8" font-family="Arial" font-weight="bold" font-size="14.00">GenerationSpendingKey</text>
+<polygon fill="white" stroke="transparent" points="2947.98,-3827 2947.98,-3924 3397.98,-3924 3397.98,-3827 2947.98,-3827"/>
+<polygon fill="none" stroke="black" points="2947.98,-3827 2947.98,-3924 3397.98,-3924 3397.98,-3827 2947.98,-3827"/>
+<text text-anchor="start" x="2958.98" y="-3901.8" font-family="Arial" font-size="14.00">+ seed: Digest</text>
+<text text-anchor="start" x="2958.98" y="-3886.8" font-family="Arial" font-size="14.00">+ receiver_identifier: BFieldElement</text>
+<text text-anchor="start" x="2958.98" y="-3871.8" font-family="Arial" font-size="14.00">+ decryption_key: lattice::kem::SecretKey</text>
+<text text-anchor="start" x="2958.98" y="-3856.8" font-family="Arial" font-size="14.00">+ privacy_preimage: Digest</text>
+<text text-anchor="start" x="2958.98" y="-3841.8" font-family="Arial" font-size="14.00">&#45; unlock_key: Digest</text>
+<polygon fill="white" stroke="transparent" points="2947.98,-3715 2947.98,-3827 3397.98,-3827 3397.98,-3715 2947.98,-3715"/>
+<polygon fill="none" stroke="black" points="2947.98,-3715 2947.98,-3827 3397.98,-3827 3397.98,-3715 2947.98,-3715"/>
+<text text-anchor="start" x="2958.98" y="-3804.8" font-family="Arial" font-size="14.00">&#45; deserialize(deserializer: D) &#45;&gt; Result&lt;Self, D::Error&gt;</text>
+<text text-anchor="start" x="2958.98" y="-3789.8" font-family="Arial" font-size="14.00">&#45; to_address(&amp;self) &#45;&gt; GenerationReceivingAddress</text>
+<text text-anchor="start" x="2958.98" y="-3774.8" font-family="Arial" font-size="14.00">&#45; lock_script_and_witness(&amp;self) &#45;&gt; LockScriptAndWitness</text>
+<text text-anchor="start" x="2958.98" y="-3759.8" font-family="Arial" font-size="14.00">&#45; derive_from_seed(seed: Digest) &#45;&gt; Self</text>
+<text text-anchor="start" x="2958.98" y="-3744.8" font-family="Arial" font-size="14.00">&#45; decrypt(&amp;self, ciphertext: &amp;[BFieldElement]) &#45;&gt; Result&lt;(Utxo, Digest)&gt;</text>
+<text text-anchor="start" x="2958.98" y="-3729.8" font-family="Arial" font-size="14.00">&#45; generate_spending_lock(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="2946.98,-3714 2946.98,-3962 3398.98,-3962 3398.98,-3714 2946.98,-3714"/>
 </a>
 </g>
 </g>
 <!-- ndUtxo&#45;&gt;ndGenerationSpendingKey -->
 <g id="edge138" class="edge">
 <title>ndUtxo&#45;&gt;ndGenerationSpendingKey</title>
-<path fill="none" stroke="black" d="M2901.26,-11791.41C2827.54,-11734.78 2741.55,-11674.9 2656.98,-11630 2614.15,-11607.26 2583.83,-11632.22 2553.98,-11594 2467.17,-11482.85 2522.57,-11100.51 2495.98,-10962 2461.44,-10782.08 2172.6,-9493.46 2027.98,-9381 1946.69,-9317.79 1178.28,-9414.14 1101.98,-9345 964.68,-9220.57 1018.5,-8701.76 987.98,-8519 955.67,-8325.56 924.91,-8280.89 902.98,-8086 784.83,-7036.14 875.74,-6765.54 830.98,-5710 827.13,-5619.27 696.3,-4141.74 759.98,-4077 802.25,-4034.02 2873.45,-4061.96 2929.98,-4041 2974.76,-4024.4 3017.19,-3995.73 3053.68,-3965.11"/>
-<polygon fill="black" stroke="black" points="3061.38,-3958.56 3056.68,-3968.47 3057.57,-3961.8 3053.76,-3965.04 3053.76,-3965.04 3053.76,-3965.04 3057.57,-3961.8 3050.85,-3961.62 3061.38,-3958.56 3061.38,-3958.56"/>
+<path fill="none" stroke="black" d="M2901.26,-11791.41C2827.54,-11734.78 2741.55,-11674.9 2656.98,-11630 2614.15,-11607.26 2583.83,-11632.22 2553.98,-11594 2467.17,-11482.85 2522.57,-11100.51 2495.98,-10962 2461.44,-10782.08 2172.6,-9493.46 2027.98,-9381 1946.69,-9317.79 1178.28,-9414.14 1101.98,-9345 964.68,-9220.57 1018.5,-8701.76 987.98,-8519 955.67,-8325.56 924.91,-8280.89 902.98,-8086 784.83,-7036.14 875.74,-6765.54 830.98,-5710 827.13,-5619.27 696.3,-4141.74 759.98,-4077 802.25,-4034.02 2873.45,-4061.96 2929.98,-4041 2970.93,-4025.82 3009.92,-4000.54 3044.19,-3972.91"/>
+<polygon fill="black" stroke="black" points="3052.35,-3966.23 3047.47,-3976.05 3048.48,-3969.4 3044.61,-3972.57 3044.61,-3972.57 3044.61,-3972.57 3048.48,-3969.4 3041.76,-3969.09 3052.35,-3966.23 3052.35,-3966.23"/>
 </g>
 <!-- ndSymmetricKey -->
 <g id="node176" class="node">
@@ -7776,13 +7777,13 @@
 <!-- ndGenerationSpendingKey&#45;&gt;ndSpendingKey -->
 <g id="edge512" class="edge">
 <title>ndGenerationSpendingKey&#45;&gt;ndSpendingKey</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3328.57,-3958.66C3362.01,-3992.9 3392.75,-4033 3410.98,-4077 3466.15,-4210.2 3444.7,-4375.84 3415.91,-4494"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3335.91,-3966.32C3366.47,-3998.82 3394.1,-4036.24 3410.98,-4077 3466.15,-4210.2 3444.7,-4375.84 3415.91,-4494"/>
 <polygon fill="black" stroke="black" points="3413.46,-4503.85 3411.5,-4493.06 3414.67,-4498.99 3415.87,-4494.14 3415.87,-4494.14 3415.87,-4494.14 3414.67,-4498.99 3420.24,-4495.23 3413.46,-4503.85 3413.46,-4503.85"/>
 </g>
 <!-- ndGenerationSpendingKey&#45;&gt;ndGenerationReceivingAddress -->
 <g id="edge513" class="edge">
 <title>ndGenerationSpendingKey&#45;&gt;ndGenerationReceivingAddress</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3103.78,-3958.52C3082.55,-3992.9 3058.59,-4031.12 3035.12,-4068.06"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3099.03,-3966.21C3078.97,-3998.61 3056.78,-4033.97 3035.01,-4068.23"/>
 <polygon fill="black" stroke="black" points="3029.49,-4076.92 3031.06,-4066.06 3032.17,-4072.7 3034.86,-4068.48 3034.86,-4068.48 3034.86,-4068.48 3032.17,-4072.7 3038.65,-4070.89 3029.49,-4076.92 3029.49,-4076.92"/>
 </g>
 <!-- ndGenerationReceivingAddress&#45;&gt;ndReceivingAddress -->
@@ -7794,8 +7795,8 @@
 <!-- ndGenerationReceivingAddress&#45;&gt;ndGenerationSpendingKey -->
 <g id="edge515" class="edge">
 <title>ndGenerationReceivingAddress&#45;&gt;ndGenerationSpendingKey</title>
-<path fill="none" stroke="black" d="M3016.19,-4076.92C3039.05,-4040.37 3063.27,-4002.15 3085.67,-3967.31"/>
-<polygon fill="black" stroke="black" points="3091.32,-3958.52 3089.7,-3969.37 3088.62,-3962.73 3085.91,-3966.93 3085.91,-3966.93 3085.91,-3966.93 3088.62,-3962.73 3082.13,-3964.5 3091.32,-3958.52 3091.32,-3958.52"/>
+<path fill="none" stroke="black" d="M3016.19,-4076.92C3037.4,-4043.02 3059.77,-4007.68 3080.78,-3974.93"/>
+<polygon fill="black" stroke="black" points="3086.37,-3966.21 3084.76,-3977.06 3083.67,-3970.42 3080.97,-3974.63 3080.97,-3974.63 3080.97,-3974.63 3083.67,-3970.42 3077.18,-3972.2 3086.37,-3966.21 3086.37,-3966.21"/>
 </g>
 <!-- ndDecryptError -->
 <g id="node174" class="node">
