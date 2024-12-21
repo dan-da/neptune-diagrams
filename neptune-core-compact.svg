@@ -3122,7 +3122,7 @@
 <text text-anchor="start" x="1032.75" y="-5119.3" font-family="Arial" font-size="14.00">+ difficulty: Difficulty</text>
 <text text-anchor="start" x="1032.75" y="-5104.3" font-family="Arial" font-size="14.00">+ num_inputs: usize</text>
 <text text-anchor="start" x="1032.75" y="-5089.3" font-family="Arial" font-size="14.00">+ num_outputs: usize</text>
-<text text-anchor="start" x="1032.75" y="-5074.3" font-family="Arial" font-size="14.00">+ mining_reward: NeptuneCoins</text>
+<text text-anchor="start" x="1032.75" y="-5074.3" font-family="Arial" font-size="14.00">+ coinbase_amount: NeptuneCoins</text>
 <text text-anchor="start" x="1032.75" y="-5059.3" font-family="Arial" font-size="14.00">+ fee: NeptuneCoins</text>
 <text text-anchor="start" x="1032.75" y="-5044.3" font-family="Arial" font-size="14.00">+ is_genesis: bool</text>
 <text text-anchor="start" x="1032.75" y="-5029.3" font-family="Arial" font-size="14.00">+ is_tip: bool</text>

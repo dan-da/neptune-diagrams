@@ -39,7 +39,7 @@
 <text text-anchor="start" x="2066.5" y="-304.8" font-family="Arial" font-size="14.00">&#45; ram_table_len: usize</text>
 <text text-anchor="start" x="2066.5" y="-289.8" font-family="Arial" font-size="14.00">&#45; hash_coprocessor_execution_len: usize</text>
 <text text-anchor="start" x="2066.5" y="-274.8" font-family="Arial" font-size="14.00">&#45; cascade_table_len: usize</text>
-<text text-anchor="start" x="2066.5" y="-259.8" font-family="Arial" font-size="14.00">&#45; u32_coprocesor_execution_len: usize</text>
+<text text-anchor="start" x="2066.5" y="-259.8" font-family="Arial" font-size="14.00">&#45; u32_coprocessor_execution_len: usize</text>
 <text text-anchor="start" x="2066.5" y="-244.8" font-family="Arial" font-size="14.00">&#45; trace_domain: ArithmeticDomain</text>
 <text text-anchor="start" x="2066.5" y="-229.8" font-family="Arial" font-size="14.00">&#45; randomized_trace_domain: ArithmeticDomain</text>
 <text text-anchor="start" x="2066.5" y="-214.8" font-family="Arial" font-size="14.00">&#45; quotient_domain: ArithmeticDomain</text>
