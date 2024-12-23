@@ -363,73 +363,72 @@
 <g id="node11" class="node">
 <title>ndMmrMembershipProof</title>
 <g id="a_node11_12"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/mmr/mmr_membership_proof.rs#:~:text=struct%20MmrMembershipProof" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="118.35,-3035.5 118.35,-3072.5 1260.35,-3072.5 1260.35,-3035.5 118.35,-3035.5"/>
-<polygon fill="none" stroke="black" points="118.35,-3035.5 118.35,-3072.5 1260.35,-3072.5 1260.35,-3035.5 118.35,-3035.5"/>
-<text text-anchor="start" x="615.85" y="-3051.3" font-family="Arial" font-weight="bold" font-size="14.00">MmrMembershipProof</text>
-<polygon fill="white" stroke="transparent" points="118.35,-2998.5 118.35,-3035.5 1260.35,-3035.5 1260.35,-2998.5 118.35,-2998.5"/>
-<polygon fill="none" stroke="black" points="118.35,-2998.5 118.35,-3035.5 1260.35,-3035.5 1260.35,-2998.5 118.35,-2998.5"/>
-<text text-anchor="start" x="129.35" y="-3013.3" font-family="Arial" font-size="14.00">+ authentication_path: Vec&lt;Digest&gt;</text>
-<polygon fill="white" stroke="transparent" points="118.35,-2795.5 118.35,-2998.5 1260.35,-2998.5 1260.35,-2795.5 118.35,-2795.5"/>
-<polygon fill="none" stroke="black" points="118.35,-2795.5 118.35,-2998.5 1260.35,-2998.5 1260.35,-2795.5 118.35,-2795.5"/>
-<text text-anchor="start" x="129.35" y="-2976.3" font-family="Arial" font-size="14.00">&#45; eq(&amp;self, other: &amp;Self) &#45;&gt; bool</text>
-<text text-anchor="start" x="129.35" y="-2944.5" font-family="Arial" font-size="14.00">&#45; new(authentication_path: Vec&lt;Digest&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="129.35" y="-2929.5" font-family="Arial" font-size="14.00">&#45; verify(&amp;self, leaf_index: u64, leaf_hash: Digest, peaks: &amp;[Digest], leaf_count: u64) &#45;&gt; bool</text>
-<text text-anchor="start" x="129.35" y="-2914.5" font-family="Arial" font-size="14.00">&#45; get_node_indices(&amp;self, leaf_index: u64) &#45;&gt; Vec&lt;u64&gt;</text>
-<text text-anchor="start" x="129.35" y="-2899.5" font-family="Arial" font-size="14.00">&#45; get_direct_path_indices(&amp;self, leaf_index: u64) &#45;&gt; Vec&lt;u64&gt;</text>
-<text text-anchor="start" x="129.35" y="-2884.5" font-family="Arial" font-size="14.00">&#45; get_peak_index_and_height(&amp;self, leaf_index: u64) &#45;&gt; (u64, u32)</text>
-<text text-anchor="start" x="129.35" y="-2869.5" font-family="Arial" font-size="14.00">&#45; update_from_append(&amp;mut self, membership_proof_leaf_index: u64, old_mmr_leaf_count: u64, new_mmr_leaf: Digest, old_mmr_peaks: &amp;[Digest]) &#45;&gt; bool</text>
-<text text-anchor="start" x="129.35" y="-2854.5" font-family="Arial" font-size="14.00">&#45; batch_update_from_append(membership_proofs: &amp;mut [&amp;mut Self], membership_proof_leaf_indices: &amp;[u64], old_leaf_count: u64, new_leaf: Digest, old_peaks: &amp;[Digest]) &#45;&gt; Vec&lt;usize&gt;</text>
-<text text-anchor="start" x="129.35" y="-2839.5" font-family="Arial" font-size="14.00">&#45; update_from_leaf_mutation(&amp;mut self, own_mp_leaf_index: u64, leaf_mutation: &amp;LeafMutation) &#45;&gt; bool</text>
-<text text-anchor="start" x="129.35" y="-2824.5" font-family="Arial" font-size="14.00">&#45; batch_update_from_leaf_mutation(membership_proofs: &amp;mut [Self], membership_proof_leaf_indices: &amp;[u64], leaf_mutation: LeafMutation) &#45;&gt; Vec&lt;u64&gt;</text>
-<text text-anchor="start" x="129.35" y="-2809.5" font-family="Arial" font-size="14.00">&#45; batch_update_from_batch_leaf_mutation(membership_proofs: &amp;mut [&amp;mut Self], membership_proof_leaf_indices: &amp;[u64], mut leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; Vec&lt;usize&gt;</text>
-<polygon fill="none" stroke="black" points="117.35,-2795 117.35,-3074 1261.35,-3074 1261.35,-2795 117.35,-2795"/>
+<polygon fill="lightblue" stroke="transparent" points="118.35,-3020.5 118.35,-3057.5 1260.35,-3057.5 1260.35,-3020.5 118.35,-3020.5"/>
+<polygon fill="none" stroke="black" points="118.35,-3020.5 118.35,-3057.5 1260.35,-3057.5 1260.35,-3020.5 118.35,-3020.5"/>
+<text text-anchor="start" x="615.85" y="-3036.3" font-family="Arial" font-weight="bold" font-size="14.00">MmrMembershipProof</text>
+<polygon fill="white" stroke="transparent" points="118.35,-2983.5 118.35,-3020.5 1260.35,-3020.5 1260.35,-2983.5 118.35,-2983.5"/>
+<polygon fill="none" stroke="black" points="118.35,-2983.5 118.35,-3020.5 1260.35,-3020.5 1260.35,-2983.5 118.35,-2983.5"/>
+<text text-anchor="start" x="129.35" y="-2998.3" font-family="Arial" font-size="14.00">+ authentication_path: Vec&lt;Digest&gt;</text>
+<polygon fill="white" stroke="transparent" points="118.35,-2811.5 118.35,-2983.5 1260.35,-2983.5 1260.35,-2811.5 118.35,-2811.5"/>
+<polygon fill="none" stroke="black" points="118.35,-2811.5 118.35,-2983.5 1260.35,-2983.5 1260.35,-2811.5 118.35,-2811.5"/>
+<text text-anchor="start" x="129.35" y="-2961.3" font-family="Arial" font-size="14.00">&#45; new(authentication_path: Vec&lt;Digest&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="129.35" y="-2946.3" font-family="Arial" font-size="14.00">&#45; verify(&amp;self, leaf_index: u64, leaf_hash: Digest, peaks: &amp;[Digest], num_leafs: u64) &#45;&gt; bool</text>
+<text text-anchor="start" x="129.35" y="-2931.3" font-family="Arial" font-size="14.00">&#45; get_node_indices(&amp;self, leaf_index: u64) &#45;&gt; Vec&lt;u64&gt;</text>
+<text text-anchor="start" x="129.35" y="-2916.3" font-family="Arial" font-size="14.00">&#45; get_direct_path_indices(&amp;self, leaf_index: u64) &#45;&gt; Vec&lt;u64&gt;</text>
+<text text-anchor="start" x="129.35" y="-2901.3" font-family="Arial" font-size="14.00">&#45; get_peak_index_and_height(&amp;self, leaf_index: u64) &#45;&gt; (u64, u32)</text>
+<text text-anchor="start" x="129.35" y="-2886.3" font-family="Arial" font-size="14.00">&#45; update_from_append(&amp;mut self, membership_proof_leaf_index: u64, old_mmr_leaf_count: u64, new_mmr_leaf: Digest, old_mmr_peaks: &amp;[Digest]) &#45;&gt; bool</text>
+<text text-anchor="start" x="129.35" y="-2871.3" font-family="Arial" font-size="14.00">&#45; batch_update_from_append(membership_proofs: &amp;mut [&amp;mut Self], membership_proof_leaf_indices: &amp;[u64], old_leaf_count: u64, new_leaf: Digest, old_peaks: &amp;[Digest]) &#45;&gt; Vec&lt;usize&gt;</text>
+<text text-anchor="start" x="129.35" y="-2856.3" font-family="Arial" font-size="14.00">&#45; update_from_leaf_mutation(&amp;mut self, own_mp_leaf_index: u64, leaf_mutation: &amp;LeafMutation) &#45;&gt; bool</text>
+<text text-anchor="start" x="129.35" y="-2841.3" font-family="Arial" font-size="14.00">&#45; batch_update_from_leaf_mutation(membership_proofs: &amp;mut [Self], membership_proof_leaf_indices: &amp;[u64], leaf_mutation: LeafMutation) &#45;&gt; Vec&lt;u64&gt;</text>
+<text text-anchor="start" x="129.35" y="-2826.3" font-family="Arial" font-size="14.00">&#45; batch_update_from_batch_leaf_mutation(membership_proofs: &amp;mut [&amp;mut Self], membership_proof_leaf_indices: &amp;[u64], mut leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; Vec&lt;usize&gt;</text>
+<polygon fill="none" stroke="black" points="117.35,-2810.5 117.35,-3058.5 1261.35,-3058.5 1261.35,-2810.5 117.35,-2810.5"/>
 </a>
 </g>
 </g>
 <!-- ndLeafMutation&#45;&gt;ndMmrMembershipProof -->
 <g id="edge8" class="edge">
 <title>ndLeafMutation&#45;&gt;ndMmrMembershipProof</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1235.44,-3718.34C1130.53,-3573.39 917.09,-3270.25 790.32,-3086.64"/>
-<polygon fill="black" stroke="black" points="784.53,-3078.26 793.92,-3083.93 787.37,-3082.37 790.21,-3086.49 790.21,-3086.49 790.21,-3086.49 787.37,-3082.37 786.51,-3089.05 784.53,-3078.26 784.53,-3078.26"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1235.44,-3718.34C1127.45,-3569.13 904.46,-3252.31 779.38,-3070.78"/>
+<polygon fill="black" stroke="black" points="773.68,-3062.51 783.06,-3068.19 776.51,-3066.62 779.35,-3070.74 779.35,-3070.74 779.35,-3070.74 776.51,-3066.62 775.64,-3073.29 773.68,-3062.51 773.68,-3062.51"/>
 </g>
 <!-- ndMockMmr -->
 <g id="node18" class="node">
 <title>ndMockMmr</title>
 <g id="a_node18_13"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/mock/mmr/mock_mmr.rs#:~:text=struct%20MockMmr" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1508.35,-707.5 1508.35,-744.5 2740.35,-744.5 2740.35,-707.5 1508.35,-707.5"/>
-<polygon fill="none" stroke="black" points="1508.35,-707.5 1508.35,-744.5 2740.35,-744.5 2740.35,-707.5 1508.35,-707.5"/>
-<text text-anchor="start" x="2091.35" y="-723.3" font-family="Arial" font-weight="bold" font-size="14.00">MockMmr</text>
-<polygon fill="white" stroke="transparent" points="1508.35,-670.5 1508.35,-707.5 2740.35,-707.5 2740.35,-670.5 1508.35,-670.5"/>
-<polygon fill="none" stroke="black" points="1508.35,-670.5 1508.35,-707.5 2740.35,-707.5 2740.35,-670.5 1508.35,-670.5"/>
-<text text-anchor="start" x="1519.35" y="-685.3" font-family="Arial" font-size="14.00">&#45; digests: MyVec&lt;Digest&gt;</text>
-<polygon fill="white" stroke="transparent" points="1508.35,-393.5 1508.35,-670.5 2740.35,-670.5 2740.35,-393.5 1508.35,-393.5"/>
-<polygon fill="none" stroke="black" points="1508.35,-393.5 1508.35,-670.5 2740.35,-670.5 2740.35,-393.5 1508.35,-393.5"/>
-<text text-anchor="start" x="1519.35" y="-648.3" font-family="Arial" font-size="14.00">&#45; bag_peaks(&amp;self) &#45;&gt; Digest</text>
-<text text-anchor="start" x="1519.35" y="-633.3" font-family="Arial" font-size="14.00">&#45; peaks(&amp;self) &#45;&gt; Vec&lt;Digest&gt;</text>
-<text text-anchor="start" x="1519.35" y="-618.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
-<text text-anchor="start" x="1519.35" y="-603.3" font-family="Arial" font-size="14.00">&#45; num_leafs(&amp;self) &#45;&gt; u64</text>
-<text text-anchor="start" x="1519.35" y="-588.3" font-family="Arial" font-size="14.00">&#45; append(&amp;mut self, new_leaf: Digest) &#45;&gt; MmrMembershipProof</text>
-<text text-anchor="start" x="1519.35" y="-573.3" font-family="Arial" font-size="14.00">&#45; mutate_leaf(&amp;mut self, leaf_mutation: LeafMutation)</text>
-<text text-anchor="start" x="1519.35" y="-558.3" font-family="Arial" font-size="14.00">&#45; batch_mutate_leaf_and_update_mps(&amp;mut self, membership_proofs: &amp;mut [&amp;mut MmrMembershipProof], membership_proof_leaf_indices: &amp;[u64], leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; Vec&lt;usize&gt;</text>
-<text text-anchor="start" x="1519.35" y="-543.3" font-family="Arial" font-size="14.00">&#45; verify_batch_update(&amp;self, new_peaks: &amp;[Digest], appended_leafs: &amp;[Digest], leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; bool</text>
-<text text-anchor="start" x="1519.35" y="-528.3" font-family="Arial" font-size="14.00">&#45; to_accumulator(&amp;self) &#45;&gt; MmrAccumulator</text>
-<text text-anchor="start" x="1519.35" y="-513.3" font-family="Arial" font-size="14.00">&#45; new(pv: Vec&lt;Digest&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="1519.35" y="-498.3" font-family="Arial" font-size="14.00">&#45; fix_dummy(&amp;mut self)</text>
-<text text-anchor="start" x="1519.35" y="-483.3" font-family="Arial" font-size="14.00">&#45; get_leaf(&amp;self, leaf_index: u64) &#45;&gt; Digest</text>
-<text text-anchor="start" x="1519.35" y="-468.3" font-family="Arial" font-size="14.00">&#45; mutate_leaf_raw(&amp;mut self, leaf_index: u64, new_leaf: Digest)</text>
-<text text-anchor="start" x="1519.35" y="-453.3" font-family="Arial" font-size="14.00">&#45; prove_membership(&amp;self, leaf_index: u64) &#45;&gt; MmrMembershipProof</text>
-<text text-anchor="start" x="1519.35" y="-438.3" font-family="Arial" font-size="14.00">&#45; get_peaks_with_heights(&amp;self) &#45;&gt; Vec&lt;(Digest, u32)&gt;</text>
-<text text-anchor="start" x="1519.35" y="-423.3" font-family="Arial" font-size="14.00">&#45; append_raw(&amp;mut self, new_leaf: Digest)</text>
-<text text-anchor="start" x="1519.35" y="-408.3" font-family="Arial" font-size="14.00">&#45; remove_last_leaf(&amp;mut self) &#45;&gt; Option&lt;Digest&gt;</text>
-<polygon fill="none" stroke="black" points="1507.35,-393 1507.35,-746 2741.35,-746 2741.35,-393 1507.35,-393"/>
+<polygon fill="lightblue" stroke="transparent" points="1506.35,-707.5 1506.35,-744.5 2738.35,-744.5 2738.35,-707.5 1506.35,-707.5"/>
+<polygon fill="none" stroke="black" points="1506.35,-707.5 1506.35,-744.5 2738.35,-744.5 2738.35,-707.5 1506.35,-707.5"/>
+<text text-anchor="start" x="2089.35" y="-723.3" font-family="Arial" font-weight="bold" font-size="14.00">MockMmr</text>
+<polygon fill="white" stroke="transparent" points="1506.35,-670.5 1506.35,-707.5 2738.35,-707.5 2738.35,-670.5 1506.35,-670.5"/>
+<polygon fill="none" stroke="black" points="1506.35,-670.5 1506.35,-707.5 2738.35,-707.5 2738.35,-670.5 1506.35,-670.5"/>
+<text text-anchor="start" x="1517.35" y="-685.3" font-family="Arial" font-size="14.00">&#45; digests: MyVec&lt;Digest&gt;</text>
+<polygon fill="white" stroke="transparent" points="1506.35,-393.5 1506.35,-670.5 2738.35,-670.5 2738.35,-393.5 1506.35,-393.5"/>
+<polygon fill="none" stroke="black" points="1506.35,-393.5 1506.35,-670.5 2738.35,-670.5 2738.35,-393.5 1506.35,-393.5"/>
+<text text-anchor="start" x="1517.35" y="-648.3" font-family="Arial" font-size="14.00">&#45; bag_peaks(&amp;self) &#45;&gt; Digest</text>
+<text text-anchor="start" x="1517.35" y="-633.3" font-family="Arial" font-size="14.00">&#45; peaks(&amp;self) &#45;&gt; Vec&lt;Digest&gt;</text>
+<text text-anchor="start" x="1517.35" y="-618.3" font-family="Arial" font-size="14.00">&#45; is_empty(&amp;self) &#45;&gt; bool</text>
+<text text-anchor="start" x="1517.35" y="-603.3" font-family="Arial" font-size="14.00">&#45; num_leafs(&amp;self) &#45;&gt; u64</text>
+<text text-anchor="start" x="1517.35" y="-588.3" font-family="Arial" font-size="14.00">&#45; append(&amp;mut self, new_leaf: Digest) &#45;&gt; MmrMembershipProof</text>
+<text text-anchor="start" x="1517.35" y="-573.3" font-family="Arial" font-size="14.00">&#45; mutate_leaf(&amp;mut self, leaf_mutation: LeafMutation)</text>
+<text text-anchor="start" x="1517.35" y="-558.3" font-family="Arial" font-size="14.00">&#45; batch_mutate_leaf_and_update_mps(&amp;mut self, membership_proofs: &amp;mut [&amp;mut MmrMembershipProof], membership_proof_leaf_indices: &amp;[u64], leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; Vec&lt;usize&gt;</text>
+<text text-anchor="start" x="1517.35" y="-543.3" font-family="Arial" font-size="14.00">&#45; verify_batch_update(&amp;self, new_peaks: &amp;[Digest], appended_leafs: &amp;[Digest], leaf_mutations: Vec&lt;LeafMutation&gt;) &#45;&gt; bool</text>
+<text text-anchor="start" x="1517.35" y="-528.3" font-family="Arial" font-size="14.00">&#45; to_accumulator(&amp;self) &#45;&gt; MmrAccumulator</text>
+<text text-anchor="start" x="1517.35" y="-513.3" font-family="Arial" font-size="14.00">&#45; new(pv: Vec&lt;Digest&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="1517.35" y="-498.3" font-family="Arial" font-size="14.00">&#45; fix_dummy(&amp;mut self)</text>
+<text text-anchor="start" x="1517.35" y="-483.3" font-family="Arial" font-size="14.00">&#45; get_leaf(&amp;self, leaf_index: u64) &#45;&gt; Digest</text>
+<text text-anchor="start" x="1517.35" y="-468.3" font-family="Arial" font-size="14.00">&#45; mutate_leaf_raw(&amp;mut self, leaf_index: u64, new_leaf: Digest)</text>
+<text text-anchor="start" x="1517.35" y="-453.3" font-family="Arial" font-size="14.00">&#45; prove_membership(&amp;self, leaf_index: u64) &#45;&gt; MmrMembershipProof</text>
+<text text-anchor="start" x="1517.35" y="-438.3" font-family="Arial" font-size="14.00">&#45; get_peaks_with_heights(&amp;self) &#45;&gt; Vec&lt;(Digest, u32)&gt;</text>
+<text text-anchor="start" x="1517.35" y="-423.3" font-family="Arial" font-size="14.00">&#45; append_raw(&amp;mut self, new_leaf: Digest)</text>
+<text text-anchor="start" x="1517.35" y="-408.3" font-family="Arial" font-size="14.00">&#45; remove_last_leaf(&amp;mut self) &#45;&gt; Option&lt;Digest&gt;</text>
+<polygon fill="none" stroke="black" points="1505.35,-393 1505.35,-746 2739.35,-746 2739.35,-393 1505.35,-393"/>
 </a>
 </g>
 </g>
 <!-- ndLeafMutation&#45;&gt;ndMockMmr -->
 <g id="edge9" class="edge">
 <title>ndLeafMutation&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1592.58,-3750.24C1788.1,-3699.96 2030.4,-3601.24 2153.35,-3410 2183.83,-3362.6 2188.87,-1588.05 2146.35,-786 2145.91,-777.56 2145.37,-768.95 2144.76,-760.25"/>
-<polygon fill="black" stroke="black" points="2144.01,-750.01 2149.23,-759.66 2144.38,-755 2144.74,-759.99 2144.74,-759.99 2144.74,-759.99 2144.38,-755 2140.25,-760.31 2144.01,-750.01 2144.01,-750.01"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1592.58,-3750.24C1788.1,-3699.96 2030.4,-3601.24 2153.35,-3410 2185.76,-3359.6 2192.26,-1582.78 2146.35,-786 2145.87,-777.63 2145.29,-769.08 2144.63,-760.45"/>
+<polygon fill="black" stroke="black" points="2143.83,-750.29 2149.1,-759.9 2144.22,-755.27 2144.62,-760.25 2144.62,-760.25 2144.62,-760.25 2144.22,-755.27 2140.13,-760.61 2143.83,-750.29 2143.83,-750.29"/>
 </g>
 <!-- ndMmr -->
 <g id="node9" class="node">
@@ -461,24 +460,24 @@
 <!-- ndMmr&#45;&gt;ndMockMmr -->
 <g id="edge11" class="edge">
 <title>ndMmr&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1835.3,-2839.65C1928.38,-2744.83 2060.85,-2588.97 2116.35,-2423 2167.94,-2268.75 2143,-1201.64 2130.26,-760.59"/>
-<polygon fill="none" stroke="black" points="2133.75,-760.19 2129.96,-750.29 2126.75,-760.39 2133.75,-760.19"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1835.34,-2839.66C1928.44,-2744.85 2060.94,-2589 2116.35,-2423 2167.85,-2268.73 2141.71,-1201.63 2128.47,-760.59"/>
+<polygon fill="none" stroke="black" points="2131.96,-760.18 2128.16,-750.29 2124.97,-760.39 2131.96,-760.18"/>
 </g>
 <!-- ndMmrSuccessorProof -->
 <g id="node12" class="node">
 <title>ndMmrSuccessorProof</title>
 <g id="a_node12_15"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/mmr/mmr_successor_proof.rs#:~:text=struct%20MmrSuccessorProof" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="353.35,-595.5 353.35,-632.5 886.35,-632.5 886.35,-595.5 353.35,-595.5"/>
-<polygon fill="none" stroke="black" points="353.35,-595.5 353.35,-632.5 886.35,-632.5 886.35,-595.5 353.35,-595.5"/>
+<polygon fill="lightblue" stroke="transparent" points="358.35,-595.5 358.35,-632.5 881.35,-632.5 881.35,-595.5 358.35,-595.5"/>
+<polygon fill="none" stroke="black" points="358.35,-595.5 358.35,-632.5 881.35,-632.5 881.35,-595.5 358.35,-595.5"/>
 <text text-anchor="start" x="552.85" y="-611.3" font-family="Arial" font-weight="bold" font-size="14.00">MmrSuccessorProof</text>
-<polygon fill="white" stroke="transparent" points="353.35,-558.5 353.35,-595.5 886.35,-595.5 886.35,-558.5 353.35,-558.5"/>
-<polygon fill="none" stroke="black" points="353.35,-558.5 353.35,-595.5 886.35,-595.5 886.35,-558.5 353.35,-558.5"/>
-<text text-anchor="start" x="364.35" y="-573.3" font-family="Arial" font-size="14.00">+ paths: Vec&lt;Digest&gt;</text>
-<polygon fill="white" stroke="transparent" points="353.35,-506.5 353.35,-558.5 886.35,-558.5 886.35,-506.5 353.35,-506.5"/>
-<polygon fill="none" stroke="black" points="353.35,-506.5 353.35,-558.5 886.35,-558.5 886.35,-506.5 353.35,-506.5"/>
-<text text-anchor="start" x="364.35" y="-536.3" font-family="Arial" font-size="14.00">&#45; new_from_batch_append(mmra: &amp;MmrAccumulator, new_leafs: &amp;[Digest]) &#45;&gt; Self</text>
-<text text-anchor="start" x="364.35" y="-521.3" font-family="Arial" font-size="14.00">&#45; verify(&amp;self, old_mmra: &amp;MmrAccumulator, new_mmra: &amp;MmrAccumulator) &#45;&gt; bool</text>
-<polygon fill="none" stroke="black" points="351.85,-505.5 351.85,-633.5 886.85,-633.5 886.85,-505.5 351.85,-505.5"/>
+<polygon fill="white" stroke="transparent" points="358.35,-558.5 358.35,-595.5 881.35,-595.5 881.35,-558.5 358.35,-558.5"/>
+<polygon fill="none" stroke="black" points="358.35,-558.5 358.35,-595.5 881.35,-595.5 881.35,-558.5 358.35,-558.5"/>
+<text text-anchor="start" x="369.35" y="-573.3" font-family="Arial" font-size="14.00">+ paths: Vec&lt;Digest&gt;</text>
+<polygon fill="white" stroke="transparent" points="358.35,-506.5 358.35,-558.5 881.35,-558.5 881.35,-506.5 358.35,-506.5"/>
+<polygon fill="none" stroke="black" points="358.35,-506.5 358.35,-558.5 881.35,-558.5 881.35,-506.5 358.35,-506.5"/>
+<text text-anchor="start" x="369.35" y="-536.3" font-family="Arial" font-size="14.00">&#45; new_from_batch_append(mmra: &amp;MmrAccumulator, new_leafs: &amp;[Digest]) &#45;&gt; Self</text>
+<text text-anchor="start" x="369.35" y="-521.3" font-family="Arial" font-size="14.00">&#45; verify(&amp;self, old: &amp;MmrAccumulator, new: &amp;MmrAccumulator) &#45;&gt; bool</text>
+<polygon fill="none" stroke="black" points="356.85,-505.5 356.85,-633.5 881.85,-633.5 881.85,-505.5 356.85,-505.5"/>
 </a>
 </g>
 </g>
@@ -491,26 +490,26 @@
 <!-- ndMmrAccumulator&#45;&gt;ndMockMmr -->
 <g id="edge13" class="edge">
 <title>ndMmrAccumulator&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" d="M1295.29,-1453.62C1414.53,-1282.22 1624.17,-997.98 1840.35,-786 1850.22,-776.32 1860.53,-766.7 1871.12,-757.18"/>
-<polygon fill="black" stroke="black" points="1878.89,-750.27 1874.41,-760.28 1875.15,-753.6 1871.42,-756.92 1871.42,-756.92 1871.42,-756.92 1875.15,-753.6 1868.43,-753.56 1878.89,-750.27 1878.89,-750.27"/>
+<path fill="none" stroke="black" d="M1295.42,-1453.76C1414.78,-1282.48 1624.54,-998.34 1840.35,-786 1850.35,-776.17 1860.79,-766.38 1871.52,-756.71"/>
+<polygon fill="black" stroke="black" points="1879,-750.04 1874.54,-760.05 1875.27,-753.37 1871.54,-756.7 1871.54,-756.7 1871.54,-756.7 1875.27,-753.37 1868.55,-753.34 1879,-750.04 1879,-750.04"/>
 </g>
 <!-- ndMmrMembershipProof&#45;&gt;ndLeafMutation -->
 <g id="edge14" class="edge">
 <title>ndMmrMembershipProof&#45;&gt;ndLeafMutation</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M794.86,-3078.26C922.71,-3256.79 1133.66,-3557.29 1236.83,-3708.18"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M783.57,-3062.51C909.98,-3238.66 1130.71,-3552.97 1236.94,-3708.34"/>
 <polygon fill="black" stroke="black" points="1237,-3708.43 1243.69,-3711.13 1243.77,-3718.34 1237.08,-3715.64 1237,-3708.43"/>
 </g>
 <!-- ndMmrMembershipProof&#45;&gt;ndMmrAccumulator -->
 <g id="edge15" class="edge">
 <title>ndMmrMembershipProof&#45;&gt;ndMmrAccumulator</title>
-<path fill="none" stroke="black" d="M743.64,-2790.75C838.69,-2540.78 1034.59,-2025.64 1133.85,-1764.6"/>
-<polygon fill="black" stroke="black" points="1137.49,-1755.04 1138.14,-1765.98 1135.71,-1759.71 1133.93,-1764.39 1133.93,-1764.39 1133.93,-1764.39 1135.71,-1759.71 1129.73,-1762.79 1137.49,-1755.04 1137.49,-1755.04"/>
+<path fill="none" stroke="black" d="M737.66,-2806.47C830.25,-2562.99 1032.48,-2031.17 1133.87,-1764.55"/>
+<polygon fill="black" stroke="black" points="1137.44,-1755.18 1138.09,-1766.12 1135.66,-1759.85 1133.88,-1764.52 1133.88,-1764.52 1133.88,-1764.52 1135.66,-1759.85 1129.68,-1762.92 1137.44,-1755.18 1137.44,-1755.18"/>
 </g>
 <!-- ndMmrMembershipProof&#45;&gt;ndMockMmr -->
 <g id="edge16" class="edge">
 <title>ndMmrMembershipProof&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" d="M618.84,-2790.66C442.03,-2409.75 29.79,-1359.82 548.35,-786 574.94,-756.59 864.01,-754.88 903.35,-750 1093.96,-726.34 1300.8,-697.23 1489.13,-669.4"/>
-<polygon fill="black" stroke="black" points="1499.23,-667.91 1489.99,-673.83 1494.28,-668.64 1489.33,-669.38 1489.33,-669.38 1489.33,-669.38 1494.28,-668.64 1488.68,-664.92 1499.23,-667.91 1499.23,-667.91"/>
+<path fill="none" stroke="black" d="M626.11,-2806.17C453.81,-2439.14 23,-1368.16 548.35,-786 574.55,-756.98 859.56,-754.84 898.35,-750 1089.93,-726.11 1297.89,-696.87 1487.1,-668.97"/>
+<polygon fill="black" stroke="black" points="1497.23,-667.48 1488,-673.39 1492.29,-668.21 1487.34,-668.94 1487.34,-668.94 1487.34,-668.94 1492.29,-668.21 1486.68,-664.49 1497.23,-667.48 1497.23,-667.48"/>
 </g>
 <!-- ndMerkleTree -->
 <g id="node13" class="node">
@@ -665,8 +664,8 @@
 <!-- ndMyVec&#45;&gt;ndMockMmr -->
 <g id="edge19" class="edge">
 <title>ndMyVec&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" d="M1992.09,-1506.32C2016.08,-1336.54 2066.05,-983.03 2097.23,-762.4"/>
-<polygon fill="black" stroke="black" points="2097.25,-762.24 2094.13,-755.74 2098.93,-750.36 2102.05,-756.86 2097.25,-762.24"/>
+<path fill="none" stroke="black" d="M1991.9,-1506.32C2015.57,-1336.54 2064.85,-983.03 2095.6,-762.4"/>
+<polygon fill="black" stroke="black" points="2095.62,-762.25 2092.49,-755.75 2097.28,-750.36 2100.41,-756.86 2095.62,-762.25"/>
 </g>
 <!-- ndCyclicGroupGenerator -->
 <g id="node20" class="node">
@@ -1370,8 +1369,8 @@
 <!-- ndDigest&#45;&gt;ndMmrMembershipProof -->
 <g id="edge57" class="edge">
 <title>ndDigest&#45;&gt;ndMmrMembershipProof</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2361.48,-4403.63C1952.1,-4388.2 1188.82,-4335.62 993.35,-4157 690.34,-3880.1 668.32,-3351.95 678.08,-3090.31"/>
-<polygon fill="black" stroke="black" points="678.09,-3090.05 674.34,-3083.89 678.57,-3078.06 682.33,-3084.21 678.09,-3090.05"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2361.48,-4403.63C1952.1,-4388.2 1188.82,-4335.62 993.35,-4157 684.24,-3874.53 667.55,-3330.59 678.71,-3074.84"/>
+<polygon fill="black" stroke="black" points="678.72,-3074.5 675.01,-3068.32 679.28,-3062.51 683,-3068.69 678.72,-3074.5"/>
 </g>
 <!-- ndDigest&#45;&gt;ndMmrSuccessorProof -->
 <g id="edge58" class="edge">
@@ -1400,8 +1399,8 @@
 <!-- ndDigest&#45;&gt;ndMockMmr -->
 <g id="edge62" class="edge">
 <title>ndDigest&#45;&gt;ndMockMmr</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2484.93,-4192.8C2478.72,-4180.84 2472.81,-4168.86 2467.35,-4157 2321.74,-3840.59 2287.19,-3753.64 2230.35,-3410 2135.19,-2834.58 2251.19,-1364.41 2176.35,-786 2175.33,-778.11 2174.14,-770.1 2172.81,-762.02"/>
-<polygon fill="black" stroke="black" points="2172.8,-761.98 2167.84,-756.75 2170.76,-750.16 2175.72,-755.39 2172.8,-761.98"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2484.93,-4192.8C2478.72,-4180.84 2472.81,-4168.86 2467.35,-4157 2321.74,-3840.59 2287.12,-3753.65 2230.35,-3410 2135.3,-2834.57 2255.87,-1363.92 2177.35,-786 2176.28,-778.1 2175.02,-770.06 2173.61,-761.97"/>
+<polygon fill="black" stroke="black" points="2173.6,-761.9 2168.59,-756.71 2171.45,-750.09 2176.46,-755.28 2173.6,-761.9"/>
 </g>
 <!-- ndDigest&#45;&gt;ndTip5 -->
 <g id="edge63" class="edge">
