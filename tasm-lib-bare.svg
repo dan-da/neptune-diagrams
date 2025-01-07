@@ -880,7 +880,7 @@
 <!-- ndDataType&#45;&gt;ndHashFromStack -->
 <g id="edge54" class="edge">
 <title>ndDataType&#45;&gt;ndHashFromStack</title>
-<path fill="none" stroke="black" d="M5692.28,-248.94C5700.54,-240.58 5710.05,-230.95 5718.94,-221.95"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5692.28,-248.94C5700.54,-240.58 5710.05,-230.95 5718.94,-221.95"/>
 <polygon fill="black" stroke="black" points="5719.13,-221.76 5720.5,-214.68 5727.56,-213.22 5726.19,-220.3 5719.13,-221.76"/>
 </g>
 <!-- ndMerkleRootFromXfesStaticSize -->
