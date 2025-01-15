@@ -3058,15 +3058,16 @@
 <g id="node51" class="node">
 <title>ndTasmStruct</title>
 <g id="a_node51_90"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/structure/tasm_object.rs#:~:text=trait%20TasmStruct" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="45554,-1754 45554,-1791 45994,-1791 45994,-1754 45554,-1754"/>
-<polygon fill="none" stroke="black" points="45554,-1754 45554,-1791 45994,-1791 45994,-1754 45554,-1754"/>
-<text text-anchor="start" x="45736.5" y="-1769.8" font-family="Arial" font-weight="bold" font-size="14.00">TasmStruct</text>
-<polygon fill="white" stroke="transparent" points="45554,-1687 45554,-1754 45994,-1754 45994,-1687 45554,-1687"/>
-<polygon fill="none" stroke="black" points="45554,-1687 45554,-1754 45994,-1754 45994,-1687 45554,-1687"/>
-<text text-anchor="start" x="45565" y="-1731.8" font-family="Arial" font-size="14.00">get_field(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="45565" y="-1716.8" font-family="Arial" font-size="14.00">get_field_with_size(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="45565" y="-1701.8" font-family="Arial" font-size="14.00">get_field_start_with_jump_distance(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<polygon fill="none" stroke="black" points="45553,-1686 45553,-1792 45995,-1792 45995,-1686 45553,-1686"/>
+<polygon fill="lightgreen" stroke="transparent" points="45554,-1761 45554,-1798 45994,-1798 45994,-1761 45554,-1761"/>
+<polygon fill="none" stroke="black" points="45554,-1761 45554,-1798 45994,-1798 45994,-1761 45554,-1761"/>
+<text text-anchor="start" x="45736.5" y="-1776.8" font-family="Arial" font-weight="bold" font-size="14.00">TasmStruct</text>
+<polygon fill="white" stroke="transparent" points="45554,-1679 45554,-1761 45994,-1761 45994,-1679 45554,-1679"/>
+<polygon fill="none" stroke="black" points="45554,-1679 45554,-1761 45994,-1761 45994,-1679 45554,-1679"/>
+<text text-anchor="start" x="45565" y="-1738.8" font-family="Arial" font-size="14.00">get_field(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="45565" y="-1723.8" font-family="Arial" font-size="14.00">get_field_with_size(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="45565" y="-1708.8" font-family="Arial" font-size="14.00">get_field_start_with_jump_distance(&amp;str) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<text text-anchor="start" x="45565" y="-1693.8" font-family="Arial" font-size="14.00">destructure() &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
+<polygon fill="none" stroke="black" points="45553,-1678.5 45553,-1799.5 45995,-1799.5 45995,-1678.5 45553,-1678.5"/>
 </a>
 </g>
 </g>
@@ -3746,34 +3747,34 @@
 <g id="node96" class="node">
 <title>ndUpdateWitnessLookalike</title>
 <g id="a_node96_121"><a xlink:href="https://github.com/TritonVM/tasm-lib/blob/master/src/neptune/neptune_like_types_for_tests.rs#:~:text=struct%20UpdateWitnessLookalike" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="50320,-513.5 50320,-550.5 50670,-550.5 50670,-513.5 50320,-513.5"/>
-<polygon fill="none" stroke="black" points="50320,-513.5 50320,-550.5 50670,-550.5 50670,-513.5 50320,-513.5"/>
-<text text-anchor="start" x="50415" y="-529.3" font-family="Arial" font-weight="bold" font-size="14.00">UpdateWitnessLookalike</text>
-<polygon fill="white" stroke="transparent" points="50320,-281.5 50320,-513.5 50670,-513.5 50670,-281.5 50320,-281.5"/>
-<polygon fill="none" stroke="black" points="50320,-281.5 50320,-513.5 50670,-513.5 50670,-281.5 50320,-281.5"/>
-<text text-anchor="start" x="50331" y="-491.3" font-family="Arial" font-size="14.00">&#45; old_kernel: TransactionKernelLookalike</text>
-<text text-anchor="start" x="50331" y="-476.3" font-family="Arial" font-size="14.00">&#45; new_kernel: TransactionKernelLookalike</text>
-<text text-anchor="start" x="50331" y="-461.3" font-family="Arial" font-size="14.00">&#45; old_kernel_mast_hash: Digest</text>
-<text text-anchor="start" x="50331" y="-446.3" font-family="Arial" font-size="14.00">&#45; new_kernel_mast_hash: Digest</text>
-<text text-anchor="start" x="50331" y="-431.3" font-family="Arial" font-size="14.00">&#45; old_proof: Proof</text>
-<text text-anchor="start" x="50331" y="-416.3" font-family="Arial" font-size="14.00">&#45; new_swbfi_bagged: Digest</text>
-<text text-anchor="start" x="50331" y="-401.3" font-family="Arial" font-size="14.00">&#45; new_aocl: MmrAccumulator</text>
-<text text-anchor="start" x="50331" y="-386.3" font-family="Arial" font-size="14.00">&#45; new_swbfa_hash: Digest</text>
-<text text-anchor="start" x="50331" y="-371.3" font-family="Arial" font-size="14.00">&#45; old_swbfi_bagged: Digest</text>
-<text text-anchor="start" x="50331" y="-356.3" font-family="Arial" font-size="14.00">&#45; old_aocl: MmrAccumulator</text>
-<text text-anchor="start" x="50331" y="-341.3" font-family="Arial" font-size="14.00">&#45; old_swbfa_hash: Digest</text>
-<text text-anchor="start" x="50331" y="-326.3" font-family="Arial" font-size="14.00">&#45; aocl_successor_proof: MmrSuccessorProofLookalike</text>
-<text text-anchor="start" x="50331" y="-311.3" font-family="Arial" font-size="14.00">&#45; outputs_hash: Digest</text>
-<text text-anchor="start" x="50331" y="-296.3" font-family="Arial" font-size="14.00">&#45; public_announcements_hash: Digest</text>
-<polygon fill="none" stroke="black" points="50319,-281 50319,-552 50671,-552 50671,-281 50319,-281"/>
+<polygon fill="lightblue" stroke="transparent" points="50319,-513.5 50319,-550.5 50673,-550.5 50673,-513.5 50319,-513.5"/>
+<polygon fill="none" stroke="black" points="50319,-513.5 50319,-550.5 50673,-550.5 50673,-513.5 50319,-513.5"/>
+<text text-anchor="start" x="50416" y="-529.3" font-family="Arial" font-weight="bold" font-size="14.00">UpdateWitnessLookalike</text>
+<polygon fill="white" stroke="transparent" points="50319,-281.5 50319,-513.5 50673,-513.5 50673,-281.5 50319,-281.5"/>
+<polygon fill="none" stroke="black" points="50319,-281.5 50319,-513.5 50673,-513.5 50673,-281.5 50319,-281.5"/>
+<text text-anchor="start" x="50330" y="-491.3" font-family="Arial" font-size="14.00">+ old_kernel: TransactionKernelLookalike</text>
+<text text-anchor="start" x="50330" y="-476.3" font-family="Arial" font-size="14.00">+ new_kernel: TransactionKernelLookalike</text>
+<text text-anchor="start" x="50330" y="-461.3" font-family="Arial" font-size="14.00">+ old_kernel_mast_hash: Digest</text>
+<text text-anchor="start" x="50330" y="-446.3" font-family="Arial" font-size="14.00">+ new_kernel_mast_hash: Digest</text>
+<text text-anchor="start" x="50330" y="-431.3" font-family="Arial" font-size="14.00">+ old_proof: Proof</text>
+<text text-anchor="start" x="50330" y="-416.3" font-family="Arial" font-size="14.00">+ new_swbfi_bagged: Digest</text>
+<text text-anchor="start" x="50330" y="-401.3" font-family="Arial" font-size="14.00">+ new_aocl: MmrAccumulator</text>
+<text text-anchor="start" x="50330" y="-386.3" font-family="Arial" font-size="14.00">+ new_swbfa_hash: Digest</text>
+<text text-anchor="start" x="50330" y="-371.3" font-family="Arial" font-size="14.00">+ old_swbfi_bagged: Digest</text>
+<text text-anchor="start" x="50330" y="-356.3" font-family="Arial" font-size="14.00">+ old_aocl: MmrAccumulator</text>
+<text text-anchor="start" x="50330" y="-341.3" font-family="Arial" font-size="14.00">+ old_swbfa_hash: Digest</text>
+<text text-anchor="start" x="50330" y="-326.3" font-family="Arial" font-size="14.00">+ aocl_successor_proof: MmrSuccessorProofLookalike</text>
+<text text-anchor="start" x="50330" y="-311.3" font-family="Arial" font-size="14.00">+ outputs_hash: Digest</text>
+<text text-anchor="start" x="50330" y="-296.3" font-family="Arial" font-size="14.00">+ public_announcements_hash: Digest</text>
+<polygon fill="none" stroke="black" points="50318,-281 50318,-552 50674,-552 50674,-281 50318,-281"/>
 </a>
 </g>
 </g>
 <!-- ndTransactionKernelLookalike&#45;&gt;ndUpdateWitnessLookalike -->
 <g id="edge214" class="edge">
 <title>ndTransactionKernelLookalike&#45;&gt;ndUpdateWitnessLookalike</title>
-<path fill="none" stroke="black" d="M49457.35,-677.83C49495.46,-645.16 49542.75,-611.23 49592,-592 49771.89,-521.78 49835.18,-591.48 50025,-556 50116.54,-538.89 50215.74,-511.09 50299.31,-484.86"/>
-<polygon fill="black" stroke="black" points="50299.55,-484.79 50304.07,-479.17 50310.99,-481.18 50306.48,-486.8 50299.55,-484.79"/>
+<path fill="none" stroke="black" d="M49457.35,-677.83C49495.46,-645.16 49542.75,-611.23 49592,-592 49771.89,-521.78 49835.17,-591.42 50025,-556 50116.13,-539 50214.83,-511.44 50298.24,-485.37"/>
+<polygon fill="black" stroke="black" points="50298.45,-485.3 50302.98,-479.69 50309.9,-481.7 50305.38,-487.32 50298.45,-485.3"/>
 </g>
 <!-- ndTransactionKernelLookalike&#45;&gt;ndPrimitiveWitnessLookalike -->
 <g id="edge215" class="edge">
@@ -3810,8 +3811,8 @@
 <!-- ndMmrSuccessorProofLookalike&#45;&gt;ndUpdateWitnessLookalike -->
 <g id="edge218" class="edge">
 <title>ndMmrSuccessorProofLookalike&#45;&gt;ndUpdateWitnessLookalike</title>
-<path fill="none" stroke="black" d="M50737.63,-722.85C50712.29,-687.69 50674.46,-635.97 50640,-592 50633.31,-583.46 50626.38,-574.74 50619.34,-565.98"/>
-<polygon fill="black" stroke="black" points="50619.2,-565.8 50612.32,-563.64 50611.67,-556.45 50618.55,-558.62 50619.2,-565.8"/>
+<path fill="none" stroke="black" d="M50737.59,-722.88C50712.23,-687.74 50674.38,-636.03 50640,-592 50633.25,-583.36 50626.27,-574.53 50619.17,-565.66"/>
+<polygon fill="black" stroke="black" points="50618.95,-565.38 50612.07,-563.2 50611.44,-556.01 50618.31,-558.19 50618.95,-565.38"/>
 </g>
 <!-- ndLockScriptAndWitnessLookalike -->
 <g id="node97" class="node">
