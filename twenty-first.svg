@@ -235,53 +235,55 @@
 <g id="node26" class="node">
 <title>ndTip5</title>
 <g id="a_node26_8"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/tip5.rs#:~:text=struct%20Tip5" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="9,-1840.5 9,-1877.5 521,-1877.5 521,-1840.5 9,-1840.5"/>
-<polygon fill="none" stroke="black" points="9,-1840.5 9,-1877.5 521,-1877.5 521,-1840.5 9,-1840.5"/>
-<text text-anchor="start" x="251" y="-1856.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5</text>
-<polygon fill="white" stroke="transparent" points="9,-1803.5 9,-1840.5 521,-1840.5 521,-1803.5 9,-1803.5"/>
-<polygon fill="none" stroke="black" points="9,-1803.5 9,-1840.5 521,-1840.5 521,-1803.5 9,-1803.5"/>
-<text text-anchor="start" x="20" y="-1818.3" font-family="Arial" font-size="14.00">+ state: [BFieldElement; STATE_SIZE]</text>
-<polygon fill="white" stroke="transparent" points="9,-1331.5 9,-1803.5 521,-1803.5 521,-1331.5 9,-1331.5"/>
-<polygon fill="none" stroke="black" points="9,-1331.5 9,-1803.5 521,-1803.5 521,-1331.5 9,-1331.5"/>
-<text text-anchor="start" x="20" y="-1781.3" font-family="Arial" font-size="14.00">&#45; new(domain: Domain) &#45;&gt; Self</text>
-<text text-anchor="start" x="20" y="-1766.3" font-family="Arial" font-size="14.00">&#45; offset_fermat_cube_map(x: u16) &#45;&gt; u16</text>
-<text text-anchor="start" x="20" y="-1751.3" font-family="Arial" font-size="14.00">&#45; split_and_lookup(element: &amp;mut BFieldElement)</text>
-<text text-anchor="start" x="20" y="-1736.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul16(f: [i64; 16], g: [i64; 16]) &#45;&gt; [i64; 16]</text>
-<text text-anchor="start" x="20" y="-1721.3" font-family="Arial" font-size="14.00">&#45; complex_sum(f: [(i64, i64); N], g: [(i64, i64); N]) &#45;&gt; [(i64, i64); N]</text>
-<text text-anchor="start" x="20" y="-1706.3" font-family="Arial" font-size="14.00">&#45; complex_diff(f: [(i64, i64); N], g: [(i64, i64); N]) &#45;&gt; [(i64, i64); N]</text>
-<text text-anchor="start" x="20" y="-1691.3" font-family="Arial" font-size="14.00">&#45; complex_product(f: (i64, i64), g: (i64, i64)) &#45;&gt; (i64, i64)</text>
-<text text-anchor="start" x="20" y="-1676.3" font-family="Arial" font-size="14.00">&#45; complex_karatsuba2(f: [(i64, i64); 2], g: [(i64, i64); 2]) &#45;&gt; [(i64, i64); 3]</text>
-<text text-anchor="start" x="20" y="-1661.3" font-family="Arial" font-size="14.00">&#45; complex_karatsuba4(f: [(i64, i64); 4], g: [(i64, i64); 4]) &#45;&gt; [(i64, i64); 7]</text>
-<text text-anchor="start" x="20" y="-1646.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul8(f: [i64; 8], g: [i64; 8]) &#45;&gt; [i64; 8]</text>
-<text text-anchor="start" x="20" y="-1631.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul4(f: [i64; 4], g: [i64; 4]) &#45;&gt; [i64; 4]</text>
-<text text-anchor="start" x="20" y="-1616.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul2(f: [i64; 2], g: [i64; 2]) &#45;&gt; [i64; 2]</text>
-<text text-anchor="start" x="20" y="-1601.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul8(f: [i64; 8], g: [i64; 8]) &#45;&gt; [i64; 8]</text>
-<text text-anchor="start" x="20" y="-1586.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul4(f: [i64; 4], g: [i64; 4]) &#45;&gt; [i64; 4]</text>
-<text text-anchor="start" x="20" y="-1571.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul2(f: [i64; 2], g: [i64; 2]) &#45;&gt; [i64; 2]</text>
-<text text-anchor="start" x="20" y="-1556.3" font-family="Arial" font-size="14.00">&#45; mds_cyclomul(&amp;mut self)</text>
-<text text-anchor="start" x="20" y="-1541.3" font-family="Arial" font-size="14.00">&#45; mds_generated(&amp;mut self)</text>
-<text text-anchor="start" x="20" y="-1526.3" font-family="Arial" font-size="14.00">&#45; sbox_layer(&amp;mut self)</text>
-<text text-anchor="start" x="20" y="-1511.3" font-family="Arial" font-size="14.00">&#45; round(&amp;mut self, round_index: usize)</text>
-<text text-anchor="start" x="20" y="-1496.3" font-family="Arial" font-size="14.00">&#45; permutation(&amp;mut self)</text>
-<text text-anchor="start" x="20" y="-1481.3" font-family="Arial" font-size="14.00">&#45; trace(&amp;mut self) &#45;&gt; [[BFieldElement; STATE_SIZE]; 1 + NUM_ROUNDS]</text>
-<text text-anchor="start" x="20" y="-1466.3" font-family="Arial" font-size="14.00">&#45; hash_10(input: &amp;[BFieldElement; 10]) &#45;&gt; [BFieldElement; Digest::LEN]</text>
-<text text-anchor="start" x="20" y="-1451.3" font-family="Arial" font-size="14.00">&#45; hash_pair(left: Digest, right: Digest) &#45;&gt; Digest</text>
-<text text-anchor="start" x="20" y="-1436.3" font-family="Arial" font-size="14.00">&#45; hash(value: &amp;T) &#45;&gt; Digest</text>
-<text text-anchor="start" x="20" y="-1421.3" font-family="Arial" font-size="14.00">&#45; hash_varlen(input: &amp;[BFieldElement]) &#45;&gt; Digest</text>
-<text text-anchor="start" x="20" y="-1406.3" font-family="Arial" font-size="14.00">&#45; sample_indices(&amp;mut self, upper_bound: u32, num_indices: usize) &#45;&gt; Vec&lt;u32&gt;</text>
-<text text-anchor="start" x="20" y="-1391.3" font-family="Arial" font-size="14.00">&#45; sample_scalars(&amp;mut self, num_elements: usize) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="20" y="-1376.3" font-family="Arial" font-size="14.00">&#45; init() &#45;&gt; Self</text>
-<text text-anchor="start" x="20" y="-1361.3" font-family="Arial" font-size="14.00">&#45; absorb(&amp;mut self, input: [BFieldElement; RATE])</text>
-<text text-anchor="start" x="20" y="-1346.3" font-family="Arial" font-size="14.00">&#45; squeeze(&amp;mut self) &#45;&gt; [BFieldElement; RATE]</text>
-<polygon fill="none" stroke="black" points="8,-1330.5 8,-1878.5 522,-1878.5 522,-1330.5 8,-1330.5"/>
+<polygon fill="lightblue" stroke="transparent" points="9,-1855.5 9,-1892.5 521,-1892.5 521,-1855.5 9,-1855.5"/>
+<polygon fill="none" stroke="black" points="9,-1855.5 9,-1892.5 521,-1892.5 521,-1855.5 9,-1855.5"/>
+<text text-anchor="start" x="251" y="-1871.3" font-family="Arial" font-weight="bold" font-size="14.00">Tip5</text>
+<polygon fill="white" stroke="transparent" points="9,-1818.5 9,-1855.5 521,-1855.5 521,-1818.5 9,-1818.5"/>
+<polygon fill="none" stroke="black" points="9,-1818.5 9,-1855.5 521,-1855.5 521,-1818.5 9,-1818.5"/>
+<text text-anchor="start" x="20" y="-1833.3" font-family="Arial" font-size="14.00">+ state: [BFieldElement; STATE_SIZE]</text>
+<polygon fill="white" stroke="transparent" points="9,-1316.5 9,-1818.5 521,-1818.5 521,-1316.5 9,-1316.5"/>
+<polygon fill="none" stroke="black" points="9,-1316.5 9,-1818.5 521,-1818.5 521,-1316.5 9,-1316.5"/>
+<text text-anchor="start" x="20" y="-1796.3" font-family="Arial" font-size="14.00">&#45; new(domain: Domain) &#45;&gt; Self</text>
+<text text-anchor="start" x="20" y="-1781.3" font-family="Arial" font-size="14.00">&#45; offset_fermat_cube_map(x: u16) &#45;&gt; u16</text>
+<text text-anchor="start" x="20" y="-1766.3" font-family="Arial" font-size="14.00">&#45; split_and_lookup(element: &amp;mut BFieldElement)</text>
+<text text-anchor="start" x="20" y="-1751.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul16(f: [i64; 16], g: [i64; 16]) &#45;&gt; [i64; 16]</text>
+<text text-anchor="start" x="20" y="-1736.3" font-family="Arial" font-size="14.00">&#45; complex_sum(f: [(i64, i64); N], g: [(i64, i64); N]) &#45;&gt; [(i64, i64); N]</text>
+<text text-anchor="start" x="20" y="-1721.3" font-family="Arial" font-size="14.00">&#45; complex_diff(f: [(i64, i64); N], g: [(i64, i64); N]) &#45;&gt; [(i64, i64); N]</text>
+<text text-anchor="start" x="20" y="-1706.3" font-family="Arial" font-size="14.00">&#45; complex_product(f: (i64, i64), g: (i64, i64)) &#45;&gt; (i64, i64)</text>
+<text text-anchor="start" x="20" y="-1691.3" font-family="Arial" font-size="14.00">&#45; complex_karatsuba2(f: [(i64, i64); 2], g: [(i64, i64); 2]) &#45;&gt; [(i64, i64); 3]</text>
+<text text-anchor="start" x="20" y="-1676.3" font-family="Arial" font-size="14.00">&#45; complex_karatsuba4(f: [(i64, i64); 4], g: [(i64, i64); 4]) &#45;&gt; [(i64, i64); 7]</text>
+<text text-anchor="start" x="20" y="-1661.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul8(f: [i64; 8], g: [i64; 8]) &#45;&gt; [i64; 8]</text>
+<text text-anchor="start" x="20" y="-1646.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul4(f: [i64; 4], g: [i64; 4]) &#45;&gt; [i64; 4]</text>
+<text text-anchor="start" x="20" y="-1631.3" font-family="Arial" font-size="14.00">&#45; complex_negacyclomul2(f: [i64; 2], g: [i64; 2]) &#45;&gt; [i64; 2]</text>
+<text text-anchor="start" x="20" y="-1616.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul8(f: [i64; 8], g: [i64; 8]) &#45;&gt; [i64; 8]</text>
+<text text-anchor="start" x="20" y="-1601.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul4(f: [i64; 4], g: [i64; 4]) &#45;&gt; [i64; 4]</text>
+<text text-anchor="start" x="20" y="-1586.3" font-family="Arial" font-size="14.00">&#45; fast_cyclomul2(f: [i64; 2], g: [i64; 2]) &#45;&gt; [i64; 2]</text>
+<text text-anchor="start" x="20" y="-1571.3" font-family="Arial" font-size="14.00">&#45; mds_cyclomul(&amp;mut self)</text>
+<text text-anchor="start" x="20" y="-1556.3" font-family="Arial" font-size="14.00">&#45; mds_generated(&amp;mut self)</text>
+<text text-anchor="start" x="20" y="-1541.3" font-family="Arial" font-size="14.00">&#45; sbox_layer(&amp;mut self)</text>
+<text text-anchor="start" x="20" y="-1526.3" font-family="Arial" font-size="14.00">&#45; round(&amp;mut self, round_index: usize)</text>
+<text text-anchor="start" x="20" y="-1511.3" font-family="Arial" font-size="14.00">&#45; permutation(&amp;mut self)</text>
+<text text-anchor="start" x="20" y="-1496.3" font-family="Arial" font-size="14.00">&#45; trace(&amp;mut self) &#45;&gt; [[BFieldElement; STATE_SIZE]; 1 + NUM_ROUNDS]</text>
+<text text-anchor="start" x="20" y="-1481.3" font-family="Arial" font-size="14.00">&#45; hash_10(input: &amp;[BFieldElement; 10]) &#45;&gt; [BFieldElement; Digest::LEN]</text>
+<text text-anchor="start" x="20" y="-1466.3" font-family="Arial" font-size="14.00">&#45; hash_pair(left: Digest, right: Digest) &#45;&gt; Digest</text>
+<text text-anchor="start" x="20" y="-1451.3" font-family="Arial" font-size="14.00">&#45; hash(value: &amp;T) &#45;&gt; Digest</text>
+<text text-anchor="start" x="20" y="-1436.3" font-family="Arial" font-size="14.00">&#45; hash_varlen(input: &amp;[BFieldElement]) &#45;&gt; Digest</text>
+<text text-anchor="start" x="20" y="-1421.3" font-family="Arial" font-size="14.00">&#45; sample_indices(&amp;mut self, upper_bound: u32, num_indices: usize) &#45;&gt; Vec&lt;u32&gt;</text>
+<text text-anchor="start" x="20" y="-1406.3" font-family="Arial" font-size="14.00">&#45; sample_scalars(&amp;mut self, num_elements: usize) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="20" y="-1391.3" font-family="Arial" font-size="14.00">&#45; init() &#45;&gt; Self</text>
+<text text-anchor="start" x="20" y="-1376.3" font-family="Arial" font-size="14.00">&#45; absorb(&amp;mut self, input: [BFieldElement; RATE])</text>
+<text text-anchor="start" x="20" y="-1361.3" font-family="Arial" font-size="14.00">&#45; squeeze(&amp;mut self) &#45;&gt; [BFieldElement; RATE]</text>
+<text text-anchor="start" x="20" y="-1346.3" font-family="Arial" font-size="14.00">&#45; finish(&amp;self) &#45;&gt; u64</text>
+<text text-anchor="start" x="20" y="-1331.3" font-family="Arial" font-size="14.00">&#45; write(&amp;mut self, bytes: &amp;[u8])</text>
+<polygon fill="none" stroke="black" points="8,-1315.5 8,-1893.5 522,-1893.5 522,-1315.5 8,-1315.5"/>
 </a>
 </g>
 </g>
 <!-- ndDomain&#45;&gt;ndTip5 -->
 <g id="edge5" class="edge">
 <title>ndDomain&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M219.73,-2884.66C225.33,-2726.38 243.29,-2218.95 254.83,-1892.78"/>
-<polygon fill="black" stroke="black" points="255.19,-1882.7 259.33,-1892.85 255.01,-1887.7 254.84,-1892.69 254.84,-1892.69 254.84,-1892.69 255.01,-1887.7 250.34,-1892.53 255.19,-1882.7 255.19,-1882.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M219.73,-2884.66C225.24,-2728.81 242.74,-2234.46 254.3,-1907.94"/>
+<polygon fill="black" stroke="black" points="254.65,-1897.84 258.8,-1908 254.48,-1902.84 254.3,-1907.84 254.3,-1907.84 254.3,-1907.84 254.48,-1902.84 249.8,-1907.68 254.65,-1897.84 254.65,-1897.84"/>
 </g>
 <!-- ndSponge -->
 <g id="node7" class="node">
@@ -301,8 +303,8 @@
 <!-- ndSponge&#45;&gt;ndTip5 -->
 <g id="edge6" class="edge">
 <title>ndSponge&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M491.36,-2884.66C463.35,-2726.38 373.56,-2218.95 315.84,-1892.78"/>
-<polygon fill="none" stroke="black" points="319.24,-1891.94 314.05,-1882.7 312.35,-1893.16 319.24,-1891.94"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M491.36,-2884.66C463.78,-2728.81 376.3,-2234.46 318.52,-1907.94"/>
+<polygon fill="none" stroke="black" points="321.92,-1907.08 316.73,-1897.84 315.03,-1908.3 321.92,-1907.08"/>
 </g>
 <!-- ndLeafMutation -->
 <g id="node8" class="node">
@@ -1321,8 +1323,8 @@
 <!-- ndBFieldElement&#45;&gt;ndTip5 -->
 <g id="edge47" class="edge">
 <title>ndBFieldElement&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1175.44,-2754.85C1033.46,-2656.53 847.16,-2538.67 668,-2459 613.61,-2434.81 582.15,-2464 539,-2423 394.46,-2285.68 326.15,-2069.97 293.88,-1894.6"/>
-<polygon fill="black" stroke="black" points="293.84,-1894.39 288.84,-1889.19 291.71,-1882.58 296.71,-1887.77 293.84,-1894.39"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1175.44,-2754.85C1033.46,-2656.53 847.16,-2538.67 668,-2459 613.61,-2434.81 582.15,-2464 539,-2423 398.57,-2289.59 330.1,-2082.18 296.72,-1909.66"/>
+<polygon fill="black" stroke="black" points="296.71,-1909.61 291.66,-1904.46 294.48,-1897.82 299.52,-1902.97 296.71,-1909.61"/>
 </g>
 <!-- ndBFieldElement&#45;&gt;ndPolynomial -->
 <g id="edge48" class="edge">
@@ -1357,8 +1359,8 @@
 <!-- ndXFieldElement&#45;&gt;ndTip5 -->
 <g id="edge53" class="edge">
 <title>ndXFieldElement&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" d="M1444.83,-3766.23C1097.34,-3709.74 467.99,-3585.6 331,-3410 325.24,-3402.62 291.28,-2400 274.45,-1892.65"/>
-<polygon fill="black" stroke="black" points="274.11,-1882.62 278.94,-1892.46 274.28,-1887.61 274.45,-1892.61 274.45,-1892.61 274.45,-1892.61 274.28,-1887.61 269.95,-1892.76 274.11,-1882.62 274.11,-1882.62"/>
+<path fill="none" stroke="black" d="M1444.83,-3766.23C1097.34,-3709.74 467.99,-3585.6 331,-3410 325.3,-3402.69 291.95,-2419.76 274.95,-1907.87"/>
+<polygon fill="black" stroke="black" points="274.62,-1897.74 279.44,-1907.59 274.78,-1902.74 274.95,-1907.74 274.95,-1907.74 274.95,-1907.74 274.78,-1902.74 270.45,-1907.89 274.62,-1897.74 274.62,-1897.74"/>
 </g>
 <!-- ndXFieldElement&#45;&gt;ndPolynomial -->
 <g id="edge54" class="edge">
@@ -1423,8 +1425,8 @@
 <!-- ndDigest&#45;&gt;ndTip5 -->
 <g id="edge64" class="edge">
 <title>ndDigest&#45;&gt;ndTip5</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3066.36,-4194.09C2810.15,-3988.68 2405.01,-3677.49 2028,-3446 1997.51,-3427.28 1979.08,-3437.34 1956,-3410 1671.05,-3072.44 2017.64,-2727.69 1667,-2459 1567.47,-2382.73 639.61,-2497.85 539,-2423 374.79,-2300.83 307.83,-2075.95 281.08,-1892.93"/>
-<polygon fill="black" stroke="black" points="279.64,-1882.87 285.51,-1892.13 280.35,-1887.82 281.05,-1892.77 281.05,-1892.77 281.05,-1892.77 280.35,-1887.82 276.6,-1893.4 279.64,-1882.87 279.64,-1882.87"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3066.36,-4194.09C2810.15,-3988.68 2405.01,-3677.49 2028,-3446 1997.51,-3427.28 1979.08,-3437.34 1956,-3410 1671.05,-3072.44 2017.64,-2727.69 1667,-2459 1567.47,-2382.73 639.61,-2497.85 539,-2423 379.14,-2304.06 311.44,-2087.78 283.29,-1907.55"/>
+<polygon fill="black" stroke="black" points="281.77,-1897.64 287.73,-1906.85 282.53,-1902.58 283.28,-1907.53 283.28,-1907.53 283.28,-1907.53 282.53,-1902.58 278.83,-1908.21 281.77,-1897.64 281.77,-1897.64"/>
 </g>
 <!-- ndDigest&#45;&gt;ndXFieldElement -->
 <g id="edge65" class="edge">
