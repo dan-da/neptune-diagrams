@@ -959,8 +959,8 @@
 <text text-anchor="start" x="5726" y="-383.3" font-family="Arial" font-size="14.00">&#45; domain(&amp;self) &#45;&gt; DataType</text>
 <text text-anchor="start" x="5726" y="-368.3" font-family="Arial" font-size="14.00">&#45; range(&amp;self) &#45;&gt; DataType</text>
 <text text-anchor="start" x="5726" y="-353.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
-<text text-anchor="start" x="5726" y="-338.3" font-family="Arial" font-size="14.00">&#45; run_vm(instructions: &amp;[LabelledInstruction], stack: &amp;mut Vec&lt;BFieldElement&gt;, memory: &amp;HashMap&lt;BFieldElement, BFieldElement&gt;)</text>
-<text text-anchor="start" x="5726" y="-323.3" font-family="Arial" font-size="14.00">&#45; apply(&amp;self, stack: &amp;mut Vec&lt;BFieldElement&gt;, memory: &amp;HashMap&lt;BFieldElement, BFieldElement&gt;)</text>
+<text text-anchor="start" x="5726" y="-338.3" font-family="Arial" font-size="14.00">&#45; apply(&amp;self, stack: &amp;mut Vec&lt;BFieldElement&gt;, memory: &amp;HashMap&lt;BFieldElement, BFieldElement&gt;)</text>
+<text text-anchor="start" x="5726" y="-323.3" font-family="Arial" font-size="14.00">&#45; run_vm(instructions: &amp;[LabelledInstruction], stack: &amp;mut Vec&lt;BFieldElement&gt;, memory: &amp;HashMap&lt;BFieldElement, BFieldElement&gt;)</text>
 <polygon fill="none" stroke="black" points="5713.5,-307.5 5713.5,-525.5 6550.5,-525.5 6550.5,-307.5 5713.5,-307.5"/>
 </a>
 </g>
