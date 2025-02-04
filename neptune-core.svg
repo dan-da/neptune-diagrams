@@ -2103,39 +2103,38 @@
 <g id="node54" class="node">
 <title>ndUpdateWitness</title>
 <g id="a_node54_57"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/transaction/validity/tasm/single_proof/update_branch.rs#:~:text=struct%20UpdateWitness" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="12152.56,-4726 12152.56,-4763 13532.56,-4763 13532.56,-4726 12152.56,-4726"/>
-<polygon fill="none" stroke="black" points="12152.56,-4726 12152.56,-4763 13532.56,-4763 13532.56,-4726 12152.56,-4726"/>
-<text text-anchor="start" x="12793.56" y="-4741.8" font-family="Arial" font-weight="bold" font-size="14.00">UpdateWitness</text>
-<polygon fill="white" stroke="transparent" points="12152.56,-4494 12152.56,-4726 13532.56,-4726 13532.56,-4494 12152.56,-4494"/>
-<polygon fill="none" stroke="black" points="12152.56,-4494 12152.56,-4726 13532.56,-4726 13532.56,-4494 12152.56,-4494"/>
-<text text-anchor="start" x="12163.56" y="-4703.8" font-family="Arial" font-size="14.00">&#45; old_kernel: TransactionKernel</text>
-<text text-anchor="start" x="12163.56" y="-4688.8" font-family="Arial" font-size="14.00">&#45; new_kernel: TransactionKernel</text>
-<text text-anchor="start" x="12163.56" y="-4673.8" font-family="Arial" font-size="14.00">&#45; old_kernel_mast_hash: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4658.8" font-family="Arial" font-size="14.00">&#45; new_kernel_mast_hash: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4643.8" font-family="Arial" font-size="14.00">&#45; old_proof: Proof</text>
-<text text-anchor="start" x="12163.56" y="-4628.8" font-family="Arial" font-size="14.00">&#45; new_swbfi_bagged: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4613.8" font-family="Arial" font-size="14.00">&#45; new_aocl: MmrAccumulator</text>
-<text text-anchor="start" x="12163.56" y="-4598.8" font-family="Arial" font-size="14.00">&#45; new_swbfa_hash: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4583.8" font-family="Arial" font-size="14.00">&#45; old_swbfi_bagged: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; old_aocl: MmrAccumulator</text>
-<text text-anchor="start" x="12163.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; old_swbfa_hash: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; aocl_successor_proof: MmrSuccessorProof</text>
-<text text-anchor="start" x="12163.56" y="-4523.8" font-family="Arial" font-size="14.00">&#45; outputs_hash: Digest</text>
-<text text-anchor="start" x="12163.56" y="-4508.8" font-family="Arial" font-size="14.00">&#45; public_announcements_hash: Digest</text>
-<polygon fill="white" stroke="transparent" points="12152.56,-4427 12152.56,-4494 13532.56,-4494 13532.56,-4427 12152.56,-4427"/>
-<polygon fill="none" stroke="black" points="12152.56,-4427 12152.56,-4494 13532.56,-4494 13532.56,-4427 12152.56,-4427"/>
-<text text-anchor="start" x="12163.56" y="-4471.8" font-family="Arial" font-size="14.00">&#45; from_old_transaction(old_kernel: TransactionKernel, old_proof: Proof, old_msa: MutatorSetAccumulator, new_kernel: TransactionKernel, new_msa: MutatorSetAccumulator, aocl_successor_proof: MmrSuccessorProof) &#45;&gt; Self</text>
-<text text-anchor="start" x="12163.56" y="-4456.8" font-family="Arial" font-size="14.00">&#45; populate_nd_streams(&amp;self, nondeterminism: &amp;mut NonDeterminism)</text>
-<text text-anchor="start" x="12163.56" y="-4441.8" font-family="Arial" font-size="14.00">&#45; branch_source(&amp;self, single_proof_program_digest: Digest, new_txk_digest: Digest)</text>
-<polygon fill="none" stroke="black" points="12151.56,-4426 12151.56,-4764 13533.56,-4764 13533.56,-4426 12151.56,-4426"/>
+<polygon fill="lightblue" stroke="transparent" points="12152.56,-4718 12152.56,-4755 13532.56,-4755 13532.56,-4718 12152.56,-4718"/>
+<polygon fill="none" stroke="black" points="12152.56,-4718 12152.56,-4755 13532.56,-4755 13532.56,-4718 12152.56,-4718"/>
+<text text-anchor="start" x="12793.56" y="-4733.8" font-family="Arial" font-weight="bold" font-size="14.00">UpdateWitness</text>
+<polygon fill="white" stroke="transparent" points="12152.56,-4486 12152.56,-4718 13532.56,-4718 13532.56,-4486 12152.56,-4486"/>
+<polygon fill="none" stroke="black" points="12152.56,-4486 12152.56,-4718 13532.56,-4718 13532.56,-4486 12152.56,-4486"/>
+<text text-anchor="start" x="12163.56" y="-4695.8" font-family="Arial" font-size="14.00">&#45; old_kernel: TransactionKernel</text>
+<text text-anchor="start" x="12163.56" y="-4680.8" font-family="Arial" font-size="14.00">&#45; new_kernel: TransactionKernel</text>
+<text text-anchor="start" x="12163.56" y="-4665.8" font-family="Arial" font-size="14.00">&#45; old_kernel_mast_hash: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4650.8" font-family="Arial" font-size="14.00">&#45; new_kernel_mast_hash: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4635.8" font-family="Arial" font-size="14.00">&#45; old_proof: Proof</text>
+<text text-anchor="start" x="12163.56" y="-4620.8" font-family="Arial" font-size="14.00">&#45; new_swbfi_bagged: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4605.8" font-family="Arial" font-size="14.00">&#45; new_aocl: MmrAccumulator</text>
+<text text-anchor="start" x="12163.56" y="-4590.8" font-family="Arial" font-size="14.00">&#45; new_swbfa_hash: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4575.8" font-family="Arial" font-size="14.00">&#45; old_swbfi_bagged: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4560.8" font-family="Arial" font-size="14.00">&#45; old_aocl: MmrAccumulator</text>
+<text text-anchor="start" x="12163.56" y="-4545.8" font-family="Arial" font-size="14.00">&#45; old_swbfa_hash: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4530.8" font-family="Arial" font-size="14.00">&#45; aocl_successor_proof: MmrSuccessorProof</text>
+<text text-anchor="start" x="12163.56" y="-4515.8" font-family="Arial" font-size="14.00">&#45; outputs_hash: Digest</text>
+<text text-anchor="start" x="12163.56" y="-4500.8" font-family="Arial" font-size="14.00">&#45; public_announcements_hash: Digest</text>
+<polygon fill="white" stroke="transparent" points="12152.56,-4434 12152.56,-4486 13532.56,-4486 13532.56,-4434 12152.56,-4434"/>
+<polygon fill="none" stroke="black" points="12152.56,-4434 12152.56,-4486 13532.56,-4486 13532.56,-4434 12152.56,-4434"/>
+<text text-anchor="start" x="12163.56" y="-4463.8" font-family="Arial" font-size="14.00">&#45; from_old_transaction(old_kernel: TransactionKernel, old_proof: Proof, old_msa: MutatorSetAccumulator, new_kernel: TransactionKernel, new_msa: MutatorSetAccumulator, aocl_successor_proof: MmrSuccessorProof) &#45;&gt; Self</text>
+<text text-anchor="start" x="12163.56" y="-4448.8" font-family="Arial" font-size="14.00">&#45; populate_nd_streams(&amp;self, nondeterminism: &amp;mut NonDeterminism)</text>
+<polygon fill="none" stroke="black" points="12151.56,-4433.5 12151.56,-4756.5 13533.56,-4756.5 13533.56,-4433.5 12151.56,-4433.5"/>
 </a>
 </g>
 </g>
 <!-- ndMutatorSetAccumulator&#45;&gt;ndUpdateWitness -->
 <g id="edge75" class="edge">
 <title>ndMutatorSetAccumulator&#45;&gt;ndUpdateWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11036.58,-7020.9C11119.53,-6891.63 11208.56,-6711.9 11208.56,-6536 11208.56,-6536 11208.56,-6536 11208.56,-5463 11208.56,-5216.63 11053.82,-5083.68 11227.56,-4909 11263.12,-4873.25 12085.2,-4883.33 12134.56,-4873 12243.66,-4850.17 12357.83,-4812.25 12461.84,-4771.69"/>
-<polygon fill="black" stroke="black" points="12471.23,-4768.02 12463.57,-4775.85 12466.58,-4769.84 12461.92,-4771.66 12461.92,-4771.66 12461.92,-4771.66 12466.58,-4769.84 12460.28,-4767.47 12471.23,-4768.02 12471.23,-4768.02"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11036.58,-7020.9C11119.53,-6891.63 11208.56,-6711.9 11208.56,-6536 11208.56,-6536 11208.56,-6536 11208.56,-5463 11208.56,-5216.63 11053.82,-5083.68 11227.56,-4909 11263.12,-4873.25 12085.2,-4883.33 12134.56,-4873 12250.2,-4848.8 12371.54,-4807.65 12480.45,-4764.37"/>
+<polygon fill="black" stroke="black" points="12489.94,-4760.58 12482.32,-4768.47 12485.29,-4762.44 12480.65,-4764.29 12480.65,-4764.29 12480.65,-4764.29 12485.29,-4762.44 12478.98,-4760.11 12489.94,-4760.58 12489.94,-4760.58"/>
 </g>
 <!-- ndTransaction -->
 <g id="node68" class="node">
@@ -3081,37 +3080,36 @@
 <!-- ndUpdateWitness&#45;&gt;ndSingleProofWitness -->
 <g id="edge114" class="edge">
 <title>ndUpdateWitness&#45;&gt;ndSingleProofWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12417.13,-4421.85C12324.45,-4385.95 12226.58,-4349.24 12134.56,-4317 12009.85,-4273.3 11871.5,-4229.29 11749.79,-4192.05"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12436.8,-4429.49C12338.39,-4391.19 12233.12,-4351.54 12134.56,-4317 12009.85,-4273.3 11871.5,-4229.29 11749.79,-4192.05"/>
 <polygon fill="black" stroke="black" points="11749.54,-4191.98 11742.63,-4194.05 11738.06,-4188.47 11744.97,-4186.4 11749.54,-4191.98"/>
 </g>
 <!-- ndMergeWitness -->
 <g id="node55" class="node">
 <title>ndMergeWitness</title>
 <g id="a_node55_88"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/transaction/validity/tasm/single_proof/merge_branch.rs#:~:text=struct%20MergeWitness" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="13569.56,-4666 13569.56,-4703 14486.56,-4703 14486.56,-4666 13569.56,-4666"/>
-<polygon fill="none" stroke="black" points="13569.56,-4666 13569.56,-4703 14486.56,-4703 14486.56,-4666 13569.56,-4666"/>
-<text text-anchor="start" x="13981.56" y="-4681.8" font-family="Arial" font-weight="bold" font-size="14.00">MergeWitness</text>
-<polygon fill="white" stroke="transparent" points="13569.56,-4569 13569.56,-4666 14486.56,-4666 14486.56,-4569 13569.56,-4569"/>
-<polygon fill="none" stroke="black" points="13569.56,-4569 13569.56,-4666 14486.56,-4666 14486.56,-4569 13569.56,-4569"/>
-<text text-anchor="start" x="13580.56" y="-4643.8" font-family="Arial" font-size="14.00">&#45; left_kernel: TransactionKernel</text>
-<text text-anchor="start" x="13580.56" y="-4628.8" font-family="Arial" font-size="14.00">&#45; right_kernel: TransactionKernel</text>
-<text text-anchor="start" x="13580.56" y="-4613.8" font-family="Arial" font-size="14.00">&#45; new_kernel: TransactionKernel</text>
-<text text-anchor="start" x="13580.56" y="-4598.8" font-family="Arial" font-size="14.00">&#45; left_proof: Proof</text>
-<text text-anchor="start" x="13580.56" y="-4583.8" font-family="Arial" font-size="14.00">&#45; right_proof: Proof</text>
-<polygon fill="white" stroke="transparent" points="13569.56,-4487 13569.56,-4569 14486.56,-4569 14486.56,-4487 13569.56,-4487"/>
-<polygon fill="none" stroke="black" points="13569.56,-4487 13569.56,-4569 14486.56,-4569 14486.56,-4487 13569.56,-4487"/>
-<text text-anchor="start" x="13580.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; from_transactions(left_kernel: TransactionKernel, left_proof: Proof, right_kernel: TransactionKernel, right_proof: Proof, shuffle_seed: [u8; 32]) &#45;&gt; Self</text>
-<text text-anchor="start" x="13580.56" y="-4531.8" font-family="Arial" font-size="14.00">&#45; new_kernel(left_kernel: &amp;TransactionKernel, right_kernel: &amp;TransactionKernel, shuffle_seed: [u8; 32]) &#45;&gt; TransactionKernel</text>
-<text text-anchor="start" x="13580.56" y="-4516.8" font-family="Arial" font-size="14.00">&#45; populate_nd_streams(&amp;self, nondeterminism: &amp;mut NonDeterminism)</text>
-<text text-anchor="start" x="13580.56" y="-4501.8" font-family="Arial" font-size="14.00">&#45; branch_source(&amp;self, single_proof_program_digest: Digest, new_txk_digest: Digest)</text>
-<polygon fill="none" stroke="black" points="13568.06,-4486 13568.06,-4704 14487.06,-4704 14487.06,-4486 13568.06,-4486"/>
+<polygon fill="lightblue" stroke="transparent" points="13569.56,-4658 13569.56,-4695 14486.56,-4695 14486.56,-4658 13569.56,-4658"/>
+<polygon fill="none" stroke="black" points="13569.56,-4658 13569.56,-4695 14486.56,-4695 14486.56,-4658 13569.56,-4658"/>
+<text text-anchor="start" x="13981.56" y="-4673.8" font-family="Arial" font-weight="bold" font-size="14.00">MergeWitness</text>
+<polygon fill="white" stroke="transparent" points="13569.56,-4561 13569.56,-4658 14486.56,-4658 14486.56,-4561 13569.56,-4561"/>
+<polygon fill="none" stroke="black" points="13569.56,-4561 13569.56,-4658 14486.56,-4658 14486.56,-4561 13569.56,-4561"/>
+<text text-anchor="start" x="13580.56" y="-4635.8" font-family="Arial" font-size="14.00">&#45; left_kernel: TransactionKernel</text>
+<text text-anchor="start" x="13580.56" y="-4620.8" font-family="Arial" font-size="14.00">&#45; right_kernel: TransactionKernel</text>
+<text text-anchor="start" x="13580.56" y="-4605.8" font-family="Arial" font-size="14.00">&#45; new_kernel: TransactionKernel</text>
+<text text-anchor="start" x="13580.56" y="-4590.8" font-family="Arial" font-size="14.00">&#45; left_proof: Proof</text>
+<text text-anchor="start" x="13580.56" y="-4575.8" font-family="Arial" font-size="14.00">&#45; right_proof: Proof</text>
+<polygon fill="white" stroke="transparent" points="13569.56,-4494 13569.56,-4561 14486.56,-4561 14486.56,-4494 13569.56,-4494"/>
+<polygon fill="none" stroke="black" points="13569.56,-4494 13569.56,-4561 14486.56,-4561 14486.56,-4494 13569.56,-4494"/>
+<text text-anchor="start" x="13580.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; from_transactions(left_kernel: TransactionKernel, left_proof: Proof, right_kernel: TransactionKernel, right_proof: Proof, shuffle_seed: [u8; 32]) &#45;&gt; Self</text>
+<text text-anchor="start" x="13580.56" y="-4523.8" font-family="Arial" font-size="14.00">&#45; new_kernel(left_kernel: &amp;TransactionKernel, right_kernel: &amp;TransactionKernel, shuffle_seed: [u8; 32]) &#45;&gt; TransactionKernel</text>
+<text text-anchor="start" x="13580.56" y="-4508.8" font-family="Arial" font-size="14.00">&#45; populate_nd_streams(&amp;self, nondeterminism: &amp;mut NonDeterminism)</text>
+<polygon fill="none" stroke="black" points="13568.06,-4493.5 13568.06,-4696.5 14487.06,-4696.5 14487.06,-4493.5 13568.06,-4493.5"/>
 </a>
 </g>
 </g>
 <!-- ndMergeWitness&#45;&gt;ndSingleProofWitness -->
 <g id="edge115" class="edge">
 <title>ndMergeWitness&#45;&gt;ndSingleProofWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13873.28,-4481.89C13783.55,-4422.62 13665.73,-4354.54 13550.56,-4317 13224.64,-4210.76 12264.32,-4142.01 11750.27,-4111.77"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13884.56,-4489.39C13793.57,-4428.46 13670.62,-4356.14 13550.56,-4317 13224.64,-4210.76 12264.32,-4142.01 11750.27,-4111.77"/>
 <polygon fill="black" stroke="black" points="11750.19,-4111.76 11743.96,-4115.4 11738.21,-4111.06 11744.43,-4107.42 11750.19,-4111.76"/>
 </g>
 <!-- ndKernelToOutputsWitness -->
@@ -3166,14 +3164,14 @@
 <!-- ndTransactionKernel&#45;&gt;ndUpdateWitness -->
 <g id="edge117" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndUpdateWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13422.01,-4964.14C13330.74,-4906.16 13222.14,-4837.16 13123.77,-4774.66"/>
-<polygon fill="black" stroke="black" points="13123.49,-4774.48 13116.28,-4774.64 13113.36,-4768.05 13120.57,-4767.89 13123.49,-4774.48"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13422.01,-4964.14C13327.13,-4903.86 13213.51,-4831.68 13112.13,-4767.27"/>
+<polygon fill="black" stroke="black" points="13111.85,-4767.09 13104.64,-4767.25 13101.73,-4760.66 13108.93,-4760.5 13111.85,-4767.09"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndMergeWitness -->
 <g id="edge118" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndMergeWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13742.81,-4953.72C13802.07,-4879.27 13873.89,-4789.05 13930.57,-4717.84"/>
-<polygon fill="black" stroke="black" points="13930.64,-4717.76 13931.24,-4710.57 13938.11,-4708.37 13937.5,-4715.55 13930.64,-4717.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13742.81,-4953.72C13804.16,-4876.64 13878.97,-4782.67 13936.51,-4710.38"/>
+<polygon fill="black" stroke="black" points="13936.68,-4710.17 13937.28,-4702.99 13944.15,-4700.78 13943.54,-4707.97 13936.68,-4710.17"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndKernelToOutputsWitness -->
 <g id="edge119" class="edge">
@@ -5025,86 +5023,83 @@
 <g id="node83" class="node">
 <title>ndPredecessorIsValid</title>
 <g id="a_node83_133"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/predecessor_is_valid.rs#:~:text=struct%20PredecessorIsValid" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="6654.56,-4628 6654.56,-4665 7057.56,-4665 7057.56,-4628 6654.56,-4628"/>
-<polygon fill="none" stroke="black" points="6654.56,-4628 6654.56,-4665 7057.56,-4665 7057.56,-4628 6654.56,-4628"/>
-<text text-anchor="start" x="6794.06" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">PredecessorIsValid</text>
-<polygon fill="white" stroke="transparent" points="6654.56,-4591 6654.56,-4628 7057.56,-4628 7057.56,-4591 6654.56,-4591"/>
-<polygon fill="none" stroke="black" points="6654.56,-4591 6654.56,-4628 7057.56,-4628 7057.56,-4591 6654.56,-4591"/>
-<text text-anchor="start" x="6665.56" y="-4605.8" font-family="Arial" font-size="14.00">+ witness: PredecessorIsValidWitness</text>
-<polygon fill="white" stroke="transparent" points="6654.56,-4524 6654.56,-4591 7057.56,-4591 7057.56,-4524 6654.56,-4524"/>
-<polygon fill="none" stroke="black" points="6654.56,-4524 6654.56,-4591 7057.56,-4591 7057.56,-4524 6654.56,-4524"/>
-<text text-anchor="start" x="6665.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="6665.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="6665.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="6653.06,-4523.5 6653.06,-4666.5 7058.06,-4666.5 7058.06,-4523.5 6653.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="6654.56,-4621 6654.56,-4658 7057.56,-4658 7057.56,-4621 6654.56,-4621"/>
+<polygon fill="none" stroke="black" points="6654.56,-4621 6654.56,-4658 7057.56,-4658 7057.56,-4621 6654.56,-4621"/>
+<text text-anchor="start" x="6794.06" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">PredecessorIsValid</text>
+<polygon fill="white" stroke="transparent" points="6654.56,-4584 6654.56,-4621 7057.56,-4621 7057.56,-4584 6654.56,-4584"/>
+<polygon fill="none" stroke="black" points="6654.56,-4584 6654.56,-4621 7057.56,-4621 7057.56,-4584 6654.56,-4584"/>
+<text text-anchor="start" x="6665.56" y="-4598.8" font-family="Arial" font-size="14.00">+ witness: PredecessorIsValidWitness</text>
+<polygon fill="white" stroke="transparent" points="6654.56,-4532 6654.56,-4584 7057.56,-4584 7057.56,-4532 6654.56,-4532"/>
+<polygon fill="none" stroke="black" points="6654.56,-4532 6654.56,-4584 7057.56,-4584 7057.56,-4532 6654.56,-4532"/>
+<text text-anchor="start" x="6665.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="6665.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="6653.06,-4531 6653.06,-4659 7058.06,-4659 7058.06,-4531 6653.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndPredecessorIsValidWitness&#45;&gt;ndPredecessorIsValid -->
 <g id="edge245" class="edge">
 <title>ndPredecessorIsValidWitness&#45;&gt;ndPredecessorIsValid</title>
-<path fill="none" stroke="black" d="M6687.09,-5021.42C6723.04,-4930.64 6783.62,-4777.67 6821.5,-4682.01"/>
-<polygon fill="black" stroke="black" points="6821.58,-4681.79 6820.07,-4674.74 6826,-4670.64 6827.51,-4677.69 6821.58,-4681.79"/>
+<path fill="none" stroke="black" d="M6687.09,-5021.42C6724.02,-4928.15 6786.95,-4769.24 6824.55,-4674.28"/>
+<polygon fill="black" stroke="black" points="6824.59,-4674.19 6823.08,-4667.14 6829.01,-4663.03 6830.52,-4670.08 6824.59,-4674.19"/>
 </g>
 <!-- ndPrincipalBlockValidationLogic -->
 <g id="node111" class="node">
 <title>ndPrincipalBlockValidationLogic</title>
 <g id="a_node111_134"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity.rs#:~:text=struct%20PrincipalBlockValidationLogic" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7311.56,-4156 7311.56,-4193 7756.56,-4193 7756.56,-4156 7311.56,-4156"/>
-<polygon fill="none" stroke="black" points="7311.56,-4156 7311.56,-4193 7756.56,-4193 7756.56,-4156 7311.56,-4156"/>
-<text text-anchor="start" x="7437.06" y="-4171.8" font-family="Arial" font-weight="bold" font-size="14.00">PrincipalBlockValidationLogic</text>
-<polygon fill="white" stroke="transparent" points="7311.56,-4059 7311.56,-4156 7756.56,-4156 7756.56,-4059 7311.56,-4059"/>
-<polygon fill="none" stroke="black" points="7311.56,-4059 7311.56,-4156 7756.56,-4156 7756.56,-4059 7311.56,-4059"/>
-<text text-anchor="start" x="7322.56" y="-4133.8" font-family="Arial" font-size="14.00">+ predecessor_is_valid: PredecessorIsValid</text>
-<text text-anchor="start" x="7322.56" y="-4118.8" font-family="Arial" font-size="14.00">+ coinbase_is_valid: CoinbaseIsValid</text>
-<text text-anchor="start" x="7322.56" y="-4103.8" font-family="Arial" font-size="14.00">+ correct_mutator_set_update: CorrectMutatorSetUpdate</text>
-<text text-anchor="start" x="7322.56" y="-4088.8" font-family="Arial" font-size="14.00">+ correct_mmr_update: CorrectMmrUpdate</text>
-<text text-anchor="start" x="7322.56" y="-4073.8" font-family="Arial" font-size="14.00">+ correct_control_parameter_update: CorrectControlParameterUpdate</text>
-<polygon fill="white" stroke="transparent" points="7311.56,-3992 7311.56,-4059 7756.56,-4059 7756.56,-3992 7311.56,-3992"/>
-<polygon fill="none" stroke="black" points="7311.56,-3992 7311.56,-4059 7756.56,-4059 7756.56,-3992 7311.56,-3992"/>
-<text text-anchor="start" x="7322.56" y="-4036.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="7322.56" y="-4021.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="7322.56" y="-4006.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="7310.06,-3991.5 7310.06,-4194.5 7757.06,-4194.5 7757.06,-3991.5 7310.06,-3991.5"/>
+<polygon fill="lightblue" stroke="transparent" points="7311.56,-4149 7311.56,-4186 7756.56,-4186 7756.56,-4149 7311.56,-4149"/>
+<polygon fill="none" stroke="black" points="7311.56,-4149 7311.56,-4186 7756.56,-4186 7756.56,-4149 7311.56,-4149"/>
+<text text-anchor="start" x="7437.06" y="-4164.8" font-family="Arial" font-weight="bold" font-size="14.00">PrincipalBlockValidationLogic</text>
+<polygon fill="white" stroke="transparent" points="7311.56,-4052 7311.56,-4149 7756.56,-4149 7756.56,-4052 7311.56,-4052"/>
+<polygon fill="none" stroke="black" points="7311.56,-4052 7311.56,-4149 7756.56,-4149 7756.56,-4052 7311.56,-4052"/>
+<text text-anchor="start" x="7322.56" y="-4126.8" font-family="Arial" font-size="14.00">+ predecessor_is_valid: PredecessorIsValid</text>
+<text text-anchor="start" x="7322.56" y="-4111.8" font-family="Arial" font-size="14.00">+ coinbase_is_valid: CoinbaseIsValid</text>
+<text text-anchor="start" x="7322.56" y="-4096.8" font-family="Arial" font-size="14.00">+ correct_mutator_set_update: CorrectMutatorSetUpdate</text>
+<text text-anchor="start" x="7322.56" y="-4081.8" font-family="Arial" font-size="14.00">+ correct_mmr_update: CorrectMmrUpdate</text>
+<text text-anchor="start" x="7322.56" y="-4066.8" font-family="Arial" font-size="14.00">+ correct_control_parameter_update: CorrectControlParameterUpdate</text>
+<polygon fill="white" stroke="transparent" points="7311.56,-4000 7311.56,-4052 7756.56,-4052 7756.56,-4000 7311.56,-4000"/>
+<polygon fill="none" stroke="black" points="7311.56,-4000 7311.56,-4052 7756.56,-4052 7756.56,-4000 7311.56,-4000"/>
+<text text-anchor="start" x="7322.56" y="-4029.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="7322.56" y="-4014.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="7310.06,-3999 7310.06,-4187 7757.06,-4187 7757.06,-3999 7310.06,-3999"/>
 </a>
 </g>
 </g>
 <!-- ndPredecessorIsValid&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge246" class="edge">
 <title>ndPredecessorIsValid&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M6901.04,-4519.27C6940.85,-4458.67 7003.36,-4374.23 7074.56,-4317 7138.84,-4265.33 7217.07,-4221.75 7290.6,-4187.21"/>
+<path fill="none" stroke="black" d="M6896.15,-4526.77C6935.62,-4465.81 7000.37,-4376.63 7074.56,-4317 7138.84,-4265.33 7217.07,-4221.75 7290.6,-4187.21"/>
 <polygon fill="black" stroke="black" points="7291.01,-4187.02 7294.76,-4180.86 7301.89,-4181.96 7298.14,-4188.12 7291.01,-4187.02"/>
 </g>
 <!-- ndCorrectMutatorSetUpdate -->
 <g id="node85" class="node">
 <title>ndCorrectMutatorSetUpdate</title>
 <g id="a_node85_135"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/correct_mutator_set_update.rs#:~:text=struct%20CorrectMutatorSetUpdate" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7571.56,-4628 7571.56,-4665 7974.56,-4665 7974.56,-4628 7571.56,-4628"/>
-<polygon fill="none" stroke="black" points="7571.56,-4628 7571.56,-4665 7974.56,-4665 7974.56,-4628 7571.56,-4628"/>
-<text text-anchor="start" x="7690.06" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectMutatorSetUpdate</text>
-<polygon fill="white" stroke="transparent" points="7571.56,-4591 7571.56,-4628 7974.56,-4628 7974.56,-4591 7571.56,-4591"/>
-<polygon fill="none" stroke="black" points="7571.56,-4591 7571.56,-4628 7974.56,-4628 7974.56,-4591 7571.56,-4591"/>
-<text text-anchor="start" x="7582.56" y="-4605.8" font-family="Arial" font-size="14.00">+ witness: CorrectMutatorSetUpdateWitness</text>
-<polygon fill="white" stroke="transparent" points="7571.56,-4524 7571.56,-4591 7974.56,-4591 7974.56,-4524 7571.56,-4524"/>
-<polygon fill="none" stroke="black" points="7571.56,-4524 7571.56,-4591 7974.56,-4591 7974.56,-4524 7571.56,-4524"/>
-<text text-anchor="start" x="7582.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="7582.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="7582.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="7570.06,-4523.5 7570.06,-4666.5 7975.06,-4666.5 7975.06,-4523.5 7570.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="7571.56,-4621 7571.56,-4658 7974.56,-4658 7974.56,-4621 7571.56,-4621"/>
+<polygon fill="none" stroke="black" points="7571.56,-4621 7571.56,-4658 7974.56,-4658 7974.56,-4621 7571.56,-4621"/>
+<text text-anchor="start" x="7690.06" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectMutatorSetUpdate</text>
+<polygon fill="white" stroke="transparent" points="7571.56,-4584 7571.56,-4621 7974.56,-4621 7974.56,-4584 7571.56,-4584"/>
+<polygon fill="none" stroke="black" points="7571.56,-4584 7571.56,-4621 7974.56,-4621 7974.56,-4584 7571.56,-4584"/>
+<text text-anchor="start" x="7582.56" y="-4598.8" font-family="Arial" font-size="14.00">+ witness: CorrectMutatorSetUpdateWitness</text>
+<polygon fill="white" stroke="transparent" points="7571.56,-4532 7571.56,-4584 7974.56,-4584 7974.56,-4532 7571.56,-4532"/>
+<polygon fill="none" stroke="black" points="7571.56,-4532 7571.56,-4584 7974.56,-4584 7974.56,-4532 7571.56,-4532"/>
+<text text-anchor="start" x="7582.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="7582.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="7570.06,-4531 7570.06,-4659 7975.06,-4659 7975.06,-4531 7570.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndCorrectMutatorSetUpdateWitness&#45;&gt;ndCorrectMutatorSetUpdate -->
 <g id="edge247" class="edge">
 <title>ndCorrectMutatorSetUpdateWitness&#45;&gt;ndCorrectMutatorSetUpdate</title>
-<path fill="none" stroke="black" d="M8057.58,-5021.42C7996.52,-4930.27 7893.44,-4776.42 7829.4,-4680.85"/>
-<polygon fill="black" stroke="black" points="7829.24,-4680.61 7822.58,-4677.85 7822.56,-4670.64 7829.22,-4673.39 7829.24,-4680.61"/>
+<path fill="none" stroke="black" d="M8057.58,-5021.42C7994.84,-4927.78 7887.76,-4767.95 7824.23,-4673.13"/>
+<polygon fill="black" stroke="black" points="7824.14,-4673 7817.48,-4670.24 7817.47,-4663.03 7824.13,-4665.79 7824.14,-4673"/>
 </g>
 <!-- ndCorrectMutatorSetUpdate&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge248" class="edge">
 <title>ndCorrectMutatorSetUpdate&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M7736.9,-4519.42C7697.75,-4437.5 7634.38,-4304.93 7588.78,-4209.54"/>
-<polygon fill="black" stroke="black" points="7588.77,-4209.51 7582.57,-4205.82 7583.59,-4198.68 7589.79,-4202.37 7588.77,-4209.51"/>
+<path fill="none" stroke="black" d="M7740.45,-4526.83C7700.69,-4443.65 7632.46,-4300.92 7585.28,-4202.22"/>
+<polygon fill="black" stroke="black" points="7585.25,-4202.14 7579.05,-4198.45 7580.07,-4191.31 7586.27,-4195 7585.25,-4202.14"/>
 </g>
 <!-- ndMmrMembershipWitness -->
 <g id="node86" class="node">
@@ -5129,26 +5124,25 @@
 <g id="node87" class="node">
 <title>ndMmrMembership</title>
 <g id="a_node87_137"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/mmr_membership.rs#:~:text=struct%20MmrMembership" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="8449.56,-4628 8449.56,-4665 8852.56,-4665 8852.56,-4628 8449.56,-4628"/>
-<polygon fill="none" stroke="black" points="8449.56,-4628 8449.56,-4665 8852.56,-4665 8852.56,-4628 8449.56,-4628"/>
-<text text-anchor="start" x="8595.06" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">MmrMembership</text>
-<polygon fill="white" stroke="transparent" points="8449.56,-4591 8449.56,-4628 8852.56,-4628 8852.56,-4591 8449.56,-4591"/>
-<polygon fill="none" stroke="black" points="8449.56,-4591 8449.56,-4628 8852.56,-4628 8852.56,-4591 8449.56,-4591"/>
-<text text-anchor="start" x="8460.56" y="-4605.8" font-family="Arial" font-size="14.00">&#45; witness: MmrMembershipWitness</text>
-<polygon fill="white" stroke="transparent" points="8449.56,-4524 8449.56,-4591 8852.56,-4591 8852.56,-4524 8449.56,-4524"/>
-<polygon fill="none" stroke="black" points="8449.56,-4524 8449.56,-4591 8852.56,-4591 8852.56,-4524 8449.56,-4524"/>
-<text text-anchor="start" x="8460.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="8460.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="8460.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="8448.06,-4523.5 8448.06,-4666.5 8853.06,-4666.5 8853.06,-4523.5 8448.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="8449.56,-4621 8449.56,-4658 8852.56,-4658 8852.56,-4621 8449.56,-4621"/>
+<polygon fill="none" stroke="black" points="8449.56,-4621 8449.56,-4658 8852.56,-4658 8852.56,-4621 8449.56,-4621"/>
+<text text-anchor="start" x="8595.06" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">MmrMembership</text>
+<polygon fill="white" stroke="transparent" points="8449.56,-4584 8449.56,-4621 8852.56,-4621 8852.56,-4584 8449.56,-4584"/>
+<polygon fill="none" stroke="black" points="8449.56,-4584 8449.56,-4621 8852.56,-4621 8852.56,-4584 8449.56,-4584"/>
+<text text-anchor="start" x="8460.56" y="-4598.8" font-family="Arial" font-size="14.00">&#45; witness: MmrMembershipWitness</text>
+<polygon fill="white" stroke="transparent" points="8449.56,-4532 8449.56,-4584 8852.56,-4584 8852.56,-4532 8449.56,-4532"/>
+<polygon fill="none" stroke="black" points="8449.56,-4532 8449.56,-4584 8852.56,-4584 8852.56,-4532 8449.56,-4532"/>
+<text text-anchor="start" x="8460.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="8460.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="8448.06,-4531 8448.06,-4659 8853.06,-4659 8853.06,-4531 8448.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndMmrMembershipWitness&#45;&gt;ndMmrMembership -->
 <g id="edge249" class="edge">
 <title>ndMmrMembershipWitness&#45;&gt;ndMmrMembership</title>
-<path fill="none" stroke="black" d="M8809.66,-5021.42C8775.71,-4930.64 8718.5,-4777.67 8682.72,-4682.01"/>
-<polygon fill="black" stroke="black" points="8682.67,-4681.88 8676.82,-4677.66 8678.47,-4670.64 8684.32,-4674.85 8682.67,-4681.88"/>
+<path fill="none" stroke="black" d="M8809.66,-5021.42C8774.78,-4928.15 8715.35,-4769.24 8679.83,-4674.28"/>
+<polygon fill="black" stroke="black" points="8679.83,-4674.27 8673.98,-4670.05 8675.62,-4663.03 8681.47,-4667.25 8679.83,-4674.27"/>
 </g>
 <!-- ndAlternativeBlockValidationLogic -->
 <g id="node112" class="node">
@@ -5168,8 +5162,8 @@
 <!-- ndMmrMembership&#45;&gt;ndAlternativeBlockValidationLogic -->
 <g id="edge250" class="edge">
 <title>ndMmrMembership&#45;&gt;ndAlternativeBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M8635.65,-4519.32C8599.99,-4340.65 8510.32,-3891.29 8477.68,-3727.74"/>
-<polygon fill="black" stroke="black" points="8477.59,-3727.31 8472.5,-3722.21 8475.24,-3715.55 8480.34,-3720.65 8477.59,-3727.31"/>
+<path fill="none" stroke="black" d="M8637.18,-4526.96C8602.6,-4353.71 8510.68,-3893.1 8477.61,-3727.43"/>
+<polygon fill="black" stroke="black" points="8477.59,-3727.32 8472.5,-3722.22 8475.24,-3715.55 8480.34,-3720.65 8477.59,-3727.32"/>
 </g>
 <!-- ndCorrectMmrUpdateWitness -->
 <g id="node88" class="node">
@@ -5194,31 +5188,30 @@
 <g id="node89" class="node">
 <title>ndCorrectMmrUpdate</title>
 <g id="a_node89_140"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/correct_mmr_update.rs#:~:text=struct%20CorrectMmrUpdate" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="8010.56,-4628 8010.56,-4665 8413.56,-4665 8413.56,-4628 8010.56,-4628"/>
-<polygon fill="none" stroke="black" points="8010.56,-4628 8010.56,-4665 8413.56,-4665 8413.56,-4628 8010.56,-4628"/>
-<text text-anchor="start" x="8150.06" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectMmrUpdate</text>
-<polygon fill="white" stroke="transparent" points="8010.56,-4591 8010.56,-4628 8413.56,-4628 8413.56,-4591 8010.56,-4591"/>
-<polygon fill="none" stroke="black" points="8010.56,-4591 8010.56,-4628 8413.56,-4628 8413.56,-4591 8010.56,-4591"/>
-<text text-anchor="start" x="8021.56" y="-4605.8" font-family="Arial" font-size="14.00">+ witness: CorrectMmrUpdateWitness</text>
-<polygon fill="white" stroke="transparent" points="8010.56,-4524 8010.56,-4591 8413.56,-4591 8413.56,-4524 8010.56,-4524"/>
-<polygon fill="none" stroke="black" points="8010.56,-4524 8010.56,-4591 8413.56,-4591 8413.56,-4524 8010.56,-4524"/>
-<text text-anchor="start" x="8021.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="8021.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="8021.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="8009.06,-4523.5 8009.06,-4666.5 8414.06,-4666.5 8414.06,-4523.5 8009.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="8010.56,-4621 8010.56,-4658 8413.56,-4658 8413.56,-4621 8010.56,-4621"/>
+<polygon fill="none" stroke="black" points="8010.56,-4621 8010.56,-4658 8413.56,-4658 8413.56,-4621 8010.56,-4621"/>
+<text text-anchor="start" x="8150.06" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectMmrUpdate</text>
+<polygon fill="white" stroke="transparent" points="8010.56,-4584 8010.56,-4621 8413.56,-4621 8413.56,-4584 8010.56,-4584"/>
+<polygon fill="none" stroke="black" points="8010.56,-4584 8010.56,-4621 8413.56,-4621 8413.56,-4584 8010.56,-4584"/>
+<text text-anchor="start" x="8021.56" y="-4598.8" font-family="Arial" font-size="14.00">+ witness: CorrectMmrUpdateWitness</text>
+<polygon fill="white" stroke="transparent" points="8010.56,-4532 8010.56,-4584 8413.56,-4584 8413.56,-4532 8010.56,-4532"/>
+<polygon fill="none" stroke="black" points="8010.56,-4532 8010.56,-4584 8413.56,-4584 8413.56,-4532 8010.56,-4532"/>
+<text text-anchor="start" x="8021.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="8021.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="8009.06,-4531 8009.06,-4659 8414.06,-4659 8414.06,-4531 8009.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndCorrectMmrUpdateWitness&#45;&gt;ndCorrectMmrUpdate -->
 <g id="edge251" class="edge">
 <title>ndCorrectMmrUpdateWitness&#45;&gt;ndCorrectMmrUpdate</title>
-<path fill="none" stroke="black" d="M8454.89,-5021.42C8402.81,-4930.36 8314.93,-4776.73 8260.25,-4681.14"/>
-<polygon fill="black" stroke="black" points="8260.21,-4681.05 8253.75,-4677.83 8254.25,-4670.64 8260.7,-4673.86 8260.21,-4681.05"/>
+<path fill="none" stroke="black" d="M8454.89,-5021.42C8401.44,-4927.96 8310.28,-4768.6 8256,-4673.71"/>
+<polygon fill="black" stroke="black" points="8255.85,-4673.45 8249.4,-4670.22 8249.9,-4663.03 8256.35,-4666.25 8255.85,-4673.45"/>
 </g>
 <!-- ndCorrectMmrUpdate&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge252" class="edge">
 <title>ndCorrectMmrUpdate&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M8165.78,-4519.3C8125.74,-4458.72 8062.92,-4374.28 7991.56,-4317 7927.51,-4265.6 7849.67,-4222.14 7776.46,-4187.64"/>
+<path fill="none" stroke="black" d="M8170.7,-4526.79C8130.99,-4465.85 8065.91,-4376.68 7991.56,-4317 7927.51,-4265.6 7849.67,-4222.14 7776.46,-4187.64"/>
 <polygon fill="black" stroke="black" points="7776.1,-4187.47 7768.97,-4188.55 7765.23,-4182.39 7772.36,-4181.31 7776.1,-4187.47"/>
 </g>
 <!-- ndCoinbaseIsValidWitness -->
@@ -5244,32 +5237,31 @@
 <g id="node91" class="node">
 <title>ndCoinbaseIsValid</title>
 <g id="a_node91_142"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/coinbase_is_valid.rs#:~:text=struct%20CoinbaseIsValid" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7093.56,-4628 7093.56,-4665 7496.56,-4665 7496.56,-4628 7093.56,-4628"/>
-<polygon fill="none" stroke="black" points="7093.56,-4628 7093.56,-4665 7496.56,-4665 7496.56,-4628 7093.56,-4628"/>
-<text text-anchor="start" x="7243.06" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">CoinbaseIsValid</text>
-<polygon fill="white" stroke="transparent" points="7093.56,-4591 7093.56,-4628 7496.56,-4628 7496.56,-4591 7093.56,-4591"/>
-<polygon fill="none" stroke="black" points="7093.56,-4591 7093.56,-4628 7496.56,-4628 7496.56,-4591 7093.56,-4591"/>
-<text text-anchor="start" x="7104.56" y="-4605.8" font-family="Arial" font-size="14.00">&#45; witness: CoinbaseIsValidWitness</text>
-<polygon fill="white" stroke="transparent" points="7093.56,-4524 7093.56,-4591 7496.56,-4591 7496.56,-4524 7093.56,-4524"/>
-<polygon fill="none" stroke="black" points="7093.56,-4524 7093.56,-4591 7496.56,-4591 7496.56,-4524 7093.56,-4524"/>
-<text text-anchor="start" x="7104.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="7104.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="7104.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="7092.06,-4523.5 7092.06,-4666.5 7497.06,-4666.5 7497.06,-4523.5 7092.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="7093.56,-4621 7093.56,-4658 7496.56,-4658 7496.56,-4621 7093.56,-4621"/>
+<polygon fill="none" stroke="black" points="7093.56,-4621 7093.56,-4658 7496.56,-4658 7496.56,-4621 7093.56,-4621"/>
+<text text-anchor="start" x="7243.06" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">CoinbaseIsValid</text>
+<polygon fill="white" stroke="transparent" points="7093.56,-4584 7093.56,-4621 7496.56,-4621 7496.56,-4584 7093.56,-4584"/>
+<polygon fill="none" stroke="black" points="7093.56,-4584 7093.56,-4621 7496.56,-4621 7496.56,-4584 7093.56,-4584"/>
+<text text-anchor="start" x="7104.56" y="-4598.8" font-family="Arial" font-size="14.00">&#45; witness: CoinbaseIsValidWitness</text>
+<polygon fill="white" stroke="transparent" points="7093.56,-4532 7093.56,-4584 7496.56,-4584 7496.56,-4532 7093.56,-4532"/>
+<polygon fill="none" stroke="black" points="7093.56,-4532 7093.56,-4584 7496.56,-4584 7496.56,-4532 7093.56,-4532"/>
+<text text-anchor="start" x="7104.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="7104.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="7092.06,-4531 7092.06,-4659 7497.06,-4659 7497.06,-4531 7092.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndCoinbaseIsValidWitness&#45;&gt;ndCoinbaseIsValid -->
 <g id="edge253" class="edge">
 <title>ndCoinbaseIsValidWitness&#45;&gt;ndCoinbaseIsValid</title>
-<path fill="none" stroke="black" d="M7029.95,-5021.42C7086.64,-4930.27 7182.33,-4776.42 7241.78,-4680.85"/>
-<polygon fill="black" stroke="black" points="7241.79,-4680.83 7241.57,-4673.62 7248.13,-4670.64 7248.36,-4677.84 7241.79,-4680.83"/>
+<path fill="none" stroke="black" d="M7029.95,-5021.42C7088.13,-4927.87 7187.4,-4768.27 7246.4,-4673.42"/>
+<polygon fill="black" stroke="black" points="7246.52,-4673.22 7246.3,-4666.01 7252.86,-4663.03 7253.09,-4670.24 7246.52,-4673.22"/>
 </g>
 <!-- ndCoinbaseIsValid&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge254" class="edge">
 <title>ndCoinbaseIsValid&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M7330.21,-4519.42C7369.36,-4437.5 7432.73,-4304.93 7478.33,-4209.54"/>
-<polygon fill="black" stroke="black" points="7478.34,-4209.51 7477.32,-4202.37 7483.52,-4198.68 7484.54,-4205.82 7478.34,-4209.51"/>
+<path fill="none" stroke="black" d="M7326.66,-4526.83C7366.42,-4443.65 7434.65,-4300.92 7481.83,-4202.22"/>
+<polygon fill="black" stroke="black" points="7481.87,-4202.14 7480.84,-4195 7487.04,-4191.31 7488.06,-4198.45 7481.87,-4202.14"/>
 </g>
 <!-- ndCorrectControlParameterUpdateWitness -->
 <g id="node92" class="node">
@@ -5294,31 +5286,30 @@
 <g id="node93" class="node">
 <title>ndCorrectControlParameterUpdate</title>
 <g id="a_node93_144"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/block/validity/correct_control_parameter_update.rs#:~:text=struct%20CorrectControlParameterUpdate" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="6215.56,-4628 6215.56,-4665 6618.56,-4665 6618.56,-4628 6215.56,-4628"/>
-<polygon fill="none" stroke="black" points="6215.56,-4628 6215.56,-4665 6618.56,-4665 6618.56,-4628 6215.56,-4628"/>
-<text text-anchor="start" x="6312.56" y="-4643.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectControlParameterUpdate</text>
-<polygon fill="white" stroke="transparent" points="6215.56,-4591 6215.56,-4628 6618.56,-4628 6618.56,-4591 6215.56,-4591"/>
-<polygon fill="none" stroke="black" points="6215.56,-4591 6215.56,-4628 6618.56,-4628 6618.56,-4591 6215.56,-4591"/>
-<text text-anchor="start" x="6226.56" y="-4605.8" font-family="Arial" font-size="14.00">+ witness: CorrectControlParameterUpdateWitness</text>
-<polygon fill="white" stroke="transparent" points="6215.56,-4524 6215.56,-4591 6618.56,-4591 6618.56,-4524 6215.56,-4524"/>
-<polygon fill="none" stroke="black" points="6215.56,-4524 6215.56,-4591 6618.56,-4591 6618.56,-4524 6215.56,-4524"/>
-<text text-anchor="start" x="6226.56" y="-4568.8" font-family="Arial" font-size="14.00">&#45; source(&amp;self)</text>
-<text text-anchor="start" x="6226.56" y="-4553.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="6226.56" y="-4538.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
-<polygon fill="none" stroke="black" points="6214.06,-4523.5 6214.06,-4666.5 6619.06,-4666.5 6619.06,-4523.5 6214.06,-4523.5"/>
+<polygon fill="lightblue" stroke="transparent" points="6215.56,-4621 6215.56,-4658 6618.56,-4658 6618.56,-4621 6215.56,-4621"/>
+<polygon fill="none" stroke="black" points="6215.56,-4621 6215.56,-4658 6618.56,-4658 6618.56,-4621 6215.56,-4621"/>
+<text text-anchor="start" x="6312.56" y="-4636.8" font-family="Arial" font-weight="bold" font-size="14.00">CorrectControlParameterUpdate</text>
+<polygon fill="white" stroke="transparent" points="6215.56,-4584 6215.56,-4621 6618.56,-4621 6618.56,-4584 6215.56,-4584"/>
+<polygon fill="none" stroke="black" points="6215.56,-4584 6215.56,-4621 6618.56,-4621 6618.56,-4584 6215.56,-4584"/>
+<text text-anchor="start" x="6226.56" y="-4598.8" font-family="Arial" font-size="14.00">+ witness: CorrectControlParameterUpdateWitness</text>
+<polygon fill="white" stroke="transparent" points="6215.56,-4532 6215.56,-4584 6618.56,-4584 6618.56,-4532 6215.56,-4532"/>
+<polygon fill="none" stroke="black" points="6215.56,-4532 6215.56,-4584 6618.56,-4584 6618.56,-4532 6215.56,-4532"/>
+<text text-anchor="start" x="6226.56" y="-4561.8" font-family="Arial" font-size="14.00">&#45; library_and_code(&amp;self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="6226.56" y="-4546.8" font-family="Arial" font-size="14.00">&#45; hash(&amp;self) &#45;&gt; Digest</text>
+<polygon fill="none" stroke="black" points="6214.06,-4531 6214.06,-4659 6619.06,-4659 6619.06,-4531 6214.06,-4531"/>
 </a>
 </g>
 </g>
 <!-- ndCorrectControlParameterUpdateWitness&#45;&gt;ndCorrectControlParameterUpdate -->
 <g id="edge255" class="edge">
 <title>ndCorrectControlParameterUpdateWitness&#45;&gt;ndCorrectControlParameterUpdate</title>
-<path fill="none" stroke="black" d="M6344.23,-5021.42C6359.64,-4930.82 6385.57,-4778.29 6401.83,-4682.59"/>
-<polygon fill="black" stroke="black" points="6401.86,-4682.47 6398.92,-4675.88 6403.87,-4670.64 6406.81,-4677.22 6401.86,-4682.47"/>
+<path fill="none" stroke="black" d="M6344.23,-5021.42C6360.06,-4928.34 6386.99,-4769.89 6403.15,-4674.86"/>
+<polygon fill="black" stroke="black" points="6403.15,-4674.86 6400.21,-4668.27 6405.16,-4663.03 6408.1,-4669.62 6403.15,-4674.86"/>
 </g>
 <!-- ndCorrectControlParameterUpdate&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge256" class="edge">
 <title>ndCorrectControlParameterUpdate&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" d="M6456.66,-4519.31C6494.51,-4455.97 6557.11,-4367.57 6635.56,-4317 6663.61,-4298.91 7033.98,-4210.26 7290.2,-4150.33"/>
+<path fill="none" stroke="black" d="M6452.12,-4526.98C6489.4,-4463.29 6553.89,-4369.65 6635.56,-4317 6663.61,-4298.91 7033.98,-4210.26 7290.2,-4150.33"/>
 <polygon fill="black" stroke="black" points="7290.25,-4150.32 7295.18,-4145.06 7301.94,-4147.59 7297,-4152.85 7290.25,-4150.32"/>
 </g>
 <!-- ndBlockPrimitiveWitness&#45;&gt;ndBlockProofWitness -->
@@ -7440,64 +7431,60 @@
 <g id="node137" class="node">
 <title>ndConsensusProgram</title>
 <g id="a_node137_197"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/proof_abstractions/tasm/program.rs#:~:text=trait%20ConsensusProgram" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightgreen" stroke="transparent" points="7164.56,-5149 7164.56,-5186 7874.56,-5186 7874.56,-5149 7164.56,-5149"/>
-<polygon fill="none" stroke="black" points="7164.56,-5149 7164.56,-5186 7874.56,-5186 7874.56,-5149 7164.56,-5149"/>
-<text text-anchor="start" x="7454.56" y="-5164.8" font-family="Arial" font-weight="bold" font-size="14.00">ConsensusProgram</text>
-<polygon fill="white" stroke="transparent" points="7164.56,-5007 7164.56,-5149 7874.56,-5149 7874.56,-5007 7164.56,-5007"/>
-<polygon fill="none" stroke="black" points="7164.56,-5007 7164.56,-5149 7874.56,-5149 7874.56,-5007 7164.56,-5007"/>
-<text text-anchor="start" x="7175.56" y="-5126.8" font-family="Arial" font-size="14.00">library_and_code(&amp;Self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
-<text text-anchor="start" x="7175.56" y="-5111.8" font-family="Arial" font-size="14.00">code(&amp;Self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="7175.56" y="-5096.8" font-family="Arial" font-size="14.00">program(&amp;Self) &#45;&gt; Program</text>
-<text text-anchor="start" x="7175.56" y="-5081.8" font-family="Arial" font-size="14.00">hash(&amp;Self) &#45;&gt; Digest</text>
-<text text-anchor="start" x="7175.56" y="-5066.8" font-family="Arial" font-size="14.00">run_rust(&amp;Self, &amp;PublicInput, NonDeterminism) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;, ConsensusError&gt;</text>
-<text text-anchor="start" x="7175.56" y="-5051.8" font-family="Arial" font-size="14.00">run_tasm(&amp;Self, &amp;PublicInput, NonDeterminism) &#45;&gt; Result&lt;Vec&lt;BFieldElement&gt;, ConsensusError&gt;</text>
-<text text-anchor="start" x="7175.56" y="-5036.8" font-family="Arial" font-size="14.00">test_assertion_failure(&amp;Self, PublicInput, NonDeterminism, &amp;[i128]) &#45;&gt; proptest::test_runner::TestCaseResult</text>
-<text text-anchor="start" x="7175.56" y="-5021.8" font-family="Arial" font-size="14.00">prove(&amp;Self, Claim, NonDeterminism, &amp;TritonVmJobQueue, TritonVmProofJobOptions) &#45;&gt; anyhow::Result&lt;Proof&gt;</text>
-<polygon fill="none" stroke="black" points="7163.56,-5006.5 7163.56,-5187.5 7875.56,-5187.5 7875.56,-5006.5 7163.56,-5006.5"/>
+<polygon fill="lightgreen" stroke="transparent" points="7164.56,-5119 7164.56,-5156 7874.56,-5156 7874.56,-5119 7164.56,-5119"/>
+<polygon fill="none" stroke="black" points="7164.56,-5119 7164.56,-5156 7874.56,-5156 7874.56,-5119 7164.56,-5119"/>
+<text text-anchor="start" x="7454.56" y="-5134.8" font-family="Arial" font-weight="bold" font-size="14.00">ConsensusProgram</text>
+<polygon fill="white" stroke="transparent" points="7164.56,-5037 7164.56,-5119 7874.56,-5119 7874.56,-5037 7164.56,-5037"/>
+<polygon fill="none" stroke="black" points="7164.56,-5037 7164.56,-5119 7874.56,-5119 7874.56,-5037 7164.56,-5037"/>
+<text text-anchor="start" x="7175.56" y="-5096.8" font-family="Arial" font-size="14.00">library_and_code(&amp;Self) &#45;&gt; (Library, Vec&lt;LabelledInstruction&gt;)</text>
+<text text-anchor="start" x="7175.56" y="-5081.8" font-family="Arial" font-size="14.00">program(&amp;Self) &#45;&gt; Program</text>
+<text text-anchor="start" x="7175.56" y="-5066.8" font-family="Arial" font-size="14.00">hash(&amp;Self) &#45;&gt; Digest</text>
+<text text-anchor="start" x="7175.56" y="-5051.8" font-family="Arial" font-size="14.00">prove(&amp;Self, Claim, NonDeterminism, &amp;TritonVmJobQueue, TritonVmProofJobOptions) &#45;&gt; anyhow::Result&lt;Proof&gt;</text>
+<polygon fill="none" stroke="black" points="7163.56,-5036.5 7163.56,-5157.5 7875.56,-5157.5 7875.56,-5036.5 7163.56,-5036.5"/>
 </a>
 </g>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndPredecessorIsValid -->
 <g id="edge422" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndPredecessorIsValid</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7332.69,-5002.27C7273.2,-4972.44 7207.12,-4939.32 7146.56,-4909 7114.56,-4892.98 7102.31,-4895.57 7074.56,-4873 7007.01,-4818.07 6947.01,-4738.84 6906.97,-4679.17"/>
-<polygon fill="none" stroke="black" points="6909.66,-4676.9 6901.21,-4670.52 6903.83,-4680.78 6909.66,-4676.9"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7392.68,-5032.35C7320.53,-4996.17 7228.49,-4950.02 7146.56,-4909 7114.56,-4892.98 7102.31,-4895.57 7074.56,-4873 7004.03,-4815.65 6941.73,-4731.81 6901.79,-4671.4"/>
+<polygon fill="none" stroke="black" points="6904.72,-4669.48 6896.31,-4663.04 6898.86,-4673.32 6904.72,-4669.48"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndCorrectMutatorSetUpdate -->
 <g id="edge423" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndCorrectMutatorSetUpdate</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7566.99,-5002.25C7613.96,-4909.43 7685.19,-4768.67 7730.27,-4679.57"/>
-<polygon fill="none" stroke="black" points="7733.43,-4681.08 7734.82,-4670.58 7727.18,-4677.92 7733.43,-4681.08"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7551.73,-5032.42C7598.25,-4940.47 7684.19,-4770.63 7734.04,-4672.13"/>
+<polygon fill="none" stroke="black" points="7737.2,-4673.62 7738.6,-4663.11 7730.96,-4670.46 7737.2,-4673.62"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndMmrMembership -->
 <g id="edge424" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndMmrMembership</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7671.91,-5002.35C7737.44,-4966.72 7816.37,-4929.74 7892.56,-4909 8008.17,-4877.53 8324.45,-4928.67 8430.56,-4873 8511.06,-4830.76 8572.03,-4744.74 8609.13,-4679.71"/>
-<polygon fill="none" stroke="black" points="8612.36,-4681.11 8614.2,-4670.68 8606.25,-4677.68 8612.36,-4681.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7618.85,-5032.48C7691.59,-4989.45 7794.35,-4935.73 7892.56,-4909 8008.17,-4877.53 8324.45,-4928.67 8430.56,-4873 8514.18,-4829.13 8576.72,-4738.02 8613.33,-4672.25"/>
+<polygon fill="none" stroke="black" points="8616.58,-4673.6 8618.32,-4663.15 8610.45,-4670.23 8616.58,-4673.6"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndCorrectMmrUpdate -->
 <g id="edge425" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndCorrectMmrUpdate</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7695.91,-5002.33C7757.41,-4971.07 7827.36,-4937.09 7892.56,-4909 7935.55,-4890.48 7953.56,-4900.36 7991.56,-4873 8063.3,-4821.32 8123.94,-4740.16 8163.26,-4679.02"/>
-<polygon fill="none" stroke="black" points="8166.25,-4680.84 8168.67,-4670.53 8160.34,-4677.08 8166.25,-4680.84"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7637.58,-5032.42C7710.14,-4994.45 7805.57,-4946.47 7892.56,-4909 7935.55,-4890.48 7953.56,-4900.36 7991.56,-4873 8066.16,-4819.27 8128.74,-4733.65 8167.85,-4671.81"/>
+<polygon fill="none" stroke="black" points="8170.87,-4673.59 8173.22,-4663.25 8164.94,-4669.87 8170.87,-4673.59"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndCoinbaseIsValid -->
 <g id="edge426" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndCoinbaseIsValid</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7477.37,-5002.25C7435.64,-4909.53 7372.38,-4768.95 7332.28,-4679.84"/>
-<polygon fill="none" stroke="black" points="7335.41,-4678.26 7328.11,-4670.58 7329.03,-4681.13 7335.41,-4678.26"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7490.94,-5032.42C7449.61,-4940.56 7373.29,-4770.97 7328.95,-4672.42"/>
+<polygon fill="none" stroke="black" points="7332.05,-4670.8 7324.76,-4663.11 7325.67,-4673.67 7332.05,-4670.8"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndCorrectControlParameterUpdate -->
 <g id="edge427" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndCorrectControlParameterUpdate</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7367.16,-5002.48C7301.63,-4966.87 7222.71,-4929.87 7146.56,-4909 7036.77,-4878.91 6736.21,-4926.18 6635.56,-4873 6555.31,-4830.6 6494.64,-4744.61 6457.74,-4679.62"/>
-<polygon fill="none" stroke="black" points="6460.63,-4677.62 6452.69,-4670.6 6454.52,-4681.04 6460.63,-4677.62"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7419.84,-5032.35C7347.11,-4989.41 7244.54,-4935.86 7146.56,-4909 7036.77,-4878.91 6736.21,-4926.18 6635.56,-4873 6552.21,-4828.96 6489.97,-4737.89 6453.56,-4672.17"/>
+<polygon fill="none" stroke="black" points="6456.46,-4670.18 6448.59,-4663.08 6450.31,-4673.53 6456.46,-4670.18"/>
 </g>
 <!-- ndConsensusProgram&#45;&gt;ndPrincipalBlockValidationLogic -->
 <g id="edge428" class="edge">
 <title>ndConsensusProgram&#45;&gt;ndPrincipalBlockValidationLogic</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7520.87,-5002.18C7523.44,-4817.84 7529.15,-4408.94 7531.95,-4208.82"/>
-<polygon fill="none" stroke="black" points="7535.45,-4208.62 7532.09,-4198.58 7528.45,-4208.53 7535.45,-4208.62"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7520.45,-5032.18C7522.79,-4864.44 7529.14,-4409.76 7532.06,-4201.18"/>
+<polygon fill="none" stroke="black" points="7535.56,-4201.18 7532.2,-4191.13 7528.56,-4201.08 7535.56,-4201.18"/>
 </g>
 <!-- ndTritonVmProofJobOptions&#45;&gt;ndMainLoopHandler -->
 <g id="edge429" class="edge">
