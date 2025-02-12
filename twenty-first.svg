@@ -404,7 +404,7 @@
 <text text-anchor="start" x="4929" y="-723.3" font-family="Arial" font-weight="bold" font-size="14.00">MockMmr</text>
 <polygon fill="white" stroke="transparent" points="4346,-670.5 4346,-707.5 5578,-707.5 5578,-670.5 4346,-670.5"/>
 <polygon fill="none" stroke="black" points="4346,-670.5 4346,-707.5 5578,-707.5 5578,-670.5 4346,-670.5"/>
-<text text-anchor="start" x="4357" y="-685.3" font-family="Arial" font-size="14.00">&#45; digests: MyVec&lt;Digest&gt;</text>
+<text text-anchor="start" x="4357" y="-685.3" font-family="Arial" font-size="14.00">&#45; leafs: MyVec&lt;Digest&gt;</text>
 <polygon fill="white" stroke="transparent" points="4346,-393.5 4346,-670.5 5578,-670.5 5578,-393.5 4346,-393.5"/>
 <polygon fill="none" stroke="black" points="4346,-393.5 4346,-670.5 5578,-670.5 5578,-393.5 4346,-393.5"/>
 <text text-anchor="start" x="4357" y="-648.3" font-family="Arial" font-size="14.00">&#45; bag_peaks(&amp;self) &#45;&gt; Digest</text>
