@@ -1353,35 +1353,36 @@
 <g id="node59" class="node">
 <title>ndTransactionKernel</title>
 <g id="a_node59_39"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/blockchain/transaction/transaction_kernel.rs#:~:text=struct%20TransactionKernel" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7981.12,-5213 7981.12,-5250 8378.12,-5250 8378.12,-5213 7981.12,-5213"/>
-<polygon fill="none" stroke="black" points="7981.12,-5213 7981.12,-5250 8378.12,-5250 8378.12,-5213 7981.12,-5213"/>
-<text text-anchor="start" x="8120.62" y="-5228.8" font-family="Arial" font-weight="bold" font-size="14.00">TransactionKernel</text>
-<polygon fill="white" stroke="transparent" points="7981.12,-5056 7981.12,-5213 8378.12,-5213 8378.12,-5056 7981.12,-5056"/>
-<polygon fill="none" stroke="black" points="7981.12,-5056 7981.12,-5213 8378.12,-5213 8378.12,-5056 7981.12,-5056"/>
-<text text-anchor="start" x="7992.12" y="-5190.8" font-family="Arial" font-size="14.00">+ inputs: Vec&lt;RemovalRecord&gt;</text>
-<text text-anchor="start" x="7992.12" y="-5175.8" font-family="Arial" font-size="14.00">+ outputs: Vec&lt;AdditionRecord&gt;</text>
-<text text-anchor="start" x="7992.12" y="-5160.8" font-family="Arial" font-size="14.00">+ public_announcements: Vec&lt;PublicAnnouncement&gt;</text>
-<text text-anchor="start" x="7992.12" y="-5145.8" font-family="Arial" font-size="14.00">+ fee: NativeCurrencyAmount</text>
-<text text-anchor="start" x="7992.12" y="-5130.8" font-family="Arial" font-size="14.00">+ coinbase: Option&lt;NativeCurrencyAmount&gt;</text>
-<text text-anchor="start" x="7992.12" y="-5115.8" font-family="Arial" font-size="14.00">+ timestamp: Timestamp</text>
-<text text-anchor="start" x="7992.12" y="-5100.8" font-family="Arial" font-size="14.00">+ mutator_set_hash: Digest</text>
-<text text-anchor="start" x="7992.12" y="-5085.8" font-family="Arial" font-size="14.00">+ merge_bit: bool</text>
-<text text-anchor="start" x="7992.12" y="-5070.8" font-family="Arial" font-size="14.00">&#45; mast_sequences: OnceLock&lt;Vec&lt;Vec&lt;BFieldElement&gt;&gt;&gt;</text>
-<polygon fill="white" stroke="transparent" points="7981.12,-4974 7981.12,-5056 8378.12,-5056 8378.12,-4974 7981.12,-4974"/>
-<polygon fill="none" stroke="black" points="7981.12,-4974 7981.12,-5056 8378.12,-5056 8378.12,-4974 7981.12,-4974"/>
-<text text-anchor="start" x="7992.12" y="-5033.8" font-family="Arial" font-size="14.00">&#45; eq(&amp;self, o: &amp;Self) &#45;&gt; bool</text>
-<text text-anchor="start" x="7992.12" y="-5018.8" font-family="Arial" font-size="14.00">&#45; from(transaction_primitive_witness: PrimitiveWitness) &#45;&gt; Self</text>
-<text text-anchor="start" x="7992.12" y="-5003.8" font-family="Arial" font-size="14.00">&#45; mast_sequences(&amp;self) &#45;&gt; Vec&lt;Vec&lt;BFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="7992.12" y="-4988.8" font-family="Arial" font-size="14.00">&#45; txid(&amp;self) &#45;&gt; TransactionKernelId</text>
-<polygon fill="none" stroke="black" points="7979.62,-4973 7979.62,-5251 8378.62,-5251 8378.62,-4973 7979.62,-4973"/>
+<polygon fill="lightblue" stroke="transparent" points="7981.12,-5220 7981.12,-5257 8378.12,-5257 8378.12,-5220 7981.12,-5220"/>
+<polygon fill="none" stroke="black" points="7981.12,-5220 7981.12,-5257 8378.12,-5257 8378.12,-5220 7981.12,-5220"/>
+<text text-anchor="start" x="8120.62" y="-5235.8" font-family="Arial" font-weight="bold" font-size="14.00">TransactionKernel</text>
+<polygon fill="white" stroke="transparent" points="7981.12,-5063 7981.12,-5220 8378.12,-5220 8378.12,-5063 7981.12,-5063"/>
+<polygon fill="none" stroke="black" points="7981.12,-5063 7981.12,-5220 8378.12,-5220 8378.12,-5063 7981.12,-5063"/>
+<text text-anchor="start" x="7992.12" y="-5197.8" font-family="Arial" font-size="14.00">+ inputs: Vec&lt;RemovalRecord&gt;</text>
+<text text-anchor="start" x="7992.12" y="-5182.8" font-family="Arial" font-size="14.00">+ outputs: Vec&lt;AdditionRecord&gt;</text>
+<text text-anchor="start" x="7992.12" y="-5167.8" font-family="Arial" font-size="14.00">+ public_announcements: Vec&lt;PublicAnnouncement&gt;</text>
+<text text-anchor="start" x="7992.12" y="-5152.8" font-family="Arial" font-size="14.00">+ fee: NativeCurrencyAmount</text>
+<text text-anchor="start" x="7992.12" y="-5137.8" font-family="Arial" font-size="14.00">+ coinbase: Option&lt;NativeCurrencyAmount&gt;</text>
+<text text-anchor="start" x="7992.12" y="-5122.8" font-family="Arial" font-size="14.00">+ timestamp: Timestamp</text>
+<text text-anchor="start" x="7992.12" y="-5107.8" font-family="Arial" font-size="14.00">+ mutator_set_hash: Digest</text>
+<text text-anchor="start" x="7992.12" y="-5092.8" font-family="Arial" font-size="14.00">+ merge_bit: bool</text>
+<text text-anchor="start" x="7992.12" y="-5077.8" font-family="Arial" font-size="14.00">&#45; mast_sequences: OnceLock&lt;Vec&lt;Vec&lt;BFieldElement&gt;&gt;&gt;</text>
+<polygon fill="white" stroke="transparent" points="7981.12,-4966 7981.12,-5063 8378.12,-5063 8378.12,-4966 7981.12,-4966"/>
+<polygon fill="none" stroke="black" points="7981.12,-4966 7981.12,-5063 8378.12,-5063 8378.12,-4966 7981.12,-4966"/>
+<text text-anchor="start" x="7992.12" y="-5040.8" font-family="Arial" font-size="14.00">&#45; fmt(&amp;self, f: &amp;mut std::fmt::Formatter&lt;&#39;_&gt;) &#45;&gt; std::fmt::Result</text>
+<text text-anchor="start" x="7992.12" y="-5025.8" font-family="Arial" font-size="14.00">&#45; eq(&amp;self, o: &amp;Self) &#45;&gt; bool</text>
+<text text-anchor="start" x="7992.12" y="-5010.8" font-family="Arial" font-size="14.00">&#45; from(transaction_primitive_witness: PrimitiveWitness) &#45;&gt; Self</text>
+<text text-anchor="start" x="7992.12" y="-4995.8" font-family="Arial" font-size="14.00">&#45; mast_sequences(&amp;self) &#45;&gt; Vec&lt;Vec&lt;BFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="7992.12" y="-4980.8" font-family="Arial" font-size="14.00">&#45; txid(&amp;self) &#45;&gt; TransactionKernelId</text>
+<polygon fill="none" stroke="black" points="7979.62,-4965.5 7979.62,-5258.5 8378.62,-5258.5 8378.62,-4965.5 7979.62,-4965.5"/>
 </a>
 </g>
 </g>
 <!-- ndAdditionRecord&#45;&gt;ndTransactionKernel -->
 <g id="edge35" class="edge">
 <title>ndAdditionRecord&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M7942.17,-7882.27C7996.29,-7764.23 8076.39,-7534.53 7956.12,-7403 7895.59,-7336.81 7634.68,-7406.41 7554.12,-7367 7329.26,-7257.01 7301.02,-7168.36 7170.12,-6955 7052.81,-6763.81 6834.65,-6141.47 6973.12,-5965 7014.64,-5912.08 7060.56,-5960.27 7120.12,-5929 7471.32,-5744.62 7432.54,-5513.8 7787.12,-5336 7858.1,-5300.41 7890.86,-5335.04 7962.12,-5300 7983.4,-5289.53 8004.29,-5276.47 8024.18,-5262.15"/>
-<polygon fill="black" stroke="black" points="8024.2,-5262.14 8026.67,-5255.36 8033.87,-5255.03 8031.41,-5261.8 8024.2,-5262.14"/>
+<path fill="none" stroke="black" d="M7942.17,-7882.27C7996.29,-7764.23 8076.39,-7534.53 7956.12,-7403 7895.59,-7336.81 7634.68,-7406.41 7554.12,-7367 7329.26,-7257.01 7301.02,-7168.36 7170.12,-6955 7052.81,-6763.81 6834.65,-6141.47 6973.12,-5965 7014.64,-5912.08 7060.56,-5960.27 7120.12,-5929 7471.32,-5744.62 7432.54,-5513.8 7787.12,-5336 7858.1,-5300.41 7890.86,-5335.04 7962.12,-5300 7979.58,-5291.41 7996.77,-5281.08 8013.37,-5269.74"/>
+<polygon fill="black" stroke="black" points="8013.8,-5269.44 8016.42,-5262.72 8023.63,-5262.55 8021.01,-5269.27 8013.8,-5269.44"/>
 </g>
 <!-- ndTransactionKernelProxy -->
 <g id="node61" class="node">
@@ -2049,8 +2050,8 @@
 <!-- ndRemovalRecord&#45;&gt;ndTransactionKernel -->
 <g id="edge65" class="edge">
 <title>ndRemovalRecord&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M9094.46,-6464.52C8660.96,-6352.98 7965.31,-6145.27 7816.12,-5929 7669.4,-5716.31 7867.51,-5434.75 8023.69,-5264.11"/>
-<polygon fill="black" stroke="black" points="8023.89,-5263.88 8025.02,-5256.76 8032.03,-5255.06 8030.9,-5262.18 8023.89,-5263.88"/>
+<path fill="none" stroke="black" d="M9094.46,-6464.52C8660.96,-6352.98 7965.31,-6145.27 7816.12,-5929 7671.56,-5719.45 7861.74,-5443.04 8016.75,-5271.73"/>
+<polygon fill="black" stroke="black" points="8016.96,-5271.51 8018.04,-5264.38 8025.04,-5262.63 8023.95,-5269.76 8016.96,-5271.51"/>
 </g>
 <!-- ndRemovalRecord&#45;&gt;ndTransactionKernelProxy -->
 <g id="edge66" class="edge">
@@ -3177,31 +3178,31 @@
 <!-- ndTransactionKernel&#45;&gt;ndMergeWitness -->
 <g id="edge118" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndMergeWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8293.03,-4968.96C8356.74,-4889.52 8435.08,-4791.83 8494.74,-4717.44"/>
-<polygon fill="black" stroke="black" points="8494.78,-4717.39 8495.42,-4710.2 8502.29,-4708.03 8501.66,-4715.21 8494.78,-4717.39"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8299.03,-4961.48C8361.53,-4883.55 8436.75,-4789.74 8494.52,-4717.71"/>
+<polygon fill="black" stroke="black" points="8494.69,-4717.51 8495.32,-4710.32 8502.19,-4708.14 8501.56,-4715.33 8494.69,-4717.51"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndKernelToOutputsWitness -->
 <g id="edge119" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndKernelToOutputsWitness</title>
-<path fill="none" stroke="black" d="M8029.6,-4968.94C8007.93,-4952.37 7985.14,-4936.83 7962.12,-4924 7915.71,-4898.13 7890.57,-4919.95 7848.12,-4888 7792.48,-4846.13 7748.11,-4782.81 7716.39,-4726.52"/>
+<path fill="none" stroke="black" d="M8019.4,-4961.28C8000.83,-4947.6 7981.55,-4934.84 7962.12,-4924 7915.71,-4898.13 7890.57,-4919.95 7848.12,-4888 7792.48,-4846.13 7748.11,-4782.81 7716.39,-4726.52"/>
 <polygon fill="black" stroke="black" points="7716.23,-4726.23 7709.82,-4722.92 7710.41,-4715.74 7716.82,-4719.05 7716.23,-4726.23"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndTransactionKernelProxy -->
 <g id="edge120" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndTransactionKernelProxy</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8041.28,-4968.8C8016.69,-4950.64 7989.97,-4934.69 7962.12,-4924 7789.46,-4857.74 6475.39,-4940.66 6298.12,-4888 6188.7,-4855.5 6079.6,-4789.41 5995.35,-4729.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8031.02,-4961.45C8009.32,-4946.36 7986.14,-4933.22 7962.12,-4924 7789.46,-4857.74 6475.39,-4940.66 6298.12,-4888 6188.7,-4855.5 6079.6,-4789.41 5995.35,-4729.11"/>
 <polygon fill="black" stroke="black" points="5987.02,-4723.1 5997.76,-4725.3 5991.07,-4726.03 5995.13,-4728.95 5995.13,-4728.95 5995.13,-4728.95 5991.07,-4726.03 5992.5,-4732.6 5987.02,-4723.1 5987.02,-4723.1"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndTransactionKernelModifier -->
 <g id="edge121" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndTransactionKernelModifier</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8041.64,-4968.88C8016.97,-4950.65 7990.12,-4934.65 7962.12,-4924 7841.89,-4878.28 5763.99,-4941.71 5647.12,-4888 5599.2,-4865.98 5556.64,-4829.98 5520.76,-4790.88"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8031.07,-4961.31C8009.37,-4946.24 7986.17,-4933.15 7962.12,-4924 7841.89,-4878.28 5763.99,-4941.71 5647.12,-4888 5599.2,-4865.98 5556.64,-4829.98 5520.76,-4790.88"/>
 <polygon fill="black" stroke="black" points="5513.68,-4783.02 5523.71,-4787.43 5517.02,-4786.73 5520.37,-4790.45 5520.37,-4790.45 5520.37,-4790.45 5517.02,-4786.73 5517.03,-4793.46 5513.68,-4783.02 5513.68,-4783.02"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndTransaction -->
 <g id="edge122" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndTransaction</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8042.6,-4968.74C8025.21,-4943.5 8010.04,-4916.22 8000.12,-4888 7915.92,-4648.6 7858.63,-4527.68 8000.12,-4317 8160.14,-4078.72 8882.39,-3886.12 9408.47,-3774.11"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8037.68,-4961.46C8022.36,-4938.29 8009.09,-4913.52 8000.12,-4888 7915.92,-4648.6 7858.63,-4527.68 8000.12,-4317 8160.14,-4078.72 8882.39,-3886.12 9408.47,-3774.11"/>
 <polygon fill="black" stroke="black" points="9408.73,-3774.05 9413.77,-3768.89 9420.47,-3771.56 9415.43,-3776.72 9408.73,-3774.05"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndPrimitiveWitness -->
@@ -3240,7 +3241,7 @@
 <!-- ndTransactionKernel&#45;&gt;ndNativeCurrencyWitness -->
 <g id="edge124" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndNativeCurrencyWitness</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8039.24,-4968.93C8015.15,-4951.07 7989.11,-4935.18 7962.12,-4924 7761.59,-4840.98 7678.84,-4962.83 7475.12,-4888 7389.27,-4856.47 7305.75,-4800.13 7238.17,-4745.86"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8028.66,-4961.31C8007.59,-4946.57 7985.21,-4933.56 7962.12,-4924 7761.59,-4840.98 7678.84,-4962.83 7475.12,-4888 7389.27,-4856.47 7305.75,-4800.13 7238.17,-4745.86"/>
 <polygon fill="black" stroke="black" points="7238.07,-4745.77 7230.89,-4745.1 7228.75,-4738.22 7235.92,-4738.89 7238.07,-4745.77"/>
 </g>
 <!-- ndTimeLockWitness -->
@@ -3285,7 +3286,7 @@
 <!-- ndTransactionKernel&#45;&gt;ndWalletState -->
 <g id="edge127" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndWalletState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8040.48,-5255.18C8016.09,-5273.21 7989.64,-5289.13 7962.12,-5300 7871.1,-5335.94 7154.24,-5269.86 7082.12,-5336 7033.16,-5380.89 7054.17,-5883.13 7006.12,-5929 6934.51,-5997.35 6635.91,-5899.02 6562.12,-5965 6409.87,-6101.11 6553.91,-6228.01 6474.12,-6416 6443.66,-6487.76 6113.22,-6924.76 6072.12,-6991 5868.03,-7319.88 5767.38,-7384.89 5654.12,-7755 5627.6,-7841.65 5680.72,-8097.46 5616.12,-8161 5541.75,-8234.14 5222.9,-8124.29 5148.12,-8197 5090.28,-8253.23 5123.32,-8478.42 5110.12,-8558 5108.69,-8566.62 5107.2,-8575.32 5105.66,-8584.07"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8030.22,-5262.55C8008.73,-5277.53 7985.82,-5290.64 7962.12,-5300 7871.1,-5335.94 7154.24,-5269.86 7082.12,-5336 7033.16,-5380.89 7054.17,-5883.13 7006.12,-5929 6934.51,-5997.35 6635.91,-5899.02 6562.12,-5965 6409.87,-6101.11 6553.91,-6228.01 6474.12,-6416 6443.66,-6487.76 6113.22,-6924.76 6072.12,-6991 5868.03,-7319.88 5767.38,-7384.89 5654.12,-7755 5627.6,-7841.65 5680.72,-8097.46 5616.12,-8161 5541.75,-8234.14 5222.9,-8124.29 5148.12,-8197 5090.28,-8253.23 5123.32,-8478.42 5110.12,-8558 5108.69,-8566.62 5107.2,-8575.32 5105.66,-8584.07"/>
 <polygon fill="black" stroke="black" points="5103.9,-8593.98 5101.22,-8583.35 5104.77,-8589.06 5105.65,-8584.13 5105.65,-8584.13 5105.65,-8584.13 5104.77,-8589.06 5110.08,-8584.92 5103.9,-8593.98 5103.9,-8593.98"/>
 </g>
 <!-- ndSpendingKey -->
@@ -3322,7 +3323,7 @@
 <!-- ndTransactionKernel&#45;&gt;ndSpendingKey -->
 <g id="edge128" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndSpendingKey</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8041.68,-4968.79C8017,-4950.57 7990.14,-4934.6 7962.12,-4924 7804.4,-4864.35 5093.65,-4914.46 4927.12,-4888 4719.65,-4855.03 4494.24,-4784.72 4319.79,-4722.25"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8031.42,-4961.44C8009.62,-4946.3 7986.3,-4933.15 7962.12,-4924 7804.4,-4864.35 5093.65,-4914.46 4927.12,-4888 4719.65,-4855.03 4494.24,-4784.72 4319.79,-4722.25"/>
 <polygon fill="black" stroke="black" points="4310.22,-4718.81 4321.15,-4717.96 4314.92,-4720.5 4319.63,-4722.2 4319.63,-4722.2 4319.63,-4722.2 4314.92,-4720.5 4318.11,-4726.43 4310.22,-4718.81 4310.22,-4718.81"/>
 </g>
 <!-- ndTransferTransaction -->
@@ -3346,13 +3347,13 @@
 <!-- ndTransactionKernel&#45;&gt;ndTransferTransaction -->
 <g id="edge129" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndTransferTransaction</title>
-<path fill="none" stroke="black" d="M8016.6,-4968.89C7998.37,-4953.56 7979.94,-4938.34 7962.12,-4924 7941.34,-4907.29 7926.04,-4911.85 7914.12,-4888 7815.65,-4691.07 7865.09,-4041.16 8038.12,-3905 8152.5,-3814.99 8587.24,-3969.93 8692.12,-3869 8757.41,-3806.16 8673.2,-3533.51 8730.12,-3463 8763.49,-3421.66 8797.89,-3453.19 8844.12,-3427 8896.18,-3397.5 8946.64,-3353.53 8985.15,-3315.64"/>
+<path fill="none" stroke="black" d="M8007.67,-4961.4C7992.38,-4948.62 7977.04,-4936 7962.12,-4924 7941.34,-4907.29 7926.04,-4911.85 7914.12,-4888 7815.65,-4691.07 7865.09,-4041.16 8038.12,-3905 8152.5,-3814.99 8587.24,-3969.93 8692.12,-3869 8757.41,-3806.16 8673.2,-3533.51 8730.12,-3463 8763.49,-3421.66 8797.89,-3453.19 8844.12,-3427 8896.18,-3397.5 8946.64,-3353.53 8985.15,-3315.64"/>
 <polygon fill="black" stroke="black" points="8985.17,-3315.61 8986.6,-3308.55 8993.68,-3307.15 8992.24,-3314.22 8985.17,-3315.61"/>
 </g>
 <!-- ndTransactionKernel&#45;&gt;ndUpdateMutatorSetDataJob -->
 <g id="edge130" class="edge">
 <title>ndTransactionKernel&#45;&gt;ndUpdateMutatorSetDataJob</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8110.43,-4968.87C8036.45,-4792.68 7949.31,-4494.09 8109.12,-4317 8161.5,-4258.95 8382.89,-4298.39 8459.12,-4281 8939.54,-4171.42 9017.65,-3995 9502.12,-3905 9686.23,-3870.8 11013.66,-3939.59 11187.12,-3869 11456.81,-3759.25 11683.3,-3487.46 11791.62,-3339.62"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M8107.2,-4961.12C8033.97,-4784.05 7951.63,-4491.52 8109.12,-4317 8161.5,-4258.95 8382.89,-4298.39 8459.12,-4281 8939.54,-4171.42 9017.65,-3995 9502.12,-3905 9686.23,-3870.8 11013.66,-3939.59 11187.12,-3869 11456.81,-3759.25 11683.3,-3487.46 11791.62,-3339.62"/>
 <polygon fill="black" stroke="black" points="11791.84,-3339.33 11792.14,-3332.13 11798.9,-3329.63 11798.6,-3336.84 11791.84,-3339.33"/>
 </g>
 <!-- ndTransactionKernelField -->
@@ -3802,8 +3803,8 @@
 <!-- ndPublicAnnouncement&#45;&gt;ndTransactionKernel -->
 <g id="edge150" class="edge">
 <title>ndPublicAnnouncement&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M6385.4,-8998.77C6424.46,-8906.44 6496.01,-8722.49 6522.12,-8558 6547.27,-8399.54 6545.05,-8355.8 6522.12,-8197 6490.46,-7977.78 6412.77,-7938.22 6381.12,-7719 6361.04,-7580 6361.81,-7542.11 6381.12,-7403 6426.77,-7074.04 6537.85,-6183.32 6788.12,-5965 6874.7,-5889.47 6962.7,-6010.07 7044.12,-5929 7138.47,-5835.05 7031.34,-5425.29 7130.12,-5336 7198.76,-5273.95 7876.09,-5334.09 7962.12,-5300 7985.97,-5290.55 8009.03,-5277.31 8030.63,-5262.19"/>
-<polygon fill="black" stroke="black" points="8030.72,-5262.13 8033.25,-5255.38 8040.46,-5255.12 8037.93,-5261.88 8030.72,-5262.13"/>
+<path fill="none" stroke="black" d="M6385.4,-8998.77C6424.46,-8906.44 6496.01,-8722.49 6522.12,-8558 6547.27,-8399.54 6545.05,-8355.8 6522.12,-8197 6490.46,-7977.78 6412.77,-7938.22 6381.12,-7719 6361.04,-7580 6361.81,-7542.11 6381.12,-7403 6426.77,-7074.04 6537.85,-6183.32 6788.12,-5965 6874.7,-5889.47 6962.7,-6010.07 7044.12,-5929 7138.47,-5835.05 7031.34,-5425.29 7130.12,-5336 7198.76,-5273.95 7876.09,-5334.09 7962.12,-5300 7982.01,-5292.12 8001.35,-5281.6 8019.76,-5269.56"/>
+<polygon fill="black" stroke="black" points="8019.94,-5269.43 8022.67,-5262.76 8029.88,-5262.72 8027.15,-5269.39 8019.94,-5269.43"/>
 </g>
 <!-- ndPublicAnnouncement&#45;&gt;ndTransactionKernelProxy -->
 <g id="edge151" class="edge">
@@ -4684,8 +4685,8 @@
 <!-- ndNativeCurrencyAmount&#45;&gt;ndTransactionKernel -->
 <g id="edge226" class="edge">
 <title>ndNativeCurrencyAmount&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M3242.22,-14274.86C3244.01,-14262.78 3245.65,-14250.8 3247.12,-14239 3274.03,-14022.81 3319.12,-13468.54 3319.12,-12410 3319.12,-12410 3319.12,-12410 3319.12,-11434 3319.12,-10584.71 3370.15,-10373.61 3404.12,-9525 3406.93,-9454.62 3447.68,-7043.96 3494.12,-6991 3557.7,-6918.48 3630.2,-7011.85 3708.12,-6955 3817.63,-6875.1 3735.27,-6759.12 3848.12,-6684 3930.7,-6629.02 4196.43,-6670.25 4293.12,-6648 4526.94,-6594.2 4561.23,-6500.94 4796.12,-6452 4995.55,-6410.45 5517.21,-6475.25 5712.12,-6416 6078.44,-6304.63 6082.39,-6084.58 6446.12,-5965 6536.37,-5935.33 6801.9,-5993 6872.12,-5929 7069.99,-5748.65 6776,-5511.58 6978.12,-5336 7060.71,-5264.25 7860.27,-5339.96 7962.12,-5300 7986.1,-5290.59 8009.27,-5277.32 8030.97,-5262.16"/>
-<polygon fill="black" stroke="black" points="8031.09,-5262.07 8033.62,-5255.32 8040.83,-5255.06 8038.3,-5261.81 8031.09,-5262.07"/>
+<path fill="none" stroke="black" d="M3242.22,-14274.86C3244.01,-14262.78 3245.65,-14250.8 3247.12,-14239 3274.03,-14022.81 3319.12,-13468.54 3319.12,-12410 3319.12,-12410 3319.12,-12410 3319.12,-11434 3319.12,-10584.71 3370.15,-10373.61 3404.12,-9525 3406.93,-9454.62 3447.68,-7043.96 3494.12,-6991 3557.7,-6918.48 3630.2,-7011.85 3708.12,-6955 3817.63,-6875.1 3735.27,-6759.12 3848.12,-6684 3930.7,-6629.02 4196.43,-6670.25 4293.12,-6648 4526.94,-6594.2 4561.23,-6500.94 4796.12,-6452 4995.55,-6410.45 5517.21,-6475.25 5712.12,-6416 6078.44,-6304.63 6082.39,-6084.58 6446.12,-5965 6536.37,-5935.33 6801.9,-5993 6872.12,-5929 7069.99,-5748.65 6776,-5511.58 6978.12,-5336 7060.71,-5264.25 7860.27,-5339.96 7962.12,-5300 7982.14,-5292.14 8001.58,-5281.61 8020.08,-5269.52"/>
+<polygon fill="black" stroke="black" points="8020.31,-5269.36 8023.05,-5262.69 8030.26,-5262.65 8027.52,-5269.32 8020.31,-5269.36"/>
 </g>
 <!-- ndNativeCurrencyAmount&#45;&gt;ndTransactionKernelProxy -->
 <g id="edge227" class="edge">
@@ -7095,8 +7096,8 @@
 <!-- ndTimestamp&#45;&gt;ndTransactionKernel -->
 <g id="edge389" class="edge">
 <title>ndTimestamp&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M6285.92,-15001.77C6276.19,-14616.88 6254.41,-13853.42 6234.12,-13833 6174.76,-13773.27 5537.11,-13856.09 5477.12,-13797 5415.21,-13736.03 5440.54,-12297.46 5379.12,-12236 5289.71,-12146.54 4909.84,-12279.05 4811.12,-12200 4669.82,-12086.86 4835.11,-11926.15 4697.12,-11809 4595.75,-11722.95 4495.03,-11866.12 4400.12,-11773 4183.55,-11560.51 4498.92,-11330.43 4305.12,-11097 4273.06,-11058.4 4234.8,-11095.23 4198.12,-11061 3844.86,-10731.35 3898.23,-10525.77 3781.12,-10057 3739.68,-9891.16 3409.51,-7119.61 3522.12,-6991 3601.86,-6899.91 3699.63,-7033.12 3792.12,-6955 3888.45,-6873.63 3776.61,-6761.46 3876.12,-6684 3936.08,-6637.32 4487.59,-6673.68 4559.12,-6648 4696.99,-6598.49 4685.65,-6499.83 4824.12,-6452 4957.44,-6405.95 5966.03,-6477.21 6093.12,-6416 6329.52,-6302.14 6240.73,-6084.93 6474.12,-5965 6563.15,-5919.25 6848.34,-5995.54 6923.12,-5929 7123.86,-5750.36 6836.75,-5510.49 7041.12,-5336 7119,-5269.5 7866.83,-5337.53 7962.12,-5300 7985.99,-5290.6 8009.06,-5277.39 8030.67,-5262.29"/>
-<polygon fill="black" stroke="black" points="8030.75,-5262.23 8033.29,-5255.48 8040.5,-5255.23 8037.96,-5261.98 8030.75,-5262.23"/>
+<path fill="none" stroke="black" d="M6285.92,-15001.77C6276.19,-14616.88 6254.41,-13853.42 6234.12,-13833 6174.76,-13773.27 5537.11,-13856.09 5477.12,-13797 5415.21,-13736.03 5440.54,-12297.46 5379.12,-12236 5289.71,-12146.54 4909.84,-12279.05 4811.12,-12200 4669.82,-12086.86 4835.11,-11926.15 4697.12,-11809 4595.75,-11722.95 4495.03,-11866.12 4400.12,-11773 4183.55,-11560.51 4498.92,-11330.43 4305.12,-11097 4273.06,-11058.4 4234.8,-11095.23 4198.12,-11061 3844.86,-10731.35 3898.23,-10525.77 3781.12,-10057 3739.68,-9891.16 3409.51,-7119.61 3522.12,-6991 3601.86,-6899.91 3699.63,-7033.12 3792.12,-6955 3888.45,-6873.63 3776.61,-6761.46 3876.12,-6684 3936.08,-6637.32 4487.59,-6673.68 4559.12,-6648 4696.99,-6598.49 4685.65,-6499.83 4824.12,-6452 4957.44,-6405.95 5966.03,-6477.21 6093.12,-6416 6329.52,-6302.14 6240.73,-6084.93 6474.12,-5965 6563.15,-5919.25 6848.34,-5995.54 6923.12,-5929 7123.86,-5750.36 6836.75,-5510.49 7041.12,-5336 7119,-5269.5 7866.83,-5337.53 7962.12,-5300 7982.13,-5292.12 8001.57,-5281.57 8020.06,-5269.47"/>
+<polygon fill="black" stroke="black" points="8020.29,-5269.31 8023.02,-5262.64 8030.24,-5262.59 8027.5,-5269.27 8020.29,-5269.31"/>
 </g>
 <!-- ndTimestamp&#45;&gt;ndTransactionKernelProxy -->
 <g id="edge390" class="edge">
@@ -7323,8 +7324,8 @@
 <!-- ndMastHash&#45;&gt;ndTransactionKernel -->
 <g id="edge418" class="edge">
 <title>ndMastHash&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M17858.7,-14555.93C17854.05,-14366.75 17836.72,-13790.98 17789.12,-13316 17705.13,-12477.97 17591.7,-10341.46 17275.12,-9561 17074.5,-9066.43 16960.93,-8949.8 16563.12,-8594 16382.64,-8432.59 12921.7,-6617.94 12788.12,-6416 12732.41,-6331.79 12806.01,-6034.86 12733.12,-5965 12696.5,-5929.91 12328.51,-5934.71 12278.12,-5929 11350.91,-5823.92 11122.13,-5771.96 10201.12,-5622 9394.66,-5490.69 9127.05,-5654.99 8391.12,-5300 8369.36,-5289.51 8348.13,-5276.13 8328.04,-5261.38"/>
-<polygon fill="none" stroke="black" points="8329.9,-5258.4 8319.79,-5255.21 8325.7,-5264 8329.9,-5258.4"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M17858.7,-14555.93C17854.05,-14366.75 17836.72,-13790.98 17789.12,-13316 17705.13,-12477.97 17591.7,-10341.46 17275.12,-9561 17074.5,-9066.43 16960.93,-8949.8 16563.12,-8594 16382.64,-8432.59 12921.7,-6617.94 12788.12,-6416 12732.41,-6331.79 12806.01,-6034.86 12733.12,-5965 12696.5,-5929.91 12328.51,-5934.71 12278.12,-5929 11350.91,-5823.92 11122.13,-5771.96 10201.12,-5622 9394.66,-5490.69 9127.05,-5654.99 8391.12,-5300 8372.98,-5291.25 8355.21,-5280.5 8338.15,-5268.62"/>
+<polygon fill="none" stroke="black" points="8340.01,-5265.65 8329.84,-5262.7 8335.95,-5271.35 8340.01,-5265.65"/>
 </g>
 <!-- ndMastHash&#45;&gt;ndBlockKernel -->
 <g id="edge419" class="edge">
@@ -7935,8 +7936,8 @@
 <!-- ndTransactionKernelId&#45;&gt;ndTransactionKernel -->
 <g id="edge471" class="edge">
 <title>ndTransactionKernelId&#45;&gt;ndTransactionKernel</title>
-<path fill="none" stroke="black" d="M7192.72,-9748.48C7224.81,-9692.92 7269.46,-9606.55 7290.12,-9525 7415.44,-9030.33 7352.12,-8888.8 7352.12,-8378.5 7352.12,-8378.5 7352.12,-8378.5 7352.12,-7957 7352.12,-7710.55 7497.69,-7581.84 7328.12,-7403 7270.97,-7342.73 7012.94,-7427.57 6956.12,-7367 6742.91,-7139.72 6731.28,-6209.01 6925.12,-5965 6969.11,-5909.62 7032.19,-5981.01 7080.12,-5929 7162.62,-5839.47 7064.18,-5766.14 7120.12,-5658 7215.29,-5474 7267.7,-5419.88 7457.12,-5336 7662.86,-5244.88 7754.1,-5385.8 7962.12,-5300 7986.07,-5290.12 8009.26,-5276.52 8031,-5261.12"/>
-<polygon fill="black" stroke="black" points="8039.26,-5255.13 8033.81,-5264.64 8035.21,-5258.07 8031.17,-5261 8031.17,-5261 8031.17,-5261 8035.21,-5258.07 8028.52,-5257.35 8039.26,-5255.13 8039.26,-5255.13"/>
+<path fill="none" stroke="black" d="M7192.72,-9748.48C7224.81,-9692.92 7269.46,-9606.55 7290.12,-9525 7415.44,-9030.33 7352.12,-8888.8 7352.12,-8378.5 7352.12,-8378.5 7352.12,-8378.5 7352.12,-7957 7352.12,-7710.55 7497.69,-7581.84 7328.12,-7403 7270.97,-7342.73 7012.94,-7427.57 6956.12,-7367 6742.91,-7139.72 6731.28,-6209.01 6925.12,-5965 6969.11,-5909.62 7032.19,-5981.01 7080.12,-5929 7162.62,-5839.47 7064.18,-5766.14 7120.12,-5658 7215.29,-5474 7267.7,-5419.88 7457.12,-5336 7662.86,-5244.88 7754.1,-5385.8 7962.12,-5300 7982.25,-5291.7 8001.85,-5280.76 8020.5,-5268.34"/>
+<polygon fill="black" stroke="black" points="8029,-5262.53 8023.28,-5271.88 8024.87,-5265.35 8020.74,-5268.17 8020.74,-5268.17 8020.74,-5268.17 8024.87,-5265.35 8018.2,-5264.45 8029,-5262.53 8029,-5262.53"/>
 </g>
 <!-- ndTransactionKernelId&#45;&gt;ndWalletState -->
 <g id="edge472" class="edge">
@@ -11532,18 +11533,20 @@
 <g id="node287" class="node">
 <title>ndVerticalRectifier</title>
 <g id="a_node287_291"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/bin/dashboard_src/overview_screen.rs#:~:text=struct%20VerticalRectifier" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="36858.12,-16913 36858.12,-16950 37103.12,-16950 37103.12,-16913 36858.12,-16913"/>
-<polygon fill="none" stroke="black" points="36858.12,-16913 36858.12,-16950 37103.12,-16950 37103.12,-16913 36858.12,-16913"/>
-<text text-anchor="start" x="36929.12" y="-16928.8" font-family="Arial" font-weight="bold" font-size="14.00">VerticalRectifier</text>
-<polygon fill="white" stroke="transparent" points="36858.12,-16861 36858.12,-16913 37103.12,-16913 37103.12,-16861 36858.12,-16861"/>
-<polygon fill="none" stroke="black" points="36858.12,-16861 36858.12,-16913 37103.12,-16913 37103.12,-16861 36858.12,-16861"/>
-<text text-anchor="start" x="36869.12" y="-16890.8" font-family="Arial" font-size="14.00">&#45; container: Rect</text>
-<text text-anchor="start" x="36869.12" y="-16875.8" font-family="Arial" font-size="14.00">&#45; inner_y: u16</text>
-<polygon fill="white" stroke="transparent" points="36858.12,-16809 36858.12,-16861 37103.12,-16861 37103.12,-16809 36858.12,-16809"/>
-<polygon fill="none" stroke="black" points="36858.12,-16809 36858.12,-16861 37103.12,-16861 37103.12,-16809 36858.12,-16809"/>
-<text text-anchor="start" x="36869.12" y="-16838.8" font-family="Arial" font-size="14.00">&#45; new(container: Rect) &#45;&gt; Self</text>
-<text text-anchor="start" x="36869.12" y="-16823.8" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self, height: u16) &#45;&gt; Rect</text>
-<polygon fill="none" stroke="black" points="36856.62,-16808.5 36856.62,-16951.5 37103.62,-16951.5 37103.62,-16808.5 36856.62,-16808.5"/>
+<polygon fill="lightblue" stroke="transparent" points="36858.12,-16928 36858.12,-16965 37103.12,-16965 37103.12,-16928 36858.12,-16928"/>
+<polygon fill="none" stroke="black" points="36858.12,-16928 36858.12,-16965 37103.12,-16965 37103.12,-16928 36858.12,-16928"/>
+<text text-anchor="start" x="36929.12" y="-16943.8" font-family="Arial" font-weight="bold" font-size="14.00">VerticalRectifier</text>
+<polygon fill="white" stroke="transparent" points="36858.12,-16876 36858.12,-16928 37103.12,-16928 37103.12,-16876 36858.12,-16876"/>
+<polygon fill="none" stroke="black" points="36858.12,-16876 36858.12,-16928 37103.12,-16928 37103.12,-16876 36858.12,-16876"/>
+<text text-anchor="start" x="36869.12" y="-16905.8" font-family="Arial" font-size="14.00">&#45; container: Rect</text>
+<text text-anchor="start" x="36869.12" y="-16890.8" font-family="Arial" font-size="14.00">&#45; inner_y: u16</text>
+<polygon fill="white" stroke="transparent" points="36858.12,-16794 36858.12,-16876 37103.12,-16876 37103.12,-16794 36858.12,-16794"/>
+<polygon fill="none" stroke="black" points="36858.12,-16794 36858.12,-16876 37103.12,-16876 37103.12,-16794 36858.12,-16794"/>
+<text text-anchor="start" x="36869.12" y="-16853.8" font-family="Arial" font-size="14.00">&#45; new(container: Rect) &#45;&gt; Self</text>
+<text text-anchor="start" x="36869.12" y="-16838.8" font-family="Arial" font-size="14.00">&#45; next(&amp;mut self, height: u16) &#45;&gt; Rect</text>
+<text text-anchor="start" x="36869.12" y="-16823.8" font-family="Arial" font-size="14.00">&#45; remaining(&amp;mut self) &#45;&gt; Rect</text>
+<text text-anchor="start" x="36869.12" y="-16808.8" font-family="Arial" font-size="14.00">&#45; set_width(&amp;mut self, width: u16)</text>
+<polygon fill="none" stroke="black" points="36856.62,-16793.5 36856.62,-16966.5 37103.62,-16966.5 37103.62,-16793.5 36856.62,-16793.5"/>
 </a>
 </g>
 </g>
