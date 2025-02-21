@@ -2019,7 +2019,7 @@
 <!-- ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler -->
 <g id="edge102" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M1838.04,-517.44C1901.92,-435.71 2005.71,-312.65 2113.75,-225 2129.79,-211.99 2147.3,-199.47 2165.22,-187.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1838.04,-517.44C1901.92,-435.71 2005.71,-312.65 2113.75,-225 2129.79,-211.99 2147.3,-199.47 2165.22,-187.69"/>
 <polygon fill="black" stroke="black" points="2165.44,-187.55 2168.31,-180.94 2175.52,-181.04 2172.65,-187.65 2165.44,-187.55"/>
 </g>
 <!-- ndPeerTaskToMain&#45;&gt;ndMainLoopHandler -->

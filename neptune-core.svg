@@ -37,35 +37,36 @@
 <g id="node2" class="node">
 <title>ndPeerLoopHandler</title>
 <g id="a_node2_1"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/peer_loop.rs#:~:text=struct%20PeerLoopHandler" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1966.77,-611.5 1966.77,-648.5 3476.77,-648.5 3476.77,-611.5 1966.77,-611.5"/>
-<polygon fill="none" stroke="black" points="1966.77,-611.5 1966.77,-648.5 3476.77,-648.5 3476.77,-611.5 1966.77,-611.5"/>
-<text text-anchor="start" x="2665.27" y="-627.3" font-family="Arial" font-weight="bold" font-size="14.00">PeerLoopHandler</text>
-<polygon fill="white" stroke="transparent" points="1966.77,-469.5 1966.77,-611.5 3476.77,-611.5 3476.77,-469.5 1966.77,-469.5"/>
-<polygon fill="none" stroke="black" points="1966.77,-469.5 1966.77,-611.5 3476.77,-611.5 3476.77,-469.5 1966.77,-469.5"/>
-<text text-anchor="start" x="1977.77" y="-589.3" font-family="Arial" font-size="14.00">&#45; to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;</text>
-<text text-anchor="start" x="1977.77" y="-574.3" font-family="Arial" font-size="14.00">&#45; global_state_lock: GlobalStateLock</text>
-<text text-anchor="start" x="1977.77" y="-559.3" font-family="Arial" font-size="14.00">&#45; peer_address: SocketAddr</text>
-<text text-anchor="start" x="1977.77" y="-544.3" font-family="Arial" font-size="14.00">&#45; peer_handshake_data: HandshakeData</text>
-<text text-anchor="start" x="1977.77" y="-529.3" font-family="Arial" font-size="14.00">&#45; inbound_connection: bool</text>
-<text text-anchor="start" x="1977.77" y="-514.3" font-family="Arial" font-size="14.00">&#45; distance: u8</text>
-<text text-anchor="start" x="1977.77" y="-499.3" font-family="Arial" font-size="14.00">&#45; rng: StdRng</text>
-<text text-anchor="start" x="1977.77" y="-484.3" font-family="Arial" font-size="14.00">&#45; mock_now: Option&lt;Timestamp&gt;</text>
-<polygon fill="white" stroke="transparent" points="1966.77,-252.5 1966.77,-469.5 3476.77,-469.5 3476.77,-252.5 1966.77,-252.5"/>
-<polygon fill="none" stroke="black" points="1966.77,-252.5 1966.77,-469.5 3476.77,-469.5 3476.77,-252.5 1966.77,-252.5"/>
-<text text-anchor="start" x="1977.77" y="-447.3" font-family="Arial" font-size="14.00">&#45; new(to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, global_state_lock: GlobalStateLock, peer_address: SocketAddr, peer_handshake_data: HandshakeData, inbound_connection: bool, distance: u8) &#45;&gt; Self</text>
-<text text-anchor="start" x="1977.77" y="-432.3" font-family="Arial" font-size="14.00">&#45; with_mocked_time(to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, global_state_lock: GlobalStateLock, peer_address: SocketAddr, peer_handshake_data: HandshakeData, inbound_connection: bool, distance: u8, mocked_time: Timestamp) &#45;&gt; Self</text>
-<text text-anchor="start" x="1977.77" y="-417.3" font-family="Arial" font-size="14.00">&#45; set_rng(&amp;mut self, rng: StdRng)</text>
-<text text-anchor="start" x="1977.77" y="-402.3" font-family="Arial" font-size="14.00">&#45; now(&amp;self) &#45;&gt; Timestamp</text>
-<text text-anchor="start" x="1977.77" y="-387.3" font-family="Arial" font-size="14.00">&#45; punish(&amp;mut self, reason: NegativePeerSanction) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="1977.77" y="-372.3" font-family="Arial" font-size="14.00">&#45; reward(&amp;mut self, reason: PositivePeerSanction) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="1977.77" y="-357.3" font-family="Arial" font-size="14.00">&#45; batch_response(state: &amp;GlobalState, blocks: Vec&lt;Block&gt;, anchor: &amp;MmrAccumulator) &#45;&gt; Option&lt;Vec&lt;(TransferBlock, MmrMembershipProof)&gt;&gt;</text>
-<text text-anchor="start" x="1977.77" y="-342.3" font-family="Arial" font-size="14.00">&#45; handle_blocks(&amp;mut self, received_blocks: Vec&lt;Block&gt;, parent_of_first_block: Block) &#45;&gt; Result&lt;Option&lt;BlockHeight&gt;&gt;</text>
-<text text-anchor="start" x="1977.77" y="-327.3" font-family="Arial" font-size="14.00">&#45; try_ensure_path(&amp;mut self, received_block: Box&lt;Block&gt;, peer: &amp;mut S, peer_state: &amp;mut MutablePeerState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="1977.77" y="-312.3" font-family="Arial" font-size="14.00">&#45; handle_peer_message(&amp;mut self, msg: PeerMessage, peer: &amp;mut S, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;bool&gt;</text>
-<text text-anchor="start" x="1977.77" y="-297.3" font-family="Arial" font-size="14.00">&#45; handle_main_task_message(&amp;mut self, msg: MainToPeerTask, peer: &amp;mut S, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;bool&gt;</text>
-<text text-anchor="start" x="1977.77" y="-282.3" font-family="Arial" font-size="14.00">&#45; run(&amp;mut self, mut peer: S, mut from_main_rx: broadcast::Receiver&lt;MainToPeerTask&gt;, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="1977.77" y="-267.3" font-family="Arial" font-size="14.00">&#45; run_wrapper(&amp;mut self, mut peer: S, from_main_rx: broadcast::Receiver&lt;MainToPeerTask&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<polygon fill="none" stroke="black" points="1965.77,-251.5 1965.77,-649.5 3477.77,-649.5 3477.77,-251.5 1965.77,-251.5"/>
+<polygon fill="lightblue" stroke="transparent" points="1966.77,-618.5 1966.77,-655.5 3476.77,-655.5 3476.77,-618.5 1966.77,-618.5"/>
+<polygon fill="none" stroke="black" points="1966.77,-618.5 1966.77,-655.5 3476.77,-655.5 3476.77,-618.5 1966.77,-618.5"/>
+<text text-anchor="start" x="2665.27" y="-634.3" font-family="Arial" font-weight="bold" font-size="14.00">PeerLoopHandler</text>
+<polygon fill="white" stroke="transparent" points="1966.77,-476.5 1966.77,-618.5 3476.77,-618.5 3476.77,-476.5 1966.77,-476.5"/>
+<polygon fill="none" stroke="black" points="1966.77,-476.5 1966.77,-618.5 3476.77,-618.5 3476.77,-476.5 1966.77,-476.5"/>
+<text text-anchor="start" x="1977.77" y="-596.3" font-family="Arial" font-size="14.00">&#45; to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;</text>
+<text text-anchor="start" x="1977.77" y="-581.3" font-family="Arial" font-size="14.00">&#45; global_state_lock: GlobalStateLock</text>
+<text text-anchor="start" x="1977.77" y="-566.3" font-family="Arial" font-size="14.00">&#45; peer_address: SocketAddr</text>
+<text text-anchor="start" x="1977.77" y="-551.3" font-family="Arial" font-size="14.00">&#45; peer_handshake_data: HandshakeData</text>
+<text text-anchor="start" x="1977.77" y="-536.3" font-family="Arial" font-size="14.00">&#45; inbound_connection: bool</text>
+<text text-anchor="start" x="1977.77" y="-521.3" font-family="Arial" font-size="14.00">&#45; distance: u8</text>
+<text text-anchor="start" x="1977.77" y="-506.3" font-family="Arial" font-size="14.00">&#45; rng: StdRng</text>
+<text text-anchor="start" x="1977.77" y="-491.3" font-family="Arial" font-size="14.00">&#45; mock_now: Option&lt;Timestamp&gt;</text>
+<polygon fill="white" stroke="transparent" points="1966.77,-244.5 1966.77,-476.5 3476.77,-476.5 3476.77,-244.5 1966.77,-244.5"/>
+<polygon fill="none" stroke="black" points="1966.77,-244.5 1966.77,-476.5 3476.77,-476.5 3476.77,-244.5 1966.77,-244.5"/>
+<text text-anchor="start" x="1977.77" y="-454.3" font-family="Arial" font-size="14.00">&#45; new(to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, global_state_lock: GlobalStateLock, peer_address: SocketAddr, peer_handshake_data: HandshakeData, inbound_connection: bool, distance: u8) &#45;&gt; Self</text>
+<text text-anchor="start" x="1977.77" y="-439.3" font-family="Arial" font-size="14.00">&#45; with_mocked_time(to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, global_state_lock: GlobalStateLock, peer_address: SocketAddr, peer_handshake_data: HandshakeData, inbound_connection: bool, distance: u8, mocked_time: Timestamp) &#45;&gt; Self</text>
+<text text-anchor="start" x="1977.77" y="-424.3" font-family="Arial" font-size="14.00">&#45; set_rng(&amp;mut self, rng: StdRng)</text>
+<text text-anchor="start" x="1977.77" y="-409.3" font-family="Arial" font-size="14.00">&#45; now(&amp;self) &#45;&gt; Timestamp</text>
+<text text-anchor="start" x="1977.77" y="-394.3" font-family="Arial" font-size="14.00">&#45; punish(&amp;mut self, reason: NegativePeerSanction) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="1977.77" y="-379.3" font-family="Arial" font-size="14.00">&#45; reward(&amp;mut self, reason: PositivePeerSanction) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="1977.77" y="-364.3" font-family="Arial" font-size="14.00">&#45; batch_response(state: &amp;GlobalState, blocks: Vec&lt;Block&gt;, anchor: &amp;MmrAccumulator) &#45;&gt; Option&lt;Vec&lt;(TransferBlock, MmrMembershipProof)&gt;&gt;</text>
+<text text-anchor="start" x="1977.77" y="-349.3" font-family="Arial" font-size="14.00">&#45; handle_blocks(&amp;mut self, received_blocks: Vec&lt;Block&gt;, parent_of_first_block: Block) &#45;&gt; Result&lt;Option&lt;BlockHeight&gt;&gt;</text>
+<text text-anchor="start" x="1977.77" y="-334.3" font-family="Arial" font-size="14.00">&#45; try_ensure_path(&amp;mut self, received_block: Box&lt;Block&gt;, peer: &amp;mut S, peer_state: &amp;mut MutablePeerState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="1977.77" y="-319.3" font-family="Arial" font-size="14.00">&#45; handle_peer_message(&amp;mut self, msg: PeerMessage, peer: &amp;mut S, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;bool&gt;</text>
+<text text-anchor="start" x="1977.77" y="-304.3" font-family="Arial" font-size="14.00">&#45; send_to_main(&amp;self, msg: PeerTaskToMain, line: u32) &#45;&gt; Result&lt;(), tokio::sync::mpsc::error::SendError&lt;PeerTaskToMain&gt;&gt;</text>
+<text text-anchor="start" x="1977.77" y="-289.3" font-family="Arial" font-size="14.00">&#45; handle_main_task_message(&amp;mut self, msg: MainToPeerTask, peer: &amp;mut S, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;bool&gt;</text>
+<text text-anchor="start" x="1977.77" y="-274.3" font-family="Arial" font-size="14.00">&#45; run(&amp;mut self, mut peer: S, mut from_main_rx: broadcast::Receiver&lt;MainToPeerTask&gt;, peer_state_info: &amp;mut MutablePeerState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="1977.77" y="-259.3" font-family="Arial" font-size="14.00">&#45; run_wrapper(&amp;mut self, mut peer: S, from_main_rx: broadcast::Receiver&lt;MainToPeerTask&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<polygon fill="none" stroke="black" points="1965.77,-244 1965.77,-657 3477.77,-657 3477.77,-244 1965.77,-244"/>
 </a>
 </g>
 </g>
@@ -2752,8 +2753,8 @@
 <!-- ndMainToPeerTask&#45;&gt;ndPeerLoopHandler -->
 <g id="edge100" class="edge">
 <title>ndMainToPeerTask&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1218.59,-2623.87C1144.9,-2300.43 993.87,-1401.74 1455.77,-937 1502.79,-889.69 1689.62,-919.27 1753.77,-901 1957.94,-842.85 2173.24,-746.72 2348.82,-658.24"/>
-<polygon fill="black" stroke="black" points="2357.94,-653.64 2351.05,-662.16 2353.48,-655.89 2349.02,-658.15 2349.02,-658.15 2349.02,-658.15 2353.48,-655.89 2346.99,-654.13 2357.94,-653.64 2357.94,-653.64"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1218.59,-2623.87C1144.9,-2300.43 993.87,-1401.74 1455.77,-937 1502.79,-889.69 1689.62,-919.27 1753.77,-901 1952.35,-844.44 2161.47,-751.94 2334.33,-665.52"/>
+<polygon fill="black" stroke="black" points="2343.31,-661.02 2336.39,-669.52 2338.84,-663.26 2334.37,-665.5 2334.37,-665.5 2334.37,-665.5 2338.84,-663.26 2332.36,-661.47 2343.31,-661.02 2343.31,-661.02"/>
 </g>
 <!-- ndMainToPeerTask&#45;&gt;ndMainLoopHandler -->
 <g id="edge101" class="edge">
@@ -2787,8 +2788,8 @@
 <!-- ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler -->
 <g id="edge102" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M2165.22,-1949.34C2217.06,-1749.34 2339.6,-1300.4 2483.77,-937 2519.96,-845.78 2566.28,-748.1 2608.42,-664.45"/>
-<polygon fill="black" stroke="black" points="2608.53,-664.24 2607.66,-657.08 2613.94,-653.53 2614.8,-660.69 2608.53,-664.24"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2165.22,-1949.34C2217.06,-1749.34 2339.6,-1300.4 2483.77,-937 2518.84,-848.59 2563.44,-754.1 2604.52,-672.21"/>
+<polygon fill="black" stroke="black" points="2604.64,-671.97 2603.76,-664.82 2610.03,-661.25 2610.91,-668.41 2604.64,-671.97"/>
 </g>
 <!-- ndPeerTaskToMain&#45;&gt;ndMainLoopHandler -->
 <g id="edge103" class="edge">
@@ -6118,8 +6119,8 @@
 <!-- ndBlockHeight&#45;&gt;ndPeerLoopHandler -->
 <g id="edge303" class="edge">
 <title>ndBlockHeight&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M3470.65,-14880.34C3351.36,-14817.13 3211.58,-14721.21 3134.77,-14592 3088.4,-14513.99 3157.42,-14247.59 3090.77,-14186 2989.78,-14092.68 1962.21,-14234.54 1853.77,-14150 1678.56,-14013.41 1848.5,-13848.62 1717.77,-13669 1700.79,-13645.68 1678.33,-13657.9 1663.77,-13633 1540.99,-13423.04 1566,-11684.59 1501.77,-11450 1497.04,-11432.75 1488.62,-11431.22 1483.77,-11414 1362.35,-10982.92 1432.84,-10856.48 1397.77,-10410 1379.21,-10173.68 1375.81,-10114.5 1359.77,-9878 1305.34,-9075.52 1277.53,-8875.61 1243.77,-8072 1207.07,-7198.38 1183.96,-5012.2 1165.77,-4138 1163.97,-4051.33 1205.47,-3423.57 1148.77,-3358 1085.68,-3285.04 997.17,-3395.54 934.77,-3322 846.48,-3217.97 933.99,-3151.44 933.77,-3015 932.79,-2416.8 759,-2208.9 1022.77,-1672 1261.56,-1185.94 1798.6,-852.03 2205.43,-657.93"/>
-<polygon fill="black" stroke="black" points="2214.71,-653.51 2207.62,-661.87 2210.2,-655.66 2205.68,-657.81 2205.68,-657.81 2205.68,-657.81 2210.2,-655.66 2203.75,-653.74 2214.71,-653.51 2214.71,-653.51"/>
+<path fill="none" stroke="black" d="M3470.65,-14880.34C3351.36,-14817.13 3211.58,-14721.21 3134.77,-14592 3088.4,-14513.99 3157.42,-14247.59 3090.77,-14186 2989.78,-14092.68 1962.21,-14234.54 1853.77,-14150 1678.56,-14013.41 1848.5,-13848.62 1717.77,-13669 1700.79,-13645.68 1678.33,-13657.9 1663.77,-13633 1540.99,-13423.04 1566,-11684.59 1501.77,-11450 1497.04,-11432.75 1488.62,-11431.22 1483.77,-11414 1362.35,-10982.92 1432.84,-10856.48 1397.77,-10410 1379.21,-10173.68 1375.81,-10114.5 1359.77,-9878 1305.34,-9075.52 1277.53,-8875.61 1243.77,-8072 1207.07,-7198.38 1183.96,-5012.2 1165.77,-4138 1163.97,-4051.33 1205.47,-3423.57 1148.77,-3358 1085.68,-3285.04 997.17,-3395.54 934.77,-3322 846.48,-3217.97 933.99,-3151.44 933.77,-3015 932.79,-2416.8 759,-2208.9 1022.77,-1672 1258.48,-1192.2 1784.8,-860.66 2189.63,-665.51"/>
+<polygon fill="black" stroke="black" points="2198.87,-661.06 2191.8,-669.45 2194.36,-663.23 2189.85,-665.4 2189.85,-665.4 2189.85,-665.4 2194.36,-663.23 2187.91,-661.34 2198.87,-661.06 2198.87,-661.06"/>
 </g>
 <!-- ndBlockHeight&#45;&gt;ndDashBoardOverviewDataFromClient -->
 <g id="edge304" class="edge">
@@ -6508,8 +6509,8 @@
 <!-- ndBlock&#45;&gt;ndPeerLoopHandler -->
 <g id="edge331" class="edge">
 <title>ndBlock&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3698.5,-12979.94C3686.2,-12976.85 3673.95,-12973.87 3661.77,-12971 3591.9,-12954.56 3391.76,-12985.52 3340.77,-12935 3230.74,-12825.96 3412.28,-12694.41 3298.77,-12589 3236.17,-12530.87 2593.16,-12611.35 2530.77,-12553 2527.95,-12550.37 2405.22,-11453.83 2404.77,-11450 2272.27,-10336.91 2232.77,-10059.42 2094.77,-8947 2029.1,-8417.65 2016.88,-8284.78 1946.77,-7756 1919.82,-7552.77 1446.11,-4306.5 1431.77,-4102 1354.79,-3004.26 1484.87,-2688.35 1906.77,-1672 2045.12,-1338.71 2046.81,-1234.01 2251.77,-937 2319.52,-838.82 2407.6,-742.04 2489.17,-661.04"/>
-<polygon fill="black" stroke="black" points="2496.53,-653.74 2492.59,-663.98 2492.98,-657.26 2489.43,-660.78 2489.43,-660.78 2489.43,-660.78 2492.98,-657.26 2486.26,-657.58 2496.53,-653.74 2496.53,-653.74"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3698.5,-12979.94C3686.2,-12976.85 3673.95,-12973.87 3661.77,-12971 3591.9,-12954.56 3391.76,-12985.52 3340.77,-12935 3230.74,-12825.96 3412.28,-12694.41 3298.77,-12589 3236.17,-12530.87 2593.16,-12611.35 2530.77,-12553 2527.95,-12550.37 2405.22,-11453.83 2404.77,-11450 2272.27,-10336.91 2232.77,-10059.42 2094.77,-8947 2029.1,-8417.65 2016.88,-8284.78 1946.77,-7756 1919.82,-7552.77 1446.11,-4306.5 1431.77,-4102 1354.79,-3004.26 1484.87,-2688.35 1906.77,-1672 2045.12,-1338.71 2046.81,-1234.01 2251.77,-937 2317.5,-841.75 2402.36,-747.82 2481.85,-668.33"/>
+<polygon fill="black" stroke="black" points="2489.03,-661.17 2485.12,-671.42 2485.49,-664.7 2481.95,-668.23 2481.95,-668.23 2481.95,-668.23 2485.49,-664.7 2478.77,-665.04 2489.03,-661.17 2489.03,-661.17"/>
 </g>
 <!-- ndBlock&#45;&gt;ndNewBlockFound -->
 <g id="edge332" class="edge">
@@ -7144,8 +7145,8 @@
 <!-- ndTimestamp&#45;&gt;ndPeerLoopHandler -->
 <g id="edge390" class="edge">
 <title>ndTimestamp&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13454.52,-15572.11C11519,-15572.22 381.51,-15562.24 136.77,-15319 -156.17,-15027.85 113.77,-14803.02 113.77,-14390 113.77,-14390 113.77,-14390 113.77,-3729 113.77,-3161.93 -83.39,-2846.97 343.77,-2474 426.34,-2401.9 514.05,-2519.13 587.77,-2438 645.08,-2374.93 612.04,-1755.94 626.77,-1672 629.66,-1655.52 633.83,-1652.26 637.77,-1636 674.9,-1482.59 644.53,-1040.41 763.77,-937 805.35,-900.94 1700.25,-913.84 1753.77,-901 1965.54,-850.18 2186.9,-751.27 2364.41,-659.14"/>
-<polygon fill="black" stroke="black" points="2364.59,-659.05 2368.06,-652.73 2375.23,-653.51 2371.76,-659.83 2364.59,-659.05"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M13454.52,-15572.11C11519,-15572.22 381.51,-15562.24 136.77,-15319 -156.17,-15027.85 113.77,-14803.02 113.77,-14390 113.77,-14390 113.77,-14390 113.77,-3729 113.77,-3161.93 -83.39,-2846.97 343.77,-2474 426.34,-2401.9 514.05,-2519.13 587.77,-2438 645.08,-2374.93 612.04,-1755.94 626.77,-1672 629.66,-1655.52 633.83,-1652.26 637.77,-1636 674.9,-1482.59 644.53,-1040.41 763.77,-937 805.35,-900.94 1700.25,-913.84 1753.77,-901 1959.8,-851.55 2174.91,-756.59 2349.88,-666.65"/>
+<polygon fill="black" stroke="black" points="2349.89,-666.64 2353.39,-660.34 2360.56,-661.14 2357.06,-667.45 2349.89,-666.64"/>
 </g>
 <!-- ndTimestamp&#45;&gt;ndNeptuneRPCServer -->
 <g id="edge391" class="edge">
@@ -9306,14 +9307,14 @@
 <!-- ndPeerMessage&#45;&gt;ndPeerLoopHandler -->
 <g id="edge612" class="edge">
 <title>ndPeerMessage&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2471.93,-2518.77C2525.43,-2076.04 2643.82,-1096.51 2696.1,-663.93"/>
-<polygon fill="black" stroke="black" points="2697.32,-653.81 2700.59,-664.28 2696.72,-658.78 2696.12,-663.74 2696.12,-663.74 2696.12,-663.74 2696.72,-658.78 2691.65,-663.2 2697.32,-653.81 2697.32,-653.81"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2471.93,-2518.77C2525.13,-2078.56 2642.47,-1107.63 2695.2,-671.36"/>
+<polygon fill="black" stroke="black" points="2696.43,-661.15 2699.7,-671.62 2695.83,-666.12 2695.23,-671.08 2695.23,-671.08 2695.23,-671.08 2695.83,-666.12 2690.76,-670.54 2696.43,-661.15 2696.43,-661.15"/>
 </g>
 <!-- ndMutablePeerState&#45;&gt;ndPeerLoopHandler -->
 <g id="edge613" class="edge">
 <title>ndMutablePeerState&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M673.24,-11037.9C524.17,-10882.17 227.77,-10526.78 227.77,-10163 227.77,-10163 227.77,-10163 227.77,-8729.5 227.77,-8196.65 151.77,-8065.85 151.77,-7533 151.77,-7533 151.77,-7533 151.77,-4437.5 151.77,-3957.6 110.93,-3833.5 175.77,-3358 194.79,-3218.51 160.99,-3156.88 253.77,-3051 282.16,-3018.6 312.18,-3044.29 343.77,-3015 553.22,-2820.79 527.71,-2705.9 626.77,-2438 746.23,-2114.91 746.69,-1154.54 1013.77,-937 1077.59,-885.01 1673.84,-920.7 1753.77,-901 1965.08,-848.92 2186.25,-750 2363.76,-658.2"/>
-<polygon fill="black" stroke="black" points="2372.71,-653.55 2365.91,-662.15 2368.28,-655.85 2363.84,-658.16 2363.84,-658.16 2363.84,-658.16 2368.28,-655.85 2361.77,-654.16 2372.71,-653.55 2372.71,-653.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M673.24,-11037.9C524.17,-10882.17 227.77,-10526.78 227.77,-10163 227.77,-10163 227.77,-10163 227.77,-8729.5 227.77,-8196.65 151.77,-8065.85 151.77,-7533 151.77,-7533 151.77,-7533 151.77,-4437.5 151.77,-3957.6 110.93,-3833.5 175.77,-3358 194.79,-3218.51 160.99,-3156.88 253.77,-3051 282.16,-3018.6 312.18,-3044.29 343.77,-3015 553.22,-2820.79 527.71,-2705.9 626.77,-2438 746.23,-2114.91 746.69,-1154.54 1013.77,-937 1077.59,-885.01 1673.84,-920.7 1753.77,-901 1959.34,-850.33 2174.24,-755.34 2349.2,-665.69"/>
+<polygon fill="black" stroke="black" points="2358.29,-661.02 2351.45,-669.6 2353.84,-663.31 2349.39,-665.59 2349.39,-665.59 2349.39,-665.59 2353.84,-663.31 2347.34,-661.59 2358.29,-661.02 2358.29,-661.02"/>
 </g>
 <!-- ndIssuedSyncChallenge&#45;&gt;ndMutablePeerState -->
 <g id="edge614" class="edge">
@@ -9460,8 +9461,8 @@
 <!-- ndTransferBlock&#45;&gt;ndPeerLoopHandler -->
 <g id="edge632" class="edge">
 <title>ndTransferBlock&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M2333.03,-3639.41C2350.36,-3554.55 2389.04,-3429.73 2472.77,-3358 2524.51,-3313.68 2574.82,-3371.37 2621.77,-3322 2717.45,-3221.37 2665.69,-3153.14 2679.77,-3015 2768.28,-2146.44 2745.81,-1103.96 2730.47,-663.95"/>
-<polygon fill="black" stroke="black" points="2730.11,-653.67 2734.96,-663.5 2730.29,-658.67 2730.46,-663.66 2730.46,-663.66 2730.46,-663.66 2730.29,-658.67 2725.96,-663.82 2730.11,-653.67 2730.11,-653.67"/>
+<path fill="none" stroke="black" d="M2333.03,-3639.41C2350.36,-3554.55 2389.04,-3429.73 2472.77,-3358 2524.51,-3313.68 2574.82,-3371.37 2621.77,-3322 2717.45,-3221.37 2665.69,-3153.14 2679.77,-3015 2767.8,-2151.17 2746.06,-1115.31 2730.72,-671.19"/>
+<polygon fill="black" stroke="black" points="2730.37,-661.14 2735.22,-670.97 2730.55,-666.13 2730.72,-671.13 2730.72,-671.13 2730.72,-671.13 2730.55,-666.13 2726.22,-671.29 2730.37,-661.14 2730.37,-661.14"/>
 </g>
 <!-- ndTransferBlock&#45;&gt;ndBlock -->
 <g id="edge633" class="edge">

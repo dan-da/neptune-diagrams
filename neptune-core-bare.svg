@@ -1465,7 +1465,7 @@
 <!-- ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler -->
 <g id="edge102" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndPeerLoopHandler</title>
-<path fill="none" stroke="black" d="M1623.78,-165.87C1695.91,-136.07 1822.61,-83.74 1899.95,-51.78"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1623.78,-165.87C1695.91,-136.07 1822.61,-83.74 1899.95,-51.78"/>
 <polygon fill="black" stroke="black" points="1900.37,-51.61 1904.39,-45.62 1911.46,-47.03 1907.44,-53.02 1900.37,-51.61"/>
 </g>
 <!-- ndPeerTaskToMain&#45;&gt;ndMainLoopHandler -->
