@@ -13,15 +13,15 @@
 <g id="node1" class="node">
 <title>ndParseBFieldElementError</title>
 <g id="a_node1_0"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/error.rs#:~:text=enum%20ParseBFieldElementError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3171,-5097 3171,-5134 3428,-5134 3428,-5097 3171,-5097"/>
-<polygon fill="none" stroke="black" points="3171,-5097 3171,-5134 3428,-5134 3428,-5097 3171,-5097"/>
+<polygon fill="yellow" stroke="transparent" points="3174,-5097 3174,-5134 3425,-5134 3425,-5097 3174,-5097"/>
+<polygon fill="none" stroke="black" points="3174,-5097 3174,-5134 3425,-5134 3425,-5097 3174,-5097"/>
 <text text-anchor="start" x="3217" y="-5112.8" font-family="Arial" font-weight="bold" font-size="14.00">ParseBFieldElementError</text>
-<polygon fill="white" stroke="transparent" points="3171,-5030 3171,-5097 3428,-5097 3428,-5030 3171,-5030"/>
-<polygon fill="none" stroke="black" points="3171,-5030 3171,-5097 3428,-5097 3428,-5030 3171,-5030"/>
-<text text-anchor="start" x="3182" y="-5074.8" font-family="Arial" font-size="14.00">ParseU64Error(&lt;u64 as FromStr&gt;::Err)</text>
-<text text-anchor="start" x="3182" y="-5059.8" font-family="Arial" font-size="14.00">NotCanonical(u64)</text>
-<text text-anchor="start" x="3182" y="-5044.8" font-family="Arial" font-size="14.00">InvalidNumBytes(usize)</text>
-<polygon fill="none" stroke="black" points="3169.5,-5029 3169.5,-5135 3428.5,-5135 3428.5,-5029 3169.5,-5029"/>
+<polygon fill="white" stroke="transparent" points="3174,-5030 3174,-5097 3425,-5097 3425,-5030 3174,-5030"/>
+<polygon fill="none" stroke="black" points="3174,-5030 3174,-5097 3425,-5097 3425,-5030 3174,-5030"/>
+<text text-anchor="start" x="3185" y="-5074.8" font-family="Arial" font-size="14.00">ParseIntError(&lt;i128 as FromStr&gt;::Err)</text>
+<text text-anchor="start" x="3185" y="-5059.8" font-family="Arial" font-size="14.00">NotCanonical(i128)</text>
+<text text-anchor="start" x="3185" y="-5044.8" font-family="Arial" font-size="14.00">InvalidNumBytes(usize)</text>
+<polygon fill="none" stroke="black" points="3172.5,-5029 3172.5,-5135 3425.5,-5135 3425.5,-5029 3172.5,-5029"/>
 </a>
 </g>
 </g>
@@ -127,13 +127,13 @@
 <g id="node2" class="node">
 <title>ndTryFromU32sError</title>
 <g id="a_node2_3"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/error.rs#:~:text=enum%20TryFromU32sError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3464,-5082 3464,-5119 3607,-5119 3607,-5082 3464,-5082"/>
-<polygon fill="none" stroke="black" points="3464,-5082 3464,-5119 3607,-5119 3607,-5082 3464,-5082"/>
-<text text-anchor="start" x="3475" y="-5097.8" font-family="Arial" font-weight="bold" font-size="14.00">TryFromU32sError</text>
-<polygon fill="white" stroke="transparent" points="3464,-5045 3464,-5082 3607,-5082 3607,-5045 3464,-5045"/>
-<polygon fill="none" stroke="black" points="3464,-5045 3464,-5082 3607,-5082 3607,-5045 3464,-5045"/>
-<text text-anchor="start" x="3475" y="-5059.8" font-family="Arial" font-size="14.00">InsufficientSize</text>
-<polygon fill="none" stroke="black" points="3462.5,-5044 3462.5,-5120 3607.5,-5120 3607.5,-5044 3462.5,-5044"/>
+<polygon fill="yellow" stroke="transparent" points="3461,-5082 3461,-5119 3604,-5119 3604,-5082 3461,-5082"/>
+<polygon fill="none" stroke="black" points="3461,-5082 3461,-5119 3604,-5119 3604,-5082 3461,-5082"/>
+<text text-anchor="start" x="3472" y="-5097.8" font-family="Arial" font-weight="bold" font-size="14.00">TryFromU32sError</text>
+<polygon fill="white" stroke="transparent" points="3461,-5045 3461,-5082 3604,-5082 3604,-5045 3461,-5045"/>
+<polygon fill="none" stroke="black" points="3461,-5045 3461,-5082 3604,-5082 3604,-5045 3461,-5045"/>
+<text text-anchor="start" x="3472" y="-5059.8" font-family="Arial" font-size="14.00">InsufficientSize</text>
+<polygon fill="none" stroke="black" points="3459.5,-5044 3459.5,-5120 3604.5,-5120 3604.5,-5044 3459.5,-5044"/>
 </a>
 </g>
 </g>
@@ -141,14 +141,14 @@
 <g id="node3" class="node">
 <title>ndTryFromXFieldElementError</title>
 <g id="a_node3_4"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/error.rs#:~:text=enum%20TryFromXFieldElementError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3643,-5089 3643,-5126 3847,-5126 3847,-5089 3643,-5089"/>
-<polygon fill="none" stroke="black" points="3643,-5089 3643,-5126 3847,-5126 3847,-5089 3643,-5089"/>
-<text text-anchor="start" x="3654" y="-5104.8" font-family="Arial" font-weight="bold" font-size="14.00">TryFromXFieldElementError</text>
-<polygon fill="white" stroke="transparent" points="3643,-5037 3643,-5089 3847,-5089 3847,-5037 3643,-5037"/>
-<polygon fill="none" stroke="black" points="3643,-5037 3643,-5089 3847,-5089 3847,-5037 3643,-5037"/>
-<text text-anchor="start" x="3654" y="-5066.8" font-family="Arial" font-size="14.00">InvalidLength(usize)</text>
-<text text-anchor="start" x="3654" y="-5051.8" font-family="Arial" font-size="14.00">InvalidDigest</text>
-<polygon fill="none" stroke="black" points="3642,-5036.5 3642,-5127.5 3848,-5127.5 3848,-5036.5 3642,-5036.5"/>
+<polygon fill="yellow" stroke="transparent" points="3640,-5089 3640,-5126 3844,-5126 3844,-5089 3640,-5089"/>
+<polygon fill="none" stroke="black" points="3640,-5089 3640,-5126 3844,-5126 3844,-5089 3640,-5089"/>
+<text text-anchor="start" x="3651" y="-5104.8" font-family="Arial" font-weight="bold" font-size="14.00">TryFromXFieldElementError</text>
+<polygon fill="white" stroke="transparent" points="3640,-5037 3640,-5089 3844,-5089 3844,-5037 3640,-5037"/>
+<polygon fill="none" stroke="black" points="3640,-5037 3640,-5089 3844,-5089 3844,-5037 3640,-5037"/>
+<text text-anchor="start" x="3651" y="-5066.8" font-family="Arial" font-size="14.00">InvalidLength(usize)</text>
+<text text-anchor="start" x="3651" y="-5051.8" font-family="Arial" font-size="14.00">InvalidDigest</text>
+<polygon fill="none" stroke="black" points="3639,-5036.5 3639,-5127.5 3845,-5127.5 3845,-5036.5 3639,-5036.5"/>
 </a>
 </g>
 </g>
@@ -625,21 +625,21 @@
 <g id="node17" class="node">
 <title>ndMerkleTreeError</title>
 <g id="a_node17_20"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/util_types/merkle_tree.rs#:~:text=enum%20MerkleTreeError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="3884,-5142 3884,-5179 4147,-5179 4147,-5142 3884,-5142"/>
-<polygon fill="none" stroke="black" points="3884,-5142 3884,-5179 4147,-5179 4147,-5142 3884,-5142"/>
-<text text-anchor="start" x="3963" y="-5157.8" font-family="Arial" font-weight="bold" font-size="14.00">MerkleTreeError</text>
-<polygon fill="white" stroke="transparent" points="3884,-4985 3884,-5142 4147,-5142 4147,-4985 3884,-4985"/>
-<polygon fill="none" stroke="black" points="3884,-4985 3884,-5142 4147,-5142 4147,-4985 3884,-4985"/>
-<text text-anchor="start" x="3895" y="-5119.8" font-family="Arial" font-size="14.00">LeafIndexInvalid</text>
-<text text-anchor="start" x="3895" y="-5104.8" font-family="Arial" font-size="14.00">AuthenticationStructureLengthMismatch</text>
-<text text-anchor="start" x="3895" y="-5089.8" font-family="Arial" font-size="14.00">RepeatedLeafDigestMismatch</text>
-<text text-anchor="start" x="3895" y="-5074.8" font-family="Arial" font-size="14.00">SpuriousNodeIndex(usize)</text>
-<text text-anchor="start" x="3895" y="-5059.8" font-family="Arial" font-size="14.00">MissingNodeIndex(usize)</text>
-<text text-anchor="start" x="3895" y="-5044.8" font-family="Arial" font-size="14.00">RootNotFound</text>
-<text text-anchor="start" x="3895" y="-5029.8" font-family="Arial" font-size="14.00">TooFewLeafs</text>
-<text text-anchor="start" x="3895" y="-5014.8" font-family="Arial" font-size="14.00">IncorrectNumberOfLeafs</text>
-<text text-anchor="start" x="3895" y="-4999.8" font-family="Arial" font-size="14.00">TreeTooHigh</text>
-<polygon fill="none" stroke="black" points="3882.5,-4984 3882.5,-5180 4147.5,-5180 4147.5,-4984 3882.5,-4984"/>
+<polygon fill="yellow" stroke="transparent" points="3881,-5142 3881,-5179 4144,-5179 4144,-5142 3881,-5142"/>
+<polygon fill="none" stroke="black" points="3881,-5142 3881,-5179 4144,-5179 4144,-5142 3881,-5142"/>
+<text text-anchor="start" x="3960" y="-5157.8" font-family="Arial" font-weight="bold" font-size="14.00">MerkleTreeError</text>
+<polygon fill="white" stroke="transparent" points="3881,-4985 3881,-5142 4144,-5142 4144,-4985 3881,-4985"/>
+<polygon fill="none" stroke="black" points="3881,-4985 3881,-5142 4144,-5142 4144,-4985 3881,-4985"/>
+<text text-anchor="start" x="3892" y="-5119.8" font-family="Arial" font-size="14.00">LeafIndexInvalid</text>
+<text text-anchor="start" x="3892" y="-5104.8" font-family="Arial" font-size="14.00">AuthenticationStructureLengthMismatch</text>
+<text text-anchor="start" x="3892" y="-5089.8" font-family="Arial" font-size="14.00">RepeatedLeafDigestMismatch</text>
+<text text-anchor="start" x="3892" y="-5074.8" font-family="Arial" font-size="14.00">SpuriousNodeIndex(usize)</text>
+<text text-anchor="start" x="3892" y="-5059.8" font-family="Arial" font-size="14.00">MissingNodeIndex(usize)</text>
+<text text-anchor="start" x="3892" y="-5044.8" font-family="Arial" font-size="14.00">RootNotFound</text>
+<text text-anchor="start" x="3892" y="-5029.8" font-family="Arial" font-size="14.00">TooFewLeafs</text>
+<text text-anchor="start" x="3892" y="-5014.8" font-family="Arial" font-size="14.00">IncorrectNumberOfLeafs</text>
+<text text-anchor="start" x="3892" y="-4999.8" font-family="Arial" font-size="14.00">TreeTooHigh</text>
+<polygon fill="none" stroke="black" points="3879.5,-4984 3879.5,-5180 4144.5,-5180 4144.5,-4984 3879.5,-4984"/>
 </a>
 </g>
 </g>
@@ -1185,20 +1185,20 @@
 <g id="node30" class="node">
 <title>ndBFieldCodecError</title>
 <g id="a_node30_36"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/bfield_codec.rs#:~:text=enum%20BFieldCodecError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="4183,-5134 4183,-5171 4532,-5171 4532,-5134 4183,-5134"/>
-<polygon fill="none" stroke="black" points="4183,-5134 4183,-5171 4532,-5171 4532,-5134 4183,-5134"/>
-<text text-anchor="start" x="4299.5" y="-5149.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
-<polygon fill="white" stroke="transparent" points="4183,-4992 4183,-5134 4532,-5134 4532,-4992 4183,-4992"/>
-<polygon fill="none" stroke="black" points="4183,-4992 4183,-5134 4532,-5134 4532,-4992 4183,-4992"/>
-<text text-anchor="start" x="4194" y="-5111.8" font-family="Arial" font-size="14.00">EmptySequence</text>
-<text text-anchor="start" x="4194" y="-5096.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
-<text text-anchor="start" x="4194" y="-5081.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
-<text text-anchor="start" x="4194" y="-5066.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
-<text text-anchor="start" x="4194" y="-5051.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
-<text text-anchor="start" x="4194" y="-5036.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
-<text text-anchor="start" x="4194" y="-5021.8" font-family="Arial" font-size="14.00">TryFromIntError(std::num::TryFromIntError)</text>
-<text text-anchor="start" x="4194" y="-5006.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
-<polygon fill="none" stroke="black" points="4181.5,-4991.5 4181.5,-5172.5 4532.5,-5172.5 4532.5,-4991.5 4181.5,-4991.5"/>
+<polygon fill="yellow" stroke="transparent" points="4180,-5134 4180,-5171 4529,-5171 4529,-5134 4180,-5134"/>
+<polygon fill="none" stroke="black" points="4180,-5134 4180,-5171 4529,-5171 4529,-5134 4180,-5134"/>
+<text text-anchor="start" x="4296.5" y="-5149.8" font-family="Arial" font-weight="bold" font-size="14.00">BFieldCodecError</text>
+<polygon fill="white" stroke="transparent" points="4180,-4992 4180,-5134 4529,-5134 4529,-4992 4180,-4992"/>
+<polygon fill="none" stroke="black" points="4180,-4992 4180,-5134 4529,-5134 4529,-4992 4180,-4992"/>
+<text text-anchor="start" x="4191" y="-5111.8" font-family="Arial" font-size="14.00">EmptySequence</text>
+<text text-anchor="start" x="4191" y="-5096.8" font-family="Arial" font-size="14.00">SequenceTooShort</text>
+<text text-anchor="start" x="4191" y="-5081.8" font-family="Arial" font-size="14.00">SequenceTooLong</text>
+<text text-anchor="start" x="4191" y="-5066.8" font-family="Arial" font-size="14.00">ElementOutOfRange</text>
+<text text-anchor="start" x="4191" y="-5051.8" font-family="Arial" font-size="14.00">MissingLengthIndicator</text>
+<text text-anchor="start" x="4191" y="-5036.8" font-family="Arial" font-size="14.00">InvalidLengthIndicator</text>
+<text text-anchor="start" x="4191" y="-5021.8" font-family="Arial" font-size="14.00">TryFromIntError(std::num::TryFromIntError)</text>
+<text text-anchor="start" x="4191" y="-5006.8" font-family="Arial" font-size="14.00">InnerDecodingFailure(Box&lt;dyn Error + Send + Sync&gt;)</text>
+<polygon fill="none" stroke="black" points="4178.5,-4991.5 4178.5,-5172.5 4529.5,-5172.5 4529.5,-4991.5 4178.5,-4991.5"/>
 </a>
 </g>
 </g>
@@ -1206,22 +1206,22 @@
 <g id="node31" class="node">
 <title>ndPolynomialBFieldCodecError</title>
 <g id="a_node31_37"><a xlink:href="https://github.com/Neptune-Crypto/twenty-first/blob/master/src/math/bfield_codec.rs#:~:text=enum%20PolynomialBFieldCodecError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="4239,-4894 4239,-4931 4475,-4931 4475,-4894 4239,-4894"/>
-<polygon fill="none" stroke="black" points="4239,-4894 4239,-4931 4475,-4931 4475,-4894 4239,-4894"/>
-<text text-anchor="start" x="4262.5" y="-4909.8" font-family="Arial" font-weight="bold" font-size="14.00">PolynomialBFieldCodecError</text>
-<polygon fill="white" stroke="transparent" points="4239,-4842 4239,-4894 4475,-4894 4475,-4842 4239,-4842"/>
-<polygon fill="none" stroke="black" points="4239,-4842 4239,-4894 4475,-4894 4475,-4842 4239,-4842"/>
-<text text-anchor="start" x="4250" y="-4871.8" font-family="Arial" font-size="14.00">TrailingZerosInPolynomialEncoding</text>
-<text text-anchor="start" x="4250" y="-4856.8" font-family="Arial" font-size="14.00">Other(BFieldCodecError)</text>
-<polygon fill="none" stroke="black" points="4238,-4841.5 4238,-4932.5 4476,-4932.5 4476,-4841.5 4238,-4841.5"/>
+<polygon fill="yellow" stroke="transparent" points="4236,-4894 4236,-4931 4472,-4931 4472,-4894 4236,-4894"/>
+<polygon fill="none" stroke="black" points="4236,-4894 4236,-4931 4472,-4931 4472,-4894 4236,-4894"/>
+<text text-anchor="start" x="4259.5" y="-4909.8" font-family="Arial" font-weight="bold" font-size="14.00">PolynomialBFieldCodecError</text>
+<polygon fill="white" stroke="transparent" points="4236,-4842 4236,-4894 4472,-4894 4472,-4842 4236,-4842"/>
+<polygon fill="none" stroke="black" points="4236,-4842 4236,-4894 4472,-4894 4472,-4842 4236,-4842"/>
+<text text-anchor="start" x="4247" y="-4871.8" font-family="Arial" font-size="14.00">TrailingZerosInPolynomialEncoding</text>
+<text text-anchor="start" x="4247" y="-4856.8" font-family="Arial" font-size="14.00">Other(BFieldCodecError)</text>
+<polygon fill="none" stroke="black" points="4235,-4841.5 4235,-4932.5 4473,-4932.5 4473,-4841.5 4235,-4841.5"/>
 </a>
 </g>
 </g>
 <!-- ndBFieldCodecError&#45;&gt;ndPolynomialBFieldCodecError -->
 <g id="edge40" class="edge">
 <title>ndBFieldCodecError&#45;&gt;ndPolynomialBFieldCodecError</title>
-<path fill="none" stroke="black" d="M4357,-4987.33C4357,-4974.28 4357,-4961.17 4357,-4948.94"/>
-<polygon fill="black" stroke="black" points="4357,-4948.56 4353,-4942.56 4357,-4936.56 4361,-4942.56 4357,-4948.56"/>
+<path fill="none" stroke="black" d="M4354,-4987.33C4354,-4974.28 4354,-4961.17 4354,-4948.94"/>
+<polygon fill="black" stroke="black" points="4354,-4948.56 4350,-4942.56 4354,-4936.56 4358,-4942.56 4354,-4948.56"/>
 </g>
 <!-- ndLeaf&#45;&gt;ndZerofierTree -->
 <g id="edge41" class="edge">
