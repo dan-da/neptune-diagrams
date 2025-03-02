@@ -366,7 +366,7 @@
 <text text-anchor="start" x="8570.31" y="-477.3" font-family="Arial" font-size="14.00">&#45; new(incoming_peer_listener: TcpListener, global_state_lock: GlobalStateLock, main_to_peer_broadcast_tx: broadcast::Sender&lt;MainToPeerTask&gt;, peer_task_to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, main_to_miner_tx: mpsc::Sender&lt;MainToMiner&gt;) &#45;&gt; Self</text>
 <text text-anchor="start" x="8570.31" y="-462.3" font-family="Arial" font-size="14.00">&#45; with_mocked_time(mut self, mocked_time: SystemTime) &#45;&gt; Self</text>
 <text text-anchor="start" x="8570.31" y="-447.3" font-family="Arial" font-size="14.00">&#45; now(&amp;self) &#45;&gt; SystemTime</text>
-<text text-anchor="start" x="8570.31" y="-432.3" font-family="Arial" font-size="14.00">&#45; update_mempool_jobs(update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;, job_queue: &amp;TritonVmJobQueue, transcation_update_sender: mpsc::Sender&lt;Vec&lt;Transaction&gt;&gt;, proof_job_options: TritonVmProofJobOptions)</text>
+<text text-anchor="start" x="8570.31" y="-432.3" font-family="Arial" font-size="14.00">&#45; update_mempool_jobs(update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;, job_queue: &amp;TritonVmJobQueue, transaction_update_sender: mpsc::Sender&lt;Vec&lt;Transaction&gt;&gt;, proof_job_options: TritonVmProofJobOptions)</text>
 <text text-anchor="start" x="8570.31" y="-417.3" font-family="Arial" font-size="14.00">&#45; handle_updated_mempool_txs(&amp;mut self, updated_txs: Vec&lt;Transaction&gt;)</text>
 <text text-anchor="start" x="8570.31" y="-402.3" font-family="Arial" font-size="14.00">&#45; handle_miner_task_message(&amp;mut self, msg: MinerToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;Option&lt;i32&gt;&gt;</text>
 <text text-anchor="start" x="8570.31" y="-387.3" font-family="Arial" font-size="14.00">&#45; handle_peer_task_message(&amp;mut self, msg: PeerTaskToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
@@ -2530,7 +2530,7 @@
 <text text-anchor="start" x="2093.31" y="-1976.3" font-family="Arial" font-size="14.00">&#45; get_own_handshakedata(&amp;self) &#45;&gt; HandshakeData</text>
 <text text-anchor="start" x="2093.31" y="-1961.3" font-family="Arial" font-size="14.00">&#45; restore_monitored_utxos_from_recovery_data(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="2093.31" y="-1946.3" font-family="Arial" font-size="14.00">&#45; resync_membership_proofs_from_stored_blocks(&amp;mut self, tip_hash: Digest) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="2093.31" y="-1931.3" font-family="Arial" font-size="14.00">&#45; prune_abandoned_monitored_utxos(&amp;mut self, block_depth_threshhold: usize) &#45;&gt; Result&lt;usize&gt;</text>
+<text text-anchor="start" x="2093.31" y="-1931.3" font-family="Arial" font-size="14.00">&#45; prune_abandoned_monitored_utxos(&amp;mut self, block_depth_threshold: usize) &#45;&gt; Result&lt;usize&gt;</text>
 <text text-anchor="start" x="2093.31" y="-1916.3" font-family="Arial" font-size="14.00">&#45; persist_wallet(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="2093.31" y="-1901.3" font-family="Arial" font-size="14.00">&#45; flush_databases(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
 <text text-anchor="start" x="2093.31" y="-1886.3" font-family="Arial" font-size="14.00">&#45; set_new_tip(&amp;mut self, new_block: Block) &#45;&gt; Result&lt;Vec&lt;UpdateMutatorSetDataJob&gt;&gt;</text>
@@ -6669,7 +6669,7 @@
 <text text-anchor="start" x="9601.31" y="-1223.3" font-family="Arial" font-size="14.00">&#45; set_new_self_composed_tip(&amp;mut self, new_block: Block, composer_reward_utxo_infos: Vec&lt;ExpectedUtxo&gt;) &#45;&gt; Result&lt;Vec&lt;UpdateMutatorSetDataJob&gt;&gt;</text>
 <text text-anchor="start" x="9601.31" y="-1208.3" font-family="Arial" font-size="14.00">&#45; set_new_tip(&amp;mut self, new_block: Block) &#45;&gt; Result&lt;Vec&lt;UpdateMutatorSetDataJob&gt;&gt;</text>
 <text text-anchor="start" x="9601.31" y="-1193.3" font-family="Arial" font-size="14.00">&#45; resync_membership_proofs(&amp;mut self) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="9601.31" y="-1178.3" font-family="Arial" font-size="14.00">&#45; prune_abandoned_monitored_utxos(&amp;mut self, block_depth_threshhold: usize) &#45;&gt; Result&lt;usize&gt;</text>
+<text text-anchor="start" x="9601.31" y="-1178.3" font-family="Arial" font-size="14.00">&#45; prune_abandoned_monitored_utxos(&amp;mut self, block_depth_threshold: usize) &#45;&gt; Result&lt;usize&gt;</text>
 <text text-anchor="start" x="9601.31" y="-1163.3" font-family="Arial" font-size="14.00">&#45; cli(&amp;self) &#45;&gt; &amp;cli_args::Args</text>
 <text text-anchor="start" x="9601.31" y="-1148.3" font-family="Arial" font-size="14.00">&#45; set_cli(&amp;mut self, cli: cli_args::Args)</text>
 <text text-anchor="start" x="9601.31" y="-1133.3" font-family="Arial" font-size="14.00">&#45; deref(&amp;self) &#45;&gt; &amp;Self::Target</text>
