@@ -351,43 +351,45 @@
 <g id="node9" class="node">
 <title>ndMainLoopHandler</title>
 <g id="a_node9_9"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/main_loop.rs#:~:text=struct%20MainLoopHandler" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="8559.31,-611.5 8559.31,-648.5 10165.31,-648.5 10165.31,-611.5 8559.31,-611.5"/>
-<polygon fill="none" stroke="black" points="8559.31,-611.5 8559.31,-648.5 10165.31,-648.5 10165.31,-611.5 8559.31,-611.5"/>
-<text text-anchor="start" x="9304.81" y="-627.3" font-family="Arial" font-weight="bold" font-size="14.00">MainLoopHandler</text>
-<polygon fill="white" stroke="transparent" points="8559.31,-499.5 8559.31,-611.5 10165.31,-611.5 10165.31,-499.5 8559.31,-499.5"/>
-<polygon fill="none" stroke="black" points="8559.31,-499.5 8559.31,-611.5 10165.31,-611.5 10165.31,-499.5 8559.31,-499.5"/>
-<text text-anchor="start" x="8570.31" y="-589.3" font-family="Arial" font-size="14.00">&#45; incoming_peer_listener: TcpListener</text>
-<text text-anchor="start" x="8570.31" y="-574.3" font-family="Arial" font-size="14.00">&#45; global_state_lock: GlobalStateLock</text>
-<text text-anchor="start" x="8570.31" y="-559.3" font-family="Arial" font-size="14.00">&#45; main_to_peer_broadcast_tx: broadcast::Sender&lt;MainToPeerTask&gt;</text>
-<text text-anchor="start" x="8570.31" y="-544.3" font-family="Arial" font-size="14.00">&#45; peer_task_to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;</text>
-<text text-anchor="start" x="8570.31" y="-529.3" font-family="Arial" font-size="14.00">&#45; main_to_miner_tx: MainToMinerChannel</text>
-<text text-anchor="start" x="8570.31" y="-514.3" font-family="Arial" font-size="14.00">&#45; mock_now: Option&lt;SystemTime&gt;</text>
-<polygon fill="white" stroke="transparent" points="8559.31,-252.5 8559.31,-499.5 10165.31,-499.5 10165.31,-252.5 8559.31,-252.5"/>
-<polygon fill="none" stroke="black" points="8559.31,-252.5 8559.31,-499.5 10165.31,-499.5 10165.31,-252.5 8559.31,-252.5"/>
-<text text-anchor="start" x="8570.31" y="-477.3" font-family="Arial" font-size="14.00">&#45; new(incoming_peer_listener: TcpListener, global_state_lock: GlobalStateLock, main_to_peer_broadcast_tx: broadcast::Sender&lt;MainToPeerTask&gt;, peer_task_to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, main_to_miner_tx: mpsc::Sender&lt;MainToMiner&gt;) &#45;&gt; Self</text>
-<text text-anchor="start" x="8570.31" y="-462.3" font-family="Arial" font-size="14.00">&#45; with_mocked_time(mut self, mocked_time: SystemTime) &#45;&gt; Self</text>
-<text text-anchor="start" x="8570.31" y="-447.3" font-family="Arial" font-size="14.00">&#45; now(&amp;self) &#45;&gt; SystemTime</text>
-<text text-anchor="start" x="8570.31" y="-432.3" font-family="Arial" font-size="14.00">&#45; update_mempool_jobs(update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;, job_queue: &amp;TritonVmJobQueue, transaction_update_sender: mpsc::Sender&lt;Vec&lt;Transaction&gt;&gt;, proof_job_options: TritonVmProofJobOptions)</text>
-<text text-anchor="start" x="8570.31" y="-417.3" font-family="Arial" font-size="14.00">&#45; handle_updated_mempool_txs(&amp;mut self, updated_txs: Vec&lt;Transaction&gt;)</text>
-<text text-anchor="start" x="8570.31" y="-402.3" font-family="Arial" font-size="14.00">&#45; handle_miner_task_message(&amp;mut self, msg: MinerToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;Option&lt;i32&gt;&gt;</text>
-<text text-anchor="start" x="8570.31" y="-387.3" font-family="Arial" font-size="14.00">&#45; handle_peer_task_message(&amp;mut self, msg: PeerTaskToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="8570.31" y="-372.3" font-family="Arial" font-size="14.00">&#45; peer_discovery_and_reconnector(&amp;self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="8570.31" y="-357.3" font-family="Arial" font-size="14.00">&#45; batch_request_uca_candidate_heights(own_tip_height: BlockHeight) &#45;&gt; Vec&lt;BlockHeight&gt;</text>
-<text text-anchor="start" x="8570.31" y="-342.3" font-family="Arial" font-size="14.00">&#45; block_sync(&amp;mut self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="8570.31" y="-327.3" font-family="Arial" font-size="14.00">&#45; proof_upgrader(&amp;mut self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
-<text text-anchor="start" x="8570.31" y="-312.3" font-family="Arial" font-size="14.00">&#45; spawn_mempool_txs_update_job(&amp;self, main_loop_state: &amp;mut MutableMainLoopState, update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;)</text>
-<text text-anchor="start" x="8570.31" y="-297.3" font-family="Arial" font-size="14.00">&#45; run(&amp;mut self, mut peer_task_to_main_rx: mpsc::Receiver&lt;PeerTaskToMain&gt;, mut miner_to_main_rx: mpsc::Receiver&lt;MinerToMain&gt;, mut rpc_server_to_main_rx: mpsc::Receiver&lt;RPCServerToMain&gt;, task_handles: Vec&lt;JoinHandle&lt;()&gt;&gt;) &#45;&gt; Result&lt;i32&gt;</text>
-<text text-anchor="start" x="8570.31" y="-282.3" font-family="Arial" font-size="14.00">&#45; handle_rpc_server_message(&amp;mut self, msg: RPCServerToMain) &#45;&gt; Result&lt;bool&gt;</text>
-<text text-anchor="start" x="8570.31" y="-267.3" font-family="Arial" font-size="14.00">&#45; graceful_shutdown(&amp;mut self, task_handles: Vec&lt;JoinHandle&lt;()&gt;&gt;) &#45;&gt; Result&lt;()&gt;</text>
-<polygon fill="none" stroke="black" points="8558.31,-251.5 8558.31,-649.5 10166.31,-649.5 10166.31,-251.5 8558.31,-251.5"/>
+<polygon fill="lightblue" stroke="transparent" points="8559.31,-626.5 8559.31,-663.5 10165.31,-663.5 10165.31,-626.5 8559.31,-626.5"/>
+<polygon fill="none" stroke="black" points="8559.31,-626.5 8559.31,-663.5 10165.31,-663.5 10165.31,-626.5 8559.31,-626.5"/>
+<text text-anchor="start" x="9304.81" y="-642.3" font-family="Arial" font-weight="bold" font-size="14.00">MainLoopHandler</text>
+<polygon fill="white" stroke="transparent" points="8559.31,-514.5 8559.31,-626.5 10165.31,-626.5 10165.31,-514.5 8559.31,-514.5"/>
+<polygon fill="none" stroke="black" points="8559.31,-514.5 8559.31,-626.5 10165.31,-626.5 10165.31,-514.5 8559.31,-514.5"/>
+<text text-anchor="start" x="8570.31" y="-604.3" font-family="Arial" font-size="14.00">&#45; incoming_peer_listener: TcpListener</text>
+<text text-anchor="start" x="8570.31" y="-589.3" font-family="Arial" font-size="14.00">&#45; global_state_lock: GlobalStateLock</text>
+<text text-anchor="start" x="8570.31" y="-574.3" font-family="Arial" font-size="14.00">&#45; main_to_peer_broadcast_tx: broadcast::Sender&lt;MainToPeerTask&gt;</text>
+<text text-anchor="start" x="8570.31" y="-559.3" font-family="Arial" font-size="14.00">&#45; peer_task_to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;</text>
+<text text-anchor="start" x="8570.31" y="-544.3" font-family="Arial" font-size="14.00">&#45; main_to_miner_tx: MainToMinerChannel</text>
+<text text-anchor="start" x="8570.31" y="-529.3" font-family="Arial" font-size="14.00">&#45; mock_now: Option&lt;SystemTime&gt;</text>
+<polygon fill="white" stroke="transparent" points="8559.31,-237.5 8559.31,-514.5 10165.31,-514.5 10165.31,-237.5 8559.31,-237.5"/>
+<polygon fill="none" stroke="black" points="8559.31,-237.5 8559.31,-514.5 10165.31,-514.5 10165.31,-237.5 8559.31,-237.5"/>
+<text text-anchor="start" x="8570.31" y="-492.3" font-family="Arial" font-size="14.00">&#45; new(incoming_peer_listener: TcpListener, global_state_lock: GlobalStateLock, main_to_peer_broadcast_tx: broadcast::Sender&lt;MainToPeerTask&gt;, peer_task_to_main_tx: mpsc::Sender&lt;PeerTaskToMain&gt;, main_to_miner_tx: mpsc::Sender&lt;MainToMiner&gt;) &#45;&gt; Self</text>
+<text text-anchor="start" x="8570.31" y="-477.3" font-family="Arial" font-size="14.00">&#45; with_mocked_time(mut self, mocked_time: SystemTime) &#45;&gt; Self</text>
+<text text-anchor="start" x="8570.31" y="-462.3" font-family="Arial" font-size="14.00">&#45; now(&amp;self) &#45;&gt; SystemTime</text>
+<text text-anchor="start" x="8570.31" y="-447.3" font-family="Arial" font-size="14.00">&#45; update_mempool_jobs(update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;, job_queue: &amp;TritonVmJobQueue, transaction_update_sender: mpsc::Sender&lt;Vec&lt;Transaction&gt;&gt;, proof_job_options: TritonVmProofJobOptions)</text>
+<text text-anchor="start" x="8570.31" y="-432.3" font-family="Arial" font-size="14.00">&#45; handle_updated_mempool_txs(&amp;mut self, updated_txs: Vec&lt;Transaction&gt;)</text>
+<text text-anchor="start" x="8570.31" y="-417.3" font-family="Arial" font-size="14.00">&#45; handle_miner_task_message(&amp;mut self, msg: MinerToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;Option&lt;i32&gt;&gt;</text>
+<text text-anchor="start" x="8570.31" y="-402.3" font-family="Arial" font-size="14.00">&#45; handle_peer_task_message(&amp;mut self, msg: PeerTaskToMain, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-387.3" font-family="Arial" font-size="14.00">&#45; prune_peers(&amp;self) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-372.3" font-family="Arial" font-size="14.00">&#45; reconnect(&amp;self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-357.3" font-family="Arial" font-size="14.00">&#45; discover_peers(&amp;self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-342.3" font-family="Arial" font-size="14.00">&#45; batch_request_uca_candidate_heights(own_tip_height: BlockHeight) &#45;&gt; Vec&lt;BlockHeight&gt;</text>
+<text text-anchor="start" x="8570.31" y="-327.3" font-family="Arial" font-size="14.00">&#45; block_sync(&amp;mut self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-312.3" font-family="Arial" font-size="14.00">&#45; proof_upgrader(&amp;mut self, main_loop_state: &amp;mut MutableMainLoopState) &#45;&gt; Result&lt;()&gt;</text>
+<text text-anchor="start" x="8570.31" y="-297.3" font-family="Arial" font-size="14.00">&#45; spawn_mempool_txs_update_job(&amp;self, main_loop_state: &amp;mut MutableMainLoopState, update_jobs: Vec&lt;UpdateMutatorSetDataJob&gt;)</text>
+<text text-anchor="start" x="8570.31" y="-282.3" font-family="Arial" font-size="14.00">&#45; run(&amp;mut self, mut peer_task_to_main_rx: mpsc::Receiver&lt;PeerTaskToMain&gt;, mut miner_to_main_rx: mpsc::Receiver&lt;MinerToMain&gt;, mut rpc_server_to_main_rx: mpsc::Receiver&lt;RPCServerToMain&gt;, task_handles: Vec&lt;JoinHandle&lt;()&gt;&gt;) &#45;&gt; Result&lt;i32&gt;</text>
+<text text-anchor="start" x="8570.31" y="-267.3" font-family="Arial" font-size="14.00">&#45; handle_rpc_server_message(&amp;mut self, msg: RPCServerToMain) &#45;&gt; Result&lt;bool&gt;</text>
+<text text-anchor="start" x="8570.31" y="-252.3" font-family="Arial" font-size="14.00">&#45; graceful_shutdown(&amp;mut self, task_handles: Vec&lt;JoinHandle&lt;()&gt;&gt;) &#45;&gt; Result&lt;()&gt;</text>
+<polygon fill="none" stroke="black" points="8558.31,-236.5 8558.31,-664.5 10166.31,-664.5 10166.31,-236.5 8558.31,-236.5"/>
 </a>
 </g>
 </g>
 <!-- ndMainToMinerChannel&#45;&gt;ndMainLoopHandler -->
 <g id="edge6" class="edge">
 <title>ndMainToMinerChannel&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" d="M9416.16,-1225.86C9408.15,-1110.67 9390.19,-852.52 9377.22,-665.89"/>
-<polygon fill="black" stroke="black" points="9377.2,-665.68 9372.79,-659.97 9376.37,-653.7 9380.78,-659.41 9377.2,-665.68"/>
+<path fill="none" stroke="black" d="M9416.16,-1225.86C9408.36,-1113.68 9391.13,-865.91 9378.24,-680.66"/>
+<polygon fill="black" stroke="black" points="9378.23,-680.52 9373.83,-674.82 9377.4,-668.55 9381.81,-674.26 9378.23,-680.52"/>
 </g>
 <!-- ndMutableMainLoopState -->
 <g id="node10" class="node">
@@ -414,8 +416,8 @@
 <!-- ndMutableMainLoopState&#45;&gt;ndMainLoopHandler -->
 <g id="edge7" class="edge">
 <title>ndMutableMainLoopState&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7361.42,-3073.39C7580,-2758.46 8294.41,-1739.46 8938.31,-937 9012.41,-844.65 9097.69,-745.7 9172.24,-661.39"/>
-<polygon fill="black" stroke="black" points="9178.96,-653.79 9175.7,-664.27 9175.65,-657.54 9172.33,-661.28 9172.33,-661.28 9172.33,-661.28 9175.65,-657.54 9168.97,-658.3 9178.96,-653.79 9178.96,-653.79"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7361.42,-3073.39C7580,-2758.46 8294.41,-1739.46 8938.31,-937 9008.02,-850.12 9087.62,-757.4 9158.88,-676.52"/>
+<polygon fill="black" stroke="black" points="9165.75,-668.73 9162.51,-679.21 9162.45,-672.48 9159.14,-676.23 9159.14,-676.23 9159.14,-676.23 9162.45,-672.48 9155.76,-673.26 9165.75,-668.73 9165.75,-668.73"/>
 </g>
 <!-- ndSyncState -->
 <g id="node11" class="node">
@@ -2628,8 +2630,8 @@
 <!-- ndMinerToMain&#45;&gt;ndMainLoopHandler -->
 <g id="edge96" class="edge">
 <title>ndMinerToMain&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7033.39,-7459.86C6980.12,-7238.91 6800.28,-6432.89 6966.31,-6258 7019.32,-6202.16 7605.3,-6277.84 7658.31,-6222 7699.77,-6178.32 7693.59,-5999.81 7658.31,-5951 7628.42,-5909.65 7595.87,-5935.86 7549.31,-5915 6987.38,-5663.26 6664.65,-5723.99 6374.31,-5181 6330.19,-5098.5 6327.99,-4841.29 6374.31,-4760 6649.26,-4277.48 6932.14,-4325.38 7449.31,-4123 7520.42,-4095.17 7567.05,-4144.49 7617.31,-4087 7925.63,-3734.26 7495.63,-3458.39 7698.31,-3036 8091.98,-2215.59 8785.81,-2450.14 9192.31,-1636 9331.9,-1356.42 9221.68,-1246 9268.31,-937 9281.88,-847.07 9300.31,-748.44 9317.26,-663.7"/>
-<polygon fill="black" stroke="black" points="9319.27,-653.7 9321.71,-664.39 9318.28,-658.6 9317.3,-663.51 9317.3,-663.51 9317.3,-663.51 9318.28,-658.6 9312.89,-662.62 9319.27,-653.7 9319.27,-653.7"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7033.39,-7459.86C6980.12,-7238.91 6800.28,-6432.89 6966.31,-6258 7019.32,-6202.16 7605.3,-6277.84 7658.31,-6222 7699.77,-6178.32 7693.59,-5999.81 7658.31,-5951 7628.42,-5909.65 7595.87,-5935.86 7549.31,-5915 6987.38,-5663.26 6664.65,-5723.99 6374.31,-5181 6330.19,-5098.5 6327.99,-4841.29 6374.31,-4760 6649.26,-4277.48 6932.14,-4325.38 7449.31,-4123 7520.42,-4095.17 7567.05,-4144.49 7617.31,-4087 7925.63,-3734.26 7495.63,-3458.39 7698.31,-3036 8091.98,-2215.59 8785.81,-2450.14 9192.31,-1636 9331.9,-1356.42 9221.68,-1246 9268.31,-937 9281.09,-852.26 9298.2,-759.79 9314.31,-678.51"/>
+<polygon fill="black" stroke="black" points="9316.27,-668.65 9318.74,-679.34 9315.3,-673.55 9314.32,-678.46 9314.32,-678.46 9314.32,-678.46 9315.3,-673.55 9309.91,-677.58 9316.27,-668.65 9316.27,-668.65"/>
 </g>
 <!-- ndMainToPeerTaskBatchBlockRequest -->
 <g id="node40" class="node">
@@ -2757,8 +2759,8 @@
 <!-- ndMainToPeerTask&#45;&gt;ndMainLoopHandler -->
 <g id="edge101" class="edge">
 <title>ndMainToPeerTask&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" d="M12102.9,-2608.58C12030.68,-2381.18 11839.9,-1890.53 11485.31,-1672 11406.69,-1623.55 11146.49,-1689.62 11071.31,-1636 10794.46,-1438.58 11039.55,-1131.02 10760.31,-937 10654.8,-863.69 10306.72,-936.7 10183.31,-901 10001.9,-848.52 9816.01,-751.06 9667.09,-660.27"/>
-<polygon fill="black" stroke="black" points="9666.67,-660.01 9659.46,-660.29 9656.43,-653.74 9663.64,-653.46 9666.67,-660.01"/>
+<path fill="none" stroke="black" d="M12102.9,-2608.58C12030.68,-2381.18 11839.9,-1890.53 11485.31,-1672 11406.69,-1623.55 11146.49,-1689.62 11071.31,-1636 10794.46,-1438.58 11039.55,-1131.02 10760.31,-937 10654.8,-863.69 10306.72,-936.7 10183.31,-901 10011.62,-851.33 9835.92,-761.37 9691.34,-674.91"/>
+<polygon fill="black" stroke="black" points="9691.27,-674.87 9684.06,-675.21 9680.98,-668.69 9688.18,-668.35 9691.27,-674.87"/>
 </g>
 <!-- ndPeerTaskToMain -->
 <g id="node43" class="node">
@@ -2792,8 +2794,8 @@
 <!-- ndPeerTaskToMain&#45;&gt;ndMainLoopHandler -->
 <g id="edge103" class="edge">
 <title>ndPeerTaskToMain&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11166.37,-1941.94C11068.88,-1825.84 10923.86,-1652.47 10913.31,-1636 10727.39,-1345.97 10861.19,-1133.61 10578.31,-937 10505.93,-886.7 10267.62,-926.7 10183.31,-901 10004.19,-846.4 9819.97,-749.87 9671.54,-660.23"/>
-<polygon fill="black" stroke="black" points="9671.18,-660.01 9663.98,-660.32 9660.92,-653.79 9668.12,-653.48 9671.18,-660.01"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M11166.37,-1941.94C11068.88,-1825.84 10923.86,-1652.47 10913.31,-1636 10727.39,-1345.97 10861.19,-1133.61 10578.31,-937 10505.93,-886.7 10267.62,-926.7 10183.31,-901 10013.87,-849.35 9839.86,-760.18 9695.91,-674.81"/>
+<polygon fill="black" stroke="black" points="9695.91,-674.81 9688.7,-675.18 9685.59,-668.67 9692.8,-668.3 9695.91,-674.81"/>
 </g>
 <!-- ndPeerTaskToMainTransaction -->
 <g id="node44" class="node">
@@ -2870,8 +2872,8 @@
 <!-- ndRPCServerToMain&#45;&gt;ndMainLoopHandler -->
 <g id="edge108" class="edge">
 <title>ndRPCServerToMain&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9088,-1221.79C9129.88,-1104.17 9221.06,-848.12 9286.82,-663.47"/>
-<polygon fill="black" stroke="black" points="9290.23,-653.91 9291.11,-664.84 9288.55,-658.62 9286.87,-663.33 9286.87,-663.33 9286.87,-663.33 9288.55,-658.62 9282.63,-661.82 9290.23,-653.91 9290.23,-653.91"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9088,-1221.79C9128.78,-1107.26 9216.31,-861.47 9281.59,-678.16"/>
+<polygon fill="black" stroke="black" points="9284.97,-668.66 9285.86,-679.59 9283.3,-673.37 9281.62,-678.08 9281.62,-678.08 9281.62,-678.08 9283.3,-673.37 9277.38,-676.57 9284.97,-668.66 9284.97,-668.66"/>
 </g>
 <!-- ndBoolFuture -->
 <g id="node47" class="node">
@@ -6136,8 +6138,8 @@
 <!-- ndBlockHeight&#45;&gt;ndMainLoopHandler -->
 <g id="edge306" class="edge">
 <title>ndBlockHeight&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12497.07,-14948.53C11798.63,-14822.19 9515.35,-14419.51 7611.31,-14201 7558.61,-14194.95 7173.07,-14202.25 7135.31,-14165 7058.91,-14089.64 7115.52,-13788.77 7092.31,-13684 7022.47,-13368.85 6996.4,-13286.25 6845.31,-13001 6818.46,-12950.31 6562.04,-12636.86 6542.31,-12583 6516.73,-12513.19 6392.67,-9967.75 6341.31,-9914 6249.45,-9817.87 6139.33,-9971.01 6044.31,-9878 5936.58,-9772.56 5881.42,-8682.9 5852.31,-8535 5782.01,-8177.94 5929.4,-7976.91 5652.31,-7741 5581.82,-7680.99 5309.2,-7763.31 5237.31,-7705 5101.69,-7595 5247.77,-7451.48 5123.31,-7329 5081.79,-7288.15 5040.45,-7332.12 4997.31,-7293 4901.38,-7206.02 4967.78,-7125.76 4890.31,-7022 4874.77,-7001.2 4859.19,-7007.27 4844.31,-6986 4770.1,-6879.93 4790.06,-6833.41 4754.31,-6709 4659.75,-6380.01 4622.62,-5449.41 4371.31,-5217 4305.32,-5155.98 4229.93,-5249.98 4172.31,-5181 4052.35,-5037.4 4059.32,-4909.15 4172.31,-4760 4207.99,-4712.89 4261.73,-4768.77 4300.31,-4724 4476.05,-4520.03 4181.87,-4309.24 4376.31,-4123 4446.19,-4056.06 4742.97,-4156.51 4810.31,-4087 4839.1,-4057.27 4845.39,-3384.28 4848.31,-3343 4862.23,-3146.24 4814.03,-2619.77 4928.31,-2459 5171.41,-2116.99 7706.57,-1097.18 8830.67,-657.25"/>
-<polygon fill="black" stroke="black" points="8840.13,-653.55 8832.45,-661.39 8835.47,-655.37 8830.81,-657.2 8830.81,-657.2 8830.81,-657.2 8835.47,-655.37 8829.17,-653.01 8840.13,-653.55 8840.13,-653.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M12497.07,-14948.53C11798.63,-14822.19 9515.35,-14419.51 7611.31,-14201 7558.61,-14194.95 7173.07,-14202.25 7135.31,-14165 7058.91,-14089.64 7115.52,-13788.77 7092.31,-13684 7022.47,-13368.85 6996.4,-13286.25 6845.31,-13001 6818.46,-12950.31 6562.04,-12636.86 6542.31,-12583 6516.73,-12513.19 6392.67,-9967.75 6341.31,-9914 6249.45,-9817.87 6139.33,-9971.01 6044.31,-9878 5936.58,-9772.56 5881.42,-8682.9 5852.31,-8535 5782.01,-8177.94 5929.4,-7976.91 5652.31,-7741 5581.82,-7680.99 5309.2,-7763.31 5237.31,-7705 5101.69,-7595 5247.77,-7451.48 5123.31,-7329 5081.79,-7288.15 5040.45,-7332.12 4997.31,-7293 4901.38,-7206.02 4967.78,-7125.76 4890.31,-7022 4874.77,-7001.2 4859.19,-7007.27 4844.31,-6986 4770.1,-6879.93 4790.06,-6833.41 4754.31,-6709 4659.75,-6380.01 4622.62,-5449.41 4371.31,-5217 4305.32,-5155.98 4229.93,-5249.98 4172.31,-5181 4052.35,-5037.4 4059.32,-4909.15 4172.31,-4760 4207.99,-4712.89 4261.73,-4768.77 4300.31,-4724 4476.05,-4520.03 4181.87,-4309.24 4376.31,-4123 4446.19,-4056.06 4742.97,-4156.51 4810.31,-4087 4839.1,-4057.27 4845.39,-3384.28 4848.31,-3343 4862.23,-3146.24 4814.03,-2619.77 4928.31,-2459 5168.69,-2120.83 7649.99,-1119.97 8792.31,-672.28"/>
+<polygon fill="black" stroke="black" points="8801.93,-668.51 8794.26,-676.35 8797.27,-670.33 8792.62,-672.16 8792.62,-672.16 8792.62,-672.16 8797.27,-670.33 8790.97,-667.97 8801.93,-668.51 8801.93,-668.51"/>
 </g>
 <!-- ndBlockHeight&#45;&gt;ndSyncState -->
 <g id="edge307" class="edge">
@@ -7677,8 +7679,8 @@
 <!-- ndTritonVmProofJobOptions&#45;&gt;ndMainLoopHandler -->
 <g id="edge439" class="edge">
 <title>ndTritonVmProofJobOptions&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M16420.24,-13841.28C16456.29,-13789.36 16509.01,-13724.65 16570.31,-13684 16615.65,-13653.93 16648.28,-13685.91 16687.31,-13648 17183.73,-13165.74 17063.87,-12844.61 17133.31,-12156 17148.71,-12003.22 17235.45,-11579.65 17133.31,-11465 17040.75,-11361.11 16914.87,-11532.89 16822.31,-11429 16778.99,-11380.38 16778.26,-10890.95 16822.31,-10843 16886.28,-10773.36 17171.21,-10864.47 17246.31,-10807 17583.01,-10549.3 17413.73,-10299.1 17463.31,-9878 17556.46,-9086.71 17542.99,-8885.07 17629.31,-8093 17646.39,-7936.27 17653.57,-7897.42 17673.31,-7741 17679.58,-7691.27 17874.38,-5993.28 17901.31,-5951 17917.4,-5925.73 17936.01,-5935.02 17958.31,-5915 18079.06,-5806.58 18069.57,-5742.76 18185.31,-5629 18204.07,-5610.56 18217.04,-5614.43 18232.31,-5593 18344.29,-5435.84 18338.47,-5371.49 18369.31,-5181 18407.48,-4945.24 18410.36,-3194.04 18231.31,-3036 18140.31,-2955.69 13952.17,-3081.57 13862.31,-3000 13772.79,-2918.75 13890.22,-2545.05 13805.31,-2459 13757.68,-2410.74 13566.57,-2444.64 13502.31,-2423 12848.11,-2202.71 12676.89,-2097.23 12163.31,-1636 11875.42,-1377.46 11987.81,-1115.12 11644.31,-937 11500.15,-862.25 10340.11,-943.18 10183.31,-901 9998.1,-851.18 9809.16,-751.76 9659.3,-659.06"/>
-<polygon fill="black" stroke="black" points="9650.39,-653.52 9661.26,-654.98 9654.64,-656.16 9658.89,-658.8 9658.89,-658.8 9658.89,-658.8 9654.64,-656.16 9656.51,-662.62 9650.39,-653.52 9650.39,-653.52"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M16420.24,-13841.28C16456.29,-13789.36 16509.01,-13724.65 16570.31,-13684 16615.65,-13653.93 16648.28,-13685.91 16687.31,-13648 17183.73,-13165.74 17063.87,-12844.61 17133.31,-12156 17148.71,-12003.22 17235.45,-11579.65 17133.31,-11465 17040.75,-11361.11 16914.87,-11532.89 16822.31,-11429 16778.99,-11380.38 16778.26,-10890.95 16822.31,-10843 16886.28,-10773.36 17171.21,-10864.47 17246.31,-10807 17583.01,-10549.3 17413.73,-10299.1 17463.31,-9878 17556.46,-9086.71 17542.99,-8885.07 17629.31,-8093 17646.39,-7936.27 17653.57,-7897.42 17673.31,-7741 17679.58,-7691.27 17874.38,-5993.28 17901.31,-5951 17917.4,-5925.73 17936.01,-5935.02 17958.31,-5915 18079.06,-5806.58 18069.57,-5742.76 18185.31,-5629 18204.07,-5610.56 18217.04,-5614.43 18232.31,-5593 18344.29,-5435.84 18338.47,-5371.49 18369.31,-5181 18407.48,-4945.24 18410.36,-3194.04 18231.31,-3036 18140.31,-2955.69 13952.17,-3081.57 13862.31,-3000 13772.79,-2918.75 13890.22,-2545.05 13805.31,-2459 13757.68,-2410.74 13566.57,-2444.64 13502.31,-2423 12848.11,-2202.71 12676.89,-2097.23 12163.31,-1636 11875.42,-1377.46 11987.81,-1115.12 11644.31,-937 11500.15,-862.25 10340.11,-943.18 10183.31,-901 10007.91,-853.82 9829.17,-762.15 9683.43,-673.83"/>
+<polygon fill="black" stroke="black" points="9674.76,-668.56 9685.65,-669.91 9679.04,-671.16 9683.31,-673.76 9683.31,-673.76 9683.31,-673.76 9679.04,-671.16 9680.97,-677.6 9674.76,-668.56 9674.76,-668.56"/>
 </g>
 <!-- ndTritonVmProofJobOptions&#45;&gt;ndProofCollection -->
 <g id="edge440" class="edge">
@@ -7934,8 +7936,8 @@
 <!-- ndGlobalStateLock&#45;&gt;ndMainLoopHandler -->
 <g id="edge466" class="edge">
 <title>ndGlobalStateLock&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9915.3,-1098.33C9804.82,-969.11 9657.74,-797.07 9543.04,-662.9"/>
-<polygon fill="black" stroke="black" points="9542.98,-662.83 9536.04,-660.87 9535.18,-653.71 9542.12,-655.67 9542.98,-662.83"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M9915.3,-1098.33C9808.94,-973.93 9668.66,-809.84 9556,-678.07"/>
+<polygon fill="black" stroke="black" points="9555.74,-677.76 9548.8,-675.79 9547.94,-668.63 9554.88,-670.6 9555.74,-677.76"/>
 </g>
 <!-- ndGlobalStateLock&#45;&gt;ndUpgradeJob -->
 <g id="edge467" class="edge">
@@ -10466,8 +10468,8 @@
 <!-- ndJobQueue&#45;&gt;ndMainLoopHandler -->
 <g id="edge703" class="edge">
 <title>ndJobQueue&#45;&gt;ndMainLoopHandler</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M14929.23,-13811.34C14943.2,-13761.77 14957.94,-13702.48 14966.31,-13648 15024.05,-13271.95 15008.31,-13173.46 15008.31,-12793 15008.31,-12793 15008.31,-12793 15008.31,-11135 15008.31,-11012.43 15058,-9033.09 15127.31,-8932 15149.35,-8899.84 15177.44,-8921.07 15207.31,-8896 15537.88,-8618.55 15474.6,-8422.52 15753.31,-8093 16327.59,-7414.02 16672.19,-7425.94 17198.31,-6709 17515.1,-6277.3 17390.12,-6040.87 17732.31,-5629 17749.35,-5608.49 17764.28,-5614.32 17780.31,-5593 17897.96,-5436.49 17889.57,-5371.14 17936.31,-5181 17993.4,-4948.73 18285.73,-3205.82 18117.31,-3036 18031.84,-2949.83 13836.36,-3083.53 13748.31,-3000 13660.92,-2917.1 13801.92,-2542.7 13715.31,-2459 13661.56,-2407.06 12434.37,-2461.51 12370.31,-2423 12041.61,-2225.4 12261.39,-1889.2 11945.31,-1672 11856.05,-1610.67 11783.21,-1710.18 11704.31,-1636 11472.87,-1418.43 11799.58,-1140.05 11555.31,-937 11496.67,-888.26 10256.92,-920.87 10183.31,-901 9998.33,-851.08 9809.6,-751.8 9659.8,-659.22"/>
-<polygon fill="black" stroke="black" points="9650.9,-653.69 9661.77,-655.14 9655.15,-656.33 9659.39,-658.96 9659.39,-658.96 9659.39,-658.96 9655.15,-656.33 9657.02,-662.79 9650.9,-653.69 9650.9,-653.69"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M14929.23,-13811.34C14943.2,-13761.77 14957.94,-13702.48 14966.31,-13648 15024.05,-13271.95 15008.31,-13173.46 15008.31,-12793 15008.31,-12793 15008.31,-12793 15008.31,-11135 15008.31,-11012.43 15058,-9033.09 15127.31,-8932 15149.35,-8899.84 15177.44,-8921.07 15207.31,-8896 15537.88,-8618.55 15474.6,-8422.52 15753.31,-8093 16327.59,-7414.02 16672.19,-7425.94 17198.31,-6709 17515.1,-6277.3 17390.12,-6040.87 17732.31,-5629 17749.35,-5608.49 17764.28,-5614.32 17780.31,-5593 17897.96,-5436.49 17889.57,-5371.14 17936.31,-5181 17993.4,-4948.73 18285.73,-3205.82 18117.31,-3036 18031.84,-2949.83 13836.36,-3083.53 13748.31,-3000 13660.92,-2917.1 13801.92,-2542.7 13715.31,-2459 13661.56,-2407.06 12434.37,-2461.51 12370.31,-2423 12041.61,-2225.4 12261.39,-1889.2 11945.31,-1672 11856.05,-1610.67 11783.21,-1710.18 11704.31,-1636 11472.87,-1418.43 11799.58,-1140.05 11555.31,-937 11496.67,-888.26 10256.92,-920.87 10183.31,-901 10008.14,-853.73 9829.6,-762.19 9683.95,-673.99"/>
+<polygon fill="black" stroke="black" points="9675.28,-668.72 9686.17,-670.07 9679.56,-671.32 9683.83,-673.92 9683.83,-673.92 9683.83,-673.92 9679.56,-671.32 9681.49,-677.76 9675.28,-668.72 9675.28,-668.72"/>
 </g>
 <!-- ndJobQueue&#45;&gt;ndProofCollection -->
 <g id="edge704" class="edge">
