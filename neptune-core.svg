@@ -7651,7 +7651,7 @@
 <text text-anchor="start" x="10883.39" y="-1957.3" font-family="Arial" font-weight="bold" font-size="14.00">StateLock</text>
 <polygon fill="white" stroke="transparent" points="10707.39,-1874.5 10707.39,-1941.5 11124.39,-1941.5 11124.39,-1874.5 10707.39,-1874.5"/>
 <polygon fill="none" stroke="black" points="10707.39,-1874.5 10707.39,-1941.5 11124.39,-1941.5 11124.39,-1874.5 10707.39,-1874.5"/>
-<text text-anchor="start" x="10718.39" y="-1919.3" font-family="Arial" font-size="14.00">Lock(GlobalStateLock)</text>
+<text text-anchor="start" x="10718.39" y="-1919.3" font-family="Arial" font-size="14.00">Lock(Box&lt;GlobalStateLock&gt;)</text>
 <text text-anchor="start" x="10718.39" y="-1904.3" font-family="Arial" font-size="14.00">ReadGuard(AtomicRwReadGuard&lt;&#39;a, GlobalState&gt;)</text>
 <text text-anchor="start" x="10718.39" y="-1889.3" font-family="Arial" font-size="14.00">WriteGuard(AtomicRwWriteGuard&lt;&#39;a, GlobalState&gt;)</text>
 <polygon fill="white" stroke="transparent" points="10707.39,-1627.5 10707.39,-1874.5 11124.39,-1874.5 11124.39,-1627.5 10707.39,-1627.5"/>
@@ -9014,7 +9014,7 @@
 <text text-anchor="start" x="14941.39" y="-8690.3" font-family="Arial" font-weight="bold" font-size="14.00">BlockchainState</text>
 <polygon fill="white" stroke="transparent" points="14795.39,-8622.5 14795.39,-8674.5 15193.39,-8674.5 15193.39,-8622.5 14795.39,-8622.5"/>
 <polygon fill="none" stroke="black" points="14795.39,-8622.5 14795.39,-8674.5 15193.39,-8674.5 15193.39,-8622.5 14795.39,-8622.5"/>
-<text text-anchor="start" x="14806.39" y="-8652.3" font-family="Arial" font-size="14.00">Archival(BlockchainArchivalState)</text>
+<text text-anchor="start" x="14806.39" y="-8652.3" font-family="Arial" font-size="14.00">Archival(Box&lt;BlockchainArchivalState&gt;)</text>
 <text text-anchor="start" x="14806.39" y="-8637.3" font-family="Arial" font-size="14.00">Light(LightState)</text>
 <polygon fill="white" stroke="transparent" points="14795.39,-8495.5 14795.39,-8622.5 15193.39,-8622.5 15193.39,-8495.5 14795.39,-8495.5"/>
 <polygon fill="none" stroke="black" points="14795.39,-8495.5 14795.39,-8622.5 15193.39,-8622.5 15193.39,-8495.5 14795.39,-8495.5"/>
