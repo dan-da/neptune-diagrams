@@ -7743,10 +7743,10 @@
 <text text-anchor="start" x="10634.9" y="-6372.8" font-family="Arial" font-weight="bold" font-size="14.00">WalletDbTables</text>
 <polygon fill="white" stroke="transparent" points="10533.9,-6200 10533.9,-6357 10835.9,-6357 10835.9,-6200 10533.9,-6200"/>
 <polygon fill="none" stroke="black" points="10533.9,-6200 10533.9,-6357 10835.9,-6357 10835.9,-6200 10533.9,-6200"/>
-<text text-anchor="start" x="10544.9" y="-6334.8" font-family="Arial" font-size="14.00">&#45; sync_label: DbtSingleton&lt;Digest&gt;</text>
-<text text-anchor="start" x="10544.9" y="-6319.8" font-family="Arial" font-size="14.00">&#45; monitored_utxos: DbtVec&lt;MonitoredUtxo&gt;</text>
-<text text-anchor="start" x="10544.9" y="-6304.8" font-family="Arial" font-size="14.00">&#45; expected_utxos: DbtVec&lt;ExpectedUtxo&gt;</text>
-<text text-anchor="start" x="10544.9" y="-6289.8" font-family="Arial" font-size="14.00">&#45; sent_transactions: DbtVec&lt;SentTransaction&gt;</text>
+<text text-anchor="start" x="10544.9" y="-6334.8" font-family="Arial" font-size="14.00">&#45; monitored_utxos: DbtVec&lt;MonitoredUtxo&gt;</text>
+<text text-anchor="start" x="10544.9" y="-6319.8" font-family="Arial" font-size="14.00">&#45; expected_utxos: DbtVec&lt;ExpectedUtxo&gt;</text>
+<text text-anchor="start" x="10544.9" y="-6304.8" font-family="Arial" font-size="14.00">&#45; sent_transactions: DbtVec&lt;SentTransaction&gt;</text>
+<text text-anchor="start" x="10544.9" y="-6289.8" font-family="Arial" font-size="14.00">&#45; sync_label: DbtSingleton&lt;Digest&gt;</text>
 <text text-anchor="start" x="10544.9" y="-6274.8" font-family="Arial" font-size="14.00">&#45; counter: DbtSingleton&lt;u64&gt;</text>
 <text text-anchor="start" x="10544.9" y="-6259.8" font-family="Arial" font-size="14.00">&#45; generation_key_counter: DbtSingleton&lt;u64&gt;</text>
 <text text-anchor="start" x="10544.9" y="-6244.8" font-family="Arial" font-size="14.00">&#45; symmetric_key_counter: DbtSingleton&lt;u64&gt;</text>
