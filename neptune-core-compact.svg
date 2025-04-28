@@ -4455,7 +4455,7 @@
 <text text-anchor="start" x="5676.69" y="-4144.8" font-family="Arial" font-size="14.00">&#45; max_mempool_num_tx: Option&lt;usize&gt;</text>
 <text text-anchor="start" x="5676.69" y="-4129.8" font-family="Arial" font-size="14.00">+ peer_port: u16</text>
 <text text-anchor="start" x="5676.69" y="-4114.8" font-family="Arial" font-size="14.00">+ rpc_port: u16</text>
-<text text-anchor="start" x="5676.69" y="-4099.8" font-family="Arial" font-size="14.00">&#45; listen_addr: IpAddr</text>
+<text text-anchor="start" x="5676.69" y="-4099.8" font-family="Arial" font-size="14.00">+ listen_addr: IpAddr</text>
 <text text-anchor="start" x="5676.69" y="-4084.8" font-family="Arial" font-size="14.00">&#45; sync_mode_threshold: usize</text>
 <text text-anchor="start" x="5676.69" y="-4069.8" font-family="Arial" font-size="14.00">+ peers: Vec&lt;SocketAddr&gt;</text>
 <text text-anchor="start" x="5676.69" y="-4054.8" font-family="Arial" font-size="14.00">+ network: Network</text>
