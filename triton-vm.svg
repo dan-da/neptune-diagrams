@@ -1052,7 +1052,7 @@
 <text text-anchor="start" x="1873.31" y="-2528.8" font-family="Arial" font-size="14.00">&#45; folding_challenge: Option&lt;XFieldElement&gt;</text>
 <polygon fill="white" stroke="transparent" points="1862.31,-2477 1862.31,-2514 2151.31,-2514 2151.31,-2477 1862.31,-2477"/>
 <polygon fill="none" stroke="black" points="1862.31,-2477 1862.31,-2514 2151.31,-2514 2151.31,-2477 1862.31,-2477"/>
-<text text-anchor="start" x="1873.31" y="-2491.8" font-family="Arial" font-size="14.00">&#45; merkle_tree_height(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="1873.31" y="-2491.8" font-family="Arial" font-size="14.00">&#45; merkle_tree_height(&amp;self) &#45;&gt; u32</text>
 <polygon fill="none" stroke="black" points="1860.81,-2476.5 1860.81,-2649.5 2151.81,-2649.5 2151.81,-2476.5 1860.81,-2476.5"/>
 </a>
 </g>
