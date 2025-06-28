@@ -2685,20 +2685,19 @@
 <g id="node218" class="node">
 <title>ndMempool</title>
 <g id="a_node218_102"><a xlink:href="https://github.com/Neptune-Crypto/neptune-core/blob/master/src/models/state/mempool.rs#:~:text=struct%20Mempool" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="7092.5,-3469 7092.5,-3506 7560.5,-3506 7560.5,-3469 7092.5,-3469"/>
-<polygon fill="none" stroke="black" points="7092.5,-3469 7092.5,-3506 7560.5,-3506 7560.5,-3469 7092.5,-3469"/>
-<text text-anchor="start" x="7296" y="-3484.8" font-family="Arial" font-weight="bold" font-size="14.00">Mempool</text>
-<polygon fill="white" stroke="transparent" points="7092.5,-3327 7092.5,-3469 7560.5,-3469 7560.5,-3327 7092.5,-3327"/>
-<polygon fill="none" stroke="black" points="7092.5,-3327 7092.5,-3469 7560.5,-3469 7560.5,-3327 7092.5,-3327"/>
-<text text-anchor="start" x="7103.5" y="-3446.8" font-family="Arial" font-size="14.00">&#45; max_total_size: usize</text>
-<text text-anchor="start" x="7103.5" y="-3431.8" font-family="Arial" font-size="14.00">&#45; max_length: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="7103.5" y="-3416.8" font-family="Arial" font-size="14.00">&#45; tx_dictionary: HashMap&lt;TransactionKernelId, MempoolTransaction&gt;</text>
-<text text-anchor="start" x="7103.5" y="-3401.8" font-family="Arial" font-size="14.00">&#45; fee_densities: DoublePriorityQueue&lt;TransactionKernelId, FeeDensity&gt;</text>
-<text text-anchor="start" x="7103.5" y="-3386.8" font-family="Arial" font-size="14.00">&#45; upgrade_priorities: PriorityQueue&lt;TransactionKernelId, UpgradePriority&gt;</text>
-<text text-anchor="start" x="7103.5" y="-3371.8" font-family="Arial" font-size="14.00">&#45; tip_digest: Digest</text>
-<text text-anchor="start" x="7103.5" y="-3356.8" font-family="Arial" font-size="14.00">&#45; tip_mutator_set_hash: Digest</text>
-<text text-anchor="start" x="7103.5" y="-3341.8" font-family="Arial" font-size="14.00">&#45; tx_proving_capability: TxProvingCapability</text>
-<polygon fill="none" stroke="black" points="7091.5,-3326.5 7091.5,-3507.5 7561.5,-3507.5 7561.5,-3326.5 7091.5,-3326.5"/>
+<polygon fill="lightblue" stroke="transparent" points="7092.5,-3462 7092.5,-3499 7560.5,-3499 7560.5,-3462 7092.5,-3462"/>
+<polygon fill="none" stroke="black" points="7092.5,-3462 7092.5,-3499 7560.5,-3499 7560.5,-3462 7092.5,-3462"/>
+<text text-anchor="start" x="7296" y="-3477.8" font-family="Arial" font-weight="bold" font-size="14.00">Mempool</text>
+<polygon fill="white" stroke="transparent" points="7092.5,-3335 7092.5,-3462 7560.5,-3462 7560.5,-3335 7092.5,-3335"/>
+<polygon fill="none" stroke="black" points="7092.5,-3335 7092.5,-3462 7560.5,-3462 7560.5,-3335 7092.5,-3335"/>
+<text text-anchor="start" x="7103.5" y="-3439.8" font-family="Arial" font-size="14.00">&#45; max_total_size: usize</text>
+<text text-anchor="start" x="7103.5" y="-3424.8" font-family="Arial" font-size="14.00">&#45; tx_dictionary: HashMap&lt;TransactionKernelId, MempoolTransaction&gt;</text>
+<text text-anchor="start" x="7103.5" y="-3409.8" font-family="Arial" font-size="14.00">&#45; fee_densities: DoublePriorityQueue&lt;TransactionKernelId, FeeDensity&gt;</text>
+<text text-anchor="start" x="7103.5" y="-3394.8" font-family="Arial" font-size="14.00">&#45; upgrade_priorities: PriorityQueue&lt;TransactionKernelId, UpgradePriority&gt;</text>
+<text text-anchor="start" x="7103.5" y="-3379.8" font-family="Arial" font-size="14.00">&#45; tip_digest: Digest</text>
+<text text-anchor="start" x="7103.5" y="-3364.8" font-family="Arial" font-size="14.00">&#45; tip_mutator_set_hash: Digest</text>
+<text text-anchor="start" x="7103.5" y="-3349.8" font-family="Arial" font-size="14.00">&#45; tx_proving_capability: TxProvingCapability</text>
+<polygon fill="none" stroke="black" points="7091.5,-3334 7091.5,-3500 7561.5,-3500 7561.5,-3334 7091.5,-3334"/>
 </a>
 </g>
 </g>
@@ -3931,8 +3930,8 @@
 <!-- ndPrimitiveWitness&#45;&gt;ndMempool -->
 <g id="edge249" class="edge">
 <title>ndPrimitiveWitness&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7721.47,-6254.82C7709.38,-6243.7 7698.17,-6231.75 7688.5,-6219 7618.1,-6126.16 7697.85,-6042.33 7606.5,-5970 7534.1,-5912.68 7268.51,-5986.45 7192.5,-5934 7064.55,-5845.72 7075.15,-5770.54 7040.5,-5619 7008.02,-5476.96 6978.16,-5387.79 7090.5,-5295 7161.16,-5236.64 7851.13,-5325.2 7914.5,-5259 8167.99,-4994.19 7777.6,-3949.51 7573.5,-3645 7542.29,-3598.43 7499.62,-3554.79 7458.54,-3518.46"/>
-<polygon fill="black" stroke="black" points="7450.89,-3511.76 7461.37,-3514.96 7454.65,-3515.05 7458.41,-3518.35 7458.41,-3518.35 7458.41,-3518.35 7454.65,-3515.05 7455.45,-3521.73 7450.89,-3511.76 7450.89,-3511.76"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7721.47,-6254.82C7709.38,-6243.7 7698.17,-6231.75 7688.5,-6219 7618.1,-6126.16 7697.85,-6042.33 7606.5,-5970 7534.1,-5912.68 7268.51,-5986.45 7192.5,-5934 7064.55,-5845.72 7075.15,-5770.54 7040.5,-5619 7008.02,-5476.96 6978.16,-5387.79 7090.5,-5295 7161.16,-5236.64 7851.13,-5325.2 7914.5,-5259 8167.99,-4994.19 7777.6,-3949.51 7573.5,-3645 7540.08,-3595.14 7493.54,-3548.63 7449.85,-3510.86"/>
+<polygon fill="black" stroke="black" points="7442.02,-3504.16 7452.54,-3507.24 7445.82,-3507.41 7449.61,-3510.66 7449.61,-3510.66 7449.61,-3510.66 7445.82,-3507.41 7446.69,-3514.08 7442.02,-3504.16 7442.02,-3504.16"/>
 </g>
 <!-- ndPrimitiveWitness&#45;&gt;ndUpgradeJob -->
 <g id="edge250" class="edge">
@@ -4576,14 +4575,14 @@
 <text text-anchor="start" x="3708.5" y="-4279.3" font-family="Arial" font-size="14.00">&#45; gobbling_fraction: f64</text>
 <text text-anchor="start" x="3708.5" y="-4264.3" font-family="Arial" font-size="14.00">&#45; min_gobbling_fee: NativeCurrencyAmount</text>
 <text text-anchor="start" x="3708.5" y="-4249.3" font-family="Arial" font-size="14.00">&#45; compose: bool</text>
-<text text-anchor="start" x="3708.5" y="-4234.3" font-family="Arial" font-size="14.00">&#45; guess: bool</text>
-<text text-anchor="start" x="3708.5" y="-4219.3" font-family="Arial" font-size="14.00">&#45; secret_compositions: bool</text>
-<text text-anchor="start" x="3708.5" y="-4204.3" font-family="Arial" font-size="14.00">&#45; guesser_fraction: f64</text>
-<text text-anchor="start" x="3708.5" y="-4189.3" font-family="Arial" font-size="14.00">&#45; sleepy_guessing: bool</text>
-<text text-anchor="start" x="3708.5" y="-4174.3" font-family="Arial" font-size="14.00">&#45; guesser_threads: Option&lt;usize&gt;</text>
-<text text-anchor="start" x="3708.5" y="-4159.3" font-family="Arial" font-size="14.00">&#45; fee_notification: FeeNotificationPolicy</text>
-<text text-anchor="start" x="3708.5" y="-4144.3" font-family="Arial" font-size="14.00">&#45; max_mempool_size: ByteSize</text>
-<text text-anchor="start" x="3708.5" y="-4129.3" font-family="Arial" font-size="14.00">&#45; max_mempool_num_tx: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="3708.5" y="-4234.3" font-family="Arial" font-size="14.00">&#45; max_num_compose_mergers: NonZero&lt;usize&gt;</text>
+<text text-anchor="start" x="3708.5" y="-4219.3" font-family="Arial" font-size="14.00">&#45; guess: bool</text>
+<text text-anchor="start" x="3708.5" y="-4204.3" font-family="Arial" font-size="14.00">&#45; secret_compositions: bool</text>
+<text text-anchor="start" x="3708.5" y="-4189.3" font-family="Arial" font-size="14.00">&#45; guesser_fraction: f64</text>
+<text text-anchor="start" x="3708.5" y="-4174.3" font-family="Arial" font-size="14.00">&#45; sleepy_guessing: bool</text>
+<text text-anchor="start" x="3708.5" y="-4159.3" font-family="Arial" font-size="14.00">&#45; guesser_threads: Option&lt;usize&gt;</text>
+<text text-anchor="start" x="3708.5" y="-4144.3" font-family="Arial" font-size="14.00">&#45; fee_notification: FeeNotificationPolicy</text>
+<text text-anchor="start" x="3708.5" y="-4129.3" font-family="Arial" font-size="14.00">&#45; max_mempool_size: ByteSize</text>
 <text text-anchor="start" x="3708.5" y="-4114.3" font-family="Arial" font-size="14.00">+ peer_port: u16</text>
 <text text-anchor="start" x="3708.5" y="-4099.3" font-family="Arial" font-size="14.00">+ rpc_port: u16</text>
 <text text-anchor="start" x="3708.5" y="-4084.3" font-family="Arial" font-size="14.00">+ listen_addr: IpAddr</text>
@@ -6332,8 +6331,8 @@
 <!-- ndBlock&#45;&gt;ndMempool -->
 <g id="edge431" class="edge">
 <title>ndBlock&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6365.6,-9503.49C6281.78,-9496.57 6165.19,-9475.42 6083.5,-9414 5869.22,-9252.9 5854.75,-9148.25 5786.5,-8889 5641.83,-8339.44 6142.5,-7870.9 6142.5,-6965.5 6142.5,-6965.5 6142.5,-6965.5 6142.5,-6581 6142.5,-6477.88 6188.33,-5756.84 6204.5,-5655 6215.29,-5587.08 6217.81,-5569.19 6242.5,-5505 6280.4,-5406.47 6264.04,-5351.05 6353.5,-5295 6450.73,-5234.08 7301.44,-5337.1 7385.5,-5259 7517.48,-5136.37 7606.98,-3812.44 7540.5,-3645 7521.75,-3597.77 7487.99,-3554.67 7452.76,-3519.01"/>
-<polygon fill="black" stroke="black" points="7445.22,-3511.52 7455.48,-3515.38 7448.76,-3515.04 7452.31,-3518.57 7452.31,-3518.57 7452.31,-3518.57 7448.76,-3515.04 7449.14,-3521.76 7445.22,-3511.52 7445.22,-3511.52"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M6365.6,-9503.49C6281.78,-9496.57 6165.19,-9475.42 6083.5,-9414 5869.22,-9252.9 5854.75,-9148.25 5786.5,-8889 5641.83,-8339.44 6142.5,-7870.9 6142.5,-6965.5 6142.5,-6965.5 6142.5,-6965.5 6142.5,-6581 6142.5,-6477.88 6188.33,-5756.84 6204.5,-5655 6215.29,-5587.08 6217.81,-5569.19 6242.5,-5505 6280.4,-5406.47 6264.04,-5351.05 6353.5,-5295 6450.73,-5234.08 7301.44,-5337.1 7385.5,-5259 7517.48,-5136.37 7606.98,-3812.44 7540.5,-3645 7520.4,-3594.39 7483.08,-3548.51 7445.16,-3511.47"/>
+<polygon fill="black" stroke="black" points="7437.58,-3504.17 7447.91,-3507.86 7441.18,-3507.64 7444.79,-3511.1 7444.79,-3511.1 7444.79,-3511.1 7441.18,-3507.64 7441.67,-3514.35 7437.58,-3504.17 7437.58,-3504.17"/>
 </g>
 <!-- ndBlock&#45;&gt;ndPeerMessage -->
 <g id="edge432" class="edge">
@@ -7451,8 +7450,8 @@
 <!-- ndTxProvingCapability&#45;&gt;ndMempool -->
 <g id="edge549" class="edge">
 <title>ndTxProvingCapability&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5632.37,-5330.11C5660.19,-5316.1 5691.81,-5302.66 5722.5,-5295 5778.75,-5280.96 6725.22,-5300.7 6765.5,-5259 6921.14,-5097.9 6895.96,-4937.09 6765.5,-4755 6736.52,-4714.56 6688.48,-4759.44 6659.5,-4719 6552.28,-4569.34 6604.78,-4444.8 6811.5,-3870 6849.44,-3764.51 6848.08,-3726.08 6925.5,-3645 6974.01,-3594.2 7036.4,-3551.55 7097.46,-3517.43"/>
-<polygon fill="black" stroke="black" points="7097.54,-3517.39 7100.86,-3510.99 7108.04,-3511.59 7104.72,-3517.99 7097.54,-3517.39"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M5632.37,-5330.11C5660.19,-5316.1 5691.81,-5302.66 5722.5,-5295 5778.75,-5280.96 6725.22,-5300.7 6765.5,-5259 6921.14,-5097.9 6895.96,-4937.09 6765.5,-4755 6736.52,-4714.56 6688.48,-4759.44 6659.5,-4719 6552.28,-4569.34 6604.78,-4444.8 6811.5,-3870 6849.44,-3764.51 6848.08,-3726.08 6925.5,-3645 6977.64,-3590.4 7045.83,-3545.21 7111.15,-3509.9"/>
+<polygon fill="black" stroke="black" points="7111.45,-3509.75 7114.86,-3503.4 7122.03,-3504.1 7118.62,-3510.45 7111.45,-3509.75"/>
 </g>
 <!-- ndTxProvingCapability&#45;&gt;ndArgs -->
 <g id="edge550" class="edge">
@@ -7879,8 +7878,8 @@
 <!-- ndTransactionKernelId&#45;&gt;ndMempool -->
 <g id="edge600" class="edge">
 <title>ndTransactionKernelId&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4924.39,-7972.39C4940.86,-7951.77 4958.9,-7925.57 4969.5,-7899 5026.48,-7756.24 5016.34,-7358.09 5072.5,-7215 5104.26,-7134.09 5120.69,-7115.79 5177.5,-7050 5330.72,-6872.57 5373.96,-6823.04 5576.5,-6705 5617.67,-6681 5649.27,-6707.4 5677.5,-6669 5811.07,-6487.3 5566.56,-5822.54 5717.5,-5655 5792.34,-5571.92 5873.71,-5681.39 5966.5,-5619 6030.64,-5575.87 6019.41,-5537.87 6054.5,-5469 6092.81,-5393.81 6060.63,-5342.32 6130.5,-5295 6235.25,-5224.06 7177.42,-5346.79 7268.5,-5259 7355.1,-5175.53 7301.39,-4839.21 7305.5,-4719 7308.14,-4641.71 7311.85,-4622.07 7305.5,-4545 7280.53,-4241.93 7347.3,-4132.34 7193.5,-3870 7180.55,-3847.9 7159.6,-3857.08 7148.5,-3834 7112.11,-3758.29 7121.08,-3724.4 7148.5,-3645 7164.03,-3600.02 7192.55,-3557.17 7222.28,-3521.05"/>
-<polygon fill="black" stroke="black" points="7222.56,-3520.72 7223.35,-3513.55 7230.27,-3511.53 7229.48,-3518.7 7222.56,-3520.72"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4924.39,-7972.39C4940.86,-7951.77 4958.9,-7925.57 4969.5,-7899 5026.48,-7756.24 5016.34,-7358.09 5072.5,-7215 5104.26,-7134.09 5120.69,-7115.79 5177.5,-7050 5330.72,-6872.57 5373.96,-6823.04 5576.5,-6705 5617.67,-6681 5649.27,-6707.4 5677.5,-6669 5811.07,-6487.3 5566.56,-5822.54 5717.5,-5655 5792.34,-5571.92 5873.71,-5681.39 5966.5,-5619 6030.64,-5575.87 6019.41,-5537.87 6054.5,-5469 6092.81,-5393.81 6060.63,-5342.32 6130.5,-5295 6235.25,-5224.06 7177.42,-5346.79 7268.5,-5259 7355.1,-5175.53 7301.39,-4839.21 7305.5,-4719 7308.14,-4641.71 7311.85,-4622.07 7305.5,-4545 7280.53,-4241.93 7347.3,-4132.34 7193.5,-3870 7180.55,-3847.9 7159.6,-3857.08 7148.5,-3834 7112.11,-3758.29 7121.08,-3724.4 7148.5,-3645 7165.11,-3596.89 7196.59,-3551.2 7228.51,-3513.59"/>
+<polygon fill="black" stroke="black" points="7228.78,-3513.28 7229.68,-3506.13 7236.63,-3504.21 7235.73,-3511.36 7228.78,-3513.28"/>
 </g>
 <!-- ndTransactionKernelId&#45;&gt;ndPeerMessage -->
 <g id="edge601" class="edge">
@@ -9170,8 +9169,8 @@
 <!-- ndMempoolEvent&#45;&gt;ndMempool -->
 <g id="edge763" class="edge">
 <title>ndMempoolEvent&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" d="M7341.34,-3682.31C7338.86,-3638.03 7335.32,-3575.09 7332.33,-3521.74"/>
-<polygon fill="black" stroke="black" points="7331.75,-3511.55 7336.81,-3521.28 7332.03,-3516.54 7332.31,-3521.53 7332.31,-3521.53 7332.31,-3521.53 7332.03,-3516.54 7327.82,-3521.79 7331.75,-3511.55 7331.75,-3511.55"/>
+<path fill="none" stroke="black" d="M7341.34,-3682.31C7338.74,-3635.91 7334.98,-3569.02 7331.9,-3514.14"/>
+<polygon fill="black" stroke="black" points="7331.33,-3504.04 7336.39,-3513.77 7331.61,-3509.03 7331.89,-3514.03 7331.89,-3514.03 7331.89,-3514.03 7331.61,-3509.03 7327.4,-3514.28 7331.33,-3504.04 7331.33,-3504.04"/>
 </g>
 <!-- ndMempoolUpdateJobResult&#45;&gt;ndMutableMainLoopState -->
 <g id="edge764" class="edge">
@@ -9188,8 +9187,8 @@
 <!-- ndMempoolUpdateJob&#45;&gt;ndMempool -->
 <g id="edge766" class="edge">
 <title>ndMempoolUpdateJob&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" d="M7031.44,-4574.79C7011.64,-4419.11 6972.11,-3972.3 7115.5,-3645 7135.96,-3598.3 7170.18,-3555.07 7205.18,-3519.14"/>
-<polygon fill="black" stroke="black" points="7212.65,-3511.58 7208.82,-3521.86 7209.13,-3515.14 7205.62,-3518.69 7205.62,-3518.69 7205.62,-3518.69 7209.13,-3515.14 7202.42,-3515.53 7212.65,-3511.58 7212.65,-3511.58"/>
+<path fill="none" stroke="black" d="M7031.44,-4574.79C7011.64,-4419.11 6972.11,-3972.3 7115.5,-3645 7137.41,-3594.98 7175.11,-3548.95 7212.63,-3511.6"/>
+<polygon fill="black" stroke="black" points="7220.13,-3504.25 7216.14,-3514.46 7216.56,-3507.75 7212.99,-3511.25 7212.99,-3511.25 7212.99,-3511.25 7216.56,-3507.75 7209.84,-3508.04 7220.13,-3504.25 7220.13,-3504.25"/>
 </g>
 <!-- ndSyncAnchor&#45;&gt;ndNetworkingState -->
 <g id="edge767" class="edge">
@@ -9206,7 +9205,7 @@
 <!-- ndMempool&#45;&gt;ndGlobalState -->
 <g id="edge769" class="edge">
 <title>ndMempool&#45;&gt;ndGlobalState</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7367.89,-3322.38C7384.15,-3282.06 7401.53,-3233.93 7412.5,-3189 7516.4,-2763.62 7527.5,-2648.38 7527.5,-2210.5 7527.5,-2210.5 7527.5,-2210.5 7527.5,-1706 7527.5,-1534.11 7448.38,-1457.52 7551.5,-1320 7563.12,-1304.5 7781.3,-1229.86 7920.72,-1183.36"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7364.9,-3329.73C7381.99,-3287.99 7400.85,-3236.69 7412.5,-3189 7516.4,-2763.62 7527.5,-2648.38 7527.5,-2210.5 7527.5,-2210.5 7527.5,-2210.5 7527.5,-1706 7527.5,-1534.11 7448.38,-1457.52 7551.5,-1320 7563.12,-1304.5 7781.3,-1229.86 7920.72,-1183.36"/>
 <polygon fill="black" stroke="black" points="7920.9,-1183.3 7925.32,-1177.61 7932.28,-1179.51 7927.85,-1185.2 7920.9,-1183.3"/>
 </g>
 <!-- ndSanction -->
@@ -9610,8 +9609,8 @@
 <!-- ndTransactionProofQuality&#45;&gt;ndMempool -->
 <g id="edge805" class="edge">
 <title>ndTransactionProofQuality&#45;&gt;ndMempool</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4360.99,-6044.75C4425.84,-5949.29 4584.66,-5739.67 4779.5,-5655 4934.16,-5587.79 5382.61,-5685.69 5537.5,-5619 5728.33,-5536.83 5683.08,-5375.79 5874.5,-5295 5930.32,-5271.44 6922.37,-5302.54 6964.5,-5259 7120.26,-5098.02 7086.99,-4942.54 6964.5,-4755 6942.74,-4721.68 6904.26,-4752.32 6882.5,-4719 6804.03,-4598.85 6878.67,-4538.96 7007.5,-3870 7026.79,-3769.86 7000.23,-3732.57 7052.5,-3645 7081.7,-3596.09 7125.41,-3552.96 7169.4,-3517.8"/>
-<polygon fill="black" stroke="black" points="7177.32,-3511.55 7172.25,-3521.27 7173.39,-3514.64 7169.47,-3517.74 7169.47,-3517.74 7169.47,-3517.74 7173.39,-3514.64 7166.68,-3514.21 7177.32,-3511.55 7177.32,-3511.55"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4360.99,-6044.75C4425.84,-5949.29 4584.66,-5739.67 4779.5,-5655 4934.16,-5587.79 5382.61,-5685.69 5537.5,-5619 5728.33,-5536.83 5683.08,-5375.79 5874.5,-5295 5930.32,-5271.44 6922.37,-5302.54 6964.5,-5259 7120.26,-5098.02 7086.99,-4942.54 6964.5,-4755 6942.74,-4721.68 6904.26,-4752.32 6882.5,-4719 6804.03,-4598.85 6878.67,-4538.96 7007.5,-3870 7026.79,-3769.86 7000.23,-3732.57 7052.5,-3645 7083.78,-3592.6 7131.72,-3546.84 7178.8,-3510.4"/>
+<polygon fill="black" stroke="black" points="7186.96,-3504.17 7181.74,-3513.81 7182.99,-3507.2 7179.01,-3510.24 7179.01,-3510.24 7179.01,-3510.24 7182.99,-3507.2 7176.28,-3506.66 7186.96,-3504.17 7186.96,-3504.17"/>
 </g>
 <!-- ndTransactionProofQuality&#45;&gt;ndTransactionNotification -->
 <g id="edge806" class="edge">
