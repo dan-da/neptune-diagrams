@@ -1545,10 +1545,10 @@
 <polygon fill="none" stroke="black" points="4583.32,-1791.5 4583.32,-2038.5 5173.32,-2038.5 5173.32,-1791.5 4583.32,-1791.5"/>
 <text text-anchor="start" x="4594.32" y="-2016.3" font-family="Arial" font-size="14.00">domains(&amp;Self) &#45;&gt; ProverDomains</text>
 <text text-anchor="start" x="4594.32" y="-2001.3" font-family="Arial" font-size="14.00">evaluation_domain(&amp;Self) &#45;&gt; ArithmeticDomain</text>
-<text text-anchor="start" x="4594.32" y="-1986.3" font-family="Arial" font-size="14.00">trace_table(&amp;Self) &#45;&gt; ArrayView2&lt;Self::Field&gt;</text>
-<text text-anchor="start" x="4594.32" y="-1971.3" font-family="Arial" font-size="14.00">trace_table_mut(&amp;mut Self) &#45;&gt; ArrayViewMut2&lt;Self::Field&gt;</text>
-<text text-anchor="start" x="4594.32" y="-1956.3" font-family="Arial" font-size="14.00">quotient_domain_table(&amp;Self) &#45;&gt; Option&lt;ArrayView2&lt;Self::Field&gt;&gt;</text>
-<text text-anchor="start" x="4594.32" y="-1941.3" font-family="Arial" font-size="14.00">fri_domain_table(&amp;Self) &#45;&gt; Option&lt;ArrayView2&lt;Self::Field&gt;&gt;</text>
+<text text-anchor="start" x="4594.32" y="-1986.3" font-family="Arial" font-size="14.00">trace_table(&amp;Self) &#45;&gt; ArrayView2&lt;&#39;_, Self::Field&gt;</text>
+<text text-anchor="start" x="4594.32" y="-1971.3" font-family="Arial" font-size="14.00">trace_table_mut(&amp;mut Self) &#45;&gt; ArrayViewMut2&lt;&#39;_, Self::Field&gt;</text>
+<text text-anchor="start" x="4594.32" y="-1956.3" font-family="Arial" font-size="14.00">quotient_domain_table(&amp;Self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, Self::Field&gt;&gt;</text>
+<text text-anchor="start" x="4594.32" y="-1941.3" font-family="Arial" font-size="14.00">fri_domain_table(&amp;Self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, Self::Field&gt;&gt;</text>
 <text text-anchor="start" x="4594.32" y="-1926.3" font-family="Arial" font-size="14.00">out_of_domain_row(&amp;Self, XFieldElement) &#45;&gt; Array1&lt;XFieldElement&gt;</text>
 <text text-anchor="start" x="4594.32" y="-1911.3" font-family="Arial" font-size="14.00">randomized_column_interpolant(&amp;Self, usize) &#45;&gt; Polynomial&lt;&#39;static, Self::Field&gt;</text>
 <text text-anchor="start" x="4594.32" y="-1896.3" font-family="Arial" font-size="14.00">trace_randomizer_for_column(&amp;Self, usize) &#45;&gt; Polynomial&lt;&#39;static, Self::Field&gt;</text>
