@@ -850,7 +850,7 @@
 <text text-anchor="start" x="7506.5" y="-79.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="7506.5" y="-64.3" font-family="Arial" font-size="14.00">&#45; code_for_static_len_input_type(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="7506.5" y="-49.3" font-family="Arial" font-size="14.00">&#45; code_for_dyn_len_input_type(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="7506.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; decompose_inner_fn(&amp;self, library: &amp;mut Library) &#45;&gt; DecomposedInnerFunction</text>
+<text text-anchor="start" x="7506.5" y="-34.3" font-family="Arial" font-size="14.00">&#45; decompose_inner_fn(&amp;self, library: &amp;mut Library) &#45;&gt; DecomposedInnerFunction&lt;&#39;_&gt;</text>
 <text text-anchor="start" x="7506.5" y="-19.3" font-family="Arial" font-size="14.00">&#45; pop_input_lists() &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="7494.5,-4 7494.5,-237 8054.5,-237 8054.5,-4 7494.5,-4"/>
 </a>
