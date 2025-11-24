@@ -50,8 +50,8 @@
 <polygon fill="white" stroke="transparent" points="5977.5,-300.5 5977.5,-442.5 6694.5,-442.5 6694.5,-300.5 5977.5,-300.5"/>
 <polygon fill="none" stroke="black" points="5977.5,-300.5 5977.5,-442.5 6694.5,-442.5 6694.5,-300.5 5977.5,-300.5"/>
 <text text-anchor="start" x="5988.5" y="-420.3" font-family="Arial" font-size="14.00">&#45; new(left_type: DataType, right_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="5988.5" y="-405.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="5988.5" y="-390.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="5988.5" y="-405.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="5988.5" y="-390.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="5988.5" y="-375.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="5988.5" y="-360.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="5988.5" y="-345.3" font-family="Arial" font-size="14.00">&#45; rust_shadow(&amp;self, stack: &amp;mut Vec&lt;BFieldElement&gt;, memory: &amp;mut HashMap&lt;BFieldElement, BFieldElement&gt;)</text>
@@ -200,12 +200,12 @@
 <polygon fill="white" stroke="transparent" points="15673.5,-649 15673.5,-806 16081.5,-806 16081.5,-649 15673.5,-649"/>
 <polygon fill="none" stroke="black" points="15673.5,-649 15673.5,-806 16081.5,-806 16081.5,-649 15673.5,-649"/>
 <text text-anchor="start" x="15684.5" y="-783.8" font-family="Arial" font-size="14.00">&#45; input_type(&amp;self) &#45;&gt; DataType</text>
-<text text-anchor="start" x="15684.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="15684.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15684.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15684.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="15684.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="15684.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="15684.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="15684.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15684.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15684.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="15684.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="15684.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="15672.5,-648.5 15672.5,-881.5 16082.5,-881.5 16082.5,-648.5 15672.5,-648.5"/>
@@ -231,8 +231,8 @@
 <polygon fill="white" stroke="transparent" points="7308.5,-672 7308.5,-784 7700.5,-784 7700.5,-672 7308.5,-672"/>
 <polygon fill="none" stroke="black" points="7308.5,-672 7308.5,-784 7700.5,-784 7700.5,-672 7308.5,-672"/>
 <text text-anchor="start" x="7319.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(length: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="7319.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="7319.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7319.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7319.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="7319.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="7319.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="7319.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -259,8 +259,8 @@
 <polygon fill="white" stroke="transparent" points="4706.5,-672 4706.5,-784 5098.5,-784 5098.5,-672 4706.5,-672"/>
 <polygon fill="none" stroke="black" points="4706.5,-672 4706.5,-784 5098.5,-784 5098.5,-672 4706.5,-672"/>
 <text text-anchor="start" x="4717.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(num_coefficients: usize) &#45;&gt; Self</text>
-<text text-anchor="start" x="4717.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="4717.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="4717.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="4717.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="4717.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="4717.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="4717.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -286,12 +286,12 @@
 <text text-anchor="start" x="19346.5" y="-813.8" font-family="Arial" font-size="14.00">&#45; length: usize</text>
 <polygon fill="white" stroke="transparent" points="19335.5,-657 19335.5,-799 19743.5,-799 19743.5,-657 19335.5,-657"/>
 <polygon fill="none" stroke="black" points="19335.5,-657 19335.5,-799 19743.5,-799 19743.5,-657 19335.5,-657"/>
-<text text-anchor="start" x="19346.5" y="-776.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="19346.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19346.5" y="-776.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19346.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="19346.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="19346.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="19346.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="19346.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19346.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19346.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="19346.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="19346.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="19334.5,-656 19334.5,-874 19744.5,-874 19744.5,-656 19334.5,-656"/>
@@ -320,8 +320,8 @@
 <polygon fill="none" stroke="black" points="1162.5,-649 1162.5,-776 1740.5,-776 1740.5,-649 1162.5,-649"/>
 <text text-anchor="start" x="1173.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; new(main_length: usize, main_element_type: MainElementType, aux_length: usize) &#45;&gt; Self</text>
 <text text-anchor="start" x="1173.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; triton_vm_parameters(main_element_type: MainElementType) &#45;&gt; Self</text>
-<text text-anchor="start" x="1173.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="1173.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="1173.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="1173.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="1173.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="1173.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="1173.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -348,8 +348,8 @@
 <text text-anchor="start" x="1787.5" y="-790.8" font-family="Arial" font-size="14.00">+ input_source: InputSource</text>
 <polygon fill="white" stroke="transparent" points="1776.5,-664 1776.5,-776 3340.5,-776 3340.5,-664 1776.5,-664"/>
 <polygon fill="none" stroke="black" points="1776.5,-664 1776.5,-776 3340.5,-776 3340.5,-664 1776.5,-664"/>
-<text text-anchor="start" x="1787.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="1787.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="1787.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="1787.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="1787.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="1787.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut crate::library::Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="1787.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; rust_shadow(&amp;self, stack: &amp;mut Vec&lt;BFieldElement&gt;, _memory: &amp;mut HashMap&lt;BFieldElement, BFieldElement&gt;, nondeterminism: &amp;NonDeterminism, public_input: &amp;[BFieldElement], _sponge: &amp;mut Option&lt;crate::prelude::Tip5&gt;) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
@@ -376,8 +376,8 @@
 <text text-anchor="start" x="7748.5" y="-798.8" font-family="Arial" font-size="14.00">+ data_type: DataType</text>
 <polygon fill="white" stroke="transparent" points="7737.5,-672 7737.5,-784 8962.5,-784 8962.5,-672 7737.5,-672"/>
 <polygon fill="none" stroke="black" points="7737.5,-672 7737.5,-784 8962.5,-784 8962.5,-672 7737.5,-672"/>
-<text text-anchor="start" x="7748.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="7748.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7748.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7748.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="7748.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="7748.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="7748.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; rust_shadow(&amp;self, stack: &amp;mut Vec&lt;BFieldElement&gt;, _: &amp;mut HashMap&lt;BFieldElement, BFieldElement&gt;, _: &amp;NonDeterminism, _: &amp;[BFieldElement], _: &amp;mut Option&lt;Tip5&gt;) &#45;&gt; Vec&lt;BFieldElement&gt;</text>
@@ -405,8 +405,8 @@
 <polygon fill="white" stroke="transparent" points="19779.5,-679 19779.5,-776 20180.5,-776 20180.5,-679 19779.5,-679"/>
 <polygon fill="none" stroke="black" points="19779.5,-679 19779.5,-776 20180.5,-776 20180.5,-679 19779.5,-679"/>
 <text text-anchor="start" x="19790.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<text text-anchor="start" x="19790.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="19790.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19790.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="19790.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="19790.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="19790.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="19778,-678.5 19778,-851.5 20181,-851.5 20181,-678.5 19778,-678.5"/>
@@ -432,8 +432,8 @@
 <text text-anchor="start" x="20227.5" y="-775.8" font-family="Arial" font-size="14.00">&#45; output_size: usize</text>
 <polygon fill="white" stroke="transparent" points="20216.5,-679 20216.5,-761 20617.5,-761 20617.5,-679 20216.5,-679"/>
 <polygon fill="none" stroke="black" points="20216.5,-679 20216.5,-761 20617.5,-761 20617.5,-679 20216.5,-679"/>
-<text text-anchor="start" x="20227.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="20227.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20227.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20227.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="20227.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="20227.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="20215,-678.5 20215,-851.5 20618,-851.5 20618,-678.5 20215,-678.5"/>
@@ -464,8 +464,8 @@
 <text text-anchor="start" x="5146.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; with_conventional_dynamic_memory_layout() &#45;&gt; Self</text>
 <text text-anchor="start" x="5146.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; output_type() &#45;&gt; DataType</text>
 <text text-anchor="start" x="5146.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; host_machine_air_constraint_evaluation(input_values: AirConstraintSnippetInputs) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="5146.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="5146.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="5146.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="5146.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="5146.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="5146.5" y="-656.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="5134,-641 5134,-889 5809,-889 5809,-641 5134,-641"/>
@@ -493,8 +493,8 @@
 <text text-anchor="start" x="11115.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; array_size() &#45;&gt; usize</text>
 <text text-anchor="start" x="11115.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; zerofier_inv_write_address(&amp;self, constraint_type: ConstraintType) &#45;&gt; BFieldElement</text>
 <text text-anchor="start" x="11115.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; zerofier_inv_read_address(&amp;self, constraint_type: ConstraintType) &#45;&gt; BFieldElement</text>
-<text text-anchor="start" x="11115.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="11115.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="11115.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="11115.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="11115.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="11115.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="11103,-663.5 11103,-866.5 11642,-866.5 11642,-663.5 11103,-663.5"/>
@@ -521,8 +521,8 @@
 <polygon fill="none" stroke="black" points="10667.5,-672 10667.5,-784 11068.5,-784 11068.5,-672 10667.5,-672"/>
 <text text-anchor="start" x="10678.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(column_type: ColumnType) &#45;&gt; Self</text>
 <text text-anchor="start" x="10678.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; row_size(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="10678.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="10678.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="10678.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="10678.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="10678.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="10678.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="10666,-671 10666,-859 11069,-859 11069,-671 10666,-671"/>
@@ -553,8 +553,8 @@
 <text text-anchor="start" x="16656.5" y="-398.3" font-family="Arial" font-size="14.00">&#45; new(num_challenges_to_sample: usize, num_challenges_to_compute: usize, challenges_pointer: BFieldElement) &#45;&gt; Self</text>
 <text text-anchor="start" x="16656.5" y="-383.3" font-family="Arial" font-size="14.00">&#45; total_number_of_challenges_returned(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="16656.5" y="-368.3" font-family="Arial" font-size="14.00">&#45; sample_scalars_snippet(&amp;self) &#45;&gt; SampleScalarsStaticLengthStaticPointer</text>
-<text text-anchor="start" x="16656.5" y="-353.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="16656.5" y="-338.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16656.5" y="-353.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16656.5" y="-338.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="16656.5" y="-323.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="16656.5" y="-308.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="16644.5,-292.5 16644.5,-540.5 17404.5,-540.5 17404.5,-292.5 16644.5,-292.5"/>
@@ -584,8 +584,8 @@
 <text text-anchor="start" x="17450.5" y="-405.3" font-family="Arial" font-size="14.00">&#45; new(num_challenges_to_sample: usize, num_challenges_to_compute: usize, challenges_pointer: BFieldElement) &#45;&gt; Self</text>
 <text text-anchor="start" x="17450.5" y="-390.3" font-family="Arial" font-size="14.00">&#45; total_number_of_challenges_returned(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="17450.5" y="-375.3" font-family="Arial" font-size="14.00">&#45; sample_scalars_snippet(&amp;self) &#45;&gt; SampleScalarsStaticLengthStaticPointer</text>
-<text text-anchor="start" x="17450.5" y="-360.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="17450.5" y="-345.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="17450.5" y="-360.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="17450.5" y="-345.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="17450.5" y="-330.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="17450.5" y="-315.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="17438.5,-300 17438.5,-533 18198.5,-533 18198.5,-300 17438.5,-300"/>
@@ -622,8 +622,8 @@
 <text text-anchor="start" x="16167.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; advance_proof_item_pointer_to_next_item_reading_length_from_memory(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="16167.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; advance_list_element_pointer_to_proof_item_payload(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="16167.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; verify_last_xfe_is_non_zero_if_payload_is_polynomial(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="16167.5" y="-656.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="16167.5" y="-641.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16167.5" y="-656.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16167.5" y="-641.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="16167.5" y="-626.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="16167.5" y="-611.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="16155,-596 16155,-934 16846,-934 16846,-596 16155,-596"/>
@@ -655,8 +655,8 @@
 <text text-anchor="start" x="9997.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; number_of_nondeterministic_tokens_consumed(&amp;self, _proof: &amp;Proof, _claim: &amp;Claim) &#45;&gt; usize</text>
 <text text-anchor="start" x="9997.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; update_nondeterminism(&amp;self, nondeterminism: &amp;mut NonDeterminism, proof: &amp;Proof, claim: &amp;Claim)</text>
 <text text-anchor="start" x="9997.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; extract_nondeterministic_digests(&amp;self, proof: &amp;Proof, claim: &amp;Claim) &#45;&gt; Vec&lt;Digest&gt;</text>
-<text text-anchor="start" x="9997.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="9997.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="9997.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="9997.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="9997.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="9997.5" y="-648.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="9985,-633.5 9985,-896.5 10632,-896.5 10632,-633.5 9985,-633.5"/>
@@ -682,8 +682,8 @@
 <polygon fill="white" stroke="transparent" points="20653.5,-679 20653.5,-776 21054.5,-776 21054.5,-679 20653.5,-679"/>
 <polygon fill="none" stroke="black" points="20653.5,-679 20653.5,-776 21054.5,-776 21054.5,-679 20653.5,-679"/>
 <text text-anchor="start" x="20664.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; indexed_leafs_list_type() &#45;&gt; DataType</text>
-<text text-anchor="start" x="20664.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="20664.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20664.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="20664.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="20664.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="20664.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="20652,-678.5 20652,-851.5 21055,-851.5 21055,-678.5 20652,-678.5"/>
@@ -709,8 +709,8 @@
 <polygon fill="white" stroke="transparent" points="16881.5,-679 16881.5,-776 17387.5,-776 17387.5,-679 16881.5,-679"/>
 <polygon fill="none" stroke="black" points="16881.5,-679 16881.5,-776 17387.5,-776 17387.5,-679 16881.5,-679"/>
 <text text-anchor="start" x="16892.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; derive_fri_field_values(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="16892.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="16892.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16892.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16892.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="16892.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="16892.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="16880.5,-678.5 16880.5,-851.5 17388.5,-851.5 17388.5,-678.5 16880.5,-678.5"/>
@@ -736,8 +736,8 @@
 <text text-anchor="start" x="18022.5" y="-775.8" font-family="Arial" font-size="14.00">+ initial: XFieldElement</text>
 <polygon fill="white" stroke="transparent" points="18011.5,-679 18011.5,-761 18419.5,-761 18419.5,-679 18011.5,-679"/>
 <polygon fill="none" stroke="black" points="18011.5,-679 18011.5,-761 18419.5,-761 18419.5,-679 18011.5,-679"/>
-<text text-anchor="start" x="18022.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="18022.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18022.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18022.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="18022.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="18022.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="18010.5,-678.5 18010.5,-851.5 18420.5,-851.5 18420.5,-678.5 18010.5,-678.5"/>
@@ -763,8 +763,8 @@
 <text text-anchor="start" x="18466.5" y="-775.8" font-family="Arial" font-size="14.00">+ num_trials: usize</text>
 <polygon fill="white" stroke="transparent" points="18455.5,-679 18455.5,-761 18856.5,-761 18856.5,-679 18455.5,-679"/>
 <polygon fill="none" stroke="black" points="18455.5,-679 18455.5,-761 18856.5,-761 18856.5,-679 18455.5,-679"/>
-<text text-anchor="start" x="18466.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="18466.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18466.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18466.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="18466.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="18466.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="18454,-678.5 18454,-851.5 18857,-851.5 18857,-678.5 18454,-678.5"/>
@@ -791,8 +791,8 @@
 <polygon fill="none" stroke="black" points="18892.5,-672 18892.5,-784 19299.5,-784 19299.5,-672 18892.5,-672"/>
 <text text-anchor="start" x="18903.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
 <text text-anchor="start" x="18903.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; assert_element_type_is_supported(element_type: &amp;DataType)</text>
-<text text-anchor="start" x="18903.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="18903.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18903.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="18903.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="18903.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="18903.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="18891,-671 18891,-859 19300,-859 19300,-671 18891,-671"/>
@@ -818,8 +818,8 @@
 <polygon fill="white" stroke="transparent" points="3414.5,-672 3414.5,-784 3806.5,-784 3806.5,-672 3414.5,-672"/>
 <polygon fill="none" stroke="black" points="3414.5,-672 3414.5,-784 3806.5,-784 3806.5,-672 3414.5,-672"/>
 <text text-anchor="start" x="3425.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="3425.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="3425.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="3425.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="3425.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="3425.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="3425.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="3425.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -846,8 +846,8 @@
 <polygon fill="white" stroke="transparent" points="7495.5,-4.5 7495.5,-161.5 8053.5,-161.5 8053.5,-4.5 7495.5,-4.5"/>
 <polygon fill="none" stroke="black" points="7495.5,-4.5 7495.5,-161.5 8053.5,-161.5 8053.5,-4.5 7495.5,-4.5"/>
 <text text-anchor="start" x="7506.5" y="-139.3" font-family="Arial" font-size="14.00">&#45; new(f: InnerFunction) &#45;&gt; Self</text>
-<text text-anchor="start" x="7506.5" y="-124.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="7506.5" y="-109.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7506.5" y="-124.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="7506.5" y="-109.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="7506.5" y="-94.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="7506.5" y="-79.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="7506.5" y="-64.3" font-family="Arial" font-size="14.00">&#45; code_for_static_len_input_type(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
@@ -876,8 +876,8 @@
 <text text-anchor="start" x="13864.5" y="-139.3" font-family="Arial" font-size="14.00">+ f: InnerFunction</text>
 <polygon fill="white" stroke="transparent" points="13853.5,-42.5 13853.5,-124.5 14254.5,-124.5 14254.5,-42.5 13853.5,-42.5"/>
 <polygon fill="none" stroke="black" points="13853.5,-42.5 13853.5,-124.5 14254.5,-124.5 14254.5,-42.5 13853.5,-42.5"/>
-<text text-anchor="start" x="13864.5" y="-102.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="13864.5" y="-87.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13864.5" y="-102.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13864.5" y="-87.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="13864.5" y="-72.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="13864.5" y="-57.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="13852,-41.5 13852,-199.5 14255,-199.5 14255,-41.5 13852,-41.5"/>
@@ -981,8 +981,8 @@
 <polygon fill="white" stroke="transparent" points="9133.5,-34.5 9133.5,-131.5 9534.5,-131.5 9534.5,-34.5 9133.5,-34.5"/>
 <polygon fill="none" stroke="black" points="9133.5,-34.5 9133.5,-131.5 9534.5,-131.5 9534.5,-34.5 9133.5,-34.5"/>
 <text text-anchor="start" x="9144.5" y="-109.3" font-family="Arial" font-size="14.00">&#45; new(f: InnerFunction) &#45;&gt; Self</text>
-<text text-anchor="start" x="9144.5" y="-94.3" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="9144.5" y="-79.3" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="9144.5" y="-94.3" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="9144.5" y="-79.3" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="9144.5" y="-64.3" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="9144.5" y="-49.3" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="9132,-34 9132,-207 9535,-207 9535,-34 9132,-34"/>
@@ -1015,8 +1015,8 @@
 <polygon fill="none" stroke="black" points="3842.5,-664 3842.5,-791 4243.5,-791 4243.5,-664 3842.5,-664"/>
 <text text-anchor="start" x="3853.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
 <text text-anchor="start" x="3853.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; self_type(&amp;self) &#45;&gt; DataType</text>
-<text text-anchor="start" x="3853.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="3853.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="3853.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="3853.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="3853.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="3853.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="3853.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -1043,8 +1043,8 @@
 <polygon fill="white" stroke="transparent" points="4278.5,-672 4278.5,-784 4670.5,-784 4670.5,-672 4278.5,-672"/>
 <polygon fill="none" stroke="black" points="4278.5,-672 4278.5,-784 4670.5,-784 4670.5,-672 4278.5,-672"/>
 <text text-anchor="start" x="4289.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="4289.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="4289.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="4289.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="4289.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="4289.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="4289.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="4289.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; sign_offs(&amp;self) &#45;&gt; HashMap&lt;Reviewer, SignOffFingerprint&gt;</text>
@@ -1071,8 +1071,8 @@
 <polygon fill="white" stroke="transparent" points="11715.5,-679 11715.5,-776 12116.5,-776 12116.5,-679 11715.5,-679"/>
 <polygon fill="none" stroke="black" points="11715.5,-679 11715.5,-776 12116.5,-776 12116.5,-679 11715.5,-679"/>
 <text text-anchor="start" x="11726.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="11726.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="11726.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="11726.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="11726.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="11726.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="11726.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="11714,-678.5 11714,-851.5 12117,-851.5 12117,-678.5 11714,-678.5"/>
@@ -1098,8 +1098,8 @@
 <polygon fill="white" stroke="transparent" points="12152.5,-679 12152.5,-776 12553.5,-776 12553.5,-679 12152.5,-679"/>
 <polygon fill="none" stroke="black" points="12152.5,-679 12152.5,-776 12553.5,-776 12553.5,-679 12152.5,-679"/>
 <text text-anchor="start" x="12163.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="12163.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="12163.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="12163.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="12163.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="12163.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="12163.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="12151,-678.5 12151,-851.5 12554,-851.5 12554,-678.5 12151,-678.5"/>
@@ -1125,8 +1125,8 @@
 <polygon fill="white" stroke="transparent" points="12588.5,-679 12588.5,-776 12996.5,-776 12996.5,-679 12588.5,-679"/>
 <polygon fill="none" stroke="black" points="12588.5,-679 12588.5,-776 12996.5,-776 12996.5,-679 12588.5,-679"/>
 <text text-anchor="start" x="12599.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; new(element_type: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="12599.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="12599.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="12599.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="12599.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="12599.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="12599.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="12587.5,-678.5 12587.5,-851.5 12997.5,-851.5 12997.5,-678.5 12587.5,-678.5"/>
@@ -1155,8 +1155,8 @@
 <text text-anchor="start" x="13043.5" y="-761.8" font-family="Arial" font-size="14.00">&#45; num_absorbs_before_pad(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="13043.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; num_remaining_words(&amp;self) &#45;&gt; usize</text>
 <text text-anchor="start" x="13043.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; read_remainder_and_pad(&amp;self) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
-<text text-anchor="start" x="13043.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="13043.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13043.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13043.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="13043.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="13043.5" y="-671.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="13031.5,-656 13031.5,-874 13431.5,-874 13431.5,-656 13031.5,-656"/>
@@ -1181,8 +1181,8 @@
 <text text-anchor="start" x="13478.5" y="-783.8" font-family="Arial" font-size="14.00">+ num_squeezes: usize</text>
 <polygon fill="white" stroke="transparent" points="13467.5,-687 13467.5,-769 13838.5,-769 13838.5,-687 13467.5,-687"/>
 <polygon fill="none" stroke="black" points="13467.5,-687 13467.5,-769 13838.5,-769 13838.5,-687 13467.5,-687"/>
-<text text-anchor="start" x="13478.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="13478.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13478.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13478.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="13478.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="13478.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="13466,-686 13466,-844 13839,-844 13839,-686 13466,-686"/>
@@ -1209,8 +1209,8 @@
 <polygon fill="white" stroke="transparent" points="13874.5,-672 13874.5,-769 14275.5,-769 14275.5,-672 13874.5,-672"/>
 <polygon fill="none" stroke="black" points="13874.5,-672 13874.5,-769 14275.5,-769 14275.5,-672 13874.5,-672"/>
 <text text-anchor="start" x="13885.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; num_words_to_allocate(&amp;self) &#45;&gt; u32</text>
-<text text-anchor="start" x="13885.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="13885.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13885.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="13885.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="13885.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="13885.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="13873,-671 13873,-859 14276,-859 14276,-671 13873,-671"/>
@@ -1237,8 +1237,8 @@
 <text text-anchor="start" x="17510.5" y="-768.8" font-family="Arial" font-size="14.00">+ scalars_pointer: BFieldElement</text>
 <polygon fill="white" stroke="transparent" points="17499.5,-672 17499.5,-754 17900.5,-754 17900.5,-672 17499.5,-672"/>
 <polygon fill="none" stroke="black" points="17499.5,-672 17499.5,-754 17900.5,-754 17900.5,-672 17499.5,-672"/>
-<text text-anchor="start" x="17510.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="17510.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="17510.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="17510.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="17510.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="17510.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="17498,-671 17498,-859 17901,-859 17901,-671 17498,-671"/>
@@ -1264,8 +1264,8 @@
 <polygon fill="white" stroke="transparent" points="14311.5,-679 14311.5,-776 14712.5,-776 14712.5,-679 14311.5,-679"/>
 <polygon fill="none" stroke="black" points="14311.5,-679 14311.5,-776 14712.5,-776 14712.5,-679 14311.5,-679"/>
 <text text-anchor="start" x="14322.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; num_squeezes(num_elements: usize) &#45;&gt; usize</text>
-<text text-anchor="start" x="14322.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="14322.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="14322.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="14322.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="14322.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="14322.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="14310,-678.5 14310,-851.5 14713,-851.5 14713,-678.5 14310,-678.5"/>
@@ -1290,8 +1290,8 @@
 <text text-anchor="start" x="14758.5" y="-783.8" font-family="Arial" font-size="14.00">+ size: usize</text>
 <polygon fill="white" stroke="transparent" points="14747.5,-687 14747.5,-769 15229.5,-769 15229.5,-687 14747.5,-687"/>
 <polygon fill="none" stroke="black" points="14747.5,-687 14747.5,-769 15229.5,-769 15229.5,-687 14747.5,-687"/>
-<text text-anchor="start" x="14758.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="14758.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="14758.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="14758.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="14758.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="14758.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, library: &amp;mut crate::library::Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="14746.5,-686 14746.5,-844 15230.5,-844 15230.5,-686 14746.5,-686"/>
@@ -1318,8 +1318,8 @@
 <polygon fill="white" stroke="transparent" points="15266.5,-672 15266.5,-769 15637.5,-769 15637.5,-672 15266.5,-672"/>
 <polygon fill="none" stroke="black" points="15266.5,-672 15266.5,-769 15637.5,-769 15637.5,-672 15266.5,-672"/>
 <text text-anchor="start" x="15277.5" y="-746.8" font-family="Arial" font-size="14.00">&#45; new(ty: DataType) &#45;&gt; Self</text>
-<text text-anchor="start" x="15277.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; inputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="15277.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; outputs(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15277.5" y="-731.8" font-family="Arial" font-size="14.00">&#45; parameters(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="15277.5" y="-716.8" font-family="Arial" font-size="14.00">&#45; return_values(&amp;self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="15277.5" y="-701.8" font-family="Arial" font-size="14.00">&#45; entrypoint(&amp;self) &#45;&gt; String</text>
 <text text-anchor="start" x="15277.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; code(&amp;self, _: &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <polygon fill="none" stroke="black" points="15265,-671 15265,-859 15638,-859 15638,-671 15265,-671"/>
@@ -1371,8 +1371,8 @@
 <text text-anchor="start" x="16457.5" y="-1357.3" font-family="Arial" font-weight="bold" font-size="14.00">BasicSnippet</text>
 <polygon fill="white" stroke="transparent" points="16223.5,-1169.5 16223.5,-1341.5 16777.5,-1341.5 16777.5,-1169.5 16223.5,-1169.5"/>
 <polygon fill="none" stroke="black" points="16223.5,-1169.5 16223.5,-1341.5 16777.5,-1341.5 16777.5,-1169.5 16223.5,-1169.5"/>
-<text text-anchor="start" x="16234.5" y="-1319.3" font-family="Arial" font-size="14.00">inputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
-<text text-anchor="start" x="16234.5" y="-1304.3" font-family="Arial" font-size="14.00">outputs(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16234.5" y="-1319.3" font-family="Arial" font-size="14.00">parameters(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
+<text text-anchor="start" x="16234.5" y="-1304.3" font-family="Arial" font-size="14.00">return_values(&amp;Self) &#45;&gt; Vec&lt;(DataType, String)&gt;</text>
 <text text-anchor="start" x="16234.5" y="-1289.3" font-family="Arial" font-size="14.00">entrypoint(&amp;Self) &#45;&gt; String</text>
 <text text-anchor="start" x="16234.5" y="-1274.3" font-family="Arial" font-size="14.00">code(&amp;Self, &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
 <text text-anchor="start" x="16234.5" y="-1259.3" font-family="Arial" font-size="14.00">annotated_code(&amp;Self, &amp;mut Library) &#45;&gt; Vec&lt;LabelledInstruction&gt;</text>
