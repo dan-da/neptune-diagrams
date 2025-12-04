@@ -173,7 +173,7 @@
 <polygon fill="white" stroke="transparent" points="773.76,-1467 773.76,-1519 991.76,-1519 991.76,-1467 773.76,-1467"/>
 <polygon fill="none" stroke="black" points="773.76,-1467 773.76,-1519 991.76,-1519 991.76,-1467 773.76,-1467"/>
 <text text-anchor="start" x="784.76" y="-1496.8" font-family="Arial" font-size="14.00">PrimitiveRootNotSupported(u64)</text>
-<text text-anchor="start" x="784.76" y="-1481.8" font-family="Arial" font-size="14.00">TooSmallForHalving(usize)</text>
+<text text-anchor="start" x="784.76" y="-1481.8" font-family="Arial" font-size="14.00">IllegalExponent(usize)</text>
 <polygon fill="none" stroke="black" points="772.76,-1466.5 772.76,-1557.5 992.76,-1557.5 992.76,-1466.5 772.76,-1466.5"/>
 </a>
 </g>
@@ -253,7 +253,7 @@
 <!-- ndArithmeticDomainError&#45;&gt;ndProvingError -->
 <g id="edge9" class="edge">
 <title>ndArithmeticDomainError&#45;&gt;ndProvingError</title>
-<path fill="none" stroke="black" d="M1000.98,-1489.66C1160.53,-1461.45 1453.82,-1411.61 1705.76,-1380 1749.05,-1374.57 2067.08,-1375.98 2096.76,-1344 2170.83,-1264.18 2158.58,-1133.19 2136.9,-1041.1"/>
+<path fill="none" stroke="black" d="M1000.79,-1489.74C1160.45,-1461.55 1454.34,-1411.68 1706.76,-1380 1749.94,-1374.58 2067.16,-1375.9 2096.76,-1344 2170.82,-1264.17 2158.57,-1133.18 2136.9,-1041.1"/>
 <polygon fill="black" stroke="black" points="2136.85,-1040.88 2131.54,-1036 2134,-1029.22 2139.31,-1034.1 2136.85,-1040.88"/>
 </g>
 <!-- ndVerificationError -->
@@ -1112,63 +1112,63 @@
 <g id="node33" class="node">
 <title>ndOpStackTableEntry</title>
 <g id="a_node33_42"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/op_stack.rs#:~:text=struct%20OpStackTableEntry" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2220.76,-2082 2220.76,-2119 2453.76,-2119 2453.76,-2082 2220.76,-2082"/>
-<polygon fill="none" stroke="black" points="2220.76,-2082 2220.76,-2119 2453.76,-2119 2453.76,-2082 2220.76,-2082"/>
-<text text-anchor="start" x="2274.76" y="-2097.8" font-family="Arial" font-weight="bold" font-size="14.00">OpStackTableEntry</text>
-<polygon fill="white" stroke="transparent" points="2220.76,-2015 2220.76,-2082 2453.76,-2082 2453.76,-2015 2220.76,-2015"/>
-<polygon fill="none" stroke="black" points="2220.76,-2015 2220.76,-2082 2453.76,-2082 2453.76,-2015 2220.76,-2015"/>
-<text text-anchor="start" x="2231.76" y="-2059.8" font-family="Arial" font-size="14.00">+ clk: u32</text>
-<text text-anchor="start" x="2231.76" y="-2044.8" font-family="Arial" font-size="14.00">+ op_stack_pointer: BFieldElement</text>
-<text text-anchor="start" x="2231.76" y="-2029.8" font-family="Arial" font-size="14.00">+ underflow_io: UnderflowIO</text>
-<polygon fill="none" stroke="black" points="2219.26,-2014 2219.26,-2120 2454.26,-2120 2454.26,-2014 2219.26,-2014"/>
+<polygon fill="lightblue" stroke="transparent" points="2214.76,-2082 2214.76,-2119 2447.76,-2119 2447.76,-2082 2214.76,-2082"/>
+<polygon fill="none" stroke="black" points="2214.76,-2082 2214.76,-2119 2447.76,-2119 2447.76,-2082 2214.76,-2082"/>
+<text text-anchor="start" x="2268.76" y="-2097.8" font-family="Arial" font-weight="bold" font-size="14.00">OpStackTableEntry</text>
+<polygon fill="white" stroke="transparent" points="2214.76,-2015 2214.76,-2082 2447.76,-2082 2447.76,-2015 2214.76,-2015"/>
+<polygon fill="none" stroke="black" points="2214.76,-2015 2214.76,-2082 2447.76,-2082 2447.76,-2015 2214.76,-2015"/>
+<text text-anchor="start" x="2225.76" y="-2059.8" font-family="Arial" font-size="14.00">+ clk: u32</text>
+<text text-anchor="start" x="2225.76" y="-2044.8" font-family="Arial" font-size="14.00">+ op_stack_pointer: BFieldElement</text>
+<text text-anchor="start" x="2225.76" y="-2029.8" font-family="Arial" font-size="14.00">+ underflow_io: UnderflowIO</text>
+<polygon fill="none" stroke="black" points="2213.26,-2014 2213.26,-2120 2448.26,-2120 2448.26,-2014 2213.26,-2014"/>
 </a>
 </g>
 </g>
 <!-- ndOpStackTableEntry&#45;&gt;ndCoProcessorCall -->
 <g id="edge58" class="edge">
 <title>ndOpStackTableEntry&#45;&gt;ndCoProcessorCall</title>
-<path fill="none" stroke="black" d="M2431.21,-2009.87C2471.24,-1985.6 2518.16,-1956.5 2559.76,-1929 2581.47,-1914.65 2604.36,-1898.88 2626.16,-1883.54"/>
-<polygon fill="black" stroke="black" points="2626.28,-1883.46 2628.88,-1876.73 2636.09,-1876.54 2633.49,-1883.26 2626.28,-1883.46"/>
+<path fill="none" stroke="black" d="M2428.17,-2009.99C2469.24,-1985.8 2517.28,-1956.72 2559.76,-1929 2581.55,-1914.78 2604.48,-1899.06 2626.29,-1883.75"/>
+<polygon fill="black" stroke="black" points="2626.42,-1883.66 2629.02,-1876.93 2636.22,-1876.74 2633.63,-1883.47 2626.42,-1883.66"/>
 </g>
 <!-- ndOpStackTableEntry&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge59" class="edge">
 <title>ndOpStackTableEntry&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2266.08,-2009.78C2243.29,-1987.36 2220.82,-1959.58 2208.76,-1929 2163.79,-1815 2188.72,-1479.14 2260.76,-1380 2268.17,-1369.8 2276.47,-1360.23 2285.45,-1351.25"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2263.98,-2009.88C2242.03,-1987.28 2220.32,-1959.36 2208.76,-1929 2165.16,-1814.47 2188.72,-1479.14 2260.76,-1380 2268.17,-1369.8 2276.47,-1360.23 2285.45,-1351.25"/>
 <polygon fill="black" stroke="black" points="2292.8,-1344.18 2288.72,-1354.36 2289.2,-1347.65 2285.6,-1351.11 2285.6,-1351.11 2285.6,-1351.11 2289.2,-1347.65 2282.48,-1347.87 2292.8,-1344.18 2292.8,-1344.18"/>
 </g>
 <!-- ndRamTableCall -->
 <g id="node34" class="node">
 <title>ndRamTableCall</title>
 <g id="a_node34_43"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/ram.rs#:~:text=struct%20RamTableCall" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2624.76,-2089 2624.76,-2126 2827.76,-2126 2827.76,-2089 2624.76,-2089"/>
-<polygon fill="none" stroke="black" points="2624.76,-2089 2624.76,-2126 2827.76,-2126 2827.76,-2089 2624.76,-2089"/>
-<text text-anchor="start" x="2681.26" y="-2104.8" font-family="Arial" font-weight="bold" font-size="14.00">RamTableCall</text>
-<polygon fill="white" stroke="transparent" points="2624.76,-2007 2624.76,-2089 2827.76,-2089 2827.76,-2007 2624.76,-2007"/>
-<polygon fill="none" stroke="black" points="2624.76,-2007 2624.76,-2089 2827.76,-2089 2827.76,-2007 2624.76,-2007"/>
-<text text-anchor="start" x="2635.76" y="-2066.8" font-family="Arial" font-size="14.00">+ clk: u32</text>
-<text text-anchor="start" x="2635.76" y="-2051.8" font-family="Arial" font-size="14.00">+ ram_pointer: BFieldElement</text>
-<text text-anchor="start" x="2635.76" y="-2036.8" font-family="Arial" font-size="14.00">+ ram_value: BFieldElement</text>
-<text text-anchor="start" x="2635.76" y="-2021.8" font-family="Arial" font-size="14.00">+ is_write: bool</text>
-<polygon fill="none" stroke="black" points="2623.26,-2006.5 2623.26,-2127.5 2828.26,-2127.5 2828.26,-2006.5 2623.26,-2006.5"/>
+<polygon fill="lightblue" stroke="transparent" points="2625.76,-2089 2625.76,-2126 2828.76,-2126 2828.76,-2089 2625.76,-2089"/>
+<polygon fill="none" stroke="black" points="2625.76,-2089 2625.76,-2126 2828.76,-2126 2828.76,-2089 2625.76,-2089"/>
+<text text-anchor="start" x="2682.26" y="-2104.8" font-family="Arial" font-weight="bold" font-size="14.00">RamTableCall</text>
+<polygon fill="white" stroke="transparent" points="2625.76,-2007 2625.76,-2089 2828.76,-2089 2828.76,-2007 2625.76,-2007"/>
+<polygon fill="none" stroke="black" points="2625.76,-2007 2625.76,-2089 2828.76,-2089 2828.76,-2007 2625.76,-2007"/>
+<text text-anchor="start" x="2636.76" y="-2066.8" font-family="Arial" font-size="14.00">+ clk: u32</text>
+<text text-anchor="start" x="2636.76" y="-2051.8" font-family="Arial" font-size="14.00">+ ram_pointer: BFieldElement</text>
+<text text-anchor="start" x="2636.76" y="-2036.8" font-family="Arial" font-size="14.00">+ ram_value: BFieldElement</text>
+<text text-anchor="start" x="2636.76" y="-2021.8" font-family="Arial" font-size="14.00">+ is_write: bool</text>
+<polygon fill="none" stroke="black" points="2624.26,-2006.5 2624.26,-2127.5 2829.26,-2127.5 2829.26,-2006.5 2624.26,-2006.5"/>
 </a>
 </g>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndVMState -->
 <g id="edge60" class="edge">
 <title>ndRamTableCall&#45;&gt;ndVMState</title>
-<path fill="none" stroke="black" d="M2797.51,-2002.31C2813.04,-1989.46 2829.65,-1976.41 2845.76,-1965 2871.45,-1946.8 2891.15,-1956.34 2906.76,-1929 2961.64,-1832.9 2947.85,-1782.75 2906.76,-1680 2903.29,-1671.31 2899.12,-1662.81 2894.42,-1654.55"/>
+<path fill="none" stroke="black" d="M2798.57,-2002.4C2814.1,-1989.55 2830.69,-1976.47 2846.76,-1965 2872.07,-1946.93 2891.44,-1956.06 2906.76,-1929 2961.29,-1832.7 2947.85,-1782.75 2906.76,-1680 2903.29,-1671.31 2899.12,-1662.81 2894.42,-1654.55"/>
 <polygon fill="black" stroke="black" points="2894.38,-1654.49 2887.86,-1651.41 2888.18,-1644.21 2894.71,-1647.28 2894.38,-1654.49"/>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndCoProcessorCall -->
 <g id="edge61" class="edge">
 <title>ndRamTableCall&#45;&gt;ndCoProcessorCall</title>
-<path fill="none" stroke="black" d="M2727.72,-2002.27C2728.77,-1968.17 2730.07,-1925.75 2731.2,-1889.04"/>
-<polygon fill="black" stroke="black" points="2731.2,-1888.82 2727.39,-1882.7 2731.57,-1876.83 2735.38,-1882.95 2731.2,-1888.82"/>
+<path fill="none" stroke="black" d="M2728.47,-2002.27C2729.39,-1968.17 2730.53,-1925.75 2731.52,-1889.04"/>
+<polygon fill="black" stroke="black" points="2731.52,-1888.82 2727.68,-1882.72 2731.84,-1876.83 2735.68,-1882.93 2731.52,-1888.82"/>
 </g>
 <!-- ndRamTableCall&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge62" class="edge">
 <title>ndRamTableCall&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2615.19,-2016.2C2571,-1997.89 2519.18,-1978.38 2470.76,-1965 2423.01,-1951.8 2282.84,-1966.75 2250.76,-1929 2179.1,-1844.66 2218.96,-1786 2250.76,-1680 2287.49,-1557.56 2369.3,-1437.64 2437.93,-1352.12"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2616.22,-2017.7C2570.1,-1999.05 2515.54,-1978.91 2464.76,-1965 2418.25,-1952.26 2281.9,-1965.82 2250.76,-1929 2179.29,-1844.5 2218.96,-1786 2250.76,-1680 2287.49,-1557.56 2369.3,-1437.64 2437.93,-1352.12"/>
 <polygon fill="black" stroke="black" points="2444.32,-1344.22 2441.53,-1354.82 2441.17,-1348.11 2438.03,-1351.99 2438.03,-1351.99 2438.03,-1351.99 2441.17,-1348.11 2434.53,-1349.17 2444.32,-1344.22 2444.32,-1344.22"/>
 </g>
 <!-- ndBfeSlice -->
@@ -1230,8 +1230,8 @@
 <!-- ndMasterMainTable&#45;&gt;ndProver -->
 <g id="edge66" class="edge">
 <title>ndMasterMainTable&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2383.32,-379.24C2291.54,-347.46 2186.59,-311.12 2103.4,-282.32"/>
-<polygon fill="black" stroke="black" points="2093.88,-279.02 2104.8,-278.04 2098.61,-280.66 2103.33,-282.29 2103.33,-282.29 2103.33,-282.29 2098.61,-280.66 2101.86,-286.54 2093.88,-279.02 2093.88,-279.02"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2383.32,-378.78C2336.98,-362.66 2288.24,-345.74 2242.76,-330 2198.03,-314.52 2149.38,-297.75 2104.98,-282.46"/>
+<polygon fill="black" stroke="black" points="2095.27,-279.12 2106.19,-278.12 2100,-280.75 2104.73,-282.37 2104.73,-282.37 2104.73,-282.37 2100,-280.75 2103.26,-286.63 2095.27,-279.12 2095.27,-279.12"/>
 </g>
 <!-- ndMasterAuxTable&#45;&gt;ndMasterMainTable -->
 <g id="edge67" class="edge">
@@ -1255,29 +1255,29 @@
 <g id="node40" class="node">
 <title>ndU32TableEntry</title>
 <g id="a_node40_47"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/u32.rs#:~:text=struct%20U32TableEntry" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2863.76,-2082 2863.76,-2119 3077.76,-2119 3077.76,-2082 2863.76,-2082"/>
-<polygon fill="none" stroke="black" points="2863.76,-2082 2863.76,-2119 3077.76,-2119 3077.76,-2082 2863.76,-2082"/>
-<text text-anchor="start" x="2923.76" y="-2097.8" font-family="Arial" font-weight="bold" font-size="14.00">U32TableEntry</text>
-<polygon fill="white" stroke="transparent" points="2863.76,-2015 2863.76,-2082 3077.76,-2082 3077.76,-2015 2863.76,-2015"/>
-<polygon fill="none" stroke="black" points="2863.76,-2015 2863.76,-2082 3077.76,-2082 3077.76,-2015 2863.76,-2015"/>
-<text text-anchor="start" x="2874.76" y="-2059.8" font-family="Arial" font-size="14.00">+ instruction: Instruction</text>
-<text text-anchor="start" x="2874.76" y="-2044.8" font-family="Arial" font-size="14.00">+ left_operand: BFieldElement</text>
-<text text-anchor="start" x="2874.76" y="-2029.8" font-family="Arial" font-size="14.00">+ right_operand: BFieldElement</text>
-<polygon fill="none" stroke="black" points="2862.76,-2014 2862.76,-2120 3078.76,-2120 3078.76,-2014 2862.76,-2014"/>
+<polygon fill="lightblue" stroke="transparent" points="2864.76,-2082 2864.76,-2119 3078.76,-2119 3078.76,-2082 2864.76,-2082"/>
+<polygon fill="none" stroke="black" points="2864.76,-2082 2864.76,-2119 3078.76,-2119 3078.76,-2082 2864.76,-2082"/>
+<text text-anchor="start" x="2924.76" y="-2097.8" font-family="Arial" font-weight="bold" font-size="14.00">U32TableEntry</text>
+<polygon fill="white" stroke="transparent" points="2864.76,-2015 2864.76,-2082 3078.76,-2082 3078.76,-2015 2864.76,-2015"/>
+<polygon fill="none" stroke="black" points="2864.76,-2015 2864.76,-2082 3078.76,-2082 3078.76,-2015 2864.76,-2015"/>
+<text text-anchor="start" x="2875.76" y="-2059.8" font-family="Arial" font-size="14.00">+ instruction: Instruction</text>
+<text text-anchor="start" x="2875.76" y="-2044.8" font-family="Arial" font-size="14.00">+ left_operand: BFieldElement</text>
+<text text-anchor="start" x="2875.76" y="-2029.8" font-family="Arial" font-size="14.00">+ right_operand: BFieldElement</text>
+<polygon fill="none" stroke="black" points="2863.76,-2014 2863.76,-2120 3079.76,-2120 3079.76,-2014 2863.76,-2014"/>
 </a>
 </g>
 </g>
 <!-- ndU32TableEntry&#45;&gt;ndCoProcessorCall -->
 <g id="edge70" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndCoProcessorCall</title>
-<path fill="none" stroke="black" d="M2919.63,-2009.8C2886.61,-1973.5 2843.14,-1925.72 2806.54,-1885.5"/>
-<polygon fill="black" stroke="black" points="2806.44,-1885.39 2799.44,-1883.64 2798.36,-1876.51 2805.36,-1878.26 2806.44,-1885.39"/>
+<path fill="none" stroke="black" d="M2920.41,-2009.8C2887.25,-1973.5 2843.6,-1925.72 2806.85,-1885.5"/>
+<polygon fill="black" stroke="black" points="2806.73,-1885.37 2799.73,-1883.64 2798.64,-1876.51 2805.64,-1878.24 2806.73,-1885.37"/>
 </g>
 <!-- ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace -->
 <g id="edge71" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndAlgebraicExecutionTrace</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2972.04,-2009.96C2975.08,-1855.32 2979.99,-1430.6 2943.76,-1380 2940.25,-1375.1 2912.62,-1362.74 2873.45,-1347.05"/>
-<polygon fill="black" stroke="black" points="2873.26,-1346.98 2866.2,-1348.48 2862.11,-1342.55 2869.16,-1341.04 2873.26,-1346.98"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2972.95,-2009.96C2975.76,-1855.31 2980.03,-1430.58 2943.76,-1380 2940.25,-1375.1 2912.61,-1362.74 2873.44,-1347.06"/>
+<polygon fill="black" stroke="black" points="2873.25,-1346.98 2866.2,-1348.48 2862.1,-1342.55 2869.15,-1341.05 2873.25,-1346.98"/>
 </g>
 <!-- ndExecutionTraceProfiler -->
 <g id="node56" class="node">
@@ -1298,7 +1298,7 @@
 <!-- ndU32TableEntry&#45;&gt;ndExecutionTraceProfiler -->
 <g id="edge72" class="edge">
 <title>ndU32TableEntry&#45;&gt;ndExecutionTraceProfiler</title>
-<path fill="none" stroke="black" d="M3086.77,-2056.69C3172.87,-2043.11 3285.24,-2009.91 3344.76,-1929 3398.75,-1855.61 3378.12,-1200.87 3384.76,-1110 3387.33,-1074.87 3391.05,-1035.85 3394.35,-1003.62"/>
+<path fill="none" stroke="black" d="M3087.91,-2056.53C3173.72,-2042.85 3285.52,-2009.6 3344.76,-1929 3398.72,-1855.59 3378.12,-1200.87 3384.76,-1110 3387.33,-1074.87 3391.05,-1035.85 3394.35,-1003.62"/>
 <polygon fill="black" stroke="black" points="3394.36,-1003.57 3391,-997.19 3395.6,-991.63 3398.96,-998.01 3394.36,-1003.57"/>
 </g>
 <!-- ndClkJumpDiffs -->
@@ -1630,22 +1630,22 @@
 <g id="node60" class="node">
 <title>ndArithmeticDomain</title>
 <g id="a_node60_63"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/arithmetic_domain.rs#:~:text=struct%20ArithmeticDomain" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1723.76,-1527 1723.76,-1564 1911.76,-1564 1911.76,-1527 1723.76,-1527"/>
-<polygon fill="none" stroke="black" points="1723.76,-1527 1723.76,-1564 1911.76,-1564 1911.76,-1527 1723.76,-1527"/>
-<text text-anchor="start" x="1758.76" y="-1542.8" font-family="Arial" font-weight="bold" font-size="14.00">ArithmeticDomain</text>
-<polygon fill="white" stroke="transparent" points="1723.76,-1460 1723.76,-1527 1911.76,-1527 1911.76,-1460 1723.76,-1460"/>
-<polygon fill="none" stroke="black" points="1723.76,-1460 1723.76,-1527 1911.76,-1527 1911.76,-1460 1723.76,-1460"/>
-<text text-anchor="start" x="1734.76" y="-1504.8" font-family="Arial" font-size="14.00">+ offset: BFieldElement</text>
-<text text-anchor="start" x="1734.76" y="-1489.8" font-family="Arial" font-size="14.00">+ generator: BFieldElement</text>
-<text text-anchor="start" x="1734.76" y="-1474.8" font-family="Arial" font-size="14.00">+ length: usize</text>
-<polygon fill="none" stroke="black" points="1722.76,-1459 1722.76,-1565 1912.76,-1565 1912.76,-1459 1722.76,-1459"/>
+<polygon fill="lightblue" stroke="transparent" points="1725.76,-1527 1725.76,-1564 1910.76,-1564 1910.76,-1527 1725.76,-1527"/>
+<polygon fill="none" stroke="black" points="1725.76,-1527 1725.76,-1564 1910.76,-1564 1910.76,-1527 1725.76,-1527"/>
+<text text-anchor="start" x="1759.26" y="-1542.8" font-family="Arial" font-weight="bold" font-size="14.00">ArithmeticDomain</text>
+<polygon fill="white" stroke="transparent" points="1725.76,-1460 1725.76,-1527 1910.76,-1527 1910.76,-1460 1725.76,-1460"/>
+<polygon fill="none" stroke="black" points="1725.76,-1460 1725.76,-1527 1910.76,-1527 1910.76,-1460 1725.76,-1460"/>
+<text text-anchor="start" x="1736.76" y="-1504.8" font-family="Arial" font-size="14.00">&#45; offset: BFieldElement</text>
+<text text-anchor="start" x="1736.76" y="-1489.8" font-family="Arial" font-size="14.00">&#45; generator: BFieldElement</text>
+<text text-anchor="start" x="1736.76" y="-1474.8" font-family="Arial" font-size="14.00">&#45; length: usize</text>
+<polygon fill="none" stroke="black" points="1724.26,-1459 1724.26,-1565 1911.26,-1565 1911.26,-1459 1724.26,-1459"/>
 </a>
 </g>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFri -->
 <g id="edge91" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1714.45,-1494.11C1626.28,-1474.03 1503.35,-1431.49 1435.76,-1344 1371.39,-1260.67 1476.52,-1180.99 1398.76,-1110 1309.13,-1028.16 936.71,-1162.61 853.76,-1074 811.39,-1028.74 821.26,-847.8 853.76,-795 872.54,-764.48 903.01,-742.35 935.07,-726.43"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1716.18,-1494.51C1627.9,-1474.59 1503.79,-1432.07 1435.76,-1344 1371.39,-1260.67 1476.52,-1180.99 1398.76,-1110 1309.13,-1028.16 936.71,-1162.61 853.76,-1074 811.39,-1028.74 821.26,-847.8 853.76,-795 872.54,-764.48 903.01,-742.35 935.07,-726.43"/>
 <polygon fill="black" stroke="black" points="935.14,-726.4 938.85,-720.22 945.98,-721.27 942.27,-727.45 935.14,-726.4"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFriProver -->
