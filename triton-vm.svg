@@ -318,34 +318,35 @@
 <g id="node9" class="node">
 <title>ndVerificationError</title>
 <g id="a_node9_11"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/error.rs#:~:text=enum%20VerificationError" xlink:title="&lt;TABLE&gt;">
-<polygon fill="yellow" stroke="transparent" points="754.32,-2030.5 754.32,-2067.5 1062.32,-2067.5 1062.32,-2030.5 754.32,-2030.5"/>
-<polygon fill="none" stroke="black" points="754.32,-2030.5 754.32,-2067.5 1062.32,-2067.5 1062.32,-2030.5 754.32,-2030.5"/>
-<text text-anchor="start" x="855.32" y="-2046.3" font-family="Arial" font-weight="bold" font-size="14.00">VerificationError</text>
-<polygon fill="white" stroke="transparent" points="754.32,-1798.5 754.32,-2030.5 1062.32,-2030.5 1062.32,-1798.5 754.32,-1798.5"/>
-<polygon fill="none" stroke="black" points="754.32,-1798.5 754.32,-2030.5 1062.32,-2030.5 1062.32,-1798.5 754.32,-1798.5"/>
-<text text-anchor="start" x="765.32" y="-2008.3" font-family="Arial" font-size="14.00">OutOfDomainQuotientValueMismatch</text>
-<text text-anchor="start" x="765.32" y="-1993.3" font-family="Arial" font-size="14.00">MainCodewordAuthenticationFailure</text>
-<text text-anchor="start" x="765.32" y="-1978.3" font-family="Arial" font-size="14.00">AuxiliaryCodewordAuthenticationFailure</text>
-<text text-anchor="start" x="765.32" y="-1963.3" font-family="Arial" font-size="14.00">QuotientCodewordAuthenticationFailure</text>
-<text text-anchor="start" x="765.32" y="-1948.3" font-family="Arial" font-size="14.00">CombinationCodewordMismatch</text>
-<text text-anchor="start" x="765.32" y="-1933.3" font-family="Arial" font-size="14.00">IncorrectNumberOfRowIndices</text>
-<text text-anchor="start" x="765.32" y="-1918.3" font-family="Arial" font-size="14.00">IncorrectNumberOfFRIValues</text>
-<text text-anchor="start" x="765.32" y="-1903.3" font-family="Arial" font-size="14.00">IncorrectNumberOfQuotientSegmentElements</text>
-<text text-anchor="start" x="765.32" y="-1888.3" font-family="Arial" font-size="14.00">IncorrectNumberOfMainTableRows</text>
-<text text-anchor="start" x="765.32" y="-1873.3" font-family="Arial" font-size="14.00">IncorrectNumberOfAuxTableRows</text>
-<text text-anchor="start" x="765.32" y="-1858.3" font-family="Arial" font-size="14.00">ProofStreamError(ProofStreamError)</text>
-<text text-anchor="start" x="765.32" y="-1843.3" font-family="Arial" font-size="14.00">ArithmeticDomainError(ArithmeticDomainError)</text>
-<text text-anchor="start" x="765.32" y="-1828.3" font-family="Arial" font-size="14.00">FriSetupError(FriSetupError)</text>
-<text text-anchor="start" x="765.32" y="-1813.3" font-family="Arial" font-size="14.00">FriValidationError(FriValidationError)</text>
-<polygon fill="none" stroke="black" points="753.32,-1798 753.32,-2069 1063.32,-2069 1063.32,-1798 753.32,-1798"/>
+<polygon fill="yellow" stroke="transparent" points="754.32,-2038.5 754.32,-2075.5 1062.32,-2075.5 1062.32,-2038.5 754.32,-2038.5"/>
+<polygon fill="none" stroke="black" points="754.32,-2038.5 754.32,-2075.5 1062.32,-2075.5 1062.32,-2038.5 754.32,-2038.5"/>
+<text text-anchor="start" x="855.32" y="-2054.3" font-family="Arial" font-weight="bold" font-size="14.00">VerificationError</text>
+<polygon fill="white" stroke="transparent" points="754.32,-1791.5 754.32,-2038.5 1062.32,-2038.5 1062.32,-1791.5 754.32,-1791.5"/>
+<polygon fill="none" stroke="black" points="754.32,-1791.5 754.32,-2038.5 1062.32,-2038.5 1062.32,-1791.5 754.32,-1791.5"/>
+<text text-anchor="start" x="765.32" y="-2016.3" font-family="Arial" font-size="14.00">Log2PaddedHeightTooLarge</text>
+<text text-anchor="start" x="765.32" y="-2001.3" font-family="Arial" font-size="14.00">OutOfDomainQuotientValueMismatch</text>
+<text text-anchor="start" x="765.32" y="-1986.3" font-family="Arial" font-size="14.00">MainCodewordAuthenticationFailure</text>
+<text text-anchor="start" x="765.32" y="-1971.3" font-family="Arial" font-size="14.00">AuxiliaryCodewordAuthenticationFailure</text>
+<text text-anchor="start" x="765.32" y="-1956.3" font-family="Arial" font-size="14.00">QuotientCodewordAuthenticationFailure</text>
+<text text-anchor="start" x="765.32" y="-1941.3" font-family="Arial" font-size="14.00">CombinationCodewordMismatch</text>
+<text text-anchor="start" x="765.32" y="-1926.3" font-family="Arial" font-size="14.00">IncorrectNumberOfRowIndices</text>
+<text text-anchor="start" x="765.32" y="-1911.3" font-family="Arial" font-size="14.00">IncorrectNumberOfFRIValues</text>
+<text text-anchor="start" x="765.32" y="-1896.3" font-family="Arial" font-size="14.00">IncorrectNumberOfQuotientSegmentElements</text>
+<text text-anchor="start" x="765.32" y="-1881.3" font-family="Arial" font-size="14.00">IncorrectNumberOfMainTableRows</text>
+<text text-anchor="start" x="765.32" y="-1866.3" font-family="Arial" font-size="14.00">IncorrectNumberOfAuxTableRows</text>
+<text text-anchor="start" x="765.32" y="-1851.3" font-family="Arial" font-size="14.00">ProofStreamError(ProofStreamError)</text>
+<text text-anchor="start" x="765.32" y="-1836.3" font-family="Arial" font-size="14.00">ArithmeticDomainError(ArithmeticDomainError)</text>
+<text text-anchor="start" x="765.32" y="-1821.3" font-family="Arial" font-size="14.00">FriSetupError(FriSetupError)</text>
+<text text-anchor="start" x="765.32" y="-1806.3" font-family="Arial" font-size="14.00">FriValidationError(FriValidationError)</text>
+<polygon fill="none" stroke="black" points="753.32,-1790.5 753.32,-2076.5 1063.32,-2076.5 1063.32,-1790.5 753.32,-1790.5"/>
 </a>
 </g>
 </g>
 <!-- ndArithmeticDomainError&#45;&gt;ndVerificationError -->
 <g id="edge10" class="edge">
 <title>ndArithmeticDomainError&#45;&gt;ndVerificationError</title>
-<path fill="none" stroke="black" d="M1275.49,-3517.98C1241.28,-3403.83 1156.83,-3108.82 1118.32,-2856 1079.03,-2597.98 1149.75,-2521.59 1080.32,-2270 1062.7,-2206.13 1032.12,-2140.31 1001.59,-2084.08"/>
-<polygon fill="black" stroke="black" points="1001.46,-2083.85 995.07,-2080.51 995.69,-2073.33 1002.08,-2076.66 1001.46,-2083.85"/>
+<path fill="none" stroke="black" d="M1275.49,-3517.98C1241.28,-3403.83 1156.83,-3108.82 1118.32,-2856 1079.03,-2597.98 1149.75,-2521.59 1080.32,-2270 1063.47,-2208.92 1034.77,-2146.07 1005.59,-2091.51"/>
+<polygon fill="black" stroke="black" points="1005.46,-2091.27 999.09,-2087.9 999.76,-2080.72 1006.13,-2084.09 1005.46,-2091.27"/>
 </g>
 <!-- ndProofStreamError -->
 <g id="node4" class="node">
@@ -374,8 +375,8 @@
 <!-- ndProofStreamError&#45;&gt;ndVerificationError -->
 <g id="edge12" class="edge">
 <title>ndProofStreamError&#45;&gt;ndVerificationError</title>
-<path fill="none" stroke="black" d="M614.47,-3495.34C634.12,-3367.6 675.04,-3090.83 698.32,-2856 724.08,-2596.28 666.9,-2521.59 736.32,-2270 753.95,-2206.13 784.53,-2140.31 815.06,-2084.08"/>
-<polygon fill="black" stroke="black" points="815.19,-2083.85 814.57,-2076.66 820.96,-2073.33 821.58,-2080.51 815.19,-2083.85"/>
+<path fill="none" stroke="black" d="M614.47,-3495.34C634.12,-3367.6 675.04,-3090.83 698.32,-2856 724.08,-2596.28 666.9,-2521.59 736.32,-2270 753.18,-2208.92 781.88,-2146.07 811.05,-2091.51"/>
+<polygon fill="black" stroke="black" points="811.18,-2091.27 810.52,-2084.09 816.89,-2080.72 817.56,-2087.9 811.18,-2091.27"/>
 </g>
 <!-- ndProof -->
 <g id="node28" class="node">
@@ -443,8 +444,8 @@
 <!-- ndFriSetupError&#45;&gt;ndVerificationError -->
 <g id="edge16" class="edge">
 <title>ndFriSetupError&#45;&gt;ndVerificationError</title>
-<path fill="none" stroke="black" d="M1254.57,-2498.3C1220.2,-2438.23 1165.85,-2346.29 1113.32,-2270 1101.83,-2253.3 1096.73,-2250.76 1085.32,-2234 1052.88,-2186.31 1020.01,-2132.53 991.55,-2083.83"/>
-<polygon fill="black" stroke="black" points="991.4,-2083.57 984.92,-2080.4 985.36,-2073.2 991.84,-2076.37 991.4,-2083.57"/>
+<path fill="none" stroke="black" d="M1254.57,-2498.3C1220.2,-2438.23 1165.85,-2346.29 1113.32,-2270 1101.83,-2253.3 1096.73,-2250.76 1085.32,-2234 1054.53,-2188.73 1023.35,-2137.98 995.92,-2091.29"/>
+<polygon fill="black" stroke="black" points="995.83,-2091.13 989.34,-2087.97 989.76,-2080.77 996.25,-2083.93 995.83,-2091.13"/>
 </g>
 <!-- ndFriProvingError&#45;&gt;ndProvingError -->
 <g id="edge17" class="edge">
@@ -455,8 +456,8 @@
 <!-- ndFriValidationError&#45;&gt;ndVerificationError -->
 <g id="edge18" class="edge">
 <title>ndFriValidationError&#45;&gt;ndVerificationError</title>
-<path fill="none" stroke="black" d="M908.32,-2460.83C908.32,-2359.3 908.32,-2201.7 908.32,-2085.4"/>
-<polygon fill="black" stroke="black" points="908.32,-2085.21 904.32,-2079.21 908.32,-2073.21 912.32,-2079.21 908.32,-2085.21"/>
+<path fill="none" stroke="black" d="M908.32,-2460.83C908.32,-2361.39 908.32,-2208.17 908.32,-2092.64"/>
+<polygon fill="black" stroke="black" points="908.32,-2092.52 904.32,-2086.52 908.32,-2080.52 912.32,-2086.52 908.32,-2092.52"/>
 </g>
 <!-- ndProvingError&#45;&gt;ndMasterMainTable -->
 <g id="edge19" class="edge">
@@ -547,7 +548,7 @@
 <!-- ndVerificationError&#45;&gt;ndStark -->
 <g id="edge23" class="edge">
 <title>ndVerificationError&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" d="M930.96,-1793.9C964.35,-1635.05 1042.4,-1378.34 1213.32,-1236 1331.77,-1137.36 1672.44,-1058.29 1979.59,-1004.3"/>
+<path fill="none" stroke="black" d="M932.55,-1786.41C966.8,-1627.08 1045.07,-1376.12 1213.32,-1236 1331.77,-1137.36 1672.44,-1058.29 1979.59,-1004.3"/>
 <polygon fill="black" stroke="black" points="1989.58,-1002.55 1980.51,-1008.71 1984.65,-1003.41 1979.73,-1004.27 1979.73,-1004.27 1979.73,-1004.27 1984.65,-1003.41 1978.95,-999.84 1989.58,-1002.55 1989.58,-1002.55"/>
 </g>
 <!-- ndVerifier -->
@@ -572,7 +573,7 @@
 <!-- ndVerificationError&#45;&gt;ndVerifier -->
 <g id="edge24" class="edge">
 <title>ndVerificationError&#45;&gt;ndVerifier</title>
-<path fill="none" stroke="black" d="M904.34,-1794C904.55,-1650.23 917.19,-1420.94 984.32,-1236 1085.22,-958.05 1306.27,-681.69 1422.5,-548.35"/>
+<path fill="none" stroke="black" d="M904.37,-1786.25C905.02,-1642.1 918.39,-1417.66 984.32,-1236 1085.22,-958.05 1306.27,-681.69 1422.5,-548.35"/>
 <polygon fill="black" stroke="black" points="1429.32,-540.56 1426.12,-551.05 1426.03,-544.32 1422.74,-548.08 1422.74,-548.08 1422.74,-548.08 1426.03,-544.32 1419.35,-545.12 1429.32,-540.56 1429.32,-540.56"/>
 </g>
 <!-- ndFriResponse -->
