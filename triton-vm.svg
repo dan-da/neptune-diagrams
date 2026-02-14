@@ -2445,7 +2445,7 @@
 <text text-anchor="start" x="15081.5" y="-4635.8" font-family="Arial" font-size="14.00">&#45; size: u64</text>
 <polygon fill="white" stroke="transparent" points="15070.5,-4539 15070.5,-4621 15333.5,-4621 15333.5,-4539 15070.5,-4539"/>
 <polygon fill="none" stroke="black" points="15070.5,-4539 15070.5,-4621 15333.5,-4621 15333.5,-4539 15070.5,-4539"/>
-<text text-anchor="start" x="15081.5" y="-4598.8" font-family="Arial" font-size="14.00">&#45; new(address: A, size: usize) &#45;&gt; Self</text>
+<text text-anchor="start" x="15081.5" y="-4598.8" font-family="Arial" font-size="14.00">&#45; new(address: A, size: u64) &#45;&gt; Self</text>
 <text text-anchor="start" x="15081.5" y="-4583.8" font-family="Arial" font-size="14.00">&#45; disjoint_from(self, other: &amp;Self) &#45;&gt; bool</text>
 <text text-anchor="start" x="15081.5" y="-4568.8" font-family="Arial" font-size="14.00">&#45; overlaps(self, other: &amp;Self) &#45;&gt; bool</text>
 <text text-anchor="start" x="15081.5" y="-4553.8" font-family="Arial" font-size="14.00">&#45; contains_address(self, addr: A) &#45;&gt; bool</text>
