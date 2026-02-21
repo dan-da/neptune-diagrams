@@ -36,102 +36,102 @@
 <g id="node55" class="node">
 <title>ndMasterMainTable</title>
 <g id="a_node55_1"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/table/master_table.rs#:~:text=struct%20MasterMainTable" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="444.5,-1158 444.5,-1195 1453.5,-1195 1453.5,-1158 444.5,-1158"/>
-<polygon fill="none" stroke="black" points="444.5,-1158 444.5,-1195 1453.5,-1195 1453.5,-1158 444.5,-1158"/>
-<text text-anchor="start" x="893.5" y="-1173.8" font-family="Arial" font-weight="bold" font-size="14.00">MasterMainTable</text>
-<polygon fill="white" stroke="transparent" points="444.5,-956 444.5,-1158 1453.5,-1158 1453.5,-956 444.5,-956"/>
-<polygon fill="none" stroke="black" points="444.5,-956 444.5,-1158 1453.5,-1158 1453.5,-956 444.5,-956"/>
-<text text-anchor="start" x="455.5" y="-1135.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
-<text text-anchor="start" x="455.5" y="-1120.8" font-family="Arial" font-size="14.00">&#45; program_table_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1105.8" font-family="Arial" font-size="14.00">&#45; main_execution_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1090.8" font-family="Arial" font-size="14.00">&#45; op_stack_table_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1075.8" font-family="Arial" font-size="14.00">&#45; ram_table_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1060.8" font-family="Arial" font-size="14.00">&#45; hash_coprocessor_execution_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1045.8" font-family="Arial" font-size="14.00">&#45; cascade_table_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1030.8" font-family="Arial" font-size="14.00">&#45; u32_coprocessor_execution_len: usize</text>
-<text text-anchor="start" x="455.5" y="-1015.8" font-family="Arial" font-size="14.00">&#45; domains: ProverDomains</text>
-<text text-anchor="start" x="455.5" y="-1000.8" font-family="Arial" font-size="14.00">&#45; trace_table: Array2&lt;BFieldElement&gt;</text>
-<text text-anchor="start" x="455.5" y="-985.8" font-family="Arial" font-size="14.00">&#45; trace_randomizer_seed: &lt;StdRng as SeedableRng&gt;::Seed</text>
-<text text-anchor="start" x="455.5" y="-970.8" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table: Option&lt;Array2&lt;BFieldElement&gt;&gt;</text>
-<polygon fill="white" stroke="transparent" points="444.5,-649 444.5,-956 1453.5,-956 1453.5,-649 444.5,-649"/>
-<polygon fill="none" stroke="black" points="444.5,-649 444.5,-956 1453.5,-956 1453.5,-649 444.5,-649"/>
-<text text-anchor="start" x="455.5" y="-933.8" font-family="Arial" font-size="14.00">&#45; domains(&amp;self) &#45;&gt; ProverDomains</text>
-<text text-anchor="start" x="455.5" y="-918.8" font-family="Arial" font-size="14.00">&#45; trace_table(&amp;self) &#45;&gt; ArrayView2&lt;&#39;_, BFieldElement&gt;</text>
-<text text-anchor="start" x="455.5" y="-903.8" font-family="Arial" font-size="14.00">&#45; trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;&#39;_, BFieldElement&gt;</text>
-<text text-anchor="start" x="455.5" y="-888.8" font-family="Arial" font-size="14.00">&#45; quotient_domain_table(&amp;self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, BFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="455.5" y="-873.8" font-family="Arial" font-size="14.00">&#45; memoize_low_degree_extended_table(&amp;mut self, low_degree_extended_columns: Array2&lt;BFieldElement&gt;)</text>
-<text text-anchor="start" x="455.5" y="-858.8" font-family="Arial" font-size="14.00">&#45; clear_cache(&amp;mut self)</text>
-<text text-anchor="start" x="455.5" y="-843.8" font-family="Arial" font-size="14.00">&#45; ldt_domain_table(&amp;self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, BFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="455.5" y="-828.8" font-family="Arial" font-size="14.00">&#45; trace_randomizer_seed(&amp;self) &#45;&gt; &lt;StdRng as SeedableRng&gt;::Seed</text>
-<text text-anchor="start" x="455.5" y="-813.8" font-family="Arial" font-size="14.00">&#45; num_trace_randomizers(&amp;self) &#45;&gt; usize</text>
-<text text-anchor="start" x="455.5" y="-798.8" font-family="Arial" font-size="14.00">&#45; new(aet: &amp;AlgebraicExecutionTrace, domains: ProverDomains, num_trace_randomizers: usize, trace_randomizer_seed: &lt;StdRng as SeedableRng&gt;::Seed) &#45;&gt; Self</text>
-<text text-anchor="start" x="455.5" y="-783.8" font-family="Arial" font-size="14.00">&#45; pad(&amp;mut self)</text>
-<text text-anchor="start" x="455.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; all_table_lengths(&amp;self) &#45;&gt; [usize; TableId::COUNT]</text>
-<text text-anchor="start" x="455.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; extend(&amp;self, challenges: &amp;Challenges) &#45;&gt; MasterAuxTable</text>
-<text text-anchor="start" x="455.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; all_extend_functions() &#45;&gt; [ExtendFunction; TableId::COUNT]</text>
-<text text-anchor="start" x="455.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; main_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;&#39;_, BFieldElement&gt;; TableId::COUNT]</text>
-<text text-anchor="start" x="455.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; column_indices_for_table(id: TableId) &#45;&gt; Range&lt;usize&gt;</text>
-<text text-anchor="start" x="455.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; table(&amp;self, table_id: TableId) &#45;&gt; ArrayView2&lt;&#39;_, BFieldElement&gt;</text>
-<text text-anchor="start" x="455.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; table_mut(&amp;mut self, table_id: TableId) &#45;&gt; ArrayViewMut2&lt;&#39;_, BFieldElement&gt;</text>
-<text text-anchor="start" x="455.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; try_to_main_row(row: Array1&lt;T&gt;) &#45;&gt; Result&lt;MainRow&lt;T&gt;, ProvingError&gt;</text>
-<polygon fill="none" stroke="black" points="443,-648 443,-1196 1454,-1196 1454,-648 443,-648"/>
+<polygon fill="lightblue" stroke="transparent" points="468.5,-1158 468.5,-1195 1477.5,-1195 1477.5,-1158 468.5,-1158"/>
+<polygon fill="none" stroke="black" points="468.5,-1158 468.5,-1195 1477.5,-1195 1477.5,-1158 468.5,-1158"/>
+<text text-anchor="start" x="917.5" y="-1173.8" font-family="Arial" font-weight="bold" font-size="14.00">MasterMainTable</text>
+<polygon fill="white" stroke="transparent" points="468.5,-956 468.5,-1158 1477.5,-1158 1477.5,-956 468.5,-956"/>
+<polygon fill="none" stroke="black" points="468.5,-956 468.5,-1158 1477.5,-1158 1477.5,-956 468.5,-956"/>
+<text text-anchor="start" x="479.5" y="-1135.8" font-family="Arial" font-size="14.00">+ num_trace_randomizers: usize</text>
+<text text-anchor="start" x="479.5" y="-1120.8" font-family="Arial" font-size="14.00">&#45; program_table_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1105.8" font-family="Arial" font-size="14.00">&#45; main_execution_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1090.8" font-family="Arial" font-size="14.00">&#45; op_stack_table_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1075.8" font-family="Arial" font-size="14.00">&#45; ram_table_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1060.8" font-family="Arial" font-size="14.00">&#45; hash_coprocessor_execution_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1045.8" font-family="Arial" font-size="14.00">&#45; cascade_table_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1030.8" font-family="Arial" font-size="14.00">&#45; u32_coprocessor_execution_len: usize</text>
+<text text-anchor="start" x="479.5" y="-1015.8" font-family="Arial" font-size="14.00">&#45; domains: ProverDomains</text>
+<text text-anchor="start" x="479.5" y="-1000.8" font-family="Arial" font-size="14.00">&#45; trace_table: Array2&lt;BFieldElement&gt;</text>
+<text text-anchor="start" x="479.5" y="-985.8" font-family="Arial" font-size="14.00">&#45; trace_randomizer_seed: &lt;StdRng as SeedableRng&gt;::Seed</text>
+<text text-anchor="start" x="479.5" y="-970.8" font-family="Arial" font-size="14.00">&#45; low_degree_extended_table: Option&lt;Array2&lt;BFieldElement&gt;&gt;</text>
+<polygon fill="white" stroke="transparent" points="468.5,-649 468.5,-956 1477.5,-956 1477.5,-649 468.5,-649"/>
+<polygon fill="none" stroke="black" points="468.5,-649 468.5,-956 1477.5,-956 1477.5,-649 468.5,-649"/>
+<text text-anchor="start" x="479.5" y="-933.8" font-family="Arial" font-size="14.00">&#45; domains(&amp;self) &#45;&gt; ProverDomains</text>
+<text text-anchor="start" x="479.5" y="-918.8" font-family="Arial" font-size="14.00">&#45; trace_table(&amp;self) &#45;&gt; ArrayView2&lt;&#39;_, BFieldElement&gt;</text>
+<text text-anchor="start" x="479.5" y="-903.8" font-family="Arial" font-size="14.00">&#45; trace_table_mut(&amp;mut self) &#45;&gt; ArrayViewMut2&lt;&#39;_, BFieldElement&gt;</text>
+<text text-anchor="start" x="479.5" y="-888.8" font-family="Arial" font-size="14.00">&#45; quotient_domain_table(&amp;self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, BFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="479.5" y="-873.8" font-family="Arial" font-size="14.00">&#45; memoize_low_degree_extended_table(&amp;mut self, low_degree_extended_columns: Array2&lt;BFieldElement&gt;)</text>
+<text text-anchor="start" x="479.5" y="-858.8" font-family="Arial" font-size="14.00">&#45; clear_cache(&amp;mut self)</text>
+<text text-anchor="start" x="479.5" y="-843.8" font-family="Arial" font-size="14.00">&#45; ldt_domain_table(&amp;self) &#45;&gt; Option&lt;ArrayView2&lt;&#39;_, BFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="479.5" y="-828.8" font-family="Arial" font-size="14.00">&#45; trace_randomizer_seed(&amp;self) &#45;&gt; &lt;StdRng as SeedableRng&gt;::Seed</text>
+<text text-anchor="start" x="479.5" y="-813.8" font-family="Arial" font-size="14.00">&#45; num_trace_randomizers(&amp;self) &#45;&gt; usize</text>
+<text text-anchor="start" x="479.5" y="-798.8" font-family="Arial" font-size="14.00">&#45; new(aet: &amp;AlgebraicExecutionTrace, domains: ProverDomains, num_trace_randomizers: usize, trace_randomizer_seed: &lt;StdRng as SeedableRng&gt;::Seed) &#45;&gt; Self</text>
+<text text-anchor="start" x="479.5" y="-783.8" font-family="Arial" font-size="14.00">&#45; pad(&amp;mut self)</text>
+<text text-anchor="start" x="479.5" y="-768.8" font-family="Arial" font-size="14.00">&#45; all_table_lengths(&amp;self) &#45;&gt; [usize; TableId::COUNT]</text>
+<text text-anchor="start" x="479.5" y="-753.8" font-family="Arial" font-size="14.00">&#45; extend(&amp;self, challenges: &amp;Challenges) &#45;&gt; MasterAuxTable</text>
+<text text-anchor="start" x="479.5" y="-738.8" font-family="Arial" font-size="14.00">&#45; all_extend_functions() &#45;&gt; [ExtendFunction; TableId::COUNT]</text>
+<text text-anchor="start" x="479.5" y="-723.8" font-family="Arial" font-size="14.00">&#45; main_tables_for_extending(&amp;self) &#45;&gt; [ArrayView2&lt;&#39;_, BFieldElement&gt;; TableId::COUNT]</text>
+<text text-anchor="start" x="479.5" y="-708.8" font-family="Arial" font-size="14.00">&#45; column_indices_for_table(id: TableId) &#45;&gt; Range&lt;usize&gt;</text>
+<text text-anchor="start" x="479.5" y="-693.8" font-family="Arial" font-size="14.00">&#45; table(&amp;self, table_id: TableId) &#45;&gt; ArrayView2&lt;&#39;_, BFieldElement&gt;</text>
+<text text-anchor="start" x="479.5" y="-678.8" font-family="Arial" font-size="14.00">&#45; table_mut(&amp;mut self, table_id: TableId) &#45;&gt; ArrayViewMut2&lt;&#39;_, BFieldElement&gt;</text>
+<text text-anchor="start" x="479.5" y="-663.8" font-family="Arial" font-size="14.00">&#45; try_to_main_row(row: Array1&lt;T&gt;) &#45;&gt; Result&lt;MainRow&lt;T&gt;, ProvingError&gt;</text>
+<polygon fill="none" stroke="black" points="467,-648 467,-1196 1478,-1196 1478,-648 467,-648"/>
 </a>
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndMasterMainTable -->
 <g id="edge1" class="edge">
 <title>ndChallenges&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1607.83,-1325.93C1564.9,-1296.27 1517.67,-1264.35 1473.5,-1236 1457.72,-1225.87 1441.62,-1215.65 1425.31,-1205.39"/>
-<polygon fill="black" stroke="black" points="1416.77,-1200.03 1427.63,-1201.54 1421,-1202.69 1425.24,-1205.35 1425.24,-1205.35 1425.24,-1205.35 1421,-1202.69 1422.85,-1209.16 1416.77,-1200.03 1416.77,-1200.03"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1606.35,-1325.76C1563.71,-1296.33 1517,-1264.57 1473.5,-1236 1458.31,-1226.02 1442.82,-1215.93 1427.15,-1205.78"/>
+<polygon fill="black" stroke="black" points="1418.43,-1200.14 1429.27,-1201.79 1422.63,-1202.85 1426.83,-1205.57 1426.83,-1205.57 1426.83,-1205.57 1422.63,-1202.85 1424.38,-1209.35 1418.43,-1200.14 1418.43,-1200.14"/>
 </g>
 <!-- ndProofArtifacts -->
 <g id="node62" class="node">
 <title>ndProofArtifacts</title>
 <g id="a_node62_2"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/shared_tests.rs#:~:text=struct%20ProofArtifacts" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="849.5,-487 849.5,-524 1112.5,-524 1112.5,-487 849.5,-487"/>
-<polygon fill="none" stroke="black" points="849.5,-487 849.5,-524 1112.5,-524 1112.5,-487 849.5,-487"/>
-<text text-anchor="start" x="935.5" y="-502.8" font-family="Arial" font-weight="bold" font-size="14.00">ProofArtifacts</text>
-<polygon fill="white" stroke="transparent" points="849.5,-405 849.5,-487 1112.5,-487 1112.5,-405 849.5,-405"/>
-<polygon fill="none" stroke="black" points="849.5,-405 849.5,-487 1112.5,-487 1112.5,-405 849.5,-405"/>
-<text text-anchor="start" x="860.5" y="-464.8" font-family="Arial" font-size="14.00">+ claim: Claim</text>
-<text text-anchor="start" x="860.5" y="-449.8" font-family="Arial" font-size="14.00">+ master_main_table: MasterMainTable</text>
-<text text-anchor="start" x="860.5" y="-434.8" font-family="Arial" font-size="14.00">+ master_aux_table: MasterAuxTable</text>
-<text text-anchor="start" x="860.5" y="-419.8" font-family="Arial" font-size="14.00">+ challenges: Challenges</text>
-<polygon fill="none" stroke="black" points="848,-404.5 848,-525.5 1113,-525.5 1113,-404.5 848,-404.5"/>
+<polygon fill="lightblue" stroke="transparent" points="924.5,-487 924.5,-524 1187.5,-524 1187.5,-487 924.5,-487"/>
+<polygon fill="none" stroke="black" points="924.5,-487 924.5,-524 1187.5,-524 1187.5,-487 924.5,-487"/>
+<text text-anchor="start" x="1010.5" y="-502.8" font-family="Arial" font-weight="bold" font-size="14.00">ProofArtifacts</text>
+<polygon fill="white" stroke="transparent" points="924.5,-405 924.5,-487 1187.5,-487 1187.5,-405 924.5,-405"/>
+<polygon fill="none" stroke="black" points="924.5,-405 924.5,-487 1187.5,-487 1187.5,-405 924.5,-405"/>
+<text text-anchor="start" x="935.5" y="-464.8" font-family="Arial" font-size="14.00">+ claim: Claim</text>
+<text text-anchor="start" x="935.5" y="-449.8" font-family="Arial" font-size="14.00">+ master_main_table: MasterMainTable</text>
+<text text-anchor="start" x="935.5" y="-434.8" font-family="Arial" font-size="14.00">+ master_aux_table: MasterAuxTable</text>
+<text text-anchor="start" x="935.5" y="-419.8" font-family="Arial" font-size="14.00">+ challenges: Challenges</text>
+<polygon fill="none" stroke="black" points="923,-404.5 923,-525.5 1188,-525.5 1188,-404.5 923,-404.5"/>
 </a>
 </g>
 </g>
 <!-- ndChallenges&#45;&gt;ndProofArtifacts -->
 <g id="edge2" class="edge">
 <title>ndChallenges&#45;&gt;ndProofArtifacts</title>
-<path fill="none" stroke="black" d="M1761.66,-1325.85C1765.44,-1153.81 1744.98,-813.42 1542.5,-644 1472.01,-585.02 1214.32,-645.69 1130.5,-608 1095.68,-592.34 1063.88,-565.15 1038.61,-538.72"/>
-<polygon fill="black" stroke="black" points="1038.48,-538.58 1031.46,-536.92 1030.29,-529.81 1037.31,-531.47 1038.48,-538.58"/>
+<path fill="none" stroke="black" d="M1764.94,-1325.78C1773.98,-1154.42 1763.78,-816 1566.5,-644 1505.57,-590.87 1277.97,-641.72 1204.5,-608 1169.92,-592.13 1138.34,-564.9 1113.23,-538.51"/>
+<polygon fill="black" stroke="black" points="1113.13,-538.4 1106.12,-536.72 1104.97,-529.6 1111.98,-531.28 1113.13,-538.4"/>
 </g>
 <!-- ndProver -->
 <g id="node81" class="node">
 <title>ndProver</title>
 <g id="a_node81_3"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20Prover" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="1148.5,-566 1148.5,-603 2916.5,-603 2916.5,-566 1148.5,-566"/>
-<polygon fill="none" stroke="black" points="1148.5,-566 1148.5,-603 2916.5,-603 2916.5,-566 1148.5,-566"/>
-<text text-anchor="start" x="2011" y="-581.8" font-family="Arial" font-weight="bold" font-size="14.00">Prover</text>
-<polygon fill="white" stroke="transparent" points="1148.5,-514 1148.5,-566 2916.5,-566 2916.5,-514 1148.5,-514"/>
-<polygon fill="none" stroke="black" points="1148.5,-514 1148.5,-566 2916.5,-566 2916.5,-514 1148.5,-514"/>
-<text text-anchor="start" x="1159.5" y="-543.8" font-family="Arial" font-size="14.00">&#45; parameters: Stark</text>
-<text text-anchor="start" x="1159.5" y="-528.8" font-family="Arial" font-size="14.00">&#45; randomness_seed: &lt;StdRng as SeedableRng&gt;::Seed</text>
-<polygon fill="white" stroke="transparent" points="1148.5,-327 1148.5,-514 2916.5,-514 2916.5,-327 1148.5,-327"/>
-<polygon fill="none" stroke="black" points="1148.5,-327 1148.5,-514 2916.5,-514 2916.5,-327 1148.5,-327"/>
-<text text-anchor="start" x="1159.5" y="-491.8" font-family="Arial" font-size="14.00">&#45; new(parameters: Stark) &#45;&gt; Self</text>
-<text text-anchor="start" x="1159.5" y="-476.8" font-family="Arial" font-size="14.00">&#45; set_randomness_seed_which_may_break_zero_knowledge(mut self, seed: &lt;StdRng as SeedableRng&gt;::Seed) &#45;&gt; Self</text>
-<text text-anchor="start" x="1159.5" y="-461.8" font-family="Arial" font-size="14.00">&#45; prove(self, claim: &amp;Claim, aet: &amp;AlgebraicExecutionTrace) &#45;&gt; Result&lt;Proof, ProvingError&gt;</text>
-<text text-anchor="start" x="1159.5" y="-446.8" font-family="Arial" font-size="14.00">&#45; compute_quotient_segments(main_table: &amp;mut MasterMainTable, aux_table: &amp;mut MasterAuxTable, quotient_domain: ArithmeticDomain, challenges: &amp;Challenges, quotient_combination_weights: &amp;[XFieldElement]) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
-<text text-anchor="start" x="1159.5" y="-431.8" font-family="Arial" font-size="14.00">&#45; compute_quotient_segments_with_jit_lde(main_table: &amp;mut MasterMainTable, aux_table: &amp;mut MasterAuxTable, challenges: &amp;Challenges, quotient_combination_weights: &amp;[XFieldElement]) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
-<text text-anchor="start" x="1159.5" y="-416.8" font-family="Arial" font-size="14.00">&#45; segmentify(quotient_multicoset_evaluations: Array2&lt;XFieldElement&gt;, psi: BFieldElement, iota: BFieldElement, ldt_domain: ArithmeticDomain) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
-<text text-anchor="start" x="1159.5" y="-401.8" font-family="Arial" font-size="14.00">&#45; interpolate_quotient_segments(quotient_codeword: Array1&lt;XFieldElement&gt;, quotient_domain: ArithmeticDomain) &#45;&gt; Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;</text>
-<text text-anchor="start" x="1159.5" y="-386.8" font-family="Arial" font-size="14.00">&#45; split_polynomial_into_segments(polynomial: Polynomial&lt;FF&gt;) &#45;&gt; [Polynomial&lt;&#39;static, FF&gt;; N]</text>
-<text text-anchor="start" x="1159.5" y="-371.8" font-family="Arial" font-size="14.00">&#45; ldt_domain_segment_polynomials(quotient_segment_polynomials: ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;, ldt_domain: ArithmeticDomain) &#45;&gt; Array2&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1159.5" y="-356.8" font-family="Arial" font-size="14.00">&#45; deep_codeword(codeword: &amp;[XFieldElement], domain: ArithmeticDomain, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
-<text text-anchor="start" x="1159.5" y="-341.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
-<polygon fill="none" stroke="black" points="1147.5,-326 1147.5,-604 2917.5,-604 2917.5,-326 1147.5,-326"/>
+<polygon fill="lightblue" stroke="transparent" points="1223.5,-566 1223.5,-603 2842.5,-603 2842.5,-566 1223.5,-566"/>
+<polygon fill="none" stroke="black" points="1223.5,-566 1223.5,-603 2842.5,-603 2842.5,-566 1223.5,-566"/>
+<text text-anchor="start" x="2011.5" y="-581.8" font-family="Arial" font-weight="bold" font-size="14.00">Prover</text>
+<polygon fill="white" stroke="transparent" points="1223.5,-514 1223.5,-566 2842.5,-566 2842.5,-514 1223.5,-514"/>
+<polygon fill="none" stroke="black" points="1223.5,-514 1223.5,-566 2842.5,-566 2842.5,-514 1223.5,-514"/>
+<text text-anchor="start" x="1234.5" y="-543.8" font-family="Arial" font-size="14.00">&#45; parameters: Stark</text>
+<text text-anchor="start" x="1234.5" y="-528.8" font-family="Arial" font-size="14.00">&#45; randomness_seed: &lt;StdRng as SeedableRng&gt;::Seed</text>
+<polygon fill="white" stroke="transparent" points="1223.5,-327 1223.5,-514 2842.5,-514 2842.5,-327 1223.5,-327"/>
+<polygon fill="none" stroke="black" points="1223.5,-327 1223.5,-514 2842.5,-514 2842.5,-327 1223.5,-327"/>
+<text text-anchor="start" x="1234.5" y="-491.8" font-family="Arial" font-size="14.00">&#45; new(parameters: Stark) &#45;&gt; Self</text>
+<text text-anchor="start" x="1234.5" y="-476.8" font-family="Arial" font-size="14.00">&#45; set_randomness_seed_which_may_break_zero_knowledge(mut self, seed: &lt;StdRng as SeedableRng&gt;::Seed) &#45;&gt; Self</text>
+<text text-anchor="start" x="1234.5" y="-461.8" font-family="Arial" font-size="14.00">&#45; prove(self, claim: &amp;Claim, aet: &amp;AlgebraicExecutionTrace) &#45;&gt; Result&lt;Proof, ProvingError&gt;</text>
+<text text-anchor="start" x="1234.5" y="-446.8" font-family="Arial" font-size="14.00">&#45; compute_quotient_segments(main_table: &amp;mut MasterMainTable, aux_table: &amp;mut MasterAuxTable, challenges: &amp;Challenges, quotient_combination_weights: &amp;[XFieldElement]) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
+<text text-anchor="start" x="1234.5" y="-431.8" font-family="Arial" font-size="14.00">&#45; compute_quotient_segments_with_jit_lde(main_table: &amp;mut MasterMainTable, aux_table: &amp;mut MasterAuxTable, challenges: &amp;Challenges, quotient_combination_weights: &amp;[XFieldElement]) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
+<text text-anchor="start" x="1234.5" y="-416.8" font-family="Arial" font-size="14.00">&#45; segmentify(quotient_multicoset_evaluations: Array2&lt;XFieldElement&gt;, psi: BFieldElement, iota: BFieldElement, ldt_domain: ArithmeticDomain) &#45;&gt; (Array2&lt;XFieldElement&gt;, Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;)</text>
+<text text-anchor="start" x="1234.5" y="-401.8" font-family="Arial" font-size="14.00">&#45; interpolate_quotient_segments(quotient_codeword: Array1&lt;XFieldElement&gt;, quotient_domain: ArithmeticDomain) &#45;&gt; Array1&lt;Polynomial&lt;&#39;static, XFieldElement&gt;&gt;</text>
+<text text-anchor="start" x="1234.5" y="-386.8" font-family="Arial" font-size="14.00">&#45; split_polynomial_into_segments(polynomial: Polynomial&lt;FF&gt;) &#45;&gt; [Polynomial&lt;&#39;static, FF&gt;; N]</text>
+<text text-anchor="start" x="1234.5" y="-371.8" font-family="Arial" font-size="14.00">&#45; ldt_domain_segment_polynomials(quotient_segment_polynomials: ArrayView1&lt;Polynomial&lt;XFieldElement&gt;&gt;, ldt_domain: ArithmeticDomain) &#45;&gt; Array2&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1234.5" y="-356.8" font-family="Arial" font-size="14.00">&#45; deep_codeword(codeword: &amp;[XFieldElement], domain: ArithmeticDomain, out_of_domain_point: XFieldElement, out_of_domain_value: XFieldElement) &#45;&gt; Vec&lt;XFieldElement&gt;</text>
+<text text-anchor="start" x="1234.5" y="-341.8" font-family="Arial" font-size="14.00">&#45; default() &#45;&gt; Self</text>
+<polygon fill="none" stroke="black" points="1222,-326 1222,-604 2843,-604 2843,-326 1222,-326"/>
 </a>
 </g>
 </g>
@@ -519,8 +519,8 @@
 <!-- ndProvingError&#45;&gt;ndMasterMainTable -->
 <g id="edge18" class="edge">
 <title>ndProvingError&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" d="M1559.7,-1756.89C1523.06,-1717.75 1481.11,-1671.17 1445.5,-1627 1338.11,-1493.79 1227.49,-1339.1 1137.95,-1208.71"/>
-<polygon fill="black" stroke="black" points="1132.08,-1200.16 1141.45,-1205.86 1134.91,-1204.28 1137.74,-1208.4 1137.74,-1208.4 1137.74,-1208.4 1134.91,-1204.28 1134.03,-1210.95 1132.08,-1200.16 1132.08,-1200.16"/>
+<path fill="none" stroke="black" d="M1558.67,-1756.76C1522.07,-1717.79 1480.43,-1671.37 1445.5,-1627 1341.11,-1494.4 1235.39,-1339.43 1150.45,-1208.69"/>
+<polygon fill="black" stroke="black" points="1144.88,-1200.12 1154.1,-1206.06 1147.61,-1204.31 1150.33,-1208.51 1150.33,-1208.51 1150.33,-1208.51 1147.61,-1204.31 1146.55,-1210.96 1144.88,-1200.12 1144.88,-1200.12"/>
 </g>
 <!-- ndMasterAuxTable -->
 <g id="node56" class="node">
@@ -1797,8 +1797,8 @@
 <!-- ndProof&#45;&gt;ndProver -->
 <g id="edge70" class="edge">
 <title>ndProof&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" d="M2697.41,-3312.67C2676.99,-3112.01 2627.66,-2545.35 2666.5,-2076 2667.84,-2059.83 2670.78,-2056.13 2672.5,-2040 2677.24,-1995.54 2679.6,-1268.33 2710.5,-1236 2770.33,-1173.4 3040.17,-1264 3098.5,-1200 3140.12,-1154.34 3138.42,-691.14 3098.5,-644 3068.41,-608.47 3009.93,-580.03 2935.19,-557.26"/>
-<polygon fill="black" stroke="black" points="2925.51,-554.37 2936.38,-552.92 2930.3,-555.8 2935.09,-557.23 2935.09,-557.23 2935.09,-557.23 2930.3,-555.8 2933.8,-561.54 2925.51,-554.37 2925.51,-554.37"/>
+<path fill="none" stroke="black" d="M2697.41,-3312.67C2676.99,-3112.01 2627.66,-2545.35 2666.5,-2076 2667.84,-2059.83 2670.78,-2056.13 2672.5,-2040 2677.24,-1995.54 2679.6,-1268.33 2710.5,-1236 2770.33,-1173.4 3040.17,-1264 3098.5,-1200 3140.12,-1154.34 3138.42,-691.14 3098.5,-644 3059.07,-597.44 2970.87,-563.05 2861.23,-537.65"/>
+<polygon fill="black" stroke="black" points="2851.24,-535.37 2861.99,-533.2 2856.12,-536.48 2860.99,-537.59 2860.99,-537.59 2860.99,-537.59 2856.12,-536.48 2859.99,-541.98 2851.24,-535.37 2851.24,-535.37"/>
 </g>
 <!-- ndProof&#45;&gt;ndVerifier -->
 <g id="edge71" class="edge">
@@ -1839,8 +1839,8 @@
 <!-- ndClaim&#45;&gt;ndProofArtifacts -->
 <g id="edge73" class="edge">
 <title>ndClaim&#45;&gt;ndProofArtifacts</title>
-<path fill="none" stroke="black" d="M1978.52,-1738.5C1941.84,-1709.16 1899.36,-1680.8 1855.5,-1663 1785.3,-1634.51 1568.46,-1682.13 1516.5,-1627 1441.5,-1547.44 1545.51,-723.55 1470.5,-644 1418.38,-588.72 1199.51,-639.79 1130.5,-608 1095.83,-592.02 1064.05,-564.78 1038.76,-538.4"/>
-<polygon fill="black" stroke="black" points="1038.63,-538.26 1031.61,-536.61 1030.43,-529.5 1037.45,-531.15 1038.63,-538.26"/>
+<path fill="none" stroke="black" d="M1978.52,-1738.5C1941.84,-1709.16 1899.36,-1680.8 1855.5,-1663 1785.3,-1634.51 1567.79,-1682.76 1516.5,-1627 1442.54,-1546.59 1567.75,-725.06 1494.5,-644 1450.96,-595.82 1263.19,-635.8 1204.5,-608 1170.26,-591.78 1138.83,-564.64 1113.75,-538.41"/>
+<polygon fill="black" stroke="black" points="1113.68,-538.34 1106.66,-536.68 1105.49,-529.57 1112.51,-531.22 1113.68,-538.34"/>
 </g>
 <!-- ndClaim&#45;&gt;ndStark -->
 <g id="edge74" class="edge">
@@ -2062,8 +2062,8 @@
 <!-- ndMasterTable&#45;&gt;ndMasterMainTable -->
 <g id="edge86" class="edge">
 <title>ndMasterTable&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1108.97,-1704.24C1121.38,-1578.5 1129.35,-1393.15 1094.5,-1236 1092.59,-1227.39 1090.42,-1218.73 1088.02,-1210.06"/>
-<polygon fill="none" stroke="black" points="1091.33,-1208.93 1085.22,-1200.28 1084.6,-1210.85 1091.33,-1208.93"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1106.41,-1704.45C1117.2,-1579.06 1124.22,-1394.06 1094.5,-1236 1092.88,-1227.36 1091.02,-1218.65 1088.96,-1209.91"/>
+<polygon fill="none" stroke="black" points="1092.33,-1208.92 1086.56,-1200.03 1085.52,-1210.58 1092.33,-1208.92"/>
 </g>
 <!-- ndMasterTable&#45;&gt;ndMasterAuxTable -->
 <g id="edge87" class="edge">
@@ -2095,32 +2095,32 @@
 <!-- ndMasterMainTable&#45;&gt;ndProofArtifacts -->
 <g id="edge88" class="edge">
 <title>ndMasterMainTable&#45;&gt;ndProofArtifacts</title>
-<path fill="none" stroke="black" d="M967.99,-643.87C970.62,-606.53 973.11,-571.06 975.17,-541.76"/>
-<polygon fill="black" stroke="black" points="975.19,-541.57 971.62,-535.3 976.03,-529.6 979.6,-535.86 975.19,-541.57"/>
+<path fill="none" stroke="black" d="M1023.05,-643.87C1029.87,-606.53 1036.34,-571.06 1041.68,-541.76"/>
+<polygon fill="black" stroke="black" points="1041.75,-541.4 1038.89,-534.78 1043.9,-529.6 1046.76,-536.22 1041.75,-541.4"/>
 </g>
 <!-- ndMasterMainTable&#45;&gt;ndProver -->
 <g id="edge89" class="edge">
 <title>ndMasterMainTable&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1462.13,-650.08C1466.94,-648.03 1471.73,-646 1476.5,-644 1502.96,-632.92 1530.36,-622.12 1558.18,-611.66"/>
-<polygon fill="black" stroke="black" points="1567.63,-608.13 1559.84,-615.85 1562.94,-609.88 1558.26,-611.63 1558.26,-611.63 1558.26,-611.63 1562.94,-609.88 1556.68,-607.42 1567.63,-608.13 1567.63,-608.13"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1486.17,-650.17C1490.96,-648.09 1495.74,-646.03 1500.5,-644 1526.35,-632.98 1553.12,-622.18 1580.29,-611.7"/>
+<polygon fill="black" stroke="black" points="1589.92,-608.01 1582.19,-615.79 1585.25,-609.8 1580.58,-611.59 1580.58,-611.59 1580.58,-611.59 1585.25,-609.8 1578.97,-607.39 1589.92,-608.01 1589.92,-608.01"/>
 </g>
 <!-- ndMasterAuxTable&#45;&gt;ndMasterMainTable -->
 <g id="edge90" class="edge">
 <title>ndMasterAuxTable&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" d="M811.54,-1250.86C817.15,-1237.42 822.89,-1223.68 828.69,-1209.81"/>
-<polygon fill="black" stroke="black" points="832.71,-1200.18 833.01,-1211.14 830.78,-1204.79 828.86,-1209.41 828.86,-1209.41 828.86,-1209.41 830.78,-1204.79 824.71,-1207.67 832.71,-1200.18 832.71,-1200.18"/>
+<path fill="none" stroke="black" d="M820.04,-1250.86C826.35,-1237.29 832.8,-1223.42 839.31,-1209.41"/>
+<polygon fill="black" stroke="black" points="843.6,-1200.18 843.47,-1211.15 841.5,-1204.71 839.39,-1209.25 839.39,-1209.25 839.39,-1209.25 841.5,-1204.71 835.31,-1207.35 843.6,-1200.18 843.6,-1200.18"/>
 </g>
 <!-- ndMasterAuxTable&#45;&gt;ndProofArtifacts -->
 <g id="edge91" class="edge">
 <title>ndMasterAuxTable&#45;&gt;ndProofArtifacts</title>
-<path fill="none" stroke="black" d="M427.2,-1250.76C413.91,-1234.98 402.15,-1218.08 392.5,-1200 276.15,-981.99 245.24,-842.44 392.5,-644 444.65,-573.72 671.55,-520.4 827.74,-491.18"/>
-<polygon fill="black" stroke="black" points="828,-491.13 833.17,-486.1 839.8,-488.94 834.63,-493.97 828,-491.13"/>
+<path fill="none" stroke="black" d="M449.89,-1250.7C437.04,-1234.87 425.71,-1217.98 416.5,-1200 303.86,-980.05 267.04,-840.79 416.5,-644 475.13,-566.81 732.94,-514.17 902.65,-487.17"/>
+<polygon fill="black" stroke="black" points="902.85,-487.14 908.16,-482.25 914.71,-485.27 909.4,-490.15 902.85,-487.14"/>
 </g>
 <!-- ndMasterAuxTable&#45;&gt;ndProver -->
 <g id="edge92" class="edge">
 <title>ndMasterAuxTable&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M458.51,-1250.86C445.78,-1234.96 434.57,-1218.01 425.5,-1200 369.93,-1089.65 340.39,-733.57 425.5,-644 451.26,-616.89 1034.45,-612.42 1129.26,-607.65"/>
-<polygon fill="black" stroke="black" points="1139.28,-606.97 1129.61,-612.14 1134.3,-607.31 1129.31,-607.65 1129.31,-607.65 1129.31,-607.65 1134.3,-607.31 1129,-603.16 1139.28,-606.97 1139.28,-606.97"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M480.95,-1250.72C468.76,-1234.78 458.06,-1217.86 449.5,-1200 396.08,-1088.59 364.24,-733.42 449.5,-644 477.23,-614.91 1105.16,-612.7 1203.78,-607.68"/>
+<polygon fill="black" stroke="black" points="1213.76,-606.98 1204.1,-612.16 1208.77,-607.33 1203.78,-607.67 1203.78,-607.67 1203.78,-607.67 1208.77,-607.33 1203.47,-603.19 1213.76,-606.98 1213.76,-606.98"/>
 </g>
 <!-- ndU32TableEntry -->
 <g id="node57" class="node">
@@ -2218,8 +2218,8 @@
 <!-- ndProofArtifacts&#45;&gt;ndTestableProgram -->
 <g id="edge96" class="edge">
 <title>ndProofArtifacts&#45;&gt;ndTestableProgram</title>
-<path fill="none" stroke="black" d="M1028.88,-400.34C1055.32,-370.76 1090.77,-338.52 1130.5,-322 1396.78,-211.27 5760.51,-157.58 6803.76,-146.29"/>
-<polygon fill="black" stroke="black" points="6814,-146.18 6804.05,-150.79 6809,-146.23 6804,-146.29 6804,-146.29 6804,-146.29 6809,-146.23 6803.95,-141.79 6814,-146.18 6814,-146.18"/>
+<path fill="none" stroke="black" d="M1103.48,-400.36C1129.73,-370.77 1164.94,-338.54 1204.5,-322 1466.98,-212.27 5768.02,-157.9 6803.55,-146.36"/>
+<polygon fill="black" stroke="black" points="6813.71,-146.25 6803.76,-150.86 6808.71,-146.3 6803.71,-146.36 6803.71,-146.36 6803.71,-146.36 6808.71,-146.3 6803.66,-141.86 6813.71,-146.25 6813.71,-146.25"/>
 </g>
 <!-- ndDigestCorruptor -->
 <g id="node63" class="node">
@@ -2318,8 +2318,8 @@
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndMasterMainTable -->
 <g id="edge99" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7474.24,-2173.39C7397.13,-2133.38 7312.73,-2097.22 7229.5,-2076 7157.24,-2057.58 1915.64,-2090.2 1860.5,-2040 1798.24,-1983.32 1881.87,-1722.71 1822.5,-1663 1769.24,-1609.44 1545.09,-1672.1 1484.5,-1627 1333.34,-1514.48 1432.17,-1387.8 1320.5,-1236 1313.56,-1226.57 1306.29,-1217.25 1298.73,-1208.04"/>
-<polygon fill="black" stroke="black" points="1292.32,-1200.34 1302.17,-1205.14 1295.51,-1204.18 1298.71,-1208.02 1298.71,-1208.02 1298.71,-1208.02 1295.51,-1204.18 1295.26,-1210.9 1292.32,-1200.34 1292.32,-1200.34"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7474.24,-2173.39C7397.13,-2133.38 7312.73,-2097.22 7229.5,-2076 7157.24,-2057.58 1915.64,-2090.2 1860.5,-2040 1798.24,-1983.32 1881.83,-1722.75 1822.5,-1663 1769.9,-1610.03 1548.26,-1671.74 1488.5,-1627 1337.93,-1514.26 1435.76,-1389.12 1326.5,-1236 1319.87,-1226.7 1312.91,-1217.49 1305.68,-1208.38"/>
+<polygon fill="black" stroke="black" points="1299.25,-1200.41 1309.03,-1205.38 1302.39,-1204.3 1305.53,-1208.2 1305.53,-1208.2 1305.53,-1208.2 1302.39,-1204.3 1302.02,-1211.02 1299.25,-1200.41 1299.25,-1200.41"/>
 </g>
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndExecutionTraceProfiler -->
 <g id="edge100" class="edge">
@@ -2336,8 +2336,8 @@
 <!-- ndAlgebraicExecutionTrace&#45;&gt;ndProver -->
 <g id="edge102" class="edge">
 <title>ndAlgebraicExecutionTrace&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7474.16,-2112.19C7146.67,-1850.64 6607.69,-1457.54 6078.5,-1236 5051.46,-806.04 3776.9,-614.25 2935.91,-529.97"/>
-<polygon fill="black" stroke="black" points="2925.73,-528.95 2936.13,-525.47 2930.71,-529.45 2935.68,-529.94 2935.68,-529.94 2935.68,-529.94 2930.71,-529.45 2935.23,-534.42 2925.73,-528.95 2925.73,-528.95"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M7474.16,-2112.19C7146.67,-1850.64 6607.69,-1457.54 6078.5,-1236 5020.66,-793.14 3700.25,-602.96 2861.46,-522.67"/>
+<polygon fill="black" stroke="black" points="2851.3,-521.7 2861.69,-518.17 2856.28,-522.18 2861.26,-522.65 2861.26,-522.65 2861.26,-522.65 2856.28,-522.18 2860.83,-527.13 2851.3,-521.7 2851.3,-521.7"/>
 </g>
 <!-- ndTableHeight -->
 <g id="node69" class="node">
@@ -2673,7 +2673,7 @@
 <!-- ndArithmeticDomain&#45;&gt;ndProver -->
 <g id="edge125" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4859.46,-4613.9C4203.49,-4587.58 2554.57,-4511.21 2331.5,-4401 1789.35,-4133.15 1421.5,-3994.21 1421.5,-3389.5 1421.5,-3389.5 1421.5,-3389.5 1421.5,-1850.5 1421.5,-1285.99 1466.03,-1084.94 1818.5,-644 1826.24,-634.32 1834.57,-624.79 1843.31,-615.49"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M4859.46,-4613.9C4203.49,-4587.58 2554.57,-4511.21 2331.5,-4401 1789.35,-4133.15 1421.5,-3994.21 1421.5,-3389.5 1421.5,-3389.5 1421.5,-3389.5 1421.5,-1850.5 1421.5,-1766.31 1435.88,-1746.24 1448.5,-1663 1477.31,-1473 1457,-1418.72 1516.5,-1236 1607.96,-955.15 1634.07,-874.72 1818.5,-644 1826.24,-634.32 1834.57,-624.79 1843.31,-615.49"/>
 <polygon fill="black" stroke="black" points="1850.4,-608.07 1846.74,-618.41 1846.94,-611.68 1843.49,-615.3 1843.49,-615.3 1843.49,-615.3 1846.94,-611.68 1840.23,-612.19 1850.4,-608.07 1850.4,-608.07"/>
 </g>
 <!-- ndProverDomains -->
@@ -2711,8 +2711,8 @@
 <!-- ndStark&#45;&gt;ndProver -->
 <g id="edge128" class="edge">
 <title>ndStark&#45;&gt;ndProver</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3297.46,-1235.75C3305.98,-1056.53 3286.81,-796.15 3131.5,-644 3094.46,-607.71 3024.67,-578.82 2937.49,-555.81"/>
-<polygon fill="black" stroke="black" points="2937.26,-555.75 2930.45,-558.12 2925.64,-552.75 2932.45,-550.38 2937.26,-555.75"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M3297.46,-1235.75C3305.98,-1056.53 3286.81,-796.15 3131.5,-644 3084.39,-597.85 2984.32,-563.66 2862.86,-538.32"/>
+<polygon fill="black" stroke="black" points="2862.79,-538.31 2856.11,-541.02 2851.04,-535.9 2857.72,-533.19 2862.79,-538.31"/>
 </g>
 <!-- ndStark&#45;&gt;ndVerifier -->
 <g id="edge129" class="edge">
@@ -2744,8 +2744,8 @@
 <!-- ndProverDomains&#45;&gt;ndMasterMainTable -->
 <g id="edge131" class="edge">
 <title>ndProverDomains&#45;&gt;ndMasterMainTable</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M357.77,-1768.29C323.92,-1643.53 279.55,-1403.22 378.5,-1236 392.33,-1212.62 408.61,-1190.87 426.73,-1170.65"/>
-<polygon fill="black" stroke="black" points="426.77,-1170.6 427.89,-1163.48 434.9,-1161.77 433.78,-1168.89 426.77,-1170.6"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M357.48,-1768.34C323.16,-1643.36 278.05,-1402.48 378.5,-1236 398.13,-1203.47 422.39,-1174.14 449.79,-1147.74"/>
+<polygon fill="black" stroke="black" points="450.05,-1147.49 451.68,-1140.47 458.79,-1139.27 457.16,-1146.3 450.05,-1147.49"/>
 </g>
 <!-- ndProverDomains&#45;&gt;ndMasterAuxTable -->
 <g id="edge132" class="edge">
