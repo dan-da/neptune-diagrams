@@ -1150,7 +1150,7 @@
 <text text-anchor="start" x="9886.5" y="-4344.3" font-family="Arial" font-weight="bold" font-size="14.00">LeavedMerkleTreeTestData</text>
 <polygon fill="white" stroke="transparent" points="9763.5,-4216.5 9763.5,-4328.5 10184.5,-4328.5 10184.5,-4216.5 9763.5,-4216.5"/>
 <polygon fill="none" stroke="black" points="9763.5,-4216.5 9763.5,-4328.5 10184.5,-4328.5 10184.5,-4216.5 9763.5,-4216.5"/>
-<text text-anchor="start" x="9774.5" y="-4306.3" font-family="Arial" font-size="14.00">+ _tree_height: usize</text>
+<text text-anchor="start" x="9774.5" y="-4306.3" font-family="Arial" font-size="14.00">+ tree_height: usize</text>
 <text text-anchor="start" x="9774.5" y="-4291.3" font-family="Arial" font-size="14.00">+ leaves: Vec&lt;XFieldElement&gt;</text>
 <text text-anchor="start" x="9774.5" y="-4276.3" font-family="Arial" font-size="14.00">+ revealed_indices: Vec&lt;usize&gt;</text>
 <text text-anchor="start" x="9774.5" y="-4261.3" font-family="Arial" font-size="14.00">+ leaves_as_digests: Vec&lt;Digest&gt;</text>
