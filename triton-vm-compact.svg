@@ -1486,13 +1486,13 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3263.95,-1006.67C3247.45,-1039.81 3220.63,-1079.86 3185.5,-1104 3097.43,-1164.52 2796.11,-1217.78 2636.87,-1242.06"/>
 <polygon fill="black" stroke="black" points="2626.59,-1243.62 2635.8,-1237.67 2631.53,-1242.87 2636.48,-1242.12 2636.48,-1242.12 2636.48,-1242.12 2631.53,-1242.87 2637.15,-1246.57 2626.59,-1243.62 2626.59,-1243.62"/>
 </g>
-<!-- ndLinearCombinationWeights -->
+<!-- ndCombinationCodewordWeights -->
 <g id="node84" class="node">
-<title>ndLinearCombinationWeights</title>
-<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20LinearCombinationWeights" xlink:title="&lt;TABLE&gt;">
+<title>ndCombinationCodewordWeights</title>
+<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20CombinationCodewordWeights" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="3411.5,-709 3411.5,-746 3686.5,-746 3686.5,-709 3411.5,-709"/>
 <polygon fill="none" stroke="black" points="3411.5,-709 3411.5,-746 3686.5,-746 3686.5,-709 3411.5,-709"/>
-<text text-anchor="start" x="3460.5" y="-724.8" font-family="Arial" font-weight="bold" font-size="14.00">LinearCombinationWeights</text>
+<text text-anchor="start" x="3447.5" y="-724.8" font-family="Arial" font-weight="bold" font-size="14.00">CombinationCodewordWeights</text>
 <polygon fill="white" stroke="transparent" points="3411.5,-627 3411.5,-709 3686.5,-709 3686.5,-627 3411.5,-627"/>
 <polygon fill="none" stroke="black" points="3411.5,-627 3411.5,-709 3686.5,-709 3686.5,-627 3411.5,-627"/>
 <text text-anchor="start" x="3422.5" y="-686.8" font-family="Arial" font-size="14.00">&#45; main: Array1&lt;XFieldElement&gt;</text>
@@ -1503,9 +1503,9 @@
 </a>
 </g>
 </g>
-<!-- ndProofStream&#45;&gt;ndLinearCombinationWeights -->
+<!-- ndProofStream&#45;&gt;ndCombinationCodewordWeights -->
 <g id="edge82" class="edge">
-<title>ndProofStream&#45;&gt;ndLinearCombinationWeights</title>
+<title>ndProofStream&#45;&gt;ndCombinationCodewordWeights</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M3312.57,-892.39C3331.41,-861.46 3357.39,-823.65 3386.5,-795 3400,-781.71 3415.39,-769.1 3431.17,-757.51"/>
 <polygon fill="black" stroke="black" points="3439.46,-751.55 3433.97,-761.04 3435.4,-754.47 3431.34,-757.39 3431.34,-757.39 3431.34,-757.39 3435.4,-754.47 3428.71,-753.74 3439.46,-751.55 3439.46,-751.55"/>
 </g>

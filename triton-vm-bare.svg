@@ -371,18 +371,18 @@
 <g id="node15" class="node">
 <title>ndFri</title>
 <g id="a_node15_20"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/low_degree_test/fri.rs#:~:text=struct%20Fri" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2497,-253.5 2497,-290.5 2537,-290.5 2537,-253.5 2497,-253.5"/>
-<polygon fill="none" stroke="black" points="2497,-253.5 2497,-290.5 2537,-290.5 2537,-253.5 2497,-253.5"/>
-<text text-anchor="start" x="2508" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Fri</text>
-<polygon fill="none" stroke="black" points="2496,-253 2496,-292 2538,-292 2538,-253 2496,-253"/>
+<polygon fill="lightblue" stroke="transparent" points="2510,-253.5 2510,-290.5 2550,-290.5 2550,-253.5 2510,-253.5"/>
+<polygon fill="none" stroke="black" points="2510,-253.5 2510,-290.5 2550,-290.5 2550,-253.5 2510,-253.5"/>
+<text text-anchor="start" x="2521" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">Fri</text>
+<polygon fill="none" stroke="black" points="2509,-253 2509,-292 2551,-292 2551,-253 2509,-253"/>
 </a>
 </g>
 </g>
 <!-- ndLowDegreeTest&#45;&gt;ndFri -->
 <g id="edge24" class="edge">
 <title>ndLowDegreeTest&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1701.92,-333.68C1704.97,-333.06 1708.01,-332.49 1711,-332 2009.61,-282.73 2090.35,-330.67 2391,-296 2420.26,-292.63 2453.01,-286.71 2477.78,-281.8"/>
-<polygon fill="none" stroke="black" points="2478.76,-285.17 2487.87,-279.76 2477.38,-278.31 2478.76,-285.17"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M1701.91,-333.67C1704.97,-333.05 1708.01,-332.49 1711,-332 2021.04,-281.15 2105.22,-334.78 2417,-296 2441.85,-292.91 2469.41,-287.46 2491.1,-282.7"/>
+<polygon fill="none" stroke="black" points="2491.93,-286.1 2500.92,-280.5 2490.4,-279.27 2491.93,-286.1"/>
 </g>
 <!-- ndStir -->
 <g id="node25" class="node">
@@ -439,18 +439,18 @@
 <g id="node14" class="node">
 <title>ndFriParameters</title>
 <g id="a_node14_24"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/low_degree_test/fri.rs#:~:text=struct%20FriParameters" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2460,-170.5 2460,-207.5 2574,-207.5 2574,-170.5 2460,-170.5"/>
-<polygon fill="none" stroke="black" points="2460,-170.5 2460,-207.5 2574,-207.5 2574,-170.5 2460,-170.5"/>
-<text text-anchor="start" x="2471" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">FriParameters</text>
-<polygon fill="none" stroke="black" points="2459,-170 2459,-209 2575,-209 2575,-170 2459,-170"/>
+<polygon fill="lightblue" stroke="transparent" points="2473,-170.5 2473,-207.5 2587,-207.5 2587,-170.5 2473,-170.5"/>
+<polygon fill="none" stroke="black" points="2473,-170.5 2473,-207.5 2587,-207.5 2587,-170.5 2473,-170.5"/>
+<text text-anchor="start" x="2484" y="-186.3" font-family="Arial" font-weight="bold" font-size="14.00">FriParameters</text>
+<polygon fill="none" stroke="black" points="2472,-170 2472,-209 2588,-209 2588,-170 2472,-170"/>
 </a>
 </g>
 </g>
 <!-- ndProximityRegime&#45;&gt;ndFriParameters -->
 <g id="edge28" class="edge">
 <title>ndProximityRegime&#45;&gt;ndFriParameters</title>
-<path fill="none" stroke="black" d="M2147.37,-250.91C2150.28,-250.24 2153.16,-249.6 2156,-249 2252.57,-228.45 2365.02,-211.28 2438.43,-200.97"/>
-<polygon fill="black" stroke="black" points="2438.88,-200.9 2444.27,-196.11 2450.76,-199.24 2445.37,-204.04 2438.88,-200.9"/>
+<path fill="none" stroke="black" d="M2147.37,-250.89C2150.28,-250.23 2153.16,-249.6 2156,-249 2257.29,-227.73 2375.49,-210.49 2451.47,-200.37"/>
+<polygon fill="black" stroke="black" points="2451.86,-200.32 2457.28,-195.57 2463.75,-198.75 2458.33,-203.5 2451.86,-200.32"/>
 </g>
 <!-- ndProximityRegime&#45;&gt;ndStirParameters -->
 <g id="edge29" class="edge">
@@ -478,8 +478,8 @@
 <!-- ndVerifierPostscript&#45;&gt;ndFri -->
 <g id="edge31" class="edge">
 <title>ndVerifierPostscript&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" d="M2579.77,-331.94C2570.23,-323.06 2559.15,-312.74 2548.97,-303.27"/>
-<polygon fill="black" stroke="black" points="2541.41,-296.22 2551.79,-299.74 2545.07,-299.63 2548.73,-303.04 2548.73,-303.04 2548.73,-303.04 2545.07,-299.63 2545.66,-306.33 2541.41,-296.22 2541.41,-296.22"/>
+<path fill="none" stroke="black" d="M2583.39,-331.94C2575.44,-323.23 2566.22,-313.14 2557.7,-303.82"/>
+<polygon fill="black" stroke="black" points="2550.76,-296.22 2560.83,-300.57 2554.13,-299.91 2557.5,-303.61 2557.5,-303.61 2557.5,-303.61 2554.13,-299.91 2554.18,-306.64 2550.76,-296.22 2550.76,-296.22"/>
 </g>
 <!-- ndVerifierPostscript&#45;&gt;ndStir -->
 <g id="edge32" class="edge">
@@ -490,20 +490,20 @@
 <!-- ndFriParameters&#45;&gt;ndFri -->
 <g id="edge33" class="edge">
 <title>ndFriParameters&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2523.14,-213.22C2523.72,-221.16 2523.89,-230.23 2523.64,-238.82"/>
-<polygon fill="black" stroke="black" points="2523.12,-248.94 2519.14,-238.72 2523.38,-243.94 2523.63,-238.95 2523.63,-238.95 2523.63,-238.95 2523.38,-243.94 2528.12,-239.18 2523.12,-248.94 2523.12,-248.94"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2536.14,-213.22C2536.72,-221.16 2536.89,-230.23 2536.64,-238.82"/>
+<polygon fill="black" stroke="black" points="2536.12,-248.94 2532.14,-238.72 2536.38,-243.94 2536.63,-238.95 2536.63,-238.95 2536.63,-238.95 2536.38,-243.94 2541.12,-239.18 2536.12,-248.94 2536.12,-248.94"/>
 </g>
 <!-- ndFri&#45;&gt;ndFriParameters -->
 <g id="edge34" class="edge">
 <title>ndFri&#45;&gt;ndFriParameters</title>
-<path fill="none" stroke="black" d="M2510.88,-248.94C2510.29,-241.02 2510.11,-231.95 2510.36,-223.36"/>
-<polygon fill="black" stroke="black" points="2510.86,-213.22 2514.86,-223.44 2510.61,-218.22 2510.37,-223.21 2510.37,-223.21 2510.37,-223.21 2510.61,-218.22 2505.87,-222.99 2510.86,-213.22 2510.86,-213.22"/>
+<path fill="none" stroke="black" d="M2523.88,-248.94C2523.29,-241.02 2523.11,-231.95 2523.36,-223.36"/>
+<polygon fill="black" stroke="black" points="2523.86,-213.22 2527.86,-223.44 2523.61,-218.22 2523.37,-223.21 2523.37,-223.21 2523.37,-223.21 2523.61,-218.22 2518.87,-222.99 2523.86,-213.22 2523.86,-213.22"/>
 </g>
 <!-- ndFri&#45;&gt;ndStark -->
 <g id="edge35" class="edge">
 <title>ndFri&#45;&gt;ndStark</title>
-<path fill="none" stroke="black" d="M2487.87,-265.23C2462.43,-260.02 2424.44,-252.84 2391,-249 2177.74,-224.5 1501.8,-198.88 1316.42,-192.18"/>
-<polygon fill="black" stroke="black" points="1306.18,-191.81 1316.34,-187.68 1311.18,-191.99 1316.18,-192.17 1316.18,-192.17 1316.18,-192.17 1311.18,-191.99 1316.02,-196.67 1306.18,-191.81 1306.18,-191.81"/>
+<path fill="none" stroke="black" d="M2500.92,-264.5C2478.21,-259.32 2445.78,-252.58 2417,-249 2198.58,-221.84 1504.26,-198.05 1316.31,-191.99"/>
+<polygon fill="black" stroke="black" points="1306.19,-191.67 1316.33,-187.49 1311.19,-191.83 1316.19,-191.99 1316.19,-191.99 1316.19,-191.99 1311.19,-191.83 1316.04,-196.48 1306.19,-191.67 1306.19,-191.67"/>
 </g>
 <!-- ndFriProver -->
 <g id="node16" class="node">
@@ -519,8 +519,8 @@
 <!-- ndFriProver&#45;&gt;ndFri -->
 <g id="edge36" class="edge">
 <title>ndFriProver&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" d="M2910.98,-414.95C2898.82,-390.39 2875.92,-351.95 2844,-332 2796.42,-302.26 2632.23,-283.93 2556.2,-276.85"/>
-<polygon fill="black" stroke="black" points="2546.08,-275.92 2556.45,-272.35 2551.06,-276.38 2556.04,-276.83 2556.04,-276.83 2556.04,-276.83 2551.06,-276.38 2555.63,-281.32 2546.08,-275.92 2546.08,-275.92"/>
+<path fill="none" stroke="black" d="M2910.95,-414.99C2898.77,-390.47 2875.85,-352.07 2844,-332 2798.72,-303.47 2643.23,-284.71 2569.46,-277.2"/>
+<polygon fill="black" stroke="black" points="2559.19,-276.18 2569.58,-272.69 2564.16,-276.67 2569.14,-277.17 2569.14,-277.17 2569.14,-277.17 2564.16,-276.67 2568.69,-281.65 2559.19,-276.18 2559.19,-276.18"/>
 </g>
 <!-- ndProverRound -->
 <g id="node17" class="node">
@@ -615,8 +615,8 @@
 <!-- ndFriVerifier&#45;&gt;ndFri -->
 <g id="edge41" class="edge">
 <title>ndFriVerifier&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" d="M2697.79,-335.14C2694.82,-334.07 2691.87,-333.02 2689,-332 2643.54,-315.89 2591.03,-298.15 2556.1,-286.48"/>
-<polygon fill="black" stroke="black" points="2546.29,-283.21 2557.2,-282.11 2551.04,-284.79 2555.78,-286.38 2555.78,-286.38 2555.78,-286.38 2551.04,-284.79 2554.36,-290.64 2546.29,-283.21 2546.29,-283.21"/>
+<path fill="none" stroke="black" d="M2697.76,-335.23C2694.79,-334.14 2691.86,-333.05 2689,-332 2647.85,-316.84 2600.71,-299.5 2568.51,-287.66"/>
+<polygon fill="black" stroke="black" points="2559.02,-284.17 2569.96,-283.4 2563.71,-285.89 2568.4,-287.62 2568.4,-287.62 2568.4,-287.62 2563.71,-285.89 2566.85,-291.84 2559.02,-284.17 2559.02,-284.17"/>
 </g>
 <!-- ndVerifierRound -->
 <g id="node23" class="node">
@@ -1096,8 +1096,8 @@
 <!-- ndProofStream&#45;&gt;ndFri -->
 <g id="edge79" class="edge">
 <title>ndProofStream&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2146.3,-334.18C2149.23,-333.41 2152.14,-332.67 2155,-332 2258.28,-307.69 2286.32,-313.33 2391,-296 2420.06,-291.19 2452.81,-285.33 2477.64,-280.79"/>
-<polygon fill="black" stroke="black" points="2487.76,-278.94 2478.73,-285.17 2482.84,-279.84 2477.92,-280.74 2477.92,-280.74 2477.92,-280.74 2482.84,-279.84 2477.11,-276.32 2487.76,-278.94 2487.76,-278.94"/>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2146.29,-334.13C2149.22,-333.37 2152.14,-332.65 2155,-332 2269.61,-305.92 2301.09,-315.49 2417,-296 2441.69,-291.85 2469.25,-286.38 2490.98,-281.87"/>
+<polygon fill="black" stroke="black" points="2500.82,-279.81 2491.96,-286.26 2495.93,-280.83 2491.03,-281.86 2491.03,-281.86 2491.03,-281.86 2495.93,-280.83 2490.11,-277.45 2500.82,-279.81 2500.82,-279.81"/>
 </g>
 <!-- ndProofStream&#45;&gt;ndStir -->
 <g id="edge80" class="edge">
@@ -1111,22 +1111,22 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M2023.51,-379.11C1863.15,-414.18 1668.12,-429.63 1579.17,-435.06"/>
 <polygon fill="black" stroke="black" points="1569.12,-435.65 1578.83,-430.57 1574.11,-435.36 1579.1,-435.06 1579.1,-435.06 1579.1,-435.06 1574.11,-435.36 1579.37,-439.55 1569.12,-435.65 1569.12,-435.65"/>
 </g>
-<!-- ndLinearCombinationWeights -->
+<!-- ndCombinationCodewordWeights -->
 <g id="node84" class="node">
-<title>ndLinearCombinationWeights</title>
-<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20LinearCombinationWeights" xlink:title="&lt;TABLE&gt;">
-<polygon fill="lightblue" stroke="transparent" points="2175,-253.5 2175,-290.5 2374,-290.5 2374,-253.5 2175,-253.5"/>
-<polygon fill="none" stroke="black" points="2175,-253.5 2175,-290.5 2374,-290.5 2374,-253.5 2175,-253.5"/>
-<text text-anchor="start" x="2186" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">LinearCombinationWeights</text>
-<polygon fill="none" stroke="black" points="2173.5,-253 2173.5,-292 2374.5,-292 2374.5,-253 2173.5,-253"/>
+<title>ndCombinationCodewordWeights</title>
+<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20CombinationCodewordWeights" xlink:title="&lt;TABLE&gt;">
+<polygon fill="lightblue" stroke="transparent" points="2175,-253.5 2175,-290.5 2400,-290.5 2400,-253.5 2175,-253.5"/>
+<polygon fill="none" stroke="black" points="2175,-253.5 2175,-290.5 2400,-290.5 2400,-253.5 2175,-253.5"/>
+<text text-anchor="start" x="2186" y="-269.3" font-family="Arial" font-weight="bold" font-size="14.00">CombinationCodewordWeights</text>
+<polygon fill="none" stroke="black" points="2173.5,-253 2173.5,-292 2400.5,-292 2400.5,-253 2173.5,-253"/>
 </a>
 </g>
 </g>
-<!-- ndProofStream&#45;&gt;ndLinearCombinationWeights -->
+<!-- ndProofStream&#45;&gt;ndCombinationCodewordWeights -->
 <g id="edge82" class="edge">
-<title>ndProofStream&#45;&gt;ndLinearCombinationWeights</title>
-<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2137.65,-331.94C2160.69,-322.06 2187.9,-310.4 2211.93,-300.1"/>
-<polygon fill="black" stroke="black" points="2221.31,-296.08 2213.89,-304.16 2216.71,-298.05 2212.12,-300.02 2212.12,-300.02 2212.12,-300.02 2216.71,-298.05 2210.34,-295.89 2221.31,-296.08 2221.31,-296.08"/>
+<title>ndProofStream&#45;&gt;ndCombinationCodewordWeights</title>
+<path fill="none" stroke="black" stroke-dasharray="5,2" d="M2141.27,-331.94C2166.12,-321.97 2195.49,-310.19 2221.34,-299.83"/>
+<polygon fill="black" stroke="black" points="2230.68,-296.08 2223.08,-303.98 2226.04,-297.94 2221.4,-299.8 2221.4,-299.8 2221.4,-299.8 2226.04,-297.94 2219.73,-295.63 2230.68,-296.08 2230.68,-296.08"/>
 </g>
 <!-- ndEvaluable -->
 <g id="node48" class="node">
@@ -1610,8 +1610,8 @@
 <!-- ndArithmeticDomain&#45;&gt;ndFri -->
 <g id="edge117" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndFri</title>
-<path fill="none" stroke="black" d="M2605.06,-596.53C2675.16,-588.6 2770.16,-572.96 2795,-545 2858.05,-474.03 2871.22,-405.39 2811,-332 2779.54,-293.67 2632.02,-279.99 2558.65,-275.5"/>
-<polygon fill="black" stroke="black" points="2558.25,-275.48 2552.03,-279.13 2546.27,-274.79 2552.49,-271.14 2558.25,-275.48"/>
+<path fill="none" stroke="black" d="M2605.06,-596.53C2675.16,-588.6 2770.16,-572.96 2795,-545 2858.05,-474.03 2870.9,-405.65 2811,-332 2781.33,-295.51 2642.65,-281.03 2571.84,-275.94"/>
+<polygon fill="black" stroke="black" points="2571.42,-275.91 2565.16,-279.49 2559.45,-275.09 2565.71,-271.51 2571.42,-275.91"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndFriProver -->
 <g id="edge118" class="edge">
@@ -1658,8 +1658,8 @@
 <!-- ndArithmeticDomain&#45;&gt;ndStirParameters -->
 <g id="edge125" class="edge">
 <title>ndArithmeticDomain&#45;&gt;ndStirParameters</title>
-<path fill="none" stroke="black" d="M2605.19,-603.78C2726.53,-602.62 2950.83,-593.7 3012,-545 3050.99,-513.96 3050,-489.34 3050,-439.5 3050,-439.5 3050,-439.5 3050,-354.5 3050,-232.06 2131.74,-215.51 2023.86,-211.71"/>
-<polygon fill="black" stroke="black" points="2013.72,-211.18 2023.94,-207.2 2018.71,-211.44 2023.7,-211.7 2023.7,-211.7 2023.7,-211.7 2018.71,-211.44 2023.47,-216.19 2013.72,-211.18 2013.72,-211.18"/>
+<path fill="none" stroke="black" d="M2605.19,-603.78C2726.53,-602.62 2950.83,-593.7 3012,-545 3050.99,-513.96 3050,-489.34 3050,-439.5 3050,-439.5 3050,-439.5 3050,-354.5 3050,-228.5 2135.4,-218.63 2023.74,-212.06"/>
+<polygon fill="black" stroke="black" points="2013.72,-211.19 2024.07,-207.58 2018.7,-211.62 2023.68,-212.06 2023.68,-212.06 2023.68,-212.06 2018.7,-211.62 2023.29,-216.54 2013.72,-211.19 2013.72,-211.19"/>
 </g>
 <!-- ndArithmeticDomain&#45;&gt;ndStir -->
 <g id="edge126" class="edge">

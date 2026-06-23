@@ -1384,8 +1384,8 @@
 <text text-anchor="start" x="239" y="-3212.3" font-family="Arial" font-size="14.00">&#45; merkle_step_non_determinism(&amp;mut self) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
 <text text-anchor="start" x="239" y="-3197.3" font-family="Arial" font-size="14.00">&#45; merkle_step_mem(&amp;mut self) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
 <text text-anchor="start" x="239" y="-3182.3" font-family="Arial" font-size="14.00">&#45; merkle_step(&amp;mut self, sibling_digest: [BFieldElement; Digest::LEN]) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
-<text text-anchor="start" x="239" y="-3167.3" font-family="Arial" font-size="14.00">&#45; xx_dot_step(&amp;mut self) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
-<text text-anchor="start" x="239" y="-3152.3" font-family="Arial" font-size="14.00">&#45; xb_dot_step(&amp;mut self) &#45;&gt; InstructionResult&lt;Vec&lt;CoProcessorCall&gt;&gt;</text>
+<text text-anchor="start" x="239" y="-3167.3" font-family="Arial" font-size="14.00">&#45; b_horner_step(&amp;mut self) &#45;&gt; Vec&lt;CoProcessorCall&gt;</text>
+<text text-anchor="start" x="239" y="-3152.3" font-family="Arial" font-size="14.00">&#45; x_horner_step(&amp;mut self) &#45;&gt; Vec&lt;CoProcessorCall&gt;</text>
 <text text-anchor="start" x="239" y="-3137.3" font-family="Arial" font-size="14.00">&#45; to_processor_row(&amp;self) &#45;&gt; Array1&lt;BFieldElement&gt;</text>
 <text text-anchor="start" x="239" y="-3122.3" font-family="Arial" font-size="14.00">&#45; next_instruction_or_argument(&amp;self) &#45;&gt; BFieldElement</text>
 <text text-anchor="start" x="239" y="-3107.3" font-family="Arial" font-size="14.00">&#45; jump_stack_pointer(&amp;self) &#45;&gt; BFieldElement</text>
@@ -1900,13 +1900,13 @@
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4809.66,-2107.58C4760.85,-2170.31 4692.57,-2240.78 4614,-2280 4486.35,-2343.73 4433.9,-2283.37 4295,-2316 4074.37,-2367.84 3831.08,-2461.97 3669.06,-2529.35"/>
 <polygon fill="black" stroke="black" points="3659.47,-2533.35 3666.97,-2525.35 3664.09,-2531.42 3668.7,-2529.5 3668.7,-2529.5 3668.7,-2529.5 3664.09,-2531.42 3670.44,-2533.65 3659.47,-2533.35 3659.47,-2533.35"/>
 </g>
-<!-- ndLinearCombinationWeights -->
+<!-- ndCombinationCodewordWeights -->
 <g id="node84" class="node">
-<title>ndLinearCombinationWeights</title>
-<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20LinearCombinationWeights" xlink:title="&lt;TABLE&gt;">
+<title>ndCombinationCodewordWeights</title>
+<g id="a_node84_56"><a xlink:href="https://github.com/TritonVM/triton-vm/blob/master/src/stark.rs#:~:text=struct%20CombinationCodewordWeights" xlink:title="&lt;TABLE&gt;">
 <polygon fill="lightblue" stroke="transparent" points="5278,-1502.5 5278,-1539.5 5606,-1539.5 5606,-1502.5 5278,-1502.5"/>
 <polygon fill="none" stroke="black" points="5278,-1502.5 5278,-1539.5 5606,-1539.5 5606,-1502.5 5278,-1502.5"/>
-<text text-anchor="start" x="5353.5" y="-1518.3" font-family="Arial" font-weight="bold" font-size="14.00">LinearCombinationWeights</text>
+<text text-anchor="start" x="5340.5" y="-1518.3" font-family="Arial" font-weight="bold" font-size="14.00">CombinationCodewordWeights</text>
 <polygon fill="white" stroke="transparent" points="5278,-1420.5 5278,-1502.5 5606,-1502.5 5606,-1420.5 5278,-1420.5"/>
 <polygon fill="none" stroke="black" points="5278,-1420.5 5278,-1502.5 5606,-1502.5 5606,-1420.5 5278,-1420.5"/>
 <text text-anchor="start" x="5289" y="-1480.3" font-family="Arial" font-size="14.00">&#45; main: Array1&lt;XFieldElement&gt;</text>
@@ -1921,9 +1921,9 @@
 </a>
 </g>
 </g>
-<!-- ndProofStream&#45;&gt;ndLinearCombinationWeights -->
+<!-- ndProofStream&#45;&gt;ndCombinationCodewordWeights -->
 <g id="edge82" class="edge">
-<title>ndProofStream&#45;&gt;ndLinearCombinationWeights</title>
+<title>ndProofStream&#45;&gt;ndCombinationCodewordWeights</title>
 <path fill="none" stroke="black" stroke-dasharray="5,2" d="M4986.56,-1851.23C5036.82,-1792.81 5101.88,-1726.19 5171,-1679 5206.24,-1654.94 5224.6,-1666.82 5260,-1643 5297.11,-1618.03 5332.63,-1584.48 5362.28,-1552.66"/>
 <polygon fill="black" stroke="black" points="5369.3,-1545.05 5365.83,-1555.45 5365.91,-1548.73 5362.52,-1552.4 5362.52,-1552.4 5362.52,-1552.4 5365.91,-1548.73 5359.21,-1549.36 5369.3,-1545.05 5369.3,-1545.05"/>
 </g>
